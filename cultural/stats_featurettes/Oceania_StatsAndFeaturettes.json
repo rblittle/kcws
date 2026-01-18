@@ -1,0 +1,1626 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/stats and featurettes/Oceania_StatsAndFeaturettes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__stats_featurettes__oceania__oceania_statsandfeaturettes",
+    "derived_id": "cultural__stats_featurettes__oceania__oceania_statsandfeaturettes",
+    "continent": "oceania",
+    "domain": "cultural",
+    "poster_family": "stats_featurettes",
+    "filename": "Oceania_StatsAndFeaturettes.json"
+  },
+  "tags": {
+    "continent": [
+      "oceania"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "stats_featurettes"
+    ],
+    "flat": [
+      "continent:oceania",
+      "domain:cultural",
+      "poster_family:stats_featurettes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/stats and featurettes/Oceania_StatsAndFeaturettes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff_atlas_trail_stats_featurettes",
+    "schema_version": "1.0.0",
+    "poster_metadata": {
+      "id": "oceania_stats_featurettes",
+      "continent": "Oceania",
+      "domain": "Australia and Oceania",
+      "poster_type": "Stats & Featurettes",
+      "dimensions": {
+        "width": 96.0,
+        "height": 60.0,
+        "units": "in",
+        "orientation": "landscape",
+        "aspect_ratio": 1.6
+      },
+      "display_title": "Oceania: Carved by Waves, Forged by Fire",
+      "language": "en",
+      "layout_slots": [
+        {
+          "slot_id": "title_block",
+          "description": "Main poster title at top center",
+          "bounds_normalized": {
+            "x": 0.18,
+            "y": 0.02,
+            "w": 0.44,
+            "h": 0.18
+          }
+        },
+        {
+          "slot_id": "stats_map_center",
+          "description": "Central Oceania stats map with on-map icons",
+          "bounds_normalized": {
+            "x": 0.22,
+            "y": 0.14,
+            "w": 0.54,
+            "h": 0.6
+          }
+        },
+        {
+          "slot_id": "featurette_left_top",
+          "description": "Featurette 1 block (scroll) - left top",
+          "bounds_normalized": {
+            "x": 0.02,
+            "y": 0.06,
+            "w": 0.22,
+            "h": 0.38
+          }
+        },
+        {
+          "slot_id": "featurette_left_bottom",
+          "description": "Featurette 2 block - left bottom",
+          "bounds_normalized": {
+            "x": 0.02,
+            "y": 0.47,
+            "w": 0.22,
+            "h": 0.48
+          }
+        },
+        {
+          "slot_id": "featurette_right_top",
+          "description": "Featurette 3 block - right top (woven background)",
+          "bounds_normalized": {
+            "x": 0.76,
+            "y": 0.06,
+            "w": 0.22,
+            "h": 0.44
+          }
+        },
+        {
+          "slot_id": "featurette_right_bottom",
+          "description": "Featurette 4 block - right bottom (volcano frame)",
+          "bounds_normalized": {
+            "x": 0.76,
+            "y": 0.54,
+            "w": 0.22,
+            "h": 0.42
+          }
+        },
+        {
+          "slot_id": "legend_block",
+          "description": "Oceania high/low legend plaque",
+          "bounds_normalized": {
+            "x": 0.18,
+            "y": 0.74,
+            "w": 0.46,
+            "h": 0.22
+          }
+        }
+      ]
+    },
+    "continent_stats_map": {
+      "palette_by_country": [
+        {
+          "country": "Australia",
+          "color_hex": "#00843D",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Papua New Guinea",
+          "color_hex": "#FFCD00",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "New Zealand",
+          "color_hex": "#012169",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Fiji",
+          "color_hex": "#023499",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Solomon Islands",
+          "color_hex": "#FCD116",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Vanuatu",
+          "color_hex": "#C0102E",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Samoa",
+          "color_hex": "#002B7F",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Tonga",
+          "color_hex": "#3BDC64",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Kiribati",
+          "color_hex": "#FFD100",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Tuvalu",
+          "color_hex": "#7B3BDC",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Nauru",
+          "color_hex": "#AE3BDC",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Palau",
+          "color_hex": "#DC3BD6",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Federated States of Micronesia",
+          "color_hex": "#3ADE6B",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "Marshall Islands",
+          "color_hex": "#DC533B",
+          "source": "xlsx:Oceania stats palette!A:B"
+        },
+        {
+          "country": "New Caledonia",
+          "color_hex": "#BA7B45",
+          "source": "proof_sampled:Oceania_StatsFeatures.pdf (map fill sample)",
+          "note": "New Caledonia appears labeled/filled on proof map but is not listed in xlsx palette."
+        }
+      ],
+      "legend_rules": {
+        "legend_title": "OCEANIA HIGH AND LOW LEGEND",
+        "encoding": {
+          "high_marker": {
+            "badge": "+",
+            "default_icon_color": "green",
+            "meaning": "Highest value (or highlighted extreme) for the statistic."
+          },
+          "low_marker": {
+            "badge": "−",
+            "default_icon_color": "red/orange/brown",
+            "meaning": "Lowest value (or highlighted extreme) for the statistic."
+          }
+        },
+        "exceptions": [
+          {
+            "stat_id": "lowest_crime_rate",
+            "exception": "This statistic is phrased as 'Lowest Crime Rate'; the highlighted 'high' exemplar corresponds to *lower* crime (safer)."
+          },
+          {
+            "stat_id": "average_household_size",
+            "exception": "Household size icons use purple (high '+') and blue (low '−') rather than green/red."
+          }
+        ],
+        "stat_labels_in_legend": [
+          "Access To Clean Drinking Water",
+          "Average Caloric Intake",
+          "Lowest Crime Rate",
+          "Access To Healthcare",
+          "Employment Rates",
+          "Average Household Size",
+          "Volunteer/Community Service Participation",
+          "% Population Higher Education Degree"
+        ]
+      },
+      "core_stats_on_map": [
+        {
+          "stat_id": "access_to_clean_drinking_water",
+          "label": "Access To Clean Drinking Water",
+          "source_statistic_label": "Access to Clean Drinking Water",
+          "maslow_layer": "Physiological",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "water_drop",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~99%",
+              "value_parsed": {
+                "value": 99.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~99%"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~96%",
+              "value_parsed": {
+                "value": 96.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~96%"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "~40%",
+              "value_parsed": {
+                "value": 40.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~40%"
+              }
+            },
+            {
+              "country": "Kiribati",
+              "value_detail": "~66%",
+              "value_parsed": {
+                "value": 66.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~66%"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest Access: Australia (~99%), New Zealand (~96%)",
+          "low_text_raw": "Lowest Access: Papua New Guinea (~40%), Kiribati (~66%)"
+        },
+        {
+          "stat_id": "average_caloric_intake",
+          "label": "Average Caloric Intake",
+          "source_statistic_label": "Average Daily Caloric Intake",
+          "maslow_layer": "Physiological",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "calories_plate",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~3,200 cal",
+              "value_parsed": {
+                "value": 3200.0,
+                "unit": "calories_per_day",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~3,200 cal"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~3,050 cal",
+              "value_parsed": {
+                "value": 3050.0,
+                "unit": "calories_per_day",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~3,050 cal"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "~2,200 cal",
+              "value_parsed": {
+                "value": 2200.0,
+                "unit": "calories_per_day",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~2,200 cal"
+              }
+            },
+            {
+              "country": "Solomon Islands",
+              "value_detail": "~2,100 cal",
+              "value_parsed": {
+                "value": 2100.0,
+                "unit": "calories_per_day",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~2,100 cal"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest Intake: Australia (~3,200 cal), New Zealand (~3,050 cal)",
+          "low_text_raw": "Lowest Intake: Papua New Guinea (~2,200 cal), Solomon Islands (~2,100 cal)"
+        },
+        {
+          "stat_id": "lowest_crime_rate",
+          "label": "Lowest Crime Rate",
+          "source_statistic_label": "Crime Rate (Low Crime = Safety)",
+          "maslow_layer": "Safety",
+          "directionality": "lower_is_highlighted",
+          "icon": {
+            "icon_name": "handcuffs",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Nauru",
+              "value_detail": null,
+              "value_parsed": null
+            },
+            {
+              "country": "Tuvalu",
+              "value_detail": "low crime due to small, close-knit communities",
+              "value_parsed": {
+                "raw": "low crime due to small, close-knit communities",
+                "qualifier": null
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "violent crime",
+              "value_parsed": {
+                "raw": "violent crime",
+                "qualifier": null
+              }
+            },
+            {
+              "country": "Australia",
+              "value_detail": "higher urban crime areas compared to the Pacific Islands",
+              "value_parsed": {
+                "raw": "higher urban crime areas compared to the Pacific Islands",
+                "qualifier": null
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Lowest Crime: Nauru, Tuvalu (low crime due to small, close-knit communities)",
+          "low_text_raw": "Highest Crime: Papua New Guinea (violent crime), Australia (higher urban crime areas compared to the Pacific Islands)"
+        },
+        {
+          "stat_id": "access_to_healthcare",
+          "label": "Access To Healthcare",
+          "source_statistic_label": "% Population with Access to Healthcare",
+          "maslow_layer": "Safety",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "heart_health",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~99%",
+              "value_parsed": {
+                "value": 99.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~99%"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "universal coverage",
+              "value_parsed": {
+                "raw": "universal coverage",
+                "qualifier": null
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "<50%",
+              "value_parsed": {
+                "value": 50.0,
+                "unit": "percent",
+                "qualifier": "less_than",
+                "note": null,
+                "raw": "<50%"
+              }
+            },
+            {
+              "country": "Vanuatu",
+              "value_detail": "~60%",
+              "value_parsed": {
+                "value": 60.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~60%"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest Access: Australia (~99%), New Zealand (universal coverage)",
+          "low_text_raw": "Lowest Access: Papua New Guinea (<50%), Vanuatu (~60%)"
+        },
+        {
+          "stat_id": "employment_rates",
+          "label": "Employment Rates",
+          "source_statistic_label": "Employment Rate (Economic Participation)",
+          "maslow_layer": "Safety/Esteem",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "employment_person",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~75%",
+              "value_parsed": {
+                "value": 75.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~75%"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~73%",
+              "value_parsed": {
+                "value": 73.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~73%"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "underemployment, subsistence focus",
+              "value_parsed": {
+                "raw": "underemployment, subsistence focus",
+                "qualifier": null
+              }
+            },
+            {
+              "country": "Fiji",
+              "value_detail": "~9% unemployment",
+              "value_parsed": {
+                "value": 9.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": "unemployment",
+                "raw": "~9% unemployment"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest Rates: Australia (~75%), New Zealand (~73%)",
+          "low_text_raw": "Lowest Rates: Papua New Guinea (underemployment, subsistence focus), Fiji (~9% unemployment)"
+        },
+        {
+          "stat_id": "average_household_size",
+          "label": "Average Household Size",
+          "source_statistic_label": "Average Household Size",
+          "maslow_layer": "Love/Belonging",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "household_home",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Samoa",
+              "value_detail": "~7 persons/household",
+              "value_parsed": {
+                "value": 7.0,
+                "unit": "persons_per_household",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~7 persons/household"
+              }
+            },
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "~6.5 persons",
+              "value_parsed": {
+                "value": 6.5,
+                "unit": "persons",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~6.5 persons"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~2.6 persons",
+              "value_parsed": {
+                "value": 2.6,
+                "unit": "persons",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~2.6 persons"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~2.7 persons",
+              "value_parsed": {
+                "value": 2.7,
+                "unit": "persons",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~2.7 persons"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Largest: Samoa (~7 persons/household), Papua New Guinea (~6.5 persons)",
+          "low_text_raw": "Smallest: Australia (~2.6 persons), New Zealand (~2.7 persons)"
+        },
+        {
+          "stat_id": "volunteer_participation",
+          "label": "Volunteer/Community Service Participation",
+          "source_statistic_label": "Volunteer/Community Service Participation",
+          "maslow_layer": "Love/Belonging",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "volunteer_group",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~31%",
+              "value_parsed": {
+                "value": 31.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~31%"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~28%",
+              "value_parsed": {
+                "value": 28.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~28%"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "~12% formal volunteering",
+              "value_parsed": {
+                "value": 12.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": "formal volunteering",
+                "raw": "~12% formal volunteering"
+              }
+            },
+            {
+              "country": "Vanuatu",
+              "value_detail": "limited data",
+              "value_parsed": {
+                "raw": "limited data",
+                "qualifier": null
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest Engagement: Australia (~31%), New Zealand (~28%)",
+          "low_text_raw": "Lowest Engagement: Papua New Guinea (~12% formal volunteering), Vanuatu (limited data)"
+        },
+        {
+          "stat_id": "higher_education_degree_pct",
+          "label": "% Population Higher Education Degree",
+          "source_statistic_label": "% Population with Higher Education Degrees",
+          "maslow_layer": "Esteem",
+          "directionality": "higher_is_highlighted",
+          "icon": {
+            "icon_name": "graduation_cap",
+            "badge_for_high": "+",
+            "badge_for_low": "−"
+          },
+          "high_exemplars": [
+            {
+              "country": "Australia",
+              "value_detail": "~46%",
+              "value_parsed": {
+                "value": 46.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~46%"
+              }
+            },
+            {
+              "country": "New Zealand",
+              "value_detail": "~40%",
+              "value_parsed": {
+                "value": 40.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~40%"
+              }
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Papua New Guinea",
+              "value_detail": "<5%",
+              "value_parsed": {
+                "value": 5.0,
+                "unit": "percent",
+                "qualifier": "less_than",
+                "note": null,
+                "raw": "<5%"
+              }
+            },
+            {
+              "country": "Solomon Islands",
+              "value_detail": "~7%",
+              "value_parsed": {
+                "value": 7.0,
+                "unit": "percent",
+                "qualifier": "approx",
+                "note": null,
+                "raw": "~7%"
+              }
+            }
+          ],
+          "source_table": {
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          },
+          "high_text_raw": "Highest: Australia (~46%), New Zealand (~40%)",
+          "low_text_raw": "Lowest: Papua New Guinea (<5%), Solomon Islands (~7%)"
+        }
+      ],
+      "map_assets": [
+        {
+          "asset_id": "oceania_stats_map_main",
+          "type": "map",
+          "role": "core_stats_map",
+          "aspect_ratio": "16:10",
+          "description": "Central Oceania map with country fills and high/low stat icons (as shown in proof). Source vector/raster not provided; uses xlsx palette as intended reference."
+        }
+      ]
+    },
+    "featurettes": [
+      {
+        "featurette_id": "ft1_convicts_to_citizens",
+        "display_title": "From Convicts to Citizens—The Story of Australia’s Settlement",
+        "title": "From Convicts to Citizens",
+        "subtitle": "The Story of Australia’s Settlement",
+        "body_text": "Imagine a land so distant that the British once sent their prisoners there to start new lives. When the First Fleet landed in Australia in 1788, it turned the coastline into a place of hard work and survival. Convicts built roads and towns, not knowing their labor would shape a new nation. Over time, free settlers arrived, gold was discovered, and cities blossomed into thriving communities. But this growth came at a cost: Indigenous peoples lost their lands, traditions, and even their children. Today, Australia acknowledges these painful truths and celebrates a multicultural society. It’s a nation still learning from its past, embracing its many cultures, and moving forward with a spirit of understanding and respect.",
+        "layout_slot_id": "featurette_left_top",
+        "assets": [
+          {
+            "asset_id": "ft1_photo_sydney_skyline",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": "16:9",
+            "description": "Modern Sydney skyline used as the featurette header image.",
+            "hyperlinks": {
+              "final_url": "https://sfycdn.speedsize.com/5a520e7d-65b5-430f-bbbe-539adfe7537a/https://anatomie.com/cdn/shop/articles/Sydney_img_3733.jpg?v=1593546026&width=1100",
+              "url_candidates": [],
+              "anchor_texts": [
+                "Sydney skyline"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "URL may be truncated if it contains '...' in the source doc."
+            ]
+          },
+          {
+            "asset_id": "ft1_map_first_fleet_route",
+            "type": "map",
+            "role": "supporting_map",
+            "aspect_ratio": "4:3",
+            "description": "Map showing the route of the First Fleet from Britain to Australia.",
+            "hyperlinks": {
+              "final_url": "https://cdn.britannica.com/70/194370-004-14FC6156.jpg",
+              "url_candidates": [],
+              "anchor_texts": [
+                "he route of the First Fleet from Britain to Australia ("
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            }
+          },
+          {
+            "asset_id": "ft1_illustration_early_settlement",
+            "type": "photo",
+            "role": "historic_illustration",
+            "aspect_ratio": "4:3",
+            "description": "Historic illustration depicting early settlement scenes in Sydney.",
+            "hyperlinks": {
+              "final_url": "https://www.visitsydneyaustralia.com.au/images/index-sydney-1788.jpg",
+              "url_candidates": [
+                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdigital-classroom.nma.gov.au%2Fdefining-moments%2Ffirst-fleet-arrives-sydney-cove&psig=AOvVaw1Z2-0MaBJgyEywmHb19AoC&ust=1734113668584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjku_vqoooDFQAAAAAdAAAAABBR"
+              ],
+              "anchor_texts": [
+                "Early ",
+                "scenes"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Multiple URLs were provided for this single illustration; confirm which is the intended source."
+            ]
+          },
+          {
+            "asset_id": "ft1_map_historic_sydney_cove",
+            "type": "map",
+            "role": "supporting_historic_map",
+            "aspect_ratio": "4:3",
+            "description": "Additional historic map/plan visible in the proof poster within Featurette 1 (e.g., Sydney Cove/Port Jackson).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [],
+              "anchor_texts": [],
+              "source_doc": null
+            },
+            "notes": [
+              "No source URL provided in the docx; needs sourcing or design-team link."
+            ]
+          }
+        ],
+        "hyperlinks": {
+          "photo_links": [
+            {
+              "featurette_id": "featurette_1",
+              "anchor_text": "he route of the First Fleet from Britain to Australia (",
+              "url": "https://cdn.britannica.com/70/194370-004-14FC6156.jpg",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Map: The route of the First Fleet from Britain to Australia (British National Archives data).",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_1",
+              "anchor_text": "scenes",
+              "url": "https://www.visitsydneyaustralia.com.au/images/index-sydney-1788.jpg",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Historic Illustration: Early settlement scenes in Sydney.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_1",
+              "anchor_text": "Sydney skyline",
+              "url": "https://sfycdn.speedsize.com/5a520e7d-65b5-430f-bbbe-539adfe7537a/https://anatomie.com/cdn/shop/articles/Sydney_img_3733.jpg?v=1593546026&width=1100",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: Modern Sydney skyline contrasting with historical images.",
+              "is_truncated_url": false
+            }
+          ],
+          "chart_data_links": [],
+          "reference_links": [
+            {
+              "featurette_id": "featurette_1",
+              "anchor_text": "Early ",
+              "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdigital-classroom.nma.gov.au%2Fdefining-moments%2Ffirst-fleet-arrives-sydney-cove&psig=AOvVaw1Z2-0MaBJgyEywmHb19AoC&ust=1734113668584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjku_vqoooDFQAAAAAdAAAAABBR",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Historic Illustration: Early settlement scenes in Sydney.",
+              "is_truncated_url": false
+            }
+          ],
+          "data_source_links": [
+            {
+              "source_name": "British National Archives data (mentioned)",
+              "url": null,
+              "notes": "Mentioned in Featurettes.docx as the data source for the First Fleet route map, but no direct URL provided."
+            }
+          ]
+        },
+        "chart_spec": []
+      },
+      {
+        "featurette_id": "ft2_urban_life_down_under",
+        "display_title": "Urban Life Down Under— The Growth of Cities in Australia and New Zealand",
+        "title": "Urban Life Down Under",
+        "subtitle": "The Growth of Cities in Australia and New Zealand",
+        "body_text": "Picture Sydney’s sparkling harbor and Auckland’s busy streets: these cities grew from tiny outposts into vibrant hubs full of art, business, and ideas. Waves of newcomers brought fresh traditions, foods, and languages, turning urban life in Oceania into a colorful patchwork of cultures. Today, sleek skyscrapers rise alongside quiet parks. Museums, festivals, and universities attract people from all over the globe. At the same time, city planners tackle big questions like how to make housing affordable and transportation greener. The result is modern, multicultural cities that celebrate both Indigenous heritage and global connections— places where history and innovation come together every day.",
+        "layout_slot_id": "featurette_left_bottom",
+        "assets": [
+          {
+            "asset_id": "ft2_photo_melbourne_skyline",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": "16:9",
+            "description": "City skyline header image (Melbourne per Featurettes.docx).",
+            "hyperlinks": {
+              "final_url": "https://i.guim.co.uk/img/media/426ecb26493ceb82520ab7f2434daece7d7d4fcc/2217_233_7623_4576/master/7623.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=05566bff92eda34e51806010379a1fce",
+              "url_candidates": [],
+              "anchor_texts": [
+                "melbourne"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "URL may be truncated in the source doc."
+            ]
+          },
+          {
+            "asset_id": "ft2_photo_multicultural_team_meeting",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Supporting stock photo showing a multicultural team/office meeting (appears next to charts in proof).",
+            "hyperlinks": {
+              "final_url": "https://www.istockphoto.com/photo/a-multicultural-team-of-professionals-fostering-collaboration-and-innovation-in-gm1492719997-516626502",
+              "url_candidates": [],
+              "anchor_texts": [
+                "This stock photo"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "URL may be truncated in the source doc."
+            ]
+          },
+          {
+            "asset_id": "ft2_chart_capital_cities_vs_rest_population",
+            "type": "chart",
+            "role": "supporting_chart",
+            "aspect_ratio": "4:3",
+            "description": "Line chart in the proof labeled 'Total Capital Cities (pop.) and Rest of States/Territories (pop.)'.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit"
+              ],
+              "anchor_texts": [
+                "Rising "
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Chart appears in proof; underlying data should be confirmed in linked spreadsheet (or replaced with final dataset)."
+            ]
+          },
+          {
+            "asset_id": "ft2_chart_population_change_vs_year",
+            "type": "chart",
+            "role": "supporting_chart",
+            "aspect_ratio": "4:3",
+            "description": "Line chart in the proof labeled 'Population Change (no.) vs. Year'.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit"
+              ],
+              "anchor_texts": [
+                "Rising "
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Chart appears in proof; underlying data should be confirmed in linked spreadsheet (or replaced with final dataset)."
+            ]
+          }
+        ],
+        "hyperlinks": {
+          "photo_links": [
+            {
+              "featurette_id": "featurette_2",
+              "anchor_text": "melbourne",
+              "url": "https://i.guim.co.uk/img/media/426ecb26493ceb82520ab7f2434daece7d7d4fcc/2217_233_7623_4576/master/7623.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=05566bff92eda34e51806010379a1fce",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: Skyscrapers in melbourne.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_2",
+              "anchor_text": "This stock photo",
+              "url": "https://www.istockphoto.com/photo/a-multicultural-team-of-professionals-fostering-collaboration-and-innovation-in-gm1492719997-516626502",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: This stock photo",
+              "is_truncated_url": false
+            }
+          ],
+          "chart_data_links": [
+            {
+              "featurette_id": "featurette_2",
+              "anchor_text": "Rising ",
+              "url": "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Graph (from Government Data): Rising urban populations over time.",
+              "is_truncated_url": false
+            }
+          ],
+          "reference_links": [],
+          "data_source_links": [
+            {
+              "source_name": "Government Data (mentioned)",
+              "url": "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit",
+              "notes": "Featurettes.docx points to a Google Sheet for the urban population graph data."
+            }
+          ]
+        },
+        "chart_spec": [
+          {
+            "asset_id": "ft2_chart_capital_cities_vs_rest_population",
+            "chart_type": "line",
+            "title": "Total Capital Cities (pop.) and Rest of States/Territories (pop.)",
+            "x_axis": {
+              "label": "Year",
+              "unit": "year"
+            },
+            "y_axis": {
+              "label": "Population (pop.)",
+              "unit": "people"
+            },
+            "series": [
+              {
+                "series_name": "Total Capital Cities (pop.)",
+                "style_notes": "Blue line in proof; legend present."
+              },
+              {
+                "series_name": "Rest of States/Territories (pop.)",
+                "style_notes": "Red line in proof; legend present."
+              }
+            ],
+            "data_links": [
+              {
+                "anchor_text": "Rising ",
+                "url": "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit"
+              }
+            ],
+            "layout_notes": "Displayed as a framed chart image within the featurette; appears stacked above a second chart."
+          },
+          {
+            "asset_id": "ft2_chart_population_change_vs_year",
+            "chart_type": "line",
+            "title": "Population Change (no.) vs. Year",
+            "x_axis": {
+              "label": "Year",
+              "unit": "year"
+            },
+            "y_axis": {
+              "label": "Population Change (no.)",
+              "unit": "people"
+            },
+            "series": [
+              {
+                "series_name": "Population Change (no.)",
+                "style_notes": "Single line in proof; color appears blue."
+              }
+            ],
+            "data_links": [
+              {
+                "anchor_text": "Rising ",
+                "url": "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit"
+              }
+            ],
+            "layout_notes": "Displayed as a framed chart image below the 'Capital Cities vs Rest' chart."
+          }
+        ]
+      },
+      {
+        "featurette_id": "ft3_islands_on_the_edge",
+        "display_title": "Islands on the Edge— Sea Level Rise in Micronesia",
+        "title": "Islands on the Edge",
+        "subtitle": "Sea Level Rise in Micronesia",
+        "body_text": "In the crystal-clear waters of Micronesia, gentle waves lap at the shores of tiny islands. But as Earth’s climate warms, these islands face a rising threat: higher seas that wash away land and seep into drinking water. Imagine losing not just your home, but also the stories, songs, and traditions that connect your people to the place they’ve known for centuries Micronesians are taking action—planting mangroves, building sea walls, and speaking up at global meetings to protect their homelands. While they contribute little to climate change, they feel its effects deeply. Their courage and voices remind us that we share one Earth, and helping each other adapt is part of caring for our world.",
+        "layout_slot_id": "featurette_right_top",
+        "assets": [
+          {
+            "asset_id": "ft3_photo_shoreline_erosion",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Photo depicting shoreline erosion on a low-lying island (top image in Featurette 3).",
+            "hyperlinks": {
+              "final_url": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/N6D4TTUQDVLT7D22VRQ3LKPCNQ.jpg",
+              "url_candidates": [],
+              "anchor_texts": [
+                "showing erosion",
+                "protective mangroves."
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Featurettes.docx provides two photo URLs on a single line; confirm which corresponds to which proof photo."
+            ]
+          },
+          {
+            "asset_id": "ft3_photo_island_harbor_view",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Photo showing a small island settlement/harbor scene (middle image in Featurette 3).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                "https://pasifika.news/wp-content/uploads/2021/12/61ae10fb781c2.image_.jpg",
+                "https://images.newscientist.com/wp-content/uploads/2017/09/06170938/sam_05385.jpg?width=1003",
+                "https://upload.wikimedia.org/wikipedia/commons/8/86/Pohnpei_International_Airport.jpg"
+              ],
+              "anchor_texts": [
+                "Islands",
+                "Micronesia ",
+                "projected"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Docx 'Map (from Climate Data)' line provides multiple image URLs; used here as candidates for the proof photos."
+            ]
+          },
+          {
+            "asset_id": "ft3_photo_mangroves_coastline",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Photo showing protective mangroves or coastal vegetation (bottom image in Featurette 3).",
+            "hyperlinks": {
+              "final_url": "https://www.preventionweb.net/sites/default/files/styles/landscape_16_9/public/75537_largeImage.jpg?itok=yi0ZBEPe",
+              "url_candidates": [],
+              "anchor_texts": [
+                "showing erosion",
+                "protective mangroves."
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Featurettes.docx provides two photo URLs on a single line; confirm which corresponds to which proof photo."
+            ]
+          },
+          {
+            "asset_id": "ft3_chart_infographic_sea_level_rise",
+            "type": "chart",
+            "role": "supporting_infographic",
+            "aspect_ratio": "3:4",
+            "description": "Infographic in proof titled 'How Melting Ice Raises Sea Levels' including sources of sea level rise and projected rates.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [],
+              "anchor_texts": [],
+              "source_doc": null
+            },
+            "notes": [
+              "Proof graphic cites IPCC as the source; no external URL provided in docx."
+            ]
+          }
+        ],
+        "hyperlinks": {
+          "photo_links": [
+            {
+              "featurette_id": "featurette_3",
+              "anchor_text": "Islands",
+              "url": "https://pasifika.news/wp-content/uploads/2021/12/61ae10fb781c2.image_.jpg",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_3",
+              "anchor_text": "Micronesia ",
+              "url": "https://images.newscientist.com/wp-content/uploads/2017/09/06170938/sam_05385.jpg?width=1003",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_3",
+              "anchor_text": "projected",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pohnpei_International_Airport.jpg",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_3",
+              "anchor_text": "showing erosion",
+              "url": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/N6D4TTUQDVLT7D22VRQ3LKPCNQ.jpg",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: A shoreline showing erosion and protective mangroves.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_3",
+              "anchor_text": "protective mangroves.",
+              "url": "https://www.preventionweb.net/sites/default/files/styles/landscape_16_9/public/75537_largeImage.jpg?itok=yi0ZBEPe",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: A shoreline showing erosion and protective mangroves.",
+              "is_truncated_url": false
+            }
+          ],
+          "chart_data_links": [],
+          "reference_links": [],
+          "data_source_links": [
+            {
+              "source_name": "Climate Data (mentioned)",
+              "url": null,
+              "notes": "Mentioned in Featurettes.docx for a Micronesia sea level rise map; no direct dataset URL provided."
+            },
+            {
+              "source_name": "IPCC (visible on proof infographic)",
+              "url": null,
+              "notes": "Infographic in proof includes 'Source: IPCC'."
+            }
+          ]
+        },
+        "chart_spec": [
+          {
+            "asset_id": "ft3_chart_infographic_sea_level_rise",
+            "chart_type": "infographic_with_mini_line_chart",
+            "title": "How Melting Ice Raises Sea Levels",
+            "included_sections": [
+              {
+                "section_title": "Sources of Sea Level Rise",
+                "items": [
+                  "Thermal Expansion",
+                  "Melting Glaciers",
+                  "Ice Sheet Loss"
+                ]
+              },
+              {
+                "section_title": "Projected Sea Level Rise Rates",
+                "low_emissions_mm_per_year": "4–9 mm/year",
+                "high_emissions_mm_per_year": "10–20 mm/year",
+                "horizon": "to 2100"
+              },
+              {
+                "section_title": "Micronesia’s Vulnerability",
+                "notes": "Small map and callouts about exposure to sea level rise."
+              }
+            ],
+            "data_links": [],
+            "layout_notes": "Framed infographic panel within Featurette 3; contains icons, a small trend line chart, and a small map."
+          }
+        ]
+      },
+      {
+        "featurette_id": "ft4_facing_natures_fury",
+        "display_title": "Facing Nature’s Fury—Volcanoes and Cyclones in Oceania",
+        "title": "Facing Nature’s Fury",
+        "subtitle": "Volcanoes and Cyclones in Oceania",
+        "body_text": "Oceania sits in a restless part of our planet, where Earth’s plates shift and giant storms brew over warm seas. Volcanoes rumble, and cyclones roar through islands scattered across the Pacific. Yet people here have found ways to live in tune with nature’s power. They build homes designed to bend with the wind and hold practice drills to stay safe when the ground shakes. From ancient myths explaining volcanic fire to modern warning systems that save lives, these communities blend old knowledge with new science. They remind us that living with nature’s fury can make us wiser, kinder, and more prepared for whatever tomorrow brings.",
+        "layout_slot_id": "featurette_right_bottom",
+        "assets": [
+          {
+            "asset_id": "ft4_photo_traditional_village_header",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": "16:9",
+            "description": "Header photo in proof showing a traditional village/thatched structures (within Featurette 4 frame).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                "https://i.guim.co.uk/img/media/61f9387d5d6ccdbcf8484bac21810a1e96cb9d16/0_300_4000_2400/master/4000.jpg?width=1200&quality=85&auto=format&fit=max&s=54c2d2fb7666d8e01cd4dc305fd49cd2",
+                "https://i.guim.co.uk/img/media/3faabfbea4363df3c71ba8989b02bf63a3f80bf2/0_486_4947_2968/master/4947.jpg?width=620&dpr=2&s=none&crop=none"
+              ],
+              "anchor_texts": [
+                "traditional ",
+                "built"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Docx links under 'Diagram: How traditional houses are built...' may be related; confirm the correct source for the header photo."
+            ]
+          },
+          {
+            "asset_id": "ft4_map_ring_of_fire",
+            "type": "map",
+            "role": "supporting_map",
+            "aspect_ratio": "4:3",
+            "description": "Map/diagram in proof titled 'THE “RING OF FIRE”' showing volcanic hot spots around the Pacific.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [],
+              "anchor_texts": [],
+              "source_doc": null
+            },
+            "notes": [
+              "No source URL provided in docx; needs sourcing (e.g., USGS/Geological survey) or internal design link."
+            ]
+          },
+          {
+            "asset_id": "ft4_photo_traditional_house_building",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Photo showing traditional construction techniques (appears below Ring of Fire map).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                "https://i.guim.co.uk/img/media/61f9387d5d6ccdbcf8484bac21810a1e96cb9d16/0_300_4000_2400/master/4000.jpg?width=1200&quality=85&auto=format&fit=max&s=54c2d2fb7666d8e01cd4dc305fd49cd2",
+                "https://i.guim.co.uk/img/media/3faabfbea4363df3c71ba8989b02bf63a3f80bf2/0_486_4947_2968/master/4947.jpg?width=620&dpr=2&s=none&crop=none"
+              ],
+              "anchor_texts": [
+                "traditional ",
+                "built"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            },
+            "notes": [
+              "Two URLs provided in docx; both appear truncated with '...'. Replace with full URLs or provide licensed originals."
+            ]
+          },
+          {
+            "asset_id": "ft4_photo_cyclone_drills",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "16:9",
+            "description": "Photo showing community cyclone drills or earthquake safety training (bottom image in Featurette 4).",
+            "hyperlinks": {
+              "final_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9rke2umBeLD0Vgu0_iGmd5tsTVcOUhbM2Q&s",
+              "url_candidates": [],
+              "anchor_texts": [
+                "cyclone drills"
+              ],
+              "source_doc": "Oceania Featurettes.docx"
+            }
+          }
+        ],
+        "hyperlinks": {
+          "photo_links": [
+            {
+              "featurette_id": "featurette_4",
+              "anchor_text": "traditional ",
+              "url": "https://i.guim.co.uk/img/media/61f9387d5d6ccdbcf8484bac21810a1e96cb9d16/0_300_4000_2400/master/4000.jpg?width=1200&quality=85&auto=format&fit=max&s=54c2d2fb7666d8e01cd4dc305fd49cd2",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Diagram: How traditional houses are built to withstand storms.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_4",
+              "anchor_text": "built",
+              "url": "https://i.guim.co.uk/img/media/3faabfbea4363df3c71ba8989b02bf63a3f80bf2/0_486_4947_2968/master/4947.jpg?width=620&dpr=2&s=none&crop=none",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Diagram: How traditional houses are built to withstand storms.",
+              "is_truncated_url": false
+            },
+            {
+              "featurette_id": "featurette_4",
+              "anchor_text": "cyclone drills",
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9rke2umBeLD0Vgu0_iGmd5tsTVcOUhbM2Q&s",
+              "source_doc": "Oceania Featurettes.docx",
+              "paragraph_text": "Photo: Community cyclone drills or earthquake safety training.",
+              "is_truncated_url": false
+            }
+          ],
+          "chart_data_links": [],
+          "reference_links": [],
+          "data_source_links": [
+            {
+              "source_name": "Geological Surveys (mentioned)",
+              "url": null,
+              "notes": "Mentioned in Featurettes.docx for volcano/cyclone context; no direct dataset URL provided."
+            }
+          ]
+        },
+        "chart_spec": [
+          {
+            "asset_id": "ft4_map_ring_of_fire",
+            "chart_type": "map_diagram",
+            "title": "THE “RING OF FIRE”",
+            "legend_items": [
+              {
+                "label": "Volcanic hot spots",
+                "symbol": "triangle with flame icon"
+              }
+            ],
+            "data_links": [],
+            "layout_notes": "Stylized Pacific map with red ring path and hotspot icons; used as an explanatory diagram."
+          }
+        ]
+      }
+    ],
+    "hyperlinks": {
+      "photo_links": [
+        {
+          "featurette_id": "featurette_1",
+          "anchor_text": "he route of the First Fleet from Britain to Australia (",
+          "url": "https://cdn.britannica.com/70/194370-004-14FC6156.jpg",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Map: The route of the First Fleet from Britain to Australia (British National Archives data).",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_1",
+          "anchor_text": "scenes",
+          "url": "https://www.visitsydneyaustralia.com.au/images/index-sydney-1788.jpg",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Historic Illustration: Early settlement scenes in Sydney.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_1",
+          "anchor_text": "Sydney skyline",
+          "url": "https://sfycdn.speedsize.com/5a520e7d-65b5-430f-bbbe-539adfe7537a/https://anatomie.com/cdn/shop/articles/Sydney_img_3733.jpg?v=1593546026&width=1100",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: Modern Sydney skyline contrasting with historical images.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_2",
+          "anchor_text": "melbourne",
+          "url": "https://i.guim.co.uk/img/media/426ecb26493ceb82520ab7f2434daece7d7d4fcc/2217_233_7623_4576/master/7623.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=05566bff92eda34e51806010379a1fce",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: Skyscrapers in melbourne.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_2",
+          "anchor_text": "This stock photo",
+          "url": "https://www.istockphoto.com/photo/a-multicultural-team-of-professionals-fostering-collaboration-and-innovation-in-gm1492719997-516626502",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: This stock photo",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_3",
+          "anchor_text": "Islands",
+          "url": "https://pasifika.news/wp-content/uploads/2021/12/61ae10fb781c2.image_.jpg",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_3",
+          "anchor_text": "Micronesia ",
+          "url": "https://images.newscientist.com/wp-content/uploads/2017/09/06170938/sam_05385.jpg?width=1003",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_3",
+          "anchor_text": "projected",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pohnpei_International_Airport.jpg",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Map (from Climate Data): Islands of Micronesia with projected sea level rise.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_3",
+          "anchor_text": "showing erosion",
+          "url": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/N6D4TTUQDVLT7D22VRQ3LKPCNQ.jpg",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: A shoreline showing erosion and protective mangroves.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_3",
+          "anchor_text": "protective mangroves.",
+          "url": "https://www.preventionweb.net/sites/default/files/styles/landscape_16_9/public/75537_largeImage.jpg?itok=yi0ZBEPe",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: A shoreline showing erosion and protective mangroves.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_4",
+          "anchor_text": "traditional ",
+          "url": "https://i.guim.co.uk/img/media/61f9387d5d6ccdbcf8484bac21810a1e96cb9d16/0_300_4000_2400/master/4000.jpg?width=1200&quality=85&auto=format&fit=max&s=54c2d2fb7666d8e01cd4dc305fd49cd2",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Diagram: How traditional houses are built to withstand storms.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_4",
+          "anchor_text": "built",
+          "url": "https://i.guim.co.uk/img/media/3faabfbea4363df3c71ba8989b02bf63a3f80bf2/0_486_4947_2968/master/4947.jpg?width=620&dpr=2&s=none&crop=none",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Diagram: How traditional houses are built to withstand storms.",
+          "is_truncated_url": false
+        },
+        {
+          "featurette_id": "featurette_4",
+          "anchor_text": "cyclone drills",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9rke2umBeLD0Vgu0_iGmd5tsTVcOUhbM2Q&s",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Photo: Community cyclone drills or earthquake safety training.",
+          "is_truncated_url": false
+        }
+      ],
+      "chart_data_links": [
+        {
+          "featurette_id": "featurette_2",
+          "anchor_text": "Rising ",
+          "url": "https://docs.google.com/spreadsheets/u/0/d/1oEaF1hIdPYpUfpeLsQbczb7jyLRiPeVyyfAN5-8w4nw/edit",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Graph (from Government Data): Rising urban populations over time.",
+          "is_truncated_url": false
+        }
+      ],
+      "reference_links": [
+        {
+          "featurette_id": "featurette_1",
+          "anchor_text": "Early ",
+          "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdigital-classroom.nma.gov.au%2Fdefining-moments%2Ffirst-fleet-arrives-sydney-cove&psig=AOvVaw1Z2-0MaBJgyEywmHb19AoC&ust=1734113668584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjku_vqoooDFQAAAAAdAAAAABBR",
+          "source_doc": "Oceania Featurettes.docx",
+          "paragraph_text": "Historic Illustration: Early settlement scenes in Sydney.",
+          "is_truncated_url": false
+        }
+      ]
+    },
+    "supplemental_stats_for_app": [
+      {
+        "stat_id": "oddball_rainwater_dependence_tuvalu",
+        "label": "Rainwater Dependence",
+        "raw_text": "Tuvalu: Many residents rely on rainwater harvesting due to the scarcity of freshwater sources, making water supply highly dependent on rainfall patterns.",
+        "app_summary": "Tuvalu: Many residents rely on rainwater harvesting; water supply is highly dependent on rainfall patterns.",
+        "source": "Oceania Stats.docx"
+      },
+      {
+        "stat_id": "oddball_surf_lifesaving_volunteers_australia",
+        "label": "Surf Life Saving Volunteers",
+        "raw_text": "Australia: Over 100,000 volunteers participate in surf life-saving clubs, reflecting the importance of beach culture and community safety.",
+        "app_summary": "Australia: Over 100,000 volunteers participate in surf lifesaving, reflecting beach culture and community safety.",
+        "source": "Oceania Stats.docx"
+      },
+      {
+        "stat_id": "oddball_seasonal_worker_programs_pacific",
+        "label": "Seasonal Worker Programs",
+        "raw_text": "Pacific Islanders: Many participate in seasonal worker programs in Australia and New Zealand, contributing to their home economies through remittances.",
+        "app_summary": "Pacific Islanders: Many participate in seasonal worker programs in Australia and New Zealand; remittances contribute to home economies.",
+        "source": "Oceania Stats.docx"
+      }
+    ],
+    "validation_and_todos": {
+      "issues": [
+        {
+          "issue_id": "missing_graphs_stuff_docx",
+          "severity": "info",
+          "description": "Optional 'graphs stuff.docx' was not provided; iconization math and finalized chart data tables may be missing."
+        },
+        {
+          "issue_id": "truncated_urls_in_featurettes_docx",
+          "severity": "warning",
+          "description": "Some hyperlinks extracted from Featurettes.docx contain '...' and appear truncated; replace with full URLs or provide licensed assets.",
+          "examples": []
+        },
+        {
+          "issue_id": "missing_asset_source_links",
+          "severity": "warning",
+          "description": "Some proof-visible assets have no source URL in the provided docx files.",
+          "missing_assets": [
+            {
+              "featurette_id": "ft1_convicts_to_citizens",
+              "asset_id": "ft1_map_historic_sydney_cove",
+              "description": "Additional historic map/plan visible in the proof poster within Featurette 1 (e.g., Sydney Cove/Port Jackson)."
+            },
+            {
+              "featurette_id": "ft3_islands_on_the_edge",
+              "asset_id": "ft3_chart_infographic_sea_level_rise",
+              "description": "Infographic in proof titled 'How Melting Ice Raises Sea Levels' including sources of sea level rise and projected rates."
+            },
+            {
+              "featurette_id": "ft4_facing_natures_fury",
+              "asset_id": "ft4_map_ring_of_fire",
+              "description": "Map/diagram in proof titled 'THE “RING OF FIRE”' showing volcanic hot spots around the Pacific."
+            }
+          ]
+        },
+        {
+          "issue_id": "palette_vs_proof_mismatch",
+          "severity": "info",
+          "description": "The xlsx palette (Oceania stats palette) appears to differ from the proof map fills in Oceania_StatsFeatures.pdf; confirm which palette is authoritative for final production."
+        },
+        {
+          "issue_id": "palette_missing_new_caledonia_in_xlsx",
+          "severity": "info",
+          "description": "New Caledonia appears labeled/filled on the proof map but is not present in the xlsx palette list; added as a proof-sampled entry."
+        }
+      ]
+    },
+    "provenance": {
+      "files_used": [
+        {
+          "file_name": "Oceania_StatsFeatures.pdf",
+          "role": "proof poster (layout, final wording, legend)"
+        },
+        {
+          "file_name": "Oceania Cultural Domain.xlsx",
+          "role": "source for Interesting Statistics table + map palette"
+        },
+        {
+          "file_name": "Oceania Featurettes.docx",
+          "role": "featurette draft copy + asset hyperlinks"
+        },
+        {
+          "file_name": "Oceania Stats.docx",
+          "role": "supporting stats + oddball stats for app"
+        }
+      ],
+      "sheet_ranges_used": [
+        {
+          "workbook": "Oceania Cultural Domain.xlsx",
+          "sheet": "Interesting Statistics",
+          "range": "A3:D12",
+          "purpose": "Core map stats table"
+        },
+        {
+          "workbook": "Oceania Cultural Domain.xlsx",
+          "sheet": "Oceania stats palette",
+          "range": "A:B (rows 1-15)",
+          "purpose": "Per-country palette for stats map"
+        }
+      ],
+      "extraction_timestamp_utc": "2025-12-30T20:26:17Z"
+    }
+  }
+}

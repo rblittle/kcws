@@ -1,0 +1,706 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/cultural innovations/europe_ci_rolling_revolution_wheel.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__cultural_innovations__europe__europe_ci_rolling_revolution_wheel",
+    "derived_id": "cultural__cultural_innovations__europe__europe_ci_rolling_revolution_wheel",
+    "continent": "europe",
+    "domain": "cultural",
+    "poster_family": "cultural_innovations",
+    "filename": "europe_ci_rolling_revolution_wheel.json"
+  },
+  "tags": {
+    "continent": [
+      "europe"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "cultural_innovations"
+    ],
+    "flat": [
+      "continent:europe",
+      "domain:cultural",
+      "poster_family:cultural_innovations"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/cultural innovations/europe_ci_rolling_revolution_wheel.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "kaycliff.atlastrail.poster_package.v1",
+    "generated_at": "2025-12-29T17:00:21.784718+00:00",
+    "poster": {
+      "poster_id": "europe_ci_rolling_revolution_wheel",
+      "continent": "Europe",
+      "domain": "Cultural Innovation",
+      "poster_type": "Main Feature",
+      "title": "Rolling Revolution: Europe’s World-Changing Wheel",
+      "hub_label": "The Spokes of Change",
+      "aspect_ratio": "8:5",
+      "recommended_print_size_inches": {
+        "width": 96,
+        "height": 60
+      },
+      "reference_render": {
+        "image_ref": "img_concept_reference"
+      },
+      "source_files": {
+        "ci_copy": "Europe CI text.docx",
+        "main_feature_brief": "Europe Main Feature.docx",
+        "design_help_assets": "Europe MF Design help.xlsx",
+        "concept_render": "europe ci concept.jpg"
+      }
+    },
+    "copy": {
+      "text_blocks": [
+        {
+          "id": "txt_title",
+          "role": "header",
+          "heading": null,
+          "body": "Rolling Revolution: Europe’s World-Changing Wheel",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_hub_label",
+          "role": "hub",
+          "heading": null,
+          "body": "The Spokes of Change",
+          "optional": false,
+          "source": "Europe Main Feature.docx"
+        },
+        {
+          "id": "txt_spoke_agriculture",
+          "role": "spoke",
+          "heading": "Agriculture",
+          "body": "Wheeled carts let farmers haul bigger harvests and heavier tools, boosting food production and fueling growing settlements.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_trade",
+          "role": "spoke",
+          "heading": "Trade",
+          "body": "The wheel bridged distant towns, speeding up travel and helping markets thrive—turning Europe’s back roads into trade routes.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_warfare",
+          "role": "spoke",
+          "heading": "Warfare",
+          "body": "Spoked wheels on chariots brought swift, mobile combat; prestige and power followed wherever horse-drawn forces appeared.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_urbanization",
+          "role": "spoke",
+          "heading": "Urbanization",
+          "body": "Carts carried stone and lumber to new heights, enabling bigger, denser cities to spring up across the European landscape.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_social_stratification",
+          "role": "spoke",
+          "heading": "Social Stratification",
+          "body": "Owning a fine chariot or cart showed off wealth and influence, widening the gap between rich and poor.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_cultural_exchange",
+          "role": "spoke",
+          "heading": "Cultural Exchange",
+          "body": "As carts rolled farther than ever before, ideas, goods, and customs spread along every path, weaving distant cultures together.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_spoke_technological_legacy",
+          "role": "spoke",
+          "heading": "Technological Legacy",
+          "body": "From water mills to modern engines, the basic wheel-and-axle sparked centuries of invention—proof that simple machines can reshape civilization.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_callout_simple_machines",
+          "role": "callout",
+          "heading": "Simple Machines",
+          "body": "Levers, pulleys, and wheels formed Europe’s earliest engineering toolkit, paving the way for future mechanical leaps and the Industrial Revolution.",
+          "optional": true,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_callout_domestication_of_horses",
+          "role": "callout",
+          "heading": "Domestication of Horses",
+          "body": "Tamed on the Eurasian steppe over 5,000 years ago, horses gave people new speed and stamina—pulling carts, carrying riders, and turning the wheel from simple tool into an engine of exploration and power.",
+          "optional": false,
+          "source": "Europe CI text.docx"
+        },
+        {
+          "id": "txt_callout_before_after",
+          "role": "callout",
+          "heading": "Before & After the Wheel",
+          "body": "Before: Sledges and human labor limited movement and productivity.\nAfter: Carts and chariots increased efficiency, speed, and connectivity.",
+          "optional": false,
+          "source": "Europe Main Feature.docx"
+        },
+        {
+          "id": "txt_callout_horse_vs_oxen",
+          "role": "callout",
+          "heading": "Horse vs. Oxen",
+          "body": "Oxen were stronger but slower, ideal for heavy agricultural loads.\nHorses provided speed and endurance, excelling in trade and warfare.",
+          "optional": false,
+          "source": "Europe Main Feature.docx"
+        }
+      ],
+      "reflection_questions": [
+        {
+          "id": "q1",
+          "text": "How did the wheel transform the way ancient societies worked, fought, and connected?"
+        },
+        {
+          "id": "q2",
+          "text": "What parallels exist between early innovations like the wheel and modern advancements in technology?"
+        },
+        {
+          "id": "q3",
+          "text": "How might simple machines like the wheel serve as a bridge to understanding the Industrial Revolution?"
+        }
+      ],
+      "notes": {
+        "reflection_banner_question": null,
+        "reflection_banner_question_sourcing": "No single banner question specified in design-help sheet; pick one of reflection_questions or write a shorter custom prompt."
+      }
+    },
+    "assets": {
+      "images": [
+        {
+          "id": "img_concept_reference",
+          "content_type": "Concept Reference Render",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Visual reference for wheel-and-spokes layout concept generated via NanoBanana Pro.",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Local file captured from NanoBanana Pro draft.",
+          "source_url": null,
+          "local_filename": "europe ci concept.jpg",
+          "status": "provided"
+        },
+        {
+          "asset_id": "hero_image_cucuteni_trypillia_cart_scene",
+          "content_type": "Hero Image: Cucuteni-Trypillia Cart Scene",
+          "placement": "Top Half",
+          "approx_size": "~4 ft wide x 2.5 ft tall",
+          "purpose": "Establish the theme of transformation via the wheel. A cart pulled by oxen/horses in a Neolithic landscape.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "I can't this to look how I want it. I want it like a side view, with his family on it too. I'll keep messing with it for a bit.",
+          "source_url": "https://cdn.midjourney.com/ff298020-b55c-428b-892a-9224685b9037/0_3.png",
+          "status": "provided",
+          "id": "img_hero_cart_scene",
+          "local_filename": null
+        },
+        {
+          "asset_id": "agriculture_spoke_image",
+          "content_type": "Agriculture Spoke Image",
+          "placement": "Wheel Infographic - Spoke 1",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Symbolize increased agricultural productivity with a cart loaded with grain and tools.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "We will need a more primitive barn",
+          "source_url": "https://cdn.midjourney.com/b3d72cd9-5f25-49d0-9045-b2511bc7387b/0_3.png",
+          "status": "provided",
+          "id": "img_spoke_agriculture",
+          "local_filename": null
+        },
+        {
+          "asset_id": "trade_spoke_image",
+          "content_type": "Trade Spoke Image",
+          "placement": "Wheel Infographic - Spoke 2",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Depict expanded trade routes and economic exchange with merchant carts carrying pottery and textiles.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "This will need editing",
+          "source_url": "https://cdn.midjourney.com/19538b32-54e5-4d82-a9a8-dfe1258ff1e3/0_0.png",
+          "status": "provided",
+          "id": "img_spoke_trade",
+          "local_filename": null
+        },
+        {
+          "asset_id": "warfare_spoke_image",
+          "content_type": "Warfare Spoke Image",
+          "placement": "Wheel Infographic - Spoke 3",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Illustrate the wheel’s revolution in combat with horse-drawn chariots on a battlefield.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/623c980d-2f99-483b-8718-37972a97c2f7/0_3.png",
+          "status": "provided",
+          "id": "img_spoke_warfare",
+          "local_filename": null
+        },
+        {
+          "asset_id": "urbanization_spoke_image",
+          "content_type": "Urbanization Spoke Image",
+          "placement": "Wheel Infographic - Spoke 4",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Depict the wheel’s role in city-building with carts hauling construction materials into a nascent cityscape.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/589a4f69-3975-4ea3-b953-9fbbdd1779cc/0_0.png",
+          "status": "provided",
+          "id": "img_spoke_urbanization",
+          "local_filename": null
+        },
+        {
+          "asset_id": "social_stratification_spoke_image",
+          "content_type": "Social Stratification Spoke Image",
+          "placement": "Wheel Infographic - Spoke 5",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Represent wheeled vehicles as symbols of status with a noble riding in an ornate chariot.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/54f08b1f-3fd1-421c-8787-665ccfe2c38a/0_1.png",
+          "status": "provided",
+          "id": "img_spoke_social_stratification",
+          "local_filename": null
+        },
+        {
+          "asset_id": "cultural_exchange_spoke_image",
+          "content_type": "Cultural Exchange Spoke Image",
+          "placement": "Wheel Infographic - Spoke 6",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Highlight the spread of ideas and innovations via trade routes with a stylized map of trade routes.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes (Stylized Map)",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "id": "img_spoke_cultural_exchange",
+          "local_filename": null
+        },
+        {
+          "asset_id": "technological_legacy_spoke_image",
+          "content_type": "Technological Legacy Spoke Image",
+          "placement": "Wheel Infographic - Spoke 7",
+          "approx_size": "~1 ft wide x 1.5 ft tall",
+          "purpose": "Connect ancient wheels to modern mechanical innovations with a montage of gears, turbines, and bicycle wheels.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "id": "img_spoke_technological_legacy",
+          "local_filename": null
+        },
+        {
+          "asset_id": "before_after_image",
+          "content_type": "Before & After Image",
+          "placement": "Side Panel",
+          "approx_size": "~1.5 ft wide x 2 ft tall",
+          "purpose": "Compare life before and after the wheel with laborers dragging sledges vs. carts rolling smoothly.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes (Split-Panel Illustration)",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/a2372ed7-78b0-411b-af83-22915f43f418/0_3.png",
+          "status": "provided",
+          "id": "img_callout_before_after",
+          "local_filename": null
+        },
+        {
+          "asset_id": "horse_vs_oxen_image",
+          "content_type": "Horse vs. Oxen Image",
+          "placement": "Side Note Image",
+          "approx_size": "~1 ft wide x 1 ft tall",
+          "purpose": "Compare the roles of oxen and horses in wheeled transport with side-by-side illustrations.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes (Silhouette/Line Art)",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "id": "img_callout_horse_vs_oxen",
+          "local_filename": null
+        },
+        {
+          "asset_id": "simple_machines_callout",
+          "content_type": "Simple Machines Callout",
+          "placement": "Small Section",
+          "approx_size": "~1.5 ft wide x 1 ft tall",
+          "purpose": "Show interconnectedness of simple machines with a wheel, lever, pulley, and inclined plane diagram.",
+          "format": "Hand-Drawn/Vector-Based Infographic",
+          "ai_friendly": "No (Recommended Human Design)",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "id": "img_callout_simple_machines",
+          "local_filename": null
+        },
+        {
+          "asset_id": "reflective_question_bottom_banner",
+          "content_type": "Reflective Question (Bottom Banner)",
+          "placement": "Bottom of Poster",
+          "approx_size": "~8 ft wide x 0.5 ft tall",
+          "purpose": "Encourage contemplation of future innovations with a thought-provoking question and modern wheel silhouette.",
+          "format": "Generative AI Artwork or Hand-Drawn",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "id": "img_reflection_banner",
+          "local_filename": null
+        },
+        {
+          "id": "img_callout_domestication_of_horses",
+          "content_type": "Domestication of Horses Callout Image",
+          "placement": "Bottom-left callout (near Domestication of Horses text)",
+          "approx_size": "~1 ft wide x 0.75 ft tall (est.)",
+          "purpose": "Visual anchor for the 'Domestication of Horses' copy block (e.g., steppe horse + rider silhouette or Neolithic horse harness).",
+          "format": "Generative AI Artwork or line art",
+          "ai_friendly": "Yes",
+          "notes": "Not yet linked in spreadsheet; placeholder for future asset.",
+          "source_url": null,
+          "local_filename": null,
+          "status": "missing"
+        }
+      ]
+    },
+    "layout": {
+      "layout_concept": "Wheel-and-spokes infographic. Hero image in top half; central hub + spoke wedges in lower half; supplemental callouts at edges; reflection banner at bottom.",
+      "regions": [
+        {
+          "id": "region_header",
+          "role": "header",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_title"
+            }
+          ]
+        },
+        {
+          "id": "region_hero",
+          "role": "hero",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_hero_cart_scene"
+            }
+          ]
+        },
+        {
+          "id": "region_wheel",
+          "role": "infographic",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_hub_label",
+              "role": "hub"
+            },
+            {
+              "type": "group",
+              "role": "spokes",
+              "items": [
+                {
+                  "id": "spoke_agriculture",
+                  "order": 1,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_agriculture",
+                  "image_ref": "img_spoke_agriculture",
+                  "placement": "Wheel Infographic - Spoke 1"
+                },
+                {
+                  "id": "spoke_trade",
+                  "order": 2,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_trade",
+                  "image_ref": "img_spoke_trade",
+                  "placement": "Wheel Infographic - Spoke 2"
+                },
+                {
+                  "id": "spoke_warfare",
+                  "order": 3,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_warfare",
+                  "image_ref": "img_spoke_warfare",
+                  "placement": "Wheel Infographic - Spoke 3"
+                },
+                {
+                  "id": "spoke_urbanization",
+                  "order": 4,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_urbanization",
+                  "image_ref": "img_spoke_urbanization",
+                  "placement": "Wheel Infographic - Spoke 4"
+                },
+                {
+                  "id": "spoke_social_stratification",
+                  "order": 5,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_social_stratification",
+                  "image_ref": "img_spoke_social_stratification",
+                  "placement": "Wheel Infographic - Spoke 5"
+                },
+                {
+                  "id": "spoke_cultural_exchange",
+                  "order": 6,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_cultural_exchange",
+                  "image_ref": "img_spoke_cultural_exchange",
+                  "placement": "Wheel Infographic - Spoke 6"
+                },
+                {
+                  "id": "spoke_technological_legacy",
+                  "order": 7,
+                  "role": "spoke",
+                  "text_ref": "txt_spoke_technological_legacy",
+                  "image_ref": "img_spoke_technological_legacy",
+                  "placement": "Wheel Infographic - Spoke 7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "region_callouts",
+          "role": "supporting_callouts",
+          "components": [
+            {
+              "id": "callout_simple_machines",
+              "role": "callout_optional",
+              "text_ref": "txt_callout_simple_machines",
+              "image_ref": "img_callout_simple_machines",
+              "placement": "Bottom-right callout"
+            },
+            {
+              "id": "callout_domestication_of_horses",
+              "role": "callout",
+              "text_ref": "txt_callout_domestication_of_horses",
+              "image_ref": "img_callout_domestication_of_horses",
+              "placement": "Bottom-left callout"
+            },
+            {
+              "id": "callout_before_after",
+              "role": "callout",
+              "text_ref": "txt_callout_before_after",
+              "image_ref": "img_callout_before_after",
+              "placement": "Side Panel"
+            },
+            {
+              "id": "callout_horse_vs_oxen",
+              "role": "callout",
+              "text_ref": "txt_callout_horse_vs_oxen",
+              "image_ref": "img_callout_horse_vs_oxen",
+              "placement": "Side Note Image"
+            },
+            {
+              "id": "footer_reflection_banner",
+              "role": "footer",
+              "text_ref": null,
+              "image_ref": "img_reflection_banner",
+              "placement": "Bottom of Poster"
+            }
+          ]
+        }
+      ],
+      "reading_order": [
+        "txt_title",
+        "img_hero_cart_scene",
+        "txt_hub_label",
+        "txt_spoke_agriculture",
+        "txt_spoke_trade",
+        "txt_spoke_warfare",
+        "txt_spoke_urbanization",
+        "txt_spoke_social_stratification",
+        "txt_spoke_cultural_exchange",
+        "txt_spoke_technological_legacy",
+        "txt_callout_domestication_of_horses",
+        "txt_callout_simple_machines",
+        "txt_callout_before_after",
+        "txt_callout_horse_vs_oxen"
+      ]
+    },
+    "designer_guidance": {
+      "design_objectives_and_summary": "This exhibit explores how the wheeled axle and the domestication of the horse revolutionized work, mobility, and civilization in ancient Europe. Using the metaphor of a wheel with spokes, the display highlights the transformative impacts of this innovation across different aspects of society, from agriculture to trade and warfare. The exhibit will visually represent these “spokes of change” radiating from the central invention of the wheel, illustrating how simple tools can have far-reaching consequences. While additional simple machines like levers and pulleys can be included as side notes, they should remain supplementary, emphasizing their connection to the broader theme of innovation. This optional section could hint at future expansions related to the Industrial Revolution.",
+      "key_design_objectives": {
+        "Hero Imagery": [
+          "A Cucuteni-Trypillia cart in motion, with horses or oxen pulling it through a Neolithic landscape.",
+          "Include an expansive backdrop of the European steppe, suggesting the spread of wheeled carts and horses."
+        ],
+        "Spokes of Change": [],
+        "The exhibit’s core design will feature a wheel-shaped infographic, with spokes radiating outward, each representing a key area transformed by the wheeled axle": [
+          "Agriculture",
+          "Trade",
+          "Warfare",
+          "Urbanization",
+          "Social Stratification",
+          "Cultural Exchange",
+          "Technological Legacy"
+        ],
+        "Optional Simple Machines Section": [
+          "Briefly note how the wheeled axle relates to other simple machines like the lever or inclined plane, emphasizing their shared role in mechanical innovation."
+        ]
+      },
+      "essential_knowledge": {
+        "wheeled_axle": {
+          "Origins": [
+            "Invented around 3500 BCE in Mesopotamia, the wheeled axle reached Europe via migration and trade.",
+            "Early wheels were made of solid wood; later, spoked wheels improved speed and efficiency."
+          ],
+          "Functionality": [
+            "The wheel and axle combined to reduce friction, making it easier to move heavy loads.",
+            "It became a versatile tool for work, travel, and innovation.",
+            "Visual Suggestion: A detailed image of an early solid wooden wheel with annotations explaining its construction and evolution into spoked designs.",
+            "Caption: \"The wheel’s simple mechanics sparked profound change.\""
+          ]
+        },
+        "spokes_of_change": [
+          {
+            "name": "Agriculture",
+            "description": [
+              "Wheeled carts allowed farmers to transport larger loads of crops and tools, increasing efficiency and productivity.",
+              "Enabled the development of larger agricultural settlements."
+            ],
+            "visual_suggestion": "A cart laden with grain, pulled by oxen across a farmed landscape.",
+            "caption": "\"Moving the harvest: The wheel’s role in feeding civilization.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Trade",
+            "description": [
+              "The wheel made it possible to transport goods across long distances, connecting regions and fostering economic growth.",
+              "Facilitated the rise of trade routes and marketplaces."
+            ],
+            "visual_suggestion": "A merchant caravan with wheeled carts carrying goods like pottery or textiles.",
+            "caption": "\"Carrying commerce: How wheels connected communities.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Warfare",
+            "description": [
+              "The invention of spoked wheels enabled the creation of chariots, revolutionizing ancient combat with speed and maneuverability.",
+              "Chariots became symbols of power and prestige, used in ceremonies and battle."
+            ],
+            "visual_suggestion": "A depiction of an ancient battle scene featuring horse-drawn chariots.",
+            "caption": "\"Wheels of war: Transforming the battlefield.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Urbanization",
+            "description": [
+              "Wheeled transport facilitated the movement of construction materials, enabling the building of larger, more complex cities.",
+              "Supported urban centers by streamlining the delivery of food and goods."
+            ],
+            "visual_suggestion": "A cityscape under construction, with wheeled carts carrying stone blocks.",
+            "caption": "\"Building the future: The wheel’s role in shaping cities.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Social Stratification",
+            "description": [
+              "Wheeled vehicles like chariots and elaborate carts became symbols of wealth and status.",
+              "Control of these tools often correlated with increased political and economic power."
+            ],
+            "visual_suggestion": "A noble figure riding in a richly adorned chariot.",
+            "caption": "\"Wheels of power: Mobility as a marker of status.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Cultural Exchange",
+            "description": [
+              "The mobility provided by wheels and horses allowed ideas, technologies, and cultural practices to spread across regions.",
+              "Early trade routes became conduits for knowledge and innovation."
+            ],
+            "visual_suggestion": "A map showing the spread of wheeled carts and horse domestication from the steppe to Europe, with arrows marking key trade routes.",
+            "caption": "\"Pathways of progress: How wheels and horses spread innovation.\"",
+            "optional_note": null
+          },
+          {
+            "name": "Technological Legacy",
+            "description": [
+              "The wheel and axle became the foundation for other innovations, from water mills to modern vehicles.",
+              "These simple machines laid the groundwork for future breakthroughs in engineering and mechanics."
+            ],
+            "visual_suggestion": "A graphic of interconnected simple machines, with the wheel and axle at the center.",
+            "caption": "\"The wheel’s legacy: A cornerstone of mechanical innovation.\"",
+            "optional_note": "Briefly highlight the connection between the wheel and other simple machines (e.g., pulleys, levers), which later became essential for industrialization."
+          }
+        ]
+      },
+      "comparative_and_reflective_elements": {
+        "Before and After the Wheel": [
+          "Before: Sledges and human labor limited movement and productivity.",
+          "After: Carts and chariots increased efficiency, speed, and connectivity."
+        ],
+        "Horse vs. Oxen": [
+          "Oxen were stronger but slower, ideal for heavy agricultural loads.",
+          "Horses provided speed and endurance, excelling in trade and warfare."
+        ],
+        "Spokes in the Wheel of Progress": [
+          "The wheeled axle’s influence radiates into every aspect of civilization, from ancient innovations to modern industrialization."
+        ]
+      },
+      "image_suggestions": [
+        "Hero Image: A Cucuteni-Trypillia cart pulled by horses or oxen, with an expansive steppe or agricultural landscape.\nCaption: \"Turning civilization forward: The wheel’s enduring journey.\"",
+        "Spokes of Change Graphic: A wheel-shaped infographic, with each spoke representing a transformative impact (e.g., agriculture, trade, warfare, urbanization).\nCaption: \"The wheel of progress: Radiating change through every aspect of life.\"",
+        "Spread Map: A map showing the diffusion of wheeled carts and horse domestication from the Eurasian steppe to Europe and beyond.\nCaption: \"Innovation in motion: How the wheel connected the ancient world.\"",
+        "Technological Legacy: A diagram comparing the wheel to other simple machines, tying them to modern tools and vehicles.\nCaption: \"Building on the wheel: The roots of mechanical ingenuity.\""
+      ],
+      "capturing_the_mood": "The exhibit should evoke a sense of momentum and transformation, emphasizing how a single innovation like the wheel can send ripples through society, reshaping work, mobility, and culture. By using the spokes of change as a guiding metaphor, visitors will gain a comprehensive understanding of the wheel’s far-reaching impacts while appreciating its enduring relevance."
+    },
+    "provenance": {
+      "source_files": {
+        "concept_image": {
+          "filename": "europe ci concept.jpg",
+          "sha256": "e927cba6a2bf13e6942310fdbb29da3b8df76659b8e98286ca54b97b0723f792",
+          "size_bytes": 899135
+        },
+        "ci_text_docx": {
+          "filename": "Europe CI text.docx",
+          "sha256": "a0d895f28babccbf18eeb23a6b9a0e92a752af614f382c600b5167328f814a99",
+          "size_bytes": 7856
+        },
+        "main_feature_docx": {
+          "filename": "Europe Main Feature.docx",
+          "sha256": "e173cadffabfc41b5fbfe0067ab94c42692cf3ab17f5fbf1c00ad5c6b1e6abc6",
+          "size_bytes": 12016
+        },
+        "design_help_xlsx": {
+          "filename": "Europe MF Design help.xlsx",
+          "sha256": "3b08ae668713f90a03705cabb20995fb095d85102a6c601903f182db314bef2e",
+          "size_bytes": 9589
+        }
+      }
+    }
+  }
+}

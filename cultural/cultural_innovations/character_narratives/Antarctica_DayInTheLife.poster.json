@@ -1,0 +1,1387 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:23Z",
+    "version": 1,
+    "input_relpath": "cultural/character narratives/Antarctica_DayInTheLife.poster.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__character_narratives__antarctica__antarctica_dayinthelife_poster",
+    "derived_id": "cultural__character_narratives__antarctica__antarctica_dayinthelife_poster",
+    "continent": "antarctica",
+    "domain": "cultural",
+    "poster_family": "character_narratives",
+    "filename": "Antarctica_DayInTheLife.poster.json"
+  },
+  "tags": {
+    "continent": [
+      "antarctica"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "character_narratives"
+    ],
+    "flat": [
+      "continent:antarctica",
+      "domain:cultural",
+      "poster_family:character_narratives"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/character narratives/Antarctica_DayInTheLife.poster.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff.atlastrail.poster.v1",
+    "generated_utc": "2025-12-29T00:16:33+00:00",
+    "poster": {
+      "poster_id": "ANT_DAY_IN_LIFE",
+      "continent": "Antarctica",
+      "poster_type": "day_in_the_life",
+      "display_title": "A Day In The Life.",
+      "theme_title": "Lives at the Cold Edge",
+      "size_in": {
+        "width": 96.0,
+        "height": 60.0,
+        "orientation": "landscape"
+      },
+      "layout_template": {
+        "template_name": "DayInTheLife_v1",
+        "units": "in",
+        "poster_size": {
+          "width": 96.0,
+          "height": 60.0,
+          "orientation": "landscape"
+        },
+        "notes": "Layout based on the Africa_ADayInTheLife.jpg draft (layout reference only; character content populated from new_prompts.xlsx + Antarctica.docx).",
+        "margins": {
+          "left": 1.0,
+          "right": 1.0,
+          "top": 1.0,
+          "bottom": 1.0
+        },
+        "header": {
+          "title_text": "A Day In The Life.",
+          "x": 1.5,
+          "y": 0.8,
+          "w": 55.0,
+          "h": 4.8,
+          "style": "Title_Script",
+          "notes": "Handwritten/script title at top-left over a muted world-map background."
+        },
+        "content": {
+          "y_start": 6.5,
+          "row_gap": 0.5,
+          "rows": 3,
+          "left_info_panel": {
+            "w": 22.0,
+            "inner_padding": 0.6
+          },
+          "grid": {
+            "columns": 6,
+            "col_gap": 1.0,
+            "image_size": 11.0,
+            "caption_height": 4.5,
+            "caption_style": "Caption_Sans_Small",
+            "image_style": "Image_With_Thin_White_Border",
+            "notes": "Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption."
+          }
+        }
+      },
+      "source_files": {
+        "captions": {
+          "file": "new_prompts.xlsx",
+          "sheet": "Antarctica",
+          "column_used": "Option B – 1st Person",
+          "path": "/mnt/data/new_prompts.xlsx"
+        },
+        "prompts_and_image_links": {
+          "file": "Antarctica.docx",
+          "path": "/mnt/data/Antarctica.docx"
+        },
+        "research_keywords": {
+          "file": "character narratives.docx",
+          "path": "/mnt/data/character narratives.docx"
+        }
+      },
+      "characters": [
+        {
+          "character_id": "ANT_KIRI",
+          "name": "Kiri",
+          "country": "Antarctica",
+          "role_or_culture": "Sled Dog (1950s Outpost)",
+          "flag": {
+            "emoji": "🇦🇶",
+            "iso2": "AQ"
+          },
+          "label": {
+            "headline": "Kiri",
+            "subhead": "A Sled Dog at an Antarctic Outpost",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Kiri is a sled dog living at an Antarctic research outpost in the mid‑20th century, working with handlers and a team of dogs to haul supplies across snowfields and sea ice.",
+          "style_reference_image_url": "https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I stretch in straw, sniff icy air, and listen for my handler’s crunching boots.",
+              "image": {
+                "asset_id": "ANT_KIRI_S01",
+                "url": "https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png",
+                "recommended_filename": "ANT_KIRI_S01.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Antarctic research outpost kennels, 1950s season (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Antarctic research outpost kennels, 1950s season; sled dog Kiri stands alert in rime‑frosted straw near wooden dog boxes and a stacked wooden sled; medium framing; eye‑line past camera toward approaching handlers with calm, eager focus; clear cultural anchors: leather X‑back harness with brass buckles, tin pail of fish, hemp lead line, wooden runners; environmental cues: blue hour pre‑dawn, katabatic breeze, snow crystals glittering; motion cues: breath mist, tail twitch, strap sway; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1250, 1/250 s; lighting: pre‑dawn cool ambient with lantern rimlight; vintage 1950s Kodachrome warmth, subtle grain, gentle vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Antarctic research outpost kennels, 1950s season",
+                  "sled dog Kiri stands alert in rime‑frosted straw near wooden dog boxes and a stacked wooden sled"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 1: Antarctic research outpost kennels, 1950s season; sled dog Kiri stands alert in rime‑frosted straw near wooden dog boxes and a stacked wooden sled; medium framing; eye‑line past camera toward approaching handlers with calm, eager focus; clear cultural anchors: leather X‑back harness with brass buckles, tin pail of fish, hemp lead line, wooden runners; environmental cues: blue hour pre‑dawn, katabatic breeze, snow crystals glittering; motion cues: breath mist, tail twitch, strap sway; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1250, 1/250 s; lighting: pre‑dawn cool ambient with lantern rimlight; vintage 1950s Kodachrome warmth, subtle grain, gentle vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 1: Antarctic research outpost kennels, 1950s season; sled dog Kiri stands alert in rime‑frosted straw near wooden dog boxes and a stacked wooden sled; medium framing; eye‑line past camera toward approaching handlers with calm, eager focus; clear cultural anchors: leather X‑back harness with brass buckles, tin pail of fish, hemp lead line, wooden runners; environmental cues: blue hour pre‑dawn, katabatic breeze, snow crystals glittering; motion cues: breath mist, tail twitch, strap sway; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1250, 1/250 s; lighting: pre‑dawn cool ambient with lantern rimlight; vintage 1950s Kodachrome warmth, subtle grain, gentle vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Pre-Dawn Kennels",
+                "visual_description": "The sky is still dark, with a faint bluish glow on the horizon. Wooden kennels line a snowy clearing near a small research hut. Kiri, a sturdy sled dog with thick, frost-tipped fur and a leather collar, stands at the entrance of his kennel. Surrounding him are other dogs, some curled up, others yawning. A handler’s silhouette is visible in the distance, lantern in hand. You can see Kiri’s breath in the cold air, and a line of sleds half-buried in snow behind him.",
+                "what_happening": "It’s early morning in Antarctica, and the research station is quiet except for the soft whimpers of sled dogs waking up. Kiri is stretching and sniffing the air, aware that the humans will soon come with food. He senses their mood even before they arrive, noticing how they move more carefully in the dim light. The calm before the day’s journey sets a patient, expectant tone.",
+                "accompanying_text": "Kiri wakes up in the dark morning air. He sniffs the snow and watches for the humans who bring food. Soon, he will run across the ice with his team."
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Buckles tighten on my fur; a soft pat tells me it is time to run.",
+              "image": {
+                "asset_id": "ANT_KIRI_S02",
+                "url": "https://cdn.midjourney.com/ebae250e-cbd9-4cf8-a87a-43b83b239ca6/0_0.png",
+                "recommended_filename": "ANT_KIRI_S02.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Snowfield staging area (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Snowfield staging area; handlers check Kiri’s harness and tuglines while sleds are loaded with canvas‑wrapped crates; medium shot; eye‑line forward down‑trail with steady anticipation; cultural anchors: waxed‑canvas duffels, fish‑oil tin, wooden snow stakes; environmental cues: pale morning light, diamond‑dust glitter; motion cues: paw shuffle, line tautening; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 400, 1/500 s; lighting: cool morning sidelight with soft overcast; 1950s Kodachrome warmth, subtle grain, slight edge falloff; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Snowfield staging area",
+                  "handlers check Kiri’s harness and tuglines while sleds are loaded with canvas‑wrapped crates"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 2: Snowfield staging area; handlers check Kiri’s harness and tuglines while sleds are loaded with canvas‑wrapped crates; medium shot; eye‑line forward down‑trail with steady anticipation; cultural anchors: waxed‑canvas duffels, fish‑oil tin, wooden snow stakes; environmental cues: pale morning light, diamond‑dust glitter; motion cues: paw shuffle, line tautening; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 400, 1/500 s; lighting: cool morning sidelight with soft overcast; 1950s Kodachrome warmth, subtle grain, slight edge falloff; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/ebae250e-cbd9-4cf8-a87a-43b83b239ca6/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 140",
+                "prompt_clean": "Scene 2: Snowfield staging area; handlers check Kiri’s harness and tuglines while sleds are loaded with canvas‑wrapped crates; medium shot; eye‑line forward down‑trail with steady anticipation; cultural anchors: waxed‑canvas duffels, fish‑oil tin, wooden snow stakes; environmental cues: pale morning light, diamond‑dust glitter; motion cues: paw shuffle, line tautening; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 400, 1/500 s; lighting: cool morning sidelight with soft overcast; 1950s Kodachrome warmth, subtle grain, slight edge falloff; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Harnessed and Ready",
+                "visual_description": "Pale morning light now reveals a broad expanse of ice and snow. Kiri and several other dogs stand in a line, each harnessed to a sled. Metal runners gleam, and leather harness straps contrast with the white surroundings. Two humans in heavy parkas kneel, adjusting buckles and speaking softly to the dogs. A few fuel drums and supply crates stand stacked nearby, indicating an expedition about to depart.",
+                "what_happening": "Kiri feels the humans’ hands on his harness, checking everything twice. The sled is loaded with gear: food, tools, and scientific instruments. The dogs stomp the snow, eager to move. Quiet words between the handlers suggest careful planning: they’re heading out to place supplies at a distant depot or survey the landscape. Kiri can tell it’s an important run—he senses their tension and excitement.",
+                "accompanying_text": "Kiri stands still as the humans fit his harness. He can feel their careful hands and gentle words. Soon, he will pull the sled across the snowy land."
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Wind whistles past my ears; I lead the pack, tracks streaking behind like ribbon.",
+              "image": {
+                "asset_id": "ANT_KIRI_S03",
+                "url": "https://cdn.midjourney.com/3d254822-813a-40e8-9373-f75e0d56ad21/0_3.png",
+                "recommended_filename": "ANT_KIRI_S03.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Low angle beside the sled team (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Low angle beside the sled team; Kiri leads across hard‑packed sastrugi, route flags receding; medium‑wide; eye‑line locked on distant marker with determined energy; anchors: leather traces, wooden sled, snow goggles on musher, rope coils; environment: mid‑day clarity, long horizon, wind‑etched snow; motion cues: kicked snow flecks, taut traces, runner spray; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/2000 s; lighting: crisp high sun with slight backlight flare; 1950s Kodachrome warmth, fine grain, mild vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Low angle beside the sled team",
+                  "Kiri leads across hard‑packed sastrugi, route flags receding",
+                  "leather traces",
+                  "wooden sled",
+                  "snow goggles on musher"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 3: Low angle beside the sled team; Kiri leads across hard‑packed sastrugi, route flags receding; medium‑wide; eye‑line locked on distant marker with determined energy; anchors: leather traces, wooden sled, snow goggles on musher, rope coils; environment: mid‑day clarity, long horizon, wind‑etched snow; motion cues: kicked snow flecks, taut traces, runner spray; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/2000 s; lighting: crisp high sun with slight backlight flare; 1950s Kodachrome warmth, fine grain, mild vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/3d254822-813a-40e8-9373-f75e0d56ad21/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 3: Low angle beside the sled team; Kiri leads across hard‑packed sastrugi, route flags receding; medium‑wide; eye‑line locked on distant marker with determined energy; anchors: leather traces, wooden sled, snow goggles on musher, rope coils; environment: mid‑day clarity, long horizon, wind‑etched snow; motion cues: kicked snow flecks, taut traces, runner spray; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/2000 s; lighting: crisp high sun with slight backlight flare; 1950s Kodachrome warmth, fine grain, mild vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "On the Trail",
+                "visual_description": "The sled team glides across an open plain of endless white, under a sky washed with pale light. Kiri, front and center, leads the dog line. Snow sprays under their paws. In the background, low hills and distant mountains break the horizon. The humans stand behind the sled, leaning forward, their breath visible. Tracks stretch behind them, the only sign of life in this frozen world.",
+                "what_happening": "The dogs are in motion, pulling smoothly over hard-packed snow. Kiri’s senses are sharp: the crunch of ice, the creak of the sled, the quiet words exchanged behind him. He notices flags planted in the ice, likely route markers. The humans trust the dogs’ strength and rhythm. Everything feels purposeful, as if each pawstep brings the team closer to their goal.",
+                "accompanying_text": "Kiri runs with his pack, pulling the sled through silent snow. The world feels huge and empty, but he is strong, and the humans follow his lead."
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I gobble a fish bite, tail wagging, while the humans sip warmth and study maps.",
+              "image": {
+                "asset_id": "ANT_KIRI_S04",
+                "url": "https://cdn.midjourney.com/462b2908-1630-4727-8a21-abb6e9178881/0_3.png",
+                "recommended_filename": "ANT_KIRI_S04.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Trail rest (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Trail rest; Kiri stands while handlers sip from tin mugs; a gloved hand offers a small fish bite; medium shot; eye‑line to the handler’s hand with relaxed contentment; anchors: enamel mugs, paraffin stove, canvas roll; environment: high thin clouds, sun dog halo; motion cues: vapor drift, flag flicker; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 320, 1/640 s; lighting: bright but soft mid‑day with rim from snow bounce; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Trail rest",
+                  "Kiri stands while handlers sip from tin mugs",
+                  "enamel mugs",
+                  "paraffin stove",
+                  "canvas roll"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 4: Trail rest; Kiri stands while handlers sip from tin mugs; a gloved hand offers a small fish bite; medium shot; eye‑line to the handler’s hand with relaxed contentment; anchors: enamel mugs, paraffin stove, canvas roll; environment: high thin clouds, sun dog halo; motion cues: vapor drift, flag flicker; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 320, 1/640 s; lighting: bright but soft mid‑day with rim from snow bounce; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/462b2908-1630-4727-8a21-abb6e9178881/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 4: Trail rest; Kiri stands while handlers sip from tin mugs; a gloved hand offers a small fish bite; medium shot; eye‑line to the handler’s hand with relaxed contentment; anchors: enamel mugs, paraffin stove, canvas roll; environment: high thin clouds, sun dog halo; motion cues: vapor drift, flag flicker; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 320, 1/640 s; lighting: bright but soft mid‑day with rim from snow bounce; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Short Break",
+                "visual_description": "The sled team has stopped near a low ridge of ice. Humans crouch by a small stove, steam rising as they melt snow for a hot drink. Kiri and the other dogs stand or lie down, their breath forming clouds. One human offers a piece of pemmican to a dog, while another checks a map spread on a crate. The light is brighter now, revealing subtle blues and purples in the ice.",
+                "what_happening": "A brief rest: humans refuel with warm beverages, sharing quiet conversation about their position and the weather. Kiri rests too, ears perked, hoping for a treat. He notes the humans’ relaxed tones—things are going as planned. The stillness highlights how important these breaks are for morale and energy.",
+                "accompanying_text": "Kiri stands still while the humans sip hot drinks. He tastes a bit of food and feels happy. Soon, they will keep moving."
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I spot home and pull harder—warm smells and friendly pats are almost here.",
+              "image": {
+                "asset_id": "ANT_KIRI_S05",
+                "url": "https://cdn.midjourney.com/d7147773-9e01-410d-99b2-d2a6797a4532/0_1.png",
+                "recommended_filename": "ANT_KIRI_S05.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Outpost huts ahead (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Outpost huts ahead; Kiri trots in, tail high; medium framing; eye‑line briefly to lens with proud, happy brightness; anchors: corrugated huts, stacked fuel drums, sled propped in snow; environment: afternoon light warming, gentle drift; motion cues: trotting paw blur, collar jingle implication; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/800 s; lighting: warm afternoon with slight flare; 1950s Kodachrome warmth, subtle grain, light vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Outpost huts ahead",
+                  "Kiri trots in, tail high",
+                  "corrugated huts",
+                  "stacked fuel drums",
+                  "sled propped in snow"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 5: Outpost huts ahead; Kiri trots in, tail high; medium framing; eye‑line briefly to lens with proud, happy brightness; anchors: corrugated huts, stacked fuel drums, sled propped in snow; environment: afternoon light warming, gentle drift; motion cues: trotting paw blur, collar jingle implication; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/800 s; lighting: warm afternoon with slight flare; 1950s Kodachrome warmth, subtle grain, light vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/d7147773-9e01-410d-99b2-d2a6797a4532/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 140",
+                "prompt_clean": "Scene 5: Outpost huts ahead; Kiri trots in, tail high; medium framing; eye‑line briefly to lens with proud, happy brightness; anchors: corrugated huts, stacked fuel drums, sled propped in snow; environment: afternoon light warming, gentle drift; motion cues: trotting paw blur, collar jingle implication; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 200, 1/800 s; lighting: warm afternoon with slight flare; 1950s Kodachrome warmth, subtle grain, light vignette; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Return to Base",
+                "visual_description": "The station buildings come into view: small huts and antennae rising from a white desert. The sled glides downhill, dogs trotting steadily. The sun is low, casting long shadows, turning ice into a pastel landscape. A few humans outside the station wave as the team approaches, equipment rattling softly.",
+                "what_happening": "Kiri senses relief in the humans—the day’s objective must have been met. They covered ground, placed supplies, or gathered data. Now they return, tired but satisfied. Kiri feels proud, tail up, knowing he helped. The approaching station means warmth, rest, and familiar scents.",
+                "accompanying_text": "Kiri sees the huts and knows home is near. The humans seem glad. He has done his job well."
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I nestle down, muscles tired but happy, dreaming of tomorrow’s snowy trail.",
+              "image": {
+                "asset_id": "ANT_KIRI_S06",
+                "url": "",
+                "recommended_filename": "ANT_KIRI_S06.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Kiri: Kennel interior glow (Antarctica).",
+                "ref_asset_id": "ANT_KIRI_S05",
+                "link_status": "duplicate_sref_in_source_or_inputs"
+              },
+              "image_description": {
+                "from_mj_prompt": "Kennel interior glow; Kiri curls into straw while wind ruffles the canvas door; medium shot; eye‑line down and restful with contented calm; anchors: straw bed, leather collar tag, hung harness drying; environment: blue hour outside, tungsten lantern inside; motion cues: lantern sway, slow breath fog; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1600, 1/125 s; lighting: mixed cool exterior + warm lantern, soft falloff; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Kennel interior glow",
+                  "Kiri curls into straw while wind ruffles the canvas door",
+                  "straw bed",
+                  "leather collar tag",
+                  "hung harness drying"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 6: Kennel interior glow; Kiri curls into straw while wind ruffles the canvas door; medium shot; eye‑line down and restful with contented calm; anchors: straw bed, leather collar tag, hung harness drying; environment: blue hour outside, tungsten lantern inside; motion cues: lantern sway, slow breath fog; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1600, 1/125 s; lighting: mixed cool exterior + warm lantern, soft falloff; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/d7147773-9e01-410d-99b2-d2a6797a4532/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 140",
+                "prompt_clean": "Scene 6: Kennel interior glow; Kiri curls into straw while wind ruffles the canvas door; medium shot; eye‑line down and restful with contented calm; anchors: straw bed, leather collar tag, hung harness drying; environment: blue hour outside, tungsten lantern inside; motion cues: lantern sway, slow breath fog; Camera: Sony A9 III, FE 35 mm f/1.4 GM, ISO 1600, 1/125 s; lighting: mixed cool exterior + warm lantern, soft falloff; 1950s Kodachrome warmth, subtle grain; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Evening Kennel",
+                "visual_description": "Inside a makeshift kennel shelter, lamplight glows. Snow piles against wooden walls. Kiri curls in straw bedding, other dogs settling in. Outside, the Antarctic wind hums. A human looks in, smiling and dropping a chunk of dried fish. The air is warmer here, safe and calm.",
+                "what_happening": "The work done, the team rests. Kiri relaxes, muscles tired, belly full. He hears distant laughter, maybe some celebration among the humans. He ponders their strange ways and equipment, but appreciates their kindness and purpose. The pack sleeps soundly, bonded by shared effort.",
+                "accompanying_text": "Kiri rests in his straw bed. Outside, the wind blows, but inside it is safe. He closes his eyes, dreaming of tomorrow’s run."
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "ANT_HAROLD_FLETCHER",
+          "name": "Harold Fletcher",
+          "country": "Antarctica",
+          "role_or_culture": "Heroic-Age Explorer",
+          "flag": {
+            "emoji": "🇦🇶",
+            "iso2": "AQ"
+          },
+          "label": {
+            "headline": "Harold Fletcher",
+            "subhead": "A Heroic-Age Antarctic Explorer",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Harold Fletcher is a Heroic‑Age Antarctic explorer, balancing navigation, weather observations, and camp survival tasks in the era of early polar expeditions.",
+          "style_reference_image_url": "https://cdn.midjourney.com/6ae1d8c8-e6e2-43e2-8650-d86832a7009a/0_3.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I jot the icy wind in my log, boots crunching in the half-dark.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S01",
+                "url": "https://cdn.midjourney.com/6ae1d8c8-e6e2-43e2-8650-d86832a7009a/0_3.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S01.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Heroic‑Age Antarctic camp (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Heroic‑Age Antarctic camp; Harold notes wind and temperature at a simple weather rack, jotting in a small field journal; medium shot; eye‑line toward vane with steady resolve; anchors: wool sweater, canvas anorak, hobnail boots, brass thermometer, pencil log; environment: pre‑dawn cobalt, stove smoke ribbon; motion cues: page edge flutter, thin flag twitch; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 1250, 1/200 s; lighting: lantern key plus cool ambient; Autochrome‑style pastel color, slight halation, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Heroic‑Age Antarctic camp",
+                  "Harold notes wind and temperature at a simple weather rack, jotting in a small field journal",
+                  "wool sweater",
+                  "canvas anorak",
+                  "hobnail boots"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 1: Heroic‑Age Antarctic camp; Harold notes wind and temperature at a simple weather rack, jotting in a small field journal; medium shot; eye‑line toward vane with steady resolve; anchors: wool sweater, canvas anorak, hobnail boots, brass thermometer, pencil log; environment: pre‑dawn cobalt, stove smoke ribbon; motion cues: page edge flutter, thin flag twitch; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 1250, 1/200 s; lighting: lantern key plus cool ambient; Autochrome‑style pastel color, slight halation, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/6ae1d8c8-e6e2-43e2-8650-d86832a7009a/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/6ae1d8c8-e6e2-43e2-8650-d86832a7009a/0_3.png --ow 140",
+                "prompt_clean": "Scene 1: Heroic‑Age Antarctic camp; Harold notes wind and temperature at a simple weather rack, jotting in a small field journal; medium shot; eye‑line toward vane with steady resolve; anchors: wool sweater, canvas anorak, hobnail boots, brass thermometer, pencil log; environment: pre‑dawn cobalt, stove smoke ribbon; motion cues: page edge flutter, thin flag twitch; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 1250, 1/200 s; lighting: lantern key plus cool ambient; Autochrome‑style pastel color, slight halation, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Pre-Dawn Watch",
+                "visual_description": "A canvas tent on the Antarctic plateau, lit faintly by a lantern inside. Harold stands outside, bundled in thick wool layers, goggles on his forehead. Snow drifts gently. Sledges and supplies are partially buried in snow nearby. The sky glows faintly, hinting at sunrise, but still mostly dark.",
+                "what_happening": "Harold checks a thermometer and wind vane, recording weather data in a small notebook. The rest of the team sleeps inside the tent. He’s thinking about the day’s route—navigating crevasses and collecting geological samples. The silence is complete, except for the crunch of his boots.",
+                "accompanying_text": "Harold stands in the cold morning dim. He notes the wind and temperature in his book. Today will be another step toward discovery."
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Cocoa warms my hands as we whisper plans; the wide ice waits.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S02",
+                "url": "https://cdn.midjourney.com/e2014a17-cad9-42fe-a76c-60caa5168ee3/0_3.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S02.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Canvas hut doorway (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Canvas hut doorway; men share cocoa and hard biscuits beside a compact paraffin stove; medium shot; eye‑line to a companion off‑camera with warm camaraderie; anchors: enamel mugs, biscuit tin, wool caps, canvas packs; environment: morning frost breath, snow‑dusted boots; motion cues: steam curl from mug, stove shimmer; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 800, 1/160 s; lighting: soft morning bounce with warm stove fill; Autochrome color, gentle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Canvas hut doorway",
+                  "men share cocoa and hard biscuits beside a compact paraffin stove",
+                  "enamel mugs",
+                  "biscuit tin",
+                  "wool caps"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 2: Canvas hut doorway; men share cocoa and hard biscuits beside a compact paraffin stove; medium shot; eye‑line to a companion off‑camera with warm camaraderie; anchors: enamel mugs, biscuit tin, wool caps, canvas packs; environment: morning frost breath, snow‑dusted boots; motion cues: steam curl from mug, stove shimmer; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 800, 1/160 s; lighting: soft morning bounce with warm stove fill; Autochrome color, gentle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e2014a17-cad9-42fe-a76c-60caa5168ee3/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/e2014a17-cad9-42fe-a76c-60caa5168ee3/0_3.png --ow 140",
+                "prompt_clean": "Scene 2: Canvas hut doorway; men share cocoa and hard biscuits beside a compact paraffin stove; medium shot; eye‑line to a companion off‑camera with warm camaraderie; anchors: enamel mugs, biscuit tin, wool caps, canvas packs; environment: morning frost breath, snow‑dusted boots; motion cues: steam curl from mug, stove shimmer; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 800, 1/160 s; lighting: soft morning bounce with warm stove fill; Autochrome color, gentle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Team Breakfast",
+                "visual_description": "Inside a canvas tent, a small primus stove flickers. Three men, including Harold, sit on crates, steaming tin mugs in hand. Biscuits and pemmican lay on a cloth. Frost clings to tent ropes. Their breath is visible in lamplight.",
+                "what_happening": "The team shares a simple meal. They discuss the planned route across the ice shelf. Harold listens as the leader reviews map sketches. Everyone’s faces show determination and camaraderie. This quiet ritual fuels their bodies and spirits.",
+                "accompanying_text": "Harold sips hot cocoa and shares dry biscuits. The men talk quietly, planning their long march. Soon, they will face the wide, white land again."
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "My shoulders burn, but I focus on each careful step across forever snow.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S03",
+                "url": "https://cdn.midjourney.com/e34e83bc-cf1a-448d-b6b1-41db9eaf318e/0_3.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S03.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Pulling the sledge across wind‑etched plain (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Pulling the sledge across wind‑etched plain; Harold leans into the rope with careful, deliberate steps; medium‑wide; eye‑line to route staff ahead with disciplined focus; anchors: wood‑and‑canvas sledge, rope traces, ice axe lashed to load; environment: vast white horizon, low scud clouds; motion cues: rope tension, boot crunch, runner spray; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 200, 1/1600 s; lighting: open shade under thin cloud, crisp contrast; Autochrome color, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Pulling the sledge across wind‑etched plain",
+                  "Harold leans into the rope with careful, deliberate steps",
+                  "wood‑and‑canvas sledge",
+                  "rope traces",
+                  "ice axe lashed to load"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 3: Pulling the sledge across wind‑etched plain; Harold leans into the rope with careful, deliberate steps; medium‑wide; eye‑line to route staff ahead with disciplined focus; anchors: wood‑and‑canvas sledge, rope traces, ice axe lashed to load; environment: vast white horizon, low scud clouds; motion cues: rope tension, boot crunch, runner spray; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 200, 1/1600 s; lighting: open shade under thin cloud, crisp contrast; Autochrome color, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e34e83bc-cf1a-448d-b6b1-41db9eaf318e/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/e34e83bc-cf1a-448d-b6b1-41db9eaf318e/0_3.png --ow 140",
+                "prompt_clean": "Scene 3: Pulling the sledge across wind‑etched plain; Harold leans into the rope with careful, deliberate steps; medium‑wide; eye‑line to route staff ahead with disciplined focus; anchors: wood‑and‑canvas sledge, rope traces, ice axe lashed to load; environment: vast white horizon, low scud clouds; motion cues: rope tension, boot crunch, runner spray; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 200, 1/1600 s; lighting: open shade under thin cloud, crisp contrast; Autochrome color, mild vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Marching Across the Ice",
+                "visual_description": "The men haul a heavy sledge across a flat expanse of ice, brilliant under a pale sun. Ropes stretch between them, and each step leaves crisp footprints. A few flags mark previous routes. Mountains loom faintly at the horizon.",
+                "what_happening": "Harnessed to the sledge, Harold leans into his load, muscles straining. The team progresses slowly, scanning for hidden crevasses. Silence and effort define the moment. The landscape’s emptiness reminds Harold of their isolation and the importance of careful navigation.",
+                "accompanying_text": "Harold pulls hard on the rope. Each step is careful and slow. The ice stretches on forever, but they must keep going."
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I chip a stone shard, thinking what secrets this lonely cliff might tell science.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S04",
+                "url": "https://cdn.midjourney.com/a4d437d4-e1b4-43c4-918b-f43f9918ac26/0_0.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S04.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Rock outcrop at snow’s edge (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Rock outcrop at snow’s edge; Harold chips a small fragment and bags it with a paper label; medium shot; eye‑line to the specimen with thoughtful curiosity; anchors: small geology hammer, cloth sample bag, pencil tag, map case; environment: pale sun, katabatic breeze; motion cues: tiny chip flecks, glove fiber movement; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/640 s; lighting: cool sidelight with snow bounce fill; Autochrome color, slight halation; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Rock outcrop at snow’s edge",
+                  "Harold chips a small fragment and bags it with a paper label",
+                  "small geology hammer",
+                  "cloth sample bag",
+                  "pencil tag"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 4: Rock outcrop at snow’s edge; Harold chips a small fragment and bags it with a paper label; medium shot; eye‑line to the specimen with thoughtful curiosity; anchors: small geology hammer, cloth sample bag, pencil tag, map case; environment: pale sun, katabatic breeze; motion cues: tiny chip flecks, glove fiber movement; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/640 s; lighting: cool sidelight with snow bounce fill; Autochrome color, slight halation; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/a4d437d4-e1b4-43c4-918b-f43f9918ac26/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a4d437d4-e1b4-43c4-918b-f43f9918ac26/0_0.png --ow 140",
+                "prompt_clean": "Scene 4: Rock outcrop at snow’s edge; Harold chips a small fragment and bags it with a paper label; medium shot; eye‑line to the specimen with thoughtful curiosity; anchors: small geology hammer, cloth sample bag, pencil tag, map case; environment: pale sun, katabatic breeze; motion cues: tiny chip flecks, glove fiber movement; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/640 s; lighting: cool sidelight with snow bounce fill; Autochrome color, slight halation; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Scientific Task",
+                "visual_description": "They’ve stopped at a rocky outcrop emerging from ice. Harold holds a small hammer, chipping off rock samples. Another member takes notes, while a third adjusts a camera. The sled and gear rest behind them.",
+                "what_happening": "Gathering rock fragments helps scientists back home understand Antarctica’s geology. Harold carefully collects specimens, labeling them. He’s aware that this data will contribute to world maps and scientific papers. It’s a moment connecting their struggle with global knowledge.",
+                "accompanying_text": "Harold taps the rock and saves a piece in a small bag. These stones may teach the world about Earth’s past."
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Biscuit crumbs melt on my tongue while I picture summer grass back home.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S05",
+                "url": "https://cdn.midjourney.com/e2550084-6482-484e-9970-656ed639ebbf/0_1.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S05.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Leeward side of sledge (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Leeward side of sledge; Harold sits with tea, talking softly; medium framing; eye‑line to lens with a gentle, hopeful smile; anchors: canvas mitts, enamel mug, wool blanket, field journal nearby; environment: soft overcast, wind‑carved drift; motion cues: steam curl, blanket edge flutter; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/250 s; lighting: diffuse overcast; Autochrome color, subtle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Leeward side of sledge",
+                  "Harold sits with tea, talking softly",
+                  "canvas mitts",
+                  "enamel mug",
+                  "wool blanket"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 5: Leeward side of sledge; Harold sits with tea, talking softly; medium framing; eye‑line to lens with a gentle, hopeful smile; anchors: canvas mitts, enamel mug, wool blanket, field journal nearby; environment: soft overcast, wind‑carved drift; motion cues: steam curl, blanket edge flutter; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/250 s; lighting: diffuse overcast; Autochrome color, subtle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e2550084-6482-484e-9970-656ed639ebbf/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/e2550084-6482-484e-9970-656ed639ebbf/0_1.png --ow 140",
+                "prompt_clean": "Scene 5: Leeward side of sledge; Harold sits with tea, talking softly; medium framing; eye‑line to lens with a gentle, hopeful smile; anchors: canvas mitts, enamel mug, wool blanket, field journal nearby; environment: soft overcast, wind‑carved drift; motion cues: steam curl, blanket edge flutter; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 400, 1/250 s; lighting: diffuse overcast; Autochrome color, subtle grain; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Short Rest",
+                "visual_description": "Sheltered by a ridge of ice, the men sit, sharing a hot drink from a thermos. One reads a letter from home, another checks a compass. Harold bites a biscuit, tired but calm. The afternoon light is soft, blue shadows stretching across snow.",
+                "what_happening": "This break offers a brief comfort. They talk softly about family, ambitions, and the honor of exploring a place few have seen. Harold contemplates how their work fits into global exploration—maps being redrawn, new routes found.",
+                "accompanying_text": "Harold sits with his friends, sipping warm tea. They talk about home and think of green fields far away."
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "We stake the canvas firm; tired bodies will rest, ready to press on at dawn.",
+              "image": {
+                "asset_id": "ANT_HAROLD_FLETCHER_S06",
+                "url": "https://cdn.midjourney.com/6aea7878-b496-4140-a4bb-06012ec5b1bd/0_3.png",
+                "recommended_filename": "ANT_HAROLD_FLETCHER_S06.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Harold Fletcher: Evening camp (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Evening camp; canvas pyramid tent going up with stout wooden poles; Harold tightens a guyline with steady hands; medium shot; eye‑line to tent corner with focused calm; anchors: timber stakes, hemp rope, snow shovel, canvas packs; environment: low amber sun, long shadows; motion cues: rope twist, fabric ripple; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 320, 1/400 s; lighting: golden‑hour crosslight; Autochrome color, slight vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Evening camp",
+                  "canvas pyramid tent going up with stout wooden poles",
+                  "timber stakes",
+                  "hemp rope",
+                  "snow shovel"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 6: Evening camp; canvas pyramid tent going up with stout wooden poles; Harold tightens a guyline with steady hands; medium shot; eye‑line to tent corner with focused calm; anchors: timber stakes, hemp rope, snow shovel, canvas packs; environment: low amber sun, long shadows; motion cues: rope twist, fabric ripple; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 320, 1/400 s; lighting: golden‑hour crosslight; Autochrome color, slight vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/6aea7878-b496-4140-a4bb-06012ec5b1bd/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/6aea7878-b496-4140-a4bb-06012ec5b1bd/0_3.png --ow 140",
+                "prompt_clean": "Scene 6: Evening camp; canvas pyramid tent going up with stout wooden poles; Harold tightens a guyline with steady hands; medium shot; eye‑line to tent corner with focused calm; anchors: timber stakes, hemp rope, snow shovel, canvas packs; environment: low amber sun, long shadows; motion cues: rope twist, fabric ripple; Camera: Nikon Z f, 50 mm f/1.8 S, ISO 320, 1/400 s; lighting: golden‑hour crosslight; Autochrome color, slight vignette; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Camp Setup",
+                "visual_description": "Evening sunlight slants low. The men pitch tents on flat ice, driving stakes into the snow. The sledge stands nearby, unloaded gear arranged neatly. Thin clouds streak the sky, the sun’s glow persistent in summer’s long daylight.",
+                "what_happening": "Establishing camp provides shelter and safety. Harold checks that the tent ropes are tight, that supplies are secure. He records their coordinates. This nightly routine underscores their progress and resilience. Tomorrow, they move further into the unknown.",
+                "accompanying_text": "Harold sets up the tent with steady hands. They are tired, but safe for the night. Tomorrow, their journey goes on."
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "ANT_DR_MIRIAM_LEE",
+          "name": "Dr. Miriam Lee",
+          "country": "Antarctica",
+          "role_or_culture": "Ice-Core Scientist",
+          "flag": {
+            "emoji": "🇦🇶",
+            "iso2": "AQ"
+          },
+          "label": {
+            "headline": "Dr. Miriam Lee",
+            "subhead": "An Antarctic Ice-Core Scientist",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Dr. Miriam Lee is a contemporary ice‑core scientist stationed in Antarctica, drilling and analyzing cores to reconstruct past climates and improve long‑range climate understanding.",
+          "style_reference_image_url": "https://cdn.midjourney.com/1d9aa81c-9da6-4c2e-aa3d-d7a4cf4c84cc/0_0.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I check each sensor twice; today’s core could reveal centuries hidden in ice.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S01",
+                "url": "https://cdn.midjourney.com/1d9aa81c-9da6-4c2e-aa3d-d7a4cf4c84cc/0_0.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S01.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Antarctic lab bay (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Antarctic lab bay; Miriam checks tools and reads morning data beside an ice corer and labeled crates; medium shot; eye‑line to the instrument panel with focused calm; anchors: safety orange parka, polycarbonate visor, core barrel, data‑log clipboard; environment: early cool light through frosted window; motion cues: paper edge flutter, soft breath haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool window key plus neutral fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Antarctic lab bay",
+                  "Miriam checks tools and reads morning data beside an ice corer and labeled crates",
+                  "safety orange parka",
+                  "polycarbonate visor",
+                  "core barrel"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 1: Antarctic lab bay; Miriam checks tools and reads morning data beside an ice corer and labeled crates; medium shot; eye‑line to the instrument panel with focused calm; anchors: safety orange parka, polycarbonate visor, core barrel, data‑log clipboard; environment: early cool light through frosted window; motion cues: paper edge flutter, soft breath haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool window key plus neutral fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/1d9aa81c-9da6-4c2e-aa3d-d7a4cf4c84cc/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/1d9aa81c-9da6-4c2e-aa3d-d7a4cf4c84cc/0_0.png --ow 140",
+                "prompt_clean": "Scene 1: Antarctic lab bay; Miriam checks tools and reads morning data beside an ice corer and labeled crates; medium shot; eye‑line to the instrument panel with focused calm; anchors: safety orange parka, polycarbonate visor, core barrel, data‑log clipboard; environment: early cool light through frosted window; motion cues: paper edge flutter, soft breath haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool window key plus neutral fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Early Morning Lab Prep",
+                "visual_description": "Inside a modern Antarctic research station lab room. Computers, stainless steel tables, and scientific instruments line the walls. Miriam, wearing a light-blue insulated jacket, checks a drill bit and calibrates sensors on a portable device. Through a window, a bright Antarctic summer sky and snowfields shine.",
+                "what_happening": "Miriam prepares her ice coring equipment, reviewing data and ensuring tools are in top shape. Digital screens show charts, and notes from global collaborators scroll by. She’s aware that each core sample can reveal centuries of climate history.",
+                "accompanying_text": "Miriam checks her tools and reads the morning data. Today, she will drill into the ice to learn about Earth’s past weather."
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "The core slides free—clear, cold, holding whispers of long-gone skies.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S02",
+                "url": "https://cdn.midjourney.com/23a0e8f1-1db6-4d72-bca4-71b87abb2533/0_1.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S02.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Open snowfield drill site (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Open snowfield drill site; Miriam operates a vertical core drill on a tripod, assistants steady the barrel; medium‑wide; eye‑line to the clear core segment with intent concentration; anchors: insulated gloves, sample sleeve, tripod winch, satellite tag case; environment: bright white sky, light ground haze; motion cues: snow dust, cable micro‑vibration; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/1000 s; lighting: high overcast with strong snow bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Open snowfield drill site",
+                  "Miriam operates a vertical core drill on a tripod, assistants steady the barrel",
+                  "insulated gloves",
+                  "sample sleeve",
+                  "tripod winch"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 2: Open snowfield drill site; Miriam operates a vertical core drill on a tripod, assistants steady the barrel; medium‑wide; eye‑line to the clear core segment with intent concentration; anchors: insulated gloves, sample sleeve, tripod winch, satellite tag case; environment: bright white sky, light ground haze; motion cues: snow dust, cable micro‑vibration; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/1000 s; lighting: high overcast with strong snow bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/23a0e8f1-1db6-4d72-bca4-71b87abb2533/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/23a0e8f1-1db6-4d72-bca4-71b87abb2533/0_1.png --ow 140",
+                "prompt_clean": "Scene 2: Open snowfield drill site; Miriam operates a vertical core drill on a tripod, assistants steady the barrel; medium‑wide; eye‑line to the clear core segment with intent concentration; anchors: insulated gloves, sample sleeve, tripod winch, satellite tag case; environment: bright white sky, light ground haze; motion cues: snow dust, cable micro‑vibration; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/1000 s; lighting: high overcast with strong snow bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Drilling Ice Core",
+                "visual_description": "On the ice sheet, a small drilling rig stands anchored by metal supports. Miriam, in bright cold-weather gear, operates a drill that slowly bores into the surface. A colleague stands by with a clipboard. The sun is high, the landscape flat and blindingly white, flags marking their drill site.",
+                "what_happening": "Miriam carefully drills into deep, ancient ice. Each meter of core pulled up is handled with care. She knows trapped air bubbles inside can tell scientists about ancient atmospheres. Every turn of the drill connects this remote spot to global climate understanding.",
+                "accompanying_text": "Miriam’s drill hums softly. She pulls up a long ice core, layer by layer. This frozen record holds secrets of our Earth’s past."
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I trace ash layers with a gloved finger, reading time like lines in a book.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S03",
+                "url": "https://cdn.midjourney.com/564a8c11-650b-466e-bf6d-cbec1975c734/0_3.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S03.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Bench station (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Bench station; Miriam inspects core layers, faint ash bands visible; medium framing with core foreground; eye‑line down‑bench with curious focus; anchors: nitrile gloves, measuring calipers, labeled sample bags, LED light strip; environment: cool lab light, frost on window; motion cues: drifting breath, slight paper curl; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: soft top LEDs and side fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Bench station",
+                  "Miriam inspects core layers, faint ash bands visible",
+                  "nitrile gloves",
+                  "measuring calipers",
+                  "labeled sample bags"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 3: Bench station; Miriam inspects core layers, faint ash bands visible; medium framing with core foreground; eye‑line down‑bench with curious focus; anchors: nitrile gloves, measuring calipers, labeled sample bags, LED light strip; environment: cool lab light, frost on window; motion cues: drifting breath, slight paper curl; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: soft top LEDs and side fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/564a8c11-650b-466e-bf6d-cbec1975c734/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/564a8c11-650b-466e-bf6d-cbec1975c734/0_3.png --ow 140",
+                "prompt_clean": "Scene 3: Bench station; Miriam inspects core layers, faint ash bands visible; medium framing with core foreground; eye‑line down‑bench with curious focus; anchors: nitrile gloves, measuring calipers, labeled sample bags, LED light strip; environment: cool lab light, frost on window; motion cues: drifting breath, slight paper curl; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: soft top LEDs and side fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Examining Core Segments",
+                "visual_description": "Inside a well-lit snow pit or a field lab tent, Miriam examines a transparent cylinder of ice laid on a foam cradle. Headlamp shining on the core’s tiny bubbles, subtle bands, and trapped dust. Notes and sampling tools at hand.",
+                "what_happening": "She inspects layers, identifying volcanic ash bands or changes in ice chemistry. Careful measurements and samples go into vials for lab analysis. Each centimeter represents decades or centuries. She feels excitement as she deciphers messages from a time long gone.",
+                "accompanying_text": "Miriam peers closely at the ice core. Each layer is like a page in a history book. She can almost see the Earth’s past climates frozen inside."
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I tap “send,” watching my data leap across oceans to scientists waiting for answers.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S04",
+                "url": "https://cdn.midjourney.com/b4ace1fe-45bc-4ccd-a5d7-e721fa442ec9/0_3.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S04.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Comms desk (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Comms desk; Miriam enters measurements on a rugged laptop, satellite uplink dish visible through porthole; medium shot; eye‑line to the screen with purposeful focus; anchors: USB data logger, map overlay UI, headset, field notebook; environment: afternoon cold light, gentle hum from equipment; motion cues: status LEDs, cable sway; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: neutral monitor key plus cool room fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Comms desk",
+                  "Miriam enters measurements on a rugged laptop, satellite uplink dish visible through porthole",
+                  "USB data logger",
+                  "map overlay UI",
+                  "headset"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 4: Comms desk; Miriam enters measurements on a rugged laptop, satellite uplink dish visible through porthole; medium shot; eye‑line to the screen with purposeful focus; anchors: USB data logger, map overlay UI, headset, field notebook; environment: afternoon cold light, gentle hum from equipment; motion cues: status LEDs, cable sway; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: neutral monitor key plus cool room fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/b4ace1fe-45bc-4ccd-a5d7-e721fa442ec9/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/b4ace1fe-45bc-4ccd-a5d7-e721fa442ec9/0_3.png --ow 140",
+                "prompt_clean": "Scene 4: Comms desk; Miriam enters measurements on a rugged laptop, satellite uplink dish visible through porthole; medium shot; eye‑line to the screen with purposeful focus; anchors: USB data logger, map overlay UI, headset, field notebook; environment: afternoon cold light, gentle hum from equipment; motion cues: status LEDs, cable sway; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: neutral monitor key plus cool room fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Data Entry and Global Links",
+                "visual_description": "Back at the station’s communication room: screens show global temperature graphs, satellite images, and emails. Miriam types at a computer, sending data to an international research center. A world map on the wall marks other stations.",
+                "what_happening": "Miriam inputs her measurements into a global database. Collaborators around the world will use her data in climate models. She reads messages from colleagues in Europe, Asia, and North America. Today’s findings will help predict tomorrow’s weather patterns.",
+                "accompanying_text": "Miriam sends her notes to other scientists far away. Her work here helps people everywhere understand Earth’s changing climate."
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I sip and breathe the stillness, grateful that this quiet work can guide the world.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S05",
+                "url": "https://cdn.midjourney.com/01ca70e6-c83d-4aa7-ae88-b0ba76917b92/0_1.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S05.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Mess area window (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Mess area window; Miriam holds a warm mug, gazing across rippled snow hills; medium shot; eye‑line out the window with reflective, hopeful calm; anchors: insulated mug, fleece neck gaiter, pinned station map; environment: late‑day glow edging clouds; motion cues: rising steam, curtain edge stir; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/160 s; lighting: warm interior practicals and cool exterior rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Mess area window",
+                  "Miriam holds a warm mug, gazing across rippled snow hills",
+                  "insulated mug",
+                  "fleece neck gaiter",
+                  "pinned station map"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 5: Mess area window; Miriam holds a warm mug, gazing across rippled snow hills; medium shot; eye‑line out the window with reflective, hopeful calm; anchors: insulated mug, fleece neck gaiter, pinned station map; environment: late‑day glow edging clouds; motion cues: rising steam, curtain edge stir; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/160 s; lighting: warm interior practicals and cool exterior rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/01ca70e6-c83d-4aa7-ae88-b0ba76917b92/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/01ca70e6-c83d-4aa7-ae88-b0ba76917b92/0_1.png --ow 140",
+                "prompt_clean": "Scene 5: Mess area window; Miriam holds a warm mug, gazing across rippled snow hills; medium shot; eye‑line out the window with reflective, hopeful calm; anchors: insulated mug, fleece neck gaiter, pinned station map; environment: late‑day glow edging clouds; motion cues: rising steam, curtain edge stir; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/160 s; lighting: warm interior practicals and cool exterior rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Break and Reflection",
+                "visual_description": "In a station lounge area, large windows reveal an ice shelf and distant mountains. Miriam sips hot coffee, a poster of penguins on the wall behind her. Another researcher chats softly. A tablet lies on a small table, showing a global climate conference livestream.",
+                "what_happening": "She takes a moment to rest, thinking about the day’s discoveries. Outside, nothing but ice and sky. Inside, technology and human ingenuity connect this remote station to the world. She feels hopeful that their work will guide better decisions globally.",
+                "accompanying_text": "Miriam rests with a warm drink, watching icy hills outside. She knows her work can help people far beyond this quiet place."
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Orange light bathes the snow as I promise to uncover older stories buried below.",
+              "image": {
+                "asset_id": "ANT_DR_MIRIAM_LEE_S06",
+                "url": "https://cdn.midjourney.com/23fcb8cc-11ae-4546-83ad-84eff0cd7574/0_0.png",
+                "recommended_filename": "ANT_DR_MIRIAM_LEE_S06.png",
+                "source": "Antarctica.docx",
+                "alt_text": "Dr. Miriam Lee: Outside station at golden hour (Antarctica)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Outside station at golden hour; Miriam stands with a sealed core tube, low sun skimming the surface; medium shot; eye‑line to lens with quiet pride; anchors: labeled core tube, reflective parka tape, instrument sled in background; environment: long shadows, faint ice crystals in air; motion cues: parka hem flutter, tiny sparkle drift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/800 s; lighting: golden‑hour crosslight with gentle flare; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Outside station at golden hour",
+                  "Miriam stands with a sealed core tube, low sun skimming the surface",
+                  "labeled core tube",
+                  "reflective parka tape",
+                  "instrument sled in background"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Antarctica.docx",
+                "prompt_raw": "Scene 6: Outside station at golden hour; Miriam stands with a sealed core tube, low sun skimming the surface; medium shot; eye‑line to lens with quiet pride; anchors: labeled core tube, reflective parka tape, instrument sled in background; environment: long shadows, faint ice crystals in air; motion cues: parka hem flutter, tiny sparkle drift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/800 s; lighting: golden‑hour crosslight with gentle flare; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/23fcb8cc-11ae-4546-83ad-84eff0cd7574/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/23fcb8cc-11ae-4546-83ad-84eff0cd7574/0_0.png --ow 140",
+                "prompt_clean": "Scene 6: Outside station at golden hour; Miriam stands with a sealed core tube, low sun skimming the surface; medium shot; eye‑line to lens with quiet pride; anchors: labeled core tube, reflective parka tape, instrument sled in background; environment: long shadows, faint ice crystals in air; motion cues: parka hem flutter, tiny sparkle drift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/800 s; lighting: golden‑hour crosslight with gentle flare; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              },
+              "research_context": {
+                "scene_title": "Evening Sun",
+                "visual_description": "Standing outside near the station, Miriam gazes at a sun low on the horizon but still shining due to polar summer. The snow glows in soft pastel colors. She wears protective sunglasses, arms crossed contentedly. Sleds, weather instruments, and a few antenna masts dot the landscape.",
+                "what_happening": "The day’s work done, Miriam reflects on the ice core samples and data sent abroad. She understands this place’s fragile beauty and importance to global climate studies. Tomorrow, she’ll drill deeper, unveiling older chapters of Earth’s story.",
+                "accompanying_text": "Miriam stands under a never-setting sun. She thinks about what the ice has shown her today. The answers in the ice may help everyone on Earth."
+              }
+            }
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "ANT_KIRI_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png",
+          "character": "Kiri",
+          "scene_index": 1,
+          "recommended_filename": "ANT_KIRI_S01.png"
+        },
+        {
+          "asset_id": "ANT_KIRI_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/ebae250e-cbd9-4cf8-a87a-43b83b239ca6/0_0.png",
+          "character": "Kiri",
+          "scene_index": 2,
+          "recommended_filename": "ANT_KIRI_S02.png"
+        },
+        {
+          "asset_id": "ANT_KIRI_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/3d254822-813a-40e8-9373-f75e0d56ad21/0_3.png",
+          "character": "Kiri",
+          "scene_index": 3,
+          "recommended_filename": "ANT_KIRI_S03.png"
+        },
+        {
+          "asset_id": "ANT_KIRI_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/462b2908-1630-4727-8a21-abb6e9178881/0_3.png",
+          "character": "Kiri",
+          "scene_index": 4,
+          "recommended_filename": "ANT_KIRI_S04.png"
+        },
+        {
+          "asset_id": "ANT_KIRI_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/d7147773-9e01-410d-99b2-d2a6797a4532/0_1.png",
+          "character": "Kiri",
+          "scene_index": 5,
+          "recommended_filename": "ANT_KIRI_S05.png"
+        },
+        {
+          "asset_id": "ANT_KIRI_S06",
+          "type": "image_ref",
+          "ref_asset_id": "ANT_KIRI_S05",
+          "character": "Kiri",
+          "scene_index": 6,
+          "recommended_filename": "ANT_KIRI_S06.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/6ae1d8c8-e6e2-43e2-8650-d86832a7009a/0_3.png",
+          "character": "Harold Fletcher",
+          "scene_index": 1,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S01.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/e2014a17-cad9-42fe-a76c-60caa5168ee3/0_3.png",
+          "character": "Harold Fletcher",
+          "scene_index": 2,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S02.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/e34e83bc-cf1a-448d-b6b1-41db9eaf318e/0_3.png",
+          "character": "Harold Fletcher",
+          "scene_index": 3,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S03.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/a4d437d4-e1b4-43c4-918b-f43f9918ac26/0_0.png",
+          "character": "Harold Fletcher",
+          "scene_index": 4,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S04.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/e2550084-6482-484e-9970-656ed639ebbf/0_1.png",
+          "character": "Harold Fletcher",
+          "scene_index": 5,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S05.png"
+        },
+        {
+          "asset_id": "ANT_HAROLD_FLETCHER_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/6aea7878-b496-4140-a4bb-06012ec5b1bd/0_3.png",
+          "character": "Harold Fletcher",
+          "scene_index": 6,
+          "recommended_filename": "ANT_HAROLD_FLETCHER_S06.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/1d9aa81c-9da6-4c2e-aa3d-d7a4cf4c84cc/0_0.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 1,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S01.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/23a0e8f1-1db6-4d72-bca4-71b87abb2533/0_1.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 2,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S02.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/564a8c11-650b-466e-bf6d-cbec1975c734/0_3.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 3,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S03.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/b4ace1fe-45bc-4ccd-a5d7-e721fa442ec9/0_3.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 4,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S04.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/01ca70e6-c83d-4aa7-ae88-b0ba76917b92/0_1.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 5,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S05.png"
+        },
+        {
+          "asset_id": "ANT_DR_MIRIAM_LEE_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/23fcb8cc-11ae-4546-83ad-84eff0cd7574/0_0.png",
+          "character": "Dr. Miriam Lee",
+          "scene_index": 6,
+          "recommended_filename": "ANT_DR_MIRIAM_LEE_S06.png"
+        }
+      ]
+    }
+  }
+}

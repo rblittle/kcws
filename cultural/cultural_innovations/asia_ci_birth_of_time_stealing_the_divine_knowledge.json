@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/cultural innovations/asia_ci_birth_of_time_stealing_the_divine_knowledge.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__cultural_innovations__asia__asia_ci_birth_of_time_stealing_the_divine_knowledge",
+    "derived_id": "cultural__cultural_innovations__asia__asia_ci_birth_of_time_stealing_the_divine_knowledge",
+    "continent": "asia",
+    "domain": "cultural",
+    "poster_family": "cultural_innovations",
+    "filename": "asia_ci_birth_of_time_stealing_the_divine_knowledge.json"
+  },
+  "tags": {
+    "continent": [
+      "asia"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "cultural_innovations"
+    ],
+    "flat": [
+      "continent:asia",
+      "domain:cultural",
+      "poster_family:cultural_innovations"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/cultural innovations/asia_ci_birth_of_time_stealing_the_divine_knowledge.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "kaycliff.atlastrail.poster_package.v1",
+    "generated_at": "2025-12-30T03:18:05.567461+00:00",
+    "poster": {
+      "poster_id": "asia_ci_birth_of_time_stealing_the_divine_knowledge",
+      "continent": "Asia",
+      "domain": "Cultural Innovation",
+      "poster_type": "Main Feature",
+      "title": "The Birth of Time: Stealing the Divine Knowledge",
+      "aspect_ratio": "8:5",
+      "recommended_print_size_inches": {
+        "width": 96,
+        "height": 60
+      },
+      "reference_render": {
+        "image_ref": "img_concept_reference"
+      },
+      "source_files": {
+        "background_and_prompts": "Redo on asia cultural innovations.docx",
+        "design_spreadsheet": "Asia cultural innovations Final Answer.xlsx",
+        "concept_render": "asia ci concept.jpg"
+      }
+    },
+    "copy": {
+      "text_blocks": [
+        {
+          "id": "txt_title_main",
+          "role": "header_main",
+          "heading": null,
+          "body": "The Birth of Time",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        },
+        {
+          "id": "txt_title_subtitle",
+          "role": "header_subtitle",
+          "heading": null,
+          "body": "Stealing the Divine Knowledge",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        },
+        {
+          "id": "txt_left_section_heading",
+          "role": "section_heading",
+          "heading": null,
+          "body": "Prehistoric & Early Sumerian Observations: The Sacred Gaze",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        },
+        {
+          "id": "txt_left_top_image",
+          "role": "panel_caption",
+          "heading": "\"By the light of the stars” ",
+          "body": "Early humans observe repeating patterns in the sky, laying the groundwork for the first calendars.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Left Column)"
+        },
+        {
+          "id": "txt_moon_phase_diagram",
+          "role": "panel_caption",
+          "heading": "Moon Phase Diagram",
+          "body": "Long before clocks or written dates, early hunters and gatherers watched the Moon grow, shrink, and vanish in a steady cycle. By noting how many “big moons” passed, they could tell when seasons changed—time to follow migrating herds, gather ripening berries, or plan the next campsite. The Moon’s shining calendar turned the night sky into a guide for survival.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Left Column)"
+        },
+        {
+          "id": "txt_left_bottom_image",
+          "role": "panel_caption",
+          "heading": "Counting the Heavens",
+          "body": "Sumerian priests on a ziggurat track lunar months and solar movements. Their base-60 counting system (using 60 as a key number) gave us 60 seconds in a minute and 60 minutes in an hour",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Left Column)"
+        },
+        {
+          "id": "txt_center_section_heading",
+          "role": "section_heading",
+          "heading": null,
+          "body": "Kidu’s Journey: Forging the Divine System",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        },
+        {
+          "id": "txt_kidu_seconds",
+          "role": "kidu_step",
+          "heading": "Seconds",
+          "body": "“Sixty drops and my clay pot is full—perfect for one short reading.”\nUses a water clock to measure a quick lesson for apprentices.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_kidu_minutes",
+          "role": "kidu_step",
+          "heading": "Minutes",
+          "body": "“One pebble each minute—by the sixtieth pebble the courtyard is swept.”\nOversees chores; easy fractions (½ = 30 min, ¼ = 15 min) split the work.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_kidu_hours",
+          "role": "kidu_step",
+          "heading": "Hours",
+          "body": "“Third hour of daylight—market scales open!”\nAnnounces when traders may begin selling grain.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_kidu_day",
+          "role": "kidu_step",
+          "heading": "Day",
+          "body": "“Sunset closes the ledger; tomorrow’s page starts at first light.”\nFiles daily records and plans the next day’s schedule.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_kidu_month",
+          "role": "kidu_step",
+          "heading": "Month",
+          "body": "“A slim silver crescent means a new month—farmers, sharpen your plows.”\nMarks the first visible crescent Moon to start the lunar month and signal planting.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_kidu_year",
+          "role": "kidu_step",
+          "heading": "Year",
+          "body": "“Twelve big Moons have passed; time to tally storehouses and plan the river cleanup.”\nUses the lunar count to schedule annual projects and civic festivals.",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_callout_days_to_months",
+          "role": "callout",
+          "heading": "Days to Months",
+          "body": "≈29.5 days = 1 lunar month",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_callout_months_to_years",
+          "role": "callout",
+          "heading": "Months to Years",
+          "body": "12 lunar months ≈ 1 year",
+          "optional": false,
+          "source": "Asia cultural innovations Final Answer.xlsx (Center Column)"
+        },
+        {
+          "id": "txt_right_section_heading",
+          "role": "section_heading",
+          "heading": null,
+          "body": "Evolution to Modern Calendars: A Sacred Comparative Timeline",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        },
+        {
+          "id": "txt_global_legacy",
+          "role": "caption",
+          "heading": "A Global Legacy",
+          "body": "From the Sumerian base‑60 system to modern time divisions and calendar structures, the ancient quest to measure time continues to shape our world.",
+          "optional": false,
+          "source": "asia ci concept.jpg"
+        }
+      ],
+      "reflection_questions": [],
+      "notes": [
+        "Center-column Kidu images are intentionally left as placeholders if Dropbox assets are not accessible; see assets.references.ref_kidu_dropbox_folder.",
+        "Right-column comparative calendar is intended as a designer-built vector infographic; a reference image is included as assets.images.img_reference_hebrew_calendar."
+      ]
+    },
+    "assets": {
+      "images": [
+        {
+          "id": "img_concept_reference",
+          "asset_id": "concept_reference_render",
+          "content_type": "Concept Reference Render",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Visual reference for Asia CI draft layout.",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Local file captured from NanoBanana Pro draft.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "asia ci concept.jpg"
+        },
+        {
+          "id": "img_left_top_sacred_gaze",
+          "asset_id": "left_top_prehistoric_stargazing",
+          "content_type": "Left Column Top Image (Prehistoric Stargazing)",
+          "placement": "Left Column (Top Panel)",
+          "approx_size": "~1/3 of left column",
+          "purpose": "Establish early celestial observation as the root of timekeeping.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/ecac401d-dc15-4117-91e6-356973e2713b/0_0.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_left_moon_phase_diagram",
+          "asset_id": "moon_phase_diagram_reference",
+          "content_type": "Moon Phase Diagram",
+          "placement": "Left Column (Middle Diagram)",
+          "approx_size": "~1/4 of left column",
+          "purpose": "Quick visual of lunar phases; supports text on early calendars.",
+          "format": "Diagram/Reference Image",
+          "ai_friendly": "No (license dependent)",
+          "notes": "Ensure licensing/attribution if using stock imagery; designer may rebuild as vector.",
+          "source_url": "https://media.istockphoto.com/id/1485858034/photo/waning-crescent-third-quarter-waning-gibbous-full-moon-waxing-gibbous-first-quarter-and.jpg?s=2048x2048&w=is&k=20&c=tMA3l3Kv7PIa4OkSiwUeQg-bNl32FTNs8g6RAVxGzXw=",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_left_bottom_counting_heavens",
+          "asset_id": "left_bottom_zygurrat_observation",
+          "content_type": "Left Column Bottom Image (Ziggurat Observation)",
+          "placement": "Left Column (Bottom Panel)",
+          "approx_size": "~1/3 of left column",
+          "purpose": "Show organized priestly observation and the emergence of structured time systems.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/bc7fc0fb-e763-40db-a85a-8267ba58c514/0_0.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_inset_base60_hands_graphic",
+          "asset_id": "inset_base60_finger_counting_graphic",
+          "content_type": "Inset Graphic: Base-60 Finger Counting (Hands)",
+          "placement": "Left Column (Inset / Overlay)",
+          "approx_size": "Small inset",
+          "purpose": "Explain base-60 visually (hand counting / finger-joint method).",
+          "format": "Infographic/Illustration",
+          "ai_friendly": "Yes",
+          "notes": "Spreadsheet note suggests including an existing 'hands graphic' here; not supplied in current uploads.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_seconds",
+          "asset_id": "kidu_panel_image_seconds",
+          "content_type": "Kidu Panel Image (Seconds)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s seconds timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_minutes",
+          "asset_id": "kidu_panel_image_minutes",
+          "content_type": "Kidu Panel Image (Minutes)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s minutes timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_hours",
+          "asset_id": "kidu_panel_image_hours",
+          "content_type": "Kidu Panel Image (Hours)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s hours timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_day",
+          "asset_id": "kidu_panel_image_day",
+          "content_type": "Kidu Panel Image (Day)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s day timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_month",
+          "asset_id": "kidu_panel_image_month",
+          "content_type": "Kidu Panel Image (Month)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s month timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_kidu_year",
+          "asset_id": "kidu_panel_image_year",
+          "content_type": "Kidu Panel Image (Year)",
+          "placement": "Center Column (Kidu Stack)",
+          "approx_size": "~1/6 of center column each",
+          "purpose": "Visual supporting Kidu’s year timekeeping panel.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_comparative_calendar_timeline",
+          "asset_id": "comparative_calendar_vector_graphic",
+          "content_type": "Comparative Calendar Graphic (Vector)",
+          "placement": "Right Column (Full Height)",
+          "approx_size": "Full right column",
+          "purpose": "Designer-built graphic comparing solar (Gregorian) and lunisolar (e.g., Hebrew) months against seasons; include leap-month rules and key holiday call-outs as needed.",
+          "format": "Vector/Infographic",
+          "ai_friendly": "No",
+          "notes": "Build from 'Right Column' sheet specs; treat as an InDesign/Illustrator vector deliverable.",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_reference_hebrew_calendar",
+          "asset_id": "reference_hebrew_calendar_example",
+          "content_type": "Reference: Hebrew/Jewish Calendar Graphic Example",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Reference image for structure/visual logic of the comparative calendar layout.",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Reference only; do not use directly unless licensing permits.",
+          "source_url": "https://study.com/cimages/multimages/16/hebrew___jewish_calendar7552771381346653344.jpg",
+          "status": "provided",
+          "local_filename": null
+        }
+      ],
+      "references": [
+        {
+          "id": "ref_kidu_dropbox_folder",
+          "description": "Dropbox folder referenced in the organizer for center-column (Kidu) scene images.",
+          "source_url": "https://www.dropbox.com/scl/fo/kuae2tx7iec9746a6m9uu/AG8gp_pXyeOtxA6_-n74Pe0?rlkey=wskt8z305q9vqlrnasgn7sgyd&st=81r335sr&dl=0"
+        },
+        {
+          "id": "ref_comparative_calendar_example",
+          "description": "Reference image used as a structural example for the comparative calendar graphic.",
+          "source_url": "https://study.com/cimages/multimages/16/hebrew___jewish_calendar7552771381346653344.jpg"
+        },
+        {
+          "id": "ref_stellarium_web",
+          "description": "Optional resource for generating accurate sky charts (vector-friendly). Mentioned in the Asia redo doc.",
+          "source_url": "https://stellarium-web.org/"
+        }
+      ]
+    },
+    "layout": {
+      "layout_concept": "Three-column layout: left observational panels + moon phase diagram, center Kidu timekeeping stack, right comparative calendar infographic.",
+      "regions": [
+        {
+          "id": "region_header",
+          "role": "header",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_title_main"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_title_subtitle"
+            }
+          ]
+        },
+        {
+          "id": "region_left_observations",
+          "role": "left_column",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_left_section_heading"
+            },
+            {
+              "type": "panel",
+              "order": 1,
+              "image_ref": "img_left_top_sacred_gaze",
+              "text_ref": "txt_left_top_image"
+            },
+            {
+              "type": "panel",
+              "order": 2,
+              "image_ref": "img_left_moon_phase_diagram",
+              "text_ref": "txt_moon_phase_diagram"
+            },
+            {
+              "type": "panel",
+              "order": 3,
+              "image_ref": "img_left_bottom_counting_heavens",
+              "text_ref": "txt_left_bottom_image"
+            },
+            {
+              "type": "inset_optional",
+              "image_ref": "img_inset_base60_hands_graphic",
+              "text_ref": null
+            }
+          ]
+        },
+        {
+          "id": "region_center_kidu",
+          "role": "center_column",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_center_section_heading"
+            },
+            {
+              "type": "kidu_step",
+              "order": 1,
+              "image_ref": "img_kidu_seconds",
+              "text_ref": "txt_kidu_seconds"
+            },
+            {
+              "type": "kidu_step",
+              "order": 2,
+              "image_ref": "img_kidu_minutes",
+              "text_ref": "txt_kidu_minutes"
+            },
+            {
+              "type": "kidu_step",
+              "order": 3,
+              "image_ref": "img_kidu_hours",
+              "text_ref": "txt_kidu_hours"
+            },
+            {
+              "type": "kidu_step",
+              "order": 4,
+              "image_ref": "img_kidu_day",
+              "text_ref": "txt_kidu_day"
+            },
+            {
+              "type": "kidu_step",
+              "order": 5,
+              "image_ref": "img_kidu_month",
+              "text_ref": "txt_kidu_month"
+            },
+            {
+              "type": "kidu_step",
+              "order": 6,
+              "image_ref": "img_kidu_year",
+              "text_ref": "txt_kidu_year"
+            },
+            {
+              "type": "callout",
+              "order": 7,
+              "text_ref": "txt_callout_days_to_months"
+            },
+            {
+              "type": "callout",
+              "order": 8,
+              "text_ref": "txt_callout_months_to_years"
+            }
+          ]
+        },
+        {
+          "id": "region_right_comparative",
+          "role": "right_column",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_right_section_heading"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_comparative_calendar_timeline"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_global_legacy"
+            }
+          ]
+        }
+      ],
+      "reading_order": [
+        "region_header",
+        "region_left_observations",
+        "region_center_kidu",
+        "region_right_comparative"
+      ]
+    },
+    "designer_guidance": {
+      "design_objectives_and_summary": "This Asia poster packages the cultural innovation of timekeeping: early sky observation, the Sumerian base‑60 counting legacy, and a designer-built comparative calendar graphic showing how lunisolar systems drift against solar months.",
+      "key_design_objectives": {
+        "Left Column (Sacred Gaze)": [
+          "Cosmic/temple atmosphere; clearly communicate observation → measurement.",
+          "Keep captions short and readable at distance; use strong contrast on dark backgrounds."
+        ],
+        "Center Column (Kidu)": [
+          "Stacked narrative panels for each unit (seconds → year).",
+          "Reserve space for voice-bubble captions and short explainer line per panel."
+        ],
+        "Right Column (Comparative Calendar Graphic)": [
+          "Use a vertical seasons ribbon to anchor both calendars.",
+          "Show Gregorian solar months on one side and a lunisolar month system on the other; include clear leap-month indication."
+        ]
+      },
+      "notes_from_spreadsheet": {
+        "comparative_calendar_spec": [
+          "See 'Right Column' sheet: seasons ribbon, Gregorian blocks, Hebrew blocks, leap indicators, and call-outs."
+        ]
+      }
+    },
+    "provenance": {
+      "generated_by": "ChatGPT",
+      "generated_at": "2025-12-30T03:18:05.567461+00:00",
+      "source_files": {
+        "concept_image": {
+          "filename": "asia ci concept.jpg",
+          "size_bytes": 984321,
+          "sha256": "8c35132effc26f1fe44d38e462f53ba63641f5ff0b6f6df08bdbcbbe0c4ee090"
+        },
+        "design_spreadsheet": {
+          "filename": "Asia cultural innovations Final Answer.xlsx",
+          "size_bytes": 12026,
+          "sha256": "139765b771126e13d4e09408c5f25dad024e780cac63fcaf343d4d03af6fb4a7"
+        },
+        "background_docx": {
+          "filename": "Redo on asia cultural innovations.docx",
+          "size_bytes": 15649,
+          "sha256": "13378dd5b3fa6105a00853e73444e193dc5e3aaa75a5351d3ef17b0b14e2fa8e"
+        }
+      }
+    }
+  }
+}

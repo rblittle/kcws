@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/stats and featurettes/Europe_StatsAndFeaturettes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__stats_featurettes__europe__europe_statsandfeaturettes</poster_id>
+    <continent>europe</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<StatsAndFeaturettes>
+  <schema>kaycliff_atlas_trail_stats_featurettes</schema>
+  <schema_version>1.0</schema_version>
+  <poster_metadata>
+    <id>EUROPE_StatsAndFeaturettes</id>
+    <continent>Europe</continent>
+    <domain>Cultural Domain</domain>
+    <poster_type>Stats &amp; Featurettes</poster_type>
+    <dimensions>
+      <units>px</units>
+      <width>2048</width>
+      <height>1280</height>
+      <aspect_ratio>1.6</aspect_ratio>
+      <note>Pixel dimensions taken from proof image.</note>
+    </dimensions>
+    <display_title>Lines on a Map, Lives in Motion:
+Europe’s Ever-Changing Story</display_title>
+    <language>en</language>
+    <layout_slots>
+      <item>
+        <slot_id>slot_featurette_1_top_left</slot_id>
+        <name>Featurette 1 block</name>
+        <type>featurette</type>
+        <bounds_px>
+          <x>0</x>
+          <y>0</y>
+          <w>800</w>
+          <h>650</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0</x>
+          <y>0</y>
+          <w>0.3906</w>
+          <h>0.5078</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_featurette_2_bottom_left</slot_id>
+        <name>Featurette 2 block</name>
+        <type>featurette</type>
+        <bounds_px>
+          <x>0</x>
+          <y>520</y>
+          <w>760</w>
+          <h>760</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0</x>
+          <y>0.4062</y>
+          <w>0.3711</w>
+          <h>0.5938</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_featurette_3_top_right</slot_id>
+        <name>Featurette 3 block</name>
+        <type>featurette</type>
+        <bounds_px>
+          <x>1250</x>
+          <y>0</y>
+          <w>798</w>
+          <h>520</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0.6104</x>
+          <y>0</y>
+          <w>0.3896</w>
+          <h>0.4062</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_featurette_4_bottom_right</slot_id>
+        <name>Featurette 4 block</name>
+        <type>featurette</type>
+        <bounds_px>
+          <x>1250</x>
+          <y>520</y>
+          <w>798</w>
+          <h>760</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0.6104</x>
+          <y>0.4062</y>
+          <w>0.3896</w>
+          <h>0.5938</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_main_title_center_right</slot_id>
+        <name>Main title</name>
+        <type>title</type>
+        <bounds_px>
+          <x>1030</x>
+          <y>350</y>
+          <w>1018</w>
+          <h>370</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0.5029</x>
+          <y>0.2734</y>
+          <w>0.4971</w>
+          <h>0.2891</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_legend_bottom_center</slot_id>
+        <name>High/Low legend</name>
+        <type>legend</type>
+        <bounds_px>
+          <x>500</x>
+          <y>880</y>
+          <w>1050</w>
+          <h>370</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0.2441</x>
+          <y>0.6875</y>
+          <w>0.5127</w>
+          <h>0.2891</h>
+        </bounds_rel>
+      </item>
+      <item>
+        <slot_id>slot_main_map_center</slot_id>
+        <name>Main Europe map</name>
+        <type>map</type>
+        <bounds_px>
+          <x>250</x>
+          <y>0</y>
+          <w>1550</w>
+          <h>930</h>
+        </bounds_px>
+        <bounds_rel>
+          <x>0.1221</x>
+          <y>0</y>
+          <w>0.7568</w>
+          <h>0.7266</h>
+        </bounds_rel>
+      </item>
+    </layout_slots>
+  </poster_metadata>
+  <continent_stats_map>
+    <palette_by_country>
+      <item>
+        <country>Albania</country>
+        <color_hex>#DC3B3B</color_hex>
+      </item>
+      <item>
+        <country>Andorra</country>
+        <color_hex>#DC503B</color_hex>
+      </item>
+      <item>
+        <country>Austria</country>
+        <color_hex>#DC643B</color_hex>
+      </item>
+      <item>
+        <country>Belarus</country>
+        <color_hex>#DC793B</color_hex>
+      </item>
+      <item>
+        <country>Belgium</country>
+        <color_hex>#DC8D3B</color_hex>
+      </item>
+      <item>
+        <country>Bosnia and Herzegovina</country>
+        <color_hex>#69DC3B</color_hex>
+      </item>
+      <item>
+        <country>Bulgaria</country>
+        <color_hex>#3BDCD0</color_hex>
+      </item>
+      <item>
+        <country>Croatia</country>
+        <color_hex>#DCCB3B</color_hex>
+      </item>
+      <item>
+        <country>Czechia</country>
+        <color_hex>#3BBFDC</color_hex>
+      </item>
+      <item>
+        <country>Denmark</country>
+        <color_hex>#3BDC60</color_hex>
+      </item>
+      <item>
+        <country>Estonia</country>
+        <color_hex>#3B96DC</color_hex>
+      </item>
+      <item>
+        <country>Finland</country>
+        <color_hex>#3B81DC</color_hex>
+      </item>
+      <item>
+        <country>France</country>
+        <color_hex>#573BDC</color_hex>
+      </item>
+      <item>
+        <country>Germany</country>
+        <color_hex>#DC3B3F</color_hex>
+      </item>
+      <item>
+        <country>Greece</country>
+        <color_hex>#5EDC3B</color_hex>
+      </item>
+      <item>
+        <country>Hungary</country>
+        <color_hex>#3BDCDB</color_hex>
+      </item>
+      <item>
+        <country>Iceland</country>
+        <color_hex>#3BDC42</color_hex>
+      </item>
+      <item>
+        <country>Ireland</country>
+        <color_hex>#3BDC57</color_hex>
+      </item>
+      <item>
+        <country>Italy</country>
+        <color_hex>#3BDC6B</color_hex>
+      </item>
+      <item>
+        <country>Kosovo</country>
+        <color_hex>#3BDC80</color_hex>
+      </item>
+      <item>
+        <country>Latvia</country>
+        <color_hex>#AE3BDC</color_hex>
+      </item>
+      <item>
+        <country>Liechtenstein</country>
+        <color_hex>#3BDCA9</color_hex>
+      </item>
+      <item>
+        <country>Lithuania</country>
+        <color_hex>#3B4DDC</color_hex>
+      </item>
+      <item>
+        <country>Luxembourg</country>
+        <color_hex>#3BDCD2</color_hex>
+      </item>
+      <item>
+        <country>Malta</country>
+        <color_hex>#3BD2DC</color_hex>
+      </item>
+      <item>
+        <country>Moldova</country>
+        <color_hex>#3BBDDC</color_hex>
+      </item>
+      <item>
+        <country>Monaco</country>
+        <color_hex>#3BA9DC</color_hex>
+      </item>
+      <item>
+        <country>Montenegro</country>
+        <color_hex>#3B94DC</color_hex>
+      </item>
+      <item>
+        <country>Netherlands</country>
+        <color_hex>#3B80DC</color_hex>
+      </item>
+      <item>
+        <country>North Macedonia</country>
+        <color_hex>#3B6BDC</color_hex>
+      </item>
+      <item>
+        <country>Norway</country>
+        <color_hex>#CE3BDC</color_hex>
+      </item>
+      <item>
+        <country>Poland</country>
+        <color_hex>#DC3BD6</color_hex>
+      </item>
+      <item>
+        <country>Portugal</country>
+        <color_hex>#493BDC</color_hex>
+      </item>
+      <item>
+        <country>Romania</country>
+        <color_hex>#DC773B</color_hex>
+      </item>
+      <item>
+        <country>Russia</country>
+        <color_hex>#3BDCA6</color_hex>
+      </item>
+      <item>
+        <country>San Marino</country>
+        <color_hex>#873BDC</color_hex>
+      </item>
+      <item>
+        <country>Serbia</country>
+        <color_hex>#DC3B70</color_hex>
+      </item>
+      <item>
+        <country>Slovakia</country>
+        <color_hex>#4F3BDC</color_hex>
+      </item>
+      <item>
+        <country>Slovenia</country>
+        <color_hex>#C43BDC</color_hex>
+      </item>
+      <item>
+        <country>Spain</country>
+        <color_hex>#C6DC3B</color_hex>
+      </item>
+      <item>
+        <country>Sweden</country>
+        <color_hex>#DC593B</color_hex>
+      </item>
+      <item>
+        <country>Switzerland</country>
+        <color_hex>#9DDC3B</color_hex>
+      </item>
+      <item>
+        <country>Turkey</country>
+        <color_hex>#DC3BA2</color_hex>
+      </item>
+      <item>
+        <country>Ukraine</country>
+        <color_hex>#74DC3B</color_hex>
+      </item>
+      <item>
+        <country>United Kingdom</country>
+        <color_hex>#DC3B79</color_hex>
+      </item>
+      <item>
+        <country>Cyprus</country>
+        <color_hex>#DC3B64</color_hex>
+      </item>
+      <item>
+        <country>Vatican City</country>
+        <color_hex>#DC3B50</color_hex>
+      </item>
+    </palette_by_country>
+    <legend_rules>
+      <legend_title>EUROPE HIGH AND LOW LEGEND</legend_title>
+      <default_color_rule>
+        <green>High</green>
+        <orange>Low</orange>
+      </default_color_rule>
+      <exceptions>
+        <item>
+          <statistic_label>Crime Rate (Low Crime = Safety)</statistic_label>
+          <legend_label>Lowest Crime Rate</legend_label>
+          <green>Lowest crime</green>
+          <orange>Highest crime</orange>
+        </item>
+      </exceptions>
+      <icon_badges>
+        <green_badge>+</green_badge>
+        <orange_badge>−</orange_badge>
+        <note>Legend icons include +/- badges indicating high vs low (crime is reversed).</note>
+      </icon_badges>
+      <items_in_legend_order>
+        <item>Access To Clean Drinking Water</item>
+        <item>Average Caloric Intake</item>
+        <item>Lowest Crime Rate</item>
+        <item>Access To Healthcare</item>
+        <item>% Population Higher Education Degrees</item>
+        <item>Average Household Size</item>
+        <item>Volunteer/Community Service Participation</item>
+        <item>Employment Rates</item>
+      </items_in_legend_order>
+    </legend_rules>
+    <core_stats_on_map>
+      <item>
+        <stat_id>clean_drinking_water_access</stat_id>
+        <maslow_layer>Physiological</maslow_layer>
+        <statistic_label>Access to Clean Drinking Water</statistic_label>
+        <legend_icon>
+          <icon>water_drop</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>higher_is_better</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Switzerland</country>
+            <inside_parenthetical>~99%</inside_parenthetical>
+            <value>99</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Norway</country>
+            <inside_parenthetical>~99%</inside_parenthetical>
+            <value>99</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Romania</country>
+            <inside_parenthetical>~88%</inside_parenthetical>
+            <value>88</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Albania</country>
+            <inside_parenthetical>~85%</inside_parenthetical>
+            <value>85</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest Access: Switzerland (~99%), Norway (~99%)</highest_countries_values>
+          <lowest_countries_values>Lowest Access: Romania (~88%), Albania (~85%)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>5</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>avg_daily_caloric_intake</stat_id>
+        <maslow_layer>Physiological</maslow_layer>
+        <statistic_label>Average Daily Caloric Intake</statistic_label>
+        <legend_icon>
+          <icon>plate</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>neutral_high_low</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Austria</country>
+            <inside_parenthetical>~3,800 cal</inside_parenthetical>
+            <value>3800</value>
+            <unit>cal</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Belgium</country>
+            <inside_parenthetical>~3,750 cal</inside_parenthetical>
+            <value>3750</value>
+            <unit>cal</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Moldova</country>
+            <inside_parenthetical>~2,700 cal</inside_parenthetical>
+            <value>2700</value>
+            <unit>cal</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Albania</country>
+            <inside_parenthetical>~2,800 cal</inside_parenthetical>
+            <value>2800</value>
+            <unit>cal</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest Intake: Austria (~3,800 cal), Belgium (~3,750 cal)</highest_countries_values>
+          <lowest_countries_values>Lowest Intake: Moldova (~2,700 cal), Albania (~2,800 cal)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>6</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>crime_rate</stat_id>
+        <maslow_layer>Safety</maslow_layer>
+        <statistic_label>Crime Rate (Low Crime = Safety)</statistic_label>
+        <legend_icon>
+          <icon>bicycle</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>lower_is_better</preferred_direction>
+          <green_marker_represents>lowest_crime</green_marker_represents>
+          <orange_marker_represents>highest_crime</orange_marker_represents>
+          <exception_to_default>true</exception_to_default>
+          <legend_label_override>Lowest Crime Rate</legend_label_override>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Iceland</country>
+            <inside_parenthetical is_null="true"/>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+          <item>
+            <country>Switzerland</country>
+            <inside_parenthetical is_null="true"/>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Russia</country>
+            <inside_parenthetical>urban areas</inside_parenthetical>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+          <item>
+            <country>Ukraine</country>
+            <inside_parenthetical>conflict regions</inside_parenthetical>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Lowest Crime: Iceland, Switzerland</highest_countries_values>
+          <lowest_countries_values>Highest Crime: Russia (urban areas), Ukraine (conflict regions)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>7</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>healthcare_access</stat_id>
+        <maslow_layer>Safety</maslow_layer>
+        <statistic_label>% Population with Access to Healthcare</statistic_label>
+        <legend_icon>
+          <icon>heart</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>higher_is_better</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>UK</country>
+            <inside_parenthetical>~universal</inside_parenthetical>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+          <item>
+            <country>Germany</country>
+            <inside_parenthetical>~universal</inside_parenthetical>
+            <value is_null="true"/>
+            <unit is_null="true"/>
+            <approx is_null="true"/>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Ukraine</country>
+            <inside_parenthetical>~87%</inside_parenthetical>
+            <value>87</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Romania</country>
+            <inside_parenthetical>~90%</inside_parenthetical>
+            <value>90</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest Access: UK (~universal), Germany (~universal)</highest_countries_values>
+          <lowest_countries_values>Lowest Access: Ukraine (~87%), Romania (~90%)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>8</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>employment_rate</stat_id>
+        <maslow_layer>Safety/Esteem</maslow_layer>
+        <statistic_label>Employment Rate (Economic Participation)</statistic_label>
+        <legend_icon>
+          <icon>runner</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>higher_is_better</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Switzerland</country>
+            <inside_parenthetical>~79%</inside_parenthetical>
+            <value>79</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Norway</country>
+            <inside_parenthetical>~75%</inside_parenthetical>
+            <value>75</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Greece</country>
+            <inside_parenthetical>~16% unemployment</inside_parenthetical>
+            <value>16</value>
+            <unit>% unemployment</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Spain</country>
+            <inside_parenthetical>~15%</inside_parenthetical>
+            <value>15</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest Rates: Switzerland (~79%), Norway (~75%)</highest_countries_values>
+          <lowest_countries_values>Lowest Rates: Greece (~16% unemployment), Spain (~15%)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>9</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>average_household_size</stat_id>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <statistic_label>Average Household Size</statistic_label>
+        <legend_icon>
+          <icon>house</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>neutral_high_low</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Turkey</country>
+            <inside_parenthetical>~3.9 persons</inside_parenthetical>
+            <value>3.9</value>
+            <unit>persons</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Albania</country>
+            <inside_parenthetical>~3.7 persons</inside_parenthetical>
+            <value>3.7</value>
+            <unit>persons</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Sweden</country>
+            <inside_parenthetical>~1.8 persons</inside_parenthetical>
+            <value>1.8</value>
+            <unit>persons</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Germany</country>
+            <inside_parenthetical>~2.0 persons</inside_parenthetical>
+            <value>2</value>
+            <unit>persons</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Largest: Turkey (~3.9 persons), Albania (~3.7 persons)</highest_countries_values>
+          <lowest_countries_values>Smallest: Sweden (~1.8 persons), Germany (~2.0 persons)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>10</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>volunteer_participation</stat_id>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <statistic_label>Volunteer/Community Service Participation</statistic_label>
+        <legend_icon>
+          <icon>community</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>higher_is_better</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Netherlands</country>
+            <inside_parenthetical>~41%</inside_parenthetical>
+            <value>41</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Norway</country>
+            <inside_parenthetical>~38%</inside_parenthetical>
+            <value>38</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Bulgaria</country>
+            <inside_parenthetical>~12%</inside_parenthetical>
+            <value>12</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Greece</country>
+            <inside_parenthetical>~14%</inside_parenthetical>
+            <value>14</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest Engagement: Netherlands (~41%), Norway (~38%)</highest_countries_values>
+          <lowest_countries_values>Lowest Engagement: Bulgaria (~12%), Greece (~14%)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>11</row_in_sheet>
+        </provenance>
+      </item>
+      <item>
+        <stat_id>higher_education_degrees</stat_id>
+        <maslow_layer>Esteem</maslow_layer>
+        <statistic_label>% Population with Higher Education Degrees</statistic_label>
+        <legend_icon>
+          <icon>graduation_cap</icon>
+        </legend_icon>
+        <directionality>
+          <preferred_direction>higher_is_better</preferred_direction>
+          <green_marker_represents>high</green_marker_represents>
+          <orange_marker_represents>low</orange_marker_represents>
+          <exception_to_default>false</exception_to_default>
+        </directionality>
+        <high_exemplars>
+          <item>
+            <country>Ireland</country>
+            <inside_parenthetical>~56%</inside_parenthetical>
+            <value>56</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Switzerland</country>
+            <inside_parenthetical>~52%</inside_parenthetical>
+            <value>52</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Italy</country>
+            <inside_parenthetical>~19%</inside_parenthetical>
+            <value>19</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+          <item>
+            <country>Romania</country>
+            <inside_parenthetical>~22%</inside_parenthetical>
+            <value>22</value>
+            <unit>%</unit>
+            <approx>true</approx>
+          </item>
+        </low_exemplars>
+        <raw_text>
+          <highest_countries_values>Highest: Ireland (~56%), Switzerland (~52%)</highest_countries_values>
+          <lowest_countries_values>Lowest: Italy (~19%), Romania (~22%)</lowest_countries_values>
+        </raw_text>
+        <provenance>
+          <source_file>Europe Cultural Domain.xlsx</source_file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          <row_in_sheet>12</row_in_sheet>
+        </provenance>
+      </item>
+    </core_stats_on_map>
+    <base_map_notes>
+      <map_type>political countries</map_type>
+      <note>Main map colored by per-country palette; on-map high/low markers implied by legend.</note>
+    </base_map_notes>
+  </continent_stats_map>
+  <featurettes>
+    <item>
+      <featurette_id>eu_featurette_1</featurette_id>
+      <title>What’s the Difference?
+Nations, Countries, and
+States in Europe</title>
+      <body_text>Europe is home to many cultures, languages, and histories. Some groups
+share traditions and see themselves as one people—these are called nations.
+But a country or state is a place with borders, a government, and its own
+laws. Sometimes a nation matches perfectly with a country, and we call that
+a nation-state.
+
+For example:
+• Scotland has its own culture and history, so we call it a “country.” But
+  Scotland isn’t independent—it’s part of the United Kingdom.
+• The Basque people have their own language and traditions, but they live
+  in parts of Spain and France without having their own separate country.
+• France is a nation-state, where most people share French culture,
+  and it’s fully independent.
+• Russia is one country with many different nations inside it.
+
+All over Europe, ideas about who belongs
+to which nation, and who
+controls which state, help shape
+identities and sometimes cause
+debates about independence or unity.</body_text>
+      <layout_slot_id>slot_featurette_1_top_left</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>eu_ft1_map_scotland_uk</asset_id>
+          <type>map</type>
+          <role>inset_map_reference</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Reference map highlighting Scotland within the United Kingdom (used as concept/reference; not clearly visible as a standalone inset on the proof).</description>
+          <hyperlinks>
+            <final_url>https://commons.wikimedia.org/wiki/File:Scotland_in_United_Kingdom.svg</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft1_map_basque_region</asset_id>
+          <type>map</type>
+          <role>inset_map_reference</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Reference map showing the Basque region spanning Spain and France.</description>
+          <hyperlinks>
+            <final_url>https://upload.wikimedia.org/wikipedia/commons/a/a2/Basque_Country_Location_Map.svg</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft1_map_russia_ethnic_groups</asset_id>
+          <type>map</type>
+          <role>reference_map_optional</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Reference image map of the Russian Federation by ethnic group (optional/extra; listed in docx but not clearly placed on proof).</description>
+          <hyperlinks>
+            <final_url>https://i.redd.it/99wih6ardiu91.jpg</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft1_map_france_location</asset_id>
+          <type>map</type>
+          <role>reference_map_optional</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Reference map of France location (nation-state example).</description>
+          <hyperlinks>
+            <final_url>https://en.m.wikipedia.org/wiki/File:France_location_map.svg</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft1_chart_venn_nation_country</asset_id>
+          <type>chart</type>
+          <role>concept_diagram</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Venn diagram illustrating ‘Nation’, ‘Country’, and ‘Nation-State’ (custom vector diagram on proof).</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft1_photo_identity_placeholder</asset_id>
+          <type>photo</type>
+          <role>supporting_photo_placeholder</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Optional supporting photo (e.g., regional flags/identity imagery) to strengthen the featurette visually. Not specified on the proof; add if desired.</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+      </assets>
+      <data_source_links>
+        <item>
+          <source_name>Wikimedia Commons / Wikipedia (reference maps)</source_name>
+          <url is_null="true"/>
+          <note>Specific map URLs are listed in asset hyperlinks.</note>
+        </item>
+      </data_source_links>
+      <chart_spec>
+        <item>
+          <chart_id>eu_ft1_venn_diagram</chart_id>
+          <chart_type>venn_diagram</chart_type>
+          <title_on_proof>NATION / COUNTRY / NATION-STATE</title_on_proof>
+          <layout_notes>Two-circle Venn: left labeled 'NATION (Shared Identity)', right labeled 'COUNTRY (Territory + Gov)', overlap 'NATION-STATE'. Example labels: Scotland (nation), UK (country).</layout_notes>
+          <data_table is_null="true"/>
+          <icon_unit_definitions is_null="true"/>
+        </item>
+      </chart_spec>
+    </item>
+    <item>
+      <featurette_id>eu_featurette_2</featurette_id>
+      <title>Europe’s Changing Borders—A
+Journey Through History</title>
+      <body_text>The map of Europe wasn’t always as it is today. Over the last century, wars, treaties, and
+agreements have redrawn borders again and again. Before World War I, huge empires
+ruled over many peoples. After the war, these empires broke apart, and new countries
+appeared. After World War II, Europe split into East and West, divided by the Iron Curtain.
+When the Berlin Wall fell in 1989, the continent began to reunite, and as the Soviet Union
+collapsed in 1991, more new countries emerged.
+
+Each change in Europe’s borders affected the
+lives of millions, sparking both struggles and
+opportunities. Understanding how Europe’s
+map evolved helps us appreciate the mix of
+cultures and histories across the continent today.</body_text>
+      <layout_slot_id>slot_featurette_2_bottom_left</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>eu_ft2_map_series_borders</asset_id>
+          <type>map</type>
+          <role>map_series_reference</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Map series showing Europe’s borders before WWI, after WWI, after WWII, and after 1991 (links point to example/reference maps).</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates>
+              <item>https://www.diercke.com/content/europe-world-war-one-1914-978-3-14-100790-9-36-1</item>
+              <item>https://www.diercke.com/content/europe-countries-19201921-after-world-war-one-978-3-14-100890-6-62-2-1</item>
+              <item>https://www.diercke.com/content/europe-countries-1949-after-world-war-two-978-3-14-100890-6-62-4-1</item>
+              <item>https://www.diercke.com/content/europe-countries-today-978-3-14-100890-6-63-5-1?&amp;stichwort=europe+countries</item>
+            </url_candidates>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft2_timeline_major_events</asset_id>
+          <type>chart</type>
+          <role>timeline_graphic</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Timeline of major events in Europe (e.g., Treaty of Versailles 1919, fall of Berlin Wall 1989).</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft2_photo_borders_placeholder</asset_id>
+          <type>photo</type>
+          <role>supporting_photo_placeholder</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Optional supporting photo (e.g., border crossing / passport stamp) to accompany the historical border-change narrative. Not on proof.</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+      </assets>
+      <data_source_links>
+        <item>
+          <source_name>Diercke World Atlas (example historical map pages)</source_name>
+          <url is_null="true"/>
+          <note>See asset url_candidates for specific linked pages.</note>
+        </item>
+        <item>
+          <source_name>Historical atlases and government archives</source_name>
+          <url is_null="true"/>
+          <note>Listed in Featurettes.docx as general source category; no specific URLs provided.</note>
+        </item>
+      </data_source_links>
+      <chart_spec>
+        <item>
+          <chart_id>eu_ft2_map_series</chart_id>
+          <chart_type>map_series</chart_type>
+          <title_on_proof>(no single title; shown as thumbnails)</title_on_proof>
+          <layout_notes>Four small maps stacked vertically (proof shows sample concept thumbnails). Each map represents a different historical period (pre-WWI, post-WWI, post-WWII, post-1991).</layout_notes>
+          <data_table>
+            <table_ref>Europe Cultural Domain.xlsx|Changing borders featurette (historical palette tables)</table_ref>
+            <note>Sheet contains ISO/country/HEX palettes for specific years (e.g., 1914, 1920). Confirm exact years needed vs. proof labels.</note>
+          </data_table>
+          <icon_unit_definitions is_null="true"/>
+        </item>
+        <item>
+          <chart_id>eu_ft2_timeline</chart_id>
+          <chart_type>timeline</chart_type>
+          <title_on_proof>Timeline of Major Events in Europe</title_on_proof>
+          <layout_notes>Horizontal timeline with key dates (e.g., 1919 Treaty of Versailles, 1989 fall of Berlin Wall).</layout_notes>
+          <data_table is_null="true"/>
+          <icon_unit_definitions is_null="true"/>
+        </item>
+      </chart_spec>
+    </item>
+    <item>
+      <featurette_id>eu_featurette_3</featurette_id>
+      <title>Growing Older—The Changing Faces
+of Eastern Europe</title>
+      <body_text>In some parts of Eastern Europe, fewer babies are being
+born while people live longer. Over time, this creates an
+aging population, meaning there are more older people
+and fewer young people to work, start new businesses,
+or take care of those in need.
+
+After the Soviet Union ended, many families decided to
+have fewer children, and some young people left their
+home countries for better opportunities elsewhere. This
+can make it harder to keep economies growing and pay
+for healthcare. Governments try to help by supporting
+families, improving healthcare, and welcoming
+newcomers. The story of Eastern Europe’s aging
+population shows how history, economics, and personal
+choices shape a region’s future.</body_text>
+      <layout_slot_id>slot_featurette_3_top_right</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>eu_ft3_chart_age_distribution</asset_id>
+          <type>chart</type>
+          <role>comparative_age_distribution</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Horizontal bar chart comparing Europe’s age distribution (1920s vs 2023) across age groups (as shown on proof).</description>
+          <hyperlinks>
+            <final_url>https://docs.google.com/spreadsheets/u/0/d/1prH68PEWb-SYjgtqtaVDaLpFSJlQp-gyPQsO-e7xC8g/edit</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft3_chart_declining_birth_rates</asset_id>
+          <type>chart</type>
+          <role>birth_rate_trend</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Chart showing declining birth rates (proof shows small-multiples style sample concept).</description>
+          <hyperlinks>
+            <final_url>https://docs.google.com/spreadsheets/u/0/d/1GnVdVefBsYG6p9sKCbHFEmJIBaegDAG9YVo9MF5VDBE/edit</final_url>
+            <url_candidates>
+              <item>https://www.liveabout.com/thmb/L-mu_R4iXZmLrVO676vWZc-QLNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RussianGrandmother-583f20e53df78c6f6ac8884b.jpg</item>
+            </url_candidates>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft3_photo_aging_placeholder</asset_id>
+          <type>photo</type>
+          <role>supporting_photo_placeholder</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Optional supporting photo (e.g., multi-generational family / elders) to visually reinforce aging-population story. Not on proof.</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+      </assets>
+      <data_source_links>
+        <item>
+          <source_name>United Nations and European statistical agencies</source_name>
+          <url is_null="true"/>
+          <note>Listed in Featurettes.docx as general source category; specific dataset URLs not provided.</note>
+        </item>
+      </data_source_links>
+      <chart_spec>
+        <item>
+          <chart_id>eu_ft3_age_distribution</chart_id>
+          <chart_type>grouped_horizontal_bar</chart_type>
+          <title_on_proof>Europe’s Age Distribution: 1920s vs. 2023</title_on_proof>
+          <layout_notes>Age groups on y-axis (0–4, 5–9, …). Two series (1920s vs 2023) shown as paired horizontal bars. Colors on proof: dark blue vs light teal/green.</layout_notes>
+          <data_table>
+            <table_ref>https://docs.google.com/spreadsheets/u/0/d/1prH68PEWb-SYjgtqtaVDaLpFSJlQp-gyPQsO-e7xC8g/edit</table_ref>
+            <note>Google Sheet link provided in Featurettes.docx (anchor text: 'Compare age groups').</note>
+          </data_table>
+          <icon_unit_definitions is_null="true"/>
+        </item>
+        <item>
+          <chart_id>eu_ft3_birth_rates</chart_id>
+          <chart_type>small_multiples_area_or_bar</chart_type>
+          <title_on_proof>Declining Birth Rates</title_on_proof>
+          <layout_notes>Proof shows a grid of small charts (sample concept placeholder). Final should specify which Eastern European countries and years.</layout_notes>
+          <data_table>
+            <table_ref>Europe Cultural Domain.xlsx|Featurettes!A3:D81</table_ref>
+            <note>XLSX includes Russia birth/death/population table (1946–2023) labeled 'Russia birth and death rate'. Confirm if intended for this featurette or replace with regional birth-rate dataset.</note>
+          </data_table>
+          <icon_unit_definitions is_null="true"/>
+          <example_reference_image>https://www.liveabout.com/thmb/L-mu_R4iXZmLrVO676vWZc-QLNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RussianGrandmother-583f20e53df78c6f6ac8884b.jpg</example_reference_image>
+        </item>
+      </chart_spec>
+    </item>
+    <item>
+      <featurette_id>eu_featurette_4</featurette_id>
+      <title>Paris
+The Heartbeat of France</title>
+      <body_text>Think of Paris as a shining star at the center of France. It’s a “primate city,”
+meaning it’s much bigger and more influential than any other French city. Here,
+fashion, art, and cuisine set trends that spread across the country and around
+the world. Major companies, government offices, and world-famous museums call
+Paris home.
+
+Yet not everyone in France lives in this
+bustling capital. Many live in quiet villages or
+smaller towns, enjoying a slower pace of life.
+While Paris’s energy helps drive the nation’s
+economy and culture, people sometimes
+worry about too much focus on one city.
+Balancing the bright lights of Paris with the
+rest of France’s landscapes and traditions is
+an ongoing challenge.</body_text>
+      <layout_slot_id>slot_featurette_4_bottom_right</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>eu_ft4_photo_pair_paris_vs_countryside</asset_id>
+          <type>photo</type>
+          <role>photo_pair</role>
+          <aspect_ratio>~2:1</aspect_ratio>
+          <description>Photo pair: Eiffel Tower (Paris) and a peaceful countryside village (France).</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates>
+              <item>https://media.timeout.com/images/106181719/750/562/image.jpg</item>
+              <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxRi9H7lFB_yPidZfc7133VN_mUzNcQsoHg&amp;s</item>
+            </url_candidates>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft4_map_france_paris_position</asset_id>
+          <type>map</type>
+          <role>locator_map_reference</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Reference map of France highlighting Paris position (docx provides multiple candidate map images).</description>
+          <hyperlinks>
+            <final_url is_null="true"/>
+            <url_candidates>
+              <item>https://i0.wp.com/nwegeo.com/wp-content/uploads/2023/03/NWEGEO-France-population-density.jpg?resize=768%2C768&amp;ssl=1</item>
+              <item>https://francemap360.com/img/1200/france-population-density-map.jpg.webp</item>
+            </url_candidates>
+          </hyperlinks>
+        </item>
+        <item>
+          <asset_id>eu_ft4_chart_paris_population_comparison</asset_id>
+          <type>chart</type>
+          <role>bar_chart_population_comparison</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Bar chart comparing Paris population to other major French cities (Marseille, Lyon, Toulouse, Nice).</description>
+          <hyperlinks>
+            <final_url>https://docs.google.com/spreadsheets/u/0/d/1GnVdVefBsYG6p9sKCbHFEmJIBaegDAG9YVo9MF5VDBE/edit</final_url>
+            <url_candidates/>
+          </hyperlinks>
+        </item>
+      </assets>
+      <data_source_links>
+        <item>
+          <source_name>French census data and cultural institutions</source_name>
+          <url is_null="true"/>
+          <note>Listed in Featurettes.docx as general source category; specific URLs not provided.</note>
+        </item>
+      </data_source_links>
+      <chart_spec>
+        <item>
+          <chart_id>eu_ft4_population_bars</chart_id>
+          <chart_type>bar_chart</chart_type>
+          <title_on_proof>PARIS POPULATION</title_on_proof>
+          <layout_notes>Tall main bar for Paris with stacked/adjacent smaller bars for other cities; labels show city name and population. Proof uses dot-separated thousands formatting.</layout_notes>
+          <data_table>
+            <table_inline>
+              <item>
+                <label>Paris</label>
+                <value>2145000</value>
+                <display>2.145.000</display>
+              </item>
+              <item>
+                <label>Marseille</label>
+                <value>870000</value>
+                <display>870.000</display>
+              </item>
+              <item>
+                <label>Lyon</label>
+                <value>522000</value>
+                <display>522.000</display>
+              </item>
+              <item>
+                <label>Toulouse</label>
+                <value>501000</value>
+                <display>501.000</display>
+              </item>
+              <item>
+                <label>Nice</label>
+                <value>343000</value>
+                <display>343.000</display>
+              </item>
+            </table_inline>
+            <table_ref>https://docs.google.com/spreadsheets/u/0/d/1GnVdVefBsYG6p9sKCbHFEmJIBaegDAG9YVo9MF5VDBE/edit</table_ref>
+            <note>Proof provides specific city values; docx links to a Google Sheet for population data.</note>
+          </data_table>
+          <icon_unit_definitions is_null="true"/>
+        </item>
+      </chart_spec>
+    </item>
+  </featurettes>
+  <hyperlinks>
+    <photo_links>
+      <item>
+        <anchor_text>Eiffel Tower</anchor_text>
+        <url>https://media.timeout.com/images/106181719/750/562/image.jpg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>28</index>
+        </location>
+      </item>
+    </photo_links>
+    <map_links>
+      <item>
+        <anchor_text>Scotland</anchor_text>
+        <url>https://commons.wikimedia.org/wiki/File:Scotland_in_United_Kingdom.svg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>5</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>Basque region</anchor_text>
+        <url>https://upload.wikimedia.org/wikipedia/commons/a/a2/Basque_Country_Location_Map.svg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>6</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>France a nation state</anchor_text>
+        <url>https://en.m.wikipedia.org/wiki/File:France_location_map.svg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>8</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>Paris’s</anchor_text>
+        <url>https://francemap360.com/img/1200/france-population-density-map.jpg.webp</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>26</index>
+        </location>
+      </item>
+    </map_links>
+    <chart_data_links>
+      <item>
+        <anchor_text>Compare age groups </anchor_text>
+        <url>https://docs.google.com/spreadsheets/u/0/d/1prH68PEWb-SYjgtqtaVDaLpFSJlQp-gyPQsO-e7xC8g/edit</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>20</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>declining </anchor_text>
+        <url>https://docs.google.com/spreadsheets/u/0/d/1GnVdVefBsYG6p9sKCbHFEmJIBaegDAG9YVo9MF5VDBE/edit</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>21</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>population </anchor_text>
+        <url>https://docs.google.com/spreadsheets/u/0/d/1GnVdVefBsYG6p9sKCbHFEmJIBaegDAG9YVo9MF5VDBE/edit</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>27</index>
+        </location>
+      </item>
+    </chart_data_links>
+    <reference_links>
+      <item>
+        <anchor_text>ethnic group</anchor_text>
+        <url>https://i.redd.it/99wih6ardiu91.jpg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>7</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>before WWI</anchor_text>
+        <url>https://www.diercke.com/content/europe-world-war-one-1914-978-3-14-100790-9-36-1</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>14</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>after WWI</anchor_text>
+        <url>https://www.diercke.com/content/europe-countries-19201921-after-world-war-one-978-3-14-100890-6-62-2-1</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>14</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>after WWII</anchor_text>
+        <url>https://www.diercke.com/content/europe-countries-1949-after-world-war-two-978-3-14-100890-6-62-4-1</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>14</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>after 1991</anchor_text>
+        <url>https://www.diercke.com/content/europe-countries-today-978-3-14-100890-6-63-5-1?&amp;stichwort=europe+countries</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>14</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>decades</anchor_text>
+        <url>https://www.liveabout.com/thmb/L-mu_R4iXZmLrVO676vWZc-QLNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RussianGrandmother-583f20e53df78c6f6ac8884b.jpg</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>21</index>
+        </location>
+      </item>
+    </reference_links>
+    <other_links>
+      <item>
+        <anchor_text>France</anchor_text>
+        <url>https://i0.wp.com/nwegeo.com/wp-content/uploads/2023/03/NWEGEO-France-population-density.jpg?resize=768%2C768&amp;ssl=1</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>26</index>
+        </location>
+      </item>
+      <item>
+        <anchor_text>eaceful countryside village.</anchor_text>
+        <url>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxRi9H7lFB_yPidZfc7133VN_mUzNcQsoHg&amp;s</url>
+        <source_doc>Europe Featurettes.docx</source_doc>
+        <location>
+          <type>paragraph</type>
+          <index>28</index>
+        </location>
+      </item>
+    </other_links>
+    <notes>All hyperlinks extracted from Europe Featurettes.docx; Europe Stats.docx contained no hyperlinks.</notes>
+  </hyperlinks>
+  <supplemental_stats_for_app>
+    <item>
+      <stat_id>oddball_bottled_water_italy</stat_id>
+      <related_core_stat>Access to Clean Drinking Water</related_core_stat>
+      <text>Italy is one of the highest per-capita consumers of bottled water globally, despite widespread access to clean tap water—reflecting cultural preferences and perceptions of taste.</text>
+      <source>Europe Stats.docx</source>
+    </item>
+    <item>
+      <stat_id>oddball_pickpocketing_barcelona</stat_id>
+      <related_core_stat>Crime Rate (Low Crime = Safety)</related_core_stat>
+      <text>Barcelona (Spain) is notorious for pickpocketing in crowded tourist areas (e.g., Las Ramblas) even though overall crime rates may be moderate.</text>
+      <source>Europe Stats.docx</source>
+    </item>
+    <item>
+      <stat_id>oddball_single_person_households_sweden</stat_id>
+      <related_core_stat>Average Household Size</related_core_stat>
+      <text>Sweden has one of the highest proportions of single-person households globally—about 50% of households consist of one person.</text>
+      <source>Europe Stats.docx</source>
+    </item>
+  </supplemental_stats_for_app>
+  <validation_and_todos>
+    <item>
+      <severity>todo</severity>
+      <item>Poster physical dimensions (inches/mm) not provided; current dimensions use proof image pixels only.</item>
+    </item>
+    <item>
+      <severity>todo</severity>
+      <item>No graphs stuff.docx provided; iconization math and final chart build specs may be incomplete.</item>
+    </item>
+    <item>
+      <severity>todo</severity>
+      <item>Proof map shows labeled regions/territories (e.g., Åland, Faroe Is., Isle of Man, N. Cyprus, Georgia) that are not included in the 'Stats pallette' country list. Confirm whether to add these to palette or treat as non-stat regions.</item>
+    </item>
+    <item>
+      <severity>todo</severity>
+      <item>Featurette 3 'Declining Birth Rates' chart is marked 'PLACED AS SAMPLE CONCEPT' on proof; confirm final dataset (countries + years) and final chart type (line vs small-multiples) for production.</item>
+    </item>
+  </validation_and_todos>
+  <provenance>
+    <files_used>
+      <item>
+        <file_name>Cultural_StatsandFeatures_EUROPE.jpg</file_name>
+        <role>Primary proof image for layout and final copy</role>
+      </item>
+      <item>
+        <file_name>europe sf concept 1.jpg</file_name>
+        <role>Alternate 'maximal' draft style reference (not used for copy)</role>
+      </item>
+      <item>
+        <file_name>Europe Cultural Domain.xlsx</file_name>
+        <role>Source for Interesting Statistics table and stats map palette; also includes featurette data tables</role>
+      </item>
+      <item>
+        <file_name>Europe Featurettes.docx</file_name>
+        <role>Featurette outlines and all extracted hyperlinks for map/photo/chart references</role>
+      </item>
+      <item>
+        <file_name>Europe Stats.docx</file_name>
+        <role>Narrative framework + supplemental/oddball stats</role>
+      </item>
+    </files_used>
+  </provenance>
+</StatsAndFeaturettes>
+]]></payload_xml>
+</normalized_poster>

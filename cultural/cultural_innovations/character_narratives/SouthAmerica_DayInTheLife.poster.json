@@ -1,0 +1,1274 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/character narratives/SouthAmerica_DayInTheLife.poster.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__character_narratives__south_america__southamerica_dayinthelife_poster",
+    "derived_id": "cultural__character_narratives__south_america__southamerica_dayinthelife_poster",
+    "continent": "south_america",
+    "domain": "cultural",
+    "poster_family": "character_narratives",
+    "filename": "SouthAmerica_DayInTheLife.poster.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "character_narratives"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:cultural",
+      "poster_family:character_narratives"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/character narratives/SouthAmerica_DayInTheLife.poster.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff.atlastrail.poster.v1",
+    "generated_utc": "2025-12-29T14:39:10+00:00",
+    "poster": {
+      "poster_id": "SA_DAY_IN_LIFE",
+      "continent": "South America",
+      "poster_type": "day_in_the_life",
+      "display_title": "A Day In The Life.",
+      "theme_title": "Songs of Forest & Fiesta",
+      "layout_template": {
+        "template_name": "DayInTheLife_v1",
+        "units": "in",
+        "poster_size": {
+          "width": 96.0,
+          "height": 60.0,
+          "orientation": "landscape"
+        },
+        "notes": "Layout based on the Africa_ADayInTheLife.jpg draft (layout only; character content populated from new_prompts.xlsx + South America.docx).",
+        "margins": {
+          "left": 1.0,
+          "right": 1.0,
+          "top": 1.0,
+          "bottom": 1.0
+        },
+        "header": {
+          "title_text": "A Day In The Life.",
+          "x": 1.5,
+          "y": 0.8,
+          "w": 55.0,
+          "h": 4.8,
+          "style": "Title_Script",
+          "notes": "Handwritten/script title at top-left over a muted world-map background."
+        },
+        "content": {
+          "y_start": 6.5,
+          "row_gap": 0.5,
+          "rows": 3,
+          "left_info_panel": {
+            "w": 22.0,
+            "inner_padding": 0.6
+          },
+          "grid": {
+            "columns": 6,
+            "col_gap": 1.0,
+            "image_size": 11.0,
+            "caption_height": 4.5,
+            "caption_style": "Caption_Sans_Small",
+            "image_style": "Image_With_Thin_White_Border",
+            "notes": "Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption."
+          }
+        }
+      },
+      "source_files": {
+        "captions": {
+          "file": "new_prompts.xlsx",
+          "sheet": "SA",
+          "column_used": "Option B – 1st Person",
+          "path": "/mnt/data/new_prompts.xlsx"
+        },
+        "prompts_and_image_links": {
+          "file": "South America.docx",
+          "path": "/mnt/data/South America.docx"
+        },
+        "research_keywords": {
+          "file": "character narratives.docx",
+          "path": "/mnt/data/character narratives.docx"
+        }
+      },
+      "characters": [
+        {
+          "character_id": "SA_KAI",
+          "name": "Kai",
+          "country": "Brazil",
+          "role_or_culture": "Yanomami Boy (Amazon Rainforest)",
+          "flagEmoji": "🇧🇷",
+          "flagIso2": "BR",
+          "label": {
+            "headline": "Kai",
+            "subhead": "A Yanomami Boy in Brazil’s Amazon Rainforest",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Kai is a 9-year-old Yanomami boy living in the Amazon rainforest in Brazil. The Yanomami people have a traditional, semi-nomadic lifestyle strongly tied to the rainforest.",
+          "style_reference_image_url": "https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Morning mist cools my skin. I clutch my satchel and feel the forest invite me in.",
+              "image": {
+                "asset_id": "SA_KAI_S01",
+                "url": "https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png",
+                "recommended_filename": "SA_KAI_S01.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Amazon maloca at dawn (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: Amazon maloca at dawn; Yanomami youth (boy) tying a woven satchel and checking a small calabash pouch before a forest walk; medium‑wide framing; eye‑line looking along the forest path past camera with quiet bravery; clear cultural anchors: bead necklace, woven palm‑fiber satchel, simple feather headband, thatched maloca; environmental cues: thin ground fog, dew on broad leaves, warm hearth ash; motion cues: thin smoke curl from a breakfast fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool pre‑sunrise ambience with soft sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Yanomami boy early morning",
+                  "Indigenous maloca Amazon",
+                  "Jungle village sunrise",
+                  "Traditional Yanomami attire child",
+                  "Tropical rainforest mist morning"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 1: Amazon maloca at dawn; Yanomami youth (boy) tying a woven satchel and checking a small calabash pouch before a forest walk; medium‑wide framing; eye‑line looking along the forest path past camera with quiet bravery; clear cultural anchors: bead necklace, woven palm‑fiber satchel, simple feather headband, thatched maloca; environmental cues: thin ground fog, dew on broad leaves, warm hearth ash; motion cues: thin smoke curl from a breakfast fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool pre‑sunrise ambience with soft sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 1: Amazon maloca at dawn; Yanomami youth (boy) tying a woven satchel and checking a small calabash pouch before a forest walk; medium‑wide framing; eye‑line looking along the forest path past camera with quiet bravery; clear cultural anchors: bead necklace, woven palm‑fiber satchel, simple feather headband, thatched maloca; environmental cues: thin ground fog, dew on broad leaves, warm hearth ash; motion cues: thin smoke curl from a breakfast fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: cool pre‑sunrise ambience with soft sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Leaves brush my shoulders. I listen for clues from chatter monkeys and hidden frogs.",
+              "image": {
+                "asset_id": "SA_KAI_S02",
+                "url": "https://cdn.midjourney.com/8c398402-4129-406f-b2aa-17e3707c9b41/0_1.png",
+                "recommended_filename": "SA_KAI_S02.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Narrow rainforest footpath under dense canopy (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Narrow rainforest footpath under dense canopy; Yanomami youth walking lightly, listening for birds while brushing leaves aside; medium shot; eye‑line looking toward a sunlit gap ahead with calm curiosity; clear cultural anchors: palm‑fiber satchel, simple beadwork, rubber‑tapped sandals; environmental cues: buttress roots, bromeliads, filtered green light; motion cues: leaf flutter and a drifting insect cloud; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1000, 1/250 s; lighting: soft top‑light through foliage; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Yanomami boy exploring jungle",
+                  "Amazon rainforest trail",
+                  "Tropical jungle wildlife",
+                  "Indigenous child with bow and arrows",
+                  "Dense forest canopy Amazon"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 2: Narrow rainforest footpath under dense canopy; Yanomami youth walking lightly, listening for birds while brushing leaves aside; medium shot; eye‑line looking toward a sunlit gap ahead with calm curiosity; clear cultural anchors: palm‑fiber satchel, simple beadwork, rubber‑tapped sandals; environmental cues: buttress roots, bromeliads, filtered green light; motion cues: leaf flutter and a drifting insect cloud; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1000, 1/250 s; lighting: soft top‑light through foliage; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/8c398402-4129-406f-b2aa-17e3707c9b41/0_1.png --sw 140 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 140",
+                "prompt_clean": "Scene 2: Narrow rainforest footpath under dense canopy; Yanomami youth walking lightly, listening for birds while brushing leaves aside; medium shot; eye‑line looking toward a sunlit gap ahead with calm curiosity; clear cultural anchors: palm‑fiber satchel, simple beadwork, rubber‑tapped sandals; environmental cues: buttress roots, bromeliads, filtered green light; motion cues: leaf flutter and a drifting insect cloud; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1000, 1/250 s; lighting: soft top‑light through foliage; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 140 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "My heartbeat thuds when I spot the plant. I pluck its leaves and thank the forest aloud.",
+              "image": {
+                "asset_id": "SA_KAI_S03",
+                "url": "https://cdn.midjourney.com/6b7f60ef-ebd8-4d67-9244-aeefc211339c/0_1.png",
+                "recommended_filename": "SA_KAI_S03.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Small clearing at a buttress root (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Small clearing at a buttress root; Yanomami youth kneeling to gently harvest a medicinal leaf bundle with a carved wooden tool; medium shot; eye‑line looking down at the plant with focused joy; clear cultural anchors: identifiable medicinal leaves in a leaf‑wrap, woven pouch open beside him; environmental cues: damp soil, tiny mushrooms, speckled sun patches; motion cues: fingertip brushing dew, a leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: dappled late‑morning light; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Indigenous boy with medicinal plant",
+                  "Tropical flowers and foliage Amazon",
+                  "Waterfall in Amazon rainforest",
+                  "Rare orchids jungle scene",
+                  "Jungle clearing sunlight"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 3: Small clearing at a buttress root; Yanomami youth kneeling to gently harvest a medicinal leaf bundle with a carved wooden tool; medium shot; eye‑line looking down at the plant with focused joy; clear cultural anchors: identifiable medicinal leaves in a leaf‑wrap, woven pouch open beside him; environmental cues: damp soil, tiny mushrooms, speckled sun patches; motion cues: fingertip brushing dew, a leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: dappled late‑morning light; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/6b7f60ef-ebd8-4d67-9244-aeefc211339c/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 3: Small clearing at a buttress root; Yanomami youth kneeling to gently harvest a medicinal leaf bundle with a carved wooden tool; medium shot; eye‑line looking down at the plant with focused joy; clear cultural anchors: identifiable medicinal leaves in a leaf‑wrap, woven pouch open beside him; environmental cues: damp soil, tiny mushrooms, speckled sun patches; motion cues: fingertip brushing dew, a leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: dappled late‑morning light; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "The jaguar’s golden eyes meet mine. I stay still and feel small yet honored.",
+              "image": {
+                "asset_id": "SA_KAI_S04",
+                "url": "https://cdn.midjourney.com/5207541a-26e1-441c-807b-b80a060296e0/0_0.png",
+                "recommended_filename": "SA_KAI_S04.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Shaded stream bend (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: Shaded stream bend; Yanomami youth partially concealed by foliage, observing a jaguar drinking across the water at a safe distance; medium‑wide; eye‑line fixed across the stream with respectful awe; clear cultural anchors: small bead necklace, leaf‑wrap bundle tucked at his side; environmental cues: wet river stones, reflected sky in water; motion cues: soft water ripples, drifting gnat swarm; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/320 s; lighting: cool shade with specular highlights on water; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Amazon jaguar drinking water",
+                  "Indigenous boy observing wildlife",
+                  "Tropical riverbank jungle",
+                  "Jaguar in rainforest habitat",
+                  "Child hidden in foliage Amazon"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 4: Shaded stream bend; Yanomami youth partially concealed by foliage, observing a jaguar drinking across the water at a safe distance; medium‑wide; eye‑line fixed across the stream with respectful awe; clear cultural anchors: small bead necklace, leaf‑wrap bundle tucked at his side; environmental cues: wet river stones, reflected sky in water; motion cues: soft water ripples, drifting gnat swarm; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/320 s; lighting: cool shade with specular highlights on water; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/5207541a-26e1-441c-807b-b80a060296e0/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 4: Shaded stream bend; Yanomami youth partially concealed by foliage, observing a jaguar drinking across the water at a safe distance; medium‑wide; eye‑line fixed across the stream with respectful awe; clear cultural anchors: small bead necklace, leaf‑wrap bundle tucked at his side; environmental cues: wet river stones, reflected sky in water; motion cues: soft water ripples, drifting gnat swarm; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/320 s; lighting: cool shade with specular highlights on water; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I lay the herb in Grandfather’s hands. Warm smiles flicker brighter than the flames.",
+              "image": {
+                "asset_id": "SA_KAI_S05",
+                "url": "https://cdn.midjourney.com/5a0ee7c8-f604-4392-940d-907a2b91fad2/0_3.png",
+                "recommended_filename": "SA_KAI_S05.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Village clearing at golden hour (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Village clearing at golden hour; Yanomami youth presenting the medicinal plant bundle to an elder near the maloca; medium shot; eye‑line lens‑glance with proud warmth, elder’s hands reaching in from frame edge; clear cultural anchors: communal maloca, woven baskets, gourd container; environmental cues: orange sky, fireflies beginning; motion cues: ember drift from a low, cool cooking fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: warm sidelight and back‑rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Yanomami boy returning home",
+                  "Traditional maloca village sunset",
+                  "Amazon family gathering",
+                  "Communal fire indigenous village",
+                  "Evening light jungle setting"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 5: Village clearing at golden hour; Yanomami youth presenting the medicinal plant bundle to an elder near the maloca; medium shot; eye‑line lens‑glance with proud warmth, elder’s hands reaching in from frame edge; clear cultural anchors: communal maloca, woven baskets, gourd container; environmental cues: orange sky, fireflies beginning; motion cues: ember drift from a low, cool cooking fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: warm sidelight and back‑rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/5a0ee7c8-f604-4392-940d-907a2b91fad2/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 5: Village clearing at golden hour; Yanomami youth presenting the medicinal plant bundle to an elder near the maloca; medium shot; eye‑line lens‑glance with proud warmth, elder’s hands reaching in from frame edge; clear cultural anchors: communal maloca, woven baskets, gourd container; environmental cues: orange sky, fireflies beginning; motion cues: ember drift from a low, cool cooking fire; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/200 s; lighting: warm sidelight and back‑rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I spin with friends under the stars. The forest drums inside my chest.",
+              "image": {
+                "asset_id": "SA_KAI_S06",
+                "url": "https://cdn.midjourney.com/397973db-1816-43e7-be72-69d494b7c1c5/0_0.png",
+                "recommended_filename": "SA_KAI_S06.png",
+                "source": "South America.docx",
+                "alt_text": "Kai: Open space under stars (Brazil)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Open space under stars; Yanomami youth joining a village dance circle with ceremonial ochre markings (subtle, modest), smiling; medium‑wide; eye‑line looking across the circle to a drummer with joyful energy; clear cultural anchors: hand drum, seed‑rattle anklets, woven sashes; environmental cues: starry sky, moonlit fronds; motion cues: skirt swish, ember motes from a low, cool flame and a gentle aromatic haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 2000, 1/160 s; lighting: warm fire‑rim with moon fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Yanomami dance around fire",
+                  "Indigenous music and rituals Amazon",
+                  "Traditional tribal celebration rainforest",
+                  "Starry night jungle setting",
+                  "Community storytelling tribal rituals"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 6: Open space under stars; Yanomami youth joining a village dance circle with ceremonial ochre markings (subtle, modest), smiling; medium‑wide; eye‑line looking across the circle to a drummer with joyful energy; clear cultural anchors: hand drum, seed‑rattle anklets, woven sashes; environmental cues: starry sky, moonlit fronds; motion cues: skirt swish, ember motes from a low, cool flame and a gentle aromatic haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 2000, 1/160 s; lighting: warm fire‑rim with moon fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/397973db-1816-43e7-be72-69d494b7c1c5/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3ace0335-975e-4605-be38-118909dc10b8/0_3.png --ow 160",
+                "prompt_clean": "Scene 6: Open space under stars; Yanomami youth joining a village dance circle with ceremonial ochre markings (subtle, modest), smiling; medium‑wide; eye‑line looking across the circle to a drummer with joyful energy; clear cultural anchors: hand drum, seed‑rattle anklets, woven sashes; environmental cues: starry sky, moonlit fronds; motion cues: skirt swish, ember motes from a low, cool flame and a gentle aromatic haze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 2000, 1/160 s; lighting: warm fire‑rim with moon fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "SA_MARISOL",
+          "name": "Marisol",
+          "country": "Peru",
+          "role_or_culture": "Peruvian Chef",
+          "flagEmoji": "🇵🇪",
+          "flagIso2": "PE",
+          "label": {
+            "headline": "Marisol",
+            "subhead": "A Chef in Lima, Peru",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Marisol is a 30-year-old chef living in Lima, Peru. Peruvian culture is famous for its diverse and rich cuisine, influenced by indigenous, Spanish, African, and Asian cuisines.",
+          "style_reference_image_url": "https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I lift a red pepper and inhale its spice. My recipe ideas bloom like sunrise colors.",
+              "image": {
+                "asset_id": "SA_MARISOL_S01",
+                "url": "",
+                "recommended_filename": "SA_MARISOL_S01.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Lima coastal market aisle (Peru).",
+                "ref_asset_id": "SA_KAI_S06",
+                "link_status": "duplicate_sref_in_source_or_inputs"
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: Lima coastal market aisle; Peruvian adult chef selecting limes, aji amarillo, red onion and fresh seafood; medium shot; eye‑line looking to a vendor’s scale with lively focus; clear cultural anchors: woven market bags, stacked citrus, fish on ice; environmental cues: colorful tarps, chalk signs; motion cues: vendor passing a paper bundle, steam drift from a nearby pot; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 400, 1/200 s; lighting: open‑shade skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Peruvian traditional market",
+                  "Fresh produce stalls Lima",
+                  "Woman selecting ingredients market",
+                  "Tropical fruits and vegetables Peru",
+                  "Local farmers market South America"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 1: Lima coastal market aisle; Peruvian adult chef selecting limes, aji amarillo, red onion and fresh seafood; medium shot; eye‑line looking to a vendor’s scale with lively focus; clear cultural anchors: woven market bags, stacked citrus, fish on ice; environmental cues: colorful tarps, chalk signs; motion cues: vendor passing a paper bundle, steam drift from a nearby pot; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 400, 1/200 s; lighting: open‑shade skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/397973db-1816-43e7-be72-69d494b7c1c5/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 160",
+                "prompt_clean": "Scene 1: Lima coastal market aisle; Peruvian adult chef selecting limes, aji amarillo, red onion and fresh seafood; medium shot; eye‑line looking to a vendor’s scale with lively focus; clear cultural anchors: woven market bags, stacked citrus, fish on ice; environmental cues: colorful tarps, chalk signs; motion cues: vendor passing a paper bundle, steam drift from a nearby pot; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 400, 1/200 s; lighting: open‑shade skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I stir the bubbling stew. The scent reminds me of Abuela’s stories and steady hands.",
+              "image": {
+                "asset_id": "SA_MARISOL_S02",
+                "url": "https://cdn.midjourney.com/940bb6a3-9e8f-44c7-8ed2-9b33bfa20767/0_2.png",
+                "recommended_filename": "SA_MARISOL_S02.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Bright home kitchen (Peru)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Bright home kitchen; Peruvian chef whisking a leche de tigre base beside a mortar of ground aji amarillo; medium shot; eye‑line toward a simmering pan off‑camera with absorbed joy; clear cultural anchors: wooden spoon, cilantro, red onions, quinoa bowl; environmental cues: tiled backsplash, open window; motion cues: rising steam, whisk streak; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 640, 1/200 s; lighting: window key with soft fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Peruvian chef modern kitchen",
+                  "Ceviche plating Peruvian cuisine",
+                  "Colorful Peruvian dishes preparation",
+                  "Restaurant kitchen team working",
+                  "Peruvian spices and ingredients"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 2: Bright home kitchen; Peruvian chef whisking a leche de tigre base beside a mortar of ground aji amarillo; medium shot; eye‑line toward a simmering pan off‑camera with absorbed joy; clear cultural anchors: wooden spoon, cilantro, red onions, quinoa bowl; environmental cues: tiled backsplash, open window; motion cues: rising steam, whisk streak; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 640, 1/200 s; lighting: window key with soft fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/940bb6a3-9e8f-44c7-8ed2-9b33bfa20767/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 140",
+                "prompt_clean": "Scene 2: Bright home kitchen; Peruvian chef whisking a leche de tigre base beside a mortar of ground aji amarillo; medium shot; eye‑line toward a simmering pan off‑camera with absorbed joy; clear cultural anchors: wooden spoon, cilantro, red onions, quinoa bowl; environmental cues: tiled backsplash, open window; motion cues: rising steam, whisk streak; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 640, 1/200 s; lighting: window key with soft fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Plates empty fast. Each satisfied sigh feeds my spirit more than my own meals.",
+              "image": {
+                "asset_id": "SA_MARISOL_S03",
+                "url": "https://cdn.midjourney.com/0dab3062-d92f-4218-aa2e-4bbfa6d79ada/0_2.png",
+                "recommended_filename": "SA_MARISOL_S03.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Compact restaurant pass (Peru)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Compact restaurant pass; Peruvian chef plating ceviche and handing a dish to a server; medium shot; eye‑line tracking the server off‑camera with confident calm; clear cultural anchors: ceviche bowl, cancha corn, sweet potato slices, stainless pass; environmental cues: crowded tables, chalk menu; motion cues: micro‑pour of leche de tigre, pass window swing; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/320 s; lighting: practical pendants with bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Peruvian restaurant dining area",
+                  "Elegant food presentation Peru",
+                  "Restaurant staff serving guests",
+                  "Lunch rush urban restaurant Peru",
+                  "Vibrant urban dining Lima"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 3: Compact restaurant pass; Peruvian chef plating ceviche and handing a dish to a server; medium shot; eye‑line tracking the server off‑camera with confident calm; clear cultural anchors: ceviche bowl, cancha corn, sweet potato slices, stainless pass; environmental cues: crowded tables, chalk menu; motion cues: micro‑pour of leche de tigre, pass window swing; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/320 s; lighting: practical pendants with bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/0dab3062-d92f-4218-aa2e-4bbfa6d79ada/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 160",
+                "prompt_clean": "Scene 3: Compact restaurant pass; Peruvian chef plating ceviche and handing a dish to a server; medium shot; eye‑line tracking the server off‑camera with confident calm; clear cultural anchors: ceviche bowl, cancha corn, sweet potato slices, stainless pass; environmental cues: crowded tables, chalk menu; motion cues: micro‑pour of leche de tigre, pass window swing; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/320 s; lighting: practical pendants with bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I sit on a stone bench and taste ideas in my mind. Music guides every ingredient.",
+              "image": {
+                "asset_id": "SA_MARISOL_S04",
+                "url": "https://cdn.midjourney.com/77f54213-bec2-4ff0-87c4-41a96801826c/0_2.png",
+                "recommended_filename": "SA_MARISOL_S04.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Oceanside park bench (Peru)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: Oceanside park bench; Peruvian chef sipping tea and sketching a menu idea; medium shot; eye‑line toward the surf line beyond camera with peaceful inspiration; clear cultural anchors: notebook with ingredient doodles (aji amarillo, choclo, maracuya), thermos, shawl; environmental cues: sea breeze, low cliffs, gulls; motion cues: page corner flutter; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 200, 1/400 s; lighting: bright overcast, soft wrap; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Peruvian woman relaxing park bench",
+                  "Jacaranda trees blooming park Lima",
+                  "Woman sipping tea urban park",
+                  "Quiet reflection nature city",
+                  "Sketchbook journaling Peru"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 4: Oceanside park bench; Peruvian chef sipping tea and sketching a menu idea; medium shot; eye‑line toward the surf line beyond camera with peaceful inspiration; clear cultural anchors: notebook with ingredient doodles (aji amarillo, choclo, maracuya), thermos, shawl; environmental cues: sea breeze, low cliffs, gulls; motion cues: page corner flutter; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 200, 1/400 s; lighting: bright overcast, soft wrap; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/77f54213-bec2-4ff0-87c4-41a96801826c/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 160",
+                "prompt_clean": "Scene 4: Oceanside park bench; Peruvian chef sipping tea and sketching a menu idea; medium shot; eye‑line toward the surf line beyond camera with peaceful inspiration; clear cultural anchors: notebook with ingredient doodles (aji amarillo, choclo, maracuya), thermos, shawl; environmental cues: sea breeze, low cliffs, gulls; motion cues: page corner flutter; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 200, 1/400 s; lighting: bright overcast, soft wrap; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Flour dust coats my apron. Laughter rises when someone’s empanada pops open but smells perfect.",
+              "image": {
+                "asset_id": "SA_MARISOL_S05",
+                "url": "https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png",
+                "recommended_filename": "SA_MARISOL_S05.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Community kitchen (Peru)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Community kitchen; Peruvian chef guiding students as they squeeze limes and toss ceviche; medium shot; eye‑line brief lens‑glance with encouraging warmth; clear cultural anchors: aprons, cutting boards, bowls of herbs, safe knife grips; environmental cues: tiled walls, magnetic knife strip; motion cues: citrus spray, herb toss; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/250 s; lighting: overhead practicals with side bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Peruvian chef teaching cooking",
+                  "Group learning traditional recipes",
+                  "Cooking class kitchen setup Peru",
+                  "Aji de gallina preparation group",
+                  "Peruvian food education workshop"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 5: Community kitchen; Peruvian chef guiding students as they squeeze limes and toss ceviche; medium shot; eye‑line brief lens‑glance with encouraging warmth; clear cultural anchors: aprons, cutting boards, bowls of herbs, safe knife grips; environmental cues: tiled walls, magnetic knife strip; motion cues: citrus spray, herb toss; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/250 s; lighting: overhead practicals with side bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 140",
+                "prompt_clean": "Scene 5: Community kitchen; Peruvian chef guiding students as they squeeze limes and toss ceviche; medium shot; eye‑line brief lens‑glance with encouraging warmth; clear cultural anchors: aprons, cutting boards, bowls of herbs, safe knife grips; environmental cues: tiled walls, magnetic knife strip; motion cues: citrus spray, herb toss; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 800, 1/250 s; lighting: overhead practicals with side bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I cap my pen and exhale. Tomorrow’s dishes already feel like new hugs for my village.",
+              "image": {
+                "asset_id": "SA_MARISOL_S06",
+                "url": "https://cdn.midjourney.com/8a98eecc-e863-4c7b-9d50-9d31574c4ddf/0_1.png",
+                "recommended_filename": "SA_MARISOL_S06.png",
+                "source": "South America.docx",
+                "alt_text": "Marisol: Home kitchen window (Peru)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Home kitchen window; Peruvian chef at a table writing recipe notes, test plate nearby; medium shot; eye‑line toward city lights outside with settled optimism; clear cultural anchors: notebook pages, spice jars, aji paste; environmental cues: quiet streetlights, reflections on glass; motion cues: pen tap, kettle steam; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 1600, 1/125 s; lighting: warm tungsten practical with cool window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Woman brainstorming recipes at home",
+                  "Cozy apartment Lima city lights",
+                  "Peruvian chef writing notes at desk",
+                  "Inspirational cooking books and laptop",
+                  "Nighttime urban creativity scene"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 6: Home kitchen window; Peruvian chef at a table writing recipe notes, test plate nearby; medium shot; eye‑line toward city lights outside with settled optimism; clear cultural anchors: notebook pages, spice jars, aji paste; environmental cues: quiet streetlights, reflections on glass; motion cues: pen tap, kettle steam; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 1600, 1/125 s; lighting: warm tungsten practical with cool window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/8a98eecc-e863-4c7b-9d50-9d31574c4ddf/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png --ow 160",
+                "prompt_clean": "Scene 6: Home kitchen window; Peruvian chef at a table writing recipe notes, test plate nearby; medium shot; eye‑line toward city lights outside with settled optimism; clear cultural anchors: notebook pages, spice jars, aji paste; environmental cues: quiet streetlights, reflections on glass; motion cues: pen tap, kettle steam; Camera: Sony A7R IV, FE 50 mm f/1.4, ISO 1600, 1/125 s; lighting: warm tungsten practical with cool window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "SA_JUAN_CARLOS",
+          "name": "Juan Carlos",
+          "country": "Colombia",
+          "role_or_culture": "Teen Musician",
+          "flagEmoji": "🇨🇴",
+          "flagIso2": "CO",
+          "label": {
+            "headline": "Juan Carlos",
+            "subhead": "A Teenage Musician in Colombia",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Juan Carlos is a 16-year-old musician living in Medellín, Colombia. Colombian culture is rich with music, dance, and festivals, reflecting Indigenous, African, and Spanish influences.",
+          "style_reference_image_url": "https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Sea air cools my fingers on the strings. I greet the day with a slow melody.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S01",
+                "url": "https://cdn.midjourney.com/574cb5cd-56e0-478d-b355-baa8c118a447/0_3.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S01.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Hillside apartment balcony (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: Hillside apartment balcony; Colombian early‑teen musician tuning an acoustic guitar with a steaming mug nearby; medium shot; eye‑line toward the sunlit hillside off‑camera with hopeful calm; clear cultural anchors: acoustic guitar, notebook with chord shapes, woven bracelet; environmental cues: brick facades, morning haze; motion cues: string vibration, mug steam; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 640, 1/200 s; lighting: soft sunrise rim with fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Colombian boy practicing guitar",
+                  "Balcony view Medellín morning",
+                  "Urban street sounds Latin America",
+                  "Acoustic guitar practice teenage musician",
+                  "Potted plants city balcony Medellín"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 1: Hillside apartment balcony; Colombian early‑teen musician tuning an acoustic guitar with a steaming mug nearby; medium shot; eye‑line toward the sunlit hillside off‑camera with hopeful calm; clear cultural anchors: acoustic guitar, notebook with chord shapes, woven bracelet; environmental cues: brick facades, morning haze; motion cues: string vibration, mug steam; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 640, 1/200 s; lighting: soft sunrise rim with fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/574cb5cd-56e0-478d-b355-baa8c118a447/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 160",
+                "prompt_clean": "Scene 1: Hillside apartment balcony; Colombian early‑teen musician tuning an acoustic guitar with a steaming mug nearby; medium shot; eye‑line toward the sunlit hillside off‑camera with hopeful calm; clear cultural anchors: acoustic guitar, notebook with chord shapes, woven bracelet; environmental cues: brick facades, morning haze; motion cues: string vibration, mug steam; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 640, 1/200 s; lighting: soft sunrise rim with fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "My guitar rings bright. Each coin clink feels like applause from the city itself.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S02",
+                "url": "https://cdn.midjourney.com/153ac158-fe76-4db4-8cf4-02aceb735702/0_3.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S02.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Lively plaza (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Lively plaza; Colombian early‑teen busker mid‑strum, open guitar case with a few coins; medium shot; eye‑line brief lens‑glance with bright joy; clear cultural anchors: acoustic guitar, handwritten setlist, colorful street posters; environmental cues: pigeons, stone paving, passersby; motion cues: confetti scrap flutter, strumming blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 800, 1/320 s; lighting: open shade with edge sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Street musician Colombia",
+                  "Latin American plaza performer",
+                  "Guitar performance urban crowd",
+                  "Colombian market street scene",
+                  "Boy earning tips street music"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 2: Lively plaza; Colombian early‑teen busker mid‑strum, open guitar case with a few coins; medium shot; eye‑line brief lens‑glance with bright joy; clear cultural anchors: acoustic guitar, handwritten setlist, colorful street posters; environmental cues: pigeons, stone paving, passersby; motion cues: confetti scrap flutter, strumming blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 800, 1/320 s; lighting: open shade with edge sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/153ac158-fe76-4db4-8cf4-02aceb735702/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 140",
+                "prompt_clean": "Scene 2: Lively plaza; Colombian early‑teen busker mid‑strum, open guitar case with a few coins; medium shot; eye‑line brief lens‑glance with bright joy; clear cultural anchors: acoustic guitar, handwritten setlist, colorful street posters; environmental cues: pigeons, stone paving, passersby; motion cues: confetti scrap flutter, strumming blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 800, 1/320 s; lighting: open shade with edge sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I kneel beside a student. Her shaky chord turns steady and we both cheer.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S03",
+                "url": "https://cdn.midjourney.com/4160f864-b961-4039-a0c3-e03b6faf1b0f/0_2.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S03.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Community classroom (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Community classroom; Colombian teen musician guiding children on simple chords; medium shot; eye‑line to a student’s hands with patient pride; clear cultural anchors: acoustic guitars, whiteboard chord chart, stack of music sheets; environmental cues: bright paint, posters; motion cues: chalk dust in air, page turn; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1000, 1/200 s; lighting: fluorescent practicals softened with window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Music workshop children Colombia",
+                  "Community center cultural education",
+                  "Boy teaching guitar young kids",
+                  "Traditional instruments music lessons",
+                  "Colombian cultural mentorship"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 3: Community classroom; Colombian teen musician guiding children on simple chords; medium shot; eye‑line to a student’s hands with patient pride; clear cultural anchors: acoustic guitars, whiteboard chord chart, stack of music sheets; environmental cues: bright paint, posters; motion cues: chalk dust in air, page turn; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1000, 1/200 s; lighting: fluorescent practicals softened with window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/4160f864-b961-4039-a0c3-e03b6faf1b0f/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 140",
+                "prompt_clean": "Scene 3: Community classroom; Colombian teen musician guiding children on simple chords; medium shot; eye‑line to a student’s hands with patient pride; clear cultural anchors: acoustic guitars, whiteboard chord chart, stack of music sheets; environmental cues: bright paint, posters; motion cues: chalk dust in air, page turn; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1000, 1/200 s; lighting: fluorescent practicals softened with window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Trumpets blare behind me. I sing loud enough to ride the color swirling through the night.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S04",
+                "url": "https://cdn.midjourney.com/e24d1e34-ac11-420d-9b4a-2afe1c449a05/0_2.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S04.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Small street festival stage (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: Small street festival stage; Colombian teen musician singing into a simple mic with bandmates nearby; medium‑wide; eye‑line out to the crowd with electric joy; clear cultural anchors: acoustic guitar, hand‑painted banner, papel picado; environmental cues: dusk sky, strings of warm bulbs; motion cues: confetti swirl, hair lift from a speaker breeze; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1600, 1/250 s; lighting: warm fest lights with cool dusk fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Carnaval de Barranquilla street stage",
+                  "Traditional Colombian costumes",
+                  "Musician performing Latin American festival",
+                  "Colombian folk dancers festival scene",
+                  "Colorful cultural celebration South America"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 4: Small street festival stage; Colombian teen musician singing into a simple mic with bandmates nearby; medium‑wide; eye‑line out to the crowd with electric joy; clear cultural anchors: acoustic guitar, hand‑painted banner, papel picado; environmental cues: dusk sky, strings of warm bulbs; motion cues: confetti swirl, hair lift from a speaker breeze; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1600, 1/250 s; lighting: warm fest lights with cool dusk fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e24d1e34-ac11-420d-9b4a-2afe1c449a05/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 140",
+                "prompt_clean": "Scene 4: Small street festival stage; Colombian teen musician singing into a simple mic with bandmates nearby; medium‑wide; eye‑line out to the crowd with electric joy; clear cultural anchors: acoustic guitar, hand‑painted banner, papel picado; environmental cues: dusk sky, strings of warm bulbs; motion cues: confetti swirl, hair lift from a speaker breeze; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1600, 1/250 s; lighting: warm fest lights with cool dusk fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Words flow across napkins. Harmonies sprout like vines around our table.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S05",
+                "url": "https://cdn.midjourney.com/7e869e8f-439c-41c0-8f2c-e473c01df472/0_0.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S05.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Neighborhood garage (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Neighborhood garage; Colombian teen musician trading riffs with friends; medium shot; eye‑line to a bandmate off‑camera with creative spark; clear cultural anchors: acoustic guitar, cajón, hand‑written lyric sheet; environmental cues: string lights, cinderblock wall; motion cues: cable sway, hand clap blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1250, 1/200 s; lighting: warm practicals, soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Teenagers playing music café Colombia",
+                  "Acoustic guitar group jam session",
+                  "Latin American youth musicians café",
+                  "Casual music collaboration Medellín",
+                  "Relaxed creative atmosphere South America"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 5: Neighborhood garage; Colombian teen musician trading riffs with friends; medium shot; eye‑line to a bandmate off‑camera with creative spark; clear cultural anchors: acoustic guitar, cajón, hand‑written lyric sheet; environmental cues: string lights, cinderblock wall; motion cues: cable sway, hand clap blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1250, 1/200 s; lighting: warm practicals, soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/7e869e8f-439c-41c0-8f2c-e473c01df472/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 160",
+                "prompt_clean": "Scene 5: Neighborhood garage; Colombian teen musician trading riffs with friends; medium shot; eye‑line to a bandmate off‑camera with creative spark; clear cultural anchors: acoustic guitar, cajón, hand‑written lyric sheet; environmental cues: string lights, cinderblock wall; motion cues: cable sway, hand clap blur; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 1250, 1/200 s; lighting: warm practicals, soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I hum under the stars. The ocean answers with a hush that promises tomorrow’s song.",
+              "image": {
+                "asset_id": "SA_JUAN_CARLOS_S06",
+                "url": "https://cdn.midjourney.com/7de3ac46-660d-4f48-9096-cb95ea3c3cdb/0_1.png",
+                "recommended_filename": "SA_JUAN_CARLOS_S06.png",
+                "source": "South America.docx",
+                "alt_text": "Juan Carlos: Bedroom desk by a window (Colombia)."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Bedroom desk by a window; Colombian teen musician writing lyrics, guitar on lap; medium shot; eye‑line toward distant city lights with resolved focus; clear cultural anchors: notebook, pencil, small recorder; environmental cues: rainy reflections, neon glow; motion cues: fingertip tap, page flip; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 2000, 1/125 s; lighting: desk lamp key with cool window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Teenage boy writing music Colombia",
+                  "Urban apartment Medellín night skyline",
+                  "Cozy desk guitar and notebook",
+                  "Songwriting creative process night",
+                  "Colombian city night peaceful setting"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "South America.docx",
+                "prompt_raw": "Scene 6: Bedroom desk by a window; Colombian teen musician writing lyrics, guitar on lap; medium shot; eye‑line toward distant city lights with resolved focus; clear cultural anchors: notebook, pencil, small recorder; environmental cues: rainy reflections, neon glow; motion cues: fingertip tap, page flip; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 2000, 1/125 s; lighting: desk lamp key with cool window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/7de3ac46-660d-4f48-9096-cb95ea3c3cdb/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/97e0a178-7a46-4b16-96c5-7f18ddbc1585/0_3.png --ow 140",
+                "prompt_clean": "Scene 6: Bedroom desk by a window; Colombian teen musician writing lyrics, guitar on lap; medium shot; eye‑line toward distant city lights with resolved focus; clear cultural anchors: notebook, pencil, small recorder; environmental cues: rainy reflections, neon glow; motion cues: fingertip tap, page flip; Camera: Nikon Z6 II, Z 35 mm f/1.8, ISO 2000, 1/125 s; lighting: desk lamp key with cool window fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "SA_KAI_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/fd3526f4-a096-49e9-b63d-720f73c9c5c5/0_2.png",
+          "character": "Kai",
+          "scene_index": 1,
+          "recommended_filename": "SA_KAI_S01.png"
+        },
+        {
+          "asset_id": "SA_KAI_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/8c398402-4129-406f-b2aa-17e3707c9b41/0_1.png",
+          "character": "Kai",
+          "scene_index": 2,
+          "recommended_filename": "SA_KAI_S02.png"
+        },
+        {
+          "asset_id": "SA_KAI_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/6b7f60ef-ebd8-4d67-9244-aeefc211339c/0_1.png",
+          "character": "Kai",
+          "scene_index": 3,
+          "recommended_filename": "SA_KAI_S03.png"
+        },
+        {
+          "asset_id": "SA_KAI_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/5207541a-26e1-441c-807b-b80a060296e0/0_0.png",
+          "character": "Kai",
+          "scene_index": 4,
+          "recommended_filename": "SA_KAI_S04.png"
+        },
+        {
+          "asset_id": "SA_KAI_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/5a0ee7c8-f604-4392-940d-907a2b91fad2/0_3.png",
+          "character": "Kai",
+          "scene_index": 5,
+          "recommended_filename": "SA_KAI_S05.png"
+        },
+        {
+          "asset_id": "SA_KAI_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/397973db-1816-43e7-be72-69d494b7c1c5/0_0.png",
+          "character": "Kai",
+          "scene_index": 6,
+          "recommended_filename": "SA_KAI_S06.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S01",
+          "type": "image_ref",
+          "ref_asset_id": "SA_KAI_S06",
+          "character": "Marisol",
+          "scene_index": 1,
+          "recommended_filename": "SA_MARISOL_S01.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/940bb6a3-9e8f-44c7-8ed2-9b33bfa20767/0_2.png",
+          "character": "Marisol",
+          "scene_index": 2,
+          "recommended_filename": "SA_MARISOL_S02.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/0dab3062-d92f-4218-aa2e-4bbfa6d79ada/0_2.png",
+          "character": "Marisol",
+          "scene_index": 3,
+          "recommended_filename": "SA_MARISOL_S03.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/77f54213-bec2-4ff0-87c4-41a96801826c/0_2.png",
+          "character": "Marisol",
+          "scene_index": 4,
+          "recommended_filename": "SA_MARISOL_S04.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/978ab547-6d56-42e1-9b1c-d5f1a7e43889/0_2.png",
+          "character": "Marisol",
+          "scene_index": 5,
+          "recommended_filename": "SA_MARISOL_S05.png"
+        },
+        {
+          "asset_id": "SA_MARISOL_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/8a98eecc-e863-4c7b-9d50-9d31574c4ddf/0_1.png",
+          "character": "Marisol",
+          "scene_index": 6,
+          "recommended_filename": "SA_MARISOL_S06.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/574cb5cd-56e0-478d-b355-baa8c118a447/0_3.png",
+          "character": "Juan Carlos",
+          "scene_index": 1,
+          "recommended_filename": "SA_JUAN_CARLOS_S01.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/153ac158-fe76-4db4-8cf4-02aceb735702/0_3.png",
+          "character": "Juan Carlos",
+          "scene_index": 2,
+          "recommended_filename": "SA_JUAN_CARLOS_S02.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/4160f864-b961-4039-a0c3-e03b6faf1b0f/0_2.png",
+          "character": "Juan Carlos",
+          "scene_index": 3,
+          "recommended_filename": "SA_JUAN_CARLOS_S03.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/e24d1e34-ac11-420d-9b4a-2afe1c449a05/0_2.png",
+          "character": "Juan Carlos",
+          "scene_index": 4,
+          "recommended_filename": "SA_JUAN_CARLOS_S04.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/7e869e8f-439c-41c0-8f2c-e473c01df472/0_0.png",
+          "character": "Juan Carlos",
+          "scene_index": 5,
+          "recommended_filename": "SA_JUAN_CARLOS_S05.png"
+        },
+        {
+          "asset_id": "SA_JUAN_CARLOS_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/7de3ac46-660d-4f48-9096-cb95ea3c3cdb/0_1.png",
+          "character": "Juan Carlos",
+          "scene_index": 6,
+          "recommended_filename": "SA_JUAN_CARLOS_S06.png"
+        }
+      ]
+    }
+  }
+}

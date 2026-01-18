@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:23Z</normalized_at>
+    <input_relpath>cultural/character narratives/Europe_DayInTheLife.poster.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__character_narratives__europe__europe_dayinthelife_poster</poster_id>
+    <continent>europe</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='UTF-8'?>
+<KaycliffAtlasTrailPoster schema="kaycliff.atlastrail.poster.v1" posterId="EUR_DAY_IN_LIFE" continent="Europe" posterType="day_in_the_life" units="in" width="96.0" height="60.0" orientation="landscape">
+  <Meta>
+    <DisplayTitle>A Day In The Life.</DisplayTitle>
+    <ThemeTitle>Stories between Dawn &amp; Dusk</ThemeTitle>
+    <GeneratedUTC>2026-01-01T21:20:43+00:00</GeneratedUTC>
+    <SourceFiles>
+      <SourceFile role="captions">
+        <file>new_prompts.xlsx</file>
+        <sheet>Europe</sheet>
+        <column_used>Option B – 1st Person</column_used>
+        <path>/mnt/data/new_prompts.xlsx</path>
+      </SourceFile>
+      <SourceFile role="prompts_and_image_links">
+        <file>Europe.docx</file>
+        <path>/mnt/data/Europe.docx</path>
+      </SourceFile>
+      <SourceFile role="research_keywords">
+        <file>character narratives.docx</file>
+        <path>/mnt/data/character narratives.docx</path>
+      </SourceFile>
+    </SourceFiles>
+  </Meta>
+  <LayoutTemplate name="DayInTheLife_v1">
+    <Notes>Layout based on the Africa_ADayInTheLife.jpg draft (layout only). Character content sourced from new_prompts.xlsx (Option B) and scene image links/prompts from the continent .docx.</Notes>
+    <Margins left="1.0" right="1.0" top="1.0" bottom="1.0"/>
+    <Header>
+      <title_text>A Day In The Life.</title_text>
+      <x>1.5</x>
+      <y>0.8</y>
+      <w>55.0</w>
+      <h>4.8</h>
+      <style>Title_Script</style>
+      <notes>Handwritten/script title at top-left over a muted world-map background.</notes>
+    </Header>
+    <Content rows="3" yStart="6.5" rowGap="0.5">
+      <LeftInfoPanel width="22.0" innerPadding="0.6"/>
+      <SceneGrid columns="6" colGap="1.0" imageSize="11.0" captionHeight="4.5" captionStyle="Caption_Sans_Small" imageStyle="Image_With_Thin_White_Border">Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption.</SceneGrid>
+    </Content>
+  </LayoutTemplate>
+  <Characters>
+    <Character id="EUR_LARS" name="Lars" country="Norway" roleOrCulture="Fisherman" flag="🇳🇴" iso2="NO" rowIndex="1">
+      <Label>
+        <Headline>Lars</Headline>
+        <Subhead>A Fisherman in Norway</Subhead>
+      </Label>
+      <BioShort>Lars is a 50-year-old fisherman living in the Lofoten Islands of Norway. Norwegian culture emphasizes a strong connection to nature, evident in everyday tasks like cod fishing.</BioShort>
+      <StyleReferenceImage>https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png</StyleReferenceImage>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="EUR_LARS_S01" url="https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png" recommendedFilename="EUR_LARS_S01.png" source="Europe.docx"/>
+          <AltText>Lars (Fisherman) in Norway: Lofoten harbor pre‑dawn winter.</AltText>
+          <Caption>I tighten my coat and breathe in sharp sea air. Fresh snow dusts my boots while I ready the boat.</Caption>
+          <ImageDescription>Scene 1: Lofoten harbor pre‑dawn winter; middle‑aged Norwegian fisherman preparing lines and nets on a small cod boat; medium framing; eye‑line toward distant harbor lights with calm resolve; clear cultural anchors: thick wool sweater under yellow raincoat, rubber boots, coil of cod nets, Norwegian registration markings on hull; environmental cues: polar night blue hour, snow flurries, steep snowy mountains; motion cues: lantern flicker, breath cloud, slow snow drift; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/125 s; lighting: pre‑dawn dock lamps + cold ambient; RAW photo, filename: DSC_8602.NEF; with improved facial accuracy --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Early Morning Departure</Keyword>
+            <Keyword>Lofoten harbor pre‑dawn winter</Keyword>
+            <Keyword>middle‑aged Norwegian fisherman preparing lines and nets on a small cod boat</Keyword>
+            <Keyword>medium framing</Keyword>
+            <Keyword>eye‑line toward distant harbor lights with calm resolve</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 1:
+ Lofoten harbor pre‑dawn winter; middle‑aged Norwegian fisherman preparing lines and nets on a small cod boat; medium framing;
+ eye‑line toward distant harbor lights with calm resolve; clear cultural anchors: thick wool sweater under yellow raincoat, rubber boots, coil of cod nets, Norwegian registration markings on hull; environmental cues: polar night blue hour, snow flurries, steep snowy mountains; motion cues: lantern flicker, breath cloud, slow snow drift; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/125 s; lighting: pre‑dawn dock lamps + cold ambient; RAW photo, filename: DSC_8602.NEF; with improved facial accuracy --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 1: Lofoten harbor pre‑dawn winter; middle‑aged Norwegian fisherman preparing lines and nets on a small cod boat; medium framing; eye‑line toward distant harbor lights with calm resolve; clear cultural anchors: thick wool sweater under yellow raincoat, rubber boots, coil of cod nets, Norwegian registration markings on hull; environmental cues: polar night blue hour, snow flurries, steep snowy mountains; motion cues: lantern flicker, breath cloud, slow snow drift; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/125 s; lighting: pre‑dawn dock lamps + cold ambient; RAW photo, filename: DSC_8602.NEF; with improved facial accuracy --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="EUR_LARS_S02" url="" recommendedFilename="EUR_LARS_S02.png" source="Europe.docx" refAssetId="EUR_LARS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Lars (Fisherman) in Norway: Open Barents waters.</AltText>
+          <Caption>I guide the boat under shifting green light. Waves whisper and the sky feels alive just for me.</Caption>
+          <ImageDescription>Scene 2: Open Barents waters; Norwegian fisherman at the helm navigating icy swells under aurora; medium‑wide; eye‑line past bow toward horizon with quiet awe; clear cultural anchors: chartplotter + radar glow, wool cap, trawl winch, gulls in wake; environmental cues: ribbons of green‑purple aurora, floes and calm frigid sea, night sky; motion cues: steam from mug, gull wing‑beats, gentle spray; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/100 s; lighting: instrument glow + aurora ambient + red cabin light spill; RAW photo, filename: DSC_8602.NEF --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Fishing at Sea</Keyword>
+            <Keyword>Open Barents waters</Keyword>
+            <Keyword>Norwegian fisherman at the helm navigating icy swells under aurora</Keyword>
+            <Keyword>medium‑wide</Keyword>
+            <Keyword>eye‑line past bow toward horizon with quiet awe</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 2:
+ Open Barents waters; Norwegian fisherman at the helm navigating icy swells under aurora; medium‑wide; eye‑line past bow toward horizon with quiet awe; clear cultural anchors: chartplotter + radar glow, wool cap, trawl winch, gulls in wake; environmental cues: ribbons of green‑purple aurora, floes and calm frigid sea, night sky; motion cues: steam from mug, gull wing‑beats, gentle spray; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/100 s; lighting: instrument glow + aurora ambient + red cabin light spill; RAW photo, filename: DSC_8602.NEF --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 2: Open Barents waters; Norwegian fisherman at the helm navigating icy swells under aurora; medium‑wide; eye‑line past bow toward horizon with quiet awe; clear cultural anchors: chartplotter + radar glow, wool cap, trawl winch, gulls in wake; environmental cues: ribbons of green‑purple aurora, floes and calm frigid sea, night sky; motion cues: steam from mug, gull wing‑beats, gentle spray; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/100 s; lighting: instrument glow + aurora ambient + red cabin light spill; RAW photo, filename: DSC_8602.NEF --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="EUR_LARS_S03" url="" recommendedFilename="EUR_LARS_S03.png" source="Europe.docx" refAssetId="EUR_LARS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Lars (Fisherman) in Norway: Winter daylight glow offshore.</AltText>
+          <Caption>The winch groans and cod spill onto deck. Their scales shine and I whisper a thank you to the sea.</Caption>
+          <ImageDescription>Scene 3: Winter daylight glow offshore; fisherman hauling cod‑heavy net with winch; medium‑wide; eye‑line to net cradle with focused determination; clear cultural anchors: Arctic cod, sustainability gauge board, orange deck gloves, foam fish tubs with Norwegian labels; environmental cues: low blue daylight, other boats as specks, snowy cliffs far distance; motion cues: winch cable vibration, drip lines from fish, breath mist; Camera: Nikon Z8, 35 mm f/1.8, ISO 1000, 1/500 s; lighting: flat winter daylight + reflective sea fill; RAW photo, filename: DSC_8602.NEF --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Catching Cod</Keyword>
+            <Keyword>Winter daylight glow offshore</Keyword>
+            <Keyword>fisherman hauling cod‑heavy net with winch</Keyword>
+            <Keyword>medium‑wide</Keyword>
+            <Keyword>eye‑line to net cradle with focused determination</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 3:
+ Winter daylight glow offshore; fisherman hauling cod‑heavy net with winch; medium‑wide; eye‑line to net cradle with focused determination; clear cultural anchors: Arctic cod, sustainability gauge board, orange deck gloves, foam fish tubs with Norwegian labels; environmental cues: low blue daylight, other boats as specks, snowy cliffs far distance; motion cues: winch cable vibration, drip lines from fish, breath mist; Camera: Nikon Z8, 35 mm f/1.8, ISO 1000, 1/500 s; lighting: flat winter daylight + reflective sea fill; RAW photo, filename: DSC_8602.NEF --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 3: Winter daylight glow offshore; fisherman hauling cod‑heavy net with winch; medium‑wide; eye‑line to net cradle with focused determination; clear cultural anchors: Arctic cod, sustainability gauge board, orange deck gloves, foam fish tubs with Norwegian labels; environmental cues: low blue daylight, other boats as specks, snowy cliffs far distance; motion cues: winch cable vibration, drip lines from fish, breath mist; Camera: Nikon Z8, 35 mm f/1.8, ISO 1000, 1/500 s; lighting: flat winter daylight + reflective sea fill; RAW photo, filename: DSC_8602.NEF --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="EUR_LARS_S04" url="" recommendedFilename="EUR_LARS_S04.png" source="Europe.docx" refAssetId="EUR_LARS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Lars (Fisherman) in Norway: Warm cabin.</AltText>
+          <Caption>My son and I share hot stew. Every spoonful tastes better because we cooked it together out here.</Caption>
+          <ImageDescription>Scene 4: Warm cabin; fisherman and adult son sharing hot fish stew at a small table; medium; eye‑line toward son, soft smile; clear cultural anchors: enamel mugs, family photos pinned over nautical chart, wool blankets, cod stew and rye bread; environmental cues: frosted porthole, lantern warm tone vs cold exterior; motion cues: steam curl from bowls, slight sway of hanging mug; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/200 s; lighting: warm lantern key + window fill; RAW photo, filename: DSC_8602.NEF --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Sharing a Meal Onboard</Keyword>
+            <Keyword>Warm cabin</Keyword>
+            <Keyword>fisherman and adult son sharing hot fish stew at a small table</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line toward son, soft smile</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 4:
+ Warm cabin; fisherman and adult son sharing hot fish stew at a small table; medium; eye‑line toward son, soft smile; clear cultural anchors: enamel mugs, family photos pinned over nautical chart, wool blankets, cod stew and rye bread; environmental cues: frosted porthole, lantern warm tone vs cold exterior; motion cues: steam curl from bowls, slight sway of hanging mug; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/200 s; lighting: warm lantern key + window fill; RAW photo, filename: DSC_8602.NEF --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 4: Warm cabin; fisherman and adult son sharing hot fish stew at a small table; medium; eye‑line toward son, soft smile; clear cultural anchors: enamel mugs, family photos pinned over nautical chart, wool blankets, cod stew and rye bread; environmental cues: frosted porthole, lantern warm tone vs cold exterior; motion cues: steam curl from bowls, slight sway of hanging mug; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/200 s; lighting: warm lantern key + window fill; RAW photo, filename: DSC_8602.NEF --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="EUR_LARS_S05" url="" recommendedFilename="EUR_LARS_S05.png" source="Europe.docx" refAssetId="EUR_LARS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Lars (Fisherman) in Norway: Snowy village harbor at dusk.</AltText>
+          <Caption>I spot the harbor lamps. My arms ache but my heart lifts because home is close.</Caption>
+          <ImageDescription>Scene 5: Snowy village harbor at dusk; fisherman steering into twinkling lights; medium‑wide from wheelhouse; eye‑line toward moorings with content relief; clear cultural anchors: stacked fish crates, dock crew waving, seals on rocks, Lofoten rorbuer cabins; environmental cues: deep blue twilight, first stars, light snow; motion cues: rope coil drop, exhaust wisp, gentle wake ripple; Camera: Nikon Z8, 35 mm f/1.8, ISO 2000, 1/160 s; lighting: dusk ambient + sodium dock lights; RAW photo, filename: DSC_8602.NEF; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Return to Port</Keyword>
+            <Keyword>Snowy village harbor at dusk</Keyword>
+            <Keyword>fisherman steering into twinkling lights</Keyword>
+            <Keyword>medium‑wide from wheelhouse</Keyword>
+            <Keyword>eye‑line toward moorings with content relief</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 5:
+ Snowy village harbor at dusk; fisherman steering into twinkling lights; medium‑wide from wheelhouse; eye‑line toward moorings with content relief; clear cultural anchors: stacked fish crates, dock crew waving, seals on rocks, Lofoten rorbuer cabins; environmental cues: deep blue twilight, first stars, light snow; motion cues: rope coil drop, exhaust wisp, gentle wake ripple; Camera: Nikon Z8, 35 mm f/1.8, ISO 2000, 1/160 s; lighting: dusk ambient + sodium dock lights; RAW photo, filename: DSC_8602.NEF; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 5: Snowy village harbor at dusk; fisherman steering into twinkling lights; medium‑wide from wheelhouse; eye‑line toward moorings with content relief; clear cultural anchors: stacked fish crates, dock crew waving, seals on rocks, Lofoten rorbuer cabins; environmental cues: deep blue twilight, first stars, light snow; motion cues: rope coil drop, exhaust wisp, gentle wake ripple; Camera: Nikon Z8, 35 mm f/1.8, ISO 2000, 1/160 s; lighting: dusk ambient + sodium dock lights; RAW photo, filename: DSC_8602.NEF; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="EUR_LARS_S06" url="" recommendedFilename="EUR_LARS_S06.png" source="Europe.docx" refAssetId="EUR_LARS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Lars (Fisherman) in Norway: Nordic wooden living room.</AltText>
+          <Caption>I sink into a chair by the crackling fire. My family leans close and home feels complete.</Caption>
+          <ImageDescription>Scene 6: Nordic wooden living room; fisherman by fireplace with spouse and two kids; medium; eye‑line toward crackling hearth with quiet fulfillment; clear cultural anchors: knitted Nordic sweaters, candles, winter greenery, mugs of cocoa, simple Nordic decor; environmental cues: gentle snowfall through window, ember glow; motion cues: candle flicker, page turn, soft blanket fold; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: firelight key + candle practicals; RAW photo, filename: DSC_8602.NEF --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Family Time</Keyword>
+            <Keyword>Nordic wooden living room</Keyword>
+            <Keyword>fisherman by fireplace with spouse and two kids</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line toward crackling hearth with quiet fulfillment</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 6:
+ Nordic wooden living room; fisherman by fireplace with spouse and two kids; medium; eye‑line toward crackling hearth with quiet fulfillment; clear cultural anchors: knitted Nordic sweaters, candles, winter greenery, mugs of cocoa, simple Nordic decor; environmental cues: gentle snowfall through window, ember glow; motion cues: candle flicker, page turn, soft blanket fold; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: firelight key + candle practicals; RAW photo, filename: DSC_8602.NEF --sref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 6: Nordic wooden living room; fisherman by fireplace with spouse and two kids; medium; eye‑line toward crackling hearth with quiet fulfillment; clear cultural anchors: knitted Nordic sweaters, candles, winter greenery, mugs of cocoa, simple Nordic decor; environmental cues: gentle snowfall through window, ember glow; motion cues: candle flicker, page turn, soft blanket fold; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: firelight key + candle practicals; RAW photo, filename: DSC_8602.NEF --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+    <Character id="EUR_ELENA" name="Elena" country="Romania" roleOrCulture="Artisan" flag="🇷🇴" iso2="RO" rowIndex="2">
+      <Label>
+        <Headline>Elena</Headline>
+        <Subhead>An Artisan in Romania</Subhead>
+      </Label>
+      <BioShort>Elena is an 18-year-old artisan from the Maramureș region of Romania. Romanian rural culture, especially in Maramureș, is rich in traditional crafts, folklore, wood carving, and embroidery.</BioShort>
+      <StyleReferenceImage>https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png</StyleReferenceImage>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="EUR_ELENA_S01" url="https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png" recommendedFilename="EUR_ELENA_S01.png" source="Europe.docx"/>
+          <AltText>Elena (Artisan) in Romania: Maramureș cottage interior.</AltText>
+          <Caption>I weave bright yarn. Grandmother’s smile warms me more than the sun on the cottage window.</Caption>
+          <ImageDescription>Scene 1: Maramureș cottage interior; young Romanian artisan weaving at a small loom by the window; medium; eye‑line out to hills beyond glass with serene focus; clear cultural anchors: white “ie” blouse with regional embroidery, wool skeins, carved wooden table, grandmother knitting nearby; environmental cues: autumn light, rolling hills, wooden shingles glimpsed outside; motion cues: shuttle pass blur, dust motes in sunbeam; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: soft morning window key; RAW photo, filename: IMG_8602.CR3 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Morning Crafting</Keyword>
+            <Keyword>Maramureș cottage interior</Keyword>
+            <Keyword>young Romanian artisan weaving at a small loom by the window</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line out to hills beyond glass with serene focus</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 1:
+ Maramureș cottage interior; young Romanian artisan weaving at a small loom by the window; medium; eye‑line out to hills beyond glass with serene focus; clear cultural anchors: white “ie” blouse with regional embroidery, wool skeins, carved wooden table, grandmother knitting nearby; environmental cues: autumn light, rolling hills, wooden shingles glimpsed outside; motion cues: shuttle pass blur, dust motes in sunbeam; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: soft morning window key; RAW photo, filename: IMG_8602.CR3 --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 1: Maramureș cottage interior; young Romanian artisan weaving at a small loom by the window; medium; eye‑line out to hills beyond glass with serene focus; clear cultural anchors: white “ie” blouse with regional embroidery, wool skeins, carved wooden table, grandmother knitting nearby; environmental cues: autumn light, rolling hills, wooden shingles glimpsed outside; motion cues: shuttle pass blur, dust motes in sunbeam; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: soft morning window key; RAW photo, filename: IMG_8602.CR3 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="EUR_ELENA_S02" url="" recommendedFilename="EUR_ELENA_S02.png" source="Europe.docx" refAssetId="EUR_ELENA_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Elena (Artisan) in Romania: Village square.</AltText>
+          <Caption>I lay my work on the stall table. Every compliment makes my hard nights of stitching worthwhile.</Caption>
+          <ImageDescription>Scene 2: Village square; artisan at a stall of woven textiles and carved spoons; medium‑wide; eye‑line to a browsing visitor with welcoming warmth; clear cultural anchors: embroidered skirts, carved gates motifs, stacked runners, bread vendor and folk musicians behind; environmental cues: wooden facades, flower boxes, mild daylight; motion cues: ribbon flutter on stall canopy, gesture mid‑offer; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 640, 1/320 s; lighting: open shade with sky fill; RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Market Day</Keyword>
+            <Keyword>Village square</Keyword>
+            <Keyword>artisan at a stall of woven textiles and carved spoons</Keyword>
+            <Keyword>medium‑wide</Keyword>
+            <Keyword>eye‑line to a browsing visitor with welcoming warmth</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 2:
+ Village square; artisan at a stall of woven textiles and carved spoons; medium‑wide; eye‑line to a browsing visitor with welcoming warmth; clear cultural anchors: embroidered skirts, carved gates motifs, stacked runners, bread vendor and folk musicians behind; environmental cues: wooden facades, flower boxes, mild daylight; motion cues: ribbon flutter on stall canopy, gesture mid‑offer; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 640, 1/320 s; lighting: open shade with sky fill; RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 2: Village square; artisan at a stall of woven textiles and carved spoons; medium‑wide; eye‑line to a browsing visitor with welcoming warmth; clear cultural anchors: embroidered skirts, carved gates motifs, stacked runners, bread vendor and folk musicians behind; environmental cues: wooden facades, flower boxes, mild daylight; motion cues: ribbon flutter on stall canopy, gesture mid‑offer; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 640, 1/320 s; lighting: open shade with sky fill; RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="EUR_ELENA_S03" url="" recommendedFilename="EUR_ELENA_S03.png" source="Europe.docx" refAssetId="EUR_ELENA_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Elena (Artisan) in Romania: Main street dress‑up.</AltText>
+          <Caption>My fingers knot ribbons between houses. The village already feels like a party before dusk arrives.</Caption>
+          <ImageDescription>Scene 3: Main street dress‑up; artisan hanging dried corn and colorful ribbons; medium; eye‑line up toward the line she’s tying with cheerful energy; clear cultural anchors: strings of maize, woven apron, neighbors placing tables, folk motifs on wood posts; environmental cues: crisp autumn air, red‑orange‑yellow trees; motion cues: ribbon sway, ladder creak, laughter mid‑frame; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/250 s; lighting: cool overcast with warm storefront spill; RAW photo, filename: IMG_8602.CR3; photorealistic --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Harvest Festival Preparation</Keyword>
+            <Keyword>Main street dress‑up</Keyword>
+            <Keyword>artisan hanging dried corn and colorful ribbons</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line up toward the line she’s tying with cheerful energy</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 3:
+ Main street dress‑up; artisan hanging dried corn and colorful ribbons; medium; eye‑line up toward the line she’s tying with cheerful energy; clear cultural anchors: strings of maize, woven apron, neighbors placing tables, folk motifs on wood posts; environmental cues: crisp autumn air, red‑orange‑yellow trees; motion cues: ribbon sway, ladder creak, laughter mid‑frame; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/250 s; lighting: cool overcast with warm storefront spill; RAW photo, filename: IMG_8602.CR3; photorealistic --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 140 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 140 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 3: Main street dress‑up; artisan hanging dried corn and colorful ribbons; medium; eye‑line up toward the line she’s tying with cheerful energy; clear cultural anchors: strings of maize, woven apron, neighbors placing tables, folk motifs on wood posts; environmental cues: crisp autumn air, red‑orange‑yellow trees; motion cues: ribbon sway, ladder creak, laughter mid‑frame; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 800, 1/250 s; lighting: cool overcast with warm storefront spill; RAW photo, filename: IMG_8602.CR3; photorealistic --sref --sw 140 --sv 6 --oref --ow 140 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="EUR_ELENA_S04" url="" recommendedFilename="EUR_ELENA_S04.png" source="Europe.docx" refAssetId="EUR_ELENA_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Elena (Artisan) in Romania: Rustic hall.</AltText>
+          <Caption>The wood floor thumps under my feet. I chase the rhythm and forget everything but the music.</Caption>
+          <ImageDescription>Scene 4: Rustic hall; artisan rehearsing folk steps with peers; medium‑wide; eye‑line toward a violinist off‑camera with lively joy; clear cultural anchors: rehearsal skirts, leather shoes, violin and accordion, mirror reflecting circle; environmental cues: creaking wooden floor, wall mirrors, hand‑painted motifs; motion cues: skirt swish, bracelet jingle, bow stroke blur; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/320 s; lighting: warm interior practicals + window fill; RAW photo, filename: IMG_8602.CR3 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Dance Rehearsal</Keyword>
+            <Keyword>Rustic hall</Keyword>
+            <Keyword>artisan rehearsing folk steps with peers</Keyword>
+            <Keyword>medium‑wide</Keyword>
+            <Keyword>eye‑line toward a violinist off‑camera with lively joy</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 4:
+ Rustic hall; artisan rehearsing folk steps with peers; medium‑wide; eye‑line toward a violinist off‑camera with lively joy; clear cultural anchors: rehearsal skirts, leather shoes, violin and accordion, mirror reflecting circle; environmental cues: creaking wooden floor, wall mirrors, hand‑painted motifs; motion cues: skirt swish, bracelet jingle, bow stroke blur; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/320 s; lighting: warm interior practicals + window fill; RAW photo, filename: IMG_8602.CR3 --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 4: Rustic hall; artisan rehearsing folk steps with peers; medium‑wide; eye‑line toward a violinist off‑camera with lively joy; clear cultural anchors: rehearsal skirts, leather shoes, violin and accordion, mirror reflecting circle; environmental cues: creaking wooden floor, wall mirrors, hand‑painted motifs; motion cues: skirt swish, bracelet jingle, bow stroke blur; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/320 s; lighting: warm interior practicals + window fill; RAW photo, filename: IMG_8602.CR3 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="EUR_ELENA_S05" url="" recommendedFilename="EUR_ELENA_S05.png" source="Europe.docx" refAssetId="EUR_ELENA_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Elena (Artisan) in Romania: Evening square under string lights.</AltText>
+          <Caption>Stage lamps blind me for a moment. Then I see the crowd clapping and my heart soars higher than the music.</Caption>
+          <ImageDescription>Scene 5: Evening square under string lights; artisan performing in full costume; medium; eye‑line to a fellow dancer off‑camera with exhilarated pride; clear cultural anchors: vibrant skirt, embroidered headpiece, stage of folk band, food stalls (sarmale, pastries); environmental cues: lantern‑lit air, crowd clapping, cool evening; motion cues: step turn blur, ribbon flutter, confetti drift; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 3200, 1/200 s; lighting: warm festoon bulbs + stage spill; RAW photo, filename: IMG_8602.CR3 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Festival Celebration</Keyword>
+            <Keyword>Evening square under string lights</Keyword>
+            <Keyword>artisan performing in full costume</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line to a fellow dancer off‑camera with exhilarated pride</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 5:
+ Evening square under string lights; artisan performing in full costume; medium; eye‑line to a fellow dancer off‑camera with exhilarated pride; clear cultural anchors: vibrant skirt, embroidered headpiece, stage of folk band, food stalls (sarmale, pastries); environmental cues: lantern‑lit air, crowd clapping, cool evening; motion cues: step turn blur, ribbon flutter, confetti drift; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 3200, 1/200 s; lighting: warm festoon bulbs + stage spill; RAW photo, filename: IMG_8602.CR3 --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 5: Evening square under string lights; artisan performing in full costume; medium; eye‑line to a fellow dancer off‑camera with exhilarated pride; clear cultural anchors: vibrant skirt, embroidered headpiece, stage of folk band, food stalls (sarmale, pastries); environmental cues: lantern‑lit air, crowd clapping, cool evening; motion cues: step turn blur, ribbon flutter, confetti drift; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 3200, 1/200 s; lighting: warm festoon bulbs + stage spill; RAW photo, filename: IMG_8602.CR3 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="EUR_ELENA_S06" url="" recommendedFilename="EUR_ELENA_S06.png" source="Europe.docx" refAssetId="EUR_ELENA_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Elena (Artisan) in Romania: Wooden bench outside home.</AltText>
+          <Caption>I sit on the porch and draw fresh designs. Stars guide my pencil and new ideas bloom.</Caption>
+          <ImageDescription>Scene 6: Wooden bench outside home; artisan sketching new patterns under stars; medium; eye‑line up to constellations with thoughtful calm; clear cultural anchors: shawl, handmade lantern, notebook of motifs, carved porch rail; environmental cues: crisp night, moon glow on a wooden church spire; motion cues: candle flame tremble, page edge lift in breeze; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/8 s; lighting: lantern key + moon fill (tripod‑stable feel); RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Evening Reflection</Keyword>
+            <Keyword>Wooden bench outside home</Keyword>
+            <Keyword>artisan sketching new patterns under stars</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line up to constellations with thoughtful calm</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 6:
+ Wooden bench outside home; artisan sketching new patterns under stars; medium; eye‑line up to constellations with thoughtful calm; clear cultural anchors: shawl, handmade lantern, notebook of motifs, carved porch rail; environmental cues: crisp night, moon glow on a wooden church spire; motion cues: candle flame tremble, page edge lift in breeze; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/8 s; lighting: lantern key + moon fill (tripod‑stable feel); RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 6: Wooden bench outside home; artisan sketching new patterns under stars; medium; eye‑line up to constellations with thoughtful calm; clear cultural anchors: shawl, handmade lantern, notebook of motifs, carved porch rail; environmental cues: crisp night, moon glow on a wooden church spire; motion cues: candle flame tremble, page edge lift in breeze; Camera: Canon R6 II, RF 35 mm f/1.8, ISO 1600, 1/8 s; lighting: lantern key + moon fill (tripod‑stable feel); RAW photo, filename: IMG_8602.CR3; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+    <Character id="EUR_NIKOS" name="Nikos" country="Greece" roleOrCulture="Island Student" flag="🇬🇷" iso2="GR" rowIndex="3">
+      <Label>
+        <Headline>Nikos</Headline>
+        <Subhead>An Island Student in Greece</Subhead>
+      </Label>
+      <BioShort>Nikos is a 10-year-old boy living on a remote Greek island, such as Ikaria, known for its relaxed lifestyle and longevity of its inhabitants. Greek island culture emphasizes a close-knit community, strong family bonds, traditional festivals (such as the Feast of Panagia), Mediterranean diet, and a leisurely pace of life.</BioShort>
+      <StyleReferenceImage>https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png</StyleReferenceImage>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="EUR_NIKOS_S01" url="https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png" recommendedFilename="EUR_NIKOS_S01.png" source="Europe.docx"/>
+          <AltText>Nikos (Island Student) in Greece: Whitewashed island classroom.</AltText>
+          <Caption>Waves glitter outside the window. I jot notes about dolphins and feel the salt breeze even indoors.</Caption>
+          <ImageDescription>Scene 1: Whitewashed island classroom; island youth student at desk by an open window to the Aegean; medium; eye‑line out to sea charts on the wall with bright curiosity; clear cultural anchors: Greek map, children’s drawings, simple uniform shirt, wooden desk; environmental cues: olive trees swaying outside, clear blue water; motion cues: curtain flutter, pencil tap; Camera: Sony a7 IV, 28 mm f/2, ISO 640, 1/250 s; lighting: bright classroom daylight from the window; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Morning School</Keyword>
+            <Keyword>Whitewashed island classroom</Keyword>
+            <Keyword>island youth student at desk by an open window to the Aegean</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line out to sea charts on the wall with bright curiosity</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 1:
+ Whitewashed island classroom; island youth student at desk by an open window to the Aegean; medium; eye‑line out to sea charts on the wall with bright curiosity; clear cultural anchors: Greek map, children’s drawings, simple uniform shirt, wooden desk; environmental cues: olive trees swaying outside, clear blue water; motion cues: curtain flutter, pencil tap; Camera: Sony a7 IV, 28 mm f/2, ISO 640, 1/250 s; lighting: bright classroom daylight from the window; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 1: Whitewashed island classroom; island youth student at desk by an open window to the Aegean; medium; eye‑line out to sea charts on the wall with bright curiosity; clear cultural anchors: Greek map, children’s drawings, simple uniform shirt, wooden desk; environmental cues: olive trees swaying outside, clear blue water; motion cues: curtain flutter, pencil tap; Camera: Sony a7 IV, 28 mm f/2, ISO 640, 1/250 s; lighting: bright classroom daylight from the window; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="EUR_NIKOS_S02" url="" recommendedFilename="EUR_NIKOS_S02.png" source="Europe.docx" refAssetId="EUR_NIKOS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Nikos (Island Student) in Greece: Small sandy cove after school.</AltText>
+          <Caption>I dive deep then burst up laughing. Sea foam tastes like summer freedom on my lips.</Caption>
+          <ImageDescription>Scene 2: Small sandy cove after school; island youth running with friends into turquoise water; medium‑wide; eye‑line toward a floating buoy beyond camera with playful joy; clear cultural anchors: modest swim shirt and trunks, fishing boats offshore, colorful umbrellas on shore; environmental cues: sun high, rocky headlands, crystalline shallows; motion cues: splash arcs, towel flap in breeze; Camera: Sony a7 IV, 28 mm f/2, ISO 200, 1/1600 s; lighting: full sun with sea bounce; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Afternoon Swim</Keyword>
+            <Keyword>Small sandy cove after school</Keyword>
+            <Keyword>island youth running with friends into turquoise water</Keyword>
+            <Keyword>medium‑wide</Keyword>
+            <Keyword>eye‑line toward a floating buoy beyond camera with playful joy</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 2:
+ Small sandy cove after school; island youth running with friends into turquoise water; medium‑wide; eye‑line toward a floating buoy beyond camera with playful joy; clear cultural anchors: modest swim shirt and trunks, fishing boats offshore, colorful umbrellas on shore; environmental cues: sun high, rocky headlands, crystalline shallows; motion cues: splash arcs, towel flap in breeze; Camera: Sony a7 IV, 28 mm f/2, ISO 200, 1/1600 s; lighting: full sun with sea bounce; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 140 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 2: Small sandy cove after school; island youth running with friends into turquoise water; medium‑wide; eye‑line toward a floating buoy beyond camera with playful joy; clear cultural anchors: modest swim shirt and trunks, fishing boats offshore, colorful umbrellas on shore; environmental cues: sun high, rocky headlands, crystalline shallows; motion cues: splash arcs, towel flap in breeze; Camera: Sony a7 IV, 28 mm f/2, ISO 200, 1/1600 s; lighting: full sun with sea bounce; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref --sw 140 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="EUR_NIKOS_S03" url="" recommendedFilename="EUR_NIKOS_S03.png" source="Europe.docx" refAssetId="EUR_NIKOS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Nikos (Island Student) in Greece: Harbor‑side taverna.</AltText>
+          <Caption>I carry plates of grilled octopus. The scent mixes with sea air and makes me hungry too.</Caption>
+          <ImageDescription>Scene 3: Harbor‑side taverna; island youth wiping blue‑painted tables, sea behind; medium; eye‑line toward arriving guests with proud readiness; clear cultural anchors: checkered tablecloths, olives and bread baskets, chalkboard menu, family greeting patrons; environmental cues: late afternoon sun, boats bobbing; motion cues: cloth swipe blur, chair scrape; Camera: Sony a7 IV, 28 mm f/2, ISO 400, 1/320 s; lighting: warm side sun + white wall bounce; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Helping at Home</Keyword>
+            <Keyword>Harbor‑side taverna</Keyword>
+            <Keyword>island youth wiping blue‑painted tables, sea behind</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line toward arriving guests with proud readiness</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 3:
+ Harbor‑side taverna; island youth wiping blue‑painted tables, sea behind; medium; eye‑line toward arriving guests with proud readiness; clear cultural anchors: checkered tablecloths, olives and bread baskets, chalkboard menu, family greeting patrons; environmental cues: late afternoon sun, boats bobbing; motion cues: cloth swipe blur, chair scrape; Camera: Sony a7 IV, 28 mm f/2, ISO 400, 1/320 s; lighting: warm side sun + white wall bounce; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 3: Harbor‑side taverna; island youth wiping blue‑painted tables, sea behind; medium; eye‑line toward arriving guests with proud readiness; clear cultural anchors: checkered tablecloths, olives and bread baskets, chalkboard menu, family greeting patrons; environmental cues: late afternoon sun, boats bobbing; motion cues: cloth swipe blur, chair scrape; Camera: Sony a7 IV, 28 mm f/2, ISO 400, 1/320 s; lighting: warm side sun + white wall bounce; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="EUR_NIKOS_S04" url="" recommendedFilename="EUR_NIKOS_S04.png" source="Europe.docx" refAssetId="EUR_NIKOS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Nikos (Island Student) in Greece: Village square.</AltText>
+          <Caption>I knot the last lantern and step back. The whole plaza glows like a giant invitation.</Caption>
+          <ImageDescription>Scene 4: Village square; youth stringing lights and arranging chairs; medium; eye‑line up to festoon lights with eager anticipation; clear cultural anchors: flags, flower garlands, church bell tower, woven baskets; environmental cues: evening approaching, bread baking aromas, soft bells; motion cues: lantern sway, ribbon flutter, careful chair slide; Camera: Sony a7 IV, 28 mm f/2, ISO 800, 1/200 s; lighting: golden hour + practical bulbs; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Festival Preparation</Keyword>
+            <Keyword>Village square</Keyword>
+            <Keyword>youth stringing lights and arranging chairs</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line up to festoon lights with eager anticipation</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 4:
+ Village square; youth stringing lights and arranging chairs; medium; eye‑line up to festoon lights with eager anticipation; clear cultural anchors: flags, flower garlands, church bell tower, woven baskets; environmental cues: evening approaching, bread baking aromas, soft bells; motion cues: lantern sway, ribbon flutter, careful chair slide; Camera: Sony a7 IV, 28 mm f/2, ISO 800, 1/200 s; lighting: golden hour + practical bulbs; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 140 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 4: Village square; youth stringing lights and arranging chairs; medium; eye‑line up to festoon lights with eager anticipation; clear cultural anchors: flags, flower garlands, church bell tower, woven baskets; environmental cues: evening approaching, bread baking aromas, soft bells; motion cues: lantern sway, ribbon flutter, careful chair slide; Camera: Sony a7 IV, 28 mm f/2, ISO 800, 1/200 s; lighting: golden hour + practical bulbs; RAW photo, filename: DSC08602.ARW; with a close‑up view and the subject in the foreground --sref --sw 140 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="EUR_NIKOS_S05" url="" recommendedFilename="EUR_NIKOS_S05.png" source="Europe.docx" refAssetId="EUR_NIKOS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Nikos (Island Student) in Greece: Lantern‑lit square under stars.</AltText>
+          <Caption>The bouzouki rings. I spin and stomp with everyone and the island feels like one big heartbeat.</Caption>
+          <ImageDescription>Scene 5: Lantern‑lit square under stars; youth dancing syrtaki with family and friends; medium; eye‑line toward a circle leader off‑camera with pure joy; clear cultural anchors: white shirt and dark trousers, live bouzouki, tables of grilled fish, olives, bread; environmental cues: starlit night, sea breeze, village banners; motion cues: step‑kick blur, lantern tremble, clapping hands; Camera: Sony a7 IV, 28 mm f/2, ISO 3200, 1/160 s; lighting: warm lanterns + stage spill + moon fill; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Evening Celebration</Keyword>
+            <Keyword>Lantern‑lit square under stars</Keyword>
+            <Keyword>youth dancing syrtaki with family and friends</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line toward a circle leader off‑camera with pure joy</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 5:
+ Lantern‑lit square under stars; youth dancing syrtaki with family and friends; medium; eye‑line toward a circle leader off‑camera with pure joy; clear cultural anchors: white shirt and dark trousers, live bouzouki, tables of grilled fish, olives, bread; environmental cues: starlit night, sea breeze, village banners; motion cues: step‑kick blur, lantern tremble, clapping hands; Camera: Sony a7 IV, 28 mm f/2, ISO 3200, 1/160 s; lighting: warm lanterns + stage spill + moon fill; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 5: Lantern‑lit square under stars; youth dancing syrtaki with family and friends; medium; eye‑line toward a circle leader off‑camera with pure joy; clear cultural anchors: white shirt and dark trousers, live bouzouki, tables of grilled fish, olives, bread; environmental cues: starlit night, sea breeze, village banners; motion cues: step‑kick blur, lantern tremble, clapping hands; Camera: Sony a7 IV, 28 mm f/2, ISO 3200, 1/160 s; lighting: warm lanterns + stage spill + moon fill; RAW photo, filename: DSC08602.ARW; with clear face, bright eyes and round cheeks --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="EUR_NIKOS_S06" url="" recommendedFilename="EUR_NIKOS_S06.png" source="Europe.docx" refAssetId="EUR_NIKOS_S01" linkStatus="duplicate_sref_in_source_or_inputs"/>
+          <AltText>Nikos (Island Student) in Greece: Rooftop terrace.</AltText>
+          <Caption>We lean against warm tiles. Grandpa points out constellations and I promise to remember every story.</Caption>
+          <ImageDescription>Scene 6: Rooftop terrace; youth reclining with grandparents pointing constellations; medium; eye‑line up toward constellation tracing with reflective wonder; clear cultural anchors: woven cushions, simple shawls, story gestures, plate of figs; environmental cues: calm night, wave hush, island rooftops; motion cues: fingertip trace, candle flicker; Camera: Sony a7 IV, 28 mm f/2, ISO 1600, 1/6 s; lighting: moonlight + soft candle practical (tripod‑stable feel); RAW photo, filename: DSC08602.ARW; showing age‑appropriate appearance --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Stargazing with Family</Keyword>
+            <Keyword>Rooftop terrace</Keyword>
+            <Keyword>youth reclining with grandparents pointing constellations</Keyword>
+            <Keyword>medium</Keyword>
+            <Keyword>eye‑line up toward constellation tracing with reflective wonder</Keyword>
+          </Keywords>
+          <Prompt source="Europe.docx">
+            <Raw>Scene 6:
+ Rooftop terrace; youth reclining with grandparents pointing constellations; medium; eye‑line up toward constellation tracing with reflective wonder; clear cultural anchors: woven cushions, simple shawls, story gestures, plate of figs; environmental cues: calm night, wave hush, island rooftops; motion cues: fingertip trace, candle flicker; Camera: Sony a7 IV, 28 mm f/2, ISO 1600, 1/6 s; lighting: moonlight + soft candle practical (tripod‑stable feel); RAW photo, filename: DSC08602.ARW; showing age‑appropriate appearance --sref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Raw>
+            <Clean>Scene 6: Rooftop terrace; youth reclining with grandparents pointing constellations; medium; eye‑line up toward constellation tracing with reflective wonder; clear cultural anchors: woven cushions, simple shawls, story gestures, plate of figs; environmental cues: calm night, wave hush, island rooftops; motion cues: fingertip trace, candle flicker; Camera: Sony a7 IV, 28 mm f/2, ISO 1600, 1/6 s; lighting: moonlight + soft candle practical (tripod‑stable feel); RAW photo, filename: DSC08602.ARW; showing age‑appropriate appearance --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 30 --ar 1:1 --v 7</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+  </Characters>
+  <Assets>
+    <Asset id="EUR_LARS_S01" type="image" character="Lars" sceneIndex="1" recommendedFilename="EUR_LARS_S01.png" url="https://cdn.midjourney.com/f2544599-4ffc-434c-90ea-ee2ef3d33783/0_0.png"/>
+    <Asset id="EUR_LARS_S02" type="image_ref" character="Lars" sceneIndex="2" recommendedFilename="EUR_LARS_S02.png" refAssetId="EUR_LARS_S01"/>
+    <Asset id="EUR_LARS_S03" type="image_ref" character="Lars" sceneIndex="3" recommendedFilename="EUR_LARS_S03.png" refAssetId="EUR_LARS_S01"/>
+    <Asset id="EUR_LARS_S04" type="image_ref" character="Lars" sceneIndex="4" recommendedFilename="EUR_LARS_S04.png" refAssetId="EUR_LARS_S01"/>
+    <Asset id="EUR_LARS_S05" type="image_ref" character="Lars" sceneIndex="5" recommendedFilename="EUR_LARS_S05.png" refAssetId="EUR_LARS_S01"/>
+    <Asset id="EUR_LARS_S06" type="image_ref" character="Lars" sceneIndex="6" recommendedFilename="EUR_LARS_S06.png" refAssetId="EUR_LARS_S01"/>
+    <Asset id="EUR_ELENA_S01" type="image" character="Elena" sceneIndex="1" recommendedFilename="EUR_ELENA_S01.png" url="https://cdn.midjourney.com/389c75fd-6398-48a9-b19a-46848a19507e/0_1.png"/>
+    <Asset id="EUR_ELENA_S02" type="image_ref" character="Elena" sceneIndex="2" recommendedFilename="EUR_ELENA_S02.png" refAssetId="EUR_ELENA_S01"/>
+    <Asset id="EUR_ELENA_S03" type="image_ref" character="Elena" sceneIndex="3" recommendedFilename="EUR_ELENA_S03.png" refAssetId="EUR_ELENA_S01"/>
+    <Asset id="EUR_ELENA_S04" type="image_ref" character="Elena" sceneIndex="4" recommendedFilename="EUR_ELENA_S04.png" refAssetId="EUR_ELENA_S01"/>
+    <Asset id="EUR_ELENA_S05" type="image_ref" character="Elena" sceneIndex="5" recommendedFilename="EUR_ELENA_S05.png" refAssetId="EUR_ELENA_S01"/>
+    <Asset id="EUR_ELENA_S06" type="image_ref" character="Elena" sceneIndex="6" recommendedFilename="EUR_ELENA_S06.png" refAssetId="EUR_ELENA_S01"/>
+    <Asset id="EUR_NIKOS_S01" type="image" character="Nikos" sceneIndex="1" recommendedFilename="EUR_NIKOS_S01.png" url="https://cdn.midjourney.com/3cc16846-6c99-47f9-a2be-2d1f749a939d/0_2.png"/>
+    <Asset id="EUR_NIKOS_S02" type="image_ref" character="Nikos" sceneIndex="2" recommendedFilename="EUR_NIKOS_S02.png" refAssetId="EUR_NIKOS_S01"/>
+    <Asset id="EUR_NIKOS_S03" type="image_ref" character="Nikos" sceneIndex="3" recommendedFilename="EUR_NIKOS_S03.png" refAssetId="EUR_NIKOS_S01"/>
+    <Asset id="EUR_NIKOS_S04" type="image_ref" character="Nikos" sceneIndex="4" recommendedFilename="EUR_NIKOS_S04.png" refAssetId="EUR_NIKOS_S01"/>
+    <Asset id="EUR_NIKOS_S05" type="image_ref" character="Nikos" sceneIndex="5" recommendedFilename="EUR_NIKOS_S05.png" refAssetId="EUR_NIKOS_S01"/>
+    <Asset id="EUR_NIKOS_S06" type="image_ref" character="Nikos" sceneIndex="6" recommendedFilename="EUR_NIKOS_S06.png" refAssetId="EUR_NIKOS_S01"/>
+  </Assets>
+</KaycliffAtlasTrailPoster>
+]]></payload_xml>
+</normalized_poster>

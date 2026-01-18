@@ -1,0 +1,1278 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:23Z",
+    "version": 1,
+    "input_relpath": "cultural/character narratives/Oceania_DayInTheLife.poster.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__character_narratives__oceania__oceania_dayinthelife_poster",
+    "derived_id": "cultural__character_narratives__oceania__oceania_dayinthelife_poster",
+    "continent": "oceania",
+    "domain": "cultural",
+    "poster_family": "character_narratives",
+    "filename": "Oceania_DayInTheLife.poster.json"
+  },
+  "tags": {
+    "continent": [
+      "oceania"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "character_narratives"
+    ],
+    "flat": [
+      "continent:oceania",
+      "domain:cultural",
+      "poster_family:character_narratives"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/character narratives/Oceania_DayInTheLife.poster.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff.atlastrail.poster.v1",
+    "generated_utc": "2026-01-01T21:16:49+00:00",
+    "poster": {
+      "poster_id": "OCE_DAY_IN_LIFE",
+      "continent": "Oceania",
+      "poster_type": "day_in_the_life",
+      "display_title": "A Day In The Life.",
+      "theme_title": "Echoes across Blue Horizons",
+      "layout_template": {
+        "template_name": "DayInTheLife_v1",
+        "units": "in",
+        "poster_size": {
+          "width": 96.0,
+          "height": 60.0,
+          "orientation": "landscape"
+        },
+        "notes": "Layout based on the Africa_ADayInTheLife.jpg draft (layout only). Character content sourced from new_prompts.xlsx (Option B) and scene image links/prompts from the continent .docx.",
+        "margins": {
+          "left": 1.0,
+          "right": 1.0,
+          "top": 1.0,
+          "bottom": 1.0
+        },
+        "header": {
+          "title_text": "A Day In The Life.",
+          "x": 1.5,
+          "y": 0.8,
+          "w": 55.0,
+          "h": 4.8,
+          "style": "Title_Script",
+          "notes": "Handwritten/script title at top-left over a muted world-map background."
+        },
+        "content": {
+          "y_start": 6.5,
+          "row_gap": 0.5,
+          "rows": 3,
+          "left_info_panel": {
+            "w": 22.0,
+            "inner_padding": 0.6
+          },
+          "grid": {
+            "columns": 6,
+            "col_gap": 1.0,
+            "image_size": 11.0,
+            "caption_height": 4.5,
+            "caption_style": "Caption_Sans_Small",
+            "image_style": "Image_With_Thin_White_Border",
+            "notes": "Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption."
+          }
+        }
+      },
+      "source_files": {
+        "captions": {
+          "file": "new_prompts.xlsx",
+          "sheet": "Australia",
+          "column_used": "Option B – 1st Person",
+          "path": "/mnt/data/new_prompts.xlsx"
+        },
+        "prompts_and_image_links": {
+          "file": "Oceania.docx",
+          "path": "/mnt/data/Oceania.docx"
+        },
+        "research_keywords": {
+          "file": "character narratives.docx",
+          "path": "/mnt/data/character narratives.docx"
+        }
+      },
+      "characters": [
+        {
+          "character_id": "OCE_BUNJI",
+          "name": "Bunji",
+          "country": "Australia",
+          "role_or_culture": "Arnhem Land Elder",
+          "flag": {
+            "emoji": "🇦🇺",
+            "iso2": "AU"
+          },
+          "label": {
+            "headline": "Bunji",
+            "subhead": "An Arnhem Land Elder in Australia",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Bunji is an Aboriginal elder from Arnhem Land in the Northern Territory of Australia, which reflects one of the many distinct Aboriginal cultures in the region. Aboriginal Australians are deeply connected to the land, with a belief system known as the Dreamtime that explains the origins of the landscape and their people.",
+          "style_reference_image_url": "https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "I waft cool eucalyptus smoke over each face; dawn paints us gold, and I feel the ancestors smile.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S01",
+                "url": "https://cdn.midjourney.com/91c55ed2-d4bb-49ca-9658-456f0dc4000f/0_1.png",
+                "recommended_filename": "OCE_BUNJI_S01.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Aboriginal Australian elder (male, ~60) at dawn on red earth, white ochre body paint, gently wafting cool eucalyptus smoke around the gathered community."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: Aboriginal Australian elder (male, ~60) at dawn on red earth, white ochre body paint, gently wafting cool eucalyptus smoke around the gathered community; medium‑wide, elder mid‑ground, looking slightly past camera toward the rising sun with a calm, welcoming smile; soft golden rim light, eucalyptus leaves and pale smoke curls, distant scrub and kangaroos; clean composition, warm ochres + blue‑gray smoke; Nikon Z8, 35 mm f/1.8, ISO 200, 1/500 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Morning Ceremony",
+                  "Aboriginal Australian elder (male, ~60) at dawn on red earth, white ochre body paint, gently wafting cool eucalyptus smoke around the gathered community",
+                  "medium‑wide, elder mid‑ground, looking slightly past camera toward the rising sun with a calm, welcoming smile",
+                  "soft golden rim light, eucalyptus leaves and pale smoke curls, distant scrub and kangaroos",
+                  "clean composition, warm ochres + blue‑gray smoke"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 1:\n Aboriginal Australian elder (male, ~60) at dawn on red earth, white ochre body paint, gently wafting cool eucalyptus smoke around the gathered community; medium‑wide, elder mid‑ground, looking slightly past camera toward the rising sun with a calm, welcoming smile; soft golden rim light, eucalyptus leaves and pale smoke curls, distant scrub and kangaroos; clean composition, warm ochres + blue‑gray smoke; Nikon Z8, 35 mm f/1.8, ISO 200, 1/500 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/91c55ed2-d4bb-49ca-9658-456f0dc4000f/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 1: Aboriginal Australian elder (male, ~60) at dawn on red earth, white ochre body paint, gently wafting cool eucalyptus smoke around the gathered community; medium‑wide, elder mid‑ground, looking slightly past camera toward the rising sun with a calm, welcoming smile; soft golden rim light, eucalyptus leaves and pale smoke curls, distant scrub and kangaroos; clean composition, warm ochres + blue‑gray smoke; Nikon Z8, 35 mm f/1.8, ISO 200, 1/500 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "",
+              "caption_first_person": "Children grip their little knives; guiding their strokes, I sense old knowledge settling into young hands.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S02",
+                "url": "https://cdn.midjourney.com/1bdecaa0-1414-44cd-9978-299eccb4cf85/0_3.png",
+                "recommended_filename": "OCE_BUNJI_S02.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Under a boab/eucalyptus tree, elder (male, ~60) guides children as they shape small spear shafts from stringy bark."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Under a boab/eucalyptus tree, elder (male, ~60) guides children as they shape small spear shafts from stringy bark; medium‑wide, elder angled three‑quarter and looking past camera toward the kids, patient and proud; wood shavings on ground, simple tools and boomerang blank to one side; dappled midday light, bushland backdrop; Nikon Z8, 35 mm f/1.8, ISO 200, 1/400 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Teaching the Youth",
+                  "Under a boab/eucalyptus tree, elder (male, ~60) guides children as they shape small spear shafts from stringy bark",
+                  "medium‑wide, elder angled three‑quarter and looking past camera toward the kids, patient and proud",
+                  "wood shavings on ground, simple tools and boomerang blank to one side",
+                  "dappled midday light, bushland backdrop"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 2:\n Under a boab/eucalyptus tree, elder (male, ~60) guides children as they shape small spear shafts from stringy bark; medium‑wide, elder angled three‑quarter and looking past camera toward the kids, patient and proud; wood shavings on ground, simple tools and boomerang blank to one side; dappled midday light, bushland backdrop; Nikon Z8, 35 mm f/1.8, ISO 200, 1/400 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/1bdecaa0-1414-44cd-9978-299eccb4cf85/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 2: Under a boab/eucalyptus tree, elder (male, ~60) guides children as they shape small spear shafts from stringy bark; medium‑wide, elder angled three‑quarter and looking past camera toward the kids, patient and proud; wood shavings on ground, simple tools and boomerang blank to one side; dappled midday light, bushland backdrop; Nikon Z8, 35 mm f/1.8, ISO 200, 1/400 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "",
+              "caption_first_person": "We tear warm damper, swap yarns; tea steam and laughter swirl together, binding every heart in the circle.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S03",
+                "url": "https://cdn.midjourney.com/a1efd4b4-e711-4c4d-8dc4-16844b9e7583/0_0.png",
+                "recommended_filename": "OCE_BUNJI_S03.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Woven‑leaf shade shelter."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Woven‑leaf shade shelter; elder sharing damper, fish and native fruits with family; medium‑wide, elder turned toward the circle and gazing just off‑camera with a warm storyteller’s grin as steam rises from billy tea; laughing children, enamel mugs, bark platters; sunlit dust motes, soft breeze in leaves; Nikon Z8, 35 mm f/1.8, ISO 320, 1/250 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Midday Gathering",
+                  "Woven‑leaf shade shelter",
+                  "elder sharing damper, fish and native fruits with family",
+                  "medium‑wide, elder turned toward the circle and gazing just off‑camera with a warm storyteller’s grin as steam rises from billy tea",
+                  "laughing children, enamel mugs, bark platters"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 3:\n Woven‑leaf shade shelter; elder sharing damper, fish and native fruits with family; medium‑wide, elder turned toward the circle and gazing just off‑camera with a warm storyteller’s grin as steam rises from billy tea; laughing children, enamel mugs, bark platters; sunlit dust motes, soft breeze in leaves; Nikon Z8, 35 mm f/1.8, ISO 320, 1/250 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/a1efd4b4-e711-4c4d-8dc4-16844b9e7583/0_0.png --sw 140 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 3: Woven‑leaf shade shelter; elder sharing damper, fish and native fruits with family; medium‑wide, elder turned toward the circle and gazing just off‑camera with a warm storyteller’s grin as steam rises from billy tea; laughing children, enamel mugs, bark platters; sunlit dust motes, soft breeze in leaves; Nikon Z8, 35 mm f/1.8, ISO 320, 1/250 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 140 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "",
+              "caption_first_person": "Moving with the flame, I chant “stay low, move slow”; the land relaxes beneath our gentle, cleansing fire.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S04",
+                "url": "https://cdn.midjourney.com/e645180c-0277-477c-affc-c77840133b19/0_3.png",
+                "recommended_filename": "OCE_BUNJI_S04.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Outback grassland during a low, cool burn."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: Outback grassland during a low, cool burn; elder (male, ~60) in practical long sleeves with firestick, creating a narrow flame front; medium‑wide, elder faces slightly away, gaze down‑trail past camera with focused calm; thin smoke sheets, unburnt mosaic ahead, watchful helpers behind; crisp blue sky, safety‑aware posture; Nikon Z8, 35 mm f/1.8, ISO 100, 1/1000 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Environmental Stewardship",
+                  "Outback grassland during a low, cool burn",
+                  "elder (male, ~60) in practical long sleeves with firestick, creating a narrow flame front",
+                  "medium‑wide, elder faces slightly away, gaze down‑trail past camera with focused calm",
+                  "thin smoke sheets, unburnt mosaic ahead, watchful helpers behind"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 4:\n Outback grassland during a low, cool burn; elder (male, ~60) in practical long sleeves with firestick, creating a narrow flame front; medium‑wide, elder faces slightly away, gaze down‑trail past camera with focused calm; thin smoke sheets, unburnt mosaic ahead, watchful helpers behind; crisp blue sky, safety‑aware posture; Nikon Z8, 35 mm f/1.8, ISO 100, 1/1000 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e645180c-0277-477c-affc-c77840133b19/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 4: Outback grassland during a low, cool burn; elder (male, ~60) in practical long sleeves with firestick, creating a narrow flame front; medium‑wide, elder faces slightly away, gaze down‑trail past camera with focused calm; thin smoke sheets, unburnt mosaic ahead, watchful helpers behind; crisp blue sky, safety‑aware posture; Nikon Z8, 35 mm f/1.8, ISO 100, 1/1000 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "",
+              "caption_first_person": "Didgeridoo’s drone lifts my tales; listeners lean in, eyes glinting like new constellations above the coals.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S05",
+                "url": "https://cdn.midjourney.com/5689cec8-39bc-45c3-84c2-4a875a4c1064/0_1.png",
+                "recommended_filename": "OCE_BUNJI_S05.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Twilight camp."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Twilight camp; elder seated by a small fire with didgeridoo across his lap; medium shot, elder looks slightly off‑camera toward listeners, eyes bright, mouth mid‑story; warm fire glow on ochre paint; kids in soft focus leaning in; stars emerging, sparks rising; Nikon Z8, 35 mm f/1.8, ISO 800, 1/60 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Evening Storytelling",
+                  "Twilight camp",
+                  "elder seated by a small fire with didgeridoo across his lap",
+                  "medium shot, elder looks slightly off‑camera toward listeners, eyes bright, mouth mid‑story",
+                  "warm fire glow on ochre paint"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 5:\n Twilight camp; elder seated by a small fire with didgeridoo across his lap; medium shot, elder looks slightly off‑camera toward listeners, eyes bright, mouth mid‑story; warm fire glow on ochre paint; kids in soft focus leaning in; stars emerging, sparks rising; Nikon Z8, 35 mm f/1.8, ISO 800, 1/60 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/5689cec8-39bc-45c3-84c2-4a875a4c1064/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 5: Twilight camp; elder seated by a small fire with didgeridoo across his lap; medium shot, elder looks slightly off‑camera toward listeners, eyes bright, mouth mid‑story; warm fire glow on ochre paint; kids in soft focus leaning in; stars emerging, sparks rising; Nikon Z8, 35 mm f/1.8, ISO 800, 1/60 s; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "",
+              "caption_first_person": "I whisper to the Milky Way; its river of light answers, guiding tomorrow’s guardians of our Country.",
+              "image": {
+                "asset_id": "OCE_BUNJI_S06",
+                "url": "https://cdn.midjourney.com/4cd4b9b8-dc22-4a4d-a467-6c71df81fdee/0_0.png",
+                "recommended_filename": "OCE_BUNJI_S06.png",
+                "source": "Oceania.docx",
+                "alt_text": "Bunji (Arnhem Land Elder) in Australia: Rocky outcrop at night."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Rocky outcrop at night; elder standing with hands folded; medium‑wide, three‑quarter profile, gazing past camera toward the Milky Way with a peaceful, reflective expression; cool starlight, faint ember glow at frame edge, vast Country below; high contrast sky, crisp stars; Nikon Z8, 35 mm f/1.8, ISO 3200, 8 s (tripod); RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Nighttime Reflection",
+                  "Rocky outcrop at night",
+                  "elder standing with hands folded",
+                  "medium‑wide, three‑quarter profile, gazing past camera toward the Milky Way with a peaceful, reflective expression",
+                  "cool starlight, faint ember glow at frame edge, vast Country below"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 6:\n Rocky outcrop at night; elder standing with hands folded; medium‑wide, three‑quarter profile, gazing past camera toward the Milky Way with a peaceful, reflective expression; cool starlight, faint ember glow at frame edge, vast Country below; high contrast sky, crisp stars; Nikon Z8, 35 mm f/1.8, ISO 3200, 8 s (tripod); RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/4cd4b9b8-dc22-4a4d-a467-6c71df81fdee/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a14730b6-c035-4ba5-b912-7811fbca6107/0_3.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 6: Rocky outcrop at night; elder standing with hands folded; medium‑wide, three‑quarter profile, gazing past camera toward the Milky Way with a peaceful, reflective expression; cool starlight, faint ember glow at frame edge, vast Country below; high contrast sky, crisp stars; Nikon Z8, 35 mm f/1.8, ISO 3200, 8 s (tripod); RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 6.5,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 7.333333333333334,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 18.333333333333336,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "OCE_KALOR",
+          "name": "Kalor",
+          "country": "Vanuatu",
+          "role_or_culture": "Tourism Guide",
+          "flag": {
+            "emoji": "🇻🇺",
+            "iso2": "VU"
+          },
+          "label": {
+            "headline": "Kalor",
+            "subhead": "A Tourism Guide in Vanuatu",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Kalor is a 25-year-old eco-tourism guide from Espiritu Santo Island in Vanuatu, an archipelago in the South Pacific. Vanuatu is known for its rich cultural heritage, traditional village life, and strong community connections.",
+          "style_reference_image_url": "https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Sunrise colors the waves while I place each snorkel in a neat row, eager to greet new friends.",
+              "image": {
+                "asset_id": "OCE_KALOR_S01",
+                "url": "https://cdn.midjourney.com/1e934531-fb89-4ede-992e-7368f1557d22/0_3.png",
+                "recommended_filename": "OCE_KALOR_S01.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: PNG Highlands rainforest path at sunrise."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: PNG Highlands rainforest path at sunrise; girl (12) in school uniform with colorful bilum on shoulder, mid‑step; medium‑wide, looking down the path past camera with an eager smile; dew on leaves, birds‑of‑paradise alighting, soft mist in shafts of light; Canon R6 II, 35 mm f/2, ISO 400, 1/250 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Sunrise Preparation",
+                  "PNG Highlands rainforest path at sunrise",
+                  "girl (12) in school uniform with colorful bilum on shoulder, mid‑step",
+                  "medium‑wide, looking down the path past camera with an eager smile",
+                  "dew on leaves, birds‑of‑paradise alighting, soft mist in shafts of light"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 1:\n PNG Highlands rainforest path at sunrise; girl (12) in school uniform with colorful bilum on shoulder, mid‑step; medium‑wide, looking down the path past camera with an eager smile; dew on leaves, birds‑of‑paradise alighting, soft mist in shafts of light; Canon R6 II, 35 mm f/2, ISO 400, 1/250 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/1e934531-fb89-4ede-992e-7368f1557d22/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 1: PNG Highlands rainforest path at sunrise; girl (12) in school uniform with colorful bilum on shoulder, mid‑step; medium‑wide, looking down the path past camera with an eager smile; dew on leaves, birds‑of‑paradise alighting, soft mist in shafts of light; Canon R6 II, 35 mm f/2, ISO 400, 1/250 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "",
+              "caption_first_person": "Paddling upriver, I spotlight scarlet parrots; guests gasp, and their wonder fills me like fresh coconut water.",
+              "image": {
+                "asset_id": "OCE_KALOR_S02",
+                "url": "https://cdn.midjourney.com/73ab404b-6e69-497c-822f-de29f6f02702/0_3.png",
+                "recommended_filename": "OCE_KALOR_S02.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: Small wooden classroom with plant and animal charts."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Small wooden classroom with plant and animal charts; girl (12) leaning forward at desk, pencil poised; medium shot, eyes toward teacher off‑camera, animated and proud; classmates and teacher in soft focus, window light on chalkboard diagrams; Canon R6 II, 35 mm f/2, ISO 800, 1/125 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Guiding Tourists",
+                  "Small wooden classroom with plant and animal charts",
+                  "girl (12) leaning forward at desk, pencil poised",
+                  "medium shot, eyes toward teacher off‑camera, animated and proud",
+                  "classmates and teacher in soft focus, window light on chalkboard diagrams"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 2:\n Small wooden classroom with plant and animal charts; girl (12) leaning forward at desk, pencil poised; medium shot, eyes toward teacher off‑camera, animated and proud; classmates and teacher in soft focus, window light on chalkboard diagrams; Canon R6 II, 35 mm f/2, ISO 800, 1/125 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/73ab404b-6e69-497c-822f-de29f6f02702/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 2: Small wooden classroom with plant and animal charts; girl (12) leaning forward at desk, pencil poised; medium shot, eyes toward teacher off‑camera, animated and proud; classmates and teacher in soft focus, window light on chalkboard diagrams; Canon R6 II, 35 mm f/2, ISO 800, 1/125 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "",
+              "caption_first_person": "Drums boom, dancers whirl; seeing visitors clap in time with our rhythm sends pride surging through me.",
+              "image": {
+                "asset_id": "OCE_KALOR_S03",
+                "url": "https://cdn.midjourney.com/2b342674-1535-45ff-b863-fbae433d967d/0_1.png",
+                "recommended_filename": "OCE_KALOR_S03.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: Schoolyard shade beneath a breadfruit tree."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Schoolyard shade beneath a breadfruit tree; girl (12) and friends sharing sweet potato, grilled fish and bananas wrapped in leaves; medium‑wide, she laughs while glancing sideways past camera; enamel lunch boxes, uniforms, hillside backdrop; Canon R6 II, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Midday Cultural Experience",
+                  "Schoolyard shade beneath a breadfruit tree",
+                  "girl (12) and friends sharing sweet potato, grilled fish and bananas wrapped in leaves",
+                  "medium‑wide, she laughs while glancing sideways past camera",
+                  "enamel lunch boxes, uniforms, hillside backdrop"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 3:\n Schoolyard shade beneath a breadfruit tree; girl (12) and friends sharing sweet potato, grilled fish and bananas wrapped in leaves; medium‑wide, she laughs while glancing sideways past camera; enamel lunch boxes, uniforms, hillside backdrop; Canon R6 II, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/2b342674-1535-45ff-b863-fbae433d967d/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 3: Schoolyard shade beneath a breadfruit tree; girl (12) and friends sharing sweet potato, grilled fish and bananas wrapped in leaves; medium‑wide, she laughs while glancing sideways past camera; enamel lunch boxes, uniforms, hillside backdrop; Canon R6 II, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "",
+              "caption_first_person": "Floating above coral cities, I teach reef care; their vows to protect these colors thrill my soul.",
+              "image": {
+                "asset_id": "OCE_KALOR_S04",
+                "url": "https://cdn.midjourney.com/462d81f4-9e97-49aa-9d7e-5b028b58f426/0_1.png",
+                "recommended_filename": "OCE_KALOR_S04.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: HELP Afternoon cultural dance rehearsal in a Highlands field."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: HELP Afternoon cultural dance rehearsal in a Highlands field; girl (12) center with modest beaded top, palm‑leaf skirt and feathered headpiece; medium‑wide, gaze off‑camera in concentration, skirt swishing mid‑turn; elder women guiding in background; hand drums, green hills; Canon R6 II, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Environmental Advocacy",
+                  "HELP Afternoon cultural dance rehearsal in a Highlands field",
+                  "girl (12) center with modest beaded top, palm‑leaf skirt and feathered headpiece",
+                  "medium‑wide, gaze off‑camera in concentration, skirt swishing mid‑turn",
+                  "elder women guiding in background"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 4:\n HELP\n Afternoon cultural dance rehearsal in a Highlands field; girl (12) center with modest beaded top, palm‑leaf skirt and feathered headpiece; medium‑wide, gaze off‑camera in concentration, skirt swishing mid‑turn; elder women guiding in background; hand drums, green hills; Canon R6 II, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/462d81f4-9e97-49aa-9d7e-5b028b58f426/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 4: HELP Afternoon cultural dance rehearsal in a Highlands field; girl (12) center with modest beaded top, palm‑leaf skirt and feathered headpiece; medium‑wide, gaze off‑camera in concentration, skirt swishing mid‑turn; elder women guiding in background; hand drums, green hills; Canon R6 II, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "",
+              "caption_first_person": "Lanterns sway as my guitar rings; voices of islanders and travelers braid into one joyful chorus.",
+              "image": {
+                "asset_id": "OCE_KALOR_S05",
+                "url": "https://cdn.midjourney.com/b1b57798-73ed-4d2a-8992-bdc5dd6af735/0_3.png",
+                "recommended_filename": "OCE_KALOR_S05.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: Village veranda at golden hour."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Village veranda at golden hour; early teen Papua New Guinea Highlands student weaving a colorful bilum, an elder relative working on a second bilum nearby; medium shot, student looking down‑path past camera with a soft, determined smile; close detail of vibrant fiber loops; thatched walls and free‑roaming chickens in background; Canon R6 II, 35 mm f/2, ISO 400, 1/200 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Evening Music Festival",
+                  "Village veranda at golden hour",
+                  "early teen Papua New Guinea Highlands student weaving a colorful bilum, an elder relative working on a second bilum nearby",
+                  "medium shot, student looking down‑path past camera with a soft, determined smile",
+                  "close detail of vibrant fiber loops"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 5:\n Village veranda at golden hour; early teen Papua New Guinea Highlands student weaving a colorful bilum, an elder relative working on a second bilum nearby; medium shot, student looking down‑path past camera with a soft, determined smile; close detail of vibrant fiber loops; thatched walls and free‑roaming chickens in background; Canon R6 II, 35 mm f/2, ISO 400, 1/200 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/b1b57798-73ed-4d2a-8992-bdc5dd6af735/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 5: Village veranda at golden hour; early teen Papua New Guinea Highlands student weaving a colorful bilum, an elder relative working on a second bilum nearby; medium shot, student looking down‑path past camera with a soft, determined smile; close detail of vibrant fiber loops; thatched walls and free‑roaming chickens in background; Canon R6 II, 35 mm f/2, ISO 400, 1/200 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "",
+              "caption_first_person": "Cool sand under me, I count waves and feel thankful that guiding, music, and stewardship shape my days.",
+              "image": {
+                "asset_id": "OCE_KALOR_S06",
+                "url": "https://cdn.midjourney.com/05c68d37-a564-47f3-91ab-abafba2a053f/0_0.png",
+                "recommended_filename": "OCE_KALOR_S06.png",
+                "source": "Oceania.docx",
+                "alt_text": "Kalor (Tourism Guide) in Vanuatu: Interior of a woven‑wall hut at night."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Interior of a woven‑wall hut at night; girl (12) with open textbook by an oil lamp; medium shot, eyes lifted toward the doorway past camera with calm resolve; warm lamplight on face, stars visible through the opening; tidy books and notes; Canon R6 II, 35 mm f/1.8, ISO 1600, 1/40 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Personal Reflection",
+                  "Interior of a woven‑wall hut at night",
+                  "girl (12) with open textbook by an oil lamp",
+                  "medium shot, eyes lifted toward the doorway past camera with calm resolve",
+                  "warm lamplight on face, stars visible through the opening"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 6:\n Interior of a woven‑wall hut at night; girl (12) with open textbook by an oil lamp; medium shot, eyes lifted toward the doorway past camera with calm resolve; warm lamplight on face, stars visible through the opening; tidy books and notes; Canon R6 II, 35 mm f/1.8, ISO 1600, 1/40 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/05c68d37-a564-47f3-91ab-abafba2a053f/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/dded9bb0-98cb-454a-8e62-8417adcda81a/0_0.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 6: Interior of a woven‑wall hut at night; girl (12) with open textbook by an oil lamp; medium shot, eyes lifted toward the doorway past camera with calm resolve; warm lamplight on face, stars visible through the opening; tidy books and notes; Canon R6 II, 35 mm f/1.8, ISO 1600, 1/40 s; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 24.166666666666668,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 25.0,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 36.0,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "character_id": "OCE_ALIKA",
+          "name": "Alika",
+          "country": "Papua New Guinea",
+          "role_or_culture": "Student",
+          "flag": {
+            "emoji": "🇵🇬",
+            "iso2": "PG"
+          },
+          "label": {
+            "headline": "Alika",
+            "subhead": "A Student in Papua New Guinea",
+            "notes": "Left-side info panel: small flag icon above the character name; subhead directly below."
+          },
+          "bio_short": "Alika is a 12-year-old girl from the Highlands of Papua New Guinea (PNG). Papua New Guinea is one of the most culturally diverse countries, with hundreds of distinct ethnic groups and languages.",
+          "style_reference_image_url": "https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png",
+          "scenes": [
+            {
+              "scene_index": 1,
+              "sequence_notes": "Scene 1 starts the day; scenes progress in chronological order.",
+              "caption_first_person": "Dew beads on my toes; neon birds dart overhead while I hum yesterday’s science song on the way to class.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S01",
+                "url": "https://cdn.midjourney.com/16d1ef7b-7311-4eff-86da-d2c4bde416d4/0_2.png",
+                "recommended_filename": "OCE_ALIKA_S01.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Espiritu Santo beach at sunrise."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 1: Espiritu Santo beach at sunrise; Ni‑Vanuatu guide (male, 25) arranging snorkels, masks and PFDs beside two kayaks; medium‑wide, looking toward the water past camera with a relaxed smile; palms, turquoise shallows, neat gear layout; Sony A7R V, 35 mm f/2, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Morning Trek",
+                  "Espiritu Santo beach at sunrise",
+                  "Ni‑Vanuatu guide (male, 25) arranging snorkels, masks and PFDs beside two kayaks",
+                  "medium‑wide, looking toward the water past camera with a relaxed smile",
+                  "palms, turquoise shallows, neat gear layout"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 1:\n Espiritu Santo beach at sunrise; Ni‑Vanuatu guide (male, 25) arranging snorkels, masks and PFDs beside two kayaks; medium‑wide, looking toward the water past camera with a relaxed smile; palms, turquoise shallows, neat gear layout; Sony A7R V, 35 mm f/2, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/16d1ef7b-7311-4eff-86da-d2c4bde416d4/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 1: Espiritu Santo beach at sunrise; Ni‑Vanuatu guide (male, 25) arranging snorkels, masks and PFDs beside two kayaks; medium‑wide, looking toward the water past camera with a relaxed smile; palms, turquoise shallows, neat gear layout; Sony A7R V, 35 mm f/2, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 24.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 24.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 2,
+              "sequence_notes": "",
+              "caption_first_person": "Orchid photos flash bright; I pepper Teacher with questions, feeling like a jungle detective solving mysteries.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S02",
+                "url": "https://cdn.midjourney.com/3eab70ae-72dd-4e71-825c-f04ec0ab7738/0_1.png",
+                "recommended_filename": "OCE_ALIKA_S02.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Lush jungle river."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 2: Lush jungle river; Ni‑Vanuatu guide (25) in the lead kayak, guests following; medium‑wide, guide pointing to scarlet parrots while looking upriver past camera; sunbeams through canopy, ripples and reflections, paddles mid‑stroke; Sony A7R V, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Engaging Lessons",
+                  "Lush jungle river",
+                  "Ni‑Vanuatu guide (25) in the lead kayak, guests following",
+                  "medium‑wide, guide pointing to scarlet parrots while looking upriver past camera",
+                  "sunbeams through canopy, ripples and reflections, paddles mid‑stroke"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 2:\n Lush jungle river; Ni‑Vanuatu guide (25) in the lead kayak, guests following; medium‑wide, guide pointing to scarlet parrots while looking upriver past camera; sunbeams through canopy, ripples and reflections, paddles mid‑stroke; Sony A7R V, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/3eab70ae-72dd-4e71-825c-f04ec0ab7738/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 2: Lush jungle river; Ni‑Vanuatu guide (25) in the lead kayak, guests following; medium‑wide, guide pointing to scarlet parrots while looking upriver past camera; sunbeams through canopy, ripples and reflections, paddles mid‑stroke; Sony A7R V, 35 mm f/2.8, ISO 400, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 36.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 36.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 3,
+              "sequence_notes": "",
+              "caption_first_person": "Breadfruit shade cools us; pineapple juice drips as we swap jokes loud enough to wake the tree lizards.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S03",
+                "url": "https://cdn.midjourney.com/d44985c7-29e2-4f34-a7d7-3a7f694b7ccb/0_3.png",
+                "recommended_filename": "OCE_ALIKA_S03.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Village courtyard with performers."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 3: Village courtyard with performers; Ni‑Vanuatu guide (25) off to the side, clapping in rhythm while looking over the dancing line past camera; medium‑wide, visitors smiling in mid‑ground; headdresses and grass skirts accurate; drums at frame edge; late‑afternoon light; Sony A7R V, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Lunchtime with Peers",
+                  "Village courtyard with performers",
+                  "Ni‑Vanuatu guide (25) off to the side, clapping in rhythm while looking over the dancing line past camera",
+                  "medium‑wide, visitors smiling in mid‑ground",
+                  "headdresses and grass skirts accurate"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 3:\n Village courtyard with performers; Ni‑Vanuatu guide (25) off to the side, clapping in rhythm while looking over the dancing line past camera; medium‑wide, visitors smiling in mid‑ground; headdresses and grass skirts accurate; drums at frame edge; late‑afternoon light; Sony A7R V, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/d44985c7-29e2-4f34-a7d7-3a7f694b7ccb/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 3: Village courtyard with performers; Ni‑Vanuatu guide (25) off to the side, clapping in rhythm while looking over the dancing line past camera; medium‑wide, visitors smiling in mid‑ground; headdresses and grass skirts accurate; drums at frame edge; late‑afternoon light; Sony A7R V, 35 mm f/2.8, ISO 320, 1/320 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 48.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 48.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 4,
+              "sequence_notes": "",
+              "caption_first_person": "Drums thunder through my chest; every twirl of my palm-leaf skirt stitches me tighter to our island story.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S04",
+                "url": "https://cdn.midjourney.com/b5d3e6ef-b708-4b71-803b-e9443c12b528/0_1.png",
+                "recommended_filename": "OCE_ALIKA_S04.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Cliffside lookout to a vibrant coral lagoon."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 4: Cliffside lookout to a vibrant coral lagoon; Ni‑Vanuatu guide (25) holding a simple reef‑care brochure; medium shot, looking slightly off‑camera toward the group with a gentle, encouraging expression; reef colors visible below; breeze in shirts and leaves; Sony A7R V, 35 mm f/4, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Afternoon Cultural Club",
+                  "Cliffside lookout to a vibrant coral lagoon",
+                  "Ni‑Vanuatu guide (25) holding a simple reef‑care brochure",
+                  "medium shot, looking slightly off‑camera toward the group with a gentle, encouraging expression",
+                  "reef colors visible below"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 4:\n Cliffside lookout to a vibrant coral lagoon; Ni‑Vanuatu guide (25) holding a simple reef‑care brochure; medium shot, looking slightly off‑camera toward the group with a gentle, encouraging expression; reef colors visible below; breeze in shirts and leaves; Sony A7R V, 35 mm f/4, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/b5d3e6ef-b708-4b71-803b-e9443c12b528/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 4: Cliffside lookout to a vibrant coral lagoon; Ni‑Vanuatu guide (25) holding a simple reef‑care brochure; medium shot, looking slightly off‑camera toward the group with a gentle, encouraging expression; reef colors visible below; breeze in shirts and leaves; Sony A7R V, 35 mm f/4, ISO 200, 1/500 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 60.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 60.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 5,
+              "sequence_notes": "",
+              "caption_first_person": "Mother’s hands guide mine; with each pandanus braid, ancestral stories weave quietly into the growing bag.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S05",
+                "url": "https://cdn.midjourney.com/7e6824e0-a2d9-4a06-86ec-1c3c9b256ff5/0_1.png",
+                "recommended_filename": "OCE_ALIKA_S05.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Evening stage at Fest’Napuan."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 5: Evening stage at Fest’Napuan; Ni‑Vanuatu musician (25) with acoustic guitar at a mic; medium‑wide, looking over the crowd past camera with an exhilarated grin; colorful stage lights, palm silhouettes, dancers and audience moving; Sony A7R V, 35 mm f/2, ISO 1600, 1/125 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Helping at Home",
+                  "Evening stage at Fest’Napuan",
+                  "Ni‑Vanuatu musician (25) with acoustic guitar at a mic",
+                  "medium‑wide, looking over the crowd past camera with an exhilarated grin",
+                  "colorful stage lights, palm silhouettes, dancers and audience moving"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 5:\n Evening stage at Fest’Napuan; Ni‑Vanuatu musician (25) with acoustic guitar at a mic; medium‑wide, looking over the crowd past camera with an exhilarated grin; colorful stage lights, palm silhouettes, dancers and audience moving; Sony A7R V, 35 mm f/2, ISO 1600, 1/125 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/7e6824e0-a2d9-4a06-86ec-1c3c9b256ff5/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 160 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 5: Evening stage at Fest’Napuan; Ni‑Vanuatu musician (25) with acoustic guitar at a mic; medium‑wide, looking over the crowd past camera with an exhilarated grin; colorful stage lights, palm silhouettes, dancers and audience moving; Sony A7R V, 35 mm f/2, ISO 1600, 1/125 s; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 72.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 72.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            },
+            {
+              "scene_index": 6,
+              "sequence_notes": "",
+              "caption_first_person": "Lamp flickers, pages rustle; sea breeze cools me as I study, determined to teach our children one day.",
+              "image": {
+                "asset_id": "OCE_ALIKA_S06",
+                "url": "https://cdn.midjourney.com/dfb7d197-c686-4abd-b199-7c60e0929279/0_3.png",
+                "recommended_filename": "OCE_ALIKA_S06.png",
+                "source": "Oceania.docx",
+                "alt_text": "Alika (Student) in Papua New Guinea: Quiet beach at night."
+              },
+              "image_description": {
+                "from_mj_prompt": "Scene 6: Quiet beach at night; Ni‑Vanuatu man (25) seated on sand with a guitar beside him; medium‑wide, three‑quarter profile, gazing toward the moonlit water past camera with a thankful, peaceful expression; stars bright, gentle wave sheen; Sony A7R V, 35 mm f/1.8, ISO 3200, 2 s (tripod); RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref",
+                "keywords": [
+                  "Dreaming Big",
+                  "Quiet beach at night",
+                  "Ni‑Vanuatu man (25) seated on sand with a guitar beside him",
+                  "medium‑wide, three‑quarter profile, gazing toward the moonlit water past camera with a thankful, peaceful expression",
+                  "stars bright, gentle wave sheen"
+                ]
+              },
+              "generation_prompt": {
+                "prompt_source": "Oceania.docx",
+                "prompt_raw": "Scene 6:\n Quiet beach at night; Ni‑Vanuatu man (25) seated on sand with a guitar beside him; medium‑wide, three‑quarter profile, gazing toward the moonlit water past camera with a thankful, peaceful expression; stars bright, gentle wave sheen; Sony A7R V, 35 mm f/1.8, ISO 3200, 2 s (tripod); RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/dfb7d197-c686-4abd-b199-7c60e0929279/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7915ef2e-39b1-4996-8600-24cd1116a7d0/0_1.png --ow 140 --style raw --stylize 50 --ar 1:1 --v 7",
+                "prompt_clean": "Scene 6: Quiet beach at night; Ni‑Vanuatu man (25) seated on sand with a guitar beside him; medium‑wide, three‑quarter profile, gazing toward the moonlit water past camera with a thankful, peaceful expression; stars bright, gentle wave sheen; Sony A7R V, 35 mm f/1.8, ISO 3200, 2 s (tripod); RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140 --style raw --stylize 50 --ar 1:1 --v 7"
+              },
+              "layout_frames_in": {
+                "row_background": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 94.0,
+                  "h": 17.166666666666668
+                },
+                "character_info_panel": {
+                  "x": 1.0,
+                  "y": 41.833333333333336,
+                  "w": 22.0,
+                  "h": 17.166666666666668
+                },
+                "image_frame": {
+                  "x": 84.0,
+                  "y": 42.66666666666667,
+                  "w": 11.0,
+                  "h": 11.0
+                },
+                "caption_frame": {
+                  "x": 84.0,
+                  "y": 53.66666666666667,
+                  "w": 11.0,
+                  "h": 4.5
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "OCE_BUNJI_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/91c55ed2-d4bb-49ca-9658-456f0dc4000f/0_1.png",
+          "character": "Bunji",
+          "scene_index": 1,
+          "recommended_filename": "OCE_BUNJI_S01.png"
+        },
+        {
+          "asset_id": "OCE_BUNJI_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/1bdecaa0-1414-44cd-9978-299eccb4cf85/0_3.png",
+          "character": "Bunji",
+          "scene_index": 2,
+          "recommended_filename": "OCE_BUNJI_S02.png"
+        },
+        {
+          "asset_id": "OCE_BUNJI_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/a1efd4b4-e711-4c4d-8dc4-16844b9e7583/0_0.png",
+          "character": "Bunji",
+          "scene_index": 3,
+          "recommended_filename": "OCE_BUNJI_S03.png"
+        },
+        {
+          "asset_id": "OCE_BUNJI_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/e645180c-0277-477c-affc-c77840133b19/0_3.png",
+          "character": "Bunji",
+          "scene_index": 4,
+          "recommended_filename": "OCE_BUNJI_S04.png"
+        },
+        {
+          "asset_id": "OCE_BUNJI_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/5689cec8-39bc-45c3-84c2-4a875a4c1064/0_1.png",
+          "character": "Bunji",
+          "scene_index": 5,
+          "recommended_filename": "OCE_BUNJI_S05.png"
+        },
+        {
+          "asset_id": "OCE_BUNJI_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/4cd4b9b8-dc22-4a4d-a467-6c71df81fdee/0_0.png",
+          "character": "Bunji",
+          "scene_index": 6,
+          "recommended_filename": "OCE_BUNJI_S06.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/1e934531-fb89-4ede-992e-7368f1557d22/0_3.png",
+          "character": "Kalor",
+          "scene_index": 1,
+          "recommended_filename": "OCE_KALOR_S01.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/73ab404b-6e69-497c-822f-de29f6f02702/0_3.png",
+          "character": "Kalor",
+          "scene_index": 2,
+          "recommended_filename": "OCE_KALOR_S02.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/2b342674-1535-45ff-b863-fbae433d967d/0_1.png",
+          "character": "Kalor",
+          "scene_index": 3,
+          "recommended_filename": "OCE_KALOR_S03.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/462d81f4-9e97-49aa-9d7e-5b028b58f426/0_1.png",
+          "character": "Kalor",
+          "scene_index": 4,
+          "recommended_filename": "OCE_KALOR_S04.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/b1b57798-73ed-4d2a-8992-bdc5dd6af735/0_3.png",
+          "character": "Kalor",
+          "scene_index": 5,
+          "recommended_filename": "OCE_KALOR_S05.png"
+        },
+        {
+          "asset_id": "OCE_KALOR_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/05c68d37-a564-47f3-91ab-abafba2a053f/0_0.png",
+          "character": "Kalor",
+          "scene_index": 6,
+          "recommended_filename": "OCE_KALOR_S06.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S01",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/16d1ef7b-7311-4eff-86da-d2c4bde416d4/0_2.png",
+          "character": "Alika",
+          "scene_index": 1,
+          "recommended_filename": "OCE_ALIKA_S01.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S02",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/3eab70ae-72dd-4e71-825c-f04ec0ab7738/0_1.png",
+          "character": "Alika",
+          "scene_index": 2,
+          "recommended_filename": "OCE_ALIKA_S02.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S03",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/d44985c7-29e2-4f34-a7d7-3a7f694b7ccb/0_3.png",
+          "character": "Alika",
+          "scene_index": 3,
+          "recommended_filename": "OCE_ALIKA_S03.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S04",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/b5d3e6ef-b708-4b71-803b-e9443c12b528/0_1.png",
+          "character": "Alika",
+          "scene_index": 4,
+          "recommended_filename": "OCE_ALIKA_S04.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S05",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/7e6824e0-a2d9-4a06-86ec-1c3c9b256ff5/0_1.png",
+          "character": "Alika",
+          "scene_index": 5,
+          "recommended_filename": "OCE_ALIKA_S05.png"
+        },
+        {
+          "asset_id": "OCE_ALIKA_S06",
+          "type": "image",
+          "url": "https://cdn.midjourney.com/dfb7d197-c686-4abd-b199-7c60e0929279/0_3.png",
+          "character": "Alika",
+          "scene_index": 6,
+          "recommended_filename": "OCE_ALIKA_S06.png"
+        }
+      ]
+    }
+  }
+}

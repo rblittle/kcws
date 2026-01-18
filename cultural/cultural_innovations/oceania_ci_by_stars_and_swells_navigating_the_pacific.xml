@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/cultural innovations/oceania_ci_by_stars_and_swells_navigating_the_pacific.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__cultural_innovations__oceania__oceania_ci_by_stars_and_swells_navigating_the_pacific</poster_id>
+    <continent>oceania</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" ?>
+<KaycliffPosterPackage schemaVersion="kaycliff.atlastrail.poster_package.v1" generatedAt="2025-12-30T00:49:02.644169+00:00">
+  <PosterMeta>
+    <PosterId>oceania_ci_by_stars_and_swells_navigating_the_pacific</PosterId>
+    <Continent>Oceania</Continent>
+    <Domain>Cultural Innovation</Domain>
+    <PosterType>Main Feature</PosterType>
+    <Title>By Stars and Swells: Navigating the Pacific</Title>
+    <RecommendedPrintSizeInches>
+      <Width>96</Width>
+      <Height>60</Height>
+    </RecommendedPrintSizeInches>
+    <AspectRatio>8:5</AspectRatio>
+  </PosterMeta>
+  <SourceFiles>
+    <File role="ci_copy">Oceania CI text.docx</File>
+    <File role="main_feature_brief">Oceania Main Feature.docx</File>
+    <File role="design_help_assets">Oceania MF Design Help.xlsx</File>
+    <File role="concept_render">oceania ci concept.jpg</File>
+  </SourceFiles>
+  <ReferenceRender>
+    <ImageRef>img_concept_reference</ImageRef>
+  </ReferenceRender>
+  <Assets>
+    <Images>
+      <Image id="img_concept_reference" status="provided">
+        <AssetId>concept_reference_render</AssetId>
+        <ContentType>Concept Reference Render</ContentType>
+        <Placement>Reference Only</Placement>
+        <ApproxSize/>
+        <Purpose>Visual reference for Oceania CI draft layout generated via NanoBanana Pro.</Purpose>
+        <Format>Raster image (JPEG)</Format>
+        <AIFriendly/>
+        <Notes>Local file captured from NanoBanana Pro draft.</Notes>
+        <Caption/>
+        <SourceUrl/>
+        <LocalFilename>oceania ci concept.jpg</LocalFilename>
+      </Image>
+      <Image id="img_hero_panorama_wayfinder" status="provided">
+        <AssetId>hero_image_panorama_wayfinder</AssetId>
+        <ContentType>Hero Image (Panoramic Scene)</ContentType>
+        <Placement>Center Top</Placement>
+        <ApproxSize>~60% of poster</ApproxSize>
+        <Purpose>Central visual depicting a Polynesian double-hulled outrigger canoe navigating the Pacific Ocean at twilight. Key navigation elements (Stars, Swells, Birds, Clouds) are positioned at North, South, East, and West around the canoe. Includes a wayfinder engaged in reading natural signs.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Need to put birds on this</Notes>
+        <Caption>Under a boundless sky and an endless sea, Polynesian wayfinders steered by nature’s silent cues. Each cresting wave and shining star guided them across vast waters to find distant island shores.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/72c4cb49-863e-4cad-a656-09f66c9a7052/0_2.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_icon_stars" status="missing">
+        <AssetId>icon_stars</AssetId>
+        <ContentType>Stars Icon/Spot Illustration</ContentType>
+        <Placement>Navigation Blurbs Area</Placement>
+        <ApproxSize>Small, part of 2x2 grid</ApproxSize>
+        <Purpose>Simple graphic symbolizing key stars or constellations used in Polynesian navigation. Positioned next to the &quot;Stars&quot; blurb below the hero image.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly/>
+        <Notes/>
+        <Caption>Constellations trace the ocean’s hidden map, a cosmic compass for the voyager’s heart.</Caption>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_icon_swells" status="missing">
+        <AssetId>icon_swells</AssetId>
+        <ContentType>Swells Icon/Spot Illustration</ContentType>
+        <Placement>Navigation Blurbs Area</Placement>
+        <ApproxSize>Small, part of 2x2 grid</ApproxSize>
+        <Purpose>Stylized graphic representing ocean wave patterns used in navigation. Positioned next to the &quot;Swells&quot; blurb below the hero image.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly/>
+        <Notes/>
+        <Caption>Swells carry the memory of distant winds, revealing unseen islands over the horizon.</Caption>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_icon_clouds" status="missing">
+        <AssetId>icon_clouds</AssetId>
+        <ContentType>Clouds Icon/Spot Illustration</ContentType>
+        <Placement>Navigation Blurbs Area</Placement>
+        <ApproxSize>Small, part of 2x2 grid</ApproxSize>
+        <Purpose>Simple depiction of distinctive cloud formations indicating land. Positioned next to the &quot;Clouds&quot; blurb below the hero image.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly/>
+        <Notes/>
+        <Caption>Cloud reflections in distant skies often echo the island beneath them.</Caption>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_icon_birds" status="missing">
+        <AssetId>icon_birds</AssetId>
+        <ContentType>Birds Icon/Spot Illustration</ContentType>
+        <Placement>Navigation Blurbs Area</Placement>
+        <ApproxSize>Small, part of 2x2 grid</ApproxSize>
+        <Purpose>Small icon showing seabirds in flight, symbolizing their role in navigation. Positioned next to the &quot;Birds&quot; blurb below the hero image.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly/>
+        <Notes/>
+        <Caption>Seabirds circle home each night, hinting that land is near.</Caption>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_compare_polynesian_wayfinder" status="provided">
+        <AssetId>compare_polynesian_wayfinder_scene</AssetId>
+        <ContentType>Polynesian Wayfinding Scene</ContentType>
+        <Placement>Left Pillar</Placement>
+        <ApproxSize>Medium</ApproxSize>
+        <Purpose>Artwork depicting a Polynesian wayfinder on a canoe under a starry sky, emphasizing intuitive, nature-based navigation. Flanks the hero image on the left side.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption>By memorizing star paths and ocean rhythms, Polynesian navigators found their way without metal or maps.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/43dd0220-5cea-4938-b728-c98f8ed57a35/0_3.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_compare_european_sextant" status="provided">
+        <AssetId>compare_european_navigator_sextant_scene</AssetId>
+        <ContentType>European Navigator Scene (17th-century)</ContentType>
+        <Placement>Left Pillar</Placement>
+        <ApproxSize>Medium</ApproxSize>
+        <Purpose>Artwork depicting a 17th-century European navigator with a sextant on a sailing ship, symbolizing reliance on tools and instruments. Flanks the hero image on the left side.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption>Measuring angles and the sun’s height, Europeans relied on tools to fix their position.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/1057aa4c-cfa8-4c28-bdf2-59d4acb582b7/0_3.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_compare_polynesian_canoe" status="provided">
+        <AssetId>compare_polynesian_double_hulled_canoe</AssetId>
+        <ContentType>Polynesian Double-Hulled Canoe (Close-Up)</ContentType>
+        <Placement>Right Pillar, Timeline</Placement>
+        <ApproxSize>Medium</ApproxSize>
+        <Purpose>Close-up illustration highlighting the canoe’s innovative design and stability. Positioned as the first node on the vertical maritime evolution timeline on the right side.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Needs different AR</Notes>
+        <Caption>A small target in a vast Pacific: missing your island meant missing life itself.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/8eb2e890-4189-4fd8-977f-e74679bf5c59/0_2.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_compare_east_indiaman" status="provided">
+        <AssetId>compare_east_indiaman_ship</AssetId>
+        <ContentType>17th-Century European Sailing Ship</ContentType>
+        <Placement>Right Pillar, Timeline</Placement>
+        <ApproxSize>Medium</ApproxSize>
+        <Purpose>Illustration of a classic European sailing vessel (e.g., galleon) representing early long-distance exploration. Positioned as the middle node on the vertical maritime evolution timeline on the right side.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption>Sailing continents apart gave more room for error—landfall was large and often inevitable.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/9048c305-0413-4fab-b31e-8f7f776cf262/0_0.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_timeline_modern_gps_ship" status="provided">
+        <AssetId>timeline_modern_gps_container_ship</AssetId>
+        <ContentType>Modern Container Ship with GPS Signals</ContentType>
+        <Placement>Right Pillar, Timeline</Placement>
+        <ApproxSize>Medium</ApproxSize>
+        <Purpose>Illustration of a modern container ship equipped with GPS technology, representing current global navigation and trade. Positioned as the bottom node on the vertical maritime evolution timeline on the right side.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/2c579fce-e593-47cb-8396-802b69ac5db8/0_2.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_bottom_map" status="provided">
+        <AssetId>map_pacific_navigation_reference</AssetId>
+        <ContentType>Map</ContentType>
+        <Placement>Bottom Section</Placement>
+        <ApproxSize>Large (Bottom)</ApproxSize>
+        <Purpose>Artistic map illustrating the extensive voyages of Polynesian and Micronesian navigators, highlighting key routes and island settlements. Positioned at the bottom of the poster to showcase the scale and impact of navigation.</Purpose>
+        <Format>Reference photo (external link)</Format>
+        <AIFriendly>Reference Only</AIFriendly>
+        <Notes/>
+        <Caption>Use this as a reference</Caption>
+        <SourceUrl>https://ifsa.my/uploads/6/1/9/1/61919649/12011528-personal-pathfinding-head-toward-one-place-tf9285569_orig.jpg</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_training_tradition" status="provided">
+        <AssetId>training_tradition_scene</AssetId>
+        <ContentType>Training Tradition Scene</ContentType>
+        <Placement>Lower Left Corner</Placement>
+        <ApproxSize>Small</ApproxSize>
+        <Purpose>Illustration portraying an elder wayfinder teaching a young apprentice under a starry night sky, emphasizing the oral tradition and knowledge transfer. Positioned in the lower left corner to support the narrative.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption>Knowledge was passed by word and example. Elders guided young apprentices through hands-on lessons in star lore, ocean swells, and the patient art of reading nature’s signs.</Caption>
+        <SourceUrl>https://cdn.midjourney.com/be48fa77-3990-4e67-8650-45f29c22f0a4/0_0.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_modern_revival_hokulea" status="provided">
+        <AssetId>modern_revival_hokulea</AssetId>
+        <ContentType>Hōkūleʻa Voyaging Canoe (Modern Revival)</ContentType>
+        <Placement>Lower Right Corner</Placement>
+        <ApproxSize>Small</ApproxSize>
+        <Purpose>Illustration of the modern Hōkūleʻa voyaging canoe on a journey, blending traditional navigation techniques with contemporary elements. Positioned in the lower right corner to highlight the legacy and modern revival of wayfinding.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes/>
+        <Caption>Canoes like these still sail Oceania’s waters today. Crafted for tradition and tourism alike, they honor ancient wayfinding and keep the Pacific’s proud seafaring heritage alive.”</Caption>
+        <SourceUrl>https://cdn.midjourney.com/6b5e0b9f-d820-4c7d-afd6-aaf01f676746/0_1.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_milestone_prehistory" status="provided">
+        <AssetId>milestone_prehistory</AssetId>
+        <ContentType>Timeline Milestone Image (Prehistory)</ContentType>
+        <Placement>Right Column Timeline</Placement>
+        <ApproxSize>Small (timeline thumbnail)</ApproxSize>
+        <Purpose>Thumbnail/illustration supporting corresponding timeline milestone text.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Derived/aliased from img_compare_polynesian_canoe (reused until dedicated milestone icon is supplied).</Notes>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/8eb2e890-4189-4fd8-977f-e74679bf5c59/0_2.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_milestone_celestial_navigation" status="provided">
+        <AssetId>milestone_celestial_navigation</AssetId>
+        <ContentType>Timeline Milestone Image (Celestial Navigation)</ContentType>
+        <Placement>Right Column Timeline</Placement>
+        <ApproxSize>Small (timeline thumbnail)</ApproxSize>
+        <Purpose>Thumbnail/illustration supporting corresponding timeline milestone text.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Derived/aliased from img_compare_polynesian_wayfinder (reused until dedicated milestone icon is supplied).</Notes>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/43dd0220-5cea-4938-b728-c98f8ed57a35/0_3.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_milestone_marine_astrolabe_sextant" status="provided">
+        <AssetId>milestone_marine_astrolabe_sextant</AssetId>
+        <ContentType>Timeline Milestone Image (Marine Astrolabe Sextant)</ContentType>
+        <Placement>Right Column Timeline</Placement>
+        <ApproxSize>Small (timeline thumbnail)</ApproxSize>
+        <Purpose>Thumbnail/illustration supporting corresponding timeline milestone text.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Derived/aliased from img_compare_european_sextant (reused until dedicated milestone icon is supplied).</Notes>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/1057aa4c-cfa8-4c28-bdf2-59d4acb582b7/0_3.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_milestone_longitude_solved" status="provided">
+        <AssetId>milestone_longitude_solved</AssetId>
+        <ContentType>Timeline Milestone Image (Longitude Solved)</ContentType>
+        <Placement>Right Column Timeline</Placement>
+        <ApproxSize>Small (timeline thumbnail)</ApproxSize>
+        <Purpose>Thumbnail/illustration supporting corresponding timeline milestone text.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Derived/aliased from img_compare_east_indiaman (reused until dedicated milestone icon is supplied).</Notes>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/9048c305-0413-4fab-b31e-8f7f776cf262/0_0.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_milestone_modern_gps" status="provided">
+        <AssetId>milestone_modern_gps</AssetId>
+        <ContentType>Timeline Milestone Image (Modern Gps)</ContentType>
+        <Placement>Right Column Timeline</Placement>
+        <ApproxSize>Small (timeline thumbnail)</ApproxSize>
+        <Purpose>Thumbnail/illustration supporting corresponding timeline milestone text.</Purpose>
+        <Format>Illustration / Artwork</Format>
+        <AIFriendly>Yes</AIFriendly>
+        <Notes>Derived/aliased from img_timeline_modern_gps_ship (reused until dedicated milestone icon is supplied).</Notes>
+        <Caption/>
+        <SourceUrl>https://cdn.midjourney.com/2c579fce-e593-47cb-8396-802b69ac5db8/0_2.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+    </Images>
+  </Assets>
+  <Copy>
+    <TextBlocks>
+      <TextBlock id="txt_title" role="header" optional="false">
+        <Body>By Stars and Swells: Navigating the Pacific</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_hero_caption" role="hero_caption" optional="false">
+        <Body>Under a boundless sky and an endless sea, Polynesian wayfinders steered by nature’s silent cues. Each cresting wave and shining star guided them across vast waters to find distant island shores.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_icon_birds" role="icon_caption" optional="false">
+        <Heading>Birds</Heading>
+        <Body>Seabirds circle home each night, hinting that land is near.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_icon_swells" role="icon_caption" optional="false">
+        <Heading>Swells</Heading>
+        <Body>Swells carry the memory of distant winds, revealing unseen islands over the horizon.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_icon_stars" role="icon_caption" optional="false">
+        <Heading>Stars</Heading>
+        <Body>Constellations trace the ocean’s hidden map, a cosmic compass for the voyager’s heart.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_icon_clouds" role="icon_caption" optional="false">
+        <Heading>Clouds</Heading>
+        <Body>Cloud reflections in distant skies often echo the island beneath them.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_section_sextant_vs_wayfinder" role="section_label" optional="false">
+        <Heading>Sextant vs. Wayfinder</Heading>
+        <Body/>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_compare_european_sextant" role="comparison_caption" optional="false">
+        <Heading>European Navigator (Sextant)</Heading>
+        <Body>Measuring angles and the sun’s height, Europeans relied on tools to fix their position.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_compare_polynesian_wayfinder" role="comparison_caption" optional="false">
+        <Heading>Polynesian Wayfinder</Heading>
+        <Body>By memorizing star paths and ocean rhythms, Polynesian navigators found their way without metal or maps.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_section_canoe_vs_east_indiaman" role="section_label" optional="false">
+        <Heading>Canoe on Open Water vs. East Indiaman</Heading>
+        <Body/>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_compare_polynesian_canoe" role="comparison_caption" optional="false">
+        <Heading>Polynesian Canoe</Heading>
+        <Body>A small target in a vast Pacific: missing your island meant missing life itself.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_compare_east_indiaman" role="comparison_caption" optional="false">
+        <Heading>East Indiaman</Heading>
+        <Body>Sailing continents apart gave more room for error—landfall was large and often inevitable.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_elder_teaching" role="supporting_caption" optional="false">
+        <Body>Knowledge was passed by word and example. Elders guided young apprentices through hands-on lessons in star lore, ocean swells, and the patient art of reading nature’s signs.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_timeline_prehistory" role="timeline_item" optional="false">
+        <Heading>Prehistory (ca. 1500 BCE and earlier)</Heading>
+        <Body>Coastal peoples follow wind, wave, and sky to settle far-flung islands—true ocean pioneers.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_timeline_celestial_navigation" role="timeline_item" optional="false">
+        <Heading>Celestial Navigation (Ancient Era)</Heading>
+        <Body>From Polynesians to Phoenicians, voyagers chart their courses by starrise and sunset, using the cosmos as their compass.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_timeline_marine_astrolabe_sextant" role="timeline_item" optional="false">
+        <Heading>The Marine Astrolabe &amp; Sextant (1400s–1700s)</Heading>
+        <Body>Europeans refine latitude measurements and finally unlock global trade routes, though longitude remains elusive.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_timeline_longitude_solved" role="timeline_item" optional="false">
+        <Heading>Longitude Solved (18th Century)</Heading>
+        <Body>Marine chronometers give captains the power to fix east-west positions, ending centuries of guesswork.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_timeline_modern_gps" role="timeline_item" optional="false">
+        <Heading>Modern GPS (Late 20th Century)</Heading>
+        <Body>Satellites orbit overhead, guiding ships with digital precision—but the spirit of exploration endures.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+      <TextBlock id="txt_bottom_right_caption" role="supporting_caption" optional="false">
+        <Body>Canoes like these still sail Oceania’s waters today. Crafted for tradition and tourism alike, they honor ancient wayfinding and keep the Pacific’s proud seafaring heritage alive.</Body>
+        <Source>Oceania CI text.docx</Source>
+      </TextBlock>
+    </TextBlocks>
+    <ReflectionQuestions>
+      <Question>How did Polynesians achieve such precise navigation without written maps or tools?</Question>
+      <Question>What does wayfinding reveal about humanity’s ability to adapt and innovate?</Question>
+      <Question>How does wayfinding compare to modern navigation techniques, and what lessons can we learn from it today?</Question>
+    </ReflectionQuestions>
+    <Notes>
+      <icon_spot_illustrations_missing>
+        <Item>img_icon_stars</Item>
+        <Item>img_icon_swells</Item>
+        <Item>img_icon_clouds</Item>
+        <Item>img_icon_birds</Item>
+      </icon_spot_illustrations_missing>
+      <timeline_milestone_images>Timeline milestone thumbnails are currently aliased to available artwork; replace with dedicated milestone icons if desired.</timeline_milestone_images>
+    </Notes>
+  </Copy>
+  <Layout>
+    <LayoutConcept>Multi-panel infographic: large hero scene (top center), 2x2 navigation-cue icons, left comparison panels, bottom map &amp; training vignette, and a right-column navigation-milestones timeline.</LayoutConcept>
+    <Regions>
+      <Region id="region_header" role="header">
+        <Components>
+          <Component type="text">
+            <text_ref>txt_title</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_hero" role="hero">
+        <Components>
+          <Component type="image">
+            <image_ref>img_hero_panorama_wayfinder</image_ref>
+          </Component>
+          <Component type="text">
+            <text_ref>txt_hero_caption</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_navigation_icons" role="icon_grid">
+        <Components>
+          <Component type="icon_item">
+            <order>1</order>
+            <image_ref>img_icon_birds</image_ref>
+            <text_ref>txt_icon_birds</text_ref>
+          </Component>
+          <Component type="icon_item">
+            <order>2</order>
+            <image_ref>img_icon_swells</image_ref>
+            <text_ref>txt_icon_swells</text_ref>
+          </Component>
+          <Component type="icon_item">
+            <order>3</order>
+            <image_ref>img_icon_stars</image_ref>
+            <text_ref>txt_icon_stars</text_ref>
+          </Component>
+          <Component type="icon_item">
+            <order>4</order>
+            <image_ref>img_icon_clouds</image_ref>
+            <text_ref>txt_icon_clouds</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_left_comparisons" role="comparisons">
+        <Components>
+          <Component type="section_label">
+            <text_ref>txt_section_sextant_vs_wayfinder</text_ref>
+          </Component>
+          <Component type="comparison_pair">
+            <left>
+              <image_ref>img_compare_european_sextant</image_ref>
+              <text_ref>txt_compare_european_sextant</text_ref>
+            </left>
+            <right>
+              <image_ref>img_compare_polynesian_wayfinder</image_ref>
+              <text_ref>txt_compare_polynesian_wayfinder</text_ref>
+            </right>
+          </Component>
+          <Component type="section_label">
+            <text_ref>txt_section_canoe_vs_east_indiaman</text_ref>
+          </Component>
+          <Component type="comparison_pair">
+            <left>
+              <image_ref>img_compare_polynesian_canoe</image_ref>
+              <text_ref>txt_compare_polynesian_canoe</text_ref>
+            </left>
+            <right>
+              <image_ref>img_compare_east_indiaman</image_ref>
+              <text_ref>txt_compare_east_indiaman</text_ref>
+            </right>
+          </Component>
+          <Component type="supporting_vignette">
+            <image_ref>img_training_tradition</image_ref>
+            <text_ref>txt_elder_teaching</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_bottom_map" role="map">
+        <Components>
+          <Component type="image">
+            <image_ref>img_bottom_map</image_ref>
+            <notes>Reference map/visual for scale and impact of Pacific navigation.</notes>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_right_timeline" role="timeline_column">
+        <Components>
+          <Component type="timeline_item">
+            <order>1</order>
+            <image_ref>img_milestone_prehistory</image_ref>
+            <text_ref>txt_timeline_prehistory</text_ref>
+          </Component>
+          <Component type="timeline_item">
+            <order>2</order>
+            <image_ref>img_milestone_celestial_navigation</image_ref>
+            <text_ref>txt_timeline_celestial_navigation</text_ref>
+          </Component>
+          <Component type="timeline_item">
+            <order>3</order>
+            <image_ref>img_milestone_marine_astrolabe_sextant</image_ref>
+            <text_ref>txt_timeline_marine_astrolabe_sextant</text_ref>
+          </Component>
+          <Component type="timeline_item">
+            <order>4</order>
+            <image_ref>img_milestone_longitude_solved</image_ref>
+            <text_ref>txt_timeline_longitude_solved</text_ref>
+          </Component>
+          <Component type="timeline_item">
+            <order>5</order>
+            <image_ref>img_milestone_modern_gps</image_ref>
+            <text_ref>txt_timeline_modern_gps</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_bottom_right_modern_revival" role="modern_revival">
+        <Components>
+          <Component type="image">
+            <image_ref>img_modern_revival_hokulea</image_ref>
+          </Component>
+          <Component type="text">
+            <text_ref>txt_bottom_right_caption</text_ref>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_reflection" role="reflection">
+        <Components>
+          <Component type="questions">
+            <items>
+              <Item>How did Polynesians achieve such precise navigation without written maps or tools?</Item>
+              <Item>What does wayfinding reveal about humanity’s ability to adapt and innovate?</Item>
+              <Item>How does wayfinding compare to modern navigation techniques, and what lessons can we learn from it today?</Item>
+            </items>
+          </Component>
+        </Components>
+      </Region>
+    </Regions>
+    <ReadingOrder>
+      <RegionRef>region_header</RegionRef>
+      <RegionRef>region_hero</RegionRef>
+      <RegionRef>region_navigation_icons</RegionRef>
+      <RegionRef>region_left_comparisons</RegionRef>
+      <RegionRef>region_right_timeline</RegionRef>
+      <RegionRef>region_bottom_map</RegionRef>
+      <RegionRef>region_bottom_right_modern_revival</RegionRef>
+      <RegionRef>region_reflection</RegionRef>
+    </ReadingOrder>
+  </Layout>
+  <DesignerGuidance>
+    <DesignObjectivesAndSummary>This exhibit explores the extraordinary navigational skills of Polynesian wayfinders, who mastered the vast Pacific Ocean using natural signs and an unmatched understanding of their environment. The display will contrast their techniques with European navigation from the Viking era to the Age of Discovery and connect the story to modern navigation. The focus is on the human ingenuity that enabled these voyagers to traverse thousands of miles of open ocean with precision.</DesignObjectivesAndSummary>
+    <KeyDesignObjectives>
+      <Objective name="Hero Imagery">
+        <Item>A Polynesian double-hulled outrigger canoe sailing under a sunset-lit sky in the vast Pacific, with stars emerging above.</Item>
+        <Item>Include a navigator in action, reading the stars, swells, and winds to guide the crew.</Item>
+      </Objective>
+      <Objective name="Cultural Context">
+        <Item>Illustrate key wayfinding tools and signs: star paths, ocean swells, bird migrations, cloud formations, and the color of the water.</Item>
+        <Item>Highlight the intensity of training and oral traditions passed down through generations.</Item>
+      </Objective>
+      <Objective name="Comparative Elements">
+        <Item>Include visuals of European navigation, such as Viking ships using the sunstone, 17th-century sextants, and modern GPS systems.</Item>
+        <Item>Show the unique challenges of navigating small islands in Oceania versus large land masses in Europe.</Item>
+      </Objective>
+    </KeyDesignObjectives>
+    <EssentialKnowledge>
+      <Section name="Wayfinding: A Mastery of Natural Signs">
+        <Subsection name="Overview"/>
+        <Subsection name="Polynesian wayfinders were among the most skilled navigators in history, crossing the Pacific without maps or compasses. Their techniques relied entirely on natural signs, including"/>
+        <Subsection name="Stars">
+          <Item>The stars acted as a celestial compass, with navigators memorizing star paths (specific stars that rise and set along consistent directions).</Item>
+          <Item>A single voyage might require knowledge of hundreds of stars.</Item>
+        </Subsection>
+        <Subsection name="Ocean Swells">
+          <Item>Wayfinders identified wave patterns caused by trade winds, distant storms, or reflections off unseen islands.</Item>
+          <Item>By feeling the swells against the hull, they could maintain direction even in cloudy weather.</Item>
+        </Subsection>
+        <Subsection name="Birds and Wildlife">
+          <Item>Birds like frigatebirds and terns indicated proximity to land, as they don’t stray far from nesting grounds.</Item>
+          <Item>Fish species and floating debris also hinted at nearby islands.</Item>
+        </Subsection>
+        <Subsection name="Cloud Formations">
+          <Item>Certain clouds reflect islands below, revealing land far beyond the horizon.</Item>
+          <Item>Did You Know? Navigators relied on mental maps, memorizing routes and environmental cues instead of written charts.</Item>
+        </Subsection>
+      </Section>
+      <Section name="How Did Wayfinding Compare to European Navigation?">
+        <Subsection name="Overview"/>
+        <Subsection name="Latitude vs. Longitude"/>
+        <Subsection name="Polynesians">
+          <Item>Navigated using the stars for latitude and relied on natural markers like birds and swells for longitudinal adjustments.</Item>
+        </Subsection>
+        <Subsection name="Europeans">
+          <Item>Used tools like the astrolabe or sextant to measure latitude but struggled with longitude until the 18th century, when the marine chronometer was invented.</Item>
+        </Subsection>
+        <Subsection name="Technology vs. Intuition">
+          <Item>Polynesians: Mastered navigation by internalizing environmental patterns through years of oral training.</Item>
+          <Item>Europeans: Relied heavily on tools, maps, and written records.</Item>
+        </Subsection>
+        <Subsection name="Challenges">
+          <Item>Oceania: Navigating to tiny islands required pinpoint accuracy, as missing a target could mean death.</Item>
+          <Item>Europe: Sailing between large continents allowed for broader margins of error.</Item>
+          <Item>Visual Suggestion: A side-by-side depiction of a Polynesian wayfinder observing natural signs and a 17th-century European navigator using a sextant.</Item>
+          <Item>Caption: &quot;Different tools, same goal: Mastering the seas through ingenuity.&quot;</Item>
+        </Subsection>
+      </Section>
+      <Section name="The Spread of Wayfinding Knowledge">
+        <Subsection name="Overview"/>
+        <Subsection name="Training and Memory">
+          <Item>Wayfinding was taught through oral traditions, with master navigators passing down knowledge of star paths, seasonal changes, and oceanic landmarks.</Item>
+          <Item>Songs and chants encoded routes, enabling voyagers to recall complex directions.</Item>
+        </Subsection>
+        <Subsection name="Canoe Technology">
+          <Item>Polynesians developed double-hulled outriggers, which were fast, stable, and capable of carrying large crews and cargo.</Item>
+        </Subsection>
+        <Subsection name="Impact">
+          <Item>Wayfinding enabled the settlement of over 1,000 islands across the Pacific, from Hawaii to New Zealand to Easter Island.</Item>
+          <Item>Did You Know? Polynesian wayfinding predates European oceanic navigation by centuries and is still practiced today by groups like the Polynesian Voyaging Society.</Item>
+        </Subsection>
+      </Section>
+      <Section name="Legacy and Connections to Modern Navigation">
+        <Subsection name="Overview">
+          <Item>Polynesian wayfinding techniques resonate with modern practices, illustrating humanity’s enduring connection to the ocean.</Item>
+        </Subsection>
+        <Subsection name="Similarities to Modern Navigation">
+          <Item>Star paths parallel the use of celestial navigation in early modern sailing.</Item>
+          <Item>Swell observation anticipates sonar systems, which map underwater terrain using wave reflections.</Item>
+        </Subsection>
+        <Subsection name="Modern Revival">
+          <Item>The Hōkūleʻa, a Polynesian voyaging canoe, completed a 60,000-nautical-mile world tour in 2017, using traditional wayfinding techniques to inspire cultural preservation.</Item>
+        </Subsection>
+        <Subsection name="Comparison to GPS">
+          <Item>While GPS relies on satellites, wayfinding relies on natural signals. Both demonstrate the importance of interconnected systems for navigation.</Item>
+          <Item>Visual Suggestion: A timeline showing the evolution of navigation, from wayfinding to sextants to GPS.</Item>
+          <Item>Caption: &quot;Charting new courses: From ancient stars to orbiting satellites.&quot;</Item>
+        </Subsection>
+      </Section>
+      <Section name="Comparative Analysis for the Exhibit">
+        <Subsection name="Overview"/>
+        <Subsection name="Challenges of Open-Ocean Navigation">
+          <Item>Tiny islands of Oceania versus large European land masses.</Item>
+          <Item>Frequent storms and lack of landmarks in the Pacific required more adaptability and skill.</Item>
+        </Subsection>
+        <Subsection name="Human-Centric Navigation">
+          <Item>Polynesian wayfinding relied on human memory and environmental mastery.</Item>
+          <Item>European systems depended on external tools and written records.</Item>
+        </Subsection>
+        <Subsection name="Technological Parallels">
+          <Item>Double-hulled canoes and star paths are as innovative in their context as modern container ships and GPS systems.</Item>
+          <Item>Visual Suggestion: A graphic comparing a Polynesian canoe, a 17th-century sailing vessel, and a modern container ship.</Item>
+          <Item>Caption: &quot;Three eras, one ocean: The evolution of maritime ingenuity.&quot;</Item>
+        </Subsection>
+      </Section>
+    </EssentialKnowledge>
+    <ComparativeAndReflectiveElements>
+      <Element name="Latitude vs. Longitude">
+        <Item>Polynesians: Navigated using the stars for latitude and relied on natural markers like birds and swells for longitudinal adjustments.</Item>
+        <Item>Europeans: Used tools like the astrolabe or sextant to measure latitude but struggled with longitude until the 18th century, when the marine chronometer was invented.</Item>
+      </Element>
+      <Element name="Technology vs. Intuition">
+        <Item>Polynesians: Mastered navigation by internalizing environmental patterns through years of oral training.</Item>
+        <Item>Europeans: Relied heavily on tools, maps, and written records.</Item>
+      </Element>
+      <Element name="Challenges">
+        <Item>Oceania: Navigating to tiny islands required pinpoint accuracy, as missing a target could mean death.</Item>
+        <Item>Europe: Sailing between large continents allowed for broader margins of error.</Item>
+        <Item>Visual Suggestion: A side-by-side depiction of a Polynesian wayfinder observing natural signs and a 17th-century European navigator using a sextant.</Item>
+        <Item>Caption: &quot;Different tools, same goal: Mastering the seas through ingenuity.&quot;</Item>
+      </Element>
+      <Element name="Challenges of Open-Ocean Navigation">
+        <Item>Tiny islands of Oceania versus large European land masses.</Item>
+        <Item>Frequent storms and lack of landmarks in the Pacific required more adaptability and skill.</Item>
+      </Element>
+      <Element name="Human-Centric Navigation">
+        <Item>Polynesian wayfinding relied on human memory and environmental mastery.</Item>
+        <Item>European systems depended on external tools and written records.</Item>
+      </Element>
+      <Element name="Technological Parallels">
+        <Item>Double-hulled canoes and star paths are as innovative in their context as modern container ships and GPS systems.</Item>
+        <Item>Visual Suggestion: A graphic comparing a Polynesian canoe, a 17th-century sailing vessel, and a modern container ship.</Item>
+        <Item>Caption: &quot;Three eras, one ocean: The evolution of maritime ingenuity.&quot;</Item>
+      </Element>
+    </ComparativeAndReflectiveElements>
+    <ImageSuggestions>
+      <Suggestion>
+        <Name>Hero Image</Name>
+        <VisualSuggestion>A Polynesian canoe under the emerging night sky, with a wayfinder reading the stars.</VisualSuggestion>
+        <Caption>Guided by nature: The art of crossing the world’s largest ocean.</Caption>
+      </Suggestion>
+      <Suggestion>
+        <Name>Comparative Navigation</Name>
+        <VisualSuggestion>A split image of a wayfinder observing natural signs, a European navigator with a sextant, and a modern ship using GPS.</VisualSuggestion>
+        <Caption>From stars to satellites: Navigating the seas through time.</Caption>
+      </Suggestion>
+      <Suggestion>
+        <Name>Training Tradition</Name>
+        <VisualSuggestion>A depiction of a wayfinder teaching a younger apprentice, surrounded by star maps and chants.</VisualSuggestion>
+        <Caption>Passing the torch: The oral traditions of wayfinding.</Caption>
+      </Suggestion>
+      <Suggestion>
+        <Name>Technological Progression</Name>
+        <VisualSuggestion>A timeline of maritime technology, from outriggers to GPS-enabled ships.</VisualSuggestion>
+        <Caption>The enduring quest to master the seas.</Caption>
+      </Suggestion>
+    </ImageSuggestions>
+    <CapturingTheMood>The exhibit should celebrate the genius of human connection to nature while highlighting the parallels between ancient and modern navigation. It should leave visitors in awe of how cultures have adapted to the same challenges in profoundly different ways, emphasizing both the beauty and precision of wayfinding.</CapturingTheMood>
+  </DesignerGuidance>
+  <Provenance>
+    <Generated>
+      <GeneratedBy>ChatGPT</GeneratedBy>
+      <GeneratedAt>2025-12-30T00:49:02.644169+00:00</GeneratedAt>
+    </Generated>
+    <SourceFiles>
+      <File role="concept_image">
+        <Filename>oceania ci concept.jpg</Filename>
+        <SizeBytes>653841</SizeBytes>
+        <SHA256>99a6e98ba3874093cb6a7eab5aed514d1fa151e65a085f7dff63a46290ecbe5d</SHA256>
+      </File>
+      <File role="ci_text_docx">
+        <Filename>Oceania CI text.docx</Filename>
+        <SizeBytes>8823</SizeBytes>
+        <SHA256>e435fc30a32a0c5eff5d0e02a535d0b245409b26ac73190d1753f3564068382e</SHA256>
+      </File>
+      <File role="main_feature_docx">
+        <Filename>Oceania Main Feature.docx</Filename>
+        <SizeBytes>12083</SizeBytes>
+        <SHA256>1fdfd4037f2a45e5fd05fb1605c98ca0f34788064e2b80b2ea6d7338e14a328e</SHA256>
+      </File>
+      <File role="mf_design_help_xlsx">
+        <Filename>Oceania MF Design Help.xlsx</Filename>
+        <SizeBytes>10514</SizeBytes>
+        <SHA256>d868a86255927ff103fa7a5bd1958f24e772e581737e3662d0fd155040f8a073</SHA256>
+      </File>
+    </SourceFiles>
+  </Provenance>
+</KaycliffPosterPackage>
+]]></payload_xml>
+</normalized_poster>

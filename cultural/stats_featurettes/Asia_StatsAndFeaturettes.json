@@ -1,0 +1,1795 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/stats and featurettes/Asia_StatsAndFeaturettes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__stats_featurettes__asia__asia_statsandfeaturettes",
+    "derived_id": "cultural__stats_featurettes__asia__asia_statsandfeaturettes",
+    "continent": "asia",
+    "domain": "cultural",
+    "poster_family": "stats_featurettes",
+    "filename": "Asia_StatsAndFeaturettes.json"
+  },
+  "tags": {
+    "continent": [
+      "asia"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "stats_featurettes"
+    ],
+    "flat": [
+      "continent:asia",
+      "domain:cultural",
+      "poster_family:stats_featurettes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/stats and featurettes/Asia_StatsAndFeaturettes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff_atlas_trail_stats_featurettes",
+    "schema_version": "1.0.0",
+    "poster_metadata": {
+      "id": "asia_changing_currents_stats_featurettes",
+      "continent": "Asia",
+      "domain": "Cultural Domain",
+      "poster_type": "Stats & Featurettes",
+      "dimensions": {
+        "width_in": 96,
+        "height_in": 60,
+        "unit": "in",
+        "source": "Derived from proof PDF page size (6912x4320 points = 96x60 inches)."
+      },
+      "display_title": "Changing Currents:\nLife, Faith, and Survival Across",
+      "language": "en",
+      "layout_slots": [
+        {
+          "slot_id": "header_title",
+          "description": "Poster title/header area",
+          "x_norm": 0.0,
+          "y_norm": 0.0,
+          "w_norm": 1.0,
+          "h_norm": 0.12
+        },
+        {
+          "slot_id": "featurette_left_top",
+          "description": "Left column – top featurette (Religions)",
+          "x_norm": 0.0,
+          "y_norm": 0.12,
+          "w_norm": 0.25,
+          "h_norm": 0.38
+        },
+        {
+          "slot_id": "featurette_left_bottom",
+          "description": "Left column – bottom featurette (India)",
+          "x_norm": 0.0,
+          "y_norm": 0.5,
+          "w_norm": 0.25,
+          "h_norm": 0.5
+        },
+        {
+          "slot_id": "main_map",
+          "description": "Central Asia stats map",
+          "x_norm": 0.25,
+          "y_norm": 0.12,
+          "w_norm": 0.5,
+          "h_norm": 0.73
+        },
+        {
+          "slot_id": "map_legend",
+          "description": "Stats map legend box",
+          "x_norm": 0.25,
+          "y_norm": 0.85,
+          "w_norm": 0.3,
+          "h_norm": 0.15
+        },
+        {
+          "slot_id": "featurette_right_top",
+          "description": "Right column – top featurette (China)",
+          "x_norm": 0.75,
+          "y_norm": 0.12,
+          "w_norm": 0.25,
+          "h_norm": 0.38
+        },
+        {
+          "slot_id": "featurette_right_bottom",
+          "description": "Right column – bottom featurette (Japan)",
+          "x_norm": 0.75,
+          "y_norm": 0.5,
+          "w_norm": 0.25,
+          "h_norm": 0.5
+        }
+      ]
+    },
+    "continent_stats_map": {
+      "palette_by_country": [
+        {
+          "country": "Afghanistan",
+          "color_hex": "#3BDC55"
+        },
+        {
+          "country": "Armenia",
+          "color_hex": "#3BA1DC"
+        },
+        {
+          "country": "Azerbaijan",
+          "color_hex": "#A7DC3B"
+        },
+        {
+          "country": "Bahrain",
+          "color_hex": "#DC763B"
+        },
+        {
+          "country": "Bangladesh",
+          "color_hex": "#DC8A3B"
+        },
+        {
+          "country": "Bhutan",
+          "color_hex": "#3BDCB8"
+        },
+        {
+          "country": "Brunei",
+          "color_hex": "#DCB13B"
+        },
+        {
+          "country": "Cambodia",
+          "color_hex": "#DCC53B"
+        },
+        {
+          "country": "China",
+          "color_hex": "#EE1C25"
+        },
+        {
+          "country": "Cyprus",
+          "color_hex": "#CCDC3B"
+        },
+        {
+          "country": "Georgia",
+          "color_hex": "#DA291C"
+        },
+        {
+          "country": "India",
+          "color_hex": "#3B8ADC"
+        },
+        {
+          "country": "Indonesia",
+          "color_hex": "#91DC3B"
+        },
+        {
+          "country": "Iran",
+          "color_hex": "#DA0000"
+        },
+        {
+          "country": "Iraq",
+          "color_hex": "#3B50DC"
+        },
+        {
+          "country": "Israel",
+          "color_hex": "#3BDCCE"
+        },
+        {
+          "country": "Japan",
+          "color_hex": "#42DC3B"
+        },
+        {
+          "country": "Jordan",
+          "color_hex": "#3BDC49"
+        },
+        {
+          "country": "Kazakhstan",
+          "color_hex": "#00ABC2"
+        },
+        {
+          "country": "Kuwait",
+          "color_hex": "#3BDC70"
+        },
+        {
+          "country": "Kyrgyzstan",
+          "color_hex": "#3BDC84"
+        },
+        {
+          "country": "Laos",
+          "color_hex": "#B13BDC"
+        },
+        {
+          "country": "Lebanon",
+          "color_hex": "#3B5FDC"
+        },
+        {
+          "country": "Malaysia",
+          "color_hex": "#3BDCBF"
+        },
+        {
+          "country": "Maldives",
+          "color_hex": "#3BDCD2"
+        },
+        {
+          "country": "Mongolia",
+          "color_hex": "#FFD900"
+        },
+        {
+          "country": "Myanmar",
+          "color_hex": "#8CDC3B"
+        },
+        {
+          "country": "Nepal",
+          "color_hex": "#793BDC"
+        },
+        {
+          "country": "North Korea",
+          "color_hex": "#64DC3B"
+        },
+        {
+          "country": "Oman",
+          "color_hex": "#A03BDC"
+        },
+        {
+          "country": "Pakistan",
+          "color_hex": "#B43BDC"
+        },
+        {
+          "country": "Philippines",
+          "color_hex": "#3B5CDC"
+        },
+        {
+          "country": "Qatar",
+          "color_hex": "#DB3BDC"
+        },
+        {
+          "country": "Russia",
+          "color_hex": "#0036A7"
+        },
+        {
+          "country": "Saudi Arabia",
+          "color_hex": "#DC703B"
+        },
+        {
+          "country": "Singapore",
+          "color_hex": "#693BDC"
+        },
+        {
+          "country": "South Korea",
+          "color_hex": "#DC973B"
+        },
+        {
+          "country": "Sri Lanka",
+          "color_hex": "#913BDC"
+        },
+        {
+          "country": "Syria",
+          "color_hex": "#DC3B66"
+        },
+        {
+          "country": "Taiwan",
+          "color_hex": "#B83BDC"
+        },
+        {
+          "country": "Tajikistan",
+          "color_hex": "#CC3BDC"
+        },
+        {
+          "country": "Thailand",
+          "color_hex": "#DC4B3B"
+        },
+        {
+          "country": "Timor-Leste",
+          "color_hex": "#DC3BC5"
+        },
+        {
+          "country": "Turkey",
+          "color_hex": "#3BDC8D"
+        },
+        {
+          "country": "Turkmenistan",
+          "color_hex": "#3B6BDC"
+        },
+        {
+          "country": "United Arab Emirates",
+          "color_hex": "#DC3B8A"
+        },
+        {
+          "country": "Uzbekistan",
+          "color_hex": "#DC3B76"
+        },
+        {
+          "country": "Vietnam",
+          "color_hex": "#4ADC3B"
+        },
+        {
+          "country": "Yemen",
+          "color_hex": "#DC3B4F"
+        }
+      ],
+      "palette_source": {
+        "file": "Asia Cultural Domain.xlsx",
+        "sheet": "stats palette ",
+        "range": "A:B",
+        "notes": "Palette extracted from spreadsheet per workflow. Note: proof PDF map appears to use a different color assignment; see validation_and_todos."
+      },
+      "legend": {
+        "title": "ASIA HIGH AND LOW LEGEND",
+        "general_rules": [
+          "Most metrics use green icons for the “high/favorable” end and orange icons for the “low/unfavorable” end.",
+          "Exception: “Lowest Crime Rate” is favorable at the low numeric end; green indicates lowest crime and orange indicates highest crime.",
+          "“Average Household Size” uses a distinct color pair (purple vs blue) to indicate largest vs smallest households (descriptive rather than good/bad)."
+        ],
+        "metrics_in_legend_order": [
+          "Access To Clean Drinking Water",
+          "Average Caloric Intake",
+          "Lowest Crime Rate",
+          "Access To Healthcare",
+          "% Population Higher Education Degree",
+          "Average Household Size",
+          "Volunteer/Community Service Participation",
+          "Employment Rates"
+        ]
+      },
+      "map_markers": {
+        "capital_marker": {
+          "present_on_proof": true,
+          "description": "Small circular markers with a white cross appear across countries (likely capitals).",
+          "color_note": "Markers appear in orange/red on the proof map."
+        }
+      },
+      "core_stats_on_map": [
+        {
+          "stat_id": "access_to_clean_drinking_water",
+          "label": "Access to Clean Drinking Water",
+          "maslow_layer": "Physiological",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "Japan",
+              "value_text": "~100%"
+            },
+            {
+              "country": "Singapore",
+              "value_text": "~100%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Cambodia",
+              "value_text": "~75%"
+            },
+            {
+              "country": "Afghanistan",
+              "value_text": "~43%"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Access To Clean Drinking Water"
+        },
+        {
+          "stat_id": "average_daily_caloric_intake",
+          "label": "Average Daily Caloric Intake",
+          "maslow_layer": "Physiological",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "Turkey",
+              "value_text": "~3680 cal"
+            },
+            {
+              "country": "South Korea",
+              "value_text": "~3340 cal"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "North Korea",
+              "value_text": "~2100 cal"
+            },
+            {
+              "country": "Yemen",
+              "value_text": "~2000 cal"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Average Caloric Intake"
+        },
+        {
+          "stat_id": "crime_rate_low_crime_safety",
+          "label": "Crime Rate (Low Crime = Safety)",
+          "maslow_layer": "Safety",
+          "directionality": "lower_is_better",
+          "high_exemplars": [
+            {
+              "country": "Japan",
+              "value_text": null
+            },
+            {
+              "country": "Singapore",
+              "value_text": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Afghanistan",
+              "value_text": "high due to conflict"
+            },
+            {
+              "country": "Philippines",
+              "value_text": "urban crime"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Lowest Crime Rate"
+        },
+        {
+          "stat_id": "population_with_access_to_healthcare",
+          "label": "% Population with Access to Healthcare",
+          "maslow_layer": "Safety",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "Japan",
+              "value_text": "~100%"
+            },
+            {
+              "country": "South Korea",
+              "value_text": "universal coverage"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Afghanistan",
+              "value_text": "<40%"
+            },
+            {
+              "country": "Yemen",
+              "value_text": "<50% functional healthcare"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Access To Healthcare"
+        },
+        {
+          "stat_id": "employment_rate_economic_participation",
+          "label": "Employment Rate (Economic Participation)",
+          "maslow_layer": "Safety/Esteem",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "Vietnam",
+              "value_text": "~76%"
+            },
+            {
+              "country": "Thailand",
+              "value_text": "~74%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Syria",
+              "value_text": ">50% unemployment"
+            },
+            {
+              "country": "Iraq",
+              "value_text": "~12% unemployment"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Employment Rates"
+        },
+        {
+          "stat_id": "average_household_size",
+          "label": "Average Household Size",
+          "maslow_layer": "Love/Belonging",
+          "directionality": "higher_is_more",
+          "high_exemplars": [
+            {
+              "country": "Afghanistan",
+              "value_text": "~7.8 persons"
+            },
+            {
+              "country": "Pakistan",
+              "value_text": "~6.8 persons"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Japan",
+              "value_text": "~2.4 persons"
+            },
+            {
+              "country": "South Korea",
+              "value_text": "~2.5 persons"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Average Household Size"
+        },
+        {
+          "stat_id": "volunteer_community_service_participation",
+          "label": "Volunteer/Community Service Participation",
+          "maslow_layer": "Love/Belonging",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "Sri Lanka",
+              "value_text": "~46%"
+            },
+            {
+              "country": "Japan",
+              "value_text": "~28%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "China",
+              "value_text": "~12% formally recorded"
+            },
+            {
+              "country": "Myanmar",
+              "value_text": "limited data"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "Volunteer/Community Service Participation"
+        },
+        {
+          "stat_id": "population_with_higher_education_degrees",
+          "label": "% Population with Higher Education Degrees",
+          "maslow_layer": "Esteem",
+          "directionality": "higher_is_better",
+          "high_exemplars": [
+            {
+              "country": "South Korea",
+              "value_text": "~70+% of young adults"
+            },
+            {
+              "country": "Japan",
+              "value_text": "~60%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Nepal",
+              "value_text": "~7%"
+            },
+            {
+              "country": "Cambodia",
+              "value_text": "<10%"
+            }
+          ],
+          "source": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A4:D12"
+          },
+          "poster_legend_label": "% Population Higher Education Degree"
+        }
+      ],
+      "assets": [
+        {
+          "asset_id": "asia_stats_map_base",
+          "type": "map",
+          "role": "main_map",
+          "aspect_ratio": "approx 4:3",
+          "description": "Central Asia map with per-country palette fills and country labels (embedded in proof PDF).",
+          "hyperlinks": {
+            "final_url": null,
+            "url_candidates": []
+          }
+        }
+      ]
+    },
+    "featurettes": [
+      {
+        "featurette_id": "origination_of_major_religions",
+        "title": "Origination of Major Religions",
+        "body_text": "Long ago, in lands stretching from the Middle East to India, some of the world’s major religions were born. Judaism, Christianity, and Islam arose in the deserts and cities near the Mediterranean Sea. Hinduism and Buddhism took root in India’s rich landscapes, while Sikhism began in the Punjab region.\n\nThese faiths shaped how people live, think, and come together. Their ideas spread across the Earth through travel, trade, and teaching, inspiring millions today. By understanding where these religions started and what they share—like respect, kindness, and hope—we can better appreciate the diverse beliefs that guide so many lives.",
+        "layout_slot_id": "featurette_left_top",
+        "assets": [
+          {
+            "asset_id": "asia_religions_icons_major_faiths",
+            "type": "chart",
+            "role": "symbol_strip",
+            "aspect_ratio": "approx 6:1",
+            "description": "Row of icons representing Judaism, Islam, Christianity, Hinduism, Sikhism, and Buddhism (as shown at top of the featurette).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            }
+          },
+          {
+            "asset_id": "asia_religions_illustration_diverse_people",
+            "type": "chart",
+            "role": "illustration",
+            "aspect_ratio": "approx 4:3",
+            "description": "Illustration of diverse people representing multiple faiths (top-right of the featurette).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            }
+          },
+          {
+            "asset_id": "asia_religions_photo_holy_site",
+            "type": "photo",
+            "role": "featurette_photo",
+            "aspect_ratio": "approx 4:3",
+            "description": "Photo of a holy site (Western Wall / Jerusalem) used in the Religions featurette.",
+            "hyperlinks": {
+              "anchor_text": "holy site, such as the Wester",
+              "final_url": "https://www.touristisrael.com/wp-content/uploads/2021/10/shutterstock_591824696-1024x684.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_religions_map_origins_placeholder",
+            "type": "map",
+            "role": "chart_placeholder",
+            "aspect_ratio": "unknown",
+            "description": "Referenced in Asia Featurettes.docx: map showing where major religions began. Not clearly present as a standalone map in the proof poster; included as a dependency placeholder.",
+            "hyperlinks": {
+              "anchor_text": "Showing where major religions began",
+              "final_url": "https://preview.redd.it/blimtmsmvtm71.jpg?width=1080&crop=smart&auto=webp&s=f26bf7b6b08ea1205df71b8239d9f21185591572",
+              "url_candidates": [],
+              "notes": null
+            }
+          }
+        ],
+        "chart_spec": {
+          "charts": [
+            {
+              "chart_id": "religion_origin_map",
+              "type": "map",
+              "status": "placeholder",
+              "title": "Where major religions began (map)",
+              "data_table": [
+                {
+                  "religion": "Christianity",
+                  "origin_site_example": "Church of the Holy Sepulchre, Jerusalem"
+                },
+                {
+                  "religion": "Judaism",
+                  "origin_site_example": "Western Wall, Jerusalem"
+                },
+                {
+                  "religion": "Islam",
+                  "origin_site_example": "Kaaba, Mecca"
+                },
+                {
+                  "religion": "Sikhism",
+                  "origin_site_example": "Harmandir Sahib (“Golden Temple”), Amritsar"
+                },
+                {
+                  "religion": "Buddhism",
+                  "origin_site_example": "Mahabodhi Temple, Bodh Gaya"
+                },
+                {
+                  "religion": "Hinduism",
+                  "origin_site_example": "Kashi Vishwanath Temple, Varanasi"
+                }
+              ],
+              "layout_notes": "Featurettes.docx calls for a map + symbols chart. Proof poster shows a symbols strip and a faint world map background, but not a dedicated origin map.",
+              "data_sources": [
+                {
+                  "source_name": "Religious Studies Data",
+                  "link": null
+                }
+              ]
+            }
+          ],
+          "iconography_notes": "Symbols shown: Star of David (Judaism), Crescent and star (Islam), Cross (Christianity), Om (Hinduism), Khanda (Sikhism), Dharma wheel (Buddhism).",
+          "source_table": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Religions",
+            "range": "A9:F15"
+          }
+        }
+      },
+      {
+        "featurette_id": "india_land_of_contrasts",
+        "title": "India –\nA Land of Contrasts Between\nRich and Poor",
+        "body_text": "India is a land of shining skyscrapers, busy tech hubs, and world-famous business leaders. Yet not far from these modern marvels, you’ll find families who struggle with old tools on small farms or cramped neighborhoods without clean water or electricity.\n\nThis big gap between rich and poor comes from a long history and fast changes. Today, India is working hard to share its growing wealth more fairly. New schools, better jobs, and smarter farming methods aim to lift people out of poverty. As India grows, so does the hope that everyone can enjoy a better life.",
+        "layout_slot_id": "featurette_left_bottom",
+        "assets": [
+          {
+            "asset_id": "asia_india_photo_luxury_skyscraper",
+            "type": "photo",
+            "role": "wealth_symbol_photo",
+            "aspect_ratio": "approx 3:4 (portrait)",
+            "description": "Photo of a luxury high-rise/skyscraper (Antilia Tower, Mumbai) used to represent wealth.",
+            "hyperlinks": {
+              "anchor_text": " luxury apartment building ne",
+              "final_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mumbai_03-2016_19_Antilia_Tower.jpg/1200px-Mumbai_03-2016_19_Antilia_Tower.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_india_photo_crowded_neighborhood",
+            "type": "photo",
+            "role": "poverty_contrast_photo",
+            "aspect_ratio": "approx 16:9",
+            "description": "Photo of a dense, crowded neighborhood/slum area used to contrast wealth and poverty.",
+            "hyperlinks": {
+              "anchor_text": "small, crowded neighborhood",
+              "final_url": "https://c8.alamy.com/comp/2ANTYTK/aerial-view-of-poor-indian-slums-in-faridabad-haryana-2ANTYTK.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_india_photo_rural_farmers",
+            "type": "photo",
+            "role": "rural_livelihood_photo",
+            "aspect_ratio": "approx 16:9",
+            "description": "Photo of rural farmers working in a field (agriculture / livelihoods).",
+            "hyperlinks": {
+              "anchor_text": "Rural farmers working in a field",
+              "final_url": "https://www.bain.com/contentassets/abc6db2a2d8b441f95772b2fa70292e1/india-rural-economy-16-9.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_india_income_regions_map_placeholder",
+            "type": "map",
+            "role": "chart_placeholder",
+            "aspect_ratio": "unknown",
+            "description": "Referenced in Asia Featurettes.docx: map showing regions with higher incomes and those with lower incomes. Not present in the proof poster PDF; included as a dependency placeholder.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            }
+          }
+        ],
+        "chart_spec": {
+          "charts": [
+            {
+              "chart_id": "india_income_regions_map",
+              "type": "map",
+              "status": "placeholder",
+              "title": "India income regions (higher vs. lower incomes)",
+              "data_table": null,
+              "layout_notes": "Featurettes.docx calls for a government-data income/wealth map, but the proof poster uses a photo-based contrast layout without a visible map.",
+              "data_sources": [
+                {
+                  "source_name": "Government Data (India)",
+                  "link": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "featurette_id": "china_changing_population",
+        "title": "China’s Changing Population –\nA Story of Growth and Change",
+        "body_text": "Imagine a country growing so fast that leaders once encouraged families to have as many children as possible. That was China after 1949. Soon, the population soared. But too many people meant too few resources, so China introduced the One-Child Policy. Families could only have one child, hoping to slow down the rapid growth.\n\nOver time, this led to more boys than girls, since many parents wanted sons. Today, China faces fewer young people, more elderly, and a changing future. The rules have loosened, allowing more children per family, but raising kids is expensive, and many parents still choose smaller families. China now works to balance its population, care for the elderly, and value all children equally.",
+        "layout_slot_id": "featurette_right_top",
+        "assets": [
+          {
+            "asset_id": "asia_china_photo_family_strolling",
+            "type": "photo",
+            "role": "featurette_hero_photo",
+            "aspect_ratio": "approx 16:9",
+            "description": "Photo of a Chinese family walking in a city street (top of China featurette).",
+            "hyperlinks": {
+              "anchor_text": "A modern Chinese family strolling in a busy city stree",
+              "final_url": "https://c8.alamy.com/comp/W9AK8B/file-a-chinese-family-of-three-walk-on-the-nanjing-road-shopping-street-in-shanghai-china-7-july-2010-china-marked-the-30th-anniversary-of-its-W9AK8B.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_china_chart_midyear_population",
+            "type": "chart",
+            "role": "supporting_chart",
+            "aspect_ratio": "approx 4:3",
+            "description": "Line chart titled “Midyear Population vs. Year” showing China’s midyear population over time.",
+            "hyperlinks": {
+              "anchor_text": "China’s population growth over time",
+              "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_china_chart_crude_birth_rate",
+            "type": "chart",
+            "role": "supporting_chart",
+            "aspect_ratio": "approx 4:3",
+            "description": "Line chart titled “Crude Birth Rate (per 1000) vs. Year” showing China’s crude birth rate over time.",
+            "hyperlinks": {
+              "anchor_text": "Comparison ",
+              "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+              "url_candidates": [],
+              "notes": null
+            }
+          }
+        ],
+        "chart_spec": {
+          "charts": [
+            {
+              "chart_id": "china_midyear_population",
+              "type": "line_chart",
+              "title": "Midyear Population vs. Year",
+              "x_field": "Year",
+              "y_field": "Midyear Population",
+              "y_units": "people",
+              "data_table": [
+                {
+                  "year": "1949",
+                  "midyear_population": 537371000.0
+                },
+                {
+                  "year": "1950",
+                  "midyear_population": 546815000.0
+                },
+                {
+                  "year": "1951",
+                  "midyear_population": 557480000.0
+                },
+                {
+                  "year": "1952",
+                  "midyear_population": 568910000.0
+                },
+                {
+                  "year": "1953",
+                  "midyear_population": 581390000.0
+                },
+                {
+                  "year": "1954",
+                  "midyear_population": 595310000.0
+                },
+                {
+                  "year": "1955",
+                  "midyear_population": 608655000.0
+                },
+                {
+                  "year": "1956",
+                  "midyear_population": 621465000.0
+                },
+                {
+                  "year": "1957",
+                  "midyear_population": 637405000.0
+                },
+                {
+                  "year": "1958",
+                  "midyear_population": 653235000.0
+                },
+                {
+                  "year": "1959",
+                  "midyear_population": 666005000.0
+                },
+                {
+                  "year": "1960",
+                  "midyear_population": 667070000.0
+                },
+                {
+                  "year": "1961",
+                  "midyear_population": 660330000.0
+                },
+                {
+                  "year": "1962",
+                  "midyear_population": 665770000.0
+                },
+                {
+                  "year": "1963",
+                  "midyear_population": 682335000.0
+                },
+                {
+                  "year": "1964",
+                  "midyear_population": 698355000.0
+                },
+                {
+                  "year": "1965",
+                  "midyear_population": 715185000.0
+                },
+                {
+                  "year": "1966",
+                  "midyear_population": 735400000.0
+                },
+                {
+                  "year": "1967",
+                  "midyear_population": 754550000.0
+                },
+                {
+                  "year": "1968",
+                  "midyear_population": 774510000.0
+                },
+                {
+                  "year": "1969",
+                  "midyear_population": 796025000.0
+                },
+                {
+                  "year": "1970",
+                  "midyear_population": 818315000.0
+                },
+                {
+                  "year": "1971",
+                  "midyear_population": 841105000.0
+                },
+                {
+                  "year": "1972",
+                  "midyear_population": 862030000.0
+                },
+                {
+                  "year": "1973",
+                  "midyear_population": 881940000.0
+                },
+                {
+                  "year": "1974",
+                  "midyear_population": 900350000.0
+                },
+                {
+                  "year": "1975",
+                  "midyear_population": 916395000.0
+                },
+                {
+                  "year": "1976",
+                  "midyear_population": 930685000.0
+                },
+                {
+                  "year": "1977",
+                  "midyear_population": 943455000.0
+                },
+                {
+                  "year": "1978",
+                  "midyear_population": 956165000.0
+                },
+                {
+                  "year": "1979",
+                  "midyear_population": 969005000.0
+                },
+                {
+                  "year": "1980",
+                  "midyear_population": 981235000.0
+                },
+                {
+                  "year": "1981",
+                  "midyear_population": 993885000.0
+                },
+                {
+                  "year": "1982",
+                  "midyear_population": 1008630000.0
+                },
+                {
+                  "year": "1983",
+                  "midyear_population": 1023310000.0
+                },
+                {
+                  "year": "1984",
+                  "midyear_population": 1036825000.0
+                },
+                {
+                  "year": "1985",
+                  "midyear_population": 1051040000.0
+                },
+                {
+                  "year": "1986",
+                  "midyear_population": 1066790000.0
+                },
+                {
+                  "year": "1987",
+                  "midyear_population": 1084035000.0
+                },
+                {
+                  "year": "1988",
+                  "midyear_population": 1101630000.0
+                },
+                {
+                  "year": "1989",
+                  "midyear_population": 1118650000.0
+                },
+                {
+                  "year": "1990",
+                  "midyear_population": 1135185000.0
+                },
+                {
+                  "year": "1991",
+                  "midyear_population": 1150780000.0
+                },
+                {
+                  "year": "1992",
+                  "midyear_population": 1164970000.0
+                },
+                {
+                  "year": "1993",
+                  "midyear_population": 1178440000.0
+                },
+                {
+                  "year": "1994",
+                  "midyear_population": 1191835000.0
+                },
+                {
+                  "year": "1995",
+                  "midyear_population": 1204855000.0
+                },
+                {
+                  "year": "1996",
+                  "midyear_population": 1217550000.0
+                },
+                {
+                  "year": "1997",
+                  "midyear_population": 1230075000.0
+                },
+                {
+                  "year": "1998",
+                  "midyear_population": 1241935000.0
+                },
+                {
+                  "year": "1999",
+                  "midyear_population": 1252735000.0
+                },
+                {
+                  "year": "2000",
+                  "midyear_population": 1262645000.0
+                },
+                {
+                  "year": "2001",
+                  "midyear_population": 1271850000.0
+                },
+                {
+                  "year": "2002",
+                  "midyear_population": 1280400000.0
+                },
+                {
+                  "year": "2003",
+                  "midyear_population": 1288400000.0
+                },
+                {
+                  "year": "2004",
+                  "midyear_population": 1296075000.0
+                },
+                {
+                  "year": "2005",
+                  "midyear_population": 1303720000.0
+                },
+                {
+                  "year": "2006",
+                  "midyear_population": 1311020000.0
+                },
+                {
+                  "year": "2007",
+                  "midyear_population": 1317885000.0
+                },
+                {
+                  "year": "2008",
+                  "midyear_population": 1324655000.0
+                },
+                {
+                  "year": "2009",
+                  "midyear_population": 1331260000.0
+                },
+                {
+                  "year": "2010",
+                  "midyear_population": 1337705000.0
+                },
+                {
+                  "year": "2011",
+                  "midyear_population": 1345035000.0
+                },
+                {
+                  "year": "2012",
+                  "midyear_population": 1354190000.0
+                },
+                {
+                  "year": "2013",
+                  "midyear_population": 1363240000.0
+                },
+                {
+                  "year": "2014",
+                  "midyear_population": 1371860000.0
+                },
+                {
+                  "year": "2015",
+                  "midyear_population": 1379860000.0
+                },
+                {
+                  "year": "2016",
+                  "midyear_population": 1387790000.0
+                },
+                {
+                  "year": "2017",
+                  "midyear_population": 1396215000.0
+                },
+                {
+                  "year": "2018",
+                  "midyear_population": 1402760000.0
+                },
+                {
+                  "year": "2019",
+                  "midyear_population": 1407745000.0
+                },
+                {
+                  "year": "2020",
+                  "midyear_population": 1411100000.0
+                },
+                {
+                  "year": "2021",
+                  "midyear_population": 1412360000.0
+                },
+                {
+                  "year": "2022",
+                  "midyear_population": 1411750000.0
+                },
+                {
+                  "year": "2023 (e)",
+                  "midyear_population": 1409670000.0
+                }
+              ],
+              "data_sources": [
+                {
+                  "source_name": "UN Data (via linked spreadsheet)",
+                  "link": {
+                    "anchor_text": "China’s population growth over time",
+                    "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+                    "url_candidates": [],
+                    "notes": null
+                  }
+                },
+                {
+                  "source_name": "Asia Cultural Domain.xlsx",
+                  "link": null,
+                  "notes": "Data table stored in Asia Cultural Domain.xlsx sheet “Asia china population featurett”."
+                }
+              ],
+              "layout_notes": "Appears as a small card-style chart within the China featurette, stacked above the birth-rate chart."
+            },
+            {
+              "chart_id": "china_crude_birth_rate",
+              "type": "line_chart",
+              "title": "Crude Birth Rate (per 1000) vs. Year",
+              "x_field": "Year",
+              "y_field": "Crude Birth Rate (per 1000)",
+              "y_units": "births per 1000 people",
+              "data_table": [
+                {
+                  "year": "1949",
+                  "crude_birth_rate_per_1000": 36.0
+                },
+                {
+                  "year": "1950",
+                  "crude_birth_rate_per_1000": 37.0
+                },
+                {
+                  "year": "1951",
+                  "crude_birth_rate_per_1000": 37.8
+                },
+                {
+                  "year": "1952",
+                  "crude_birth_rate_per_1000": 37.0
+                },
+                {
+                  "year": "1953",
+                  "crude_birth_rate_per_1000": 37.0
+                },
+                {
+                  "year": "1954",
+                  "crude_birth_rate_per_1000": 37.97
+                },
+                {
+                  "year": "1955",
+                  "crude_birth_rate_per_1000": 32.6
+                },
+                {
+                  "year": "1956",
+                  "crude_birth_rate_per_1000": 31.9
+                },
+                {
+                  "year": "1957",
+                  "crude_birth_rate_per_1000": 34.03
+                },
+                {
+                  "year": "1958",
+                  "crude_birth_rate_per_1000": 29.22
+                },
+                {
+                  "year": "1959",
+                  "crude_birth_rate_per_1000": 24.78
+                },
+                {
+                  "year": "1960",
+                  "crude_birth_rate_per_1000": 20.86
+                },
+                {
+                  "year": "1961",
+                  "crude_birth_rate_per_1000": 18.02
+                },
+                {
+                  "year": "1962",
+                  "crude_birth_rate_per_1000": 37.01
+                },
+                {
+                  "year": "1963",
+                  "crude_birth_rate_per_1000": 43.37
+                },
+                {
+                  "year": "1964",
+                  "crude_birth_rate_per_1000": 39.14
+                },
+                {
+                  "year": "1965",
+                  "crude_birth_rate_per_1000": 37.88
+                },
+                {
+                  "year": "1966",
+                  "crude_birth_rate_per_1000": 35.05
+                },
+                {
+                  "year": "1967",
+                  "crude_birth_rate_per_1000": 33.96
+                },
+                {
+                  "year": "1968",
+                  "crude_birth_rate_per_1000": 35.59
+                },
+                {
+                  "year": "1969",
+                  "crude_birth_rate_per_1000": 34.11
+                },
+                {
+                  "year": "1970",
+                  "crude_birth_rate_per_1000": 33.43
+                },
+                {
+                  "year": "1971",
+                  "crude_birth_rate_per_1000": 30.65
+                },
+                {
+                  "year": "1972",
+                  "crude_birth_rate_per_1000": 29.77
+                },
+                {
+                  "year": "1973",
+                  "crude_birth_rate_per_1000": 27.93
+                },
+                {
+                  "year": "1974",
+                  "crude_birth_rate_per_1000": 24.82
+                },
+                {
+                  "year": "1975",
+                  "crude_birth_rate_per_1000": 23.01
+                },
+                {
+                  "year": "1976",
+                  "crude_birth_rate_per_1000": 19.91
+                },
+                {
+                  "year": "1977",
+                  "crude_birth_rate_per_1000": 18.93
+                },
+                {
+                  "year": "1978",
+                  "crude_birth_rate_per_1000": 18.25
+                },
+                {
+                  "year": "1979",
+                  "crude_birth_rate_per_1000": 18.21
+                },
+                {
+                  "year": "1980",
+                  "crude_birth_rate_per_1000": 18.21
+                },
+                {
+                  "year": "1981",
+                  "crude_birth_rate_per_1000": 20.91
+                },
+                {
+                  "year": "1982",
+                  "crude_birth_rate_per_1000": 22.28
+                },
+                {
+                  "year": "1983",
+                  "crude_birth_rate_per_1000": 20.19
+                },
+                {
+                  "year": "1984",
+                  "crude_birth_rate_per_1000": 19.9
+                },
+                {
+                  "year": "1985",
+                  "crude_birth_rate_per_1000": 21.04
+                },
+                {
+                  "year": "1986",
+                  "crude_birth_rate_per_1000": 22.43
+                },
+                {
+                  "year": "1987",
+                  "crude_birth_rate_per_1000": 23.33
+                },
+                {
+                  "year": "1988",
+                  "crude_birth_rate_per_1000": 22.37
+                },
+                {
+                  "year": "1989",
+                  "crude_birth_rate_per_1000": 21.58
+                },
+                {
+                  "year": "1990",
+                  "crude_birth_rate_per_1000": 21.06
+                },
+                {
+                  "year": "1991",
+                  "crude_birth_rate_per_1000": 19.68
+                },
+                {
+                  "year": "1992",
+                  "crude_birth_rate_per_1000": 18.24
+                },
+                {
+                  "year": "1993",
+                  "crude_birth_rate_per_1000": 18.09
+                },
+                {
+                  "year": "1994",
+                  "crude_birth_rate_per_1000": 17.7
+                },
+                {
+                  "year": "1995",
+                  "crude_birth_rate_per_1000": 17.12
+                },
+                {
+                  "year": "1996",
+                  "crude_birth_rate_per_1000": 16.98
+                },
+                {
+                  "year": "1997",
+                  "crude_birth_rate_per_1000": 16.57
+                },
+                {
+                  "year": "1998",
+                  "crude_birth_rate_per_1000": 15.64
+                },
+                {
+                  "year": "1999",
+                  "crude_birth_rate_per_1000": 14.64
+                },
+                {
+                  "year": "2000",
+                  "crude_birth_rate_per_1000": 14.03
+                },
+                {
+                  "year": "2001",
+                  "crude_birth_rate_per_1000": 13.38
+                },
+                {
+                  "year": "2002",
+                  "crude_birth_rate_per_1000": 12.86
+                },
+                {
+                  "year": "2003",
+                  "crude_birth_rate_per_1000": 12.41
+                },
+                {
+                  "year": "2004",
+                  "crude_birth_rate_per_1000": 12.29
+                },
+                {
+                  "year": "2005",
+                  "crude_birth_rate_per_1000": 12.4
+                },
+                {
+                  "year": "2006",
+                  "crude_birth_rate_per_1000": 12.09
+                },
+                {
+                  "year": "2007",
+                  "crude_birth_rate_per_1000": 12.1
+                },
+                {
+                  "year": "2008",
+                  "crude_birth_rate_per_1000": 12.14
+                },
+                {
+                  "year": "2009",
+                  "crude_birth_rate_per_1000": 11.95
+                },
+                {
+                  "year": "2010",
+                  "crude_birth_rate_per_1000": 11.9
+                },
+                {
+                  "year": "2011",
+                  "crude_birth_rate_per_1000": 13.27
+                },
+                {
+                  "year": "2012",
+                  "crude_birth_rate_per_1000": 14.57
+                },
+                {
+                  "year": "2013",
+                  "crude_birth_rate_per_1000": 13.03
+                },
+                {
+                  "year": "2014",
+                  "crude_birth_rate_per_1000": 13.83
+                },
+                {
+                  "year": "2015",
+                  "crude_birth_rate_per_1000": 11.99
+                },
+                {
+                  "year": "2016",
+                  "crude_birth_rate_per_1000": 12.95
+                },
+                {
+                  "year": "2017",
+                  "crude_birth_rate_per_1000": 12.64
+                },
+                {
+                  "year": "2018",
+                  "crude_birth_rate_per_1000": 10.86
+                },
+                {
+                  "year": "2019",
+                  "crude_birth_rate_per_1000": 10.41
+                },
+                {
+                  "year": "2020",
+                  "crude_birth_rate_per_1000": 8.52
+                },
+                {
+                  "year": "2021",
+                  "crude_birth_rate_per_1000": 7.52
+                },
+                {
+                  "year": "2022",
+                  "crude_birth_rate_per_1000": 6.77
+                },
+                {
+                  "year": "2023 (e)",
+                  "crude_birth_rate_per_1000": 6.39
+                }
+              ],
+              "data_sources": [
+                {
+                  "source_name": "WHO Data (mentioned in Featurettes.docx) / chart data via linked spreadsheet",
+                  "link": {
+                    "anchor_text": "Comparison ",
+                    "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+                    "url_candidates": [],
+                    "notes": null
+                  }
+                },
+                {
+                  "source_name": "Asia Cultural Domain.xlsx",
+                  "link": null,
+                  "notes": "Data table stored in Asia Cultural Domain.xlsx sheet “Asia china population featurett”."
+                }
+              ],
+              "layout_notes": "Appears as a small card-style chart within the China featurette, stacked below the population chart."
+            }
+          ],
+          "source_table": {
+            "file": "Asia Cultural Domain.xlsx",
+            "sheet": "Asia china population featurett",
+            "range": "A5:G81"
+          },
+          "iconography_notes": "No iconization math provided (graphs stuff.docx not included)."
+        }
+      },
+      {
+        "featurette_id": "japan_living_on_the_ring_of_fire",
+        "title": "Japan –\nLiving on The Ring of Fire",
+        "body_text": "Japan sits on the “Ring of Fire,” where giant pieces of Earth’s crust meet and shake. Earthquakes, volcanoes, and tsunamis are part of daily life here.\n\nInstead of fearing these forces, Japan prepares. Buildings sway safely instead of breaking. Alarms on phones give early warnings. Students practice drills so they know what to do when the ground trembles.\n\nIn 2011, a huge earthquake and tsunami hit Japan, causing big problems at a nuclear power plant. Since then, safety has improved, and communities stand ready to help each other.\n\nJapan’s story shows that by planning, learning, and working together, people can thrive— even in nature’s most active neighborhood.",
+        "layout_slot_id": "featurette_right_bottom",
+        "assets": [
+          {
+            "asset_id": "asia_japan_photo_tsunami_aftermath",
+            "type": "photo",
+            "role": "featurette_hero_photo",
+            "aspect_ratio": "approx 16:9",
+            "description": "Photo showing the aftermath/result of a tsunami (top of Japan featurette).",
+            "hyperlinks": {
+              "anchor_text": "Showing the result of a tsunami",
+              "final_url": "https://dims.apnews.com/dims4/default/68cbbe2/2147483647/strip/false/crop/4750x3032+0+0/resize/1486x949!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F38%2F08%2F71edf39b459809829e3d74e11322%2F09ece7af38d74470b58ff097dc259976",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_japan_diagram_earthquake_resistant_buildings",
+            "type": "chart",
+            "role": "educational_diagram",
+            "aspect_ratio": "approx 3:2",
+            "description": "Diagram explaining how Japanese buildings resist earthquakes (three approaches illustrated).",
+            "hyperlinks": {
+              "anchor_text": "Japanese ",
+              "final_url": "https://cdn.housingjapan.com/wp-content/uploads/2023/09/11180424/earthquake-01-1-1024x526.jpg",
+              "url_candidates": [],
+              "notes": null
+            }
+          },
+          {
+            "asset_id": "asia_japan_photo_school_earthquake_drill",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": "approx 16:9",
+            "description": "Photo of a school earthquake drill (students practicing safety procedures).",
+            "hyperlinks": {
+              "anchor_text": "school earthquake drill",
+              "final_url": "https://cdn.mainichi.jp/vol1/2025/03/12/20250312p2a00m0na021000p/0c10.jpg?1",
+              "url_candidates": [],
+              "notes": null
+            }
+          }
+        ],
+        "chart_spec": {
+          "charts": [
+            {
+              "chart_id": "japan_building_resilience_diagram",
+              "type": "diagram",
+              "title": "How Japanese buildings resist earthquakes",
+              "elements": [
+                {
+                  "label": "Seismic Resistance (Taishin)",
+                  "description": "Strengthens columns/walls to withstand shaking."
+                },
+                {
+                  "label": "Vibration Control (Seishin)",
+                  "description": "Uses dampers to reduce sway and vibration."
+                },
+                {
+                  "label": "Base Isolation (Menshin)",
+                  "description": "Isolates the building from ground motion using bearings/isolators."
+                }
+              ],
+              "layout_notes": "Displayed as a small three-panel illustration at the lower right of the Japan featurette.",
+              "data_sources": []
+            }
+          ],
+          "iconography_notes": "Diagram is conceptual; no quantitative data table."
+        }
+      }
+    ],
+    "hyperlinks": {
+      "photo_links": [
+        {
+          "anchor_text": "A modern Chinese family strolling in a busy city stree",
+          "final_url": "https://c8.alamy.com/comp/W9AK8B/file-a-chinese-family-of-three-walk-on-the-nanjing-road-shopping-street-in-shanghai-china-7-july-2010-china-marked-the-30th-anniversary-of-its-W9AK8B.jpg",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": " luxury apartment building ne",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mumbai_03-2016_19_Antilia_Tower.jpg/1200px-Mumbai_03-2016_19_Antilia_Tower.jpg",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "small, crowded neighborhood",
+          "final_url": "https://c8.alamy.com/comp/2ANTYTK/aerial-view-of-poor-indian-slums-in-faridabad-haryana-2ANTYTK.jpg",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "Rural farmers working in a field",
+          "final_url": "https://www.bain.com/contentassets/abc6db2a2d8b441f95772b2fa70292e1/india-rural-economy-16-9.jpg",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "Showing the result of a tsunami",
+          "final_url": "https://dims.apnews.com/dims4/default/68cbbe2/2147483647/strip/false/crop/4750x3032+0+0/resize/1486x949!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F38%2F08%2F71edf39b459809829e3d74e11322%2F09ece7af38d74470b58ff097dc259976",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "Japanese ",
+          "final_url": "https://cdn.housingjapan.com/wp-content/uploads/2023/09/11180424/earthquake-01-1-1024x526.jpg",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "school earthquake drill",
+          "final_url": "https://cdn.mainichi.jp/vol1/2025/03/12/20250312p2a00m0na021000p/0c10.jpg?1",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "holy site, such as the Wester",
+          "final_url": "https://www.touristisrael.com/wp-content/uploads/2021/10/shutterstock_591824696-1024x684.jpg",
+          "url_candidates": [],
+          "notes": null
+        }
+      ],
+      "graph_data_links": [
+        {
+          "anchor_text": "China’s population growth over time",
+          "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+          "url_candidates": [],
+          "notes": null
+        },
+        {
+          "anchor_text": "Comparison ",
+          "final_url": "https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit",
+          "url_candidates": [],
+          "notes": null
+        }
+      ],
+      "reference_links": [
+        {
+          "anchor_text": "Showing where major religions began",
+          "final_url": "https://preview.redd.it/blimtmsmvtm71.jpg?width=1080&crop=smart&auto=webp&s=f26bf7b6b08ea1205df71b8239d9f21185591572",
+          "url_candidates": [],
+          "notes": null
+        }
+      ],
+      "data_source_links": [
+        {
+          "source_name": "UN Data",
+          "final_url": null,
+          "url_candidates": [],
+          "notes": "Mentioned in Asia Featurettes.docx as a data source for China population chart."
+        },
+        {
+          "source_name": "WHO Data",
+          "final_url": null,
+          "url_candidates": [],
+          "notes": "Mentioned in Asia Featurettes.docx as a data source for birth rate comparison chart."
+        },
+        {
+          "source_name": "Government Data (India)",
+          "final_url": null,
+          "url_candidates": [],
+          "notes": "Mentioned in Asia Featurettes.docx as a data source for India income-region map."
+        },
+        {
+          "source_name": "Religious Studies Data",
+          "final_url": null,
+          "url_candidates": [],
+          "notes": "Mentioned in Asia Featurettes.docx as a data source for religion origins map."
+        }
+      ]
+    },
+    "supplemental_stats_for_app": [
+      {
+        "supplemental_stat_id": "oddball_arsenic_groundwater_bangladesh",
+        "related_core_stat_id": "access_to_clean_drinking_water",
+        "title": "Arsenic contamination in groundwater",
+        "stat_text": "Bangladesh: Asia Stats.docx notes that an estimated ~20 million people are exposed to arsenic-contaminated groundwater, described as one of the largest mass poisonings in history.",
+        "source": {
+          "file": "Asia Stats.docx",
+          "section_title": "Access to Clean Drinking Water"
+        }
+      },
+      {
+        "supplemental_stat_id": "oddball_disaster_related_volunteerism_japan",
+        "related_core_stat_id": "volunteer_community_service_participation",
+        "title": "Disaster-related volunteerism",
+        "stat_text": "Japan: Asia Stats.docx notes that after the 2011 earthquake and tsunami, over 1 million volunteers joined recovery efforts—highlighting community response during crises.",
+        "source": {
+          "file": "Asia Stats.docx",
+          "section_title": "Percentage of Population Engaged in Volunteer Activities or Community Service"
+        }
+      },
+      {
+        "supplemental_stat_id": "oddball_education_pressure_south_korea",
+        "related_core_stat_id": "population_with_higher_education_degrees",
+        "title": "Education pressure",
+        "stat_text": "South Korea: Asia Stats.docx highlights intense academic pressure and long study hours, raising concerns about student stress and well-being.",
+        "source": {
+          "file": "Asia Stats.docx",
+          "section_title": "Percentage of Population with Higher Education Degrees"
+        }
+      }
+    ],
+    "validation_and_todos": {
+      "issues": [
+        {
+          "issue_id": "palette_missing_country",
+          "severity": "high",
+          "description": "Palette extracted from Asia Cultural Domain.xlsx (stats palette sheet) does not include Papua New Guinea, which appears on the proof map (bottom-right).",
+          "recommended_action": "Add Papua New Guinea to stats palette (country name + hex) or confirm whether it should be included/excluded from the Asia map."
+        },
+        {
+          "issue_id": "palette_mismatch_with_proof",
+          "severity": "high",
+          "description": "The proof PDF map appears to use a different per-country color assignment than the hex palette listed in the spreadsheet (e.g., sampled Russia fill in proof appears orange, while spreadsheet lists a blue hex for Russia).",
+          "recommended_action": "Confirm which version is authoritative (spreadsheet palette vs. proof PDF). If proof is final, provide an updated palette table matching the proof."
+        },
+        {
+          "issue_id": "truncated_hyperlink_urls",
+          "severity": "medium",
+          "description": "Several URLs in Asia Featurettes.docx appear truncated with ellipses (e.g., some Alamy/Wikipedia/AP News links and the reddit preview link).",
+          "recommended_action": "Replace truncated URLs with full, direct asset URLs for reliable downstream use."
+        },
+        {
+          "issue_id": "featurette_chart_presence",
+          "severity": "medium",
+          "description": "India and Religions featurettes in the proof poster are primarily photo/illustration based and do not clearly include the map/chart elements described in Featurettes.docx; placeholders were added in this schema.",
+          "recommended_action": "Confirm whether those maps/charts are intended for a later revision or app-only experience; provide final chart assets/specs if required."
+        },
+        {
+          "issue_id": "graphs_stuff_doc_missing",
+          "severity": "low",
+          "description": "No “graphs stuff.docx” was provided, so iconization math/unit definitions for charts (if any) are not captured beyond what is visible in proof and spreadsheet tables.",
+          "recommended_action": "Provide graphs stuff.docx if icon math or chart construction rules are needed for automation."
+        }
+      ]
+    },
+    "provenance": {
+      "files_used": [
+        {
+          "file": "Asia_StatsFeatures.pdf",
+          "role": "proof_poster",
+          "notes": "Primary source for on-poster titles, legend wording, and final featurette copy."
+        },
+        {
+          "file": "asia sf concept 1.jpg",
+          "role": "concept_image",
+          "notes": "Reviewed for context; proof PDF treated as authoritative."
+        },
+        {
+          "file": "asia sf concept 2.jpg",
+          "role": "concept_image",
+          "notes": "Reviewed for context; proof PDF treated as authoritative."
+        },
+        {
+          "file": "Asia Cultural Domain.xlsx",
+          "role": "data_source_spreadsheet",
+          "notes": "Used for core stats table (Interesting Statistics!A4:D12), map palette list (stats palette!A:B), and China chart data (Asia china population featurett)."
+        },
+        {
+          "file": "Asia Featurettes.docx",
+          "role": "featurette_copy_and_links",
+          "notes": "Used for collecting hyperlinks to photos and data sources; copy reconciled to proof PDF."
+        },
+        {
+          "file": "Asia Stats.docx",
+          "role": "supplemental_stats",
+          "notes": "Used to select 3 app-only supplemental “oddball” stats."
+        }
+      ],
+      "extraction_timestamp_utc": "2025-12-30T20:23:08.997130Z"
+    }
+  }
+}

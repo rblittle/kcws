@@ -1,0 +1,1401 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/stats and featurettes/SouthAmerica_StatsAndFeaturettes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__stats_featurettes__south_america__southamerica_statsandfeaturettes",
+    "derived_id": "cultural__stats_featurettes__south_america__southamerica_statsandfeaturettes",
+    "continent": "south_america",
+    "domain": "cultural",
+    "poster_family": "stats_featurettes",
+    "filename": "SouthAmerica_StatsAndFeaturettes.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "stats_featurettes"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:cultural",
+      "poster_family:stats_featurettes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/stats and featurettes/SouthAmerica_StatsAndFeaturettes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff_atlas_trail_stats_featurettes_poster_package",
+    "schema_version": "1.0.0",
+    "poster_metadata": {
+      "id": "Cultural_StatsandFeatures_SOUTHAMERICA",
+      "continent": "South America",
+      "domain": "Cultural",
+      "poster_type": "Stats & Featurettes",
+      "dimensions": {
+        "unit": "px",
+        "width": 2048,
+        "height": 1364,
+        "aspect_ratio": 1.5015,
+        "notes": "Dimensions taken from the provided proof image file."
+      },
+      "display_title": "South America's Gifts:\nFrom Earth’s Treasure to Human Spirit",
+      "language": "en",
+      "layout_slots": [
+        {
+          "slot_id": "slot_title",
+          "label": "Poster title",
+          "content_type": "text",
+          "bbox_px": {
+            "x": 60,
+            "y": 40,
+            "width": 790,
+            "height": 180
+          },
+          "bbox_norm": {
+            "x": 0.029296875,
+            "y": 0.02932551319648094,
+            "width": 0.3857421875,
+            "height": 0.13196480938416422
+          }
+        },
+        {
+          "slot_id": "slot_featurette_1_lithium",
+          "label": "Featurette 1: Lithium Triangle",
+          "content_type": "featurette",
+          "bbox_px": {
+            "x": 60,
+            "y": 160,
+            "width": 540,
+            "height": 600
+          },
+          "bbox_norm": {
+            "x": 0.029296875,
+            "y": 0.11730205278592376,
+            "width": 0.263671875,
+            "height": 0.4398826979472141
+          }
+        },
+        {
+          "slot_id": "slot_featurette_2_languages",
+          "label": "Featurette 2: Languages",
+          "content_type": "featurette",
+          "bbox_px": {
+            "x": 60,
+            "y": 750,
+            "width": 540,
+            "height": 580
+          },
+          "bbox_norm": {
+            "x": 0.029296875,
+            "y": 0.5498533724340176,
+            "width": 0.263671875,
+            "height": 0.4252199413489736
+          }
+        },
+        {
+          "slot_id": "slot_map_main",
+          "label": "Main South America map",
+          "content_type": "map",
+          "bbox_px": {
+            "x": 560,
+            "y": 110,
+            "width": 940,
+            "height": 1110
+          },
+          "bbox_norm": {
+            "x": 0.2734375,
+            "y": 0.08064516129032258,
+            "width": 0.458984375,
+            "height": 0.8137829912023461
+          }
+        },
+        {
+          "slot_id": "slot_legend_high_low",
+          "label": "High and low legend card",
+          "content_type": "legend",
+          "bbox_px": {
+            "x": 1100,
+            "y": 620,
+            "width": 460,
+            "height": 700
+          },
+          "bbox_norm": {
+            "x": 0.537109375,
+            "y": 0.45454545454545453,
+            "width": 0.224609375,
+            "height": 0.5131964809384164
+          }
+        },
+        {
+          "slot_id": "slot_featurette_3_food_trade",
+          "label": "Featurette 3: Global food trade",
+          "content_type": "featurette",
+          "bbox_px": {
+            "x": 1380,
+            "y": 70,
+            "width": 660,
+            "height": 580
+          },
+          "bbox_norm": {
+            "x": 0.673828125,
+            "y": 0.051319648093841645,
+            "width": 0.322265625,
+            "height": 0.4252199413489736
+          }
+        },
+        {
+          "slot_id": "slot_featurette_4_tourism",
+          "label": "Featurette 4: Tourism",
+          "content_type": "featurette",
+          "bbox_px": {
+            "x": 1380,
+            "y": 560,
+            "width": 660,
+            "height": 770
+          },
+          "bbox_norm": {
+            "x": 0.673828125,
+            "y": 0.41055718475073316,
+            "width": 0.322265625,
+            "height": 0.5645161290322581
+          }
+        }
+      ]
+    },
+    "continent_stats_map": {
+      "map_asset": {
+        "asset_id": "sa_stats_map_base",
+        "type": "map",
+        "role": "primary_continent_map",
+        "description": "Stylized South America country map with per-country fill colors and major river lines; includes labels for several countries.",
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": []
+        }
+      },
+      "palette_by_country": [
+        {
+          "country": "Argentina",
+          "color_hex": "#DC3B9C",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Bolivia",
+          "color_hex": "#3B65DC",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Brazil",
+          "color_hex": "#DCDC3B",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Chile",
+          "color_hex": "#3BDC99",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Colombia",
+          "color_hex": "#3BCFDC",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Ecuador",
+          "color_hex": "#DC3B65",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Guyana",
+          "color_hex": "#3BDCDC",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Paraguay",
+          "color_hex": "#993BDC",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Peru",
+          "color_hex": "#DC553B",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Suriname",
+          "color_hex": "#8C3BDC",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Uruguay",
+          "color_hex": "#DC483B",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "Venezuela",
+          "color_hex": "#DC3B8C",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "stats color scheme",
+            "cell_range": null
+          }
+        },
+        {
+          "country": "French Guiana (France)",
+          "color_hex": "#F4C262",
+          "source": {
+            "file": "Volume_AtlasTrail_Cultural_StatsFeatures_SouthAmerica_05092025.png",
+            "method": "sampled_from_proof_image_pixel",
+            "sample_points_px": [
+              [
+                1120,
+                220
+              ]
+            ]
+          },
+          "notes": "French Guiana appears on the proof map but is not listed in the XLSX palette."
+        }
+      ],
+      "legend": {
+        "title": "SOUTH AMERICA\nHIGH AND LOW LEGEND",
+        "rules": {
+          "default_good_marker": "green icon with '+' badge indicates a positive/high (or otherwise desirable) exemplar",
+          "default_bad_marker": "orange/red icon with '−' badge indicates a negative/low (or otherwise undesirable) exemplar",
+          "exception_notes": [
+            {
+              "stat_label": "Lowest Crime Rate",
+              "exception": "For crime, the 'good' exemplar is the lowest crime rate (low is good), so the green '+' corresponds to lower crime."
+            },
+            {
+              "stat_label": "Average Household Size",
+              "exception": "Household size uses color-coded icons (purple vs blue) without +/- badges; interpreted as largest vs smallest rather than good/bad."
+            }
+          ]
+        },
+        "icon_key": [
+          {
+            "stat_label": "Access To Clean Drinking Water",
+            "good_icon": "green water droplet (+)",
+            "bad_icon": "brown water droplet (−)"
+          },
+          {
+            "stat_label": "Average Caloric Intake",
+            "good_icon": "green plate (+)",
+            "bad_icon": "orange plate (−)"
+          },
+          {
+            "stat_label": "Lowest Crime Rate",
+            "good_icon": "green handcuffs (+)",
+            "bad_icon": "orange handcuffs (−)"
+          },
+          {
+            "stat_label": "Access To Healthcare",
+            "good_icon": "green heart (+)",
+            "bad_icon": "orange broken heart (−)"
+          },
+          {
+            "stat_label": "% Population Higher Education Degrees",
+            "good_icon": "green graduation cap (+)",
+            "bad_icon": "orange graduation cap (−)"
+          },
+          {
+            "stat_label": "Average Household Size",
+            "high_icon": "purple household icon",
+            "low_icon": "blue household icon"
+          },
+          {
+            "stat_label": "Volunteer/Community Service Participation",
+            "good_icon": "green community icon (+)",
+            "bad_icon": "orange person icon (−)"
+          },
+          {
+            "stat_label": "Employment Rates",
+            "good_icon": "green worker icon (+)",
+            "bad_icon": "orange unemployed icon (−)"
+          }
+        ]
+      },
+      "core_stats_on_map": [
+        {
+          "stat_id": "access_to_clean_drinking_water",
+          "label": "Access To Clean Drinking Water",
+          "source_statistic": "Access to Clean Drinking Water",
+          "maslow_layer": "Physiological",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Chile",
+              "value_text": "~99%",
+              "value_numeric": 99.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Uruguay",
+              "value_text": "~98%",
+              "value_numeric": 98.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Peru",
+              "value_text": "~89%",
+              "value_numeric": 89.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Bolivia",
+              "value_text": "~88%",
+              "value_numeric": 88.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "value_units": "%",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A5:D5"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest Access",
+            "lowest_label_in_table": "Lowest Access"
+          }
+        },
+        {
+          "stat_id": "average_caloric_intake",
+          "label": "Average Caloric Intake",
+          "source_statistic": "Average Daily Caloric Intake",
+          "maslow_layer": "Physiological",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Argentina",
+              "value_text": "~3,100 cal",
+              "value_numeric": 3100.0,
+              "comparator": "~",
+              "units": "cal"
+            },
+            {
+              "country": "Uruguay",
+              "value_text": "~3,050 cal",
+              "value_numeric": 3050.0,
+              "comparator": "~",
+              "units": "cal"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Bolivia",
+              "value_text": "~2,350 cal",
+              "value_numeric": 2350.0,
+              "comparator": "~",
+              "units": "cal"
+            },
+            {
+              "country": "Peru",
+              "value_text": "~2,500 cal",
+              "value_numeric": 2500.0,
+              "comparator": "~",
+              "units": "cal"
+            }
+          ],
+          "value_units": "cal",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A6:D6"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest Intake",
+            "lowest_label_in_table": "Lowest Intake"
+          }
+        },
+        {
+          "stat_id": "lowest_crime_rate",
+          "label": "Lowest Crime Rate",
+          "source_statistic": "Crime Rate (Low Crime = Safety)",
+          "maslow_layer": "Safety",
+          "directionality": {
+            "type": "lower_is_better",
+            "good_label": "Lowest",
+            "bad_label": "Highest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Chile"
+            },
+            {
+              "country": "Uruguay"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Venezuela",
+              "value_text": "high homicide"
+            },
+            {
+              "country": "Brazil",
+              "value_text": "urban gang activity"
+            }
+          ],
+          "value_units": null,
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A7:D7"
+          },
+          "notes": {
+            "highest_label_in_table": "Lowest Crime",
+            "lowest_label_in_table": "Highest Crime"
+          }
+        },
+        {
+          "stat_id": "access_to_healthcare",
+          "label": "Access To Healthcare",
+          "source_statistic": "% Population with Access to Healthcare",
+          "maslow_layer": "Safety",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Chile",
+              "value_text": "~95%",
+              "value_numeric": 95.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Uruguay",
+              "value_text": "~93%",
+              "value_numeric": 93.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Bolivia",
+              "value_text": "~70%",
+              "value_numeric": 70.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Paraguay",
+              "value_text": "~78%",
+              "value_numeric": 78.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "value_units": "%",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A8:D8"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest Access",
+            "lowest_label_in_table": "Lowest Access"
+          }
+        },
+        {
+          "stat_id": "population_higher_education_degrees",
+          "label": "% Population Higher Education Degrees",
+          "source_statistic": "% Population with Higher Education Degrees",
+          "maslow_layer": "Esteem",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Argentina",
+              "value_text": "~21%",
+              "value_numeric": 21.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Chile",
+              "value_text": "~19%",
+              "value_numeric": 19.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Bolivia",
+              "value_text": "<10%",
+              "value_numeric": 10.0,
+              "comparator": "<",
+              "units": "%"
+            },
+            {
+              "country": "Paraguay",
+              "value_text": "~12%",
+              "value_numeric": 12.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "value_units": "%",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A12:D12"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest",
+            "lowest_label_in_table": "Lowest"
+          }
+        },
+        {
+          "stat_id": "average_household_size",
+          "label": "Average Household Size",
+          "source_statistic": "Average Household Size",
+          "maslow_layer": "Love/Belonging",
+          "directionality": {
+            "type": "high_low_neutral",
+            "high_label": "Largest",
+            "low_label": "Smallest",
+            "legend_icon_colors": {
+              "high": "purple",
+              "low": "blue"
+            },
+            "notes": "Displayed as largest vs smallest household size, not explicitly good/bad on the legend (no +/- badges)."
+          },
+          "high_exemplars": [
+            {
+              "country": "Bolivia",
+              "value_text": "~4.6 persons",
+              "value_numeric": 4.6,
+              "comparator": "~",
+              "units": "persons"
+            },
+            {
+              "country": "Peru",
+              "value_text": "~4.3 persons",
+              "value_numeric": 4.3,
+              "comparator": "~",
+              "units": "persons"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Uruguay",
+              "value_text": "~2.8 persons",
+              "value_numeric": 2.8,
+              "comparator": "~",
+              "units": "persons"
+            },
+            {
+              "country": "Argentina",
+              "value_text": "~3.0 persons",
+              "value_numeric": 3.0,
+              "comparator": "~",
+              "units": "persons"
+            }
+          ],
+          "value_units": "persons",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A10:D10"
+          },
+          "notes": {
+            "highest_label_in_table": "Largest",
+            "lowest_label_in_table": "Smallest"
+          }
+        },
+        {
+          "stat_id": "volunteer_community_service_participation",
+          "label": "Volunteer/Community Service Participation",
+          "source_statistic": "Volunteer/Community Service Participation",
+          "maslow_layer": "Love/Belonging",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Chile",
+              "value_text": "~21%",
+              "value_numeric": 21.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Argentina",
+              "value_text": "~18%",
+              "value_numeric": 18.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Venezuela",
+              "value_text": "low formal rates"
+            },
+            {
+              "country": "Paraguay",
+              "value_text": "limited data"
+            }
+          ],
+          "value_units": "%",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A11:D11"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest Engagement",
+            "lowest_label_in_table": "Lowest Engagement"
+          }
+        },
+        {
+          "stat_id": "employment_rates",
+          "label": "Employment Rates",
+          "source_statistic": "Employment Rate (Economic Participation)",
+          "maslow_layer": "Safety/Esteem",
+          "directionality": {
+            "type": "higher_is_better",
+            "good_label": "Highest",
+            "bad_label": "Lowest"
+          },
+          "high_exemplars": [
+            {
+              "country": "Peru",
+              "value_text": "~70%",
+              "value_numeric": 70.0,
+              "comparator": "~",
+              "units": "%"
+            },
+            {
+              "country": "Chile",
+              "value_text": "~58%",
+              "value_numeric": 58.0,
+              "comparator": "~",
+              "units": "%"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Venezuela",
+              "value_text": ">35% unemployment",
+              "value_numeric": 35.0,
+              "comparator": ">",
+              "units": "%"
+            },
+            {
+              "country": "Suriname",
+              "value_text": "higher unemployment"
+            }
+          ],
+          "value_units": "%",
+          "source": {
+            "file": "South America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "cell_range": "A9:D9"
+          },
+          "notes": {
+            "highest_label_in_table": "Highest Rates",
+            "lowest_label_in_table": "Lowest Rates"
+          }
+        }
+      ],
+      "core_stats_available_not_displayed": [
+        {
+          "source_statistic": "Participation in Arts & Cultural Activities",
+          "maslow_layer": "Self-Actualization",
+          "highest_countries_values_raw": "Highest: Brazil (Carnival, rich musical traditions), Colombia (vibrant cultural scene)",
+          "lowest_countries_values_raw": "Lowest: Suriname, Guyana (limited formal participation, though tradition persists)",
+          "high_exemplars": [
+            {
+              "country": "Brazil",
+              "value_text": "Carnival, rich musical traditions"
+            },
+            {
+              "country": "Colombia",
+              "value_text": "vibrant cultural scene"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Suriname"
+            },
+            {
+              "country": "Guyana",
+              "value_text": "limited formal participation, though tradition persists"
+            }
+          ],
+          "notes": "Present in the XLSX 'Interesting Statistics' table but not shown in the proof poster's High/Low legend."
+        }
+      ],
+      "map_countries_visible": [
+        "Argentina",
+        "Bolivia",
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Guyana",
+        "Paraguay",
+        "Peru",
+        "Suriname",
+        "Uruguay",
+        "Venezuela",
+        "French Guiana (France)"
+      ],
+      "notes": "Core stats list derived from the proof legend; exemplars/values derived ONLY from the XLSX 'Interesting Statistics' table."
+    },
+    "featurettes": [
+      {
+        "featurette_id": "featurette_1_lithium_triangle",
+        "title": "Powering the Future—South America's Lithium Triangle",
+        "body_text": "High in the sun-baked deserts where Argentina, Bolivia, and Chile meet, pale salt flats\nsparkle like mirrors. Beneath these dazzling plains lies something precious—lithium, a\nmetal essential for the batteries that power our phones, cars, and even the future of clean\nenergy. This region, known as the “Lithium Triangle,” holds more than half of the world’s\nknown lithium reserves.\n\nAs electric vehicles and solar panels become common, the demand for lithium grows.\nMining it can bring jobs and prosperity to local communities, yet it also raises tough\nquestions. Extracting lithium uses lots of water and may affect nearby plants, animals,\nand indigenous peoples who have cared for this land for centuries. By working together—\ngovernments, businesses, and local communities—South America’s lithium-rich deserts\ncan help shape a cleaner, greener tomorrow, without losing the natural and cultural\ntreasures that make these places so special.",
+        "layout_slot_id": "slot_featurette_1_lithium",
+        "assets": [
+          {
+            "asset_id": "sa_f1_photo_salt_flats",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": 1.7777777777777777,
+            "description": "White salt flats under a bright blue sky (hero image for Lithium Triangle featurette).",
+            "hyperlinks": {
+              "final_url": "https://images.unsplash.com/photo-1567693528052-e213227086bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&w=1600",
+              "url_candidates": [
+                {
+                  "anchor_text": "salt flats",
+                  "url": "https://images.unsplash.com/photo-1567693528052-e213227086bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&w=1600",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[6]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f1_map_lithium_triangle",
+            "type": "map",
+            "role": "inset_map",
+            "aspect_ratio": 1.0,
+            "description": "Inset map highlighting the Lithium Triangle across Argentina, Bolivia, and Chile.",
+            "hyperlinks": {
+              "final_url": "https://www.ncronline.org/files/2024-01/webRNS-Lithium-Argentina4.jpg",
+              "url_candidates": [
+                {
+                  "anchor_text": "Lithium",
+                  "url": "https://www.ncronline.org/files/2024-01/webRNS-Lithium-Argentina4.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[5]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f1_diagram_lithium_extraction",
+            "type": "chart",
+            "role": "process_diagram",
+            "aspect_ratio": 3.0,
+            "description": "Diagram showing lithium extraction from brine: extraction, pumping, solar evaporation ponds, and lithium carbonate plant.",
+            "hyperlinks": {
+              "final_url": "https://www.innovationnewsnetwork.com/wp-content/uploads/2023/05/Fig-1-Water-Evaporation-e1684396442219.jpg",
+              "url_candidates": [
+                {
+                  "anchor_text": "lithium",
+                  "url": "https://www.innovationnewsnetwork.com/wp-content/uploads/2023/05/Fig-1-Water-Evaporation-e1684396442219.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[7]"
+                }
+              ]
+            },
+            "chart_spec": {
+              "chart_type": "process_flow_diagram",
+              "layout_notes": "Left-to-right flow with icons and labeled steps (extraction of brine → pumping → evaporation ponds → processing plant).",
+              "data_table": null,
+              "iconization_rules": null
+            }
+          }
+        ],
+        "data_source_links": [],
+        "notes": "Body text and title transcribed from the proof poster."
+      },
+      {
+        "featurette_id": "featurette_2_languages",
+        "title": "One Continent, Two Languages—\nSpanish and Portuguese in\nSouth America",
+        "body_text": "If you look at a map of South America, you’ll find most countries\nspeaking Spanish, while Brazil—the largest country—speaks Portuguese. This language\ndivide began centuries ago when Spain and Portugal carved up new lands during the Age\nof Exploration. A special line called the Treaty of Tordesillas gave Portugal control of what\nis now Brazil, and Spain colonized much of the rest.\n\nAs a result, flavors of language, music, and dance flowed into these lands, mixing with the\nvoices of indigenous peoples who have lived here for thousands of years. Today, from\nsamba in Brazil to tango in Argentina, these traditions blend European words and rhythms\nwith native sounds and stories. While Spanish and Portuguese dominate, hundreds of\nIndigenous languages still echo through rainforests and mountain villages, reminding us\nthat South America’s true beauty lies in its rich tapestry of voices.",
+        "layout_slot_id": "slot_featurette_2_languages",
+        "assets": [
+          {
+            "asset_id": "sa_f2_map_spanish_portuguese",
+            "type": "map",
+            "role": "supporting_map",
+            "aspect_ratio": 1.6,
+            "description": "Map showing where Spanish and Portuguese are spoken (Romance languages distribution reference).",
+            "hyperlinks": {
+              "final_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map-Romance_Latin_America.svg/819px-Map-Romance_Latin_America.svg.png",
+              "url_candidates": [
+                {
+                  "anchor_text": "Spanish",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map-Romance_Latin_America.svg/819px-Map-Romance_Latin_America.svg.png",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[14]"
+                },
+                {
+                  "anchor_text": "spoken",
+                  "url": "https://i.redd.it/ftpmo23434871.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[14]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f2_photo_carnival_dancers",
+            "type": "photo",
+            "role": "culture_photo",
+            "aspect_ratio": 1.3333333333333333,
+            "description": "Brazilian Carnival dancers (Portuguese-speaking cultural example).",
+            "hyperlinks": {
+              "final_url": "https://www.sambazon.ae/cdn/shop/articles/blog-header-carnival.jpg?v=1695165015",
+              "url_candidates": [
+                {
+                  "anchor_text": "dancers",
+                  "url": "https://www.sambazon.ae/cdn/shop/articles/blog-header-carnival.jpg?v=1695165015",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[15]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f2_photo_tango_performers",
+            "type": "photo",
+            "role": "optional_culture_photo",
+            "aspect_ratio": 1.3333333333333333,
+            "description": "Argentine tango performers (Spanish-speaking cultural example). Not visibly used on the proof poster, but included as a linked option in the Featurettes.docx.",
+            "hyperlinks": {
+              "final_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/96/6a/2a.jpg",
+              "url_candidates": [
+                {
+                  "anchor_text": "tango",
+                  "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/96/6a/2a.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[15]"
+                }
+              ]
+            },
+            "status": "not_on_proof_poster"
+          },
+          {
+            "asset_id": "sa_f2_illustration_romance_language_tree",
+            "type": "chart",
+            "role": "illustration",
+            "aspect_ratio": 1.0,
+            "description": "Illustration: Romance languages family tree with Spanish and Portuguese as close relatives.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            },
+            "chart_spec": {
+              "chart_type": "illustrated_tree",
+              "layout_notes": "Tree graphic titled 'ROMANCE LANGUAGES' with labeled branches (e.g., Italian, Spanish, Portuguese, French, Vulgar Latin).",
+              "data_table": null,
+              "iconization_rules": null
+            },
+            "notes": "No explicit source URL found in provided docs for the tree illustration."
+          }
+        ],
+        "data_source_links": [],
+        "notes": "Body text and title transcribed from the proof poster."
+      },
+      {
+        "featurette_id": "featurette_3_food_trade",
+        "title": "Feeding the World\n—South America’s Role\nin Global Food Trade",
+        "body_text": "Have you ever tasted fresh grapes in winter, or savored coffee from\nfar-off fields? South America is a food powerhouse, shipping fruits,\ngrains, and coffee beans across oceans so that people everywhere\ncan enjoy them all year long. Brazil’s coffee might end up in your\nmorning cup, Chilean grapes could sweeten your afternoon snack, and\nEcuadorian bananas may appear in your fruit bowl—even if it’s snowy outside your window.\n\nThis global trade supports farmers, builds roads and ports, and brings\ndistant cultures closer together. But it also comes with challenges. Clearing\nforests for farmland may harm wildlife, and shipping food around the globe\nadds pollution. As more people demand these tasty treats, farmers, traders,\nand governments must find ways to grow crops sustainably, protect the\nenvironment, and ensure fair treatment for the hands that plant, harvest,\nand deliver our food tracing food from field to store.",
+        "layout_slot_id": "slot_featurette_3_food_trade",
+        "assets": [
+          {
+            "asset_id": "sa_f3_photo_coffee_farm",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": 1.7777777777777777,
+            "description": "Rows of coffee plants on a hillside farm (used as header photo for Food Trade featurette).",
+            "hyperlinks": {
+              "final_url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/4ecb86cbc87f3f9504fffa1b94cf931693e4ab89/big-c3535b4050c2d49f330b0fd0b5b41cba.jpg",
+              "url_candidates": [
+                {
+                  "anchor_text": "coffee pants",
+                  "url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/4ecb86cbc87f3f9504fffa1b94cf931693e4ab89/big-c3535b4050c2d49f330b0fd0b5b41cba.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[22]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f3_map_export_crops",
+            "type": "map",
+            "role": "inset_map",
+            "aspect_ratio": 1.0,
+            "description": "Map showing major export crops by country with labeled callouts (e.g., COCOA, BANANAS, CORN, YERBA MATE, ORANGES, SUGARCANE, GRAPES).",
+            "hyperlinks": {
+              "final_url": "https://docs.google.com/spreadsheets/u/0/d/15W3crm3GgLBIMNbs7XPXxQvJFh0TmElZreLDlaeLCdM/edit",
+              "url_candidates": [
+                {
+                  "anchor_text": "Map:",
+                  "url": "https://docs.google.com/spreadsheets/u/0/d/15W3crm3GgLBIMNbs7XPXxQvJFh0TmElZreLDlaeLCdM/edit",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[21]"
+                },
+                {
+                  "anchor_text": "Showing major export crops",
+                  "url": "https://docs.google.com/spreadsheets/u/0/d/15W3crm3GgLBIMNbs7XPXxQvJFh0TmElZreLDlaeLCdM/edit",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[21]"
+                }
+              ]
+            },
+            "chart_spec": {
+              "chart_type": "labeled_thematic_map",
+              "data_table": {
+                "source": {
+                  "file": "South America Cultural Domain.xlsx",
+                  "sheet": "Featurettes",
+                  "cell_range": "A3:B14",
+                  "description": "Per-country 'Major Agricultural Export' table"
+                },
+                "rows": [
+                  {
+                    "country": "Argentina",
+                    "major_agricultural_export": "Soybean products (meal, oil)"
+                  },
+                  {
+                    "country": "Bolivia",
+                    "major_agricultural_export": "Soybeans and soybean derivatives"
+                  },
+                  {
+                    "country": "Brazil",
+                    "major_agricultural_export": "Soybeans"
+                  },
+                  {
+                    "country": "Chile",
+                    "major_agricultural_export": "Fresh fruit (notably table grapes)"
+                  },
+                  {
+                    "country": "Colombia",
+                    "major_agricultural_export": "Coffee"
+                  },
+                  {
+                    "country": "Ecuador",
+                    "major_agricultural_export": "Bananas"
+                  },
+                  {
+                    "country": "Guyana",
+                    "major_agricultural_export": "Sugar"
+                  },
+                  {
+                    "country": "Paraguay",
+                    "major_agricultural_export": "Soybeans"
+                  },
+                  {
+                    "country": "Peru",
+                    "major_agricultural_export": "Table grapes (also avocados, blueberries)"
+                  },
+                  {
+                    "country": "Suriname",
+                    "major_agricultural_export": "Rice"
+                  },
+                  {
+                    "country": "Uruguay",
+                    "major_agricultural_export": "Beef"
+                  }
+                ]
+              },
+              "layout_notes": "Small South America silhouette with crop icons and label tags placed near producing countries.",
+              "iconization_rules": "One primary crop label per country (callout)."
+            }
+          },
+          {
+            "asset_id": "sa_f3_infographic_farm_to_table",
+            "type": "chart",
+            "role": "process_infographic",
+            "aspect_ratio": 0.4,
+            "description": "Vertical 'FARM-TO-TABLE' flowchart: FIELD → TABLE with simple icons.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            },
+            "chart_spec": {
+              "chart_type": "vertical_process_flow",
+              "layout_notes": "Stacked icons and labels aligned vertically, left of the featurette body text.",
+              "data_table": null,
+              "iconization_rules": null
+            }
+          }
+        ],
+        "data_source_links": [],
+        "notes": "Body text and title transcribed from the proof poster."
+      },
+      {
+        "featurette_id": "featurette_4_tourism",
+        "title": "Tourism\nTransforming Communities\n—The Impact of Visitors",
+        "body_text": "From the ancient stone city of Machu Picchu perched high in Peru’s\nAndes to the thundering falls of Iguazu, South America’s wonders\ndraw travelers from all over the world. These visitors bring money,\nhelping pay for schools, hospitals, and better roads. They also learn\nabout local traditions, celebrating colorful festivals and tasting foods\nthat reflect centuries of culture.\n\nBut tourism can also bring problems. Too many people can wear\ndown fragile ruins, disturb wildlife, or fill quiet towns with\ntraffic and trash. Local residents must find a balance—welcoming\nguests while preserving the natural and cultural treasures that\nmade these places special in the first place. By choosing\nsustainable tours, respecting local rules, and listening to the\nvoices of community leaders, visitors can help ensure that\ntourism helps rather than harms, leaving a legacy that future\ngenerations can enjoy.",
+        "layout_slot_id": "slot_featurette_4_tourism",
+        "assets": [
+          {
+            "asset_id": "sa_f4_photo_machu_picchu",
+            "type": "photo",
+            "role": "header_photo",
+            "aspect_ratio": 1.7777777777777777,
+            "description": "Machu Picchu’s terraces against a mountainous backdrop (hero image).",
+            "hyperlinks": {
+              "final_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+              "url_candidates": [
+                {
+                  "anchor_text": "Machu",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[28]"
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "sa_f4_photo_tourist_town",
+            "type": "photo",
+            "role": "supporting_photo",
+            "aspect_ratio": 1.7777777777777777,
+            "description": "Busy marketplace / tourist town scene (supporting image).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "busy",
+                  "url": "https://www.incatrailmachu.com/img/how-to-get-to-aguas-calientes-06-1066.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[29]"
+                },
+                {
+                  "anchor_text": "marketplace",
+                  "url": "https://landlopers.com/wp-content/uploads/2015/07/Aguas-Calientes-Peru.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[29]"
+                },
+                {
+                  "anchor_text": "tourist",
+                  "url": "https://www.packing-up-the-pieces.com/wp-content/uploads/2020/06/RailTracks_Aguas_Calientes.jpg",
+                  "source_file": "South America Featurettes.docx",
+                  "location": "body.paragraph[29]"
+                }
+              ]
+            },
+            "notes": "Multiple linked photo options are provided in the Featurettes.docx for this single line item."
+          },
+          {
+            "asset_id": "sa_f4_infographic_tourism_investment",
+            "type": "chart",
+            "role": "impact_flow_infographic",
+            "aspect_ratio": 0.8,
+            "description": "Infographic showing tourism revenue from visitors flowing into investment in communities (education, healthcare, infrastructure).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            },
+            "chart_spec": {
+              "chart_type": "icon_flow",
+              "layout_notes": "Right-column vertical flow: TOURISM (suitcase) → REVENUE FROM VISITORS → INVESTMENT IN COMMUNITIES branching to EDUCATION / HEALTHCARE / INFRASTRUCTURE.",
+              "data_table": null,
+              "iconization_rules": "Icons with arrows; no numeric values shown in proof."
+            }
+          }
+        ],
+        "data_source_links": [],
+        "notes": "Body text and title transcribed from the proof poster."
+      }
+    ],
+    "hyperlinks": {
+      "photo_links": [
+        {
+          "anchor_text": "Lithium",
+          "url": "https://www.ncronline.org/files/2024-01/webRNS-Lithium-Argentina4.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[5]"
+        },
+        {
+          "anchor_text": "salt flats",
+          "url": "https://images.unsplash.com/photo-1567693528052-e213227086bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&w=1600",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[6]"
+        },
+        {
+          "anchor_text": "lithium",
+          "url": "https://www.innovationnewsnetwork.com/wp-content/uploads/2023/05/Fig-1-Water-Evaporation-e1684396442219.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[7]"
+        },
+        {
+          "anchor_text": "Spanish",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Map-Romance_Latin_America.svg/819px-Map-Romance_Latin_America.svg.png",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[14]"
+        },
+        {
+          "anchor_text": "spoken",
+          "url": "https://i.redd.it/ftpmo23434871.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[14]"
+        },
+        {
+          "anchor_text": "dancers",
+          "url": "https://www.sambazon.ae/cdn/shop/articles/blog-header-carnival.jpg?v=1695165015",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[15]"
+        },
+        {
+          "anchor_text": "tango",
+          "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/96/6a/2a.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[15]"
+        },
+        {
+          "anchor_text": "coffee pants",
+          "url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/4ecb86cbc87f3f9504fffa1b94cf931693e4ab89/big-c3535b4050c2d49f330b0fd0b5b41cba.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[22]"
+        },
+        {
+          "anchor_text": "Machu",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[28]"
+        },
+        {
+          "anchor_text": "busy",
+          "url": "https://www.incatrailmachu.com/img/how-to-get-to-aguas-calientes-06-1066.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[29]"
+        },
+        {
+          "anchor_text": "marketplace",
+          "url": "https://landlopers.com/wp-content/uploads/2015/07/Aguas-Calientes-Peru.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[29]"
+        },
+        {
+          "anchor_text": "tourist",
+          "url": "https://www.packing-up-the-pieces.com/wp-content/uploads/2020/06/RailTracks_Aguas_Calientes.jpg",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[29]"
+        }
+      ],
+      "data_links": [
+        {
+          "anchor_text": "Map:",
+          "url": "https://docs.google.com/spreadsheets/u/0/d/15W3crm3GgLBIMNbs7XPXxQvJFh0TmElZreLDlaeLCdM/edit",
+          "source_file": "South America Featurettes.docx",
+          "location": "body.paragraph[21]"
+        }
+      ],
+      "reference_links": []
+    },
+    "supplemental_stats_for_app": [
+      {
+        "stat_id": "glacial_water_dependency",
+        "title": "Glacial Water Dependency",
+        "maslow_layer": "Physiological (Water)",
+        "description": "Andean countries depend on glacial meltwater for freshwater supply, making them vulnerable to glacial retreat driven by climate change.",
+        "example_countries": [
+          "Peru",
+          "Bolivia"
+        ],
+        "source": {
+          "file": "South America Stats.docx"
+        },
+        "relevance": [
+          "clean_drinking_water",
+          "lithium_triangle_water_use",
+          "climate_change_resilience"
+        ]
+      },
+      {
+        "stat_id": "beef_consumption_argentina",
+        "title": "Beef Consumption",
+        "maslow_layer": "Physiological (Food)",
+        "description": "Argentina is among the highest per-capita beef consumers globally (≈55 kg per person annually), reflecting cultural importance of beef in the diet.",
+        "example_countries": [
+          "Argentina"
+        ],
+        "source": {
+          "file": "South America Stats.docx"
+        },
+        "relevance": [
+          "average_caloric_intake",
+          "food_trade"
+        ]
+      },
+      {
+        "stat_id": "amazon_deforestation_brazil",
+        "title": "Amazon Rainforest Deforestation",
+        "maslow_layer": "Safety (Environmental)",
+        "description": "Brazil has significant deforestation pressures in the Amazon, affecting environmental safety, Indigenous communities, and global climate.",
+        "example_countries": [
+          "Brazil"
+        ],
+        "source": {
+          "file": "South America Stats.docx"
+        },
+        "relevance": [
+          "food_trade_sustainability",
+          "biodiversity",
+          "climate_change"
+        ]
+      }
+    ],
+    "validation_and_todos": [
+      {
+        "severity": "warning",
+        "issue": "French Guiana appears on the proof map but is not included in the XLSX 'stats color scheme' palette or the per-country export table.",
+        "todo": "Confirm whether French Guiana should be included in the dataset; if yes, add it to the XLSX tables with an official color and export entry (or explicitly mark as 'territory')."
+      },
+      {
+        "severity": "warning",
+        "issue": "The XLSX 'Interesting Statistics' table contains a 9th core stat ('Participation in Arts & Cultural Activities') that does not appear in the proof legend.",
+        "todo": "Decide whether to add this stat to the map legend (and potentially map markers) or treat it as app-only."
+      },
+      {
+        "severity": "todo",
+        "issue": "Several proof-poster visuals have no source URLs in the provided docs (e.g., Romance languages tree illustration, farm-to-table icon set, tourism investment infographic, small tourism street photo).",
+        "todo": "Provide source links or original design asset files for these elements."
+      },
+      {
+        "severity": "todo",
+        "issue": "No authoritative data-source links (WHO/UN/FAO/World Bank, etc.) were provided for the core stats values.",
+        "todo": "Add data source URLs for each core stat metric for downstream verification and citations."
+      },
+      {
+        "severity": "todo",
+        "issue": "Physical print dimensions (inches/cm) are not specified in the provided files.",
+        "todo": "Confirm final print size (e.g., 24x16, 36x24) and bleed/safe-area specs."
+      }
+    ],
+    "provenance": {
+      "files_used": [
+        {
+          "file": "Volume_AtlasTrail_Cultural_StatsFeatures_SouthAmerica_05092025.png",
+          "role": "proof_poster_image",
+          "path": "/mnt/data/Volume_AtlasTrail_Cultural_StatsFeatures_SouthAmerica_05092025.png"
+        },
+        {
+          "file": "sa sf concept.jpg",
+          "role": "alternate_maximal_concept_image",
+          "path": "/mnt/data/sa sf concept.jpg"
+        },
+        {
+          "file": "South America Cultural Domain.xlsx",
+          "role": "data_source_for_core_stats_palette_and_exports",
+          "path": "/mnt/data/South America Cultural Domain.xlsx"
+        },
+        {
+          "file": "South America Featurettes.docx",
+          "role": "featurette_source_copy_and_hyperlinks",
+          "path": "/mnt/data/South America Featurettes.docx"
+        },
+        {
+          "file": "South America Stats.docx",
+          "role": "supplemental_stats_source",
+          "path": "/mnt/data/South America Stats.docx"
+        }
+      ],
+      "generated_at": "2025-12-30T20:08:06.809870",
+      "notes": [
+        "Featurette titles/body text were transcribed from the proof poster image; docx copy was used primarily for hyperlink extraction and asset sourcing.",
+        "Core stat exemplars were extracted ONLY from the 'Interesting Statistics' table in the XLSX, then matched to the stats listed on the proof legend."
+      ]
+    }
+  }
+}

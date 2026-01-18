@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:23Z</normalized_at>
+    <input_relpath>cultural/character narratives/NorthAmerica_DayInTheLife.poster.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__character_narratives__north_america__northamerica_dayinthelife_poster</poster_id>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" ?>
+<KaycliffAtlasTrailPoster schema="kaycliff.atlastrail.poster.v1" generatedUtc="2025-12-29T14:39:10+00:00">
+  <Poster id="NA_DAY_IN_LIFE" continent="North America" type="day_in_the_life">
+    <DisplayTitle>A Day In The Life.</DisplayTitle>
+    <ThemeTitle>Paths of Land &amp; Heart</ThemeTitle>
+    <Size width="96.0" height="60.0" orientation="landscape"/>
+    <LayoutTemplate name="DayInTheLife_v1" units="in">
+      <Notes>Layout based on the Africa_ADayInTheLife.jpg draft (layout only; character content populated from new_prompts.xlsx + North America.docx).</Notes>
+      <Margins left="1.0" right="1.0" top="1.0" bottom="1.0"/>
+      <Header x="1.5" y="0.8" w="55.0" h="4.8" style="Title_Script">
+        <TitleText>A Day In The Life.</TitleText>
+        <Notes>Handwritten/script title at top-left over a muted world-map background.</Notes>
+      </Header>
+      <Content yStart="6.5" rowGap="0.5" rows="3">
+        <LeftInfoPanel w="22.0" innerPadding="0.6"/>
+        <Grid columns="6" colGap="1.0" imageSize="11.0" captionHeight="4.5" captionStyle="Caption_Sans_Small" imageStyle="Image_With_Thin_White_Border"/>
+        <GridNotes>Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption.</GridNotes>
+      </Content>
+    </LayoutTemplate>
+    <SourceFiles>
+      <Captions file="new_prompts.xlsx" sheet="NA" columnUsed="Option B – 1st Person" path="/mnt/data/new_prompts.xlsx"/>
+      <PromptsAndImageLinks file="North America.docx" path="/mnt/data/North America.docx"/>
+      <ResearchKeywords file="character narratives.docx" path="/mnt/data/character narratives.docx"/>
+    </SourceFiles>
+    <Characters>
+      <Character id="NA_AIYANA" name="Aiyana" country="United States" roleOrCulture="Navajo Nation Teen" flagEmoji="🇺🇸" flagIso2="US">
+        <Label>
+          <Headline>Aiyana</Headline>
+          <Subhead>A Navajo Girl in the Navajo Nation, USA</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Aiyana is a 14-year-old Navajo girl in Arizona. Navajo culture emphasizes family, respect for elders, traditions such as smudging ceremonies, and strong community ties.</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Sunrise colors the rocks. I lift burning sage and feel its sweet smoke carry my words to the sky.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S01" recommendedFilename="NA_AIYANA_S01.png" source="North America.docx" altText="Aiyana: Navajo Nation desert at dawn, sandstone mesas and sagebrush (United States)." url="https://cdn.midjourney.com/e8a97c0c-2f8e-41f8-8247-cf3bbd3df7c0/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 1: Navajo Nation desert at dawn, sandstone mesas and sagebrush; early teen Navajo student performing a smudging ritual with a sage bundle, a small hogan behind; medium framing; eye‑line looking to the glowing horizon with calm resolve; clear cultural anchors: sage bundle (gentle aromatic haze), woven shawl, cedar chips in a clay bowl; environmental cues: cool pre‑sunrise light, long mesa shadows; motion cues: thin aromatic haze curling on the breeze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/250 s; lighting: soft dawn sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo girl smudging ceremony</Keyword>
+                <Keyword>Sage bundle burning ritual</Keyword>
+                <Keyword>Morning light Arizona desert</Keyword>
+                <Keyword>Native American spiritual practices</Keyword>
+                <Keyword>Navajo girl sunrise ritual</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 1: Navajo Nation desert at dawn, sandstone mesas and sagebrush; early teen Navajo student performing a smudging ritual with a sage bundle, a small hogan behind; medium framing; eye‑line looking to the glowing horizon with calm resolve; clear cultural anchors: sage bundle (gentle aromatic haze), woven shawl, cedar chips in a clay bowl; environmental cues: cool pre‑sunrise light, long mesa shadows; motion cues: thin aromatic haze curling on the breeze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/250 s; lighting: soft dawn sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e8a97c0c-2f8e-41f8-8247-cf3bbd3df7c0/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 1: Navajo Nation desert at dawn, sandstone mesas and sagebrush; early teen Navajo student performing a smudging ritual with a sage bundle, a small hogan behind; medium framing; eye‑line looking to the glowing horizon with calm resolve; clear cultural anchors: sage bundle (gentle aromatic haze), woven shawl, cedar chips in a clay bowl; environmental cues: cool pre‑sunrise light, long mesa shadows; motion cues: thin aromatic haze curling on the breeze; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/250 s; lighting: soft dawn sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I rise to speak. My hands shake then steady as I share how cactus roots store precious water.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S02" recommendedFilename="NA_AIYANA_S02.png" source="North America.docx" altText="Aiyana: Reservation classroom with posters and a cactus root cross‑section diagram (United States)." url="https://cdn.midjourney.com/49917e08-91ee-4794-8edf-8578e787159b/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 2: Reservation classroom with posters and a cactus root cross‑section diagram; early teen Navajo student presenting to classmates; medium‑wide framing; eye‑line looking toward a seated teacher off‑camera with steady pride; clear cultural anchors: poster showing desert plants, clay model of cactus roots, spiral notebook; environmental cues: indoor fluorescent fill, window light striping desks; motion cues: paper edges flutter lightly from a box fan; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: mixed window + overhead, gentle bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo girl herding sheep</Keyword>
+                <Keyword>Sheep grazing Arizona desert</Keyword>
+                <Keyword>Navajo sheep herding traditional</Keyword>
+                <Keyword>Dry desert landscape with livestock</Keyword>
+                <Keyword>Young shepherd girl Native American</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 2: Reservation classroom with posters and a cactus root cross‑section diagram; early teen Navajo student presenting to classmates; medium‑wide framing; eye‑line looking toward a seated teacher off‑camera with steady pride; clear cultural anchors: poster showing desert plants, clay model of cactus roots, spiral notebook; environmental cues: indoor fluorescent fill, window light striping desks; motion cues: paper edges flutter lightly from a box fan; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: mixed window + overhead, gentle bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/49917e08-91ee-4794-8edf-8578e787159b/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 2: Reservation classroom with posters and a cactus root cross‑section diagram; early teen Navajo student presenting to classmates; medium‑wide framing; eye‑line looking toward a seated teacher off‑camera with steady pride; clear cultural anchors: poster showing desert plants, clay model of cactus roots, spiral notebook; environmental cues: indoor fluorescent fill, window light striping desks; motion cues: paper edges flutter lightly from a box fan; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/200 s; lighting: mixed window + overhead, gentle bounce; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>We spread graph paper on the picnic table. I imagine rows of corn bending in a future breeze.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S03" recommendedFilename="NA_AIYANA_S03.png" source="North America.docx" altText="Aiyana: Picnic table under cottonwoods beside red soil beds (United States)." url="https://cdn.midjourney.com/faf2822c-939e-49d3-b9d0-3d03021419bf/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 3: Picnic table under cottonwoods beside red soil beds; early teen Navajo student with club friends sketching a community garden; medium framing; eye‑line looking down the future rows off‑camera with hopeful focus; clear cultural anchors: graph paper plans, seed packets (corn, beans, squash), water jugs; environmental cues: midday shade, dappled leaves, dry breeze; motion cues: pencil shavings drift as pages turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade, bright background rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo students classroom</Keyword>
+                <Keyword>Rural school Native American</Keyword>
+                <Keyword>Chalkboard and desks in reservation school</Keyword>
+                <Keyword>Native American children learning</Keyword>
+                <Keyword>Navajo girl school uniform</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 3: Picnic table under cottonwoods beside red soil beds; early teen Navajo student with club friends sketching a community garden; medium framing; eye‑line looking down the future rows off‑camera with hopeful focus; clear cultural anchors: graph paper plans, seed packets (corn, beans, squash), water jugs; environmental cues: midday shade, dappled leaves, dry breeze; motion cues: pencil shavings drift as pages turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade, bright background rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/faf2822c-939e-49d3-b9d0-3d03021419bf/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 3: Picnic table under cottonwoods beside red soil beds; early teen Navajo student with club friends sketching a community garden; medium framing; eye‑line looking down the future rows off‑camera with hopeful focus; clear cultural anchors: graph paper plans, seed packets (corn, beans, squash), water jugs; environmental cues: midday shade, dappled leaves, dry breeze; motion cues: pencil shavings drift as pages turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade, bright background rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Dust swirls around our boots. Grandma’s quiet song keeps the flock calm and teaches me patience.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S04" recommendedFilename="NA_AIYANA_S04.png" source="North America.docx" altText="Aiyana: High desert path with sagebrush (United States)." url="https://cdn.midjourney.com/30f2f777-0f94-4a3f-8a91-023c5ef91ccf/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 4: High desert path with sagebrush; early teen Navajo student guiding a small flock as an elder relative keeps pace nearby; medium‑wide framing; eye‑line looking toward the distant grazing patch with attentive calm; clear cultural anchors: wooden crook, woven sash belt, wool‑flecked canvas bag; environmental cues: dusty afternoon sun, heat shimmer; motion cues: dust motes lifting around hooves; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: bright hard sun with slight fill from pale ground; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo weaving traditional loom</Keyword>
+                <Keyword>Woman teaching girl Navajo weaving</Keyword>
+                <Keyword>Wool spinning Native American crafts</Keyword>
+                <Keyword>Family crafting together Navajo Nation</Keyword>
+                <Keyword>Navajo rug patterns traditional</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 4: High desert path with sagebrush; early teen Navajo student guiding a small flock as an elder relative keeps pace nearby; medium‑wide framing; eye‑line looking toward the distant grazing patch with attentive calm; clear cultural anchors: wooden crook, woven sash belt, wool‑flecked canvas bag; environmental cues: dusty afternoon sun, heat shimmer; motion cues: dust motes lifting around hooves; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: bright hard sun with slight fill from pale ground; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/30f2f777-0f94-4a3f-8a91-023c5ef91ccf/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 4: High desert path with sagebrush; early teen Navajo student guiding a small flock as an elder relative keeps pace nearby; medium‑wide framing; eye‑line looking toward the distant grazing patch with attentive calm; clear cultural anchors: wooden crook, woven sash belt, wool‑flecked canvas bag; environmental cues: dusty afternoon sun, heat shimmer; motion cues: dust motes lifting around hooves; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: bright hard sun with slight fill from pale ground; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I spin fast. My shawl flutters like a butterfly and my heart races with pure joy.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S05" recommendedFilename="NA_AIYANA_S05.png" source="North America.docx" altText="Aiyana: Community space with drum group at the edge (United States)." url="https://cdn.midjourney.com/5db07b0a-0ce3-408f-9563-40b6f1832260/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 5: Community space with drum group at the edge; early teen Navajo student practicing Fancy Shawl steps in modest traditional regalia; medium framing; eye‑line looking past camera toward the lead drummer with joyful focus; clear cultural anchors: ribboned shawl, beadwork earrings, drum and fan; environmental cues: golden‑hour glow, canyon wall in soft focus; motion cues: ribbons flutter, dust sparks in the light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/400 s; lighting: warm sidelight, gentle back rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo pow wow dancer</Keyword>
+                <Keyword>Native American girl traditional regalia</Keyword>
+                <Keyword>Pow wow crowd celebration</Keyword>
+                <Keyword>Navajo beadwork and feathers</Keyword>
+                <Keyword>Outdoor cultural dance Navajo Nation</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 5: Community space with drum group at the edge; early teen Navajo student practicing Fancy Shawl steps in modest traditional regalia; medium framing; eye‑line looking past camera toward the lead drummer with joyful focus; clear cultural anchors: ribboned shawl, beadwork earrings, drum and fan; environmental cues: golden‑hour glow, canyon wall in soft focus; motion cues: ribbons flutter, dust sparks in the light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/400 s; lighting: warm sidelight, gentle back rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/5db07b0a-0ce3-408f-9563-40b6f1832260/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Community space with drum group at the edge; early teen Navajo student practicing Fancy Shawl steps in modest traditional regalia; medium framing; eye‑line looking past camera toward the lead drummer with joyful focus; clear cultural anchors: ribboned shawl, beadwork earrings, drum and fan; environmental cues: golden‑hour glow, canyon wall in soft focus; motion cues: ribbons flutter, dust sparks in the light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/400 s; lighting: warm sidelight, gentle back rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Sparks rise into black sky. I listen to old tales and feel their strength settle inside me.</CaptionFirstPerson>
+            <Image assetId="NA_AIYANA_S06" recommendedFilename="NA_AIYANA_S06.png" source="North America.docx" altText="Aiyana: Family circle by a low, cool cedar fire (United States)." url="https://cdn.midjourney.com/3b59d8ae-200b-43c7-be2b-2be9b74ab1b0/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 6: Family circle by a low, cool cedar fire; early teen Navajo student listening as elders share stories, blue corn bread on a tin plate; medium framing; eye‑line looking toward the storyteller off‑camera with quiet wonder; clear cultural anchors: blue corn bread, cedar embers, woven blanket; environmental cues: starry desert night, cold breath visible; motion cues: tiny sparks rising and fading; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/125 s; lighting: firelight key with soft reflector fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Navajo family stargazing</Keyword>
+                <Keyword>Arizona night sky desert</Keyword>
+                <Keyword>Hogan at night under stars</Keyword>
+                <Keyword>Family around campfire Native American</Keyword>
+                <Keyword>Traditional storytelling starlit setting</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 6: Family circle by a low, cool cedar fire; early teen Navajo student listening as elders share stories, blue corn bread on a tin plate; medium framing; eye‑line looking toward the storyteller off‑camera with quiet wonder; clear cultural anchors: blue corn bread, cedar embers, woven blanket; environmental cues: starry desert night, cold breath visible; motion cues: tiny sparks rising and fading; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/125 s; lighting: firelight key with soft reflector fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/3b59d8ae-200b-43c7-be2b-2be9b74ab1b0/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/90b5f074-d756-4be7-b16e-c89b3b55d282/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 6: Family circle by a low, cool cedar fire; early teen Navajo student listening as elders share stories, blue corn bread on a tin plate; medium framing; eye‑line looking toward the storyteller off‑camera with quiet wonder; clear cultural anchors: blue corn bread, cedar embers, woven blanket; environmental cues: starry desert night, cold breath visible; motion cues: tiny sparks rising and fading; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/125 s; lighting: firelight key with soft reflector fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+      <Character id="NA_MATEO" name="Mateo" country="Guatemala" roleOrCulture="Guatemalan Highland Coffee Farmer" flagEmoji="🇬🇹" flagIso2="GT">
+        <Label>
+          <Headline>Mateo</Headline>
+          <Subhead>A Coffee Farmer in the Guatemalan Highlands</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Mateo is a 40-year-old coffee farmer in the Guatemalan highlands. The local culture involves family-based agriculture (coffee being a major export), community markets, and traditional foods (like tamales).</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Cool air fills my lungs. I drop red cherries into the basket and thank the trees for their gift.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S01" recommendedFilename="NA_MATEO_S01.png" source="North America.docx" altText="Mateo: Misty highland coffee rows at first light (Guatemala)." url="https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 1: Misty highland coffee rows at first light; Guatemalan coffee farmer picking red cherries into a woven basket; medium‑wide framing; eye‑line looking toward the slope break above the next row with content focus; clear cultural anchors: woven carry‑basket, shade trees, volcanic soil; environmental cues: breath mist, dew on leaves; motion cues: cherries dropping softly into the basket; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 400, 1/320 s; lighting: cool dawn backlight with gentle fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Coffee farmer harvesting cherries</Keyword>
+                <Keyword>Guatemalan highlands sunrise</Keyword>
+                <Keyword>Traditional coffee basket Guatemala</Keyword>
+                <Keyword>Farmer inspecting coffee plants</Keyword>
+                <Keyword>Misty morning coffee fields Guatemala</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 1: Misty highland coffee rows at first light; Guatemalan coffee farmer picking red cherries into a woven basket; medium‑wide framing; eye‑line looking toward the slope break above the next row with content focus; clear cultural anchors: woven carry‑basket, shade trees, volcanic soil; environmental cues: breath mist, dew on leaves; motion cues: cherries dropping softly into the basket; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 400, 1/320 s; lighting: cool dawn backlight with gentle fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 1: Misty highland coffee rows at first light; Guatemalan coffee farmer picking red cherries into a woven basket; medium‑wide framing; eye‑line looking toward the slope break above the next row with content focus; clear cultural anchors: woven carry‑basket, shade trees, volcanic soil; environmental cues: breath mist, dew on leaves; motion cues: cherries dropping softly into the basket; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 400, 1/320 s; lighting: cool dawn backlight with gentle fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>We sit on rough roots. Mama passes beans and our laughter rises higher than the distant volcano.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S02" recommendedFilename="NA_MATEO_S02.png" source="North America.docx" altText="Mateo: Family seated on roots beneath a broad avocado tree (Guatemala)." url="https://cdn.midjourney.com/96e5be1f-1bf3-410a-85c3-5e96916a7b9c/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 2: Family seated on roots beneath a broad avocado tree; Guatemalan farmer sharing tortillas, beans and sweet plantains; medium framing; eye‑line looking toward a laughing relative off‑camera with warm ease; clear cultural anchors: comal‑warmed tortillas wrapped in cloth, enamel mugs, basket of plantains; environmental cues: noon shade, green dapple; motion cues: steam curls from beans, leaves stir overhead; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/250 s; lighting: open shade, gentle ambient wrap; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Guatemalan coffee bean drying</Keyword>
+                <Keyword>Coffee sorting rural village</Keyword>
+                <Keyword>Wooden trays for coffee beans</Keyword>
+                <Keyword>Rural farm worker Guatemala</Keyword>
+                <Keyword>Coffee production process traditional</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 2: Family seated on roots beneath a broad avocado tree; Guatemalan farmer sharing tortillas, beans and sweet plantains; medium framing; eye‑line looking toward a laughing relative off‑camera with warm ease; clear cultural anchors: comal‑warmed tortillas wrapped in cloth, enamel mugs, basket of plantains; environmental cues: noon shade, green dapple; motion cues: steam curls from beans, leaves stir overhead; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/250 s; lighting: open shade, gentle ambient wrap; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/96e5be1f-1bf3-410a-85c3-5e96916a7b9c/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 2: Family seated on roots beneath a broad avocado tree; Guatemalan farmer sharing tortillas, beans and sweet plantains; medium framing; eye‑line looking toward a laughing relative off‑camera with warm ease; clear cultural anchors: comal‑warmed tortillas wrapped in cloth, enamel mugs, basket of plantains; environmental cues: noon shade, green dapple; motion cues: steam curls from beans, leaves stir overhead; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/250 s; lighting: open shade, gentle ambient wrap; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I rake the beans gently. Their crisp sound is like rain on a tin roof.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S03" recommendedFilename="NA_MATEO_S03.png" source="North America.docx" altText="Mateo: Sunlit patio with wooden drying racks (Guatemala)." url="https://cdn.midjourney.com/f65f5a22-da1d-405a-a9ab-100d0d678f4b/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 3: Sunlit patio with wooden drying racks; Guatemalan coffee farmer raking parchment coffee for even drying; medium framing; eye‑line looking down‑rack toward the far tray with practiced focus; clear cultural anchors: wood rake, burlap sacks, moisture gauge; environmental cues: warm afternoon sun, faint breeze; motion cues: crisp rustle of beans as they roll; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/500 s; lighting: bright sun with bounce from a pale wall; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Guatemalan family dining together</Keyword>
+                <Keyword>Rural Guatemalan kitchen interior</Keyword>
+                <Keyword>Tamales Guatemalan traditional food</Keyword>
+                <Keyword>Family sharing meal around table</Keyword>
+                <Keyword>Outdoor dining Central America</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 3: Sunlit patio with wooden drying racks; Guatemalan coffee farmer raking parchment coffee for even drying; medium framing; eye‑line looking down‑rack toward the far tray with practiced focus; clear cultural anchors: wood rake, burlap sacks, moisture gauge; environmental cues: warm afternoon sun, faint breeze; motion cues: crisp rustle of beans as they roll; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/500 s; lighting: bright sun with bounce from a pale wall; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/f65f5a22-da1d-405a-a9ab-100d0d678f4b/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 3: Sunlit patio with wooden drying racks; Guatemalan coffee farmer raking parchment coffee for even drying; medium framing; eye‑line looking down‑rack toward the far tray with practiced focus; clear cultural anchors: wood rake, burlap sacks, moisture gauge; environmental cues: warm afternoon sun, faint breeze; motion cues: crisp rustle of beans as they roll; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 200, 1/500 s; lighting: bright sun with bounce from a pale wall; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I pour green beans into the buyer’s palm and explain how a fair price could build our new school.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S04" recommendedFilename="NA_MATEO_S04.png" source="North America.docx" altText="Mateo: Small cupping table by the mill (Guatemala)." url="https://cdn.midjourney.com/8dcfeaec-fd36-4b98-93e8-d53089347d4f/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 4: Small cupping table by the mill; Guatemalan coffee farmer explaining fair pricing while pouring green beans into a buyer’s palm; medium framing; eye‑line looking to the buyer’s notebook off‑camera with hopeful conviction; clear cultural anchors: scale, sample trays, cupping spoons; environmental cues: shaded workspace, posters of coffee process; motion cues: beans trickle from hand to tray; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 640, 1/200 s; lighting: window key + soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Guatemalan village market stalls</Keyword>
+                <Keyword>Coffee and produce market Central America</Keyword>
+                <Keyword>Handwoven textiles Guatemalan crafts</Keyword>
+                <Keyword>Farmers selling crops Guatemala</Keyword>
+                <Keyword>Vibrant rural market Guatemala</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 4: Small cupping table by the mill; Guatemalan coffee farmer explaining fair pricing while pouring green beans into a buyer’s palm; medium framing; eye‑line looking to the buyer’s notebook off‑camera with hopeful conviction; clear cultural anchors: scale, sample trays, cupping spoons; environmental cues: shaded workspace, posters of coffee process; motion cues: beans trickle from hand to tray; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 640, 1/200 s; lighting: window key + soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/8dcfeaec-fd36-4b98-93e8-d53089347d4f/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 4: Small cupping table by the mill; Guatemalan coffee farmer explaining fair pricing while pouring green beans into a buyer’s palm; medium framing; eye‑line looking to the buyer’s notebook off‑camera with hopeful conviction; clear cultural anchors: scale, sample trays, cupping spoons; environmental cues: shaded workspace, posters of coffee process; motion cues: beans trickle from hand to tray; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 640, 1/200 s; lighting: window key + soft bounce; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>My fingers strum an upbeat tune. Voices blend and fireflies spark across the yard.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S05" recommendedFilename="NA_MATEO_S05.png" source="North America.docx" altText="Mateo: Wood porch overlooking fields (Guatemala)." url="https://cdn.midjourney.com/19989642-d3aa-42da-b33f-88610203197b/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 5: Wood porch overlooking fields; Guatemalan coffee farmer strumming guitar as neighbors hum along; medium framing; eye‑line looking toward the far hill line with relaxed joy; clear cultural anchors: well‑worn guitar, enamel lantern, woven chair; environmental cues: pink clouds, fireflies over grass; motion cues: guitar hand blur, tiny light specks drifting; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset edge light, gentle practical lamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Guatemalan church festival</Keyword>
+                <Keyword>Colorful alfombras (sawdust carpets)</Keyword>
+                <Keyword>Traditional Mayan-Christian festival</Keyword>
+                <Keyword>Community procession Guatemala</Keyword>
+                <Keyword>Candles and flowers religious celebration</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 5: Wood porch overlooking fields; Guatemalan coffee farmer strumming guitar as neighbors hum along; medium framing; eye‑line looking toward the far hill line with relaxed joy; clear cultural anchors: well‑worn guitar, enamel lantern, woven chair; environmental cues: pink clouds, fireflies over grass; motion cues: guitar hand blur, tiny light specks drifting; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset edge light, gentle practical lamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/19989642-d3aa-42da-b33f-88610203197b/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Wood porch overlooking fields; Guatemalan coffee farmer strumming guitar as neighbors hum along; medium framing; eye‑line looking toward the far hill line with relaxed joy; clear cultural anchors: well‑worn guitar, enamel lantern, woven chair; environmental cues: pink clouds, fireflies over grass; motion cues: guitar hand blur, tiny light specks drifting; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset edge light, gentle practical lamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Stars crowd the darkness. I breathe mountain air and feel deep peace settle over the farm.</CaptionFirstPerson>
+            <Image assetId="NA_MATEO_S06" recommendedFilename="NA_MATEO_S06.png" source="North America.docx" altText="Mateo: Terraced rows under a starry sky (Guatemala)." url="https://cdn.midjourney.com/e9c58efd-b7f6-40c6-b259-8378d58c3c8d/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 6: Terraced rows under a starry sky; Guatemalan coffee farmer standing quietly by the plants; medium‑wide framing; eye‑line looking up to the Milky Way with peaceful awe; clear cultural anchors: terraces, woven belt, headlamp switched off; environmental cues: cool mountain night, faint village glow; motion cues: grasses sway, distant firefly drift; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 3200, 1/125 s; lighting: starlight ambience with subtle edge rim from distant house light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Guatemalan man resting in hammock</Keyword>
+                <Keyword>Rural evening under lantern light</Keyword>
+                <Keyword>Hammock by coffee fields</Keyword>
+                <Keyword>Central American night sky rural</Keyword>
+                <Keyword>Peaceful farmer in traditional setting</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 6: Terraced rows under a starry sky; Guatemalan coffee farmer standing quietly by the plants; medium‑wide framing; eye‑line looking up to the Milky Way with peaceful awe; clear cultural anchors: terraces, woven belt, headlamp switched off; environmental cues: cool mountain night, faint village glow; motion cues: grasses sway, distant firefly drift; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 3200, 1/125 s; lighting: starlight ambience with subtle edge rim from distant house light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e9c58efd-b7f6-40c6-b259-8378d58c3c8d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png --ow 140</PromptRaw>
+              <PromptClean>Scene 6: Terraced rows under a starry sky; Guatemalan coffee farmer standing quietly by the plants; medium‑wide framing; eye‑line looking up to the Milky Way with peaceful awe; clear cultural anchors: terraces, woven belt, headlamp switched off; environmental cues: cool mountain night, faint village glow; motion cues: grasses sway, distant firefly drift; Camera: Nikon Z7 II, 50 mm f/1.8, ISO 3200, 1/125 s; lighting: starlight ambience with subtle edge rim from distant house light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+      <Character id="NA_SOFIA" name="Sofia" country="Mexico" roleOrCulture="Mexico City Student" flagEmoji="🇲🇽" flagIso2="MX">
+        <Label>
+          <Headline>Sofia</Headline>
+          <Subhead>A Student in Mexico City, Mexico</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Sofia is a 17-year-old student living in urban Mexico City. Mexican culture is a rich tapestry of indigenous heritage and Spanish influence. Daily life blends modern urban living with strong family bonds and cultural traditions such as celebrating Día de los…</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I sway with the train. Music in my headphones turns crowded cars into my own moving stage.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S01" recommendedFilename="NA_SOFIA_S01.png" source="North America.docx" altText="Sofia: CDMX metro car at rush hour (Mexico)." url="https://cdn.midjourney.com/57a11867-6796-46d5-965c-6ef49d6ebb83/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 1: CDMX metro car at rush hour; teen student with backpack, headphones on, city lights blurring beyond the window; medium framing; eye‑line looking out the window with energized calm; clear cultural anchors: orange metro doors, route map stickers, school backpack; environmental cues: underground platform glow, motion blur; motion cues: hair strand sway, handgrip strap bounce; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: cool train fluorescents with mild window spill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mexican student morning commute</Keyword>
+                <Keyword>Mexico City metro crowded</Keyword>
+                <Keyword>Public transportation Latin America</Keyword>
+                <Keyword>Urban life Mexico morning rush</Keyword>
+                <Keyword>Girl with backpack city commute</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 1: CDMX metro car at rush hour; teen student with backpack, headphones on, city lights blurring beyond the window; medium framing; eye‑line looking out the window with energized calm; clear cultural anchors: orange metro doors, route map stickers, school backpack; environmental cues: underground platform glow, motion blur; motion cues: hair strand sway, handgrip strap bounce; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: cool train fluorescents with mild window spill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/57a11867-6796-46d5-965c-6ef49d6ebb83/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 140</PromptRaw>
+              <PromptClean>Scene 1: CDMX metro car at rush hour; teen student with backpack, headphones on, city lights blurring beyond the window; medium framing; eye‑line looking out the window with energized calm; clear cultural anchors: orange metro doors, route map stickers, school backpack; environmental cues: underground platform glow, motion blur; motion cues: hair strand sway, handgrip strap bounce; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: cool train fluorescents with mild window spill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>The rover moves. I clap and feel sparks of possibility race through me.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S02" recommendedFilename="NA_SOFIA_S02.png" source="North America.docx" altText="Sofia: School robotics bench with breadboards and a small rover (Mexico)." url="https://cdn.midjourney.com/5a9efb4a-3b44-472c-a9ea-cba8ae67a41a/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 2: School robotics bench with breadboards and a small rover; teen student celebrating a successful test with teammates just out of frame; medium framing; eye‑line looking toward the moving rover off‑camera with bright excitement; clear cultural anchors: soldering mat, laptop with code, parts bins; environmental cues: lab posters, whiteboard scribbles; motion cues: rover wheel spin, teammate’s high‑five blur; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: clean overhead panels plus soft window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mexican classroom student life</Keyword>
+                <Keyword>High school Mexico City</Keyword>
+                <Keyword>Mexican students learning science</Keyword>
+                <Keyword>Teacher with students Mexico</Keyword>
+                <Keyword>Urban education Latin America</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 2: School robotics bench with breadboards and a small rover; teen student celebrating a successful test with teammates just out of frame; medium framing; eye‑line looking toward the moving rover off‑camera with bright excitement; clear cultural anchors: soldering mat, laptop with code, parts bins; environmental cues: lab posters, whiteboard scribbles; motion cues: rover wheel spin, teammate’s high‑five blur; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: clean overhead panels plus soft window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/5a9efb4a-3b44-472c-a9ea-cba8ae67a41a/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 2: School robotics bench with breadboards and a small rover; teen student celebrating a successful test with teammates just out of frame; medium framing; eye‑line looking toward the moving rover off‑camera with bright excitement; clear cultural anchors: soldering mat, laptop with code, parts bins; environmental cues: lab posters, whiteboard scribbles; motion cues: rover wheel spin, teammate’s high‑five blur; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: clean overhead panels plus soft window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I add extra salsa and nearly drop my taco when the joke lands. Laughter echoes off old stone walls.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S03" recommendedFilename="NA_SOFIA_S03.png" source="North America.docx" altText="Sofia: Historic plaza food stand (Mexico)." url="https://cdn.midjourney.com/e61d8eac-8ec0-4277-9e06-edb5f227df12/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 3: Historic plaza food stand; teen student with friends eating tacos al pastor near a carved‑stone wall; medium framing; eye‑line looking toward a joking friend off‑camera with delighted surprise; clear cultural anchors: pastor trompo, salsa bottles, paper plates, lime wedges; environmental cues: midday sun, pigeons flicker; motion cues: salsa drip, napkin edge flutter; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright open shade with reflective stone fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Día de los Reyes family meal</Keyword>
+                <Keyword>Rosca de Reyes bread sharing</Keyword>
+                <Keyword>Mexican family holiday traditions</Keyword>
+                <Keyword>Indoor family celebration Mexico</Keyword>
+                <Keyword>Colorful holiday decorations Mexico</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 3: Historic plaza food stand; teen student with friends eating tacos al pastor near a carved‑stone wall; medium framing; eye‑line looking toward a joking friend off‑camera with delighted surprise; clear cultural anchors: pastor trompo, salsa bottles, paper plates, lime wedges; environmental cues: midday sun, pigeons flicker; motion cues: salsa drip, napkin edge flutter; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright open shade with reflective stone fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e61d8eac-8ec0-4277-9e06-edb5f227df12/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 3: Historic plaza food stand; teen student with friends eating tacos al pastor near a carved‑stone wall; medium framing; eye‑line looking toward a joking friend off‑camera with delighted surprise; clear cultural anchors: pastor trompo, salsa bottles, paper plates, lime wedges; environmental cues: midday sun, pigeons flicker; motion cues: salsa drip, napkin edge flutter; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright open shade with reflective stone fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I write ideas on the whiteboard. Watching younger kids nod makes me believe change is possible.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S04" recommendedFilename="NA_SOFIA_S04.png" source="North America.docx" altText="Sofia: Community center room with tables and markers (Mexico)." url="https://cdn.midjourney.com/10ee9e0b-6409-4891-8f69-c7a518c1748d/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 4: Community center room with tables and markers; teen student leading a youth brainstorming session on green streets; medium‑wide framing; eye‑line looking toward the whiteboard off‑camera with confident focus; clear cultural anchors: whiteboard with simple tree and bike lane sketches, sticky notes, reusable water bottle; environmental cues: bulletin board, open windows to street trees; motion cues: sticky notes being placed, marker cap click; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 800, 1/200 s; lighting: window key + ceiling fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mexican environmental activism protest</Keyword>
+                <Keyword>Latin American youth civic engagement</Keyword>
+                <Keyword>Climate change march Mexico City</Keyword>
+                <Keyword>Urban protest signs and banners</Keyword>
+                <Keyword>Teenage girl at environmental rally</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 4: Community center room with tables and markers; teen student leading a youth brainstorming session on green streets; medium‑wide framing; eye‑line looking toward the whiteboard off‑camera with confident focus; clear cultural anchors: whiteboard with simple tree and bike lane sketches, sticky notes, reusable water bottle; environmental cues: bulletin board, open windows to street trees; motion cues: sticky notes being placed, marker cap click; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 800, 1/200 s; lighting: window key + ceiling fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/10ee9e0b-6409-4891-8f69-c7a518c1748d/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 4: Community center room with tables and markers; teen student leading a youth brainstorming session on green streets; medium‑wide framing; eye‑line looking toward the whiteboard off‑camera with confident focus; clear cultural anchors: whiteboard with simple tree and bike lane sketches, sticky notes, reusable water bottle; environmental cues: bulletin board, open windows to street trees; motion cues: sticky notes being placed, marker cap click; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 800, 1/200 s; lighting: window key + ceiling fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I find the tiny figurine in my slice. Cheers erupt and I grin with sugary crumbs on my lips.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S05" recommendedFilename="NA_SOFIA_S05.png" source="North America.docx" altText="Sofia: Dining table with candles and Rosca de Reyes (Mexico)." url="https://cdn.midjourney.com/4835c93e-5a8c-4e1e-b31d-7bf9ba6445b3/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 5: Dining table with candles and Rosca de Reyes; teen student grinning after finding a tiny figurine in her slice, relatives just out of frame cheering; medium framing; eye‑line looking toward a family member off‑camera with sparkly joy; clear cultural anchors: Rosca ring, mugs of hot chocolate, papel picado; environmental cues: warm indoor evening; motion cues: crumbs scatter, candle flicker; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: candle/practical key with subtle bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Traditional Mexican market stalls</Keyword>
+                <Keyword>Fresh produce and handmade crafts Mexico</Keyword>
+                <Keyword>Street vendor selling traditional food</Keyword>
+                <Keyword>Mexican girl shopping at market</Keyword>
+                <Keyword>Vibrant outdoor market Mexico City</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 5: Dining table with candles and Rosca de Reyes; teen student grinning after finding a tiny figurine in her slice, relatives just out of frame cheering; medium framing; eye‑line looking toward a family member off‑camera with sparkly joy; clear cultural anchors: Rosca ring, mugs of hot chocolate, papel picado; environmental cues: warm indoor evening; motion cues: crumbs scatter, candle flicker; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: candle/practical key with subtle bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/4835c93e-5a8c-4e1e-b31d-7bf9ba6445b3/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Dining table with candles and Rosca de Reyes; teen student grinning after finding a tiny figurine in her slice, relatives just out of frame cheering; medium framing; eye‑line looking toward a family member off‑camera with sparkly joy; clear cultural anchors: Rosca ring, mugs of hot chocolate, papel picado; environmental cues: warm indoor evening; motion cues: crumbs scatter, candle flicker; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 1600, 1/160 s; lighting: candle/practical key with subtle bounce fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>City lights flicker like stars below. I write goals and feel the future stretching wide and bright.</CaptionFirstPerson>
+            <Image assetId="NA_SOFIA_S06" recommendedFilename="NA_SOFIA_S06.png" source="North America.docx" altText="Sofia: City rooftop at night (Mexico)." url="https://cdn.midjourney.com/2efaf5ec-bd17-4cfa-a935-1bb6be17490e/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Scene 6: City rooftop at night; teen student journaling with the skyline stretched below; medium framing; eye‑line looking toward distant city lights with thoughtful optimism; clear cultural anchors: spiral notebook, pen, small thermos; environmental cues: gentle breeze, plane lights far off; motion cues: page corner lifts, hair tips move; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 3200, 1/125 s; lighting: soft phone light on hands + cool ambient city glow; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mexican student at desk evening</Keyword>
+                <Keyword>Urban apartment Mexico City night</Keyword>
+                <Keyword>Girl studying by lamp light</Keyword>
+                <Keyword>Window view Mexico City skyline</Keyword>
+                <Keyword>Cozy study space urban setting</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>North America.docx</PromptSource>
+              <PromptRaw>Scene 6: City rooftop at night; teen student journaling with the skyline stretched below; medium framing; eye‑line looking toward distant city lights with thoughtful optimism; clear cultural anchors: spiral notebook, pen, small thermos; environmental cues: gentle breeze, plane lights far off; motion cues: page corner lifts, hair tips move; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 3200, 1/125 s; lighting: soft phone light on hands + cool ambient city glow; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/2efaf5ec-bd17-4cfa-a935-1bb6be17490e/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/c8aa06d1-5f53-4f22-8afd-d4bbf9606237/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 6: City rooftop at night; teen student journaling with the skyline stretched below; medium framing; eye‑line looking toward distant city lights with thoughtful optimism; clear cultural anchors: spiral notebook, pen, small thermos; environmental cues: gentle breeze, plane lights far off; motion cues: page corner lifts, hair tips move; Camera: Sony α7 IV, FE 35 mm f/1.4, ISO 3200, 1/125 s; lighting: soft phone light on hands + cool ambient city glow; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+    </Characters>
+    <Assets>
+      <Asset id="NA_AIYANA_S01" type="image" character="Aiyana" sceneIndex="1" recommendedFilename="NA_AIYANA_S01.png" url="https://cdn.midjourney.com/e8a97c0c-2f8e-41f8-8247-cf3bbd3df7c0/0_3.png"/>
+      <Asset id="NA_AIYANA_S02" type="image" character="Aiyana" sceneIndex="2" recommendedFilename="NA_AIYANA_S02.png" url="https://cdn.midjourney.com/49917e08-91ee-4794-8edf-8578e787159b/0_0.png"/>
+      <Asset id="NA_AIYANA_S03" type="image" character="Aiyana" sceneIndex="3" recommendedFilename="NA_AIYANA_S03.png" url="https://cdn.midjourney.com/faf2822c-939e-49d3-b9d0-3d03021419bf/0_0.png"/>
+      <Asset id="NA_AIYANA_S04" type="image" character="Aiyana" sceneIndex="4" recommendedFilename="NA_AIYANA_S04.png" url="https://cdn.midjourney.com/30f2f777-0f94-4a3f-8a91-023c5ef91ccf/0_0.png"/>
+      <Asset id="NA_AIYANA_S05" type="image" character="Aiyana" sceneIndex="5" recommendedFilename="NA_AIYANA_S05.png" url="https://cdn.midjourney.com/5db07b0a-0ce3-408f-9563-40b6f1832260/0_0.png"/>
+      <Asset id="NA_AIYANA_S06" type="image" character="Aiyana" sceneIndex="6" recommendedFilename="NA_AIYANA_S06.png" url="https://cdn.midjourney.com/3b59d8ae-200b-43c7-be2b-2be9b74ab1b0/0_2.png"/>
+      <Asset id="NA_MATEO_S01" type="image" character="Mateo" sceneIndex="1" recommendedFilename="NA_MATEO_S01.png" url="https://cdn.midjourney.com/ad6871da-a51b-4181-8be0-694f11e2f05f/0_1.png"/>
+      <Asset id="NA_MATEO_S02" type="image" character="Mateo" sceneIndex="2" recommendedFilename="NA_MATEO_S02.png" url="https://cdn.midjourney.com/96e5be1f-1bf3-410a-85c3-5e96916a7b9c/0_2.png"/>
+      <Asset id="NA_MATEO_S03" type="image" character="Mateo" sceneIndex="3" recommendedFilename="NA_MATEO_S03.png" url="https://cdn.midjourney.com/f65f5a22-da1d-405a-a9ab-100d0d678f4b/0_2.png"/>
+      <Asset id="NA_MATEO_S04" type="image" character="Mateo" sceneIndex="4" recommendedFilename="NA_MATEO_S04.png" url="https://cdn.midjourney.com/8dcfeaec-fd36-4b98-93e8-d53089347d4f/0_2.png"/>
+      <Asset id="NA_MATEO_S05" type="image" character="Mateo" sceneIndex="5" recommendedFilename="NA_MATEO_S05.png" url="https://cdn.midjourney.com/19989642-d3aa-42da-b33f-88610203197b/0_3.png"/>
+      <Asset id="NA_MATEO_S06" type="image" character="Mateo" sceneIndex="6" recommendedFilename="NA_MATEO_S06.png" url="https://cdn.midjourney.com/e9c58efd-b7f6-40c6-b259-8378d58c3c8d/0_2.png"/>
+      <Asset id="NA_SOFIA_S01" type="image" character="Sofia" sceneIndex="1" recommendedFilename="NA_SOFIA_S01.png" url="https://cdn.midjourney.com/57a11867-6796-46d5-965c-6ef49d6ebb83/0_3.png"/>
+      <Asset id="NA_SOFIA_S02" type="image" character="Sofia" sceneIndex="2" recommendedFilename="NA_SOFIA_S02.png" url="https://cdn.midjourney.com/5a9efb4a-3b44-472c-a9ea-cba8ae67a41a/0_2.png"/>
+      <Asset id="NA_SOFIA_S03" type="image" character="Sofia" sceneIndex="3" recommendedFilename="NA_SOFIA_S03.png" url="https://cdn.midjourney.com/e61d8eac-8ec0-4277-9e06-edb5f227df12/0_0.png"/>
+      <Asset id="NA_SOFIA_S04" type="image" character="Sofia" sceneIndex="4" recommendedFilename="NA_SOFIA_S04.png" url="https://cdn.midjourney.com/10ee9e0b-6409-4891-8f69-c7a518c1748d/0_2.png"/>
+      <Asset id="NA_SOFIA_S05" type="image" character="Sofia" sceneIndex="5" recommendedFilename="NA_SOFIA_S05.png" url="https://cdn.midjourney.com/4835c93e-5a8c-4e1e-b31d-7bf9ba6445b3/0_2.png"/>
+      <Asset id="NA_SOFIA_S06" type="image" character="Sofia" sceneIndex="6" recommendedFilename="NA_SOFIA_S06.png" url="https://cdn.midjourney.com/2efaf5ec-bd17-4cfa-a935-1bb6be17490e/0_0.png"/>
+    </Assets>
+  </Poster>
+</KaycliffAtlasTrailPoster>
+]]></payload_xml>
+</normalized_poster>

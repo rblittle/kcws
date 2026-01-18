@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/cultural innovations/africa_ci_celestial_chronicles_storytelling.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__cultural_innovations__africa__africa_ci_celestial_chronicles_storytelling",
+    "derived_id": "cultural__cultural_innovations__africa__africa_ci_celestial_chronicles_storytelling",
+    "continent": "africa",
+    "domain": "cultural",
+    "poster_family": "cultural_innovations",
+    "filename": "africa_ci_celestial_chronicles_storytelling.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "cultural_innovations"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:cultural",
+      "poster_family:cultural_innovations"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/cultural innovations/africa_ci_celestial_chronicles_storytelling.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "kaycliff.atlastrail.poster_package.v1",
+    "generated_at": "2025-12-30T01:19:59.820342+00:00",
+    "poster": {
+      "poster_id": "africa_ci_celestial_chronicles_storytelling",
+      "continent": "Africa",
+      "domain": "Cultural Innovation",
+      "poster_type": "Main Feature",
+      "title": "Celestial Chronicles: The Invention of Storytelling",
+      "aspect_ratio": "8:5",
+      "recommended_print_size_inches": {
+        "width": 96,
+        "height": 60
+      },
+      "reference_render": {
+        "image_ref": "img_concept_reference"
+      },
+      "source_files": {
+        "ci_copy": "captions and copy.docx",
+        "main_feature_brief": "Africa Main Feature_.docx",
+        "design_help_assets": "Africa MF Organizer.xlsx",
+        "working_draft_pdf": "AFRICA_CulturalInnovations.pdf",
+        "concept_render": "africa_ci_concept.jpg"
+      }
+    },
+    "copy": {
+      "text_blocks": [
+        {
+          "id": "txt_title",
+          "role": "header",
+          "heading": null,
+          "body": "Celestial Chronicles: The Invention of Storytelling",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_intro",
+          "role": "intro",
+          "heading": "Introductory Paragraph",
+          "body": "Beneath Africa’s boundless, starlit skies, ancient storytellers forged the art of narrative by transforming the cosmos into a living tapestry of myth. Here, Orion—the relentless hunter—and the radiant Pleiades are not mere constellations but dynamic characters in epic sagas, while mighty floods, unleashed by divine forces, purify and renew the earth. These timeless legends, brimming with heroic figures and sacred interventions, invite every explorer to uncover the origins of storytelling—a creative spark that continues to illuminate our shared journey.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_hook",
+          "role": "hook",
+          "heading": "Great Hook",
+          "body": "Step into the origins of storytelling, where every star writes a chapter and every flood sings a verse. Discover the ancient magic that turned observation into legend, and join the adventure that continues to inspire us all.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_khoisan",
+          "role": "myth",
+          "heading": "Khoisan",
+          "body": "Fleeing sisters pursued by a fierce lion spirit, their luminous forms guide the hunters across ancient landscapes.\n In Khoisan lore, the seven sisters—whose names have faded into myth—are pursued by a powerful lion, symbolizing both the perils and the destiny that shape the tribe’s path.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_greek",
+          "role": "myth",
+          "heading": "Greek",
+          "body": "Orion, the indomitable hunter and son of Poseidon, eternally chases the radiant Seven Sisters, daughters of Atlas and Pleione.\n His legendary pursuit, filled with both triumph and tragedy, encapsulates the tension between mortal ambition and the capricious will of the gods.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_aboriginal_australian",
+          "role": "myth",
+          "heading": "Aboriginal Australian",
+          "body": "Celestial echoes of seven ancestral sisters, whose swift flight beneath endless skies reflect the deep connection between the land and the spirit world.\n These seven sisters, embodying the essence of creation, are forever chased by a solitary hunter, a reminder of the perpetual dance between life and nature.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_lakota",
+          "role": "myth",
+          "heading": "Lakota",
+          "body": "The Pleiades, revered as seven sacred star-women, are entwined with the spirit of a mighty bear, guardian of the natural order.\n Their nightly journey, intertwined with the protective presence of the bear, symbolizes resilience and the harmonious balance of the earth.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_japanese",
+          "role": "myth",
+          "heading": "Japanese",
+          "body": "Known as Subaru, the Pleiades illuminate the sky as a symbol of unity, their harmonious glow reflecting cosmic balance and collective strength.\n These stellar sisters inspire both reverence and communal pride, mirroring the deep cultural emphasis on interdependence and harmony.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_zulu",
+          "role": "myth",
+          "heading": "Zulu",
+          "body": "In Zulu tradition, the stars of Orion appear as majestic celestial cattle, embodying ancestral wealth and the promise of prosperity.\n These divine cattle, celebrated in ritual and song, guide the people with their luminous presence, linking the heavens to the rhythms of pastoral life.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_orion_zulu_celestial_zebras",
+          "role": "myth",
+          "heading": "Zulu (Celestial Zebras)",
+          "body": "In one cherished version of Zulu lore, Orion's Belt is envisioned not as ordinary stars but as three celestial zebras galloping across the night sky.\n These spectral zebras, revered as sacred guardians, symbolize the qualities of bravery, unity, and abundance; each zebra embodies a facet of ancestral wisdom, guiding the people with their eternal, rhythmic journey that mirrors the pastoral rhythms of life and the cyclical nature of the earth.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_yoruba",
+          "role": "myth",
+          "heading": "Yoruba",
+          "body": "Olokun, the revered god of the deep, unleashes a purifying deluge that cleanses the earth and preserves life through sacred intervention.\n This myth emphasizes renewal, where the waters wash away the old, ensuring a fertile rebirth ordained by divine will.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_gilgamesh",
+          "role": "myth",
+          "heading": "Gilgamesh",
+          "body": "Utnapishtim, a mortal blessed by the gods, builds a vast ark to survive an epic flood that tests humanity’s resilience against divine wrath.\n His journey, chronicled in the Epic of Gilgamesh, stands as a testament to human endurance and the hope of renewal after catastrophe.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_greek_deucalion",
+          "role": "myth",
+          "heading": "Greek (Deucalion)",
+          "body": "Guided by the wisdom of Prometheus, Deucalion and his wife Pyrrha survive Zeus’s cataclysm, their steadfast love paving the way for a reborn humanity.\n Their tale, marked by divine trials and triumph, illustrates how compassion and resilience can forge a new beginning from the ruins.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_manu",
+          "role": "myth",
+          "heading": "Manu",
+          "body": "In Indian tradition, Manu heeds the urgent warning of the divine fish Matsya, constructing a vessel that becomes the ark of salvation before the great flood descends.\n This narrative underscores the vital interplay between divine guidance and human ingenuity in times of impending doom.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_mayan",
+          "role": "myth",
+          "heading": "Mayan",
+          "body": "A cataclysmic deluge washes over the old world, heralding a rebirth where the sacred power of maize and the enduring spirit of the people intertwine to create a new era.\n This transformative flood myth encapsulates the cyclic nature of destruction and creation, central to Mayan cosmology.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_flood_maori",
+          "role": "myth",
+          "heading": "Maori",
+          "body": "Rūaumoko, the formidable god of earthquakes and volcanic rumblings, unleashes floods that reshape the land, signifying both the end and the promise of renewal.\n His actions, both awe-inspiring and terrifying, embody the dynamic forces of nature that continuously mold the Maori world.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_event_solar_eclipses",
+          "role": "event",
+          "heading": "Solar Eclipses",
+          "body": "When the sun is swallowed by the moon, ancient peoples beheld a cosmic clash of light and darkness.\n In myth, solar eclipses were seen as dramatic celestial battles—moments when the gods waged war in the heavens, signaling transformative change and inspiring both awe and trepidation among mortals.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_event_volcanic_eruptions",
+          "role": "event",
+          "heading": "Volcanic Eruptions",
+          "body": "The fury of the earth, as fire and ash burst forth, became a divine spectacle of creation and destruction.\n Volcanic eruptions were woven into legend as the wrath of deities or the passionate outbursts of the earth itself, symbolizing both the devastation of old worlds and the fertile rebirth that follows, reminding us of nature’s relentless, cyclical power.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        },
+        {
+          "id": "txt_event_meteor_showers",
+          "role": "event",
+          "heading": "Meteor Showers",
+          "body": "Fleeting trails of light, like sparks from the divine, danced across the night sky as messages from the cosmos.\n Meteor showers were celebrated in ancient lore as ethereal blessings or ominous signs, where each streak of light carried the whispers of the gods, evoking wonder and guiding destinies in the quiet magic of the night.",
+          "optional": false,
+          "source": "captions and copy.docx"
+        }
+      ],
+      "reflection_questions": [],
+      "notes": [
+        "Italics note in source doc: 'We may need to ignore some of the italics'.",
+        "This package favors the later Introductory Paragraph version found in captions and copy.docx."
+      ]
+    },
+    "assets": {
+      "images": [
+        {
+          "id": "img_concept_reference",
+          "asset_id": "concept_reference_render",
+          "content_type": "Concept Reference Render (Working Draft)",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Designer-facing reference render captured from AFRICA_CulturalInnovations working draft PDF.",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Derived from AFRICA_CulturalInnovations.pdf page 1.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "africa_ci_concept.jpg"
+        },
+        {
+          "id": "img_hero_orion_pleiades",
+          "asset_id": "hero_image_of_orion_pleiades",
+          "content_type": "Hero Image of Orion & Pleiades",
+          "placement": "Header / Top Section",
+          "approx_size": 0.1,
+          "purpose": "Establishes the main celestial theme and visually anchors the entire exhibit.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "Midjourney doesn't understand the concept of Orion",
+          "source_url": "https://cdn.midjourney.com/8dc6a3a2-80e2-4172-a883-1455b3e94e86/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_world_map_night",
+          "asset_id": "stylized_night_map_of_the_world",
+          "content_type": "Stylized Night Map of the World",
+          "placement": "Central Map and Storytelling",
+          "approx_size": 0.15,
+          "purpose": "Provides a global canvas for placing cultural myths and highlights interconnectedness.",
+          "format": null,
+          "ai_friendly": null,
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_world_map_campfires",
+          "asset_id": "multiple_campfire_scenes_on_world_map",
+          "content_type": "Multiple Campfire Scenes on World Map",
+          "placement": "Central Map and Storytelling",
+          "approx_size": 0.1,
+          "purpose": "Represents diverse cultures around the globe telling their Orion myths.",
+          "format": null,
+          "ai_friendly": null,
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_khoisan",
+          "asset_id": "khoisan_myth_scene",
+          "content_type": "Khoisan Myth Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Depicts the Khoisan myth of Orion’s Belt as lions chasing the Pleiades.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "This is good",
+          "source_url": "https://cdn.midjourney.com/9cb02637-9938-4ec4-b958-590083ca3e1f/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_greek",
+          "asset_id": "greek_myth_scene",
+          "content_type": "Greek Myth Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Illustrates Orion the Hunter chasing the Seven Sisters across the sky.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "This needs to be an actual scorpion",
+          "source_url": "https://cdn.midjourney.com/fbbede80-d462-496e-af78-f510a83a2102/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_aboriginal_australian",
+          "asset_id": "australian_aboriginal_tale_scene",
+          "content_type": "Australian Aboriginal Tale Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Shows seven sisters fleeing a hunter, mirrored by Orion.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "This needs to get down to seven sisters",
+          "source_url": "https://cdn.midjourney.com/480f90a6-91c1-420e-9638-8adfd2466d3b/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_lakota",
+          "asset_id": "lakota_legend_scene",
+          "content_type": "Lakota Legend Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Depicts a bear chasing the Pleiades and Orion.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/8a5d9f4b-e325-4457-b4a2-6fc4b894e6b3/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_japanese_subaru",
+          "asset_id": "japanese_lore_subaru_scene",
+          "content_type": "Japanese Lore (Subaru) Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Symbolizes unity and teamwork through the Pleiades, inspired by the Subaru emblem.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/4c2fd634-fa53-485e-8a95-f6a4500046b4/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_myth_orion_zulu",
+          "asset_id": "zulu_myth_scene",
+          "content_type": "Zulu Myth Scene",
+          "placement": "Central Storytelling Section",
+          "approx_size": 0.05,
+          "purpose": "Transforms Orion’s Belt into \"Three Zebras,\" indicating agricultural seasons.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/0e7f25fc-bc3f-4186-83ec-518dcca7f201/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_yoruba",
+          "asset_id": "yoruba_flood_scene_africa",
+          "content_type": "Yoruba Flood Scene (Africa)",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Depicts divine floodwaters from Olokun, survivors guided by gods.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "Needs to add all the animals and stuff",
+          "source_url": "https://cdn.midjourney.com/1b213d21-eca8-46ad-aa4d-b6bd9f603a6c/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_gilgamesh",
+          "asset_id": "epic_of_gilgamesh_flood_scene_mesopotamia",
+          "content_type": "Epic of Gilgamesh Flood Scene (Mesopotamia)",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Shows Utnapishtim’s ark navigating a god-sent deluge.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": "The background needs to be all water",
+          "source_url": "https://cdn.midjourney.com/1716276c-b807-4ef2-85b0-b1deb5ffd908/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_deucalion_pyrrha",
+          "asset_id": "deucalion_and_pyrrha_greece",
+          "content_type": "Deucalion and Pyrrha (Greece)",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Illustrates the couple emerging into a renewed world after Zeus’s flood.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/7311758f-fe97-4d47-adee-241ae2fe8dff/0_0.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_manu",
+          "asset_id": "manu_s_story_india",
+          "content_type": "Manu’s Story (India)",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Shows a sacred fish guiding Manu’s vessel through floodwaters.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/e50af7d8-f77d-4514-bd75-c82c6a200d82/0_0.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_mayan_wooden_people",
+          "asset_id": "mayan_wooden_people",
+          "content_type": "Mayan Wooden People",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Depicts a flood cleansing the Earth before humanity’s creation from maize.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/68509b26-9eb7-4be7-a079-86f44bd442b1/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_flood_maori",
+          "asset_id": "maori_flood_myth_new_zealand",
+          "content_type": "Maori Flood Myth (New Zealand)",
+          "placement": "Left Panel: Flood Myths",
+          "approx_size": 0.07,
+          "purpose": "Shows Rūaumoko reshaping islands through a deluge.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/e7660a47-4734-4683-b278-c32e8a14c0d6/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_event_solar_eclipse",
+          "asset_id": "solar_eclipse_myth_representation",
+          "content_type": "Solar Eclipse Myth Representation",
+          "placement": "Right Panel: Other Events",
+          "approx_size": 0.05,
+          "purpose": "Depicts a solar eclipse with cultural references, highlighting celestial significance.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/0ba2ae10-f62d-4e6b-9a8a-80ee2437709e/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_event_volcanic_eruption",
+          "asset_id": "volcanic_eruption_myth_representation",
+          "content_type": "Volcanic Eruption Myth Representation",
+          "placement": "Right Panel: Other Events",
+          "approx_size": 0.05,
+          "purpose": "Shows a volcano spewing ash and lava, inspiring myths of gods forging new lands.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/6d501409-968d-4008-b468-672605b2a8ae/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_event_meteor_shower",
+          "asset_id": "meteor_shower_myth_representation",
+          "content_type": "Meteor Shower Myth Representation",
+          "placement": "Right Panel: Other Events",
+          "approx_size": 0.05,
+          "purpose": "Depicts streaks of light across the night sky tied to omens or celestial messages.",
+          "format": "Generative AI Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/9c9e3a53-e6d0-4e01-930a-36afeceb0017/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_foreground_campfires_people",
+          "asset_id": "groups_of_people_at_campfires",
+          "content_type": "Groups of People at Campfires",
+          "placement": "Foreground: Human Connection",
+          "approx_size": 0.05,
+          "purpose": "Represents storytellers from different backgrounds engaging in oral traditions around campfires.",
+          "format": null,
+          "ai_friendly": null,
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        }
+      ],
+      "references": []
+    },
+    "layout": {
+      "layout_concept": "Multi-panel storytelling poster: celestial hero (Orion/Pleiades) at top; world map + myth vignettes in center; flood myths panel; other cataclysmic-event panel; foreground human-connection campfire scene.",
+      "regions": [
+        {
+          "id": "region_header",
+          "role": "header",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_title"
+            }
+          ]
+        },
+        {
+          "id": "region_intro",
+          "role": "intro",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_intro"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_hook"
+            }
+          ]
+        },
+        {
+          "id": "region_hero",
+          "role": "hero",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_hero_orion_pleiades",
+              "placement": "Header / Top Section"
+            }
+          ]
+        },
+        {
+          "id": "region_central_map",
+          "role": "map_and_interconnection",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_world_map_night",
+              "placement": "Central Map and Storytelling"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_world_map_campfires",
+              "placement": "Central Map and Storytelling"
+            },
+            {
+              "type": "group",
+              "role": "orion_myths",
+              "items": [
+                {
+                  "id": "orion_khoisan",
+                  "role": "myth",
+                  "text_ref": "txt_orion_khoisan",
+                  "image_ref": "img_myth_orion_khoisan",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_greek",
+                  "role": "myth",
+                  "text_ref": "txt_orion_greek",
+                  "image_ref": "img_myth_orion_greek",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_aboriginal_australian",
+                  "role": "myth",
+                  "text_ref": "txt_orion_aboriginal_australian",
+                  "image_ref": "img_myth_orion_aboriginal_australian",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_lakota",
+                  "role": "myth",
+                  "text_ref": "txt_orion_lakota",
+                  "image_ref": "img_myth_orion_lakota",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_japanese",
+                  "role": "myth",
+                  "text_ref": "txt_orion_japanese",
+                  "image_ref": "img_myth_orion_japanese_subaru",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_zulu",
+                  "role": "myth",
+                  "text_ref": "txt_orion_zulu",
+                  "image_ref": "img_myth_orion_zulu",
+                  "placement": "Central Storytelling Section"
+                },
+                {
+                  "id": "orion_zulu_celestial_zebras",
+                  "role": "myth",
+                  "text_ref": "txt_orion_zulu_celestial_zebras",
+                  "image_ref": "img_myth_orion_zulu",
+                  "placement": "Central Storytelling Section"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "region_flood_myths",
+          "role": "flood_panel",
+          "components": [
+            {
+              "type": "group",
+              "role": "flood_myths",
+              "items": [
+                {
+                  "id": "flood_yoruba",
+                  "role": "myth",
+                  "text_ref": "txt_flood_yoruba",
+                  "image_ref": "img_flood_yoruba",
+                  "placement": "Left Panel: Flood Myths"
+                },
+                {
+                  "id": "flood_gilgamesh",
+                  "role": "myth",
+                  "text_ref": "txt_flood_gilgamesh",
+                  "image_ref": "img_flood_gilgamesh",
+                  "placement": "Left Panel: Flood Myths"
+                },
+                {
+                  "id": "flood_greek_deucalion",
+                  "role": "myth",
+                  "text_ref": "txt_flood_greek_deucalion",
+                  "image_ref": "img_flood_deucalion_pyrrha",
+                  "placement": "Left Panel: Flood Myths"
+                },
+                {
+                  "id": "flood_manu",
+                  "role": "myth",
+                  "text_ref": "txt_flood_manu",
+                  "image_ref": "img_flood_manu",
+                  "placement": "Left Panel: Flood Myths"
+                },
+                {
+                  "id": "flood_mayan",
+                  "role": "myth",
+                  "text_ref": "txt_flood_mayan",
+                  "image_ref": "img_flood_mayan_wooden_people",
+                  "placement": "Left Panel: Flood Myths"
+                },
+                {
+                  "id": "flood_maori",
+                  "role": "myth",
+                  "text_ref": "txt_flood_maori",
+                  "image_ref": "img_flood_maori",
+                  "placement": "Left Panel: Flood Myths"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "region_cataclysmic_events",
+          "role": "events_panel",
+          "components": [
+            {
+              "type": "group",
+              "role": "cataclysmic_events",
+              "items": [
+                {
+                  "id": "event_solar_eclipses",
+                  "role": "event",
+                  "text_ref": "txt_event_solar_eclipses",
+                  "image_ref": "img_event_solar_eclipse",
+                  "placement": "Right Panel: Other Events"
+                },
+                {
+                  "id": "event_volcanic_eruptions",
+                  "role": "event",
+                  "text_ref": "txt_event_volcanic_eruptions",
+                  "image_ref": "img_event_volcanic_eruption",
+                  "placement": "Right Panel: Other Events"
+                },
+                {
+                  "id": "event_meteor_showers",
+                  "role": "event",
+                  "text_ref": "txt_event_meteor_showers",
+                  "image_ref": "img_event_meteor_shower",
+                  "placement": "Right Panel: Other Events"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "region_foreground_human_connection",
+          "role": "human_connection",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_foreground_campfires_people",
+              "placement": "Foreground: Human Connection"
+            }
+          ]
+        }
+      ],
+      "reading_order": [
+        "region_header",
+        "region_intro",
+        "region_hero",
+        "region_central_map",
+        "region_flood_myths",
+        "region_cataclysmic_events",
+        "region_foreground_human_connection"
+      ]
+    },
+    "designer_guidance": {
+      "design_objectives_and_summary": "This exhibit will explore the rich storytelling traditions that connect the Orion constellation and flood myths across cultures. It should inspire a sense of wonder at how ancient peoples looked to the heavens and natural events to explain the mysteries of life. The graphic will center on a visually stunning night sky, with the Orion constellation prominently displayed, accompanied by scenes and symbols tied to the myths and a depiction of a great flood below.",
+      "key_elements_for_designer": {
+        "Key Elements for the Graphic Designer": [],
+        "The Night Sky": [
+          "Orion the Hunter should be traced in the stars, easily identifiable but artistic.",
+          "Include the Pleiades (Seven Sisters) near Orion for additional mythological context.",
+          "Stars should feel vibrant and immersive, creating a sense of timeless awe."
+        ],
+        "Cultural Storytelling Scenes": [
+          "Surround the sky with vignettes of people telling myths about Orion, Pleiades, and floods:",
+          "Khoisan Myth (Southern Africa): Depict a storyteller under the stars, narrating how the Pleiades are girls fleeing lions (Orion’s Belt).",
+          "Greek Myth: Show a glimpse of Orion chasing the Seven Sisters across the sky.",
+          "Aboriginal Australian Tale: Illustrate seven sisters fleeing a hunter, mirrored in the night sky.",
+          "Native American Lakota Legend: Suggest a bear chasing the Pleiades and Orion.",
+          "Japanese Lore: Show a symbol of unity through the Pleiades, perhaps with a Subaru emblem-inspired touch."
+        ],
+        "Flood Myth Imagery": [
+          "Create a transition from the sky to the Earth, illustrating floods from diverse cultures:",
+          "African Yoruba Myth: A flood sent by the deity Olokun.",
+          "Mesopotamian Epic of Gilgamesh: Utnapishtim’s ark surviving a god-sent flood.",
+          "Greek Deucalion and Pyrrha: A couple finding land after a great deluge.",
+          "Indian Manu’s Story: A sacred fish warning of an impending flood.",
+          "Mayan Wooden People: A flood cleansing the world before the creation of humanity from maize.",
+          "Maori Myth (New Zealand): A god reshaping islands through a deluge."
+        ],
+        "Human Connection": [
+          "Depict figures in the foreground, gazing up at the stars and engaging in oral storytelling.",
+          "A small group could sit around a fire, gesturing toward the sky while speaking of these universal myths."
+        ],
+        "Incorporate a Map or Timeline": [
+          "Subtle, stylized elements can show where and when these myths originated globally, reinforcing their universal appeal."
+        ]
+      },
+      "essential_mythological_knowledge": {
+        "Orion and the Pleiades Across Cultures": [
+          "Khoisan (Africa): Orion’s Belt represents lions chasing the Pleiades (seven girls).",
+          "Greek: Orion, the hunter, chases the Pleiades across the sky.",
+          "Australian Aboriginal: Seven sisters flee from a hunter, with Orion mirroring him.",
+          "Lakota (North America): A bear chases the Pleiades, tied to Orion.",
+          "Japanese Subaru: The Pleiades symbolize unity and teamwork.",
+          "Zulu Myth (Southern Africa): Orion’s Belt is \"Three Zebras,\" marking agricultural seasons."
+        ],
+        "Flood Myths Across Cultures": [
+          "Yoruba (Africa): A divine flood to cleanse the Earth, survivors guided by gods.",
+          "Gilgamesh (Mesopotamia): Utnapishtim builds an ark to survive a god-sent flood.",
+          "Deucalion (Greece): Zeus sends a flood, leaving only Deucalion and Pyrrha.",
+          "Manu (India): A sacred fish warns Manu of a coming deluge, leading to the preservation of life.",
+          "Mayan Myth: A flood ends the age of wooden people before the creation of humanity.",
+          "Maori (New Zealand): Rūaumoko unleashes a flood, reshaping the land."
+        ]
+      },
+      "capturing_the_mood": {
+        "The design should evoke": [
+          "A sense of cosmic wonder as patrons connect myths to the stars.",
+          "The power of nature, shown in the portrayal of floods across diverse landscapes.",
+          "The timelessness of storytelling, with human figures passing down these tales under the stars."
+        ]
+      },
+      "final_call_to_creativity": "This exhibit is a canvas for myths and imagination. Let the stars and water guide the storytelling. Blend the universal themes of survival, connection, and awe into a cohesive visual narrative that celebrates the shared heritage of humanity."
+    },
+    "provenance": {
+      "generated_by": "ChatGPT",
+      "generated_at": "2025-12-30T01:19:59.820342+00:00",
+      "source_files": {
+        "concept_render_jpg": {
+          "filename": "africa_ci_concept.jpg",
+          "size_bytes": 1260652,
+          "sha256": "430ec248e920fa764e046b101769caf01bf43730371f621187411d5a72522496"
+        },
+        "working_draft_pdf": {
+          "filename": "AFRICA_CulturalInnovations.pdf",
+          "size_bytes": 13820593,
+          "sha256": "4bac9f4e0746300d7e013e936b3f3af8449130683bff4da49bfc6b67d8f559aa"
+        },
+        "ci_copy_docx": {
+          "filename": "captions and copy.docx",
+          "size_bytes": 10515,
+          "sha256": "83878a1538f11be8c6478b78652d3dc0abb46dbd157df3b24e3a5ebefc434808"
+        },
+        "main_feature_docx": {
+          "filename": "Africa Main Feature_.docx",
+          "size_bytes": 9879,
+          "sha256": "498cfe666b2f46b08169962695aeab28200bde179274ead7667f0794225aa087"
+        },
+        "mf_organizer_xlsx": {
+          "filename": "Africa MF Organizer.xlsx",
+          "size_bytes": 14870,
+          "sha256": "3e886b673cce3b2a3f0ea8e4a074e0b93f1792d22a62e20ef9dcb5f0be0c7b1b"
+        }
+      }
+    }
+  }
+}

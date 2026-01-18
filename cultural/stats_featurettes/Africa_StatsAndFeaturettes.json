@@ -1,0 +1,1003 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/stats and featurettes/Africa_StatsAndFeaturettes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__stats_featurettes__africa__africa_statsandfeaturettes",
+    "derived_id": "cultural__stats_featurettes__africa__africa_statsandfeaturettes",
+    "continent": "africa",
+    "domain": "cultural",
+    "poster_family": "stats_featurettes",
+    "filename": "Africa_StatsAndFeaturettes.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "stats_featurettes"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:cultural",
+      "poster_family:stats_featurettes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/stats and featurettes/Africa_StatsAndFeaturettes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff.atlastrail.poster.stats_featurettes.v1",
+    "schema_version": "1.1.0",
+    "poster": {
+      "id": "AFR_CULT_STATS_FEATURETTES",
+      "continent": "Africa",
+      "domain": "Cultural",
+      "poster_type": "StatsAndFeaturettes",
+      "dimensions_ft": {
+        "width": 8,
+        "height": 5
+      },
+      "display_title": "Journeys Across Africa: Healing, Growing, and Enduring",
+      "language": "en",
+      "layout_slots": {
+        "center": "continent_stats_map",
+        "top_left": "AFR_FEATURETTE_1",
+        "bottom_left": "AFR_FEATURETTE_2",
+        "top_right": "AFR_FEATURETTE_3",
+        "bottom_right": "AFR_FEATURETTE_4",
+        "legend": "high_low_legend_box"
+      },
+      "proof_assets": [
+        {
+          "type": "image",
+          "file_name": "AtlasTrail_Cultural_Stats&Features_Africa.png",
+          "path": "/mnt/data/AtlasTrail_Cultural_Stats&Features_Africa.png"
+        }
+      ]
+    },
+    "continent_stats_map": {
+      "map_type": "country_polygons_with_high_low_markers",
+      "legend": {
+        "title": "AFRICA HIGH AND LOW LEGEND",
+        "color_semantics": {
+          "green": "best (highest or lowest depending on metric)",
+          "orange": "worst (lowest or highest depending on metric)"
+        },
+        "exceptions": [
+          {
+            "stat_id": "lowest_crime_rate",
+            "rule": "This is a 'lower is better' metric; green indicates the lowest crime rate and orange indicates the highest crime rate."
+          }
+        ]
+      },
+      "core_stats_on_map": [
+        {
+          "stat_id": "access_to_clean_drinking_water",
+          "display_label": "Access to Clean Drinking Water",
+          "source_statistic": "Access to Clean Drinking Water",
+          "maslow_category": "Physiological",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest Access: Egypt (~98%), South Africa (~93%)",
+          "lowest_raw": "Lowest Access: Ethiopia (~57%), Mozambique (~51%)",
+          "highest_parsed": {
+            "label": "Highest Access",
+            "items": [
+              {
+                "country": "Egypt",
+                "detail": "~98%"
+              },
+              {
+                "country": "South Africa",
+                "detail": "~93%"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest Access",
+            "items": [
+              {
+                "country": "Ethiopia",
+                "detail": "~57%"
+              },
+              {
+                "country": "Mozambique",
+                "detail": "~51%"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "average_calorie_intake",
+          "display_label": "Average Calorie Intake",
+          "source_statistic": "Average Daily Caloric Intake",
+          "maslow_category": "Physiological",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest Intake: Egypt (~3,320 calories), Tunisia (~3,150 calories)",
+          "lowest_raw": "Lowest Intake: Central African Republic (~1,750), Eritrea (~1,590)",
+          "highest_parsed": {
+            "label": "Highest Intake",
+            "items": [
+              {
+                "country": "Egypt",
+                "detail": "~3320 calories"
+              },
+              {
+                "country": "Tunisia",
+                "detail": "~3150 calories"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest Intake",
+            "items": [
+              {
+                "country": "Central African Republic",
+                "detail": "~1750"
+              },
+              {
+                "country": "Eritrea",
+                "detail": "~1590"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "lowest_crime_rate",
+          "display_label": "Lowest Crime Rate",
+          "source_statistic": "Crime Rate (Low Crime = Safety)",
+          "maslow_category": "Safety",
+          "directionality": "lower_is_better",
+          "highest_raw": "Lowest Crime: Mauritius, Botswana",
+          "lowest_raw": "Highest Crime: South Africa (high violent crime), Nigeria (insurgency)",
+          "highest_parsed": {
+            "label": "Lowest Crime",
+            "items": [
+              {
+                "country": "Mauritius",
+                "detail": null
+              },
+              {
+                "country": "Botswana",
+                "detail": null
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Highest Crime",
+            "items": [
+              {
+                "country": "South Africa",
+                "detail": "high violent crime"
+              },
+              {
+                "country": "Nigeria",
+                "detail": "insurgency"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "access_to_healthcare",
+          "display_label": "Access to Healthcare",
+          "source_statistic": "% Population with Access to Healthcare",
+          "maslow_category": "Safety",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest Access: Algeria (~90%), Tunisia (~88%)",
+          "lowest_raw": "Lowest Access: Somalia (<30%), South Sudan (~25%)",
+          "highest_parsed": {
+            "label": "Highest Access",
+            "items": [
+              {
+                "country": "Algeria",
+                "detail": "~90%"
+              },
+              {
+                "country": "Tunisia",
+                "detail": "~88%"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest Access",
+            "items": [
+              {
+                "country": "Somalia",
+                "detail": "<30%"
+              },
+              {
+                "country": "South Sudan",
+                "detail": "~25%"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "employment_rates",
+          "display_label": "Employment Rates",
+          "source_statistic": "Employment Rate (Economic Participation)",
+          "maslow_category": "Safety/Esteem",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest Rates: Rwanda (~85%), Tanzania (~80%)",
+          "lowest_raw": "Lowest Rates: South Africa (~30% unemployment), Eswatini (high unemployment)",
+          "highest_parsed": {
+            "label": "Highest Rates",
+            "items": [
+              {
+                "country": "Rwanda",
+                "detail": "~85%"
+              },
+              {
+                "country": "Tanzania",
+                "detail": "~80%"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest Rates",
+            "items": [
+              {
+                "country": "South Africa",
+                "detail": "~30% unemployment"
+              },
+              {
+                "country": "Eswatini",
+                "detail": "high unemployment"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "average_household_size",
+          "display_label": "Average Household Size",
+          "source_statistic": "Average Household Size",
+          "maslow_category": "Love/Belonging",
+          "directionality": "contextual",
+          "highest_raw": "Largest: Senegal (~8 persons), Mali (~7.8 persons)",
+          "lowest_raw": "Smallest: South Africa (~3.3), Namibia (~4)",
+          "highest_parsed": {
+            "label": "Largest",
+            "items": [
+              {
+                "country": "Senegal",
+                "detail": "~8 persons"
+              },
+              {
+                "country": "Mali",
+                "detail": "~7.8 persons"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Smallest",
+            "items": [
+              {
+                "country": "South Africa",
+                "detail": "~3.3"
+              },
+              {
+                "country": "Namibia",
+                "detail": "~4"
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "volunteer_community_service_participation",
+          "display_label": "Volunteer/Community Service Participation",
+          "source_statistic": "Volunteer/Community Service Participation",
+          "maslow_category": "Love/Belonging",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest Engagement: Kenya (~45%), Ghana (~42%)",
+          "lowest_raw": "Lowest Engagement: Equatorial Guinea, Libya",
+          "highest_parsed": {
+            "label": "Highest Engagement",
+            "items": [
+              {
+                "country": "Kenya",
+                "detail": "~45%"
+              },
+              {
+                "country": "Ghana",
+                "detail": "~42%"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest Engagement",
+            "items": [
+              {
+                "country": "Equatorial Guinea",
+                "detail": null
+              },
+              {
+                "country": "Libya",
+                "detail": null
+              }
+            ]
+          }
+        },
+        {
+          "stat_id": "population_higher_education_degrees",
+          "display_label": "% Population Higher Education Degrees",
+          "source_statistic": "% Population with Higher Education Degrees",
+          "maslow_category": "Esteem",
+          "directionality": "higher_is_better",
+          "highest_raw": "Highest: South Africa (~7%), Egypt (~6%)",
+          "lowest_raw": "Lowest: Niger (<1%), Burkina Faso (~1%)",
+          "highest_parsed": {
+            "label": "Highest",
+            "items": [
+              {
+                "country": "South Africa",
+                "detail": "~7%"
+              },
+              {
+                "country": "Egypt",
+                "detail": "~6%"
+              }
+            ]
+          },
+          "lowest_parsed": {
+            "label": "Lowest",
+            "items": [
+              {
+                "country": "Niger",
+                "detail": "<1%"
+              },
+              {
+                "country": "Burkina Faso",
+                "detail": "~1%"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "featurettes": [
+      {
+        "featurette_id": "AFR_FEATURETTE_1",
+        "number": 1,
+        "title": "Long Journeys to Health—Healthcare in Africa",
+        "body_text": "Need a doctor? In rural Africa, the nearest clinic can be days away. On average, families walk six kilometres for care, and some nations field just 1 doctor per 10,000 people. Mobile trucks and tele-health apps now zip over dirt tracks, training nurses and delivering vaccines to villages once reached only by foot. How far would you travel for health—and what invention could shorten that trek?",
+        "assets": [
+          {
+            "asset_id": "F1_A1_photo",
+            "type": "photo",
+            "description": "Photo: A mobile clinic traveling on a dirt road.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "mobile clinic",
+                "url": "https://images.squarespace-cdn.com/content/v1/523043a1e4b05dc312ea27c6/1378909663068-OB2XV6B283NRH2SLN61E/Mobile+Clinic+%281+of+16%29.jpg?format=1500w"
+              },
+              {
+                "anchor_text": "traveling on a dirt road",
+                "url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/461988683_2539865006214503_7878552211552144052_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ns61dvfKIa4Q7kNvgGXVB1D&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=ALUMs9TD29CKNluZ4XZkSN6&oh=00_AYAQeky0Pfzk_ppjeZdBFM7Wmp9HfV5eDgDvdLM-OWfSQA&oe=6761068B"
+              }
+            ]
+          },
+          {
+            "asset_id": "F1_A2_map",
+            "type": "map",
+            "description": "Map: A simple map showing how far some people must travel from their village to the nearest hospital.",
+            "data_source_label": null,
+            "links": []
+          },
+          {
+            "asset_id": "F1_A3_chart",
+            "type": "chart",
+            "description": "Graph (Data Source: World Health Organization): A basic bar chart comparing the number of doctors per 10,000 people in different African countries.",
+            "data_source_label": "World Health Organization",
+            "links": [
+              {
+                "anchor_text": "basic bar chart comparing the number of doctors per 10,000 people in different African countries.",
+                "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+              }
+            ]
+          }
+        ],
+        "chart_spec": {
+          "chart_type": "pictogram",
+          "pictogram_icon": "prescription_bottle",
+          "unit_definition": "1 icon = 5 doctors per 10,000 people",
+          "data": [
+            {
+              "country": "Germany",
+              "doctors_per_10000_raw": "49.8 per 10 000",
+              "doctors_per_10000": 49.8,
+              "icons_div_by_5": 9.96,
+              "icons_full": 9,
+              "icons_remainder_raw": "96 % of 1",
+              "draw_as": "9 filled + 96 % fill of 10th"
+            },
+            {
+              "country": "United States",
+              "doctors_per_10000_raw": "28.2 per 10 000 CDC",
+              "doctors_per_10000": 28.2,
+              "icons_div_by_5": 5.64,
+              "icons_full": 5,
+              "icons_remainder_raw": "64 % of 1",
+              "draw_as": "5 filled + 64 % fill of 6th"
+            },
+            {
+              "country": "South Africa",
+              "doctors_per_10000_raw": "8 per 10 000 World Bank Data",
+              "doctors_per_10000": 8.0,
+              "icons_div_by_5": 1.6,
+              "icons_full": 1,
+              "icons_remainder_raw": "60 % of 1",
+              "draw_as": "1 filled + 60 % fill of 2nd"
+            },
+            {
+              "country": "Egypt",
+              "doctors_per_10000_raw": "6.71 per 10 000 datadot",
+              "doctors_per_10000": 6.71,
+              "icons_div_by_5": 1.34,
+              "icons_full": 1,
+              "icons_remainder_raw": "34 % of 1",
+              "draw_as": "1 filled + 34 % fill of 2nd"
+            },
+            {
+              "country": "Nigeria",
+              "doctors_per_10000_raw": "3.9 per 10 000",
+              "doctors_per_10000": 3.9,
+              "icons_div_by_5": 0.78,
+              "icons_full": 0,
+              "icons_remainder_raw": "78 % of 1",
+              "draw_as": "78 % fill of a single icon (no full icons)"
+            }
+          ],
+          "data_links": [
+            {
+              "anchor_text": "Google Sheet (raw graph data)",
+              "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+            }
+          ],
+          "source_links": [
+            {
+              "anchor_text": "",
+              "url": "https://www.cdc.gov/nchs/hus/topics/physicians.htm?utm_source=chatgpt.com"
+            },
+            {
+              "anchor_text": "CDC",
+              "url": "https://www.cdc.gov/nchs/hus/topics/physicians.htm?utm_source=chatgpt.com"
+            },
+            {
+              "anchor_text": "",
+              "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZA&utm_source=chatgpt.com"
+            },
+            {
+              "anchor_text": "World Bank Data",
+              "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZA&utm_source=chatgpt.com"
+            },
+            {
+              "anchor_text": "",
+              "url": "https://data.who.int/countries/818?utm_source=chatgpt.com"
+            },
+            {
+              "anchor_text": "datadot",
+              "url": "https://data.who.int/countries/818?utm_source=chatgpt.com"
+            }
+          ]
+        }
+      },
+      {
+        "featurette_id": "AFR_FEATURETTE_2",
+        "number": 2,
+        "title": "Cities Rising, Traditions Enduring—Diverse Lives in Africa",
+        "body_text": "Minute-long commute or millet harvest—Africa lives both futures at once. Urban dwellers have leapt from 15 % in 1960 to 44 % today, yet two-thirds of Africans still farm family plots. Money, music and messages flow back to villages, funding schools while elders guard stories and seeds. How can cities rise without letting rural wisdom fall silent?",
+        "assets": [
+          {
+            "asset_id": "F2_A1_photo",
+            "type": "photo",
+            "description": "Photo: A busy modern African city street with tall buildings.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "A busy modern African city street",
+                "url": "https://media.istockphoto.com/id/1333460374/photo/african-megacity-lagos-nigeria.jpg?s=1024x1024&w=is&k=20&c=1TYxrBLDIks7uEpehOKtYKh85EzXP6nbN-4Ar3aWOWs="
+              }
+            ]
+          },
+          {
+            "asset_id": "F2_A2_photo",
+            "type": "photo",
+            "description": "Photo: A small rural village with traditional homes and farmland.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "small rural village with traditional homes and farmland",
+                "url": "https://www.matriarchafrica.com/wp-content/uploads/2018/07/Cultural-Village-Tour-Victoria-Falls.jpg"
+              }
+            ]
+          },
+          {
+            "asset_id": "F2_A3_chart",
+            "type": "chart",
+            "description": "Graph (Data Source: United Nations): A simple line graph showing how the number of people living in African cities has increased over the years.",
+            "data_source_label": "United Nations",
+            "links": [
+              {
+                "anchor_text": "A simple line graph showing how the number of people living in African cities has increased over the years.",
+                "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+              }
+            ]
+          }
+        ],
+        "chart_spec": {
+          "chart_type": "pictogram",
+          "pictogram_icon": "house",
+          "unit_definition": "1 house icon = 150 million people (total population for the reference year)",
+          "data": {
+            "years": [
+              {
+                "year": 1960,
+                "total_population_millions": 283,
+                "houses_total": 2
+              },
+              {
+                "year": 1990,
+                "total_population_millions": 644,
+                "houses_total": 4
+              },
+              {
+                "year": 2025,
+                "total_population_millions": 1550,
+                "houses_total": 10
+              }
+            ],
+            "shading_rules": [
+              {
+                "year": 1960,
+                "urban_percent": 15.0,
+                "fill_plan": "2 houses total → 0 full; 30 % of 1st house filled → leave both outline, fill bottom 30 % of the first."
+              },
+              {
+                "year": 1990,
+                "urban_percent": 28.0,
+                "fill_plan": "4 houses total → 1 full, 12 % of 2nd filled → fill one complete house, fill bottom 12 % of next; two remain outline."
+              },
+              {
+                "year": 2025,
+                "urban_percent": 43.0,
+                "fill_plan": "10 houses total → 4 full, 30 % of 5th filled → fill four full houses, fill bottom 30 % of fifth; five remain outline."
+              }
+            ],
+            "graphic_specs": {
+              "filled_portion": "solid sunset-orange",
+              "unfilled_portion": "outline_only",
+              "partial_fill_direction": "vertical_from_base"
+            }
+          },
+          "data_links": [
+            {
+              "anchor_text": "Google Sheet (raw graph data)",
+              "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+            }
+          ],
+          "source_links": []
+        }
+      },
+      {
+        "featurette_id": "AFR_FEATURETTE_3",
+        "number": 3,
+        "title": "How Much Can We Grow? Comparing Crop Yields Around the World",
+        "body_text": "Food isn’t equally easy to grow so why do some fields feed more? U.S. corn averages 10 tons per hactare; Nigeria’s fields yield barely 2 tons per hectare  because tractors, storage and paved roads are scarce. Sharing drought-ready seed and simple drip systems can double harvests and keep families fed. Which tool—seed, soil or road—would you add first to boost a harvest?",
+        "assets": [
+          {
+            "asset_id": "F3_A1_photo",
+            "type": "photo",
+            "description": "Photo: A farmer in the U.S. driving a large tractor through a cornfield.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "farmer in the U.S. driving a large tractor through a cornfield",
+                "url": "https://www.agriculture.com/thmb/cxokfdEejgW85Ors1A1UDwH6tWg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/NEIllinoisoybeanHarvest-13cab4ab8b3c4a06b0d30e7a4b89f208.jpg"
+              }
+            ]
+          },
+          {
+            "asset_id": "F3_A2_photo",
+            "type": "photo",
+            "description": "Photo: Farmers in Nigeria harvesting cassava by hand.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "Farmers in Nigeria harvesting",
+                "url": "https://www.climatescorecard.org/wp-content/uploads/2023/09/nigeria-67.jpeg"
+              }
+            ]
+          },
+          {
+            "asset_id": "F3_A3_chart",
+            "type": "chart",
+            "description": "Graph (Data Source: Food and Agriculture Organization): A bar chart showing average crop yields (in tons per hectare) of corn, rice, wheat, and cassava in different countries.",
+            "data_source_label": "Food and Agriculture Organization",
+            "links": [
+              {
+                "anchor_text": "A bar chart showing average crop yields (in tons per hectare) of corn, rice, wheat, and cassava in different countries.",
+                "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+              }
+            ]
+          }
+        ],
+        "chart_spec": {
+          "chart_type": "pictogram",
+          "pictogram_icon": "corn_ear",
+          "unit_definition": "1 corn-ear icon = 0.5 t/acre",
+          "data": [
+            {
+              "country": "USA",
+              "yield_t_per_acre": 4.65,
+              "icons_div_by_0_5": 9.3,
+              "icons_full": 9,
+              "icons_remainder_raw": "30 %",
+              "treatment": "9 filled + 30 % fill on 10th"
+            },
+            {
+              "country": "China",
+              "yield_t_per_acre": 2.63,
+              "icons_div_by_0_5": 5.26,
+              "icons_full": 5,
+              "icons_remainder_raw": "26 %",
+              "treatment": "5 filled + 26 % fill on 6th"
+            },
+            {
+              "country": "UK",
+              "yield_t_per_acre": 1.25,
+              "icons_div_by_0_5": 2.5,
+              "icons_full": 2,
+              "icons_remainder_raw": "50 %",
+              "treatment": "2 filled + 50 % fill on 3rd"
+            },
+            {
+              "country": "Nigeria",
+              "yield_t_per_acre": 0.81,
+              "icons_div_by_0_5": 1.62,
+              "icons_full": 1,
+              "icons_remainder_raw": "62 %",
+              "treatment": "1 filled + 62 % fill on 2nd"
+            },
+            {
+              "country": "DRC",
+              "yield_t_per_acre": 0.57,
+              "icons_div_by_0_5": 1.14,
+              "icons_full": 1,
+              "icons_remainder_raw": "14 %",
+              "treatment": "1 filled + 14 % fill on 2nd"
+            }
+          ],
+          "supplemental_dataset": {
+            "source": "Africa Cultural Domain.xlsx / Africa Crop yields feature",
+            "metric": "crop_yields_tons_per_acre",
+            "table": [
+              {
+                "Country": "China",
+                "Corn": 2.63,
+                "Soybeans": 0.81,
+                "Rice": 2.91,
+                "Wheat": 2.39,
+                "Sorghum": 1.94
+              },
+              {
+                "Country": "USA",
+                "Corn": 4.65,
+                "Soybeans": 1.42,
+                "Rice": 3.44,
+                "Wheat": 1.38,
+                "Sorghum": 1.54
+              },
+              {
+                "Country": "UK",
+                "Corn": 1.25,
+                "Soybeans": null,
+                "Rice": null,
+                "Wheat": 3.2,
+                "Sorghum": null
+              },
+              {
+                "Country": "Nigeria",
+                "Corn": 0.81,
+                "Soybeans": 0.4,
+                "Rice": 0.97,
+                "Wheat": 0.45,
+                "Sorghum": 0.45
+              },
+              {
+                "Country": "DRC",
+                "Corn": 0.57,
+                "Soybeans": null,
+                "Rice": 0.4,
+                "Wheat": 0.45,
+                "Sorghum": 0.28
+              }
+            ]
+          },
+          "data_links": [
+            {
+              "anchor_text": "Google Sheet (raw graph data)",
+              "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+            }
+          ],
+          "source_links": []
+        }
+      },
+      {
+        "featurette_id": "AFR_FEATURETTE_4",
+        "number": 4,
+        "title": "The Disappearing Lake—The Story of Lake Chad",
+        "body_text": "Lake Chad once spread wider than Massachusetts but today it’s a shrinking puddle. Since 1963 the lake has lost 90 % of its water as climate warms and rivers are diverted for crops. Fishermen haul empty nets; herders clash over dusty grazing lands. Could planting trees and sharing water treaties bring this ‘vanished sea’ back to life?",
+        "assets": [
+          {
+            "asset_id": "F4_A1_image_pair",
+            "type": "image_pair",
+            "description": "Before/After Photos (or Satellite Images): Show Lake Chad’s size in the 1960s compared to today.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "how Lake Chad’s size in the 1960s compared to today.",
+                "url": "https://i.redd.it/g8wdspbeb5f41.jpg"
+              }
+            ]
+          },
+          {
+            "asset_id": "F4_A2_map",
+            "type": "map",
+            "description": "Map: A simple map showing Lake Chad’s location and the countries around it.",
+            "data_source_label": null,
+            "links": [
+              {
+                "anchor_text": "map",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Jm0DfgTSOhpgh2tRZ9dWUw1TIbp08AwJH6ti2ls_-fz17s2MZ2LkqaBqkTjuZYuyMzk&usqp=CAU"
+              },
+              {
+                "anchor_text": "Chad’s",
+                "url": "https://www.brookings.edu/wp-content/uploads/2017/02/global_20170209_lake-chad.png"
+              },
+              {
+                "anchor_text": "and",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Megachad_en_disappearance_of_lake_chad.jpg/412px-Megachad_en_disappearance_of_lake_chad.jpg"
+              },
+              {
+                "anchor_text": "countries",
+                "url": "https://i.ytimg.com/vi/VYArZ50uGUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1UHoj7q-FlNIb-q5DKvfZjmqDOQ"
+              }
+            ]
+          },
+          {
+            "asset_id": "F4_A3_chart",
+            "type": "chart",
+            "description": "Graph (Data Source: NASA Earth Observatory): A line graph showing the lake’s changing size over time.",
+            "data_source_label": "NASA Earth Observatory",
+            "links": []
+          }
+        ],
+        "chart_spec": {
+          "chart_type": "time_series_line",
+          "metric": "lake_size_over_time",
+          "data": [],
+          "data_links": [],
+          "source_links": [],
+          "status": "MISSING_DATA_IN_PROVIDED_FILES"
+        }
+      }
+    ],
+    "supplemental_stats_for_app": [
+      {
+        "stat_id": "average_distance_traveled_for_water_collection",
+        "label": "Average Distance Traveled for Water Collection",
+        "value_text": "In some rural regions, individuals (often women and children) walk an average of 6 kilometers daily to collect water.",
+        "related_core_stat_id": "access_to_clean_drinking_water",
+        "source": {
+          "file": "Africa Stats.docx"
+        }
+      },
+      {
+        "stat_id": "informal_community_support",
+        "label": "Informal Community Support",
+        "value_text": "In many communities, informal volunteering (like communal farming and childcare) is a cultural norm, even if not officially recorded.",
+        "related_core_stat_id": "volunteer_community_service_participation",
+        "source": {
+          "file": "Africa Stats.docx"
+        }
+      },
+      {
+        "stat_id": "arts_cultural_activity_participation",
+        "label": "Participation in Arts & Cultural Activities",
+        "value_text": "Highest: Nigeria (Nollywood, music), South Africa (vibrant arts scene). Lowest: conflict-affected countries (e.g., Somalia, South Sudan).",
+        "related_core_stat_id": null,
+        "source": {
+          "file": "Africa Cultural Domain.xlsx",
+          "sheet": "Interesting Statistics",
+          "row": 12
+        }
+      }
+    ],
+    "extracted_links_index": {
+      "featurettes_docx": {
+        "file": "Africa Featurettes.docx",
+        "links": [
+          {
+            "anchor_text": "mobile clinic",
+            "url": "https://images.squarespace-cdn.com/content/v1/523043a1e4b05dc312ea27c6/1378909663068-OB2XV6B283NRH2SLN61E/Mobile+Clinic+%281+of+16%29.jpg?format=1500w"
+          },
+          {
+            "anchor_text": "traveling on a dirt road",
+            "url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/461988683_2539865006214503_7878552211552144052_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ns61dvfKIa4Q7kNvgGXVB1D&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=ALUMs9TD29CKNluZ4XZkSN6&oh=00_AYAQeky0Pfzk_ppjeZdBFM7Wmp9HfV5eDgDvdLM-OWfSQA&oe=6761068B"
+          },
+          {
+            "anchor_text": "basic bar chart comparing the number of doctors per 10,000 people in different African countries.",
+            "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+          },
+          {
+            "anchor_text": "A busy modern African city street",
+            "url": "https://media.istockphoto.com/id/1333460374/photo/african-megacity-lagos-nigeria.jpg?s=1024x1024&w=is&k=20&c=1TYxrBLDIks7uEpehOKtYKh85EzXP6nbN-4Ar3aWOWs="
+          },
+          {
+            "anchor_text": "small rural village with traditional homes and farmland",
+            "url": "https://www.matriarchafrica.com/wp-content/uploads/2018/07/Cultural-Village-Tour-Victoria-Falls.jpg"
+          },
+          {
+            "anchor_text": "A simple line graph showing how the number of people living in African cities has increased over the years.",
+            "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+          },
+          {
+            "anchor_text": "farmer in the U.S. driving a large tractor through a cornfield",
+            "url": "https://www.agriculture.com/thmb/cxokfdEejgW85Ors1A1UDwH6tWg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/NEIllinoisoybeanHarvest-13cab4ab8b3c4a06b0d30e7a4b89f208.jpg"
+          },
+          {
+            "anchor_text": "Farmers in Nigeria harvesting",
+            "url": "https://www.climatescorecard.org/wp-content/uploads/2023/09/nigeria-67.jpeg"
+          },
+          {
+            "anchor_text": "A bar chart showing average crop yields (in tons per hectare) of corn, rice, wheat, and cassava in different countries.",
+            "url": "https://docs.google.com/spreadsheets/u/0/d/1EDuhwFUJBTEXQSiZp_eOYRS3SxtkQw0pE5bHJx1P-Mg/edit"
+          },
+          {
+            "anchor_text": "how Lake Chad’s size in the 1960s compared to today.",
+            "url": "https://i.redd.it/g8wdspbeb5f41.jpg"
+          },
+          {
+            "anchor_text": "map",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Jm0DfgTSOhpgh2tRZ9dWUw1TIbp08AwJH6ti2ls_-fz17s2MZ2LkqaBqkTjuZYuyMzk&usqp=CAU"
+          },
+          {
+            "anchor_text": "Chad’s",
+            "url": "https://www.brookings.edu/wp-content/uploads/2017/02/global_20170209_lake-chad.png"
+          },
+          {
+            "anchor_text": "and",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Megachad_en_disappearance_of_lake_chad.jpg/412px-Megachad_en_disappearance_of_lake_chad.jpg"
+          },
+          {
+            "anchor_text": "countries",
+            "url": "https://i.ytimg.com/vi/VYArZ50uGUE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1UHoj7q-FlNIb-q5DKvfZjmqDOQ"
+          }
+        ]
+      },
+      "graphs_docx": {
+        "file": "African graphs stuff.docx",
+        "links": [
+          {
+            "anchor_text": "",
+            "url": "https://www.cdc.gov/nchs/hus/topics/physicians.htm?utm_source=chatgpt.com"
+          },
+          {
+            "anchor_text": "CDC",
+            "url": "https://www.cdc.gov/nchs/hus/topics/physicians.htm?utm_source=chatgpt.com"
+          },
+          {
+            "anchor_text": "",
+            "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZA&utm_source=chatgpt.com"
+          },
+          {
+            "anchor_text": "World Bank Data",
+            "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZA&utm_source=chatgpt.com"
+          },
+          {
+            "anchor_text": "",
+            "url": "https://data.who.int/countries/818?utm_source=chatgpt.com"
+          },
+          {
+            "anchor_text": "datadot",
+            "url": "https://data.who.int/countries/818?utm_source=chatgpt.com"
+          }
+        ]
+      },
+      "xlsx": {
+        "file": "Africa Cultural Domain.xlsx",
+        "links": [
+          {
+            "sheet": "Interesting Statistics",
+            "cell": "A1",
+            "anchor_text": "This has been drawn here",
+            "url": "https://docs.google.com/drawings/d/1n8_chW6XgDvtIDzmqmifNQNhFYygOJ2bIMAdVIchiLc/edit"
+          },
+          {
+            "sheet": "Interesting Statistics",
+            "cell": "C1",
+            "anchor_text": "Here",
+            "url": "https://docs.google.com/spreadsheets/d/17q_Iyv_WZ4ZaKFu9oAKOyrmwZJdjm68ndP51lct4TWM/edit?gid=1747244302"
+          },
+          {
+            "sheet": "African Health Featurette",
+            "cell": "A1",
+            "anchor_text": "This is labeled on this drawing",
+            "url": "https://docs.google.com/drawings/d/1Ws-lhkSG7BBZ2WuHucgYEA-XbMHmHpZtopAqpykPINI/edit"
+          },
+          {
+            "sheet": "Day in the Life Narratives",
+            "cell": "A1",
+            "anchor_text": "This has been drawn here",
+            "url": "https://docs.google.com/drawings/d/1n416OTA-Tul5uxq8WykskF-nX7gjsDvyXhGLWzz4Ess/edit"
+          },
+          {
+            "sheet": "Day in the Life Narratives",
+            "cell": "A2",
+            "anchor_text": "this is an alternate",
+            "url": "https://docs.google.com/drawings/d/1TAQSnQiXdm4KmGMlb8pd6q5KuArGAlT1QjU1dEhNL4Q/edit"
+          },
+          {
+            "sheet": "Main feature",
+            "cell": "A1",
+            "anchor_text": "This is labeled on this drawing",
+            "url": "https://docs.google.com/drawings/d/1Ws-lhkSG7BBZ2WuHucgYEA-XbMHmHpZtopAqpykPINI/edit"
+          }
+        ]
+      }
+    },
+    "validation_and_todos": [
+      {
+        "id": "LAKE_CHAD_GRAPH_DATA_MISSING",
+        "severity": "warning",
+        "description": "Lake Chad chart is specified but no time-series dataset or link was found in the provided files; asset remains descriptive only."
+      }
+    ],
+    "provenance": {
+      "inputs": [
+        {
+          "file": "Africa Cultural Domain.xlsx",
+          "role": "core map stats (Interesting Statistics) + crop yield table"
+        },
+        {
+          "file": "Africa Featurettes.docx",
+          "role": "featurette titles, body text, and linked image/data references"
+        },
+        {
+          "file": "Africa Stats.docx",
+          "role": "supplemental context stats"
+        },
+        {
+          "file": "African graphs stuff.docx",
+          "role": "iconization math + chart tables + source links"
+        },
+        {
+          "file": "AtlasTrail_Cultural_Stats&Features_Africa.png",
+          "role": "poster proof image for layout + stat legend confirmation"
+        }
+      ],
+      "generated_at_utc": "2025-12-30T19:44:04Z"
+    }
+  }
+}

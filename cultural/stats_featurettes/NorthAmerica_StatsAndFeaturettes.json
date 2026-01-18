@@ -1,0 +1,1981 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/stats and featurettes/NorthAmerica_StatsAndFeaturettes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__stats_featurettes__north_america__northamerica_statsandfeaturettes",
+    "derived_id": "cultural__stats_featurettes__north_america__northamerica_statsandfeaturettes",
+    "continent": "north_america",
+    "domain": "cultural",
+    "poster_family": "stats_featurettes",
+    "filename": "NorthAmerica_StatsAndFeaturettes.json"
+  },
+  "tags": {
+    "continent": [
+      "north_america"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "stats_featurettes"
+    ],
+    "flat": [
+      "continent:north_america",
+      "domain:cultural",
+      "poster_family:stats_featurettes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/stats and featurettes/NorthAmerica_StatsAndFeaturettes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "kaycliff_atlas_trail_stats_featurettes",
+    "schema_version": "1.0.0",
+    "poster_metadata": {
+      "id": "north-america-in-motion_stats-and-featurettes",
+      "continent": "North America",
+      "domain": "North America",
+      "poster_type": "Stats & Featurettes",
+      "dimensions": {
+        "width": 6912,
+        "height": 4320,
+        "unit": "px",
+        "source": {
+          "file": "NorthAmerica_StatsFeatures (1) (1).pdf",
+          "note": "Page size from proof PDF (likely exported from a 6912×4320px design canvas)."
+        }
+      },
+      "orientation": "landscape",
+      "display_title": "North America in Motion: From Wild Lands to Winding Roads",
+      "language": "en",
+      "layout_slots": [
+        {
+          "slot_id": "title_top_center",
+          "description": "Main poster title block",
+          "position_rel": {
+            "x": 0.2,
+            "y": 0.02,
+            "w": 0.6,
+            "h": 0.14
+          }
+        },
+        {
+          "slot_id": "featurette_left_top",
+          "description": "Featurette panel (top-left): Wildfires",
+          "position_rel": {
+            "x": 0.01,
+            "y": 0.03,
+            "w": 0.19,
+            "h": 0.44
+          }
+        },
+        {
+          "slot_id": "featurette_left_bottom",
+          "description": "Featurette panel (bottom-left): Suburban Life",
+          "position_rel": {
+            "x": 0.01,
+            "y": 0.5,
+            "w": 0.19,
+            "h": 0.47
+          }
+        },
+        {
+          "slot_id": "map_center",
+          "description": "Main North America map (country palette fills) + background illustration",
+          "position_rel": {
+            "x": 0.2,
+            "y": 0.16,
+            "w": 0.6,
+            "h": 0.8
+          }
+        },
+        {
+          "slot_id": "stats_legend_bottom_left_of_map",
+          "description": "High/Low legend card listing core stats",
+          "position_rel": {
+            "x": 0.23,
+            "y": 0.54,
+            "w": 0.17,
+            "h": 0.43
+          }
+        },
+        {
+          "slot_id": "featurette_right_top",
+          "description": "Featurette panel (top-right): Natural Wealth / Resources & Industry",
+          "position_rel": {
+            "x": 0.8,
+            "y": 0.03,
+            "w": 0.19,
+            "h": 0.44
+          }
+        },
+        {
+          "slot_id": "featurette_right_bottom",
+          "description": "Featurette panel (bottom-right): Roads, Rails, and Rivers",
+          "position_rel": {
+            "x": 0.8,
+            "y": 0.5,
+            "w": 0.19,
+            "h": 0.47
+          }
+        }
+      ],
+      "base_assets": [
+        {
+          "asset_id": "na_background_illustration",
+          "type": "illustration",
+          "role": "Full-bleed scenic background (mountains, farms, road/rail visuals)",
+          "description": "Illustrated landscape background used behind map and around featurettes (from proof poster artwork).",
+          "hyperlinks": {
+            "final_url": null,
+            "url_candidates": []
+          }
+        },
+        {
+          "asset_id": "na_icon_set_maslow_stats",
+          "type": "icon_set",
+          "role": "Green/orange icons used in High/Low legend card",
+          "description": "Icon pair per stat (green vs orange) used to denote high/low exemplars on the legend card.",
+          "hyperlinks": {
+            "final_url": null,
+            "url_candidates": []
+          }
+        }
+      ]
+    },
+    "continent_stats_map": {
+      "map_asset": {
+        "asset_id": "na_main_continent_map",
+        "type": "map",
+        "role": "Central continent map with country labels and palette fills",
+        "aspect_ratio": "approx 3:2",
+        "description": "Political map of North America with each country filled using a fixed palette (not a choropleth by metric). Includes Greenland label.",
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": []
+        }
+      },
+      "palette_by_country": [
+        {
+          "country": "Canada",
+          "color_hex": "#DC3B3B",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "United States",
+          "color_hex": "#0A3161",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Mexico",
+          "color_hex": "#006341",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Guatemala",
+          "color_hex": "#4997d0",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Belize",
+          "color_hex": "#D5DC3B",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "El Salvador",
+          "color_hex": "#933BDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Honduras",
+          "color_hex": "#BD3BDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Nicaragua",
+          "color_hex": "#3B3EDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Costa Rica",
+          "color_hex": "#3BC1DC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Panama",
+          "color_hex": "#3BDC73",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Cuba",
+          "color_hex": "#3BDC9D",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Jamaica",
+          "color_hex": "#3BDCC7",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Haiti",
+          "color_hex": "#77DC3B",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Dominican Republic",
+          "color_hex": "#4DDC3B",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Bahamas",
+          "color_hex": "#3BDC54",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Barbados",
+          "color_hex": "#3BDC7E",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Trinidad and Tobago",
+          "color_hex": "#3BDCA8",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Antigua and Barbuda",
+          "color_hex": "#813BDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Saint Kitts and Nevis",
+          "color_hex": "#AB3BDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Saint Lucia",
+          "color_hex": "#D53BDC",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Saint Vincent and the Grenadines",
+          "color_hex": "#DC3BB9",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Grenada",
+          "color_hex": "#DC3B8F",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Dominica",
+          "color_hex": "#DC3B65",
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "stats map palette",
+            "range": "A:B"
+          }
+        },
+        {
+          "country": "Greenland",
+          "color_hex": "#FFFFFF",
+          "source": {
+            "type": "proof",
+            "file": "NorthAmerica_StatsFeatures (1) (1).pdf",
+            "note": "Appears as unfilled/white in proof map; not listed in stats map palette sheet."
+          }
+        }
+      ],
+      "legend_rules": {
+        "legend_title_text": "HIGH AND LOW LEGEND",
+        "color_semantics": {
+          "green": "High (or positive) exemplar for the row’s statistic",
+          "orange": "Low (or negative) exemplar for the row’s statistic"
+        },
+        "default_rule": "Green icon denotes the 'high' side and orange icon denotes the 'low' side for each statistic.",
+        "exceptions": [
+          {
+            "stat_label": "Lowest Crime Rate",
+            "note": "Crime is phrased so that the 'green/high' exemplar corresponds to lower crime (safer), while the orange/low exemplar corresponds to higher crime."
+          }
+        ],
+        "source": {
+          "type": "proof",
+          "file": "NorthAmerica_StatsFeatures (1) (1).pdf",
+          "location": "High/Low legend card"
+        }
+      },
+      "core_stats_on_map": [
+        {
+          "stat_id": "access_clean_drinking_water",
+          "label": "Access To Clean Drinking Water",
+          "maslow_layer": "Physiological",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "green"
+          },
+          "unit_hint": "% of population",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~99%",
+              "value_numeric": 99.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~99%",
+              "value_numeric": 99.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Haiti",
+              "value_display": "~65%",
+              "value_numeric": 65.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "Guatemala",
+              "value_display": "~93%",
+              "value_numeric": 93.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest Access: Canada (~99%), United States (~99%)",
+            "lowest_countries_values": "Lowest Access: Haiti (~65%), Guatemala (~93%)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "average_caloric_intake",
+          "label": "Average Caloric Intake",
+          "maslow_layer": "Physiological",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "neutral"
+          },
+          "unit_hint": "calories per person per day",
+          "high_exemplars": [
+            {
+              "country": "United States",
+              "value_display": "~3,750 cal",
+              "value_numeric": 3750.0,
+              "unit": "cal",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "Mexico",
+              "value_display": "~3,200 cal",
+              "value_numeric": 3200.0,
+              "unit": "cal",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Haiti",
+              "value_display": "~2,200 cal",
+              "value_numeric": 2200.0,
+              "unit": "cal",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "Nicaragua",
+              "value_display": "~2,450 cal",
+              "value_numeric": 2450.0,
+              "unit": "cal",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest Intake: United States (~3,750 cal), Mexico (~3,200 cal)",
+            "lowest_countries_values": "Lowest Intake: Haiti (~2,200 cal), Nicaragua (~2,450 cal)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "lowest_crime_rate",
+          "label": "Lowest Crime Rate",
+          "maslow_layer": "Safety",
+          "directionality": {
+            "green_side": "lower",
+            "orange_side": "higher",
+            "better_side": "green"
+          },
+          "unit_hint": "crime rate / homicide rate (unspecified)",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": null,
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            },
+            {
+              "country": "Cuba",
+              "value_display": null,
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Honduras",
+              "value_display": "high homicide",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            },
+            {
+              "country": "El Salvador",
+              "value_display": "gang violence",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Lowest Crime: Canada, Cuba",
+            "lowest_countries_values": "Highest Crime: Honduras (high homicide), El Salvador (gang violence)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "access_to_healthcare",
+          "label": "Access To Healthcare",
+          "maslow_layer": "Safety",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "green"
+          },
+          "unit_hint": "% of population",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~99%",
+              "value_numeric": 99.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~91% insured",
+              "value_numeric": 91.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": "insured"
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Haiti",
+              "value_display": "<50%",
+              "value_numeric": 50.0,
+              "unit": "%",
+              "comparator": "<",
+              "note": null
+            },
+            {
+              "country": "Honduras",
+              "value_display": "limited rural access",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest Access: Canada (~99%), US (~91% insured)",
+            "lowest_countries_values": "Lowest Access: Haiti (<50%), Honduras (limited rural access)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "employment_rates",
+          "label": "Employment Rates",
+          "maslow_layer": "Safety/Esteem",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "green"
+          },
+          "unit_hint": "% of population employed / employment rate (unspecified)",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~62%",
+              "value_numeric": 62.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~60%",
+              "value_numeric": 60.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Haiti",
+              "value_display": ">40% unemployment",
+              "value_numeric": 40.0,
+              "unit": "%",
+              "comparator": ">",
+              "note": "unemployment"
+            },
+            {
+              "country": "Nicaragua",
+              "value_display": "high informal sector",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest Rates: Canada (~62%), US (~60%)",
+            "lowest_countries_values": "Lowest Rates: Haiti (>40% unemployment), Nicaragua (high informal sector)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "average_household_size",
+          "label": "Average Household Size",
+          "maslow_layer": "Love/Belonging",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "neutral"
+          },
+          "unit_hint": "persons per household",
+          "high_exemplars": [
+            {
+              "country": "Guatemala",
+              "value_display": "~4.9 persons",
+              "value_numeric": 4.9,
+              "unit": "persons",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "Honduras",
+              "value_display": "~4.5 persons",
+              "value_numeric": 4.5,
+              "unit": "persons",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~2.5 persons",
+              "value_numeric": 2.5,
+              "unit": "persons",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~2.6 persons",
+              "value_numeric": 2.6,
+              "unit": "persons",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Largest: Guatemala (~4.9 persons), Honduras (~4.5 persons)",
+            "lowest_countries_values": "Smallest: Canada (~2.5 persons), US (~2.6 persons)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "volunteer_participation",
+          "label": "Volunteer/Community Service Participation",
+          "maslow_layer": "Love/Belonging",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "green"
+          },
+          "unit_hint": "% of population",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~44%",
+              "value_numeric": 44.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~30%",
+              "value_numeric": 30.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Haiti",
+              "value_display": "low formal volunteering",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            },
+            {
+              "country": "El Salvador",
+              "value_display": "limited data",
+              "value_numeric": null,
+              "unit": null,
+              "comparator": null,
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest Engagement: Canada (~44%), US (~30%)",
+            "lowest_countries_values": "Lowest Engagement: Haiti (low formal volunteering), El Salvador (limited data)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        },
+        {
+          "stat_id": "higher_education_degree_percent",
+          "label": "% Population Higher Education Degree",
+          "maslow_layer": "Esteem",
+          "directionality": {
+            "green_side": "higher",
+            "orange_side": "lower",
+            "better_side": "green"
+          },
+          "unit_hint": "% of adults with tertiary degree",
+          "high_exemplars": [
+            {
+              "country": "Canada",
+              "value_display": "~56%",
+              "value_numeric": 56.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "United States",
+              "value_display": "~48%",
+              "value_numeric": 48.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            }
+          ],
+          "low_exemplars": [
+            {
+              "country": "Honduras",
+              "value_display": "~15%",
+              "value_numeric": 15.0,
+              "unit": "%",
+              "comparator": "~",
+              "note": null
+            },
+            {
+              "country": "Haiti",
+              "value_display": "<10%",
+              "value_numeric": 10.0,
+              "unit": "%",
+              "comparator": "<",
+              "note": null
+            }
+          ],
+          "raw_strings": {
+            "highest_countries_values": "Highest: Canada (~56%), US (~48%)",
+            "lowest_countries_values": "Lowest: Honduras (~15%), Haiti (<10%)"
+          },
+          "source": {
+            "type": "xlsx",
+            "file": "North America Cultural Domain.xlsx",
+            "sheet": "Interesting Statistics",
+            "range": "A3:D12"
+          }
+        }
+      ]
+    },
+    "featurettes": [
+      {
+        "featurette_id": "na_featurette_wildfires",
+        "title": "Fighting the Flames - Wildfires in North America",
+        "position_slot": "featurette_left_top",
+        "body_text": "Wildfires are powerful, fast-spreading fires that burn through forests and grasslands. They happen often in places like California or western Canada, where hot, dry weather turns trees and plants into easy fuel. As Earth’s climate warms, droughts become more common, making it easier for sparks—from lightning or a campfire left unattended—to grow into a raging blaze.\n\nWhen wildfires strike, they can destroy homes, harm wildlife, and fill the air with thick smoke. Firefighters use helicopters, planes, and special tools to contain the flames. Communities plan ahead with fire safety rules, and everyone can help by following local guidelines and using fire responsibly. Together, we can protect people, animals, and our forests from going up in smoke.",
+        "assets": [
+          {
+            "asset_id": "na_ft1_photo_firefighters",
+            "type": "photo",
+            "role": "Featurette header/banner image",
+            "aspect_ratio": "wide banner (approx 3:1)",
+            "description": "Firefighters battling flames in a forested area (used as the header image for the Wildfires featurette).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "Firefighters battling flames",
+                  "url": "https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 5,
+                    "context_paragraph": "Photo: Firefighters battling flames in a forested area."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft1_map_wildfire_risk",
+            "type": "map",
+            "role": "Inset map/graphic",
+            "aspect_ratio": "portrait inset (approx 2:3)",
+            "description": "Map showing areas in the U.S. and Canada at high risk for wildfires.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "Areas in the U.S. and Canada at high risk for wildfires",
+                  "url": "https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&ssl=1",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 4,
+                    "context_paragraph": "Map: Areas in the U.S. and Canada at high risk for wildfires."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft1_chart_climate_wildfire_risk",
+            "type": "chart",
+            "role": "Inset infographic",
+            "aspect_ratio": "portrait inset (approx 2:3)",
+            "description": "Infographic explaining how rising temperatures and drought increase wildfire risk.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "rising temperatures and drought in",
+                  "url": "https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 6,
+                    "context_paragraph": "Infographic (Climate Data): How rising temperatures and drought increase wildfire risk."
+                  }
+                }
+              ]
+            },
+            "chart_spec": {
+              "chart_type": "explanatory infographic / causal chain",
+              "data_table": null,
+              "icon_unit_definitions": [],
+              "layout_notes": "Use a simple left-to-right or top-to-bottom causal flow (temperature ↑ → drought ↑ → dry fuel ↑ → wildfire risk ↑).",
+              "source_links": [
+                {
+                  "anchor_text": "rising temperatures and drought in",
+                  "url": "https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 6,
+                    "context_paragraph": "Infographic (Climate Data): How rising temperatures and drought increase wildfire risk."
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": [],
+          "data_source_links": [
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 6,
+              "featurette_context_paragraph": "Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.",
+              "anchor_text": "rising temperatures and drought in",
+              "url": "https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV",
+              "rId": "rId9",
+              "domain": "www.ucsusa.org",
+              "is_data_source": true,
+              "category": "chart",
+              "featurette_id": "na_featurette_wildfires"
+            }
+          ]
+        }
+      },
+      {
+        "featurette_id": "na_featurette_suburban_life",
+        "title": "Suburban Life – America’s Unique Neighborhoods",
+        "position_slot": "featurette_left_bottom",
+        "body_text": "In the United States, many families choose to live in suburbs—neighborhoods filled with single-family homes, green lawns, and quiet streets just outside big cities. After World War II, more people bought cars and wanted more space. Suburbs grew quickly, and soon millions of Americans were commuting to work from their cozy houses.\n\nIn other countries, more people stay close to downtown, often using trains or buses to get around. In American suburbs, most people rely on cars to reach stores, schools, and offices. While suburbs offer peace and privacy, they can lead to more traffic, more gasoline use, and more pollution. Still, suburbs remain a big part of how many Americans live and shape their everyday lives.",
+        "assets": [
+          {
+            "asset_id": "na_ft2_photo_suburban_street",
+            "type": "photo",
+            "role": "Featurette header/banner image",
+            "aspect_ratio": "wide banner (approx 3:1)",
+            "description": "Typical suburban street with lined-up houses and front yards (header image).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "suburban street with lined-up houses and front yards",
+                  "url": "https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 11,
+                    "context_paragraph": "Photo: A typical suburban street with lined-up houses and front yards."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft2_photo_aerial_sprawl_vs_city_center",
+            "type": "photo",
+            "role": "Inset comparison image(s)",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Aerial imagery illustrating urban sprawl compared to a city center; doc source provides two candidate images.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "urban ",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 12,
+                    "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+                  }
+                },
+                {
+                  "anchor_text": "city center",
+                  "url": "https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 12,
+                    "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft2_map_population_density",
+            "type": "map",
+            "role": "Inset map/graphic",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Map comparing suburban vs. urban population densities (population density data).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "Comparison of suburban vs. urban population",
+                  "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 13,
+                    "context_paragraph": "Map (Population Density Data): Comparison of suburban vs. urban population densities."
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": [],
+          "data_source_links": [
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 13,
+              "featurette_context_paragraph": "Map (Population Density Data): Comparison of suburban vs. urban population densities.",
+              "anchor_text": "Comparison of suburban vs. urban population",
+              "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a",
+              "rId": "rId13",
+              "domain": "www.arcgis.com",
+              "is_data_source": true,
+              "category": "map",
+              "featurette_id": "na_featurette_suburban_life"
+            }
+          ]
+        }
+      },
+      {
+        "featurette_id": "na_featurette_natural_wealth",
+        "title": "America’s Natural Wealth—Resources and Industry",
+        "position_slot": "featurette_right_top",
+        "body_text": "From fertile farmland to underground minerals, the United States holds a treasure chest of natural resources. Rich soils grow abundant crops like wheat and corn. Deep below the surface, oil, gas, and minerals power factories and fuel cars. Skilled workers turn these raw materials into everything from smartphones to skyscrapers.\n\nOver time, these resources helped the U.S. grow into a strong economy, creating jobs and building cities. Farmers feed the nation and the world, miners provide metals for tools and machines, and engineers guide energy from deep underground to light up our homes. By understanding and protecting these resources, people can keep the country thriving for generations.",
+        "assets": [
+          {
+            "asset_id": "na_ft3_photo_grain_field",
+            "type": "photo",
+            "role": "Photo inset (part of resources collage)",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Farm with rolling fields of grain.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "grain",
+                  "url": "https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 19,
+                    "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft3_photo_mine_site",
+            "type": "photo",
+            "role": "Photo inset (part of resources collage)",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Mine site imagery (mining equipment / haul trucks).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "mine ",
+                  "url": "https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 19,
+                    "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft3_photo_oil_well",
+            "type": "photo",
+            "role": "Photo inset (part of resources collage)",
+            "aspect_ratio": "portrait inset (approx 3:4)",
+            "description": "Oil well / drilling imagery.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "oil ",
+                  "url": "https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 19,
+                    "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft3_map_resources",
+            "type": "map",
+            "role": "Inset map/graphic",
+            "aspect_ratio": "row of small map thumbnails",
+            "description": "Map/graphics showing locations of oil fields, coal mines, and farmlands in the U.S. (multiple source links).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "oil ",
+                  "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 18,
+                    "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+                  }
+                },
+                {
+                  "anchor_text": "fields",
+                  "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 18,
+                    "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+                  }
+                },
+                {
+                  "anchor_text": "coal ",
+                  "url": "https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 18,
+                    "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+                  }
+                },
+                {
+                  "anchor_text": "farmlands ",
+                  "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 18,
+                    "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft3_flowchart_raw_materials_to_products",
+            "type": "chart",
+            "role": "Flowchart",
+            "aspect_ratio": "horizontal flow (approx 3:1)",
+            "description": "Flowchart showing how raw materials (like iron ore) become finished products (like cars).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            },
+            "chart_spec": {
+              "chart_type": "flowchart",
+              "data_table": null,
+              "icon_unit_definitions": [],
+              "layout_notes": "Use 4–6 steps: extraction → processing/refining → manufacturing → distribution → end use → recycling (optional).",
+              "source_links": []
+            }
+          }
+        ],
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": [],
+          "data_source_links": [
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 18,
+              "featurette_context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.",
+              "anchor_text": "oil ",
+              "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png",
+              "rId": "rId14",
+              "domain": "www.eia.gov",
+              "is_data_source": true,
+              "category": "map",
+              "featurette_id": "na_featurette_natural_wealth"
+            },
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 18,
+              "featurette_context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.",
+              "anchor_text": "fields",
+              "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png",
+              "rId": "rId15",
+              "domain": "www.eia.gov",
+              "is_data_source": true,
+              "category": "map",
+              "featurette_id": "na_featurette_natural_wealth"
+            },
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 18,
+              "featurette_context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.",
+              "anchor_text": "farmlands ",
+              "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG",
+              "rId": "rId17",
+              "domain": "d9-wret.s3.us-west-2.amazonaws.com",
+              "is_data_source": true,
+              "category": "map",
+              "featurette_id": "na_featurette_natural_wealth"
+            },
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 19,
+              "featurette_context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well.",
+              "anchor_text": "grain",
+              "url": "https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO",
+              "rId": "rId18",
+              "domain": "www.nrcs.usda.gov",
+              "is_data_source": true,
+              "category": "photo",
+              "featurette_id": "na_featurette_natural_wealth"
+            }
+          ]
+        }
+      },
+      {
+        "featurette_id": "na_featurette_transportation_networks",
+        "title": "Roads, Rails, and Rivers – Connecting America",
+        "position_slot": "featurette_right_bottom",
+        "body_text": "Look at a map of North America and you’ll see a web of highways, train tracks, and rivers tying distant places together. The Interstate Highway System lets you drive across the country, while railroads carry heavy loads like coal and grain. Rivers and canals allow ships to move goods cheaply and efficiently, and airplanes link people to far-off cities in just a few hours.\n\nThese transportation networks bring fresh produce to your grocery store, deliver packages to your doorstep, and connect friends and families. Without them, the economy would slow down, and everyday life would be harder. Whether by road, rail, water, or air, these routes keep America’s heart beating and its people moving forward.",
+        "assets": [
+          {
+            "asset_id": "na_ft4_photo_trucking",
+            "type": "photo",
+            "role": "Featurette header/banner image",
+            "aspect_ratio": "wide banner (approx 3:1)",
+            "description": "Highway freight / trucks (header image).",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "busy interstate",
+                  "url": "https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&w=0&k=20&c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 26,
+                    "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft4_photo_freight_train",
+            "type": "photo",
+            "role": "Inset photo",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Freight train imagery passing through farmland.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "freight train",
+                  "url": "https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 26,
+                    "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft4_map_highways_rails_rivers",
+            "type": "map",
+            "role": "Inset map/graphic",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Map of key highways, rail lines, and major rivers in the U.S.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": [
+                {
+                  "anchor_text": "highways",
+                  "url": "https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 25,
+                    "context_paragraph": "Map: Key highways, rail lines, and major rivers in the U.S."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "asset_id": "na_ft4_infographic_freight_by_mode",
+            "type": "chart",
+            "role": "Inset infographic",
+            "aspect_ratio": "landscape inset (approx 4:3)",
+            "description": "Infographic showing the amount of goods carried by trucks, trains, and ships each year.",
+            "hyperlinks": {
+              "final_url": null,
+              "url_candidates": []
+            },
+            "chart_spec": {
+              "chart_type": "comparative chart (likely bar chart) by transport mode",
+              "data_table": null,
+              "icon_unit_definitions": [],
+              "layout_notes": "Compare annual freight moved by mode (truck vs rail vs water/ship). Use consistent units and clear labels; may be a single-year snapshot or time series.",
+              "source_links": [
+                {
+                  "anchor_text": "highways",
+                  "url": "https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png",
+                  "source": {
+                    "type": "docx",
+                    "file": "North America Featurettes.docx",
+                    "paragraph_index": 25,
+                    "context_paragraph": "Map: Key highways, rail lines, and major rivers in the U.S."
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "hyperlinks": {
+          "final_url": null,
+          "url_candidates": [],
+          "data_source_links": [
+            {
+              "source_file": "North America Featurettes.docx",
+              "source_type": "docx",
+              "paragraph_index": 25,
+              "featurette_context_paragraph": "Map: Key highways, rail lines, and major rivers in the U.S.",
+              "anchor_text": "highways",
+              "url": "https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png",
+              "rId": "rId21",
+              "domain": "www.bts.gov",
+              "is_data_source": true,
+              "category": "map",
+              "featurette_id": "na_featurette_transportation_networks"
+            }
+          ]
+        }
+      }
+    ],
+    "hyperlinks": {
+      "photo_links": [
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "Firefighters battling flames",
+          "url": "https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390",
+          "category": "photo",
+          "domain": "image.cnbcfm.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 5,
+            "context_paragraph": "Photo: Firefighters battling flames in a forested area."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "suburban street with lined-up houses and front yards",
+          "url": "https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg",
+          "category": "photo",
+          "domain": "salud-america.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 11,
+            "context_paragraph": "Photo: A typical suburban street with lined-up houses and front yards."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "urban ",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg",
+          "category": "photo",
+          "domain": "upload.wikimedia.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 12,
+            "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "city center",
+          "url": "https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html",
+          "category": "photo",
+          "domain": "www.alamy.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 12,
+            "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "grain",
+          "url": "https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO",
+          "category": "photo",
+          "domain": "www.nrcs.usda.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "mine ",
+          "url": "https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640",
+          "category": "photo",
+          "domain": "www.wyomingmining.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "oil ",
+          "url": "https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg",
+          "category": "photo",
+          "domain": "energyintel.brightspotcdn.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "busy interstate",
+          "url": "https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&w=0&k=20&c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=",
+          "category": "photo",
+          "domain": "media.istockphoto.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 26,
+            "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "freight train",
+          "url": "https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp",
+          "category": "photo",
+          "domain": "www.aar.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 26,
+            "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+          }
+        }
+      ],
+      "map_links": [
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "Areas in the U.S. and Canada at high risk for wildfires",
+          "url": "https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&ssl=1",
+          "category": "map",
+          "domain": "i0.wp.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 4,
+            "context_paragraph": "Map: Areas in the U.S. and Canada at high risk for wildfires."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "Comparison of suburban vs. urban population",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a",
+          "category": "map",
+          "domain": "www.arcgis.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 13,
+            "context_paragraph": "Map (Population Density Data): Comparison of suburban vs. urban population densities."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "oil ",
+          "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png",
+          "category": "map",
+          "domain": "www.eia.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "fields",
+          "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png",
+          "category": "map",
+          "domain": "www.eia.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "coal ",
+          "url": "https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg",
+          "category": "map",
+          "domain": "curtiswrightmaps.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "farmlands ",
+          "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG",
+          "category": "map",
+          "domain": "d9-wret.s3.us-west-2.amazonaws.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "highways",
+          "url": "https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png",
+          "category": "map",
+          "domain": "www.bts.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 25,
+            "context_paragraph": "Map: Key highways, rail lines, and major rivers in the U.S."
+          }
+        }
+      ],
+      "chart_links": [
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "rising temperatures and drought in",
+          "url": "https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV",
+          "category": "chart",
+          "domain": "www.ucsusa.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 6,
+            "context_paragraph": "Infographic (Climate Data): How rising temperatures and drought increase wildfire risk."
+          }
+        }
+      ],
+      "data_source_links": [
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "rising temperatures and drought in",
+          "url": "https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV",
+          "category": "chart",
+          "domain": "www.ucsusa.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 6,
+            "context_paragraph": "Infographic (Climate Data): How rising temperatures and drought increase wildfire risk."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "Comparison of suburban vs. urban population",
+          "url": "https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a",
+          "category": "map",
+          "domain": "www.arcgis.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 13,
+            "context_paragraph": "Map (Population Density Data): Comparison of suburban vs. urban population densities."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "oil ",
+          "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png",
+          "category": "map",
+          "domain": "www.eia.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "fields",
+          "url": "http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png",
+          "category": "map",
+          "domain": "www.eia.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "farmlands ",
+          "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG",
+          "category": "map",
+          "domain": "d9-wret.s3.us-west-2.amazonaws.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "grain",
+          "url": "https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO",
+          "category": "photo",
+          "domain": "www.nrcs.usda.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "highways",
+          "url": "https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png",
+          "category": "map",
+          "domain": "www.bts.gov",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 25,
+            "context_paragraph": "Map: Key highways, rail lines, and major rivers in the U.S."
+          }
+        }
+      ],
+      "example_reference_links": [
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "Areas in the U.S. and Canada at high risk for wildfires",
+          "url": "https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&ssl=1",
+          "category": "map",
+          "domain": "i0.wp.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 4,
+            "context_paragraph": "Map: Areas in the U.S. and Canada at high risk for wildfires."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_wildfires",
+          "anchor_text": "Firefighters battling flames",
+          "url": "https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390",
+          "category": "photo",
+          "domain": "image.cnbcfm.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 5,
+            "context_paragraph": "Photo: Firefighters battling flames in a forested area."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "suburban street with lined-up houses and front yards",
+          "url": "https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg",
+          "category": "photo",
+          "domain": "salud-america.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 11,
+            "context_paragraph": "Photo: A typical suburban street with lined-up houses and front yards."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "urban ",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg",
+          "category": "photo",
+          "domain": "upload.wikimedia.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 12,
+            "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_suburban_life",
+          "anchor_text": "city center",
+          "url": "https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html",
+          "category": "photo",
+          "domain": "www.alamy.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 12,
+            "context_paragraph": "Aerial Photo: Showing urban sprawl compared to a city center."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "coal ",
+          "url": "https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg",
+          "category": "map",
+          "domain": "curtiswrightmaps.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 18,
+            "context_paragraph": "Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "mine ",
+          "url": "https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640",
+          "category": "photo",
+          "domain": "www.wyomingmining.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_natural_wealth",
+          "anchor_text": "oil ",
+          "url": "https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg",
+          "category": "photo",
+          "domain": "energyintel.brightspotcdn.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 19,
+            "context_paragraph": "Photo: A farm with rolling fields of grain, a mine site, and an oil well."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "busy interstate",
+          "url": "https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&w=0&k=20&c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=",
+          "category": "photo",
+          "domain": "media.istockphoto.com",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 26,
+            "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+          }
+        },
+        {
+          "featurette_id": "na_featurette_transportation_networks",
+          "anchor_text": "freight train",
+          "url": "https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp",
+          "category": "photo",
+          "domain": "www.aar.org",
+          "source": {
+            "type": "docx",
+            "file": "North America Featurettes.docx",
+            "paragraph_index": 26,
+            "context_paragraph": "Photo: A busy interstate highway and a freight train passing through farmland."
+          }
+        }
+      ]
+    },
+    "supplemental_stats_for_app": [
+      {
+        "stat_id": "fluoridated_water_us",
+        "label": "Fluoridated community water systems (United States)",
+        "value_display": "≈74% of the population served by community water systems receives fluoridated water",
+        "maslow_layer": "Physiological",
+        "why_it_matters": "Connects to 'Access To Clean Drinking Water' by highlighting a distinctive public-health water treatment practice.",
+        "source": {
+          "type": "docx",
+          "file": "North America Stats.docx",
+          "section": "Access to Clean Drinking Water → Oddball Statistic: Fluoridated Water"
+        }
+      },
+      {
+        "stat_id": "medical_debt_us",
+        "label": "Medical debt (United States)",
+        "value_display": "≈17% of individuals affected by medical debt",
+        "maslow_layer": "Safety",
+        "why_it_matters": "Adds nuance to 'Access To Healthcare' by separating availability of care from affordability.",
+        "source": {
+          "type": "docx",
+          "file": "North America Stats.docx",
+          "section": "% Population with Access to Healthcare Services → Oddball Statistic: Medical Debt"
+        }
+      },
+      {
+        "stat_id": "gig_economy_us",
+        "label": "Gig economy participation (United States)",
+        "value_display": "≈36% of the workforce engaged in freelance/contract work (as of 2020)",
+        "maslow_layer": "Safety/Esteem",
+        "why_it_matters": "Provides context for 'Employment Rates' by noting the role of non-traditional work arrangements.",
+        "source": {
+          "type": "docx",
+          "file": "North America Stats.docx",
+          "section": "Employment Rate or Economic Participation Rate → Oddball Statistic: Gig Economy"
+        }
+      }
+    ],
+    "validation_and_todos": [
+      {
+        "id": "todo_dimensions_physical",
+        "severity": "todo",
+        "description": "Physical print dimensions (inches) and bleed/safe margins are not explicitly provided; only pixel canvas size was inferred from the proof PDF."
+      },
+      {
+        "id": "todo_greenland_palette",
+        "severity": "todo",
+        "description": "Greenland appears on the proof map but is not present in the 'stats map palette' sheet. Added as #FFFFFF based on the proof; confirm intended treatment (exclude, gray, or link to Denmark)."
+      },
+      {
+        "id": "todo_chart_data_tables",
+        "severity": "todo",
+        "description": "Infographics/mini-maps referenced in featurettes do not include finalized data tables in the provided files (no graphs-stuff doc). If charts are to be data-driven, provide datasets and units for wildfire risk, population density, resource locations, and freight by mode."
+      },
+      {
+        "id": "warning_metric_definitions",
+        "severity": "warning",
+        "description": "Some core stats use mixed or qualitative definitions (e.g., 'Crime Rate' described via 'high homicide' and 'gang violence'; 'Employment Rate' low exemplar includes unemployment and informal sector). Consider normalizing definitions/units for consistency across continents."
+      },
+      {
+        "id": "warning_photo_licensing",
+        "severity": "warning",
+        "description": "Several linked image sources appear to be commercial or media outlets (e.g., Alamy, iStock, CNBC). Confirm licensing/usage rights or replace with appropriately licensed imagery."
+      },
+      {
+        "id": "todo_main_map_source_file",
+        "severity": "todo",
+        "description": "No separate vector/source file for the main continent map was provided (only the poster proof). For downstream use, provide the editable map asset (SVG/AI) and label layer data."
+      }
+    ],
+    "provenance": {
+      "generated_at_utc": "2025-12-30T19:59:14+00:00",
+      "files_used": [
+        {
+          "file": "NorthAmerica_StatsFeatures (1) (1).pdf",
+          "role": "proof_poster_primary_copy_and_layout_reference"
+        },
+        {
+          "file": "North America Cultural Domain.xlsx",
+          "role": "source_of_interesting_stats_table_and_stats_map_palette"
+        },
+        {
+          "file": "North America Featurettes.docx",
+          "role": "source_of_hyperlinks_for_photos_maps_and_infographics"
+        },
+        {
+          "file": "North America Stats.docx",
+          "role": "source_of_supplemental_oddball_stats_for_app"
+        }
+      ]
+    }
+  }
+}

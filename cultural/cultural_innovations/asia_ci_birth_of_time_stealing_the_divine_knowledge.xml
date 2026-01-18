@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/cultural innovations/asia_ci_birth_of_time_stealing_the_divine_knowledge.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__cultural_innovations__asia__asia_ci_birth_of_time_stealing_the_divine_knowledge</poster_id>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<KaycliffPosterPackage schemaVersion="kaycliff.atlastrail.poster_package.v1" generatedAt="2025-12-30T03:18:05.567461+00:00">
+  <PosterMeta>
+    <PosterId>asia_ci_birth_of_time_stealing_the_divine_knowledge</PosterId>
+    <Continent>Asia</Continent>
+    <Domain>Cultural Innovation</Domain>
+    <PosterType>Main Feature</PosterType>
+    <Title>The Birth of Time: Stealing the Divine Knowledge</Title>
+    <RecommendedPrintSizeInches>
+      <Width>96</Width>
+      <Height>60</Height>
+    </RecommendedPrintSizeInches>
+    <AspectRatio>8:5</AspectRatio>
+  </PosterMeta>
+  <SourceFiles>
+    <File role="background_and_prompts">Redo on asia cultural innovations.docx</File>
+    <File role="design_spreadsheet">Asia cultural innovations Final Answer.xlsx</File>
+    <File role="concept_render">asia ci concept.jpg</File>
+  </SourceFiles>
+  <ReferenceRender>
+    <ImageRef>img_concept_reference</ImageRef>
+  </ReferenceRender>
+  <Assets>
+    <Images>
+      <Image id="img_concept_reference" status="provided">
+        <AssetId>concept_reference_render</AssetId>
+        <ContentType>Concept Reference Render</ContentType>
+        <Placement>Reference Only</Placement>
+        <ApproxSize/>
+        <Purpose>Visual reference for Asia CI draft layout.</Purpose>
+        <Format>Raster image (JPEG)</Format>
+        <AiFriendly/>
+        <Notes>Local file captured from NanoBanana Pro draft.</Notes>
+        <SourceUrl/>
+        <LocalFilename>asia ci concept.jpg</LocalFilename>
+      </Image>
+      <Image id="img_left_top_sacred_gaze" status="provided">
+        <AssetId>left_top_prehistoric_stargazing</AssetId>
+        <ContentType>Left Column Top Image (Prehistoric Stargazing)</ContentType>
+        <Placement>Left Column (Top Panel)</Placement>
+        <ApproxSize>~1/3 of left column</ApproxSize>
+        <Purpose>Establish early celestial observation as the root of timekeeping.</Purpose>
+        <Format>Artwork/Illustration</Format>
+        <AiFriendly>Yes</AiFriendly>
+        <Notes/>
+        <SourceUrl>https://cdn.midjourney.com/ecac401d-dc15-4117-91e6-356973e2713b/0_0.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_left_moon_phase_diagram" status="provided">
+        <AssetId>moon_phase_diagram_reference</AssetId>
+        <ContentType>Moon Phase Diagram</ContentType>
+        <Placement>Left Column (Middle Diagram)</Placement>
+        <ApproxSize>~1/4 of left column</ApproxSize>
+        <Purpose>Quick visual of lunar phases; supports text on early calendars.</Purpose>
+        <Format>Diagram/Reference Image</Format>
+        <AiFriendly>No (license dependent)</AiFriendly>
+        <Notes>Ensure licensing/attribution if using stock imagery; designer may rebuild as vector.</Notes>
+        <SourceUrl>https://media.istockphoto.com/id/1485858034/photo/waning-crescent-third-quarter-waning-gibbous-full-moon-waxing-gibbous-first-quarter-and.jpg?s=2048x2048&amp;w=is&amp;k=20&amp;c=tMA3l3Kv7PIa4OkSiwUeQg-bNl32FTNs8g6RAVxGzXw=</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_left_bottom_counting_heavens" status="provided">
+        <AssetId>left_bottom_zygurrat_observation</AssetId>
+        <ContentType>Left Column Bottom Image (Ziggurat Observation)</ContentType>
+        <Placement>Left Column (Bottom Panel)</Placement>
+        <ApproxSize>~1/3 of left column</ApproxSize>
+        <Purpose>Show organized priestly observation and the emergence of structured time systems.</Purpose>
+        <Format>Artwork/Illustration</Format>
+        <AiFriendly>Yes</AiFriendly>
+        <Notes/>
+        <SourceUrl>https://cdn.midjourney.com/bc7fc0fb-e763-40db-a85a-8267ba58c514/0_0.png</SourceUrl>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_inset_base60_hands_graphic" status="missing">
+        <AssetId>inset_base60_finger_counting_graphic</AssetId>
+        <ContentType>Inset Graphic: Base-60 Finger Counting (Hands)</ContentType>
+        <Placement>Left Column (Inset / Overlay)</Placement>
+        <ApproxSize>Small inset</ApproxSize>
+        <Purpose>Explain base-60 visually (hand counting / finger-joint method).</Purpose>
+        <Format>Infographic/Illustration</Format>
+        <AiFriendly>Yes</AiFriendly>
+        <Notes>Spreadsheet note suggests including an existing 'hands graphic' here; not supplied in current uploads.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_seconds" status="missing">
+        <AssetId>kidu_panel_image_seconds</AssetId>
+        <ContentType>Kidu Panel Image (Seconds)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s seconds timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_minutes" status="missing">
+        <AssetId>kidu_panel_image_minutes</AssetId>
+        <ContentType>Kidu Panel Image (Minutes)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s minutes timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_hours" status="missing">
+        <AssetId>kidu_panel_image_hours</AssetId>
+        <ContentType>Kidu Panel Image (Hours)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s hours timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_day" status="missing">
+        <AssetId>kidu_panel_image_day</AssetId>
+        <ContentType>Kidu Panel Image (Day)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s day timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_month" status="missing">
+        <AssetId>kidu_panel_image_month</AssetId>
+        <ContentType>Kidu Panel Image (Month)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s month timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_kidu_year" status="missing">
+        <AssetId>kidu_panel_image_year</AssetId>
+        <ContentType>Kidu Panel Image (Year)</ContentType>
+        <Placement>Center Column (Kidu Stack)</Placement>
+        <ApproxSize>~1/6 of center column each</ApproxSize>
+        <Purpose>Visual supporting Kidu’s year timekeeping panel.</Purpose>
+        <Format>Photo or AI artwork</Format>
+        <AiFriendly/>
+        <Notes>Placeholder: locate final image in Dropbox 'kidu' folder (see ref_kidu_dropbox_folder) or supply local file.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_comparative_calendar_timeline" status="missing">
+        <AssetId>comparative_calendar_vector_graphic</AssetId>
+        <ContentType>Comparative Calendar Graphic (Vector)</ContentType>
+        <Placement>Right Column (Full Height)</Placement>
+        <ApproxSize>Full right column</ApproxSize>
+        <Purpose>Designer-built graphic comparing solar (Gregorian) and lunisolar (e.g., Hebrew) months against seasons; include leap-month rules and key holiday call-outs as needed.</Purpose>
+        <Format>Vector/Infographic</Format>
+        <AiFriendly>No</AiFriendly>
+        <Notes>Build from 'Right Column' sheet specs; treat as an InDesign/Illustrator vector deliverable.</Notes>
+        <SourceUrl/>
+        <LocalFilename/>
+      </Image>
+      <Image id="img_reference_hebrew_calendar" status="provided">
+        <AssetId>reference_hebrew_calendar_example</AssetId>
+        <ContentType>Reference: Hebrew/Jewish Calendar Graphic Example</ContentType>
+        <Placement>Reference Only</Placement>
+        <ApproxSize/>
+        <Purpose>Reference image for structure/visual logic of the comparative calendar layout.</Purpose>
+        <Format>Raster image (JPEG)</Format>
+        <AiFriendly/>
+        <Notes>Reference only; do not use directly unless licensing permits.</Notes>
+        <SourceUrl>https://study.com/cimages/multimages/16/hebrew___jewish_calendar7552771381346653344.jpg</SourceUrl>
+        <LocalFilename/>
+      </Image>
+    </Images>
+    <References>
+      <Reference id="ref_kidu_dropbox_folder">
+        <Description>Dropbox folder referenced in the organizer for center-column (Kidu) scene images.</Description>
+        <SourceUrl>https://www.dropbox.com/scl/fo/kuae2tx7iec9746a6m9uu/AG8gp_pXyeOtxA6_-n74Pe0?rlkey=wskt8z305q9vqlrnasgn7sgyd&amp;st=81r335sr&amp;dl=0</SourceUrl>
+      </Reference>
+      <Reference id="ref_comparative_calendar_example">
+        <Description>Reference image used as a structural example for the comparative calendar graphic.</Description>
+        <SourceUrl>https://study.com/cimages/multimages/16/hebrew___jewish_calendar7552771381346653344.jpg</SourceUrl>
+      </Reference>
+      <Reference id="ref_stellarium_web">
+        <Description>Optional resource for generating accurate sky charts (vector-friendly). Mentioned in the Asia redo doc.</Description>
+        <SourceUrl>https://stellarium-web.org/</SourceUrl>
+      </Reference>
+    </References>
+  </Assets>
+  <Copy>
+    <TextBlocks>
+      <TextBlock id="txt_title_main" role="header_main" optional="false">
+        <Body>The Birth of Time</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+      <TextBlock id="txt_title_subtitle" role="header_subtitle" optional="false">
+        <Body>Stealing the Divine Knowledge</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+      <TextBlock id="txt_left_section_heading" role="section_heading" optional="false">
+        <Body>Prehistoric &amp; Early Sumerian Observations: The Sacred Gaze</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+      <TextBlock id="txt_left_top_image" role="panel_caption" optional="false">
+        <Heading>&quot;By the light of the stars” </Heading>
+        <Body>Early humans observe repeating patterns in the sky, laying the groundwork for the first calendars.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Left Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_moon_phase_diagram" role="panel_caption" optional="false">
+        <Heading>Moon Phase Diagram</Heading>
+        <Body>Long before clocks or written dates, early hunters and gatherers watched the Moon grow, shrink, and vanish in a steady cycle. By noting how many “big moons” passed, they could tell when seasons changed—time to follow migrating herds, gather ripening berries, or plan the next campsite. The Moon’s shining calendar turned the night sky into a guide for survival.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Left Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_left_bottom_image" role="panel_caption" optional="false">
+        <Heading>Counting the Heavens</Heading>
+        <Body>Sumerian priests on a ziggurat track lunar months and solar movements. Their base-60 counting system (using 60 as a key number) gave us 60 seconds in a minute and 60 minutes in an hour</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Left Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_center_section_heading" role="section_heading" optional="false">
+        <Body>Kidu’s Journey: Forging the Divine System</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_seconds" role="kidu_step" optional="false">
+        <Heading>Seconds</Heading>
+        <Body>“Sixty drops and my clay pot is full—perfect for one short reading.”
+Uses a water clock to measure a quick lesson for apprentices.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_minutes" role="kidu_step" optional="false">
+        <Heading>Minutes</Heading>
+        <Body>“One pebble each minute—by the sixtieth pebble the courtyard is swept.”
+Oversees chores; easy fractions (½ = 30 min, ¼ = 15 min) split the work.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_hours" role="kidu_step" optional="false">
+        <Heading>Hours</Heading>
+        <Body>“Third hour of daylight—market scales open!”
+Announces when traders may begin selling grain.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_day" role="kidu_step" optional="false">
+        <Heading>Day</Heading>
+        <Body>“Sunset closes the ledger; tomorrow’s page starts at first light.”
+Files daily records and plans the next day’s schedule.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_month" role="kidu_step" optional="false">
+        <Heading>Month</Heading>
+        <Body>“A slim silver crescent means a new month—farmers, sharpen your plows.”
+Marks the first visible crescent Moon to start the lunar month and signal planting.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_kidu_year" role="kidu_step" optional="false">
+        <Heading>Year</Heading>
+        <Body>“Twelve big Moons have passed; time to tally storehouses and plan the river cleanup.”
+Uses the lunar count to schedule annual projects and civic festivals.</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_callout_days_to_months" role="callout" optional="false">
+        <Heading>Days to Months</Heading>
+        <Body>≈29.5 days = 1 lunar month</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_callout_months_to_years" role="callout" optional="false">
+        <Heading>Months to Years</Heading>
+        <Body>12 lunar months ≈ 1 year</Body>
+        <Source>Asia cultural innovations Final Answer.xlsx (Center Column)</Source>
+      </TextBlock>
+      <TextBlock id="txt_right_section_heading" role="section_heading" optional="false">
+        <Body>Evolution to Modern Calendars: A Sacred Comparative Timeline</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+      <TextBlock id="txt_global_legacy" role="caption" optional="false">
+        <Heading>A Global Legacy</Heading>
+        <Body>From the Sumerian base‑60 system to modern time divisions and calendar structures, the ancient quest to measure time continues to shape our world.</Body>
+        <Source>asia ci concept.jpg</Source>
+      </TextBlock>
+    </TextBlocks>
+    <ReflectionQuestions/>
+    <Notes>
+      <Note>Center-column Kidu images are intentionally left as placeholders if Dropbox assets are not accessible; see assets.references.ref_kidu_dropbox_folder.</Note>
+      <Note>Right-column comparative calendar is intended as a designer-built vector infographic; a reference image is included as assets.images.img_reference_hebrew_calendar.</Note>
+    </Notes>
+  </Copy>
+  <Layout>
+    <LayoutConcept>Three-column layout: left observational panels + moon phase diagram, center Kidu timekeeping stack, right comparative calendar infographic.</LayoutConcept>
+    <Regions>
+      <Region id="region_header" role="header">
+        <Components>
+          <Component type="text">
+            <TextRef>txt_title_main</TextRef>
+          </Component>
+          <Component type="text">
+            <TextRef>txt_title_subtitle</TextRef>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_left_observations" role="left_column">
+        <Components>
+          <Component type="text">
+            <TextRef>txt_left_section_heading</TextRef>
+          </Component>
+          <Component type="panel" order="1">
+            <TextRef>txt_left_top_image</TextRef>
+            <ImageRef>img_left_top_sacred_gaze</ImageRef>
+          </Component>
+          <Component type="panel" order="2">
+            <TextRef>txt_moon_phase_diagram</TextRef>
+            <ImageRef>img_left_moon_phase_diagram</ImageRef>
+          </Component>
+          <Component type="panel" order="3">
+            <TextRef>txt_left_bottom_image</TextRef>
+            <ImageRef>img_left_bottom_counting_heavens</ImageRef>
+          </Component>
+          <Component type="inset_optional">
+            <ImageRef>img_inset_base60_hands_graphic</ImageRef>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_center_kidu" role="center_column">
+        <Components>
+          <Component type="text">
+            <TextRef>txt_center_section_heading</TextRef>
+          </Component>
+          <Component type="kidu_step" order="1">
+            <TextRef>txt_kidu_seconds</TextRef>
+            <ImageRef>img_kidu_seconds</ImageRef>
+          </Component>
+          <Component type="kidu_step" order="2">
+            <TextRef>txt_kidu_minutes</TextRef>
+            <ImageRef>img_kidu_minutes</ImageRef>
+          </Component>
+          <Component type="kidu_step" order="3">
+            <TextRef>txt_kidu_hours</TextRef>
+            <ImageRef>img_kidu_hours</ImageRef>
+          </Component>
+          <Component type="kidu_step" order="4">
+            <TextRef>txt_kidu_day</TextRef>
+            <ImageRef>img_kidu_day</ImageRef>
+          </Component>
+          <Component type="kidu_step" order="5">
+            <TextRef>txt_kidu_month</TextRef>
+            <ImageRef>img_kidu_month</ImageRef>
+          </Component>
+          <Component type="kidu_step" order="6">
+            <TextRef>txt_kidu_year</TextRef>
+            <ImageRef>img_kidu_year</ImageRef>
+          </Component>
+          <Component type="callout" order="7">
+            <TextRef>txt_callout_days_to_months</TextRef>
+          </Component>
+          <Component type="callout" order="8">
+            <TextRef>txt_callout_months_to_years</TextRef>
+          </Component>
+        </Components>
+      </Region>
+      <Region id="region_right_comparative" role="right_column">
+        <Components>
+          <Component type="text">
+            <TextRef>txt_right_section_heading</TextRef>
+          </Component>
+          <Component type="image">
+            <ImageRef>img_comparative_calendar_timeline</ImageRef>
+          </Component>
+          <Component type="text">
+            <TextRef>txt_global_legacy</TextRef>
+          </Component>
+        </Components>
+      </Region>
+    </Regions>
+    <ReadingOrder>
+      <RegionRef>region_header</RegionRef>
+      <RegionRef>region_left_observations</RegionRef>
+      <RegionRef>region_center_kidu</RegionRef>
+      <RegionRef>region_right_comparative</RegionRef>
+    </ReadingOrder>
+  </Layout>
+  <DesignerGuidance>
+    <DesignObjectivesAndSummary>This Asia poster packages the cultural innovation of timekeeping: early sky observation, the Sumerian base‑60 counting legacy, and a designer-built comparative calendar graphic showing how lunisolar systems drift against solar months.</DesignObjectivesAndSummary>
+    <KeyDesignObjectives>
+      <Objective name="Left Column (Sacred Gaze)">
+        <Item>Cosmic/temple atmosphere; clearly communicate observation → measurement.</Item>
+        <Item>Keep captions short and readable at distance; use strong contrast on dark backgrounds.</Item>
+      </Objective>
+      <Objective name="Center Column (Kidu)">
+        <Item>Stacked narrative panels for each unit (seconds → year).</Item>
+        <Item>Reserve space for voice-bubble captions and short explainer line per panel.</Item>
+      </Objective>
+      <Objective name="Right Column (Comparative Calendar Graphic)">
+        <Item>Use a vertical seasons ribbon to anchor both calendars.</Item>
+        <Item>Show Gregorian solar months on one side and a lunisolar month system on the other; include clear leap-month indication.</Item>
+      </Objective>
+    </KeyDesignObjectives>
+    <NotesFromSpreadsheet>
+      <Section name="comparative_calendar_spec">
+        <Item>See 'Right Column' sheet: seasons ribbon, Gregorian blocks, Hebrew blocks, leap indicators, and call-outs.</Item>
+      </Section>
+    </NotesFromSpreadsheet>
+  </DesignerGuidance>
+  <Provenance>
+    <Generated>
+      <GeneratedBy>ChatGPT</GeneratedBy>
+      <GeneratedAt>2025-12-30T03:18:05.567461+00:00</GeneratedAt>
+    </Generated>
+    <SourceFiles>
+      <File role="concept_image">
+        <Filename>asia ci concept.jpg</Filename>
+        <SizeBytes>984321</SizeBytes>
+        <SHA256>8c35132effc26f1fe44d38e462f53ba63641f5ff0b6f6df08bdbcbbe0c4ee090</SHA256>
+      </File>
+      <File role="design_spreadsheet">
+        <Filename>Asia cultural innovations Final Answer.xlsx</Filename>
+        <SizeBytes>12026</SizeBytes>
+        <SHA256>139765b771126e13d4e09408c5f25dad024e780cac63fcaf343d4d03af6fb4a7</SHA256>
+      </File>
+      <File role="background_docx">
+        <Filename>Redo on asia cultural innovations.docx</Filename>
+        <SizeBytes>15649</SizeBytes>
+        <SHA256>13378dd5b3fa6105a00853e73444e193dc5e3aaa75a5351d3ef17b0b14e2fa8e</SHA256>
+      </File>
+    </SourceFiles>
+  </Provenance>
+</KaycliffPosterPackage>
+]]></payload_xml>
+</normalized_poster>

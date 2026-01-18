@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:23Z</normalized_at>
+    <input_relpath>cultural/character narratives/Asia_DayInTheLife.poster.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__character_narratives__asia__asia_dayinthelife_poster</poster_id>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" ?>
+<KaycliffAtlasTrailPoster schema="kaycliff.atlastrail.poster.v1" generatedUtc="2025-12-29T00:16:24+00:00">
+  <Poster id="ASI_DAY_IN_LIFE" continent="Asia" type="day_in_the_life">
+    <DisplayTitle>A Day In The Life.</DisplayTitle>
+    <ThemeTitle>Voices under Infinite Skies</ThemeTitle>
+    <Size width="96.0" height="60.0" orientation="landscape"/>
+    <LayoutTemplate name="DayInTheLife_v1" units="in">
+      <Notes>Layout based on the Africa_ADayInTheLife.jpg draft (layout reference only; character content populated from new_prompts.xlsx + Asia.docx).</Notes>
+      <Margins left="1.0" right="1.0" top="1.0" bottom="1.0"/>
+      <Header x="1.5" y="0.8" w="55.0" h="4.8" style="Title_Script">
+        <TitleText>A Day In The Life.</TitleText>
+        <Notes>Handwritten/script title at top-left over a muted world-map background.</Notes>
+      </Header>
+      <Content yStart="6.5" rowGap="0.5" rows="3">
+        <LeftInfoPanel w="22.0" innerPadding="0.6"/>
+        <Grid columns="6" colGap="1.0" imageSize="11.0" captionHeight="4.5" captionStyle="Caption_Sans_Small" imageStyle="Image_With_Thin_White_Border"/>
+        <GridNotes>Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption.</GridNotes>
+      </Content>
+    </LayoutTemplate>
+    <SourceFiles>
+      <Captions file="new_prompts.xlsx" sheet="Asia" columnUsed="Option B – 1st Person" path="/mnt/data/new_prompts.xlsx"/>
+      <PromptsAndImageLinks file="Asia.docx" path="/mnt/data/Asia.docx"/>
+      <ResearchKeywords file="character narratives.docx" path="/mnt/data/character narratives.docx"/>
+    </SourceFiles>
+    <Characters>
+      <Character id="ASI_ANJALI" name="Anjali" country="India" roleOrCulture="Rural Rajasthan Student" flagEmoji="🇮🇳" flagIso2="IN">
+        <Label>
+          <Headline>Anjali</Headline>
+          <Subhead>A Girl from Rural Rajasthan, India</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Anjali is a 16-year-old girl from rural Rajasthan, India. Indian culture is diverse, but in rural Rajasthan, traditions, community, and extended family life are prominent.</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I dust the pan with flour; the sweet smell of chapatis makes my stomach growl and my heart smile.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S01" recommendedFilename="ASI_ANJALI_S01.png" source="Asia.docx" altText="Anjali: Rajasthan village kitchen at dawn (India)." url="https://cdn.midjourney.com/d44d81af-a2ca-441d-8048-2990613f532a/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Rajasthan village kitchen at dawn; early teen Indian student helping cook chapatis on a tawa with her mother nearby; medium shot; eye‑line toward the doorway with a calm, hopeful smile; clear cultural anchors: steel tawa, rolling pin, spice tins, marigold strings by the door; environmental cues: cool blue pre‑sunrise window light; motion cues: steam wisps and chapati puff; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/125 s; lighting: soft window sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Rural Indian girl morning tasks</Keyword>
+                <Keyword>Indian girl fetching water pots</Keyword>
+                <Keyword>Clay water pots village life</Keyword>
+                <Keyword>Early morning light Rajasthan</Keyword>
+                <Keyword>Traditional Indian outdoor cooking</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 1: Rajasthan village kitchen at dawn; early teen Indian student helping cook chapatis on a tawa with her mother nearby; medium shot; eye‑line toward the doorway with a calm, hopeful smile; clear cultural anchors: steel tawa, rolling pin, spice tins, marigold strings by the door; environmental cues: cool blue pre‑sunrise window light; motion cues: steam wisps and chapati puff; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/125 s; lighting: soft window sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/d44d81af-a2ca-441d-8048-2990613f532a/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 1: Rajasthan village kitchen at dawn; early teen Indian student helping cook chapatis on a tawa with her mother nearby; medium shot; eye‑line toward the doorway with a calm, hopeful smile; clear cultural anchors: steel tawa, rolling pin, spice tins, marigold strings by the door; environmental cues: cool blue pre‑sunrise window light; motion cues: steam wisps and chapati puff; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 800, 1/125 s; lighting: soft window sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Rain soaks my shoes, but puddle-hopping with my friends turns the gray street into a playground.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S02" recommendedFilename="ASI_ANJALI_S02.png" source="Asia.docx" altText="Anjali: Rural lane in light monsoon rain (India)." url="https://cdn.midjourney.com/02c5af61-a941-4b93-8600-02d1ce33f3f6/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Rural lane in light monsoon rain; early teen Indian student in modest school uniform walking with classmates under a shared umbrella, billy goat and scooter in background; medium‑wide; eye‑line past camera toward the schoolyard with a determined, cheerful expression; cultural anchors: woven schoolbag, bangles, roadside tea stall; environmental cues: puddles, misty trees; motion cues: raindrop splashes and skirt swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/500 s; lighting: overcast softbox sky; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Indian children walking to school</Keyword>
+                <Keyword>Village paths India</Keyword>
+                <Keyword>Rural school uniforms India</Keyword>
+                <Keyword>Girl with backpack Indian village</Keyword>
+                <Keyword>Desert road Rajasthan school route</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 2: Rural lane in light monsoon rain; early teen Indian student in modest school uniform walking with classmates under a shared umbrella, billy goat and scooter in background; medium‑wide; eye‑line past camera toward the schoolyard with a determined, cheerful expression; cultural anchors: woven schoolbag, bangles, roadside tea stall; environmental cues: puddles, misty trees; motion cues: raindrop splashes and skirt swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/500 s; lighting: overcast softbox sky; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/02c5af61-a941-4b93-8600-02d1ce33f3f6/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 2: Rural lane in light monsoon rain; early teen Indian student in modest school uniform walking with classmates under a shared umbrella, billy goat and scooter in background; medium‑wide; eye‑line past camera toward the schoolyard with a determined, cheerful expression; cultural anchors: woven schoolbag, bangles, roadside tea stall; environmental cues: puddles, misty trees; motion cues: raindrop splashes and skirt swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/500 s; lighting: overcast softbox sky; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>My hand shoots up—I love the spark when the right answer clicks and the room lights up.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S03" recommendedFilename="ASI_ANJALI_S03.png" source="Asia.docx" altText="Anjali: Sunlit classroom (India)." url="https://cdn.midjourney.com/a33aaa93-88e2-40a5-a288-4bd265041797/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Sunlit classroom; early teen Indian student solving a geometry problem at her desk, teacher’s hand pointing at a blackboard diagram; medium framing; eye‑line to blackboard with focused, bright confidence; anchors: slate board, chalk, compass, indigo notebook; environment: white‑washed walls, ceiling fans; motion: chalk dust motes; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: cross‑light from tall windows; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Rural Indian classroom</Keyword>
+                <Keyword>Indian teacher with students</Keyword>
+                <Keyword>Chalkboard and students rural India</Keyword>
+                <Keyword>Children learning in simple school settings</Keyword>
+                <Keyword>School notebooks India classroom</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 3: Sunlit classroom; early teen Indian student solving a geometry problem at her desk, teacher’s hand pointing at a blackboard diagram; medium framing; eye‑line to blackboard with focused, bright confidence; anchors: slate board, chalk, compass, indigo notebook; environment: white‑washed walls, ceiling fans; motion: chalk dust motes; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: cross‑light from tall windows; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/a33aaa93-88e2-40a5-a288-4bd265041797/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 3: Sunlit classroom; early teen Indian student solving a geometry problem at her desk, teacher’s hand pointing at a blackboard diagram; medium framing; eye‑line to blackboard with focused, bright confidence; anchors: slate board, chalk, compass, indigo notebook; environment: white‑washed walls, ceiling fans; motion: chalk dust motes; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/250 s; lighting: cross‑light from tall windows; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>We trade snacks under the giant tree; every bite and giggle tastes of friendship.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S04" recommendedFilename="ASI_ANJALI_S04.png" source="Asia.docx" altText="Anjali: School courtyard under a neem tree (India)." url="https://cdn.midjourney.com/ba504d6c-7d70-44eb-967a-85e2abf8e6a8/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>School courtyard under a neem tree; early teen Indian student sharing rotis and mango slices with friends; medium shot; eye‑line glancing to lens with a quick, natural smile; anchors: stainless tiffins, cloth napkins, braided friendship thread; environment: dappled shade, brick school; motion: leaf flutter and hand gestures; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: open shade with sun‑kissed rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Indian girl helping in fields</Keyword>
+                <Keyword>Rural Indian farming with cattle</Keyword>
+                <Keyword>Wheat harvesting Rajasthan</Keyword>
+                <Keyword>Indian agriculture village life</Keyword>
+                <Keyword>Girl working under the sun farm setting</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 4: School courtyard under a neem tree; early teen Indian student sharing rotis and mango slices with friends; medium shot; eye‑line glancing to lens with a quick, natural smile; anchors: stainless tiffins, cloth napkins, braided friendship thread; environment: dappled shade, brick school; motion: leaf flutter and hand gestures; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: open shade with sun‑kissed rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/ba504d6c-7d70-44eb-967a-85e2abf8e6a8/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 4: School courtyard under a neem tree; early teen Indian student sharing rotis and mango slices with friends; medium shot; eye‑line glancing to lens with a quick, natural smile; anchors: stainless tiffins, cloth napkins, braided friendship thread; environment: dappled shade, brick school; motion: leaf flutter and hand gestures; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: open shade with sun‑kissed rim; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Kneeling on cool stone, I pour bright colors into patterns that tell our story.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S05" recommendedFilename="ASI_ANJALI_S05.png" source="Asia.docx" altText="Anjali: Village veranda (India)." url="https://cdn.midjourney.com/97a10045-c90a-40f5-8650-6808f8a2b187/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Village veranda; early teen Indian student arranging marigold garlands and colored rangoli powders at the doorstep; medium shot; eye‑line past camera toward an older relative guiding her, with a proud, excited smile; anchors: brass thali, unlit diyas, henna cones; environment: warm golden hour; motion: petals falling, powder sift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: warm side‑sun; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Indian girl making Rangoli</Keyword>
+                <Keyword>Colorful Rangoli patterns traditional</Keyword>
+                <Keyword>Indian festival courtyard decorations</Keyword>
+                <Keyword>Evening celebrations rural India</Keyword>
+                <Keyword>Traditional Indian powdered dyes</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 5: Village veranda; early teen Indian student arranging marigold garlands and colored rangoli powders at the doorstep; medium shot; eye‑line past camera toward an older relative guiding her, with a proud, excited smile; anchors: brass thali, unlit diyas, henna cones; environment: warm golden hour; motion: petals falling, powder sift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: warm side‑sun; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/97a10045-c90a-40f5-8650-6808f8a2b187/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Village veranda; early teen Indian student arranging marigold garlands and colored rangoli powders at the doorstep; medium shot; eye‑line past camera toward an older relative guiding her, with a proud, excited smile; anchors: brass thali, unlit diyas, henna cones; environment: warm golden hour; motion: petals falling, powder sift; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: warm side‑sun; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I trace formulas by oil-lamp glow, imagining the bridges I’ll design for my village one day.</CaptionFirstPerson>
+            <Image assetId="ASI_ANJALI_S06" recommendedFilename="ASI_ANJALI_S06.png" source="Asia.docx" altText="Anjali: Simple room at dusk (India)." url="https://cdn.midjourney.com/7412a801-b4fb-493c-8b42-8315132acb3b/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Simple room at dusk; early teen Indian student reading at a low desk by an oil lamp, family murmurs in the next room; medium; eye‑line out the window toward distant village lights with a soft, thoughtful smile; anchors: schoolbooks, geometry set, stitched notebook; environment: deep blue hour outside; motion: lamp flame shimmer, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/60 s; lighting: warm practical + cool window fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Indian family sharing meal</Keyword>
+                <Keyword>Chapati-making Indian village</Keyword>
+                <Keyword>Traditional Indian clay stoves</Keyword>
+                <Keyword>Rural family meal setup</Keyword>
+                <Keyword>Indian food platter in rural homes</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 6: Simple room at dusk; early teen Indian student reading at a low desk by an oil lamp, family murmurs in the next room; medium; eye‑line out the window toward distant village lights with a soft, thoughtful smile; anchors: schoolbooks, geometry set, stitched notebook; environment: deep blue hour outside; motion: lamp flame shimmer, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/60 s; lighting: warm practical + cool window fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/7412a801-b4fb-493c-8b42-8315132acb3b/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/8540e2ca-5bf4-4c29-87e4-cc68883f828b/0_2.png --ow 160</PromptRaw>
+              <PromptClean>Scene 6: Simple room at dusk; early teen Indian student reading at a low desk by an oil lamp, family murmurs in the next room; medium; eye‑line out the window toward distant village lights with a soft, thoughtful smile; anchors: schoolbooks, geometry set, stitched notebook; environment: deep blue hour outside; motion: lamp flame shimmer, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/60 s; lighting: warm practical + cool window fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="7.333333333333334" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="18.333333333333336" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+      <Character id="ASI_BATBAYAR" name="Batbayar" country="Mongolia" roleOrCulture="Mongolian Steppe Herder" flagEmoji="🇲🇳" flagIso2="MN">
+        <Label>
+          <Headline>Batbayar</Headline>
+          <Subhead>A Nomadic Herder from Mongolia</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Batbayar is a 35-year-old nomadic herder in Mongolia's steppe region. Mongolian nomadic culture revolves around herding (sheep, goats, yaks, horses) and living in a ger, a portable round tent home.</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I breathe clouds in the dark, patting each yak’s warm flank as stars fade.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S01" recommendedFilename="ASI_BATBAYAR_S01.png" source="Asia.docx" altText="Batbayar: Mongolian steppe before sunrise (Mongolia)." url="https://cdn.midjourney.com/b6c932ac-2505-4005-b5fd-a52661d1540c/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Mongolian steppe before sunrise; adult herder in layered deel and fur‑lined hat checking horses by the tether line; medium‑wide; eye‑line toward the horizon with a steady, protective focus; anchors: felt boots, saddle blankets, lasso; environment: frosty breath, blue predawn; motion: horse mane flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: cold ambient with headlamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mongolian herder sunrise</Keyword>
+                <Keyword>Nomadic lifestyle herding sheep</Keyword>
+                <Keyword>Mongolian steppe early morning</Keyword>
+                <Keyword>Yak and sheep grazing Mongolia</Keyword>
+                <Keyword>Mongolian boy in traditional deel</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 1: Mongolian steppe before sunrise; adult herder in layered deel and fur‑lined hat checking horses by the tether line; medium‑wide; eye‑line toward the horizon with a steady, protective focus; anchors: felt boots, saddle blankets, lasso; environment: frosty breath, blue predawn; motion: horse mane flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: cold ambient with headlamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/b6c932ac-2505-4005-b5fd-a52661d1540c/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 160</PromptRaw>
+              <PromptClean>Scene 1: Mongolian steppe before sunrise; adult herder in layered deel and fur‑lined hat checking horses by the tether line; medium‑wide; eye‑line toward the horizon with a steady, protective focus; anchors: felt boots, saddle blankets, lasso; environment: frosty breath, blue predawn; motion: horse mane flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 1600, 1/100 s; lighting: cold ambient with headlamp fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Hot tea warms my hands; Grandma’s joke makes everyone’s cheeks flush brighter than the stove.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S02" recommendedFilename="ASI_BATBAYAR_S02.png" source="Asia.docx" altText="Batbayar: Inside a ger (Mongolia)." url="https://cdn.midjourney.com/ae5cbfd6-6380-4d4f-96ff-032a94395daf/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Inside a ger; adult herder and family seated on low stools sharing hot dairy tea and fresh bread; medium; eye‑line toward a child reaching for a cup with a warm, content smile; anchors: stove, carved chest, patterned rugs; environment: felt walls, steam; motion: tea steam swirl; Camera: Nikon Z8, 35 mm f/1.8, ISO 1250, 1/100 s; lighting: warm stove glow + small roof‑ring daylight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Traditional ger interior Mongolia</Keyword>
+                <Keyword>Mongolian family breakfast</Keyword>
+                <Keyword>Rural Mongolian meals milk tea</Keyword>
+                <Keyword>Family sharing food Mongolian culture</Keyword>
+                <Keyword>Nomadic living traditional yurt</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 2: Inside a ger; adult herder and family seated on low stools sharing hot dairy tea and fresh bread; medium; eye‑line toward a child reaching for a cup with a warm, content smile; anchors: stove, carved chest, patterned rugs; environment: felt walls, steam; motion: tea steam swirl; Camera: Nikon Z8, 35 mm f/1.8, ISO 1250, 1/100 s; lighting: warm stove glow + small roof‑ring daylight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/ae5cbfd6-6380-4d4f-96ff-032a94395daf/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 160</PromptRaw>
+              <PromptClean>Scene 2: Inside a ger; adult herder and family seated on low stools sharing hot dairy tea and fresh bread; medium; eye‑line toward a child reaching for a cup with a warm, content smile; anchors: stove, carved chest, patterned rugs; environment: felt walls, steam; motion: tea steam swirl; Camera: Nikon Z8, 35 mm f/1.8, ISO 1250, 1/100 s; lighting: warm stove glow + small roof‑ring daylight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Wind snaps my scarf as I whistle the yaks onward—nothing but sky and freedom ahead.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S03" recommendedFilename="ASI_BATBAYAR_S03.png" source="Asia.docx" altText="Batbayar: Open steppe at midday (Mongolia)." url="https://cdn.midjourney.com/3c319b0c-71e9-48f7-91f6-d31f1e5379a8/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Open steppe at midday; adult herder riding beside a small herd of sheep and goats; medium‑wide; eye‑line guiding animals with a determined, calm focus; anchors: saddle, herding stick, felt panniers; environment: rolling grass, big sky; motion: hooves kicking dust, coat flapping; Camera: Nikon Z8, 35 mm f/1.8, ISO 200, 1/1000 s; lighting: crisp sun with high clouds; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Nomadic family moving ger Mongolia</Keyword>
+                <Keyword>Yaks carrying supplies Mongolia</Keyword>
+                <Keyword>Mongolian landscape seasonal migration</Keyword>
+                <Keyword>Family caravan Mongolia</Keyword>
+                <Keyword>Traditional herder migration scene</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 3: Open steppe at midday; adult herder riding beside a small herd of sheep and goats; medium‑wide; eye‑line guiding animals with a determined, calm focus; anchors: saddle, herding stick, felt panniers; environment: rolling grass, big sky; motion: hooves kicking dust, coat flapping; Camera: Nikon Z8, 35 mm f/1.8, ISO 200, 1/1000 s; lighting: crisp sun with high clouds; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/3c319b0c-71e9-48f7-91f6-d31f1e5379a8/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 160</PromptRaw>
+              <PromptClean>Scene 3: Open steppe at midday; adult herder riding beside a small herd of sheep and goats; medium‑wide; eye‑line guiding animals with a determined, calm focus; anchors: saddle, herding stick, felt panniers; environment: rolling grass, big sky; motion: hooves kicking dust, coat flapping; Camera: Nikon Z8, 35 mm f/1.8, ISO 200, 1/1000 s; lighting: crisp sun with high clouds; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I bow to receive white scarves; the feast smells like butter and new beginnings.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S04" recommendedFilename="ASI_BATBAYAR_S04.png" source="Asia.docx" altText="Batbayar: Village clearing (Mongolia)." url="https://cdn.midjourney.com/ad50f116-2f02-4d8e-b490-c58b6a63d103/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Village clearing; families in colorful deels sharing a simple, family‑style meal on low tables, elders chatting; medium; eye‑line toward a neighbor with a sociable, relaxed smile; anchors: wooden bowls, dumplings, dairy tea; environment: festival banners, felt tents; motion: fabric swish, steam wisps; Camera: Nikon Z8, 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade with sun rims; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mongolian herder collecting firewood</Keyword>
+                <Keyword>Wood sled Mongolia rural</Keyword>
+                <Keyword>Boy with axe rural Mongolia</Keyword>
+                <Keyword>Nomadic survival tasks firewood</Keyword>
+                <Keyword>Winter landscape Mongolian steppe</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 4: Village clearing; families in colorful deels sharing a simple, family‑style meal on low tables, elders chatting; medium; eye‑line toward a neighbor with a sociable, relaxed smile; anchors: wooden bowls, dumplings, dairy tea; environment: festival banners, felt tents; motion: fabric swish, steam wisps; Camera: Nikon Z8, 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade with sun rims; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/ad50f116-2f02-4d8e-b490-c58b6a63d103/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 160</PromptRaw>
+              <PromptClean>Scene 4: Village clearing; families in colorful deels sharing a simple, family‑style meal on low tables, elders chatting; medium; eye‑line toward a neighbor with a sociable, relaxed smile; anchors: wooden bowls, dumplings, dairy tea; environment: festival banners, felt tents; motion: fabric swish, steam wisps; Camera: Nikon Z8, 35 mm f/1.8, ISO 400, 1/320 s; lighting: open shade with sun rims; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>My bow glides; each note feels like a fireplace inside the cold night.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S05" recommendedFilename="ASI_BATBAYAR_S05.png" source="Asia.docx" altText="Batbayar: Ger interior at blue hour (Mongolia)." url="https://cdn.midjourney.com/e75a9d88-2a88-4c52-bfd2-04bc22ac489a/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Ger interior at blue hour; adult herder playing a morin khuur while relatives listen; medium; eye‑line glancing toward lens with a proud, gentle smile mid‑bow stroke; anchors: horse‑head fiddle, patterned rug, tea set; environment: twilight through roof ring; motion: bow blur, string vibration; Camera: Nikon Z8, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm lantern + cool window mix; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mongolian family campfire</Keyword>
+                <Keyword>Boy singing with family Mongolia</Keyword>
+                <Keyword>Traditional Mongolian musical instruments</Keyword>
+                <Keyword>Nomadic campfire under stars</Keyword>
+                <Keyword>Mongolian cultural evening rituals</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 5: Ger interior at blue hour; adult herder playing a morin khuur while relatives listen; medium; eye‑line glancing toward lens with a proud, gentle smile mid‑bow stroke; anchors: horse‑head fiddle, patterned rug, tea set; environment: twilight through roof ring; motion: bow blur, string vibration; Camera: Nikon Z8, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm lantern + cool window mix; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e75a9d88-2a88-4c52-bfd2-04bc22ac489a/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Ger interior at blue hour; adult herder playing a morin khuur while relatives listen; medium; eye‑line glancing toward lens with a proud, gentle smile mid‑bow stroke; anchors: horse‑head fiddle, patterned rug, tea set; environment: twilight through roof ring; motion: bow blur, string vibration; Camera: Nikon Z8, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm lantern + cool window mix; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I tilt my head back, letting the whole universe pour into my eyes.</CaptionFirstPerson>
+            <Image assetId="ASI_BATBAYAR_S06" recommendedFilename="ASI_BATBAYAR_S06.png" source="Asia.docx" altText="Batbayar: Steppe ridge under a starry sky (Mongolia)." url="https://cdn.midjourney.com/f96b1952-37cc-4b1c-8fb0-a92a7f6c2f98/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Steppe ridge under a starry sky; adult herder standing by horse, looking over the dark pasture; medium‑wide; eye‑line to constellations with a serene, reflective look; anchors: deel sash, rope, saddle; environment: Milky Way, cold breath; motion: faint scarf flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/5 s (tripod implied); lighting: starlight + faint lantern kiss; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Mongolian steppe night sky</Keyword>
+                <Keyword>Ger under starry sky Mongolia</Keyword>
+                <Keyword>Nomadic boy sleeping ger interior</Keyword>
+                <Keyword>Quiet night Mongolian countryside</Keyword>
+                <Keyword>Peaceful ger living Mongolia</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 6: Steppe ridge under a starry sky; adult herder standing by horse, looking over the dark pasture; medium‑wide; eye‑line to constellations with a serene, reflective look; anchors: deel sash, rope, saddle; environment: Milky Way, cold breath; motion: faint scarf flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/5 s (tripod implied); lighting: starlight + faint lantern kiss; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/f96b1952-37cc-4b1c-8fb0-a92a7f6c2f98/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/37bebb04-e2f5-412f-bf6a-da7e34e0b6df/0_0.png --ow 160</PromptRaw>
+              <PromptClean>Scene 6: Steppe ridge under a starry sky; adult herder standing by horse, looking over the dark pasture; medium‑wide; eye‑line to constellations with a serene, reflective look; anchors: deel sash, rope, saddle; environment: Milky Way, cold breath; motion: faint scarf flutter; Camera: Nikon Z8, 35 mm f/1.8, ISO 3200, 1/5 s (tripod implied); lighting: starlight + faint lantern kiss; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="25.0" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="36.0" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+      <Character id="ASI_MIN_SEO" name="Min-seo" country="South Korea" roleOrCulture="Seoul Professional" flagEmoji="🇰🇷" flagIso2="KR">
+        <Label>
+          <Headline>Min-seo</Headline>
+          <Subhead>A Young Professional in South Korea</Subhead>
+          <Notes>Left-side info panel: small flag icon above the character name; subhead directly below.</Notes>
+        </Label>
+        <BioShort>Min-seo is a 28-year-old young professional living in Seoul, South Korea. South Korean urban culture blends deep-rooted traditions with hyper-modern city life.</BioShort>
+        <StyleReferenceImageUrl>https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png</StyleReferenceImageUrl>
+        <Scenes>
+          <Scene index="1">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Earbuds in, I ride the train; petals whirl outside like pink confetti for the new day.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S01" recommendedFilename="ASI_MIN_SEO_S01.png" source="Asia.docx" altText="Min-seo: Seoul subway entrance with cherry blossoms outside (South Korea)." url="https://cdn.midjourney.com/c0bd4f77-7caa-4aed-a38c-0f7cf8ccb3a0/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Seoul subway entrance with cherry blossoms outside; young professional woman adjusting her bag strap near the stairs, commuters flowing past; medium; eye‑line down the steps with a fresh, optimistic half‑smile; anchors: transit card, tidy tote, blossom petals on pavement; environment: spring morning; motion: people blur on the escalator; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/250 s; lighting: crisp morning skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Seoul subway morning rush</Keyword>
+                <Keyword>Korean professional woman commute</Keyword>
+                <Keyword>Modern urban transportation South Korea</Keyword>
+                <Keyword>Busy Seoul streets morning</Keyword>
+                <Keyword>Korean woman with laptop urban commute</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 1: Seoul subway entrance with cherry blossoms outside; young professional woman adjusting her bag strap near the stairs, commuters flowing past; medium; eye‑line down the steps with a fresh, optimistic half‑smile; anchors: transit card, tidy tote, blossom petals on pavement; environment: spring morning; motion: people blur on the escalator; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/250 s; lighting: crisp morning skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/c0bd4f77-7caa-4aed-a38c-0f7cf8ccb3a0/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 1: Seoul subway entrance with cherry blossoms outside; young professional woman adjusting her bag strap near the stairs, commuters flowing past; medium; eye‑line down the steps with a fresh, optimistic half‑smile; anchors: transit card, tidy tote, blossom petals on pavement; environment: spring morning; motion: people blur on the escalator; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/250 s; lighting: crisp morning skylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="24.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="24.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="2">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Our screens shine on eager faces; every “what if” sparks another burst of creativity.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S02" recommendedFilename="ASI_MIN_SEO_S02.png" source="Asia.docx" altText="Min-seo: Glass‑walled office (South Korea)." url="https://cdn.midjourney.com/12c1796c-542f-4aa7-9f80-57bf88e1913c/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Glass‑walled office; young professional explaining a concept beside a transparent display, teammate listening; medium; eye‑line to the screen with an engaged, confident expression; anchors: sticky notes in Hangul, laptop, ceramic mug; environment: skyline reflections; motion: subtle hand gesture; Camera: Sony A7R V, 35 mm f/1.4, ISO 400, 1/200 s; lighting: bright diffused daylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Korean office teamwork</Keyword>
+                <Keyword>Woman leading office meeting South Korea</Keyword>
+                <Keyword>Modern tech office Korea</Keyword>
+                <Keyword>Coworking spaces Seoul</Keyword>
+                <Keyword>Tech company women in leadership Korea</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 2: Glass‑walled office; young professional explaining a concept beside a transparent display, teammate listening; medium; eye‑line to the screen with an engaged, confident expression; anchors: sticky notes in Hangul, laptop, ceramic mug; environment: skyline reflections; motion: subtle hand gesture; Camera: Sony A7R V, 35 mm f/1.4, ISO 400, 1/200 s; lighting: bright diffused daylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/12c1796c-542f-4aa7-9f80-57bf88e1913c/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 2: Glass‑walled office; young professional explaining a concept beside a transparent display, teammate listening; medium; eye‑line to the screen with an engaged, confident expression; anchors: sticky notes in Hangul, laptop, ceramic mug; environment: skyline reflections; motion: subtle hand gesture; Camera: Sony A7R V, 35 mm f/1.4, ISO 400, 1/200 s; lighting: bright diffused daylight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="36.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="36.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="3">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>I catch a blossom on my chopsticks and grin; even my lunch feels poetic today.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S03" recommendedFilename="ASI_MIN_SEO_S03.png" source="Asia.docx" altText="Min-seo: Pocket park near the river (South Korea)." url="https://cdn.midjourney.com/8a263136-6295-481b-b181-4cb1fc8261c0/0_2.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Pocket park near the river; young professional on a bench opening kimbap and fruit, coworkers chatting nearby; medium; eye‑line toward the water with a relaxed, content smile; anchors: bento box, thermos, blossom drift; environment: light breeze, greenery; motion: napkin edge flutter; Camera: Sony A7R V, 35 mm f/1.4, ISO 200, 1/500 s; lighting: open shade; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Korean café dining</Keyword>
+                <Keyword>Bibimbap meal South Korea</Keyword>
+                <Keyword>Korean women chatting café</Keyword>
+                <Keyword>Modern café Seoul interior</Keyword>
+                <Keyword>Lunch break South Korea urban professionals</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 3: Pocket park near the river; young professional on a bench opening kimbap and fruit, coworkers chatting nearby; medium; eye‑line toward the water with a relaxed, content smile; anchors: bento box, thermos, blossom drift; environment: light breeze, greenery; motion: napkin edge flutter; Camera: Sony A7R V, 35 mm f/1.4, ISO 200, 1/500 s; lighting: open shade; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/8a263136-6295-481b-b181-4cb1fc8261c0/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 3: Pocket park near the river; young professional on a bench opening kimbap and fruit, coworkers chatting nearby; medium; eye‑line toward the water with a relaxed, content smile; anchors: bento box, thermos, blossom drift; environment: light breeze, greenery; motion: napkin edge flutter; Camera: Sony A7R V, 35 mm f/1.4, ISO 200, 1/500 s; lighting: open shade; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="48.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="48.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="4">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>My pulse races as clients nod—yes! Weeks of prep just bloomed into success.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S04" recommendedFilename="ASI_MIN_SEO_S04.png" source="Asia.docx" altText="Min-seo: Conference nook (South Korea)." url="https://cdn.midjourney.com/804ac38e-a805-43fd-80d1-2477339b6f17/0_3.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Conference nook; young professional presenting a sketch while a small team reviews; medium; eye‑line glancing to lens with a quick encouraging smile before turning back to the team; anchors: pen tablet, printed mockups, tidy desk plants; environment: soft acoustic panels; motion: page flip; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/125 s; lighting: overhead soft panels + window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Korean hanbok dancers</Keyword>
+                <Keyword>Korean traditional dance practice</Keyword>
+                <Keyword>Cultural arts South Korea women</Keyword>
+                <Keyword>Hanbok elegant movement</Keyword>
+                <Keyword>Korean dance studio interior</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 4: Conference nook; young professional presenting a sketch while a small team reviews; medium; eye‑line glancing to lens with a quick encouraging smile before turning back to the team; anchors: pen tablet, printed mockups, tidy desk plants; environment: soft acoustic panels; motion: page flip; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/125 s; lighting: overhead soft panels + window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/804ac38e-a805-43fd-80d1-2477339b6f17/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 4: Conference nook; young professional presenting a sketch while a small team reviews; medium; eye‑line glancing to lens with a quick encouraging smile before turning back to the team; anchors: pen tablet, printed mockups, tidy desk plants; environment: soft acoustic panels; motion: page flip; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/125 s; lighting: overhead soft panels + window fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="60.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="60.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="5">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>Music swells; I spin, and the fan’s breeze cools my cheeks and feeds my spirit.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S05" recommendedFilename="ASI_MIN_SEO_S05.png" source="Asia.docx" altText="Min-seo: Community arts studio (South Korea)." url="https://cdn.midjourney.com/37735969-ff33-453d-9f4a-de7b35297059/0_1.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Community arts studio; young professional learning traditional dance in a pastel hanbok among peers, instructor guiding; medium; eye‑line toward instructor with a joyful, concentrated look; anchors: hanbok sash, drum, calligraphy banner; environment: polished wood floor; motion: skirt swish; Camera: Sony A7R V, 35 mm f/1.4, ISO 1600, 1/200 s; lighting: warm overheads with window rim; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Cherry blossoms South Korea</Keyword>
+                <Keyword>Jinhae Cherry Blossom Festival crowds</Keyword>
+                <Keyword>Korean street festival under blossoms</Keyword>
+                <Keyword>Spring festival Korea traditional</Keyword>
+                <Keyword>People picnicking cherry blossom trees</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 5: Community arts studio; young professional learning traditional dance in a pastel hanbok among peers, instructor guiding; medium; eye‑line toward instructor with a joyful, concentrated look; anchors: hanbok sash, drum, calligraphy banner; environment: polished wood floor; motion: skirt swish; Camera: Sony A7R V, 35 mm f/1.4, ISO 1600, 1/200 s; lighting: warm overheads with window rim; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/37735969-ff33-453d-9f4a-de7b35297059/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 140</PromptRaw>
+              <PromptClean>Scene 5: Community arts studio; young professional learning traditional dance in a pastel hanbok among peers, instructor guiding; medium; eye‑line toward instructor with a joyful, concentrated look; anchors: hanbok sash, drum, calligraphy banner; environment: polished wood floor; motion: skirt swish; Camera: Sony A7R V, 35 mm f/1.4, ISO 1600, 1/200 s; lighting: warm overheads with window rim; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="72.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="72.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+          <Scene index="6">
+            <SequenceNotes>Scene 1 starts the day; scenes progress in chronological order.</SequenceNotes>
+            <CaptionFirstPerson>City lights blink Morse-code dreams while I write promises only I can keep.</CaptionFirstPerson>
+            <Image assetId="ASI_MIN_SEO_S06" recommendedFilename="ASI_MIN_SEO_S06.png" source="Asia.docx" altText="Min-seo: Small apartment window seat (South Korea)." url="https://cdn.midjourney.com/74b4b566-ee35-4b6a-9c58-e3df8f30dbb1/0_0.png"/>
+            <ImageDescription>
+              <FromMjPrompt>Small apartment window seat; young professional journaling with a tea cup by the skyline; medium; eye‑line out to city lights with a peaceful, reflective smile; anchors: paper diary, pen, soft throw; environment: evening bokeh; motion: steam curl from tea; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/60 s; lighting: warm lamp + cool city fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</FromMjPrompt>
+              <Keywords>
+                <Keyword>Korean woman relaxing at desk</Keyword>
+                <Keyword>Seoul city lights window view</Keyword>
+                <Keyword>Journaling late night South Korea</Keyword>
+                <Keyword>Cozy apartment workspace</Keyword>
+                <Keyword>Modern interior with Korean woman writing</Keyword>
+              </Keywords>
+            </ImageDescription>
+            <GenerationPrompt>
+              <PromptSource>Asia.docx</PromptSource>
+              <PromptRaw>Scene 6: Small apartment window seat; young professional journaling with a tea cup by the skyline; medium; eye‑line out to city lights with a peaceful, reflective smile; anchors: paper diary, pen, soft throw; environment: evening bokeh; motion: steam curl from tea; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/60 s; lighting: warm lamp + cool city fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/74b4b566-ee35-4b6a-9c58-e3df8f30dbb1/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/7309314d-6fdc-42f2-ac2f-b46e212d8d1e/0_3.png --ow 160</PromptRaw>
+              <PromptClean>Scene 6: Small apartment window seat; young professional journaling with a tea cup by the skyline; medium; eye‑line out to city lights with a peaceful, reflective smile; anchors: paper diary, pen, soft throw; environment: evening bokeh; motion: steam curl from tea; Camera: Sony A7R V, 35 mm f/1.4, ISO 800, 1/60 s; lighting: warm lamp + cool city fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</PromptClean>
+            </GenerationPrompt>
+            <LayoutFramesIn>
+              <Row_background x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+              <Character_info_panel x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+              <Image_frame x="84.0" y="42.66666666666667" w="11.0" h="11.0"/>
+              <Caption_frame x="84.0" y="53.66666666666667" w="11.0" h="4.5"/>
+            </LayoutFramesIn>
+          </Scene>
+        </Scenes>
+      </Character>
+    </Characters>
+    <Assets>
+      <Asset id="ASI_ANJALI_S01" type="image" character="Anjali" sceneIndex="1" recommendedFilename="ASI_ANJALI_S01.png" url="https://cdn.midjourney.com/d44d81af-a2ca-441d-8048-2990613f532a/0_3.png"/>
+      <Asset id="ASI_ANJALI_S02" type="image" character="Anjali" sceneIndex="2" recommendedFilename="ASI_ANJALI_S02.png" url="https://cdn.midjourney.com/02c5af61-a941-4b93-8600-02d1ce33f3f6/0_1.png"/>
+      <Asset id="ASI_ANJALI_S03" type="image" character="Anjali" sceneIndex="3" recommendedFilename="ASI_ANJALI_S03.png" url="https://cdn.midjourney.com/a33aaa93-88e2-40a5-a288-4bd265041797/0_1.png"/>
+      <Asset id="ASI_ANJALI_S04" type="image" character="Anjali" sceneIndex="4" recommendedFilename="ASI_ANJALI_S04.png" url="https://cdn.midjourney.com/ba504d6c-7d70-44eb-967a-85e2abf8e6a8/0_1.png"/>
+      <Asset id="ASI_ANJALI_S05" type="image" character="Anjali" sceneIndex="5" recommendedFilename="ASI_ANJALI_S05.png" url="https://cdn.midjourney.com/97a10045-c90a-40f5-8650-6808f8a2b187/0_1.png"/>
+      <Asset id="ASI_ANJALI_S06" type="image" character="Anjali" sceneIndex="6" recommendedFilename="ASI_ANJALI_S06.png" url="https://cdn.midjourney.com/7412a801-b4fb-493c-8b42-8315132acb3b/0_1.png"/>
+      <Asset id="ASI_BATBAYAR_S01" type="image" character="Batbayar" sceneIndex="1" recommendedFilename="ASI_BATBAYAR_S01.png" url="https://cdn.midjourney.com/b6c932ac-2505-4005-b5fd-a52661d1540c/0_1.png"/>
+      <Asset id="ASI_BATBAYAR_S02" type="image" character="Batbayar" sceneIndex="2" recommendedFilename="ASI_BATBAYAR_S02.png" url="https://cdn.midjourney.com/ae5cbfd6-6380-4d4f-96ff-032a94395daf/0_0.png"/>
+      <Asset id="ASI_BATBAYAR_S03" type="image" character="Batbayar" sceneIndex="3" recommendedFilename="ASI_BATBAYAR_S03.png" url="https://cdn.midjourney.com/3c319b0c-71e9-48f7-91f6-d31f1e5379a8/0_0.png"/>
+      <Asset id="ASI_BATBAYAR_S04" type="image" character="Batbayar" sceneIndex="4" recommendedFilename="ASI_BATBAYAR_S04.png" url="https://cdn.midjourney.com/ad50f116-2f02-4d8e-b490-c58b6a63d103/0_0.png"/>
+      <Asset id="ASI_BATBAYAR_S05" type="image" character="Batbayar" sceneIndex="5" recommendedFilename="ASI_BATBAYAR_S05.png" url="https://cdn.midjourney.com/e75a9d88-2a88-4c52-bfd2-04bc22ac489a/0_0.png"/>
+      <Asset id="ASI_BATBAYAR_S06" type="image" character="Batbayar" sceneIndex="6" recommendedFilename="ASI_BATBAYAR_S06.png" url="https://cdn.midjourney.com/f96b1952-37cc-4b1c-8fb0-a92a7f6c2f98/0_2.png"/>
+      <Asset id="ASI_MIN_SEO_S01" type="image" character="Min-seo" sceneIndex="1" recommendedFilename="ASI_MIN_SEO_S01.png" url="https://cdn.midjourney.com/c0bd4f77-7caa-4aed-a38c-0f7cf8ccb3a0/0_3.png"/>
+      <Asset id="ASI_MIN_SEO_S02" type="image" character="Min-seo" sceneIndex="2" recommendedFilename="ASI_MIN_SEO_S02.png" url="https://cdn.midjourney.com/12c1796c-542f-4aa7-9f80-57bf88e1913c/0_2.png"/>
+      <Asset id="ASI_MIN_SEO_S03" type="image" character="Min-seo" sceneIndex="3" recommendedFilename="ASI_MIN_SEO_S03.png" url="https://cdn.midjourney.com/8a263136-6295-481b-b181-4cb1fc8261c0/0_2.png"/>
+      <Asset id="ASI_MIN_SEO_S04" type="image" character="Min-seo" sceneIndex="4" recommendedFilename="ASI_MIN_SEO_S04.png" url="https://cdn.midjourney.com/804ac38e-a805-43fd-80d1-2477339b6f17/0_3.png"/>
+      <Asset id="ASI_MIN_SEO_S05" type="image" character="Min-seo" sceneIndex="5" recommendedFilename="ASI_MIN_SEO_S05.png" url="https://cdn.midjourney.com/37735969-ff33-453d-9f4a-de7b35297059/0_1.png"/>
+      <Asset id="ASI_MIN_SEO_S06" type="image" character="Min-seo" sceneIndex="6" recommendedFilename="ASI_MIN_SEO_S06.png" url="https://cdn.midjourney.com/74b4b566-ee35-4b6a-9c58-e3df8f30dbb1/0_0.png"/>
+    </Assets>
+  </Poster>
+</KaycliffAtlasTrailPoster>
+]]></payload_xml>
+</normalized_poster>

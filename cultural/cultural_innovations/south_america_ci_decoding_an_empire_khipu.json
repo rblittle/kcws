@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/cultural innovations/south_america_ci_decoding_an_empire_khipu.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__cultural_innovations__south_america__south_america_ci_decoding_an_empire_khipu",
+    "derived_id": "cultural__cultural_innovations__south_america__south_america_ci_decoding_an_empire_khipu",
+    "continent": "south_america",
+    "domain": "cultural",
+    "poster_family": "cultural_innovations",
+    "filename": "south_america_ci_decoding_an_empire_khipu.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "cultural_innovations"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:cultural",
+      "poster_family:cultural_innovations"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/cultural innovations/south_america_ci_decoding_an_empire_khipu.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "kaycliff.atlastrail.poster_package.v1",
+    "generated_at": "2025-12-30T00:23:16.874200+00:00",
+    "poster": {
+      "poster_id": "south_america_ci_decoding_an_empire_khipu",
+      "continent": "South America",
+      "domain": "Cultural Innovation",
+      "poster_type": "Main Feature",
+      "title": "Decoding an Empire: Mysteries of the Khipu",
+      "aspect_ratio": "8:5",
+      "recommended_print_size_inches": {
+        "width": 96,
+        "height": 60
+      },
+      "reference_render": {
+        "image_ref": "img_concept_reference"
+      },
+      "source_files": {
+        "ci_copy": "SA Cultural innovation text.docx",
+        "main_feature_brief": "South America Main Feature.docx",
+        "design_help_assets": "South America MF Organizer.xlsx",
+        "concept_render": "sa ci concept.jpg"
+      }
+    },
+    "copy": {
+      "text_blocks": [
+        {
+          "id": "txt_title",
+          "role": "header",
+          "heading": null,
+          "body": "Decoding an Empire: Mysteries of the Khipu",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        },
+        {
+          "id": "txt_intro",
+          "role": "intro",
+          "heading": null,
+          "body": "High in the Andes, the Inca built a vast empire without a written alphabet. Instead, they relied on khipus—bundles of knotted cords—to track harvests, population counts, and taxes. Specially trained “khipucamayocs” tied each knot in a base-ten system, turning colorful threads into data. Many of these knotted records survive, but their full meaning remains a riddle scientists are still working to solve.",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        },
+        {
+          "id": "txt_panel_1",
+          "role": "panel_caption",
+          "heading": "Ancient Writings Decoded",
+          "body": "Across the world, ancient scripts—cuneiform in Sumer, hieroglyphs in Egypt, alphabets in Greece and China—have been passed down through generations. We can still read most of these texts today, thanks to centuries of careful preservation.",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        },
+        {
+          "id": "txt_panel_2",
+          "role": "panel_caption",
+          "heading": "Spanish Arrival and Tragic Loss",
+          "body": "When the Spanish arrived in the Andes, they brought diseases that devastated the Inca, including the expert khipucamayocs. Conquistadores also burned many khipus, leaving only a handful in museums and labs. Even now, we’re not entirely sure how to read them.",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        },
+        {
+          "id": "txt_panel_3",
+          "role": "panel_caption",
+          "heading": "Knots and Binary",
+          "body": "Despite the destruction, the logic behind khipus is clear. Their “knotted code” mirrors modern data systems, using positions and patterns much like binary. Some computer scientists even say khipu ideas influenced today’s coding techniques.",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        },
+        {
+          "id": "txt_panel_4",
+          "role": "panel_caption",
+          "heading": "Mysteries Waiting in the Knots",
+          "body": "What hidden stories remain in these cords? From royal histories to population records, each strand may hold truths we have yet to uncover. The khipu’s final secrets still wait to be untangled.",
+          "optional": false,
+          "source": "SA Cultural innovation text.docx"
+        }
+      ],
+      "reflection_questions": [
+        "How does the khipu challenge our understanding of “writing” and “data”?",
+        "Could khipus inspire modern tactile systems for communication or data storage?",
+        "What does the loss of knowledge about khipus teach us about cultural preservation?"
+      ],
+      "notes": [
+        "Panel captions and intro sourced from CI text; design rationale and background sourced from Main Feature brief."
+      ]
+    },
+    "assets": {
+      "images": [
+        {
+          "id": "img_concept_reference",
+          "asset_id": "concept_reference_render",
+          "content_type": "Concept Reference Render",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Visual reference for South America CI draft layout (NanoBanana Pro concept).",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Local concept render.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "sa ci concept.jpg"
+        },
+        {
+          "id": "img_hero_khipu_market",
+          "asset_id": "close_up_of_a_vibrant_khipu_with_inca_market_silhouettes",
+          "content_type": "Close-up of a Vibrant Khipu with Inca Market Silhouettes",
+          "placement": "Hero Panel (Top Half)",
+          "approx_size": "~40% of poster",
+          "purpose": "Hero image: khipu + Inca market scene; establishes theme of knotted data.",
+          "format": "Artwork (Highly detailed, realistic illustration)",
+          "ai_friendly": "Yes",
+          "notes": "Type: Artwork (Highly detailed, realistic illustration)\nAI Feasibility: Yes",
+          "source_url": "https://cdn.midjourney.com/8c25be6d-a13c-474d-ba21-764b50265752/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_diagram_khipu_annotated",
+          "asset_id": "annotated_diagram_of_a_khipu",
+          "content_type": "Annotated Diagram of a Khipu",
+          "placement": "Core Explanation (Left-Middle)",
+          "approx_size": "~15% of poster",
+          "purpose": "Explainer diagram: parts of a khipu, knot types, cord hierarchy.",
+          "format": "Infographic/Diagram (Line art overlay on photo or illustration)",
+          "ai_friendly": "Partially (Base image AI-generated, final labeling by human)",
+          "notes": "Type: Infographic/Diagram (Line art overlay on photo or illustration)\nAI Feasibility: Partially (Base image AI-generated, final labeling by human)",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_khipucamayoc_action",
+          "asset_id": "khipucamayoc_in_action_illustration",
+          "content_type": "Khipucamayoc in Action Illustration",
+          "placement": "Human Element (Center-Middle)",
+          "approx_size": "~15% of poster",
+          "purpose": "Human element: a khipucamayoc recording/reading knots in context.",
+          "format": "Artwork (Illustration or painting-like image)",
+          "ai_friendly": "Yes",
+          "notes": "Type: Artwork (Illustration or painting-like image)\nAI Feasibility: Yes",
+          "source_url": "https://cdn.midjourney.com/e83af69f-9dd2-48e8-a127-709f59cb2040/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_infographic_record_systems",
+          "asset_id": "comparative_infographic_of_record_keeping_systems",
+          "content_type": "Comparative Infographic of Record-Keeping Systems",
+          "placement": "Comparative Insight (Right-Middle)",
+          "approx_size": "~15% of poster",
+          "purpose": "Comparative infographic: khipu vs writing/ledgers/other record systems.",
+          "format": "Infographic (Combination of small images and icons)",
+          "ai_friendly": "Partially (Icons AI-generated, layout by human)",
+          "notes": "Type: Infographic (Combination of small images and icons)\nAI Feasibility: Partially (Icons AI-generated, layout by human)",
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_spanish_loss_research",
+          "asset_id": "split_scene_spanish_conquistadors_and_modern_researcher",
+          "content_type": "Split-Scene: Spanish Conquistadors and Modern Researcher",
+          "placement": "Cultural Disruption and Survival (Lower Section)",
+          "approx_size": "~10% of poster",
+          "purpose": "Historical disruption + survival: Spanish era loss + modern research.",
+          "format": "Artwork/Illustration (Composite scene)",
+          "ai_friendly": "Yes",
+          "notes": "Type: Artwork/Illustration (Composite scene)\nAI Feasibility: Yes",
+          "source_url": "https://cdn.midjourney.com/65c04fc5-05c0-46de-a9c5-52c42bd60cef/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_khipu_to_digital",
+          "asset_id": "khipu_to_digital_transition_image",
+          "content_type": "Khipu-to-Digital Transition Image",
+          "placement": "Contemporary Relevance (Bottom Strip)",
+          "approx_size": "~10% of poster",
+          "purpose": "Modern connection: khipu logic → digital/binary/data storage metaphor.",
+          "format": "Composite Artwork/Infographic",
+          "ai_friendly": "Yes",
+          "notes": "Type: Composite Artwork/Infographic\nAI Feasibility: Yes",
+          "source_url": "https://cdn.midjourney.com/885611a1-d5e4-4af2-af32-d24f72abdfba/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_reflection_icon",
+          "asset_id": "reflective_prompts_icon",
+          "content_type": "Reflective Prompts Icon",
+          "placement": "Reflective Prompts (Corner Inset)",
+          "approx_size": "~5% of poster",
+          "purpose": "Small icon supporting reflective prompt/inset.",
+          "format": "Simple Artwork/Icon",
+          "ai_friendly": "Yes",
+          "notes": "Type: Simple Artwork/Icon\nAI Feasibility: Yes",
+          "source_url": "https://cdn.midjourney.com/059a9bca-6984-4b73-a620-642e77241250/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_supplemental_alt_1",
+          "asset_id": "also_this",
+          "content_type": "also this",
+          "placement": null,
+          "approx_size": null,
+          "purpose": "Supplemental/alternate image (unlabeled).",
+          "format": null,
+          "ai_friendly": null,
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/73331f98-0435-4bf1-805b-fda4b71a3d4c/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        }
+      ],
+      "references": []
+    },
+    "layout": {
+      "layout_concept": "Hero scene with annotated callouts; supporting explainer graphics mid-band; four bottom panels with captions.",
+      "regions": [
+        {
+          "id": "region_header",
+          "role": "header",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_title"
+            }
+          ]
+        },
+        {
+          "id": "region_hero",
+          "role": "hero",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_hero_khipu_market"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_intro"
+            }
+          ]
+        },
+        {
+          "id": "region_mid_explainers",
+          "role": "explainers",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_diagram_khipu_annotated",
+              "placement": "Core Explanation (Left-Middle)"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_khipucamayoc_action",
+              "placement": "Human Element (Center-Middle)"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_infographic_record_systems",
+              "placement": "Comparative Insight (Right-Middle)"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_reflection_icon",
+              "placement": "Reflective Prompts (Corner Inset)"
+            }
+          ]
+        },
+        {
+          "id": "region_bottom_panels",
+          "role": "bottom_panels",
+          "components": [
+            {
+              "type": "panel",
+              "order": 1,
+              "text_ref": "txt_panel_1",
+              "image_ref_primary": "img_infographic_record_systems",
+              "image_ref_fallback": "img_supplemental_alt_1"
+            },
+            {
+              "type": "panel",
+              "order": 2,
+              "text_ref": "txt_panel_2",
+              "image_ref": "img_spanish_loss_research"
+            },
+            {
+              "type": "panel",
+              "order": 3,
+              "text_ref": "txt_panel_3",
+              "image_ref": "img_khipu_to_digital"
+            },
+            {
+              "type": "panel",
+              "order": 4,
+              "text_ref": "txt_panel_4",
+              "image_ref_primary": "img_diagram_khipu_annotated",
+              "image_ref_fallback": "img_hero_khipu_market"
+            }
+          ]
+        },
+        {
+          "id": "region_reflection",
+          "role": "reflection",
+          "components": [
+            {
+              "type": "questions",
+              "items": [
+                "How does the khipu challenge our understanding of “writing” and “data”?",
+                "Could khipus inspire modern tactile systems for communication or data storage?",
+                "What does the loss of knowledge about khipus teach us about cultural preservation?"
+              ]
+            }
+          ]
+        }
+      ],
+      "reading_order": [
+        "region_header",
+        "region_hero",
+        "region_mid_explainers",
+        "region_bottom_panels",
+        "region_reflection"
+      ]
+    },
+    "designer_guidance": {
+      "design_objectives_and_summary": "This exhibit delves into the khipu (also spelled quipu), an ingenious system of knotted cords used by the Inca civilization to record and manage vast amounts of information without a written language. The focus is on how the khipu represents one of humanity’s most unique and tactile approaches to record-keeping, comparing it to other methods globally and tracing its legacy into modern systems like binary code and data storage. The design will emphasize the mystery and innovation of the khipu while connecting it to broader themes of information management and cultural resilience.",
+      "key_design_objectives": {
+        "Hero Imagery": [
+          "A close-up of a khipu, with its intricate knots and colorful cords prominently displayed.",
+          "A background scene depicting an Inca administrator (khipucamayoc) using the khipu in a bustling market or administrative center."
+        ],
+        "Cultural Context": [
+          "Highlight the practical and symbolic functions of the khipu in Inca society, from census-taking to storytelling.",
+          "Showcase its construction—knots, cords, and colors—and their encoded meanings."
+        ],
+        "Comparative Legacy": [
+          "Draw connections to binary code, written records, and other ancient numeral systems.",
+          "Place the khipu in a timeline of human innovation in record-keeping."
+        ]
+      },
+      "essential_knowledge": {
+        "What Is a Khipu?": {
+          "_preamble": [
+            "The khipu was a sophisticated system of knotted cords used by the Inca Empire (and earlier Andean cultures) to store and communicate information."
+          ],
+          "Structure": [
+            "Composed of a primary cord with secondary cords branching off.",
+            "Knots of various types (single, double, figure-eight) represented numerical values.",
+            "Cord Colors: Indicated categories like crops, people, or military resources."
+          ],
+          "Uses": [
+            "Numerical Records: Census data, taxes, and agricultural inventories.",
+            "Administration: Managed vast empire-wide resources, from llamas to gold.",
+            "Historical Narratives: Some scholars believe khipus contained stories or genealogies, though this remains speculative.",
+            "Did You Know? The khipu encoded information in base-10, the same system we use today for mathematics.",
+            "Visual Suggestion: A diagram labeling the components of a khipu (cords, knots, colors) with explanations of their meanings.",
+            "Caption: \"Knots of knowledge: The Inca Empire’s tactile database.\""
+          ]
+        },
+        "The Role of the Khipucamayoc": {
+          "_preamble": [
+            "The khipucamayoc, or “knot-makers,” were highly trained specialists who created and interpreted khipus."
+          ],
+          "Training": [
+            "Passed down orally, their knowledge included memorizing knot meanings, colors, and patterns.",
+            "They were often officials in charge of logistics and governance."
+          ],
+          "Cultural Role": [
+            "Beyond accounting, they served as custodians of history and tradition, preserving Inca knowledge.",
+            "Visual Suggestion: A depiction of a khipucamayoc in action, surrounded by market goods, crops, or soldiers, demonstrating the khipu’s versatility.",
+            "Caption: \"Guardians of the code: The khipucamayocs kept the Inca Empire running.\""
+          ]
+        },
+        "How Does the Khipu Compare to Other Systems?": {
+          "Binary Code": [],
+          "Both khipus and binary rely on positional encoding": [
+            "Binary uses sequences of 0s and 1s to represent data.",
+            "Khipus use knot types and positions to encode numbers and categories."
+          ],
+          "Written Language": [
+            "Khipus lack symbols like alphabets but function similarly to ledgers or spreadsheets.",
+            "Unlike written records, khipus are tactile and multidimensional, requiring touch as well as sight."
+          ],
+          "Other Numeral Systems": [
+            "Roman Numerals: Linear and visual but less efficient for large data sets.",
+            "Hindu-Arabic Numerals: Similar in structure (base-10) but reliant on written symbols.",
+            "Visual Suggestion: A comparative infographic showing a khipu next to binary code, Roman numerals, and Hindu-Arabic numerals.",
+            "Caption: \"Universal math, unique forms: How civilizations counted and recorded.\""
+          ]
+        },
+        "What Happened to the Khipu?": {
+          "Destruction": [
+            "The Spanish conquest led to the destruction of most khipus, seen as pagan artifacts.",
+            "Many khipucamayocs were killed or marginalized, erasing much of the knowledge needed to interpret khipus."
+          ],
+          "Survival": [
+            "About 1,000 khipus remain today, preserved in museums and archaeological sites.",
+            "Ongoing research is revealing new layers of meaning, suggesting they may contain narrative as well as numerical data.",
+            "Did You Know? Some modern Andean communities use khipus for ceremonial purposes, preserving their cultural legacy.",
+            "Visual Suggestion: A rendering of Spanish soldiers destroying khipus, juxtaposed with an intact khipu in a modern museum.",
+            "Caption: \"Lost in translation: A civilization’s code disrupted by conquest.\""
+          ]
+        },
+        "Threads to Modern Data Storage": {
+          "_preamble": [
+            "The khipu offers striking parallels to modern information systems, bridging the ancient and contemporary worlds."
+          ],
+          "Binary and Databases": [
+            "Like binary code, khipus stored large amounts of data compactly and efficiently.",
+            "Their hierarchical structure resembles modern databases, where categories and subcategories organize information."
+          ],
+          "Physicality and Durability": [
+            "Khipus, made from cotton and camelid fibers, endured the harsh Andean environment far better than paper records.",
+            "Modern storage systems aim for similar durability with digital redundancy.",
+            "Visual Suggestion: A split image showing a khipu alongside a digital hard drive or cloud data server.",
+            "Caption: \"From knots to bytes: The evolution of data storage.\""
+          ]
+        }
+      },
+      "comparative_and_reflective_elements": {
+        "Global Innovations in Record-Keeping": [
+          "Highlight the diversity of record-keeping systems, from cuneiform tablets in Mesopotamia to bamboo scrolls in China."
+        ],
+        "Resilience of Oral Traditions": [
+          "Emphasize the interplay between tactile records like khipus and oral storytelling, both critical to preserving history."
+        ],
+        "The Enduring Mystery": [
+          "The partial decipherment of khipus leaves room for imagination, inspiring continued research and reflection.",
+          "Visual Suggestion: A timeline of global record-keeping systems, placing the khipu alongside written, oral, and digital systems.",
+          "Caption: \"Knots in the thread of history: How humans have stored and shared knowledge.\""
+        ]
+      },
+      "image_suggestions": [
+        "Hero Image: A detailed khipu with colorful cords and knots, contrasted against a bustling Inca administrative scene.\n Caption: \"Knots of wisdom: The Inca Empire’s tactile language.\"",
+        "Khipucamayoc in Action: A depiction of a khipucamayoc recording or interpreting a khipu.\n Caption: \"Guardians of the code: The keepers of Inca knowledge.\"",
+        "Comparative Infographic: A side-by-side of a khipu, binary code, Roman numerals, and Hindu-Arabic numerals.\n Caption: \"Different tools, shared goals: The universal quest to record and organize.\"",
+        "Khipu and Modern Data: A split image of a khipu and a hard drive, emphasizing parallels in data storage.\n Caption: \"From tactile to digital: The evolution of record-keeping systems.\""
+      ],
+      "capturing_the_mood": "This exhibit should evoke curiosity and reverence, showcasing the ingenuity of the Inca and the enduring relevance of their innovations. Visitors should leave inspired by the khipu’s mystery and its parallels to modern data systems, while reflecting on the fragility of cultural knowledge."
+    },
+    "provenance": {
+      "generated_by": "ChatGPT",
+      "generated_at": "2025-12-30T00:23:16.874200+00:00",
+      "source_files": {
+        "concept_image": {
+          "filename": "sa ci concept.jpg",
+          "size_bytes": 792513,
+          "sha256": "de243790cc208f8fe2481483fadd793fb0d7fafd7e56335481377deb39eaafdd"
+        },
+        "ci_text_docx": {
+          "filename": "SA Cultural innovation text.docx",
+          "size_bytes": 7817,
+          "sha256": "a05c421d66f556cb0d54761951210bed75d2a10e54c50392d977dd69e17069c0"
+        },
+        "main_feature_docx": {
+          "filename": "South America Main Feature.docx",
+          "size_bytes": 12373,
+          "sha256": "b407e3910c1f7317a8ac2cd2d81893bd33b96294e5b980b6ec821ab7a5647a8f"
+        },
+        "mf_organizer_xlsx": {
+          "filename": "South America MF Organizer.xlsx",
+          "size_bytes": 9879,
+          "sha256": "90f3a8437f05d83d7af4796ae4f616291834de06ad47da2a2de25d7c2fead73a"
+        }
+      }
+    }
+  }
+}

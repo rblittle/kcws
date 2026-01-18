@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/cultural innovations/north_america_ci_where_bounce_began_rubber_revolution_v2.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__cultural_innovations__north_america__north_america_ci_where_bounce_began_rubber_revolution_v2",
+    "derived_id": "cultural__cultural_innovations__north_america__north_america_ci_where_bounce_began_rubber_revolution_v2",
+    "continent": "north_america",
+    "domain": "cultural",
+    "poster_family": "cultural_innovations",
+    "filename": "north_america_ci_where_bounce_began_rubber_revolution_v2.json"
+  },
+  "tags": {
+    "continent": [
+      "north_america"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "cultural_innovations"
+    ],
+    "flat": [
+      "continent:north_america",
+      "domain:cultural",
+      "poster_family:cultural_innovations"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/cultural innovations/north_america_ci_where_bounce_began_rubber_revolution_v2.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "kaycliff.atlastrail.poster_package.v1",
+    "generated_at": "2025-12-30T00:24:38.940955+00:00",
+    "poster": {
+      "poster_id": "north_america_ci_where_bounce_began_rubber_revolution",
+      "continent": "North America",
+      "domain": "Cultural Innovation",
+      "poster_type": "Main Feature",
+      "title": "Where Bounce Began: Mesoamerica’s Rubber Revolution",
+      "aspect_ratio": "8:5",
+      "recommended_print_size_inches": {
+        "width": 96,
+        "height": 60
+      },
+      "reference_render": {
+        "image_ref": "img_concept_reference"
+      },
+      "source_files": {
+        "ci_copy": "North America CI text.docx",
+        "main_feature_brief": "North America Main Feature.docx",
+        "design_help_assets": "North America MF Organizer.xlsx",
+        "concept_render": "na ci concept.jpg"
+      }
+    },
+    "copy": {
+      "text_blocks": [
+        {
+          "id": "txt_title",
+          "role": "header",
+          "heading": null,
+          "body": "Where Bounce Began: Mesoamerica’s Rubber Revolution",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_process_step_1",
+          "role": "process_step",
+          "heading": "Cutting the Tree",
+          "body": "Slicing into the Castilla elastica tree taps liquid latex—the raw lifeblood of the first rubber.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_process_step_2",
+          "role": "process_step",
+          "heading": "Mixing Latex and Sap",
+          "body": "Morning glory sap meets latex—an ancient chemical wizardry that toughens rubber into a bouncy marvel.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_process_step_3",
+          "role": "process_step",
+          "heading": "Molding the Polymer",
+          "body": "Shaped by skilled hands, this gooey mixture is pressed and rolled into the world’s earliest game ball.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_process_step_4",
+          "role": "process_step",
+          "heading": "Finished Ball",
+          "body": "Ready for the court: a firm, elastic sphere born of nature’s own formula and human innovation.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_hero_caption",
+          "role": "hero_caption",
+          "heading": null,
+          "body": "Before soccer, basketball, or tennis, Mesoamericans played with the world’s first rubber balls. This sacred ball game—ōllamaliztli—used rubber spheres crafted by hand, turning raw sap into a sporting phenomenon that still echoes through modern arenas.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_bottom_comparison_caption",
+          "role": "bottom_comparison_caption",
+          "heading": null,
+          "body": "From ōllamaliztli’s hip-striking showdowns to the global frenzy of soccer, the influence of Mesoamerica’s ball court design bounces across centuries and continents.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_timeline_1",
+          "role": "timeline_item",
+          "heading": "Pre-Vulcanization (Ancient Mesoamerica)",
+          "body": "Mixing latex with sap to craft balls, bind tools, and seal containers—before anyone coined the term ‘rubber.’",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_timeline_2",
+          "role": "timeline_item",
+          "heading": "Eraser Revolution (1700s–1800s)",
+          "body": "Natural latex earns its name ‘rubber’ by wiping out pencil marks—a small but mighty step toward modern stationery.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_timeline_3",
+          "role": "timeline_item",
+          "heading": "Industrial Vulcanization (1839)",
+          "body": "Charles Goodyear’s breakthrough in sulfur-curing rubber launches sturdy tires, hoses, and a massive manufacturing boom.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_timeline_4",
+          "role": "timeline_item",
+          "heading": "Elastic Everyday (Early 20th Century)",
+          "body": "From waterproof boots to conveyor belts, rubber finds its groove in factories, farms, and front rooms around the globe.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        },
+        {
+          "id": "txt_timeline_5",
+          "role": "timeline_item",
+          "heading": "High-Tech Polymers (Today)",
+          "body": "Whether it’s rocket seals, athletic gear, or sustainable eco-tyres, advanced synthetic rubbers keep our modern world rolling, bouncing, and exploring new frontiers.",
+          "optional": false,
+          "source": "North America CI text.docx"
+        }
+      ],
+      "reflection_questions": [
+        "How did the Mesoamerican discovery of rubber influence modern materials science?",
+        "What similarities exist between ancient ball games and today’s sports culture?",
+        "How does the legacy of ōllamaliztli reflect humanity’s universal love for competition and innovation?"
+      ],
+      "notes": [
+        "Copy blocks are sourced from CI text; supporting background and design guidance are sourced from the Main Feature brief."
+      ]
+    },
+    "assets": {
+      "images": [
+        {
+          "id": "img_concept_reference",
+          "asset_id": "concept_reference_render",
+          "content_type": "Concept Reference Render",
+          "placement": "Reference Only",
+          "approx_size": null,
+          "purpose": "Visual reference for North America CI draft layout generated via NanoBanana Pro.",
+          "format": "Raster image (JPEG)",
+          "ai_friendly": null,
+          "notes": "Local file captured from NanoBanana Pro draft.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "na ci concept.jpg"
+        },
+        {
+          "id": "img_hero_ball_court_scene",
+          "asset_id": "hero_image_mesoamerican_ball_court_mid_game",
+          "content_type": "1. Hero Image: Mesoamerican Ball Court Mid-Game",
+          "placement": "Hero Section (Center-Top)",
+          "approx_size": "Full-width top third",
+          "purpose": "Establish the ancient Mesoamerican ballgame setting; ball and court should read immediately.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": "This is generally hard to prompt, I have a few other versions of this. | This has a bunch of reference images for the size of the ball and the rings and game play as a whole",
+          "source_url": "https://cdn.midjourney.com/6ca98ab5-db64-4702-8b5c-fc2bbc106223/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_process_cutting_tree",
+          "asset_id": "process_latex_harvesting_castilla_elastica",
+          "content_type": "2. Latex Harvesting Illustration",
+          "placement": "Left Section (Vertical Infographic)",
+          "approx_size": "~1/3 of left column",
+          "purpose": "Step 1 visual: tapping the Castilla elastica tree to collect latex.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/b2a558e4-97c2-4419-8df5-f7359c77a014/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_process_mixing_latex_sap",
+          "asset_id": "process_mixing_latex_and_morning_glory_sap",
+          "content_type": "3. Mixing Latex and Morning Glory Sap Illustration",
+          "placement": "Left Section (Vertical Infographic)",
+          "approx_size": "~1/3 of left column",
+          "purpose": "Step 2 visual: combining latex with morning glory sap to strengthen rubber.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": "https://cdn.midjourney.com/381807ad-d016-4120-a1f3-b3c3909ca10a/0_2.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_process_molding_polymer",
+          "asset_id": "process_molding_rubber_ball",
+          "content_type": "4. Molding the Rubber Ball Illustration",
+          "placement": "Left Section (Vertical Infographic)",
+          "approx_size": "~1/3 of left column",
+          "purpose": "Step 3 visual: pressing/rolling the mixture into a ball.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": "might need a bigger ball",
+          "source_url": "https://cdn.midjourney.com/2b699dc5-81cf-4b92-9fe2-2f5a5457c96f/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_diagram_tlachtli_court",
+          "asset_id": "diagram_tlachtli_ball_court",
+          "content_type": "5. Diagram of a Tlachtli Ball Court",
+          "placement": "Center Section (Adjacent to Hero)",
+          "approx_size": "~1/4 of center section",
+          "purpose": "Bottom-center comparison: tlachtli court diagram/plan view.",
+          "format": "Artwork/Diagram",
+          "ai_friendly": "Yes",
+          "notes": "will need work",
+          "source_url": "https://cdn.midjourney.com/fb87fedb-7548-46a6-8f73-153055b0db6f/0_1.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_inset_rubber_ball_closeup",
+          "asset_id": "inset_closeup_finished_rubber_ball",
+          "content_type": "6. Close-up of the Rubber Ball (Optional Inset)",
+          "placement": "Center Section (Inset)",
+          "approx_size": "Small inset (~1/8 of center)",
+          "purpose": "Step 4 visual or optional inset: finished rubber ball close-up.",
+          "format": "Artwork/Illustration",
+          "ai_friendly": "Yes",
+          "notes": "needs less texture",
+          "source_url": "https://cdn.midjourney.com/19357a6f-3593-4dc0-b714-9ca4fa178c5c/0_3.png",
+          "status": "provided",
+          "local_filename": null
+        },
+        {
+          "id": "img_right_panel_timeline_container",
+          "asset_id": "timeline_panel_container",
+          "content_type": "7. Timeline: Mesoamerican to Modern Sports Balls",
+          "placement": "Right Section (Timeline)",
+          "approx_size": "~1/2 of right column",
+          "purpose": "Right-column timeline container (may be broken into five mini-images).",
+          "format": "Infographic/Artwork",
+          "ai_friendly": "No",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_right_panel_modern_applications",
+          "asset_id": "modern_applications_rubber_photos",
+          "content_type": "8. Modern Applications of Rubber (Tires, Belts)",
+          "placement": "Right Section (Along Timeline)",
+          "approx_size": "~1/4 of right column",
+          "purpose": "Right-column modern rubber applications (tires, belts, hoses).",
+          "format": "Photographs or AI Illustration",
+          "ai_friendly": "No",
+          "notes": null,
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 03_19_20 PM.png"
+        },
+        {
+          "id": "img_optional_comparative_graphic",
+          "asset_id": "comparative_rubber_ball_to_modern_balls",
+          "content_type": "9. Comparative Graphic: Rubber Ball to Modern Balls",
+          "placement": "Optional Section (Industrial Revolution)",
+          "approx_size": "~1/3 of optional section",
+          "purpose": "Optional comparison graphic: rubber ball to modern balls/objects.",
+          "format": "Infographic/Artwork",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "u8718993996_imagine_a_photorealistic_image_of_an_empty_soccer_02a99548-bbee-4a5e-a442-2f42046b4be1_2.png"
+        },
+        {
+          "id": "img_icon_reflection_prompt",
+          "asset_id": "icon_reflection_prompt",
+          "content_type": "10. Small Iconic Imagery (Leaf or Stylized Earth)",
+          "placement": "Reflective Prompt (Bottom)",
+          "approx_size": "Small (~1/10 of poster)",
+          "purpose": "Small icon supporting reflection prompt region.",
+          "format": "Minimalist Artwork/Icon",
+          "ai_friendly": "Yes",
+          "notes": null,
+          "source_url": null,
+          "status": "missing",
+          "local_filename": null
+        },
+        {
+          "id": "img_timeline_pre_vulcanization",
+          "asset_id": "timeline_image_pre_vulcanization",
+          "content_type": "Pre-Vulcanization image (latex + sap use)",
+          "placement": "Right Column Timeline (stacked)",
+          "approx_size": "~1/5 of right column each",
+          "purpose": "Support corresponding timeline copy block.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: add final image link (stock or Midjourney) when selected.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 03_18_53 PM.png"
+        },
+        {
+          "id": "img_timeline_eraser_revolution",
+          "asset_id": "timeline_image_eraser_revolution",
+          "content_type": "Eraser revolution image (pencil erasing)",
+          "placement": "Right Column Timeline (stacked)",
+          "approx_size": "~1/5 of right column each",
+          "purpose": "Support corresponding timeline copy block.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: add final image link (stock or Midjourney) when selected.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 02_50_42 PM.png"
+        },
+        {
+          "id": "img_timeline_industrial_vulcanization",
+          "asset_id": "timeline_image_industrial_vulcanization",
+          "content_type": "Industrial vulcanization image (Goodyear/industrial)",
+          "placement": "Right Column Timeline (stacked)",
+          "approx_size": "~1/5 of right column each",
+          "purpose": "Support corresponding timeline copy block.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: add final image link (stock or Midjourney) when selected.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 03_19_07 PM.png"
+        },
+        {
+          "id": "img_timeline_elastic_everyday",
+          "asset_id": "timeline_image_elastic_everyday",
+          "content_type": "Elastic everyday image (boots/belts/industry)",
+          "placement": "Right Column Timeline (stacked)",
+          "approx_size": "~1/5 of right column each",
+          "purpose": "Support corresponding timeline copy block.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: add final image link (stock or Midjourney) when selected.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 03_19_15 PM.png"
+        },
+        {
+          "id": "img_timeline_high_tech_polymers",
+          "asset_id": "timeline_image_high_tech_polymers",
+          "content_type": "High-tech polymers image (modern synthetics/space/tech)",
+          "placement": "Right Column Timeline (stacked)",
+          "approx_size": "~1/5 of right column each",
+          "purpose": "Support corresponding timeline copy block.",
+          "format": "Photo or AI artwork",
+          "ai_friendly": null,
+          "notes": "Placeholder: add final image link (stock or Midjourney) when selected.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "ChatGPT Image Apr 3, 2025, 03_19_20 PM.png"
+        },
+        {
+          "id": "img_modern_soccer_stadium",
+          "asset_id": "modern_soccer_stadium_photo",
+          "content_type": "Modern Soccer Stadium (comparison image)",
+          "placement": "Bottom Center (right image)",
+          "approx_size": "~1/2 of bottom comparison row",
+          "purpose": "Modern analog to tlachtli court; reinforces continuity from ancient ballgames to global soccer.",
+          "format": "Photo",
+          "ai_friendly": "No (Prefer Real Photos)",
+          "notes": "Placeholder: add licensed stadium photo link.",
+          "source_url": null,
+          "status": "provided",
+          "local_filename": "u8718993996_imagine_a_photorealistic_image_of_an_empty_soccer_02a99548-bbee-4a5e-a442-2f42046b4be1_2.png"
+        }
+      ],
+      "references": [
+        {
+          "id": "ref_ballgame_reference",
+          "description": "This has a bunch of reference images for the size of the ball and the rings and game play as a whole",
+          "source_url": "https://www.mexicolore.co.uk/maya/ballgame/ulama-the-pre-columbian-ballgame-survives-today"
+        }
+      ]
+    },
+    "layout": {
+      "layout_concept": "Three-column layout: left process steps, center hero + bottom comparison, right rubber-use timeline.",
+      "regions": [
+        {
+          "id": "region_header",
+          "role": "header",
+          "components": [
+            {
+              "type": "text",
+              "text_ref": "txt_title"
+            }
+          ]
+        },
+        {
+          "id": "region_left_process",
+          "role": "process_column",
+          "components": [
+            {
+              "type": "process_step",
+              "order": 1,
+              "image_ref": "img_process_cutting_tree",
+              "text_ref": "txt_process_step_1",
+              "placement": "Left Column Step 1"
+            },
+            {
+              "type": "process_step",
+              "order": 2,
+              "image_ref": "img_process_mixing_latex_sap",
+              "text_ref": "txt_process_step_2",
+              "placement": "Left Column Step 2"
+            },
+            {
+              "type": "process_step",
+              "order": 3,
+              "image_ref": "img_process_molding_polymer",
+              "text_ref": "txt_process_step_3",
+              "placement": "Left Column Step 3"
+            },
+            {
+              "type": "process_step",
+              "order": 4,
+              "image_ref": "img_inset_rubber_ball_closeup",
+              "text_ref": "txt_process_step_4",
+              "placement": "Left Column Step 4"
+            }
+          ]
+        },
+        {
+          "id": "region_hero",
+          "role": "hero",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_hero_ball_court_scene"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_hero_caption"
+            }
+          ]
+        },
+        {
+          "id": "region_bottom_comparison",
+          "role": "comparison",
+          "components": [
+            {
+              "type": "image",
+              "image_ref": "img_diagram_tlachtli_court",
+              "label": "Mesoamerican Tlachtli Court"
+            },
+            {
+              "type": "image",
+              "image_ref": "img_modern_soccer_stadium",
+              "label": "Modern Soccer Stadium"
+            },
+            {
+              "type": "text",
+              "text_ref": "txt_bottom_comparison_caption"
+            }
+          ]
+        },
+        {
+          "id": "region_right_timeline",
+          "role": "timeline_column",
+          "components": [
+            {
+              "type": "timeline_item",
+              "order": 1,
+              "image_ref": "img_timeline_pre_vulcanization",
+              "text_ref": "txt_timeline_1"
+            },
+            {
+              "type": "timeline_item",
+              "order": 2,
+              "image_ref": "img_timeline_eraser_revolution",
+              "text_ref": "txt_timeline_2"
+            },
+            {
+              "type": "timeline_item",
+              "order": 3,
+              "image_ref": "img_timeline_industrial_vulcanization",
+              "text_ref": "txt_timeline_3"
+            },
+            {
+              "type": "timeline_item",
+              "order": 4,
+              "image_ref": "img_timeline_elastic_everyday",
+              "text_ref": "txt_timeline_4"
+            },
+            {
+              "type": "timeline_item",
+              "order": 5,
+              "image_ref": "img_timeline_high_tech_polymers",
+              "text_ref": "txt_timeline_5"
+            }
+          ]
+        },
+        {
+          "id": "region_reflection",
+          "role": "reflection",
+          "components": [
+            {
+              "type": "questions",
+              "items": [
+                "How did the Mesoamerican discovery of rubber influence modern materials science?",
+                "What similarities exist between ancient ball games and today’s sports culture?",
+                "How does the legacy of ōllamaliztli reflect humanity’s universal love for competition and innovation?"
+              ]
+            }
+          ]
+        }
+      ],
+      "reading_order": [
+        "region_header",
+        "region_left_process",
+        "region_hero",
+        "region_right_timeline",
+        "region_bottom_comparison",
+        "region_reflection"
+      ]
+    },
+    "designer_guidance": {
+      "design_objectives_and_summary": "This exhibit explores the ancient Mesoamerican innovation of rubber processing, its role in creating the first rubber balls, and the cultural significance of early ball games. Using the metaphor of threads connecting past to present, the exhibit highlights how this discovery influenced sports, technology, and industry, ultimately shaping the modern world. The design should celebrate the ingenuity of ancient Mesoamericans while drawing connections to contemporary uses of rubber and the global spread of ball games.",
+      "key_design_objectives": {
+        "Hero Imagery": [
+          "A Mesoamerican ball court in action, with players engaged in the ancient game ōllamaliztli.",
+          "Include a prominent rubber ball, symbolizing the innovation that enabled this sport."
+        ],
+        "Cultural Context": [
+          "Illustrate the process of rubber-making, showing the extraction of latex from the Castilla elastica tree and its treatment with morning glory sap.",
+          "Highlight the role of ball games in Mesoamerican society, emphasizing their religious and cultural significance."
+        ],
+        "Threads to the Present": [
+          "Draw connections to modern uses of rubber, such as in tires, sports equipment, and industrial materials.",
+          "Show the evolution of ball sports from ōllamaliztli to global games like soccer, basketball, and tennis."
+        ]
+      },
+      "essential_knowledge": {
+        "Rubber Processing: The First Polymer Scientists": {
+          "Overview": [
+            "The ancient Mesoamericans were the first to discover and process rubber, creating a durable, elastic material from natural latex."
+          ],
+          "Harvesting and Processing": [
+            "Latex was extracted from the Castilla elastica tree by making cuts in the bark.",
+            "The latex was mixed with morning glory vine sap, which contains sulfur compounds, creating a crosslinking effect that strengthened and stabilized the rubber."
+          ],
+          "Applications": [
+            "Rubber Balls: Used in the sacred and competitive ball game ōllamaliztli.",
+            "Bindings and Adhesives: Rubber was used to fasten tools and weapons.",
+            "Waterproofing: Coated fabrics and containers for water resistance.",
+            "Did You Know? The process of mixing latex with sulfur (used by Mesoamericans) is an early form of vulcanization, rediscovered by Charles Goodyear in 1839.",
+            "Visual Suggestion: A step-by-step illustration of latex harvesting and rubber processing, comparing ancient and modern methods.",
+            "Caption: \"From sap to substance: How Mesoamericans transformed natural latex into rubber.\""
+          ]
+        },
+        "The First Ball Games: A Sacred Tradition": {
+          "Overview": [
+            "The Mesoamerican ball game, known as ōllamaliztli, was more than just a sport—it was a deeply symbolic and ritualistic practice that reflected the cosmos and society."
+          ],
+          "Gameplay": [
+            "Played on a tlachtli court, often flanked by large stone rings.",
+            "Players used their hips to strike a heavy rubber ball, aiming to pass it through a ring or keep it in play.",
+            "The ball’s size and weight varied, often weighing 5–8 pounds."
+          ],
+          "Cultural Significance": [
+            "Ball games were tied to religious ceremonies, symbolizing cosmic battles between life and death.",
+            "Some matches were life-or-death events, with losers (or winners, in some interpretations) being sacrificed."
+          ],
+          "Social Importance": [
+            "The game served as a unifying cultural activity, engaging all levels of society.",
+            "Courts were often located in the heart of cities, reflecting their central role in Mesoamerican life.",
+            "Visual Suggestion: A dynamic illustration of a game in progress, showing players in action and a detailed view of the ball court.",
+            "Caption: \"A game of gods and mortals: The sacred tradition of ōllamaliztli.\""
+          ]
+        },
+        "Threads to the Present: Rubber and Ball Sports Today": {
+          "Overview": [],
+          "Modern Uses of Rubber": [
+            "Tires: Rubber’s elasticity and durability made it essential for the automotive industry.",
+            "Sports Equipment: From basketballs to tennis balls, rubber remains key for creating bounce and grip.",
+            "Industrial Materials: Rubber’s resistance to wear and tear makes it invaluable for belts, hoses, and gaskets."
+          ],
+          "Evolution of Ball Sports": [],
+          "Early Mesoamerican ball games inspired later sports": [
+            "Soccer and Basketball: Concepts of scoring by targeting specific goals echo the precision required in ōllamaliztli.",
+            "Tennis and Volleyball: The use of rubber balls for high-energy play draws on ancient principles.",
+            "Did You Know? The word \"rubber\" comes from its early use in erasing pencil marks.",
+            "Visual Suggestion: A timeline connecting ōllamaliztli to modern ball sports, with images of soccer balls, basketballs, and tennis balls.",
+            "Caption: \"From sacred courts to global arenas: The enduring legacy of ball games.\""
+          ]
+        },
+        "Optional Section: Rubber and the Industrial Revolution": {
+          "Overview": [],
+          "Rubber as a Catalyst": [
+            "The Industrial Revolution saw rubber adapted for machinery, transportation, and manufacturing.",
+            "Advances in vulcanization transformed rubber into a versatile material for countless applications."
+          ],
+          "Connection to Mesoamerican Innovation": [
+            "The principles of latex processing pioneered by ancient Mesoamericans laid the groundwork for modern rubber technologies.",
+            "Visual Suggestion: A comparative graphic showing a Mesoamerican rubber ball alongside a car tire and industrial conveyor belt.",
+            "Caption: \"Threads of progress: How ancient innovation shaped the modern world.\""
+          ]
+        }
+      },
+      "comparative_and_reflective_elements": {
+        "Ancient and Modern Rubber Processing": [
+          "Compare the simplicity of Mesoamerican methods to the complexity of modern vulcanization."
+        ],
+        "Ball Games Across Time": [
+          "Link the precision and physicality of ōllamaliztli to modern sports like soccer and basketball."
+        ],
+        "Rubber’s Universal Impact": [
+          "Highlight its evolution from a sacred material to an industrial powerhouse."
+        ]
+      },
+      "image_suggestions": [
+        {
+          "name": "Hero Image",
+          "visual_suggestion": "A Mesoamerican ball court with players in action and the rubber ball prominently displayed.",
+          "caption": "The heart of the game: A rubber ball that united a civilization."
+        },
+        {
+          "name": "Rubber Processing",
+          "visual_suggestion": "A step-by-step diagram of latex extraction and treatment with morning glory sap.",
+          "caption": "Ancient alchemy: Transforming sap into innovation."
+        },
+        {
+          "name": "Sports Timeline",
+          "visual_suggestion": "A timeline connecting ōllamaliztli to soccer, basketball, and tennis.",
+          "caption": "From sacred to global: The journey of ball games."
+        },
+        {
+          "name": "Rubber’s Evolution",
+          "visual_suggestion": "A comparison of a Mesoamerican rubber ball, a car tire, and a basketball.",
+          "caption": "A material for all ages: The versatility of rubber."
+        }
+      ],
+      "capturing_the_mood": "The exhibit should celebrate the creativity and cultural significance of ancient Mesoamerican rubber processing and ball games. By connecting these innovations to modern sports and industrial uses of rubber, visitors will see how the ingenuity of the past continues to shape the world today."
+    },
+    "provenance": {
+      "generated_by": "ChatGPT",
+      "generated_at": "2025-12-30T00:24:38.940955+00:00",
+      "source_files": {
+        "concept_image": {
+          "filename": "na ci concept.jpg",
+          "size_bytes": 689339,
+          "sha256": "ea915cae5ea84280f48f1fd866d60954bc17b48c47890621ee5404279249eb34"
+        },
+        "ci_text_docx": {
+          "filename": "North America CI text.docx",
+          "size_bytes": 8605,
+          "sha256": "c75ee36c25d91204f0df1dee26e9ea227b85e55e748f76c8ba37916c23ab20b5"
+        },
+        "main_feature_docx": {
+          "filename": "North America Main Feature.docx",
+          "size_bytes": 11796,
+          "sha256": "a13a21bcf3e9f5a2e3740941321e637dc53c21efa3f70423909a571951b55004"
+        },
+        "mf_organizer_xlsx": {
+          "filename": "North America MF Organizer.xlsx",
+          "size_bytes": 8797,
+          "sha256": "d2e09de8376ad2e07e2a283896aab49cec79b760986659a1a1fd8f2b8463f540"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/cultural innovations/north_america_ci_where_bounce_began_rubber_revolution_v2 (1).xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__cultural_innovations__north_america__north_america_ci_where_bounce_began_rubber_revolution_v2_1</poster_id>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>cultural_innovations</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<KaycliffPosterPackage schemaVersion="kaycliff.atlastrail.poster_package.v1" generatedAt="2025-12-30T00:24:38.940955+00:00">
+  
+  
+  <PosterMeta>
+    
+    
+    <PosterId>north_america_ci_where_bounce_began_rubber_revolution</PosterId>
+    
+    
+    <Continent>North America</Continent>
+    
+    
+    <Domain>Cultural Innovation</Domain>
+    
+    
+    <PosterType>Main Feature</PosterType>
+    
+    
+    <Title>Where Bounce Began: Mesoamerica’s Rubber Revolution</Title>
+    
+    
+    <RecommendedPrintSizeInches>
+      
+      
+      <Width>96</Width>
+      
+      
+      <Height>60</Height>
+      
+    
+    </RecommendedPrintSizeInches>
+    
+    
+    <AspectRatio>8:5</AspectRatio>
+    
+  
+  </PosterMeta>
+  
+  
+  <SourceFiles>
+    
+    
+    <File role="ci_copy">North America CI text.docx</File>
+    
+    
+    <File role="main_feature_brief">North America Main Feature.docx</File>
+    
+    
+    <File role="design_help_assets">North America MF Organizer.xlsx</File>
+    
+    
+    <File role="concept_render">na ci concept.jpg</File>
+    
+  
+  </SourceFiles>
+  
+  
+  <ReferenceRender>
+    
+    
+    <ImageRef>img_concept_reference</ImageRef>
+    
+  
+  </ReferenceRender>
+  
+  
+  <Assets>
+    
+    
+    <Images>
+      
+      
+      <Image id="img_concept_reference" status="provided">
+        
+        
+        <AssetId>concept_reference_render</AssetId>
+        
+        
+        <ContentType>Concept Reference Render</ContentType>
+        
+        
+        <Placement>Reference Only</Placement>
+        
+        
+        <ApproxSize/>
+        
+        
+        <Purpose>Visual reference for North America CI draft layout generated via NanoBanana Pro.</Purpose>
+        
+        
+        <Format>Raster image (JPEG)</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Local file captured from NanoBanana Pro draft.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>na ci concept.jpg</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_hero_ball_court_scene" status="provided">
+        
+        
+        <AssetId>hero_image_mesoamerican_ball_court_mid_game</AssetId>
+        
+        
+        <ContentType>1. Hero Image: Mesoamerican Ball Court Mid-Game</ContentType>
+        
+        
+        <Placement>Hero Section (Center-Top)</Placement>
+        
+        
+        <ApproxSize>Full-width top third</ApproxSize>
+        
+        
+        <Purpose>Establish the ancient Mesoamerican ballgame setting; ball and court should read immediately.</Purpose>
+        
+        
+        <Format>Artwork/Illustration</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes>This is generally hard to prompt, I have a few other versions of this. | This has a bunch of reference images for the size of the ball and the rings and game play as a whole</Notes>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/6ca98ab5-db64-4702-8b5c-fc2bbc106223/0_1.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_process_cutting_tree" status="provided">
+        
+        
+        <AssetId>process_latex_harvesting_castilla_elastica</AssetId>
+        
+        
+        <ContentType>2. Latex Harvesting Illustration</ContentType>
+        
+        
+        <Placement>Left Section (Vertical Infographic)</Placement>
+        
+        
+        <ApproxSize>~1/3 of left column</ApproxSize>
+        
+        
+        <Purpose>Step 1 visual: tapping the Castilla elastica tree to collect latex.</Purpose>
+        
+        
+        <Format>Artwork/Illustration</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/b2a558e4-97c2-4419-8df5-f7359c77a014/0_2.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_process_mixing_latex_sap" status="provided">
+        
+        
+        <AssetId>process_mixing_latex_and_morning_glory_sap</AssetId>
+        
+        
+        <ContentType>3. Mixing Latex and Morning Glory Sap Illustration</ContentType>
+        
+        
+        <Placement>Left Section (Vertical Infographic)</Placement>
+        
+        
+        <ApproxSize>~1/3 of left column</ApproxSize>
+        
+        
+        <Purpose>Step 2 visual: combining latex with morning glory sap to strengthen rubber.</Purpose>
+        
+        
+        <Format>Artwork/Illustration</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/381807ad-d016-4120-a1f3-b3c3909ca10a/0_2.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_process_molding_polymer" status="provided">
+        
+        
+        <AssetId>process_molding_rubber_ball</AssetId>
+        
+        
+        <ContentType>4. Molding the Rubber Ball Illustration</ContentType>
+        
+        
+        <Placement>Left Section (Vertical Infographic)</Placement>
+        
+        
+        <ApproxSize>~1/3 of left column</ApproxSize>
+        
+        
+        <Purpose>Step 3 visual: pressing/rolling the mixture into a ball.</Purpose>
+        
+        
+        <Format>Artwork/Illustration</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes>might need a bigger ball</Notes>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/2b699dc5-81cf-4b92-9fe2-2f5a5457c96f/0_3.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_diagram_tlachtli_court" status="provided">
+        
+        
+        <AssetId>diagram_tlachtli_ball_court</AssetId>
+        
+        
+        <ContentType>5. Diagram of a Tlachtli Ball Court</ContentType>
+        
+        
+        <Placement>Center Section (Adjacent to Hero)</Placement>
+        
+        
+        <ApproxSize>~1/4 of center section</ApproxSize>
+        
+        
+        <Purpose>Bottom-center comparison: tlachtli court diagram/plan view.</Purpose>
+        
+        
+        <Format>Artwork/Diagram</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes>will need work</Notes>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/fb87fedb-7548-46a6-8f73-153055b0db6f/0_1.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_inset_rubber_ball_closeup" status="provided">
+        
+        
+        <AssetId>inset_closeup_finished_rubber_ball</AssetId>
+        
+        
+        <ContentType>6. Close-up of the Rubber Ball (Optional Inset)</ContentType>
+        
+        
+        <Placement>Center Section (Inset)</Placement>
+        
+        
+        <ApproxSize>Small inset (~1/8 of center)</ApproxSize>
+        
+        
+        <Purpose>Step 4 visual or optional inset: finished rubber ball close-up.</Purpose>
+        
+        
+        <Format>Artwork/Illustration</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes>needs less texture</Notes>
+        
+        
+        <SourceUrl>https://cdn.midjourney.com/19357a6f-3593-4dc0-b714-9ca4fa178c5c/0_3.png</SourceUrl>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_right_panel_timeline_container" status="missing">
+        
+        
+        <AssetId>timeline_panel_container</AssetId>
+        
+        
+        <ContentType>7. Timeline: Mesoamerican to Modern Sports Balls</ContentType>
+        
+        
+        <Placement>Right Section (Timeline)</Placement>
+        
+        
+        <ApproxSize>~1/2 of right column</ApproxSize>
+        
+        
+        <Purpose>Right-column timeline container (may be broken into five mini-images).</Purpose>
+        
+        
+        <Format>Infographic/Artwork</Format>
+        
+        
+        <AIFriendly>No</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_right_panel_modern_applications" status="provided">
+        
+        
+        <AssetId>modern_applications_rubber_photos</AssetId>
+        
+        
+        <ContentType>8. Modern Applications of Rubber (Tires, Belts)</ContentType>
+        
+        
+        <Placement>Right Section (Along Timeline)</Placement>
+        
+        
+        <ApproxSize>~1/4 of right column</ApproxSize>
+        
+        
+        <Purpose>Right-column modern rubber applications (tires, belts, hoses).</Purpose>
+        
+        
+        <Format>Photographs or AI Illustration</Format>
+        
+        
+        <AIFriendly>No</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 03_19_20 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_optional_comparative_graphic" status="provided">
+        
+        
+        <AssetId>comparative_rubber_ball_to_modern_balls</AssetId>
+        
+        
+        <ContentType>9. Comparative Graphic: Rubber Ball to Modern Balls</ContentType>
+        
+        
+        <Placement>Optional Section (Industrial Revolution)</Placement>
+        
+        
+        <ApproxSize>~1/3 of optional section</ApproxSize>
+        
+        
+        <Purpose>Optional comparison graphic: rubber ball to modern balls/objects.</Purpose>
+        
+        
+        <Format>Infographic/Artwork</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>u8718993996_imagine_a_photorealistic_image_of_an_empty_soccer_02a99548-bbee-4a5e-a442-2f42046b4be1_2.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_icon_reflection_prompt" status="missing">
+        
+        
+        <AssetId>icon_reflection_prompt</AssetId>
+        
+        
+        <ContentType>10. Small Iconic Imagery (Leaf or Stylized Earth)</ContentType>
+        
+        
+        <Placement>Reflective Prompt (Bottom)</Placement>
+        
+        
+        <ApproxSize>Small (~1/10 of poster)</ApproxSize>
+        
+        
+        <Purpose>Small icon supporting reflection prompt region.</Purpose>
+        
+        
+        <Format>Minimalist Artwork/Icon</Format>
+        
+        
+        <AIFriendly>Yes</AIFriendly>
+        
+        
+        <Notes/>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename/>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_timeline_pre_vulcanization" status="provided">
+        
+        
+        <AssetId>timeline_image_pre_vulcanization</AssetId>
+        
+        
+        <ContentType>Pre-Vulcanization image (latex + sap use)</ContentType>
+        
+        
+        <Placement>Right Column Timeline (stacked)</Placement>
+        
+        
+        <ApproxSize>~1/5 of right column each</ApproxSize>
+        
+        
+        <Purpose>Support corresponding timeline copy block.</Purpose>
+        
+        
+        <Format>Photo or AI artwork</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Placeholder: add final image link (stock or Midjourney) when selected.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 03_18_53 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_timeline_eraser_revolution" status="provided">
+        
+        
+        <AssetId>timeline_image_eraser_revolution</AssetId>
+        
+        
+        <ContentType>Eraser revolution image (pencil erasing)</ContentType>
+        
+        
+        <Placement>Right Column Timeline (stacked)</Placement>
+        
+        
+        <ApproxSize>~1/5 of right column each</ApproxSize>
+        
+        
+        <Purpose>Support corresponding timeline copy block.</Purpose>
+        
+        
+        <Format>Photo or AI artwork</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Placeholder: add final image link (stock or Midjourney) when selected.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 02_50_42 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_timeline_industrial_vulcanization" status="provided">
+        
+        
+        <AssetId>timeline_image_industrial_vulcanization</AssetId>
+        
+        
+        <ContentType>Industrial vulcanization image (Goodyear/industrial)</ContentType>
+        
+        
+        <Placement>Right Column Timeline (stacked)</Placement>
+        
+        
+        <ApproxSize>~1/5 of right column each</ApproxSize>
+        
+        
+        <Purpose>Support corresponding timeline copy block.</Purpose>
+        
+        
+        <Format>Photo or AI artwork</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Placeholder: add final image link (stock or Midjourney) when selected.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 03_19_07 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_timeline_elastic_everyday" status="provided">
+        
+        
+        <AssetId>timeline_image_elastic_everyday</AssetId>
+        
+        
+        <ContentType>Elastic everyday image (boots/belts/industry)</ContentType>
+        
+        
+        <Placement>Right Column Timeline (stacked)</Placement>
+        
+        
+        <ApproxSize>~1/5 of right column each</ApproxSize>
+        
+        
+        <Purpose>Support corresponding timeline copy block.</Purpose>
+        
+        
+        <Format>Photo or AI artwork</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Placeholder: add final image link (stock or Midjourney) when selected.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 03_19_15 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_timeline_high_tech_polymers" status="provided">
+        
+        
+        <AssetId>timeline_image_high_tech_polymers</AssetId>
+        
+        
+        <ContentType>High-tech polymers image (modern synthetics/space/tech)</ContentType>
+        
+        
+        <Placement>Right Column Timeline (stacked)</Placement>
+        
+        
+        <ApproxSize>~1/5 of right column each</ApproxSize>
+        
+        
+        <Purpose>Support corresponding timeline copy block.</Purpose>
+        
+        
+        <Format>Photo or AI artwork</Format>
+        
+        
+        <AIFriendly/>
+        
+        
+        <Notes>Placeholder: add final image link (stock or Midjourney) when selected.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>ChatGPT Image Apr 3, 2025, 03_19_20 PM.png</LocalFilename>
+        
+      
+      </Image>
+      
+      
+      <Image id="img_modern_soccer_stadium" status="provided">
+        
+        
+        <AssetId>modern_soccer_stadium_photo</AssetId>
+        
+        
+        <ContentType>Modern Soccer Stadium (comparison image)</ContentType>
+        
+        
+        <Placement>Bottom Center (right image)</Placement>
+        
+        
+        <ApproxSize>~1/2 of bottom comparison row</ApproxSize>
+        
+        
+        <Purpose>Modern analog to tlachtli court; reinforces continuity from ancient ballgames to global soccer.</Purpose>
+        
+        
+        <Format>Photo</Format>
+        
+        
+        <AIFriendly>No (Prefer Real Photos)</AIFriendly>
+        
+        
+        <Notes>Placeholder: add licensed stadium photo link.</Notes>
+        
+        
+        <SourceUrl/>
+        
+        
+        <LocalFilename>u8718993996_imagine_a_photorealistic_image_of_an_empty_soccer_02a99548-bbee-4a5e-a442-2f42046b4be1_2.png</LocalFilename>
+        
+      
+      </Image>
+      
+    
+    </Images>
+    
+    
+    <References>
+      
+      
+      <Reference id="ref_ballgame_reference">
+        
+        
+        <Description>This has a bunch of reference images for the size of the ball and the rings and game play as a whole</Description>
+        
+        
+        <SourceUrl>https://www.mexicolore.co.uk/maya/ballgame/ulama-the-pre-columbian-ballgame-survives-today</SourceUrl>
+        
+      
+      </Reference>
+      
+    
+    </References>
+    
+  
+  </Assets>
+  
+  
+  <Copy>
+    
+    
+    <TextBlocks>
+      
+      
+      <TextBlock id="txt_title" role="header" optional="false">
+        
+        
+        <Body>Where Bounce Began: Mesoamerica’s Rubber Revolution</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_process_step_1" role="process_step" optional="false">
+        
+        
+        <Heading>Cutting the Tree</Heading>
+        
+        
+        <Body>Slicing into the Castilla elastica tree taps liquid latex—the raw lifeblood of the first rubber.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_process_step_2" role="process_step" optional="false">
+        
+        
+        <Heading>Mixing Latex and Sap</Heading>
+        
+        
+        <Body>Morning glory sap meets latex—an ancient chemical wizardry that toughens rubber into a bouncy marvel.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_process_step_3" role="process_step" optional="false">
+        
+        
+        <Heading>Molding the Polymer</Heading>
+        
+        
+        <Body>Shaped by skilled hands, this gooey mixture is pressed and rolled into the world’s earliest game ball.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_process_step_4" role="process_step" optional="false">
+        
+        
+        <Heading>Finished Ball</Heading>
+        
+        
+        <Body>Ready for the court: a firm, elastic sphere born of nature’s own formula and human innovation.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_hero_caption" role="hero_caption" optional="false">
+        
+        
+        <Body>Before soccer, basketball, or tennis, Mesoamericans played with the world’s first rubber balls. This sacred ball game—ōllamaliztli—used rubber spheres crafted by hand, turning raw sap into a sporting phenomenon that still echoes through modern arenas.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_bottom_comparison_caption" role="bottom_comparison_caption" optional="false">
+        
+        
+        <Body>From ōllamaliztli’s hip-striking showdowns to the global frenzy of soccer, the influence of Mesoamerica’s ball court design bounces across centuries and continents.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_timeline_1" role="timeline_item" optional="false">
+        
+        
+        <Heading>Pre-Vulcanization (Ancient Mesoamerica)</Heading>
+        
+        
+        <Body>Mixing latex with sap to craft balls, bind tools, and seal containers—before anyone coined the term ‘rubber.’</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_timeline_2" role="timeline_item" optional="false">
+        
+        
+        <Heading>Eraser Revolution (1700s–1800s)</Heading>
+        
+        
+        <Body>Natural latex earns its name ‘rubber’ by wiping out pencil marks—a small but mighty step toward modern stationery.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_timeline_3" role="timeline_item" optional="false">
+        
+        
+        <Heading>Industrial Vulcanization (1839)</Heading>
+        
+        
+        <Body>Charles Goodyear’s breakthrough in sulfur-curing rubber launches sturdy tires, hoses, and a massive manufacturing boom.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_timeline_4" role="timeline_item" optional="false">
+        
+        
+        <Heading>Elastic Everyday (Early 20th Century)</Heading>
+        
+        
+        <Body>From waterproof boots to conveyor belts, rubber finds its groove in factories, farms, and front rooms around the globe.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+      
+      <TextBlock id="txt_timeline_5" role="timeline_item" optional="false">
+        
+        
+        <Heading>High-Tech Polymers (Today)</Heading>
+        
+        
+        <Body>Whether it’s rocket seals, athletic gear, or sustainable eco-tyres, advanced synthetic rubbers keep our modern world rolling, bouncing, and exploring new frontiers.</Body>
+        
+        
+        <Source>North America CI text.docx</Source>
+        
+      
+      </TextBlock>
+      
+    
+    </TextBlocks>
+    
+    
+    <ReflectionQuestions>
+      
+      
+      <Question>How did the Mesoamerican discovery of rubber influence modern materials science?</Question>
+      
+      
+      <Question>What similarities exist between ancient ball games and today’s sports culture?</Question>
+      
+      
+      <Question>How does the legacy of ōllamaliztli reflect humanity’s universal love for competition and innovation?</Question>
+      
+    
+    </ReflectionQuestions>
+    
+  
+  </Copy>
+  
+  
+  <Layout>
+    
+    
+    <LayoutConcept>Three-column layout: left process steps, center hero + bottom comparison, right rubber-use timeline.</LayoutConcept>
+    
+    
+    <Regions>
+      
+      
+      <Region id="region_header" role="header">
+        
+        
+        <Components>
+          
+          
+          <Component type="text">
+            
+            
+            <text_ref>txt_title</text_ref>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+      
+      <Region id="region_left_process" role="process_column">
+        
+        
+        <Components>
+          
+          
+          <Component type="process_step">
+            
+            
+            <order>1</order>
+            
+            
+            <image_ref>img_process_cutting_tree</image_ref>
+            
+            
+            <text_ref>txt_process_step_1</text_ref>
+            
+            
+            <placement>Left Column Step 1</placement>
+            
+          
+          </Component>
+          
+          
+          <Component type="process_step">
+            
+            
+            <order>2</order>
+            
+            
+            <image_ref>img_process_mixing_latex_sap</image_ref>
+            
+            
+            <text_ref>txt_process_step_2</text_ref>
+            
+            
+            <placement>Left Column Step 2</placement>
+            
+          
+          </Component>
+          
+          
+          <Component type="process_step">
+            
+            
+            <order>3</order>
+            
+            
+            <image_ref>img_process_molding_polymer</image_ref>
+            
+            
+            <text_ref>txt_process_step_3</text_ref>
+            
+            
+            <placement>Left Column Step 3</placement>
+            
+          
+          </Component>
+          
+          
+          <Component type="process_step">
+            
+            
+            <order>4</order>
+            
+            
+            <image_ref>img_inset_rubber_ball_closeup</image_ref>
+            
+            
+            <text_ref>txt_process_step_4</text_ref>
+            
+            
+            <placement>Left Column Step 4</placement>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+      
+      <Region id="region_hero" role="hero">
+        
+        
+        <Components>
+          
+          
+          <Component type="image">
+            
+            
+            <image_ref>img_hero_ball_court_scene</image_ref>
+            
+          
+          </Component>
+          
+          
+          <Component type="text">
+            
+            
+            <text_ref>txt_hero_caption</text_ref>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+      
+      <Region id="region_bottom_comparison" role="comparison">
+        
+        
+        <Components>
+          
+          
+          <Component type="image">
+            
+            
+            <image_ref>img_diagram_tlachtli_court</image_ref>
+            
+            
+            <label>Mesoamerican Tlachtli Court</label>
+            
+          
+          </Component>
+          
+          
+          <Component type="image">
+            
+            
+            <image_ref>img_modern_soccer_stadium</image_ref>
+            
+            
+            <label>Modern Soccer Stadium</label>
+            
+          
+          </Component>
+          
+          
+          <Component type="text">
+            
+            
+            <text_ref>txt_bottom_comparison_caption</text_ref>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+      
+      <Region id="region_right_timeline" role="timeline_column">
+        
+        
+        <Components>
+          
+          
+          <Component type="timeline_item">
+            
+            
+            <order>1</order>
+            
+            
+            <image_ref>img_timeline_pre_vulcanization</image_ref>
+            
+            
+            <text_ref>txt_timeline_1</text_ref>
+            
+          
+          </Component>
+          
+          
+          <Component type="timeline_item">
+            
+            
+            <order>2</order>
+            
+            
+            <image_ref>img_timeline_eraser_revolution</image_ref>
+            
+            
+            <text_ref>txt_timeline_2</text_ref>
+            
+          
+          </Component>
+          
+          
+          <Component type="timeline_item">
+            
+            
+            <order>3</order>
+            
+            
+            <image_ref>img_timeline_industrial_vulcanization</image_ref>
+            
+            
+            <text_ref>txt_timeline_3</text_ref>
+            
+          
+          </Component>
+          
+          
+          <Component type="timeline_item">
+            
+            
+            <order>4</order>
+            
+            
+            <image_ref>img_timeline_elastic_everyday</image_ref>
+            
+            
+            <text_ref>txt_timeline_4</text_ref>
+            
+          
+          </Component>
+          
+          
+          <Component type="timeline_item">
+            
+            
+            <order>5</order>
+            
+            
+            <image_ref>img_timeline_high_tech_polymers</image_ref>
+            
+            
+            <text_ref>txt_timeline_5</text_ref>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+      
+      <Region id="region_reflection" role="reflection">
+        
+        
+        <Components>
+          
+          
+          <Component type="questions">
+            
+            
+            <items>
+              
+              
+              <Item>How did the Mesoamerican discovery of rubber influence modern materials science?</Item>
+              
+              
+              <Item>What similarities exist between ancient ball games and today’s sports culture?</Item>
+              
+              
+              <Item>How does the legacy of ōllamaliztli reflect humanity’s universal love for competition and innovation?</Item>
+              
+            
+            </items>
+            
+          
+          </Component>
+          
+        
+        </Components>
+        
+      
+      </Region>
+      
+    
+    </Regions>
+    
+    
+    <ReadingOrder>
+      
+      
+      <RegionRef>region_header</RegionRef>
+      
+      
+      <RegionRef>region_left_process</RegionRef>
+      
+      
+      <RegionRef>region_hero</RegionRef>
+      
+      
+      <RegionRef>region_right_timeline</RegionRef>
+      
+      
+      <RegionRef>region_bottom_comparison</RegionRef>
+      
+      
+      <RegionRef>region_reflection</RegionRef>
+      
+    
+    </ReadingOrder>
+    
+  
+  </Layout>
+  
+  
+  <DesignerGuidance>
+    
+    
+    <DesignObjectivesAndSummary>This exhibit explores the ancient Mesoamerican innovation of rubber processing, its role in creating the first rubber balls, and the cultural significance of early ball games. Using the metaphor of threads connecting past to present, the exhibit highlights how this discovery influenced sports, technology, and industry, ultimately shaping the modern world. The design should celebrate the ingenuity of ancient Mesoamericans while drawing connections to contemporary uses of rubber and the global spread of ball games.</DesignObjectivesAndSummary>
+    
+    
+    <KeyDesignObjectives>
+      
+      
+      <Objective name="Hero Imagery">
+        
+        
+        <Item>A Mesoamerican ball court in action, with players engaged in the ancient game ōllamaliztli.</Item>
+        
+        
+        <Item>Include a prominent rubber ball, symbolizing the innovation that enabled this sport.</Item>
+        
+      
+      </Objective>
+      
+      
+      <Objective name="Cultural Context">
+        
+        
+        <Item>Illustrate the process of rubber-making, showing the extraction of latex from the Castilla elastica tree and its treatment with morning glory sap.</Item>
+        
+        
+        <Item>Highlight the role of ball games in Mesoamerican society, emphasizing their religious and cultural significance.</Item>
+        
+      
+      </Objective>
+      
+      
+      <Objective name="Threads to the Present">
+        
+        
+        <Item>Draw connections to modern uses of rubber, such as in tires, sports equipment, and industrial materials.</Item>
+        
+        
+        <Item>Show the evolution of ball sports from ōllamaliztli to global games like soccer, basketball, and tennis.</Item>
+        
+      
+      </Objective>
+      
+    
+    </KeyDesignObjectives>
+    
+    
+    <EssentialKnowledge>
+      
+      
+      <Section name="Rubber Processing: The First Polymer Scientists">
+        
+        
+        <Subsection name="Overview">
+          
+          
+          <Item>The ancient Mesoamericans were the first to discover and process rubber, creating a durable, elastic material from natural latex.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Harvesting and Processing">
+          
+          
+          <Item>Latex was extracted from the Castilla elastica tree by making cuts in the bark.</Item>
+          
+          
+          <Item>The latex was mixed with morning glory vine sap, which contains sulfur compounds, creating a crosslinking effect that strengthened and stabilized the rubber.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Applications">
+          
+          
+          <Item>Rubber Balls: Used in the sacred and competitive ball game ōllamaliztli.</Item>
+          
+          
+          <Item>Bindings and Adhesives: Rubber was used to fasten tools and weapons.</Item>
+          
+          
+          <Item>Waterproofing: Coated fabrics and containers for water resistance.</Item>
+          
+          
+          <Item>Did You Know? The process of mixing latex with sulfur (used by Mesoamericans) is an early form of vulcanization, rediscovered by Charles Goodyear in 1839.</Item>
+          
+          
+          <Item>Visual Suggestion: A step-by-step illustration of latex harvesting and rubber processing, comparing ancient and modern methods.</Item>
+          
+          
+          <Item>Caption: &quot;From sap to substance: How Mesoamericans transformed natural latex into rubber.&quot;</Item>
+          
+        
+        </Subsection>
+        
+      
+      </Section>
+      
+      
+      <Section name="The First Ball Games: A Sacred Tradition">
+        
+        
+        <Subsection name="Overview">
+          
+          
+          <Item>The Mesoamerican ball game, known as ōllamaliztli, was more than just a sport—it was a deeply symbolic and ritualistic practice that reflected the cosmos and society.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Gameplay">
+          
+          
+          <Item>Played on a tlachtli court, often flanked by large stone rings.</Item>
+          
+          
+          <Item>Players used their hips to strike a heavy rubber ball, aiming to pass it through a ring or keep it in play.</Item>
+          
+          
+          <Item>The ball’s size and weight varied, often weighing 5–8 pounds.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Cultural Significance">
+          
+          
+          <Item>Ball games were tied to religious ceremonies, symbolizing cosmic battles between life and death.</Item>
+          
+          
+          <Item>Some matches were life-or-death events, with losers (or winners, in some interpretations) being sacrificed.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Social Importance">
+          
+          
+          <Item>The game served as a unifying cultural activity, engaging all levels of society.</Item>
+          
+          
+          <Item>Courts were often located in the heart of cities, reflecting their central role in Mesoamerican life.</Item>
+          
+          
+          <Item>Visual Suggestion: A dynamic illustration of a game in progress, showing players in action and a detailed view of the ball court.</Item>
+          
+          
+          <Item>Caption: &quot;A game of gods and mortals: The sacred tradition of ōllamaliztli.&quot;</Item>
+          
+        
+        </Subsection>
+        
+      
+      </Section>
+      
+      
+      <Section name="Threads to the Present: Rubber and Ball Sports Today">
+        
+        
+        <Subsection name="Overview"/>
+        
+        
+        <Subsection name="Modern Uses of Rubber">
+          
+          
+          <Item>Tires: Rubber’s elasticity and durability made it essential for the automotive industry.</Item>
+          
+          
+          <Item>Sports Equipment: From basketballs to tennis balls, rubber remains key for creating bounce and grip.</Item>
+          
+          
+          <Item>Industrial Materials: Rubber’s resistance to wear and tear makes it invaluable for belts, hoses, and gaskets.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Evolution of Ball Sports"/>
+        
+        
+        <Subsection name="Early Mesoamerican ball games inspired later sports">
+          
+          
+          <Item>Soccer and Basketball: Concepts of scoring by targeting specific goals echo the precision required in ōllamaliztli.</Item>
+          
+          
+          <Item>Tennis and Volleyball: The use of rubber balls for high-energy play draws on ancient principles.</Item>
+          
+          
+          <Item>Did You Know? The word &quot;rubber&quot; comes from its early use in erasing pencil marks.</Item>
+          
+          
+          <Item>Visual Suggestion: A timeline connecting ōllamaliztli to modern ball sports, with images of soccer balls, basketballs, and tennis balls.</Item>
+          
+          
+          <Item>Caption: &quot;From sacred courts to global arenas: The enduring legacy of ball games.&quot;</Item>
+          
+        
+        </Subsection>
+        
+      
+      </Section>
+      
+      
+      <Section name="Optional Section: Rubber and the Industrial Revolution">
+        
+        
+        <Subsection name="Overview"/>
+        
+        
+        <Subsection name="Rubber as a Catalyst">
+          
+          
+          <Item>The Industrial Revolution saw rubber adapted for machinery, transportation, and manufacturing.</Item>
+          
+          
+          <Item>Advances in vulcanization transformed rubber into a versatile material for countless applications.</Item>
+          
+        
+        </Subsection>
+        
+        
+        <Subsection name="Connection to Mesoamerican Innovation">
+          
+          
+          <Item>The principles of latex processing pioneered by ancient Mesoamericans laid the groundwork for modern rubber technologies.</Item>
+          
+          
+          <Item>Visual Suggestion: A comparative graphic showing a Mesoamerican rubber ball alongside a car tire and industrial conveyor belt.</Item>
+          
+          
+          <Item>Caption: &quot;Threads of progress: How ancient innovation shaped the modern world.&quot;</Item>
+          
+        
+        </Subsection>
+        
+      
+      </Section>
+      
+    
+    </EssentialKnowledge>
+    
+    
+    <ComparativeAndReflectiveElements>
+      
+      
+      <Element name="Ancient and Modern Rubber Processing">
+        
+        
+        <Item>Compare the simplicity of Mesoamerican methods to the complexity of modern vulcanization.</Item>
+        
+      
+      </Element>
+      
+      
+      <Element name="Ball Games Across Time">
+        
+        
+        <Item>Link the precision and physicality of ōllamaliztli to modern sports like soccer and basketball.</Item>
+        
+      
+      </Element>
+      
+      
+      <Element name="Rubber’s Universal Impact">
+        
+        
+        <Item>Highlight its evolution from a sacred material to an industrial powerhouse.</Item>
+        
+      
+      </Element>
+      
+    
+    </ComparativeAndReflectiveElements>
+    
+    
+    <ImageSuggestions>
+      
+      
+      <Suggestion>
+        
+        
+        <Name>Hero Image</Name>
+        
+        
+        <VisualSuggestion>A Mesoamerican ball court with players in action and the rubber ball prominently displayed.</VisualSuggestion>
+        
+        
+        <Caption>The heart of the game: A rubber ball that united a civilization.</Caption>
+        
+      
+      </Suggestion>
+      
+      
+      <Suggestion>
+        
+        
+        <Name>Rubber Processing</Name>
+        
+        
+        <VisualSuggestion>A step-by-step diagram of latex extraction and treatment with morning glory sap.</VisualSuggestion>
+        
+        
+        <Caption>Ancient alchemy: Transforming sap into innovation.</Caption>
+        
+      
+      </Suggestion>
+      
+      
+      <Suggestion>
+        
+        
+        <Name>Sports Timeline</Name>
+        
+        
+        <VisualSuggestion>A timeline connecting ōllamaliztli to soccer, basketball, and tennis.</VisualSuggestion>
+        
+        
+        <Caption>From sacred to global: The journey of ball games.</Caption>
+        
+      
+      </Suggestion>
+      
+      
+      <Suggestion>
+        
+        
+        <Name>Rubber’s Evolution</Name>
+        
+        
+        <VisualSuggestion>A comparison of a Mesoamerican rubber ball, a car tire, and a basketball.</VisualSuggestion>
+        
+        
+        <Caption>A material for all ages: The versatility of rubber.</Caption>
+        
+      
+      </Suggestion>
+      
+    
+    </ImageSuggestions>
+    
+    
+    <CapturingTheMood>The exhibit should celebrate the creativity and cultural significance of ancient Mesoamerican rubber processing and ball games. By connecting these innovations to modern sports and industrial uses of rubber, visitors will see how the ingenuity of the past continues to shape the world today.</CapturingTheMood>
+    
+  
+  </DesignerGuidance>
+  
+  
+  <Provenance>
+    
+    
+    <Generated>
+      
+      
+      <GeneratedBy>ChatGPT</GeneratedBy>
+      
+      
+      <GeneratedAt>2025-12-29T17:31:34.890354+00:00</GeneratedAt>
+      
+    
+    </Generated>
+    
+    
+    <SourceFiles>
+      
+      
+      <File role="concept_image">
+        
+        
+        <Filename>na ci concept.jpg</Filename>
+        
+        
+        <SizeBytes>689339</SizeBytes>
+        
+        
+        <SHA256>ea915cae5ea84280f48f1fd866d60954bc17b48c47890621ee5404279249eb34</SHA256>
+        
+      
+      </File>
+      
+      
+      <File role="ci_text_docx">
+        
+        
+        <Filename>North America CI text.docx</Filename>
+        
+        
+        <SizeBytes>8605</SizeBytes>
+        
+        
+        <SHA256>c75ee36c25d91204f0df1dee26e9ea227b85e55e748f76c8ba37916c23ab20b5</SHA256>
+        
+      
+      </File>
+      
+      
+      <File role="main_feature_docx">
+        
+        
+        <Filename>North America Main Feature.docx</Filename>
+        
+        
+        <SizeBytes>11796</SizeBytes>
+        
+        
+        <SHA256>a13a21bcf3e9f5a2e3740941321e637dc53c21efa3f70423909a571951b55004</SHA256>
+        
+      
+      </File>
+      
+      
+      <File role="mf_organizer_xlsx">
+        
+        
+        <Filename>North America MF Organizer.xlsx</Filename>
+        
+        
+        <SizeBytes>8797</SizeBytes>
+        
+        
+        <SHA256>d2e09de8376ad2e07e2a283896aab49cec79b760986659a1a1fd8f2b8463f540</SHA256>
+        
+      
+      </File>
+      
+    
+    </SourceFiles>
+    
+  
+  </Provenance>
+  
+
+</KaycliffPosterPackage>
+]]></payload_xml>
+</normalized_poster>

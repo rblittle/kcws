@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/stats and featurettes/NorthAmerica_StatsAndFeaturettes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__stats_featurettes__north_america__northamerica_statsandfeaturettes</poster_id>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<StatsAndFeaturettes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <schema>kaycliff_atlas_trail_stats_featurettes</schema>
+  <schema_version>1.0.0</schema_version>
+  <poster_metadata>
+    <id>north-america-in-motion_stats-and-featurettes</id>
+    <continent>North America</continent>
+    <domain>North America</domain>
+    <poster_type>Stats &amp; Featurettes</poster_type>
+    <dimensions>
+      <width>6912</width>
+      <height>4320</height>
+      <unit>px</unit>
+      <source>
+        <file>NorthAmerica_StatsFeatures (1) (1).pdf</file>
+        <note>Page size from proof PDF (likely exported from a 6912×4320px design canvas).</note>
+        </source>
+      </dimensions>
+    <orientation>landscape</orientation>
+    <display_title>North America in Motion: From Wild Lands to Winding Roads</display_title>
+    <language>en</language>
+    <layout_slots>
+      <item>
+        <slot_id>title_top_center</slot_id>
+        <description>Main poster title block</description>
+        <position_rel>
+          <x>0.2</x>
+          <y>0.02</y>
+          <w>0.6</w>
+          <h>0.14</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>featurette_left_top</slot_id>
+        <description>Featurette panel (top-left): Wildfires</description>
+        <position_rel>
+          <x>0.01</x>
+          <y>0.03</y>
+          <w>0.19</w>
+          <h>0.44</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>featurette_left_bottom</slot_id>
+        <description>Featurette panel (bottom-left): Suburban Life</description>
+        <position_rel>
+          <x>0.01</x>
+          <y>0.5</y>
+          <w>0.19</w>
+          <h>0.47</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>map_center</slot_id>
+        <description>Main North America map (country palette fills) + background illustration</description>
+        <position_rel>
+          <x>0.2</x>
+          <y>0.16</y>
+          <w>0.6</w>
+          <h>0.8</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>stats_legend_bottom_left_of_map</slot_id>
+        <description>High/Low legend card listing core stats</description>
+        <position_rel>
+          <x>0.23</x>
+          <y>0.54</y>
+          <w>0.17</w>
+          <h>0.43</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>featurette_right_top</slot_id>
+        <description>Featurette panel (top-right): Natural Wealth / Resources &amp; Industry</description>
+        <position_rel>
+          <x>0.8</x>
+          <y>0.03</y>
+          <w>0.19</w>
+          <h>0.44</h>
+          </position_rel>
+        </item>
+      <item>
+        <slot_id>featurette_right_bottom</slot_id>
+        <description>Featurette panel (bottom-right): Roads, Rails, and Rivers</description>
+        <position_rel>
+          <x>0.8</x>
+          <y>0.5</y>
+          <w>0.19</w>
+          <h>0.47</h>
+          </position_rel>
+        </item>
+      </layout_slots>
+    <base_assets>
+      <item>
+        <asset_id>na_background_illustration</asset_id>
+        <type>illustration</type>
+        <role>Full-bleed scenic background (mountains, farms, road/rail visuals)</role>
+        <description>Illustrated landscape background used behind map and around featurettes (from proof poster artwork).</description>
+        <hyperlinks>
+          <final_url xsi:nil="true" />
+          <url_candidates />
+          </hyperlinks>
+        </item>
+      <item>
+        <asset_id>na_icon_set_maslow_stats</asset_id>
+        <type>icon_set</type>
+        <role>Green/orange icons used in High/Low legend card</role>
+        <description>Icon pair per stat (green vs orange) used to denote high/low exemplars on the legend card.</description>
+        <hyperlinks>
+          <final_url xsi:nil="true" />
+          <url_candidates />
+          </hyperlinks>
+        </item>
+      </base_assets>
+    </poster_metadata>
+  <continent_stats_map>
+    <map_asset>
+      <asset_id>na_main_continent_map</asset_id>
+      <type>map</type>
+      <role>Central continent map with country labels and palette fills</role>
+      <aspect_ratio>approx 3:2</aspect_ratio>
+      <description>Political map of North America with each country filled using a fixed palette (not a choropleth by metric). Includes Greenland label.</description>
+      <hyperlinks>
+        <final_url xsi:nil="true" />
+        <url_candidates />
+        </hyperlinks>
+      </map_asset>
+    <palette_by_country>
+      <item>
+        <country>Canada</country>
+        <color_hex>#DC3B3B</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>United States</country>
+        <color_hex>#0A3161</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Mexico</country>
+        <color_hex>#006341</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Guatemala</country>
+        <color_hex>#4997d0</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Belize</country>
+        <color_hex>#D5DC3B</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>El Salvador</country>
+        <color_hex>#933BDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Honduras</country>
+        <color_hex>#BD3BDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Nicaragua</country>
+        <color_hex>#3B3EDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Costa Rica</country>
+        <color_hex>#3BC1DC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Panama</country>
+        <color_hex>#3BDC73</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Cuba</country>
+        <color_hex>#3BDC9D</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Jamaica</country>
+        <color_hex>#3BDCC7</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Haiti</country>
+        <color_hex>#77DC3B</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Dominican Republic</country>
+        <color_hex>#4DDC3B</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Bahamas</country>
+        <color_hex>#3BDC54</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Barbados</country>
+        <color_hex>#3BDC7E</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Trinidad and Tobago</country>
+        <color_hex>#3BDCA8</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Antigua and Barbuda</country>
+        <color_hex>#813BDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Saint Kitts and Nevis</country>
+        <color_hex>#AB3BDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Saint Lucia</country>
+        <color_hex>#D53BDC</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Saint Vincent and the Grenadines</country>
+        <color_hex>#DC3BB9</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Grenada</country>
+        <color_hex>#DC3B8F</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Dominica</country>
+        <color_hex>#DC3B65</color_hex>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>stats map palette</sheet>
+          <range>A:B</range>
+          </source>
+        </item>
+      <item>
+        <country>Greenland</country>
+        <color_hex>#FFFFFF</color_hex>
+        <source>
+          <type>proof</type>
+          <file>NorthAmerica_StatsFeatures (1) (1).pdf</file>
+          <note>Appears as unfilled/white in proof map; not listed in stats map palette sheet.</note>
+          </source>
+        </item>
+      </palette_by_country>
+    <legend_rules>
+      <legend_title_text>HIGH AND LOW LEGEND</legend_title_text>
+      <color_semantics>
+        <green>High (or positive) exemplar for the row’s statistic</green>
+        <orange>Low (or negative) exemplar for the row’s statistic</orange>
+        </color_semantics>
+      <default_rule>Green icon denotes the 'high' side and orange icon denotes the 'low' side for each statistic.</default_rule>
+      <exceptions>
+        <item>
+          <stat_label>Lowest Crime Rate</stat_label>
+          <note>Crime is phrased so that the 'green/high' exemplar corresponds to lower crime (safer), while the orange/low exemplar corresponds to higher crime.</note>
+          </item>
+        </exceptions>
+      <source>
+        <type>proof</type>
+        <file>NorthAmerica_StatsFeatures (1) (1).pdf</file>
+        <location>High/Low legend card</location>
+        </source>
+      </legend_rules>
+    <core_stats_on_map>
+      <item>
+        <stat_id>access_clean_drinking_water</stat_id>
+        <label>Access To Clean Drinking Water</label>
+        <maslow_layer>Physiological</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>% of population</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~99%</value_display>
+            <value_numeric>99.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~99%</value_display>
+            <value_numeric>99.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Haiti</country>
+            <value_display>~65%</value_display>
+            <value_numeric>65.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Guatemala</country>
+            <value_display>~93%</value_display>
+            <value_numeric>93.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest Access: Canada (~99%), United States (~99%)</highest_countries_values>
+          <lowest_countries_values>Lowest Access: Haiti (~65%), Guatemala (~93%)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>average_caloric_intake</stat_id>
+        <label>Average Caloric Intake</label>
+        <maslow_layer>Physiological</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>neutral</better_side>
+          </directionality>
+        <unit_hint>calories per person per day</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>United States</country>
+            <value_display>~3,750 cal</value_display>
+            <value_numeric>3750.0</value_numeric>
+            <unit>cal</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Mexico</country>
+            <value_display>~3,200 cal</value_display>
+            <value_numeric>3200.0</value_numeric>
+            <unit>cal</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Haiti</country>
+            <value_display>~2,200 cal</value_display>
+            <value_numeric>2200.0</value_numeric>
+            <unit>cal</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Nicaragua</country>
+            <value_display>~2,450 cal</value_display>
+            <value_numeric>2450.0</value_numeric>
+            <unit>cal</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest Intake: United States (~3,750 cal), Mexico (~3,200 cal)</highest_countries_values>
+          <lowest_countries_values>Lowest Intake: Haiti (~2,200 cal), Nicaragua (~2,450 cal)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>lowest_crime_rate</stat_id>
+        <label>Lowest Crime Rate</label>
+        <maslow_layer>Safety</maslow_layer>
+        <directionality>
+          <green_side>lower</green_side>
+          <orange_side>higher</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>crime rate / homicide rate (unspecified)</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display xsi:nil="true" />
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Cuba</country>
+            <value_display xsi:nil="true" />
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Honduras</country>
+            <value_display>high homicide</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>El Salvador</country>
+            <value_display>gang violence</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Lowest Crime: Canada, Cuba</highest_countries_values>
+          <lowest_countries_values>Highest Crime: Honduras (high homicide), El Salvador (gang violence)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>access_to_healthcare</stat_id>
+        <label>Access To Healthcare</label>
+        <maslow_layer>Safety</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>% of population</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~99%</value_display>
+            <value_numeric>99.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~91% insured</value_display>
+            <value_numeric>91.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note>insured</note>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Haiti</country>
+            <value_display>&lt;50%</value_display>
+            <value_numeric>50.0</value_numeric>
+            <unit>%</unit>
+            <comparator>&lt;</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Honduras</country>
+            <value_display>limited rural access</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest Access: Canada (~99%), US (~91% insured)</highest_countries_values>
+          <lowest_countries_values>Lowest Access: Haiti (&lt;50%), Honduras (limited rural access)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>employment_rates</stat_id>
+        <label>Employment Rates</label>
+        <maslow_layer>Safety/Esteem</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>% of population employed / employment rate (unspecified)</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~62%</value_display>
+            <value_numeric>62.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~60%</value_display>
+            <value_numeric>60.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Haiti</country>
+            <value_display>&gt;40% unemployment</value_display>
+            <value_numeric>40.0</value_numeric>
+            <unit>%</unit>
+            <comparator>&gt;</comparator>
+            <note>unemployment</note>
+            </item>
+          <item>
+            <country>Nicaragua</country>
+            <value_display>high informal sector</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest Rates: Canada (~62%), US (~60%)</highest_countries_values>
+          <lowest_countries_values>Lowest Rates: Haiti (&gt;40% unemployment), Nicaragua (high informal sector)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>average_household_size</stat_id>
+        <label>Average Household Size</label>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>neutral</better_side>
+          </directionality>
+        <unit_hint>persons per household</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Guatemala</country>
+            <value_display>~4.9 persons</value_display>
+            <value_numeric>4.9</value_numeric>
+            <unit>persons</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Honduras</country>
+            <value_display>~4.5 persons</value_display>
+            <value_numeric>4.5</value_numeric>
+            <unit>persons</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~2.5 persons</value_display>
+            <value_numeric>2.5</value_numeric>
+            <unit>persons</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~2.6 persons</value_display>
+            <value_numeric>2.6</value_numeric>
+            <unit>persons</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Largest: Guatemala (~4.9 persons), Honduras (~4.5 persons)</highest_countries_values>
+          <lowest_countries_values>Smallest: Canada (~2.5 persons), US (~2.6 persons)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>volunteer_participation</stat_id>
+        <label>Volunteer/Community Service Participation</label>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>% of population</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~44%</value_display>
+            <value_numeric>44.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~30%</value_display>
+            <value_numeric>30.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Haiti</country>
+            <value_display>low formal volunteering</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>El Salvador</country>
+            <value_display>limited data</value_display>
+            <value_numeric xsi:nil="true" />
+            <unit xsi:nil="true" />
+            <comparator xsi:nil="true" />
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest Engagement: Canada (~44%), US (~30%)</highest_countries_values>
+          <lowest_countries_values>Lowest Engagement: Haiti (low formal volunteering), El Salvador (limited data)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      <item>
+        <stat_id>higher_education_degree_percent</stat_id>
+        <label>% Population Higher Education Degree</label>
+        <maslow_layer>Esteem</maslow_layer>
+        <directionality>
+          <green_side>higher</green_side>
+          <orange_side>lower</orange_side>
+          <better_side>green</better_side>
+          </directionality>
+        <unit_hint>% of adults with tertiary degree</unit_hint>
+        <high_exemplars>
+          <item>
+            <country>Canada</country>
+            <value_display>~56%</value_display>
+            <value_numeric>56.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>United States</country>
+            <value_display>~48%</value_display>
+            <value_numeric>48.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Honduras</country>
+            <value_display>~15%</value_display>
+            <value_numeric>15.0</value_numeric>
+            <unit>%</unit>
+            <comparator>~</comparator>
+            <note xsi:nil="true" />
+            </item>
+          <item>
+            <country>Haiti</country>
+            <value_display>&lt;10%</value_display>
+            <value_numeric>10.0</value_numeric>
+            <unit>%</unit>
+            <comparator>&lt;</comparator>
+            <note xsi:nil="true" />
+            </item>
+          </low_exemplars>
+        <raw_strings>
+          <highest_countries_values>Highest: Canada (~56%), US (~48%)</highest_countries_values>
+          <lowest_countries_values>Lowest: Honduras (~15%), Haiti (&lt;10%)</lowest_countries_values>
+          </raw_strings>
+        <source>
+          <type>xlsx</type>
+          <file>North America Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A3:D12</range>
+          </source>
+        </item>
+      </core_stats_on_map>
+    </continent_stats_map>
+  <featurettes>
+    <item>
+      <featurette_id>na_featurette_wildfires</featurette_id>
+      <title>Fighting the Flames - Wildfires in North America</title>
+      <position_slot>featurette_left_top</position_slot>
+      <body_text>Wildfires are powerful, fast-spreading fires that burn through forests and grasslands. They happen often in places like California or western Canada, where hot, dry weather turns trees and plants into easy fuel. As Earth’s climate warms, droughts become more common, making it easier for sparks—from lightning or a campfire left unattended—to grow into a raging blaze.
+
+When wildfires strike, they can destroy homes, harm wildlife, and fill the air with thick smoke. Firefighters use helicopters, planes, and special tools to contain the flames. Communities plan ahead with fire safety rules, and everyone can help by following local guidelines and using fire responsibly. Together, we can protect people, animals, and our forests from going up in smoke.</body_text>
+      <assets>
+        <item>
+          <asset_id>na_ft1_photo_firefighters</asset_id>
+          <type>photo</type>
+          <role>Featurette header/banner image</role>
+          <aspect_ratio>wide banner (approx 3:1)</aspect_ratio>
+          <description>Firefighters battling flames in a forested area (used as the header image for the Wildfires featurette).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>Firefighters battling flames</anchor_text>
+                <url>https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>5</paragraph_index>
+                  <context_paragraph>Photo: Firefighters battling flames in a forested area.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft1_map_wildfire_risk</asset_id>
+          <type>map</type>
+          <role>Inset map/graphic</role>
+          <aspect_ratio>portrait inset (approx 2:3)</aspect_ratio>
+          <description>Map showing areas in the U.S. and Canada at high risk for wildfires.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>Areas in the U.S. and Canada at high risk for wildfires</anchor_text>
+                <url>https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&amp;ssl=1</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>4</paragraph_index>
+                  <context_paragraph>Map: Areas in the U.S. and Canada at high risk for wildfires.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft1_chart_climate_wildfire_risk</asset_id>
+          <type>chart</type>
+          <role>Inset infographic</role>
+          <aspect_ratio>portrait inset (approx 2:3)</aspect_ratio>
+          <description>Infographic explaining how rising temperatures and drought increase wildfire risk.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>rising temperatures and drought in</anchor_text>
+                <url>https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>6</paragraph_index>
+                  <context_paragraph>Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          <chart_spec>
+            <chart_type>explanatory infographic / causal chain</chart_type>
+            <data_table xsi:nil="true" />
+            <icon_unit_definitions />
+            <layout_notes>Use a simple left-to-right or top-to-bottom causal flow (temperature ↑ → drought ↑ → dry fuel ↑ → wildfire risk ↑).</layout_notes>
+            <source_links>
+              <item>
+                <anchor_text>rising temperatures and drought in</anchor_text>
+                <url>https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>6</paragraph_index>
+                  <context_paragraph>Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.</context_paragraph>
+                  </source>
+                </item>
+              </source_links>
+            </chart_spec>
+          </item>
+        </assets>
+      <hyperlinks>
+        <final_url xsi:nil="true" />
+        <url_candidates />
+        <data_source_links>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>6</paragraph_index>
+            <featurette_context_paragraph>Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.</featurette_context_paragraph>
+            <anchor_text>rising temperatures and drought in</anchor_text>
+            <url>https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV</url>
+            <rId>rId9</rId>
+            <domain>www.ucsusa.org</domain>
+            <is_data_source>True</is_data_source>
+            <category>chart</category>
+            <featurette_id>na_featurette_wildfires</featurette_id>
+            </item>
+          </data_source_links>
+        </hyperlinks>
+      </item>
+    <item>
+      <featurette_id>na_featurette_suburban_life</featurette_id>
+      <title>Suburban Life – America’s Unique Neighborhoods</title>
+      <position_slot>featurette_left_bottom</position_slot>
+      <body_text>In the United States, many families choose to live in suburbs—neighborhoods filled with single-family homes, green lawns, and quiet streets just outside big cities. After World War II, more people bought cars and wanted more space. Suburbs grew quickly, and soon millions of Americans were commuting to work from their cozy houses.
+
+In other countries, more people stay close to downtown, often using trains or buses to get around. In American suburbs, most people rely on cars to reach stores, schools, and offices. While suburbs offer peace and privacy, they can lead to more traffic, more gasoline use, and more pollution. Still, suburbs remain a big part of how many Americans live and shape their everyday lives.</body_text>
+      <assets>
+        <item>
+          <asset_id>na_ft2_photo_suburban_street</asset_id>
+          <type>photo</type>
+          <role>Featurette header/banner image</role>
+          <aspect_ratio>wide banner (approx 3:1)</aspect_ratio>
+          <description>Typical suburban street with lined-up houses and front yards (header image).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>suburban street with lined-up houses and front yards</anchor_text>
+                <url>https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>11</paragraph_index>
+                  <context_paragraph>Photo: A typical suburban street with lined-up houses and front yards.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft2_photo_aerial_sprawl_vs_city_center</asset_id>
+          <type>photo</type>
+          <role>Inset comparison image(s)</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Aerial imagery illustrating urban sprawl compared to a city center; doc source provides two candidate images.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>urban </anchor_text>
+                <url>https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>12</paragraph_index>
+                  <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+                  </source>
+                </item>
+              <item>
+                <anchor_text>city center</anchor_text>
+                <url>https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>12</paragraph_index>
+                  <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft2_map_population_density</asset_id>
+          <type>map</type>
+          <role>Inset map/graphic</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Map comparing suburban vs. urban population densities (population density data).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>Comparison of suburban vs. urban population</anchor_text>
+                <url>https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>13</paragraph_index>
+                  <context_paragraph>Map (Population Density Data): Comparison of suburban vs. urban population densities.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        </assets>
+      <hyperlinks>
+        <final_url xsi:nil="true" />
+        <url_candidates />
+        <data_source_links>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>13</paragraph_index>
+            <featurette_context_paragraph>Map (Population Density Data): Comparison of suburban vs. urban population densities.</featurette_context_paragraph>
+            <anchor_text>Comparison of suburban vs. urban population</anchor_text>
+            <url>https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a</url>
+            <rId>rId13</rId>
+            <domain>www.arcgis.com</domain>
+            <is_data_source>True</is_data_source>
+            <category>map</category>
+            <featurette_id>na_featurette_suburban_life</featurette_id>
+            </item>
+          </data_source_links>
+        </hyperlinks>
+      </item>
+    <item>
+      <featurette_id>na_featurette_natural_wealth</featurette_id>
+      <title>America’s Natural Wealth—Resources and Industry</title>
+      <position_slot>featurette_right_top</position_slot>
+      <body_text>From fertile farmland to underground minerals, the United States holds a treasure chest of natural resources. Rich soils grow abundant crops like wheat and corn. Deep below the surface, oil, gas, and minerals power factories and fuel cars. Skilled workers turn these raw materials into everything from smartphones to skyscrapers.
+
+Over time, these resources helped the U.S. grow into a strong economy, creating jobs and building cities. Farmers feed the nation and the world, miners provide metals for tools and machines, and engineers guide energy from deep underground to light up our homes. By understanding and protecting these resources, people can keep the country thriving for generations.</body_text>
+      <assets>
+        <item>
+          <asset_id>na_ft3_photo_grain_field</asset_id>
+          <type>photo</type>
+          <role>Photo inset (part of resources collage)</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Farm with rolling fields of grain.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>grain</anchor_text>
+                <url>https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>19</paragraph_index>
+                  <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft3_photo_mine_site</asset_id>
+          <type>photo</type>
+          <role>Photo inset (part of resources collage)</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Mine site imagery (mining equipment / haul trucks).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>mine </anchor_text>
+                <url>https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>19</paragraph_index>
+                  <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft3_photo_oil_well</asset_id>
+          <type>photo</type>
+          <role>Photo inset (part of resources collage)</role>
+          <aspect_ratio>portrait inset (approx 3:4)</aspect_ratio>
+          <description>Oil well / drilling imagery.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>oil </anchor_text>
+                <url>https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>19</paragraph_index>
+                  <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft3_map_resources</asset_id>
+          <type>map</type>
+          <role>Inset map/graphic</role>
+          <aspect_ratio>row of small map thumbnails</aspect_ratio>
+          <description>Map/graphics showing locations of oil fields, coal mines, and farmlands in the U.S. (multiple source links).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>oil </anchor_text>
+                <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>18</paragraph_index>
+                  <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+                  </source>
+                </item>
+              <item>
+                <anchor_text>fields</anchor_text>
+                <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>18</paragraph_index>
+                  <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+                  </source>
+                </item>
+              <item>
+                <anchor_text>coal </anchor_text>
+                <url>https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>18</paragraph_index>
+                  <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+                  </source>
+                </item>
+              <item>
+                <anchor_text>farmlands </anchor_text>
+                <url>https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>18</paragraph_index>
+                  <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft3_flowchart_raw_materials_to_products</asset_id>
+          <type>chart</type>
+          <role>Flowchart</role>
+          <aspect_ratio>horizontal flow (approx 3:1)</aspect_ratio>
+          <description>Flowchart showing how raw materials (like iron ore) become finished products (like cars).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates />
+            </hyperlinks>
+          <chart_spec>
+            <chart_type>flowchart</chart_type>
+            <data_table xsi:nil="true" />
+            <icon_unit_definitions />
+            <layout_notes>Use 4–6 steps: extraction → processing/refining → manufacturing → distribution → end use → recycling (optional).</layout_notes>
+            <source_links />
+            </chart_spec>
+          </item>
+        </assets>
+      <hyperlinks>
+        <final_url xsi:nil="true" />
+        <url_candidates />
+        <data_source_links>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>18</paragraph_index>
+            <featurette_context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</featurette_context_paragraph>
+            <anchor_text>oil </anchor_text>
+            <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png</url>
+            <rId>rId14</rId>
+            <domain>www.eia.gov</domain>
+            <is_data_source>True</is_data_source>
+            <category>map</category>
+            <featurette_id>na_featurette_natural_wealth</featurette_id>
+            </item>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>18</paragraph_index>
+            <featurette_context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</featurette_context_paragraph>
+            <anchor_text>fields</anchor_text>
+            <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png</url>
+            <rId>rId15</rId>
+            <domain>www.eia.gov</domain>
+            <is_data_source>True</is_data_source>
+            <category>map</category>
+            <featurette_id>na_featurette_natural_wealth</featurette_id>
+            </item>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>18</paragraph_index>
+            <featurette_context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</featurette_context_paragraph>
+            <anchor_text>farmlands </anchor_text>
+            <url>https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG</url>
+            <rId>rId17</rId>
+            <domain>d9-wret.s3.us-west-2.amazonaws.com</domain>
+            <is_data_source>True</is_data_source>
+            <category>map</category>
+            <featurette_id>na_featurette_natural_wealth</featurette_id>
+            </item>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>19</paragraph_index>
+            <featurette_context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</featurette_context_paragraph>
+            <anchor_text>grain</anchor_text>
+            <url>https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO</url>
+            <rId>rId18</rId>
+            <domain>www.nrcs.usda.gov</domain>
+            <is_data_source>True</is_data_source>
+            <category>photo</category>
+            <featurette_id>na_featurette_natural_wealth</featurette_id>
+            </item>
+          </data_source_links>
+        </hyperlinks>
+      </item>
+    <item>
+      <featurette_id>na_featurette_transportation_networks</featurette_id>
+      <title>Roads, Rails, and Rivers – Connecting America</title>
+      <position_slot>featurette_right_bottom</position_slot>
+      <body_text>Look at a map of North America and you’ll see a web of highways, train tracks, and rivers tying distant places together. The Interstate Highway System lets you drive across the country, while railroads carry heavy loads like coal and grain. Rivers and canals allow ships to move goods cheaply and efficiently, and airplanes link people to far-off cities in just a few hours.
+
+These transportation networks bring fresh produce to your grocery store, deliver packages to your doorstep, and connect friends and families. Without them, the economy would slow down, and everyday life would be harder. Whether by road, rail, water, or air, these routes keep America’s heart beating and its people moving forward.</body_text>
+      <assets>
+        <item>
+          <asset_id>na_ft4_photo_trucking</asset_id>
+          <type>photo</type>
+          <role>Featurette header/banner image</role>
+          <aspect_ratio>wide banner (approx 3:1)</aspect_ratio>
+          <description>Highway freight / trucks (header image).</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>busy interstate</anchor_text>
+                <url>https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>26</paragraph_index>
+                  <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft4_photo_freight_train</asset_id>
+          <type>photo</type>
+          <role>Inset photo</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Freight train imagery passing through farmland.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>freight train</anchor_text>
+                <url>https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>26</paragraph_index>
+                  <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft4_map_highways_rails_rivers</asset_id>
+          <type>map</type>
+          <role>Inset map/graphic</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Map of key highways, rail lines, and major rivers in the U.S.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates>
+              <item>
+                <anchor_text>highways</anchor_text>
+                <url>https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>25</paragraph_index>
+                  <context_paragraph>Map: Key highways, rail lines, and major rivers in the U.S.</context_paragraph>
+                  </source>
+                </item>
+              </url_candidates>
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>na_ft4_infographic_freight_by_mode</asset_id>
+          <type>chart</type>
+          <role>Inset infographic</role>
+          <aspect_ratio>landscape inset (approx 4:3)</aspect_ratio>
+          <description>Infographic showing the amount of goods carried by trucks, trains, and ships each year.</description>
+          <hyperlinks>
+            <final_url xsi:nil="true" />
+            <url_candidates />
+            </hyperlinks>
+          <chart_spec>
+            <chart_type>comparative chart (likely bar chart) by transport mode</chart_type>
+            <data_table xsi:nil="true" />
+            <icon_unit_definitions />
+            <layout_notes>Compare annual freight moved by mode (truck vs rail vs water/ship). Use consistent units and clear labels; may be a single-year snapshot or time series.</layout_notes>
+            <source_links>
+              <item>
+                <anchor_text>highways</anchor_text>
+                <url>https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png</url>
+                <source>
+                  <type>docx</type>
+                  <file>North America Featurettes.docx</file>
+                  <paragraph_index>25</paragraph_index>
+                  <context_paragraph>Map: Key highways, rail lines, and major rivers in the U.S.</context_paragraph>
+                  </source>
+                </item>
+              </source_links>
+            </chart_spec>
+          </item>
+        </assets>
+      <hyperlinks>
+        <final_url xsi:nil="true" />
+        <url_candidates />
+        <data_source_links>
+          <item>
+            <source_file>North America Featurettes.docx</source_file>
+            <source_type>docx</source_type>
+            <paragraph_index>25</paragraph_index>
+            <featurette_context_paragraph>Map: Key highways, rail lines, and major rivers in the U.S.</featurette_context_paragraph>
+            <anchor_text>highways</anchor_text>
+            <url>https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png</url>
+            <rId>rId21</rId>
+            <domain>www.bts.gov</domain>
+            <is_data_source>True</is_data_source>
+            <category>map</category>
+            <featurette_id>na_featurette_transportation_networks</featurette_id>
+            </item>
+          </data_source_links>
+        </hyperlinks>
+      </item>
+    </featurettes>
+  <hyperlinks>
+    <photo_links>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>Firefighters battling flames</anchor_text>
+        <url>https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390</url>
+        <category>photo</category>
+        <domain>image.cnbcfm.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>5</paragraph_index>
+          <context_paragraph>Photo: Firefighters battling flames in a forested area.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>suburban street with lined-up houses and front yards</anchor_text>
+        <url>https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg</url>
+        <category>photo</category>
+        <domain>salud-america.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>11</paragraph_index>
+          <context_paragraph>Photo: A typical suburban street with lined-up houses and front yards.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>urban </anchor_text>
+        <url>https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg</url>
+        <category>photo</category>
+        <domain>upload.wikimedia.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>12</paragraph_index>
+          <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>city center</anchor_text>
+        <url>https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html</url>
+        <category>photo</category>
+        <domain>www.alamy.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>12</paragraph_index>
+          <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>grain</anchor_text>
+        <url>https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO</url>
+        <category>photo</category>
+        <domain>www.nrcs.usda.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>mine </anchor_text>
+        <url>https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640</url>
+        <category>photo</category>
+        <domain>www.wyomingmining.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>oil </anchor_text>
+        <url>https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg</url>
+        <category>photo</category>
+        <domain>energyintel.brightspotcdn.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>busy interstate</anchor_text>
+        <url>https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=</url>
+        <category>photo</category>
+        <domain>media.istockphoto.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>26</paragraph_index>
+          <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>freight train</anchor_text>
+        <url>https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp</url>
+        <category>photo</category>
+        <domain>www.aar.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>26</paragraph_index>
+          <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+          </source>
+        </item>
+      </photo_links>
+    <map_links>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>Areas in the U.S. and Canada at high risk for wildfires</anchor_text>
+        <url>https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&amp;ssl=1</url>
+        <category>map</category>
+        <domain>i0.wp.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>4</paragraph_index>
+          <context_paragraph>Map: Areas in the U.S. and Canada at high risk for wildfires.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>Comparison of suburban vs. urban population</anchor_text>
+        <url>https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a</url>
+        <category>map</category>
+        <domain>www.arcgis.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>13</paragraph_index>
+          <context_paragraph>Map (Population Density Data): Comparison of suburban vs. urban population densities.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>oil </anchor_text>
+        <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png</url>
+        <category>map</category>
+        <domain>www.eia.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>fields</anchor_text>
+        <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png</url>
+        <category>map</category>
+        <domain>www.eia.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>coal </anchor_text>
+        <url>https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg</url>
+        <category>map</category>
+        <domain>curtiswrightmaps.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>farmlands </anchor_text>
+        <url>https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG</url>
+        <category>map</category>
+        <domain>d9-wret.s3.us-west-2.amazonaws.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>highways</anchor_text>
+        <url>https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png</url>
+        <category>map</category>
+        <domain>www.bts.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>25</paragraph_index>
+          <context_paragraph>Map: Key highways, rail lines, and major rivers in the U.S.</context_paragraph>
+          </source>
+        </item>
+      </map_links>
+    <chart_links>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>rising temperatures and drought in</anchor_text>
+        <url>https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV</url>
+        <category>chart</category>
+        <domain>www.ucsusa.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>6</paragraph_index>
+          <context_paragraph>Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.</context_paragraph>
+          </source>
+        </item>
+      </chart_links>
+    <data_source_links>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>rising temperatures and drought in</anchor_text>
+        <url>https://www.ucsusa.org/sites/default/files/styles/large/public/2020-09/infographic-thumbnail.jpg?itok=q8IsGFyV</url>
+        <category>chart</category>
+        <domain>www.ucsusa.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>6</paragraph_index>
+          <context_paragraph>Infographic (Climate Data): How rising temperatures and drought increase wildfire risk.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>Comparison of suburban vs. urban population</anchor_text>
+        <url>https://www.arcgis.com/apps/mapviewer/index.html?webmap=a1926cb43e844c3f82275917d6eab47a</url>
+        <category>map</category>
+        <domain>www.arcgis.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>13</paragraph_index>
+          <context_paragraph>Map (Population Density Data): Comparison of suburban vs. urban population densities.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>oil </anchor_text>
+        <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart3.png</url>
+        <category>map</category>
+        <domain>www.eia.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>fields</anchor_text>
+        <url>http://www.eia.gov/todayinenergy/images/2015.04.24/chart2.png</url>
+        <category>map</category>
+        <domain>www.eia.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>farmlands </anchor_text>
+        <url>https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/US1-4g.PNG</url>
+        <category>map</category>
+        <domain>d9-wret.s3.us-west-2.amazonaws.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>grain</anchor_text>
+        <url>https://www.nrcs.usda.gov/sites/default/files/styles/full_width/public/2022-09/35116623835_36f0177c4e_o.jpg?itok=jxt8TRFO</url>
+        <category>photo</category>
+        <domain>www.nrcs.usda.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>highways</anchor_text>
+        <url>https://www.bts.gov/sites/bts.dot.gov/files/Full%20Layout_Page_1.png</url>
+        <category>map</category>
+        <domain>www.bts.gov</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>25</paragraph_index>
+          <context_paragraph>Map: Key highways, rail lines, and major rivers in the U.S.</context_paragraph>
+          </source>
+        </item>
+      </data_source_links>
+    <example_reference_links>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>Areas in the U.S. and Canada at high risk for wildfires</anchor_text>
+        <url>https://i0.wp.com/wildfiretoday.com/wp-content/uploads/2019/06/FireDanger_US_Canada_6-12-2019.jpg?resize=1200%2C1375&amp;ssl=1</url>
+        <category>map</category>
+        <domain>i0.wp.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>4</paragraph_index>
+          <context_paragraph>Map: Areas in the U.S. and Canada at high risk for wildfires.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_wildfires</featurette_id>
+        <anchor_text>Firefighters battling flames</anchor_text>
+        <url>https://image.cnbcfm.com/api/v1/image/106726302-CNBC-200930-TECH-WILDFIRES-00-02-09-00-Still012-jpg?v=1601584390</url>
+        <category>photo</category>
+        <domain>image.cnbcfm.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>5</paragraph_index>
+          <context_paragraph>Photo: Firefighters battling flames in a forested area.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>suburban street with lined-up houses and front yards</anchor_text>
+        <url>https://salud-america.org/wp-content/uploads/2020/01/Suburban-street.jpg</url>
+        <category>photo</category>
+        <domain>salud-america.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>11</paragraph_index>
+          <context_paragraph>Photo: A typical suburban street with lined-up houses and front yards.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>urban </anchor_text>
+        <url>https://upload.wikimedia.org/wikipedia/commons/f/f7/Chicagoland_air.jpg</url>
+        <category>photo</category>
+        <domain>upload.wikimedia.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>12</paragraph_index>
+          <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_suburban_life</featurette_id>
+        <anchor_text>city center</anchor_text>
+        <url>https://www.alamy.com/aerial-view-of-the-suburbs-and-city-of-chicago-illinois-united-states-image68539267.html</url>
+        <category>photo</category>
+        <domain>www.alamy.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>12</paragraph_index>
+          <context_paragraph>Aerial Photo: Showing urban sprawl compared to a city center.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>coal </anchor_text>
+        <url>https://curtiswrightmaps.com/wp-content/uploads/map_08-11-21_300dpi_15.95x9.09_inv2858-scaled.jpg</url>
+        <category>map</category>
+        <domain>curtiswrightmaps.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>18</paragraph_index>
+          <context_paragraph>Map (U.S. Geological Data): Showing where oil fields, coal mines, and farmlands are located.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>mine </anchor_text>
+        <url>https://www.wyomingmining.org/wp-content/uploads/2013/05/Dragline-Shovel-Haultruck.jpg?w=640</url>
+        <category>photo</category>
+        <domain>www.wyomingmining.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_natural_wealth</featurette_id>
+        <anchor_text>oil </anchor_text>
+        <url>https://energyintel.brightspotcdn.com/dims4/default/fb1a99f/2147483647/strip/true/crop/4743x3162+0+0/resize/1920x1280!/quality/90/?url=http%3A%2F%2Fenergy-intelligence-brightspot.s3.us-east-2.amazonaws.com%2F90%2F83%2Fe7b842c6440c808b76c107b790bd%2Fss-1164579244.jpg</url>
+        <category>photo</category>
+        <domain>energyintel.brightspotcdn.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>19</paragraph_index>
+          <context_paragraph>Photo: A farm with rolling fields of grain, a mine site, and an oil well.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>busy interstate</anchor_text>
+        <url>https://media.istockphoto.com/id/912235868/photo/heavy-traffic-on-the-interstate-highway.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=e-34y9ga4gZs_-BzvrxNwReuxHjNYGgWGA57NiXQvMU=</url>
+        <category>photo</category>
+        <domain>media.istockphoto.com</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>26</paragraph_index>
+          <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+          </source>
+        </item>
+      <item>
+        <featurette_id>na_featurette_transportation_networks</featurette_id>
+        <anchor_text>freight train</anchor_text>
+        <url>https://www.aar.org/wp-content/uploads/2024/01/distributed-power-unit.jpg.webp</url>
+        <category>photo</category>
+        <domain>www.aar.org</domain>
+        <source>
+          <type>docx</type>
+          <file>North America Featurettes.docx</file>
+          <paragraph_index>26</paragraph_index>
+          <context_paragraph>Photo: A busy interstate highway and a freight train passing through farmland.</context_paragraph>
+          </source>
+        </item>
+      </example_reference_links>
+    </hyperlinks>
+  <supplemental_stats_for_app>
+    <item>
+      <stat_id>fluoridated_water_us</stat_id>
+      <label>Fluoridated community water systems (United States)</label>
+      <value_display>≈74% of the population served by community water systems receives fluoridated water</value_display>
+      <maslow_layer>Physiological</maslow_layer>
+      <why_it_matters>Connects to 'Access To Clean Drinking Water' by highlighting a distinctive public-health water treatment practice.</why_it_matters>
+      <source>
+        <type>docx</type>
+        <file>North America Stats.docx</file>
+        <section>Access to Clean Drinking Water → Oddball Statistic: Fluoridated Water</section>
+        </source>
+      </item>
+    <item>
+      <stat_id>medical_debt_us</stat_id>
+      <label>Medical debt (United States)</label>
+      <value_display>≈17% of individuals affected by medical debt</value_display>
+      <maslow_layer>Safety</maslow_layer>
+      <why_it_matters>Adds nuance to 'Access To Healthcare' by separating availability of care from affordability.</why_it_matters>
+      <source>
+        <type>docx</type>
+        <file>North America Stats.docx</file>
+        <section>% Population with Access to Healthcare Services → Oddball Statistic: Medical Debt</section>
+        </source>
+      </item>
+    <item>
+      <stat_id>gig_economy_us</stat_id>
+      <label>Gig economy participation (United States)</label>
+      <value_display>≈36% of the workforce engaged in freelance/contract work (as of 2020)</value_display>
+      <maslow_layer>Safety/Esteem</maslow_layer>
+      <why_it_matters>Provides context for 'Employment Rates' by noting the role of non-traditional work arrangements.</why_it_matters>
+      <source>
+        <type>docx</type>
+        <file>North America Stats.docx</file>
+        <section>Employment Rate or Economic Participation Rate → Oddball Statistic: Gig Economy</section>
+        </source>
+      </item>
+    </supplemental_stats_for_app>
+  <validation_and_todos>
+    <item>
+      <id>todo_dimensions_physical</id>
+      <severity>todo</severity>
+      <description>Physical print dimensions (inches) and bleed/safe margins are not explicitly provided; only pixel canvas size was inferred from the proof PDF.</description>
+      </item>
+    <item>
+      <id>todo_greenland_palette</id>
+      <severity>todo</severity>
+      <description>Greenland appears on the proof map but is not present in the 'stats map palette' sheet. Added as #FFFFFF based on the proof; confirm intended treatment (exclude, gray, or link to Denmark).</description>
+      </item>
+    <item>
+      <id>todo_chart_data_tables</id>
+      <severity>todo</severity>
+      <description>Infographics/mini-maps referenced in featurettes do not include finalized data tables in the provided files (no graphs-stuff doc). If charts are to be data-driven, provide datasets and units for wildfire risk, population density, resource locations, and freight by mode.</description>
+      </item>
+    <item>
+      <id>warning_metric_definitions</id>
+      <severity>warning</severity>
+      <description>Some core stats use mixed or qualitative definitions (e.g., 'Crime Rate' described via 'high homicide' and 'gang violence'; 'Employment Rate' low exemplar includes unemployment and informal sector). Consider normalizing definitions/units for consistency across continents.</description>
+      </item>
+    <item>
+      <id>warning_photo_licensing</id>
+      <severity>warning</severity>
+      <description>Several linked image sources appear to be commercial or media outlets (e.g., Alamy, iStock, CNBC). Confirm licensing/usage rights or replace with appropriately licensed imagery.</description>
+      </item>
+    <item>
+      <id>todo_main_map_source_file</id>
+      <severity>todo</severity>
+      <description>No separate vector/source file for the main continent map was provided (only the poster proof). For downstream use, provide the editable map asset (SVG/AI) and label layer data.</description>
+      </item>
+    </validation_and_todos>
+  <provenance>
+    <generated_at_utc>2025-12-30T19:59:14+00:00</generated_at_utc>
+    <files_used>
+      <item>
+        <file>NorthAmerica_StatsFeatures (1) (1).pdf</file>
+        <role>proof_poster_primary_copy_and_layout_reference</role>
+        </item>
+      <item>
+        <file>North America Cultural Domain.xlsx</file>
+        <role>source_of_interesting_stats_table_and_stats_map_palette</role>
+        </item>
+      <item>
+        <file>North America Featurettes.docx</file>
+        <role>source_of_hyperlinks_for_photos_maps_and_infographics</role>
+        </item>
+      <item>
+        <file>North America Stats.docx</file>
+        <role>source_of_supplemental_oddball_stats_for_app</role>
+        </item>
+      </files_used>
+    </provenance>
+  </StatsAndFeaturettes>
+]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,860 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "cultural/ethnolinguistic maps/ethnolinguistic_maps_europe_africa_asia.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "cultural__ethnolinguistic__africa__ethnolinguistic_maps_europe_africa_asia",
+    "derived_id": "cultural__ethnolinguistic__africa__ethnolinguistic_maps_europe_africa_asia",
+    "continent": "africa",
+    "domain": "cultural",
+    "poster_family": "ethnolinguistic",
+    "filename": "ethnolinguistic_maps_europe_africa_asia.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "cultural"
+    ],
+    "poster_family": [
+      "ethnolinguistic"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:cultural",
+      "poster_family:ethnolinguistic"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "cultural/ethnolinguistic maps/ethnolinguistic_maps_europe_africa_asia.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema": "poster_content_bundle",
+    "version": "1.0",
+    "generated_utc": "2025-12-29T00:29:10.685749+00:00",
+    "bundle_type": "ethnolinguistic_maps",
+    "posters": [
+      {
+        "poster_id": "ethnolinguistic_map_europe",
+        "continent": "Europe",
+        "type": "ethnolinguistic_map",
+        "map_image_url": "https://i.redd.it/vsg8dzwpl22a1.jpg",
+        "groups": [
+          {
+            "id": "irish",
+            "name": "Irish",
+            "description": "Emerald hills echo with tin whistles and sly tales; Dublin pubs can turn rain into gold with one wink. Gaelic words hide in road signs, tech start‑ups bloom beside medieval towers, and talk toggles between heartbreak and hilarity—proof the Irish weave sorrow and laughter into every yarn.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/13102012-banagher-horse-fair-co-offaly-613436405",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "finnish",
+            "name": "Finnish",
+            "description": "A thousand Finnish lakes mirror auroras while silent pines teach sisu—ice‑cold grit. Saunas roar like dragon mouths; friends dash into snow then sip midnight‑strong coffee. Engineers build world‑saving gadgets yet still respect the hush where elk tracks cross fresh powder.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/tampere-finland-june-23-2017-finnish-1469129891",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "norwegian",
+            "name": "Norwegian",
+            "description": "Fjords cut deep as Viking memory. Norwegians ski to work, swear by friluftsliv (open‑air life), and toast midsummer with cloudberries. Northern lights ignite above stave churches and sleek electric ferries, reminding all that old sagas and new tech share the same wild horizon.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/happy-family-outdoor-mother-father-baby-1575837946",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "ukrainian",
+            "name": "Ukrainian",
+            "description": "Sunflowers salute Cossack skies over Ukraine’s black soil. Bandura strings quiver with freedom songs; Kyiv coders clink bowls of crimson borscht, quoting poets who rhymed rifles and nightingales. Every embroidered vyshyvanka stitch whispers: “We are here, and we are bright.”",
+            "images": [
+              {
+                "url": "https://i.pinimg.com/564x/c1/0f/08/c10f08f475da07a325542314760bb058.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "basque",
+            "name": "Basque",
+            "description": "Between Pyrenees cliffs and Biscay surf, Basques speak Euskara—Europe’s lone wolf tongue. Fishermen invent stone‑lifting contests, chefs craft pintxos masterpieces, and improv poets duel with rhymes sharper than mountain wind. Their stubborn heartbeat refuses any other rhythm.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/couple-dressed-one-traditional-basque-country-646015939",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "greek",
+            "name": "Greek",
+            "description": "White terraces overlook the Aegean while Greeks debate life over olive‑oiled bread. Bouzouki riffs echo Homeric myths; yamas toasts fuse ancient symposiums with modern laughter. Life here is a living legend still being written under blue sky and brighter spirit.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/santorini-greece-october-2-2010-diners-192991031",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "spaniard",
+            "name": "Spaniard (Castilian)",
+            "description": "Castile’s wheat fields murmur Don Quixote to passing trains. Plaza cafés host Cervantes quotes, football arguments, and flamenco footwork in the same breath. Siesta quiet proves passion can pause for dream‑rich naps before dancing again.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/orense-spain-august-21-2016-older-1029301546",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Spaniard",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "french",
+            "name": "French",
+            "description": "Morning light paints baguettes and Gothic spires alike. Parisian philosophers brood beside pétanque players; lavender perfumes Provence while Normandy cows graze under D‑Day clouds. Whether scripting rights or perfecting pastry, the French chase la belle vie—beauty sewn into daily routine.",
+            "images": [
+              {
+                "url": "https://i.pinimg.com/564x/2c/6b/23/2c6b238bbc7b876bf808c0be9873af3b.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "italian",
+            "name": "Italian",
+            "description": "Church bells, Vespa whines, and opera arias score Italian streets. A nonna’s tomato sauce and Michelangelo’s marble share the same reverence for craft. Even a shrug or “mamma mia!” can narrate a soap‑opera empire before lunch.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/san-gimignano-italy-july-29-2018-1147689179",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "german",
+            "name": "German",
+            "description": "Precision clocks tick in half‑timbered houses while techno bass thumps under Berlin graffiti. Germans balance order and whimsy: engineers chase perfect gears, carnival parades mock kings, and every stern umlaut leaves room for hearty laughter over foamy beer.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/young-bavarian-family-beautiful-mountain-landscape-1336955705",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "russian",
+            "name": "Russian",
+            "description": "Snow dusts onion domes as Moscow traffic glows like cosmic ballet; inside, citizens quote Pushkin with espresso‑dark passion. Balalaikas and rockets prove Russians ponder cosmos and soul equally; their toasts spill poetry, vodka merely conducts the chorus.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/mature-woman-pancake-during-shrovetide-russia-122481646",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Russia",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "english",
+            "name": "English",
+            "description": "Steam curls from afternoon tea while London’s skyline mixes stone towers and glass shards. Dry humor flows with weather talk; cricket greens and rock festivals share reverence. Shakespearean phrases slip into small talk, making understatement England’s brightest export.",
+            "images": [],
+            "name_original": "English?",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 0
+            }
+          },
+          {
+            "id": "tatar",
+            "name": "Tatar",
+            "description": "Where the Volga bends, Tatar minarets share horizons with Orthodox domes. Honeyed chak‑chak perfumes markets; dombra strings recount steppe cavalry. At Sabantuy, log wrestlers tumble in laughter, proving this culture rides two saddles—Europe and Asia—effortlessly.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/yekaterinburg-russia-0615-sabantuy-peoples-tatar-1426294829",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "circassians",
+            "name": "Circassians",
+            "description": "Caucasus winds lift Circassian dances: men spin like falcons, women glide like swans, every step encoded with honor. Exile scattered them, but pepper pastries and epic sagas travel well, keeping mountain pride sharp as the silver daggers on their coats.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/young-couple-man-girl-caucasian-circassian-2180336997",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "hungarians",
+            "name": "Hungarians",
+            "description": "Danube mists rise around Budapest bridges where violin laments swirl with ruin‑bar laughter. Magyar speech gallops like steppe horses, paprika scents kitchens red as dusk, and folk dancers stomp rhythms that say sorrow, sweetness, and stubborn courage share the same heartbeat.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/participants-traditional-easter-festival-april-12-1333209440",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          }
+        ],
+        "design": {
+          "primary_asset": {
+            "kind": "map_image",
+            "url": "https://i.redd.it/vsg8dzwpl22a1.jpg",
+            "url_is_truncated": false
+          },
+          "group_card_image_policy": {
+            "preferred": "square_or_portrait",
+            "max_images_per_group": 2
+          },
+          "notes": [
+            "Descriptions sourced from ethnolinguistic rewrites spreadsheet (not from continent boards).",
+            "Some URLs in the source spreadsheets include '...' and may be truncated; validate before final production use."
+          ]
+        },
+        "sources": {
+          "board": {
+            "file": "Europe Boards.xlsx",
+            "sheet": "European Ethnolinguistic Map"
+          },
+          "rewrites": {
+            "file": "ethnolinguistic rewrites.xlsx",
+            "sheet": "Europe EL descriptions"
+          }
+        },
+        "title": "Europe Ethnolinguistic Map",
+        "subtitle": "Groups, images, and revised descriptions"
+      },
+      {
+        "poster_id": "ethnolinguistic_map_africa",
+        "continent": "Africa",
+        "type": "ethnolinguistic_map",
+        "map_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Africa_ethnic_groups_1996.png",
+        "groups": [
+          {
+            "id": "merina",
+            "name": "Merina",
+            "description": "The Merina rule Madagascar’s misty highlands, where rice terraces climb red hills like green stairways. Sailors from Asia met Africa here, carving wood‑roofed palaces and weaving silky lamba cloth. Scooters now buzz past royal tombs, yet families still unwrap ancestors in joyous reburial dances, proving an island born of volcanoes can fuse oceans of history into one living heartbeat.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/antananarivo-madagascar-jun-27-2011unidentified-women-430883866",
+                "url_is_truncated": false
+              },
+              {
+                "url": "https://www.shutterstock.com/image-photo/antananarivo-madagascar-may-04-show-hira-110265218",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 2
+            }
+          },
+          {
+            "id": "afrikaner",
+            "name": "Afrikaner",
+            "description": "Descended from Dutch frontier farmers, Afrikaners carved homesteads on South Africa’s vast veld, guiding ox wagons under blazing southern stars. Afrikaans—Dutch reshaped by Africa—crackles round thorn‑wood braais. Apartheid’s shadow lingers, but many modern Afrikaners mix farmhouse recipes with city tech, saluting the same big, unforgiving sky that forged their stubborn optimism.",
+            "images": [
+              {
+                "url": "https://www.facinghistory.org/sites/default/files/2022-05/Boer_Family_1886.jpg",
+                "url_is_truncated": false
+              },
+              {
+                "url": "https://ichef.bbci.co.uk/images/ic/1200x675/p047tq4d.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 2
+            }
+          },
+          {
+            "id": "kung",
+            "name": "ǃKung (San)",
+            "description": "Beneath Kalahari constellations, the ǃKung read springbok tracks like punctuation in sand. Click‑filled laughter rises from tiny fires while rock‑painted giraffes guard epic tales. Poisoned arrows, ostrich‑shell beads, and strict sharing laws show how stone tools, keen eyes, and deep friendship still make Earth’s hardest desert feel like home.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/tsumkwe-bushmanland-namibia-june-23-2017-1344929009",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "!Kung",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "xhosa",
+            "name": "Xhosa",
+            "description": "Green Eastern Cape hills echo with Xhosa clicks, first spoken when cattle met surf a thousand years ago. White face‑paint marks sacred initiations; choirs braid gospel with ancestor chants. From Mandela’s village to Cape Town townships, Xhosa people carry spears of ambition and blankets of tradition, proving identity can evolve without losing its bold pattern.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/johannesburg-gauteng-south-africa-august-09-1479970421",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "zulu",
+            "name": "Zulu",
+            "description": "KwaZulu‑Natal’s thunder once rumbled with Shaka’s warriors; today it booms with drumlines at soccer matches. Leopard‑skin dancers high‑kick beside smartphones filming every leap, bead bracelets spell secret messages, and grandmothers teach that cattle are banks on four legs. Proud yet forward‑looking, the Zulu polish old shields while marching into tomorrow.",
+            "images": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Zulu_Culture%2C_KwaZulu-Natal%2C_South_Africa_%2819890832534%29.jpg/1200px-Zulu_Culture%2C_KwaZulu-Natal%2C_South_Africa_%2819890832534%29.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "oromo",
+            "name": "Oromo",
+            "description": "Across Ethiopia’s high plateaus, Oromo horsemen ride under colossal skies, guided by the gada—a democratic age‑set system older than most constitutions. Coffee ceremonies perfume valleys; elders toast nagaa (peace). During irreecha, flowers float downstream as a promise that seasons—and societies—can bloom fresh every year.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/oromia-region-ethiopia-may-2016-cattle-632017919",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "berber",
+            "name": "Berber (Imazighen)",
+            "description": "From snow‑tipped Atlas peaks to bronze Sahara dunes, the Imazighen—“free people”—write history in indigo veils and Tifinagh letters scratched on stone. Tuareg caravans pour mint tea three times—bitter, sweet, true—while mountain weavers tie desert dawn into carpets. Empires pass; Berber roots anchor like date palms in endless sand.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/marrakech-morocco-mar-09-2007-berber-1654233982",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Berber",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "maasai",
+            "name": "Maasai",
+            "description": "On Kenya’s golden savannas, Maasai herders stride beside scarlet‑draped cattle, singing dawn lullabies to calves. Warriors leap skyward in the adumu dance, feet barely returning to earth. Elders bless newborns with milk and ochre, teaching that land, livestock, and community are beads on the same bright shúkà.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/massai-family-celebrating-dancing-490790698",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "igbo",
+            "name": "Igbo",
+            "description": "In Nigeria’s southeast, Igbo traders greet ndeewo and tomorrow in the same breath. Bronze casters once amazed the world; today tech hubs hum where mask spirits whirl at new‑yam festivals. Their credo—think it, build it, share the profit—turns forest roots into rocket fuel for progress.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/nsukka-enugu-nigeria-20-feb-2016-1233361444",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "fulani",
+            "name": "Fulani",
+            "description": "Across the Sahel, Fulani nomads follow sleek long‑horned cattle by flute song and starlight. Women braid towering crowns; men offer fresh milk to strangers, proving hospitality travels with the herd. Hoofprints fade, but memories of gentle greetings drift like cowbells on the desert wind.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/brong-ahafo-ghana-jan-15-2017-614938193",
+                "url_is_truncated": false
+              },
+              {
+                "url": "https://www.shutterstock.com/image-photo/ingall-niger-september-2013-gerewal-mbororo-1737424346",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 2
+            }
+          },
+          {
+            "id": "yoruba",
+            "name": "Yoruba",
+            "description": "In bustling Yoruba markets, talking drums out‑chat radios, retelling orisha myths to pepper shoppers. Masked Egungun bridge living and dead at festivals, while bronze casters and app coders share Lagos streets. Rhythm rules here: honor elders, savor the party, let every heartbeat sync with the drum.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/15th-january-2022-abeokuta-ogun-state-2114053439",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "beja",
+            "name": "Beja",
+            "description": "Between Sudan’s Red Sea hills and copper desert, Beja camel riders speak Bedawi in a whispering wind. Sword dances light weddings; legends say their lineage aided pharaohs. Gold roads creep closer, yet goat‑hair tents still rise near rare wells, lean and enduring as the acacias they rest beneath.",
+            "images": [
+              {
+                "url": "https://pbs.twimg.com/media/C4-yVpjWAAI5Dlr.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "wolof",
+            "name": "Wolof",
+            "description": "Senegal’s Wolof welcome you with teranga—hospitality so warm even the Atlantic feels sweeter. Dakar alleys pulse with mbalax beats while peanut farmers sing harvest chants upriver. Griots strum koras at sunset, weaving royal histories into marketplace chatter. Openness here isn’t a slogan—it’s the national rhythm.",
+            "images": [
+              {
+                "url": "https://img.theculturetrip.com/wp-content/uploads/2018/06/511045809_42e03cb011_o.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "mandinka",
+            "name": "Mandinka",
+            "description": "Along the Gambia River, Mandinka griots pluck 21‑string koras, stitching today to the Mali Empire’s gold‑gleam past. Villages honor Sundiata’s lion legend; elders teach that patience is a tree’s deep root. Peanut fields, prayer calls, and mask dances beneath baobabs echo one rule: remember the story, pass it forward.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/buiba-gambia-africa-february-18-2021-2060424104",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "egyptians",
+            "name": "Egyptians (new)",
+            "description": "Along the Nile’s emerald ribbon, Egyptians sip mint tea where pharaohs once sailed gilded barges. Pyramid shadows fall on satellite dishes; the call to prayer mingles with taxi horns. Farmers still watch the river’s rise, poets post hieroglyph‑sprinkled hashtags, and every bustling souk proves a 4,000‑year heartbeat can dance to modern drums.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/cairo-egypt-april-30-2023-terrace-2458511959",
+                "url_is_truncated": false
+              }
+            ],
+            "note": "Added from rewrites (not present in original continent board).",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          }
+        ],
+        "design": {
+          "primary_asset": {
+            "kind": "map_image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Africa_ethnic_groups_1996.png",
+            "url_is_truncated": false
+          },
+          "group_card_image_policy": {
+            "preferred": "square_or_portrait",
+            "max_images_per_group": 2
+          },
+          "notes": [
+            "Descriptions sourced from ethnolinguistic rewrites spreadsheet (not from continent boards).",
+            "Some URLs in the source spreadsheets include '...' and may be truncated; validate before final production use."
+          ]
+        },
+        "sources": {
+          "board": {
+            "file": "Africa Boards.xlsx",
+            "sheet": "African Ethnolinguistic Map"
+          },
+          "rewrites": {
+            "file": "ethnolinguistic rewrites.xlsx",
+            "sheet": "Africa el description"
+          }
+        },
+        "title": "Africa Ethnolinguistic Map",
+        "subtitle": "Groups, images, and revised descriptions"
+      },
+      {
+        "poster_id": "ethnolinguistic_map_asia",
+        "continent": "Asia",
+        "type": "ethnolinguistic_map",
+        "map_image_url": "https://preview.redd.it/zn1cvl5qvwr51.png?width=960&crop=smart&auto=webp&v=enabled&s=6fb832865b83c4f3c69e56c4a9af4a3026c7c4b3",
+        "groups": [
+          {
+            "id": "japanese",
+            "name": "Japanese",
+            "description": "Bullet trains streak past bamboo groves where monks ring bronze bells at dawn. Samurai epics flicker onscreen, cherry petals dust neon crossings, and vending machines dispense fortunes. From Ainu drum circles in snowy Hokkaido to sanshin songs on Okinawa, Japan fuses quiet tradition with playful tech, binding scroll and robot through harmony.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/pretty-japanese-woman-playing-her-cute-1013457103",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "punjabi",
+            "name": "Punjabi",
+            "description": "Golden Punjab wheat sways to dhol thunder. Farmers whirl bhangra at Vaisakhi, Sufi singers trade verses in shrine courtyards, and roadside dhabas ladle buttery dal for strangers. Whether soldiering, farming, or coding abroad, Punjabis season every act with humor, hospitality, and a heartbeat‑fast rhythm.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/faisalabad-punjabpakistanjanuary272020-traditional-punjabi-farmer-standing-1665446908",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "yakut",
+            "name": "Yakut (Sakha)",
+            "description": "In Siberia’s frost‑white silence, Yakut herders guide shaggy horses through air that crackles like glass. Ice sculptures gleam under auroras while epic Olonkho poems warm endless nights. Diamonds and TikTok have arrived, but shaman drums and the first summer sip of mare’s milk still anchor Sakha souls.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/oymyakon-sakha-republic-yakutia-russia-february-1874679454",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Yakut",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "turkish",
+            "name": "Turkish",
+            "description": "Istanbul’s call to prayer drifts across two continents, mingling with ferry horns and espresso chatter. Descendants of steppe riders and sultans sip tea from tulip glasses; grandmothers quote Rumi as gamers plan start‑ups. East and West meet here—and both leave full and welcomed.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/istanbul-turkey-november-2-2015-turkish-346309682",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "kazakh",
+            "name": "Kazakh",
+            "description": "Under Kazakhstan’s boundless sky, eagle hunters and glass‑tower architects share the horizon. Nauryz ushers spring with fermented mare’s milk and racing horses, while dombra songs race like steppe wind. Nomad blood and space‑age vision gallop side by side toward tomorrow.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/kazakh-eagle-hunters-traditionally-wearing-typical-521675128",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "persian",
+            "name": "Persian",
+            "description": "In Iran’s rose gardens, fountains whisper Hafez as Tehran traffic hums beyond mosaic domes. Saffron stews perfume bazaars, Zoroastrian fire flickers beside tiled mosques, and poets, programmers, and carpet weavers add new knots to a 2,500‑year tapestry of surprise and grace.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/tehran-iran-april-28-2017-iranian-1023391531",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "arab",
+            "name": "Arab",
+            "description": "From palm‑shaded oases to LED skylines, Arabs share one tongue and limitless tales. Bedouins brew cardamom coffee beside camel tracks; coders in Dubai light neon futures. Across deserts and seas, the greeting salaam—peace—travels swiftly, a timeless compass pointing strangers home.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/arabic-family-playing-child-604661462",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "han-chinese",
+            "name": "Han Chinese",
+            "description": "Temple incense curls past LED billboards as the Han weave Bronze‑Age roots into tomorrow’s skyline. Lanterns rise at Lunar New Year, dumplings seal luck, QR codes pay for them, and oracle‑bone script still captures new slang—millennia stitched into every character.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/shanghai-aug-30-2009-crowd-nanjing-103446224",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Han",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "gujaratis",
+            "name": "Gujaratis",
+            "description": "On India’s western coast, Gujarati traders sail ideas as deftly as spice ships once crossed the Arabian Sea. Navratri nights spark nine whirlwinds of garba dance; daylight reveals diamond workshops and tech hubs. Sugar seasons both curry and conversation, ensuring sweet deals and sweeter farewells.",
+            "images": [
+              {
+                "url": "https://i.pinimg.com/236x/26/44/88/264488251689d10766a6e0d17d6cbce0.jpg",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "tibetans",
+            "name": "Tibetans",
+            "description": "Prayer flags snap in Himalayan wind while yak herders hum ancient mantras. Monks spin copper wheels, schoolkids swap selfies and butter tea, and compassion—carved deeper than any gorge—guides Tibetans through thin air and thick change alike.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/tibetan-women-neighborhood-songzanlin-monastery-located-204001849",
+                "url_is_truncated": false
+              },
+              {
+                "url": "https://www.shutterstock.com/image-photo/two-indian-tibetan-old-monks-lama-108244223",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 2
+            }
+          },
+          {
+            "id": "tamils",
+            "name": "Tamils",
+            "description": "Dravidian temples tower like rainbow stone over South India, where Tamil, older than Latin, still sings on bus stops. Bharatanatyam dancers stamp ancient rhythms beside Chennai code sprints, and every Pongal pot bubbles with one message: old fire, new rice, rising together.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/kanchipuram-tamil-nadu-india-02-december-1384847390",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "malay",
+            "name": "Malay",
+            "description": "In humid Malaysian evenings, the call to prayer meets the sizzle of satay. Malay sailors once rode monsoons; their descendants selfie in Petronas Towers yet still weave songket gold and share coconut‑rich nasi lemak, proving hospitality tastes like dawn rice and pandan leaves.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/group-malay-people-wooden-house-celebrating-1941849121",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "javanese",
+            "name": "Javanese",
+            "description": "Java’s volcanoes guard rice terraces where gamelan gongs shimmer through dusk. Shadow‑puppet masters cast epics onto banana‑leaf screens, commuters in Jakarta scroll news between prayers, and the ideal of halus—grace—guides calm paths through an island always rumbling beneath.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/surabaya-indonesia-may-31-2022-group-2163031341",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "kinh",
+            "name": "Kinh (Vietnamese)",
+            "description": "Hanoi’s dawn pho stalls steam beside scooter rivers, while bronze‑age drums thunder in festival parades. Tone‑marked texts mix ancient proverbs with emoji, lotus blooms rise from muddy paddies, and Kinh resilience rises likewise—clean, fragrant, unstoppable.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/image-photo/group-cheerful-vietnamese-young-people-spending-777540808",
+                "url_is_truncated": false
+              }
+            ],
+            "name_original": "Kinh",
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          },
+          {
+            "id": "mongols",
+            "name": "Mongols",
+            "description": "Beneath Mongolia’s eternal blue sky, long‑songs stretch farther than roads and horses read the wind. In winter gers, tales of Genghis Khan swirl with salty milk‑tea steam. Neon Ulaanbaatar buzzes beyond the steppe, yet every city child still knows which way the grass leans by smell alone.",
+            "images": [
+              {
+                "url": "https://www.shutterstock.com/search/mongolian-people?image_type=photo",
+                "url_is_truncated": false
+              }
+            ],
+            "display": {
+              "card_kind": "ethnolinguistic_group",
+              "preferred_image_count": 1
+            }
+          }
+        ],
+        "design": {
+          "primary_asset": {
+            "kind": "map_image",
+            "url": "https://preview.redd.it/zn1cvl5qvwr51.png?width=960&crop=smart&auto=webp&v=enabled&s=6fb832865b83c4f3c69e56c4a9af4a3026c7c4b3",
+            "url_is_truncated": false
+          },
+          "group_card_image_policy": {
+            "preferred": "square_or_portrait",
+            "max_images_per_group": 2
+          },
+          "notes": [
+            "Descriptions sourced from ethnolinguistic rewrites spreadsheet (not from continent boards).",
+            "Some URLs in the source spreadsheets include '...' and may be truncated; validate before final production use."
+          ]
+        },
+        "sources": {
+          "board": {
+            "file": "Asia Boards.xlsx",
+            "sheet": "Asian Ethnolinguistic Map"
+          },
+          "rewrites": {
+            "file": "ethnolinguistic rewrites.xlsx",
+            "sheet": "Asia EL descriptions"
+          }
+        },
+        "title": "Asia Ethnolinguistic Map",
+        "subtitle": "Groups, images, and revised descriptions"
+      }
+    ],
+    "validation_warnings": [
+      "Africa: Added missing ethnolinguistic group from rewrites: 'Egyptians (new)'."
+    ]
+  }
+}

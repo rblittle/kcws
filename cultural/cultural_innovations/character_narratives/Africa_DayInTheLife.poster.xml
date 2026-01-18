@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:23Z</normalized_at>
+    <input_relpath>cultural/character narratives/Africa_DayInTheLife.poster.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__character_narratives__africa__africa_dayinthelife_poster</poster_id>
+    <continent>africa</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </poster>
+  <tags>
+    <continent>africa</continent>
+    <domain>cultural</domain>
+    <poster_family>character_narratives</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" ?>
+<KaycliffAtlasTrailPoster schema="kaycliff.atlastrail.poster.v1" posterId="AFR_DAY_IN_LIFE" continent="Africa" posterType="day_in_the_life" units="in" width="96.0" height="60.0" orientation="landscape">
+  <Meta>
+    <DisplayTitle>A Day In The Life.</DisplayTitle>
+    <ThemeTitle>Under African Skies</ThemeTitle>
+    <GeneratedUTC>2025-12-28T22:18:42+00:00</GeneratedUTC>
+    <SourceFiles>
+      <SourceFile role="captions">
+        <file>new_prompts.xlsx</file>
+        <sheet>Africa</sheet>
+        <column_used>Option B – 1st Person</column_used>
+        <path>/mnt/data/new_prompts.xlsx</path>
+      </SourceFile>
+      <SourceFile role="prompts_and_image_links">
+        <file>Africa.docx</file>
+        <path>/mnt/data/Africa.docx</path>
+      </SourceFile>
+      <SourceFile role="research_keywords">
+        <file>Africa Character Narratives.docx</file>
+        <path>/mnt/data/Africa Character Narratives.docx</path>
+      </SourceFile>
+    </SourceFiles>
+  </Meta>
+  <LayoutTemplate name="DayInTheLife_v1">
+    <Notes>Layout based on the Africa_ADayInTheLife.jpg draft (layout reference only; character content corrected from new_prompts.xlsx + Africa.docx).</Notes>
+    <Margins left="1.0" right="1.0" top="1.0" bottom="1.0"/>
+    <Header>
+      <title_text>A Day In The Life.</title_text>
+      <x>1.5</x>
+      <y>0.8</y>
+      <w>55.0</w>
+      <h>4.8</h>
+      <style>Title_Script</style>
+      <notes>Handwritten/script title at top-left over a muted world-map background.</notes>
+    </Header>
+    <Content rows="3" yStart="6.5" rowGap="0.5">
+      <LeftInfoPanel width="22.0" innerPadding="0.6"/>
+      <SceneGrid columns="6" colGap="1.0" imageSize="11.0" captionHeight="4.5" imageStyle="Image_With_Thin_White_Border" captionStyle="Caption_Sans_Small">Each character row = left info panel + 6 image cards. Each card has a square photo above a short caption.</SceneGrid>
+    </Content>
+  </LayoutTemplate>
+  <Characters>
+    <Character id="AFR_NASERIAN" name="Naserian" country="Kenya" roleOrCulture="Maasai" flag="🇰🇪" iso2="KE" rowIndex="1">
+      <Label>
+        <Headline>Naserian</Headline>
+        <Subhead>A Maasai Girl in Kenya</Subhead>
+      </Label>
+      <BioShort>Naserian is a 12-year-old Maasai girl from Kenya. The Maasai people are known for their distinctive customs, dress (such as the bright red shuka cloth), and residence near game parks in the African Great Lakes region.</BioShort>
+      <StyleReferenceImage url="https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png"/>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="AFR_NASERIAN_S01" url="https://cdn.midjourney.com/3f2e469c-6f3a-4ac4-aecf-fec85a387966/0_0.png" recommendedFilename="AFR_NASERIAN_S01.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Kenyan savanna boma at dawn.</AltText>
+          <Caption voice="first_person">The cow’s flank is warm against my hands, and the crisp morning smells like grass and milk.</Caption>
+          <ImageDescription>Kenyan savanna boma at dawn; early teen Maasai student in modest red shuka helping with morning milking beside a mud-and-thatch kraal; medium-wide framing; eye-line looking to her mother’s hands with gentle focus; clear cultural anchors: red shuka, bead jewelry, calabash gourd, acacia silhouettes, cattle at enclosure; environmental cues: cool breathy air, dew on grass, pale blue sky; motion cues: slow milk stream, faint dust motes in slanting light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: soft pre-sunrise sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Maasai girl sunrise</Keyword>
+            <Keyword>Traditional Maasai village</Keyword>
+            <Keyword>Child with cattle in African savanna</Keyword>
+            <Keyword>Maasai children morning chores</Keyword>
+            <Keyword>African sunrise pastoral scene</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 1:
+ Kenyan savanna boma at dawn; early teen Maasai student in modest red shuka helping with morning milking beside a mud-and-thatch kraal; medium-wide framing; eye-line looking to her mother’s hands with gentle focus; clear cultural anchors: red shuka, bead jewelry, calabash gourd, acacia silhouettes, cattle at enclosure; environmental cues: cool breathy air, dew on grass, pale blue sky; motion cues: slow milk stream, faint dust motes in slanting light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: soft pre-sunrise sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/3f2e469c-6f3a-4ac4-aecf-fec85a387966/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 140</Raw>
+            <Clean>Scene 1: Kenyan savanna boma at dawn; early teen Maasai student in modest red shuka helping with morning milking beside a mud-and-thatch kraal; medium-wide framing; eye-line looking to her mother’s hands with gentle focus; clear cultural anchors: red shuka, bead jewelry, calabash gourd, acacia silhouettes, cattle at enclosure; environmental cues: cool breathy air, dew on grass, pale blue sky; motion cues: slow milk stream, faint dust motes in slanting light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 400, 1/320 s; lighting: soft pre-sunrise sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="AFR_NASERIAN_S02" url="https://cdn.midjourney.com/c8e28183-4546-4268-8dff-f8dafe74b23f/0_1.png" recommendedFilename="AFR_NASERIAN_S02.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Open savanna path after sunrise.</AltText>
+          <Caption voice="first_person">We trade songs as the sun rises; every hoof-print we spot makes the walk to school exciting.</Caption>
+          <ImageDescription>Open savanna path after sunrise; early teen Maasai student walking with two classmates, modest uniforms layered with beadwork; medium shot; eye-line looking down-path past camera with bright anticipation; clear cultural anchors: red shuka accent, beaded belts, simple exercise books; environmental cues: acacia trees, dust path, birds overhead; motion cues: skirt hem swish, loose beads catching light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: early morning warm sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Maasai girl walking to school</Keyword>
+            <Keyword>African children rural education</Keyword>
+            <Keyword>Dirt path in Kenyan savanna</Keyword>
+            <Keyword>Backpack traditional attire</Keyword>
+            <Keyword>Kids walking through rural Africa</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 2:
+ Open savanna path after sunrise; early teen Maasai student walking with two classmates, modest uniforms layered with beadwork; medium shot; eye-line looking down-path past camera with bright anticipation; clear cultural anchors: red shuka accent, beaded belts, simple exercise books; environmental cues: acacia trees, dust path, birds overhead; motion cues: skirt hem swish, loose beads catching light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: early morning warm sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/c8e28183-4546-4268-8dff-f8dafe74b23f/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 160</Raw>
+            <Clean>Scene 2: Open savanna path after sunrise; early teen Maasai student walking with two classmates, modest uniforms layered with beadwork; medium shot; eye-line looking down-path past camera with bright anticipation; clear cultural anchors: red shuka accent, beaded belts, simple exercise books; environmental cues: acacia trees, dust path, birds overhead; motion cues: skirt hem swish, loose beads catching light; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/500 s; lighting: early morning warm sidelight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="AFR_NASERIAN_S03" url="https://cdn.midjourney.com/054696da-44df-424f-b07c-b754a9d11d9e/0_1.png" recommendedFilename="AFR_NASERIAN_S03.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Rural classroom.</AltText>
+          <Caption voice="first_person">I trace letters on the board, feeling ideas sparkle like sunlight on my desk.</Caption>
+          <ImageDescription>Rural classroom; early teen Maasai student at wooden desk raising her hand; medium framing; eye-line glancing to lens with a small confident smile; clear cultural anchors: chalkboard with Swahili words, exercise books, bead bracelet; environmental cues: sunlit windows, posters of numbers and letters; motion cues: chalk dust in air, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: bright window light, gentle fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Rural African classroom</Keyword>
+            <Keyword>Maasai students learning</Keyword>
+            <Keyword>Chalkboard in Kenyan school</Keyword>
+            <Keyword>Teacher with African children</Keyword>
+            <Keyword>Traditional clothing in modern school</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 3:
+ Rural classroom; early teen Maasai student at wooden desk raising her hand; medium framing; eye-line glancing to lens with a small confident smile; clear cultural anchors: chalkboard with Swahili words, exercise books, bead bracelet; environmental cues: sunlit windows, posters of numbers and letters; motion cues: chalk dust in air, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: bright window light, gentle fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/054696da-44df-424f-b07c-b754a9d11d9e/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 140</Raw>
+            <Clean>Scene 3: Rural classroom; early teen Maasai student at wooden desk raising her hand; medium framing; eye-line glancing to lens with a small confident smile; clear cultural anchors: chalkboard with Swahili words, exercise books, bead bracelet; environmental cues: sunlit windows, posters of numbers and letters; motion cues: chalk dust in air, page turn; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 640, 1/200 s; lighting: bright window light, gentle fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="AFR_NASERIAN_S04" url="https://cdn.midjourney.com/f906f66b-5a87-4bd9-bdcd-94a38bc61578/0_0.png" recommendedFilename="AFR_NASERIAN_S04.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Shade of an acacia near school.</AltText>
+          <Caption voice="first_person">Crunching maize, I laugh with friends while the tree’s cool shadow hugs us.</Caption>
+          <ImageDescription>Shade of an acacia near school; early teen Maasai students sharing simple lunch; medium-wide; eye-line looking to a friend’s hands passing food with warm ease; cultural anchors: beadwork, packed ugali/maize cakes, gourds; environmental cues: open grassland, distant cattle; motion cues: napkin flutter, leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: high-sun with open shade; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Maasai cattle herding</Keyword>
+            <Keyword>African herding pastoral scene</Keyword>
+            <Keyword>Traditional Maasai beadwork in action</Keyword>
+            <Keyword>Cattle grazing in savanna</Keyword>
+            <Keyword>Young Maasai girl helping herd animals</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 4:
+ Shade of an acacia near school; early teen Maasai students sharing simple lunch; medium-wide; eye-line looking to a friend’s hands passing food with warm ease; cultural anchors: beadwork, packed ugali/maize cakes, gourds; environmental cues: open grassland, distant cattle; motion cues: napkin flutter, leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: high-sun with open shade; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/f906f66b-5a87-4bd9-bdcd-94a38bc61578/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 160</Raw>
+            <Clean>Scene 4: Shade of an acacia near school; early teen Maasai students sharing simple lunch; medium-wide; eye-line looking to a friend’s hands passing food with warm ease; cultural anchors: beadwork, packed ugali/maize cakes, gourds; environmental cues: open grassland, distant cattle; motion cues: napkin flutter, leaf quiver; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/400 s; lighting: high-sun with open shade; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="AFR_NASERIAN_S05" url="https://cdn.midjourney.com/533dbdf2-935a-44d6-bdf9-d35b4b746850/0_3.png" recommendedFilename="AFR_NASERIAN_S05.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Late-day savanna.</AltText>
+          <Caption voice="first_person">I steer the herd across glowing plains, heart swelling as the village comes into view.</Caption>
+          <ImageDescription>Late-day savanna; early teen Maasai student walking alongside small herd with an elder relative nearby; medium shot; eye-line tracking the lead cow with calm pride; cultural anchors: herding stick, bead earrings, red shuka sash; environmental cues: golden grass, long shadows, distant hills; motion cues: dust puffs at hooves, grass swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/640 s; lighting: golden hour backlight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Maasai tribal dance</Keyword>
+            <Keyword>Traditional Maasai jumping dance</Keyword>
+            <Keyword>Beaded necklaces and anklets</Keyword>
+            <Keyword>Maasai evening celebration</Keyword>
+            <Keyword>Sunset community gathering Africa</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 5:
+ Late-day savanna; early teen Maasai student walking alongside small herd with an elder relative nearby; medium shot; eye-line tracking the lead cow with calm pride; cultural anchors: herding stick, bead earrings, red shuka sash; environmental cues: golden grass, long shadows, distant hills; motion cues: dust puffs at hooves, grass swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/640 s; lighting: golden hour backlight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/533dbdf2-935a-44d6-bdf9-d35b4b746850/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 160</Raw>
+            <Clean>Scene 5: Late-day savanna; early teen Maasai student walking alongside small herd with an elder relative nearby; medium shot; eye-line tracking the lead cow with calm pride; cultural anchors: herding stick, bead earrings, red shuka sash; environmental cues: golden grass, long shadows, distant hills; motion cues: dust puffs at hooves, grass swish; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 200, 1/640 s; lighting: golden hour backlight; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="AFR_NASERIAN_S06" url="https://cdn.midjourney.com/4d062329-c1f1-41da-9ce1-8a17f9741a14/0_3.png" recommendedFilename="AFR_NASERIAN_S06.png" source="Africa.docx"/>
+          <AltText>Naserian (Maasai) in Kenya: Savanna clearing at dusk.</AltText>
+          <Caption voice="first_person">Sparks swirl upward as I leap to the beat; the stories make me feel part of something ancient.</Caption>
+          <ImageDescription>Savanna clearing at dusk; early teen Maasai students in modest attire near a small community fire, elders seated; medium-wide; eye-line looking past camera toward the circle with joyful energy; cultural anchors: bead collars, red shuka accents, low drum; environmental cues: starry sky starting, safe small fire; motion cues: gentle ember rise, bead shimmer, skirt bounce; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/160 s; lighting: warm firelight + cool sky fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Maasai family stargazing</Keyword>
+            <Keyword>African night sky</Keyword>
+            <Keyword>Maasai elder storytelling</Keyword>
+            <Keyword>Child and elder under starry savanna sky</Keyword>
+            <Keyword>Campfire in Kenyan savanna</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 6:
+ Savanna clearing at dusk; early teen Maasai students in modest attire near a small community fire, elders seated; medium-wide; eye-line looking past camera toward the circle with joyful energy; cultural anchors: bead collars, red shuka accents, low drum; environmental cues: starry sky starting, safe small fire; motion cues: gentle ember rise, bead shimmer, skirt bounce; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/160 s; lighting: warm firelight + cool sky fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/4d062329-c1f1-41da-9ce1-8a17f9741a14/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/21f46fd4-8cef-4c0f-96d9-d92190f1f7db/0_3.png --ow 160</Raw>
+            <Clean>Scene 6: Savanna clearing at dusk; early teen Maasai students in modest attire near a small community fire, elders seated; medium-wide; eye-line looking past camera toward the circle with joyful energy; cultural anchors: bead collars, red shuka accents, low drum; environmental cues: starry sky starting, safe small fire; motion cues: gentle ember rise, bead shimmer, skirt bounce; Camera: Canon R6 Mark II, RF 35 mm f/1.8, ISO 1600, 1/160 s; lighting: warm firelight + cool sky fill; RAW photo, filename: IMG_8602.CR3 --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="6.5" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="6.5" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="7.333333333333334" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="18.333333333333336" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+    <Character id="AFR_IMANI" name="Imani" country="Rwanda" roleOrCulture="Tech Entrepreneur" flag="🇷🇼" iso2="RW" rowIndex="2">
+      <Label>
+        <Headline>Imani</Headline>
+        <Subhead>A Tech Entrepreneur in Rwanda</Subhead>
+      </Label>
+      <BioShort>Imani is a 30-year-old entrepreneur in Kigali, Rwanda. Rwandan culture is characterized by strong family values, community engagement, and respect for elders.</BioShort>
+      <StyleReferenceImage url="https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png"/>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="AFR_IMANI_S01" url="https://cdn.midjourney.com/19a00bd0-936c-48bb-91b9-b41541e50a75/0_3.png" recommendedFilename="AFR_IMANI_S01.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Kigali hillside at dawn.</AltText>
+          <Caption voice="first_person">Mist brushes my cheeks as I run; each breath fuels fresh ideas for the day ahead.</Caption>
+          <ImageDescription>Kigali hillside at dawn; Rwandan entrepreneur jogging along a red-earth path past tea bushes; medium shot; eye-line looking down-trail with centered calm; cultural anchors: Kigali skyline hints, woven headband, simple smartwatch; environmental cues: mist layers, golden rim light; motion cues: ponytail and jersey sway, dust kick; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 320, 1/800 s; lighting: soft sunrise backlight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Kigali coffee shop</Keyword>
+            <Keyword>African woman with laptop</Keyword>
+            <Keyword>Rwandan coffee farm views</Keyword>
+            <Keyword>Businesswoman modern setting</Keyword>
+            <Keyword>African tech entrepreneur workspace</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 1:
+ Kigali hillside at dawn; Rwandan entrepreneur jogging along a red-earth path past tea bushes; medium shot; eye-line looking down-trail with centered calm; cultural anchors: Kigali skyline hints, woven headband, simple smartwatch; environmental cues: mist layers, golden rim light; motion cues: ponytail and jersey sway, dust kick; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 320, 1/800 s; lighting: soft sunrise backlight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/19a00bd0-936c-48bb-91b9-b41541e50a75/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 160</Raw>
+            <Clean>Scene 1: Kigali hillside at dawn; Rwandan entrepreneur jogging along a red-earth path past tea bushes; medium shot; eye-line looking down-trail with centered calm; cultural anchors: Kigali skyline hints, woven headband, simple smartwatch; environmental cues: mist layers, golden rim light; motion cues: ponytail and jersey sway, dust kick; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 320, 1/800 s; lighting: soft sunrise backlight; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 160</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="AFR_IMANI_S02" url="https://cdn.midjourney.com/672dae70-9b7d-486d-b5c3-56545f38dfd8/0_2.png" recommendedFilename="AFR_IMANI_S02.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Modern Kigali co-working room.</AltText>
+          <Caption voice="first_person">I sketch bold plans on the screen; my team’s energy buzzes louder than the laptops.</Caption>
+          <ImageDescription>Modern Kigali co-working room; entrepreneur leading a small team at whiteboard with app wireframes and Kinyarwanda labels; medium; eye-line glancing to lens with energized smile mid-explanation; cultural anchors: woven basket planter, Rwandan coffee mugs, kitenge notebook; environmental cues: big windows, city mid-rises; motion cues: sticky notes mid-peel, hand gesture blur; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 800, 1/250 s; lighting: bright window light with soft bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Kigali office spaces</Keyword>
+            <Keyword>African start-up culture</Keyword>
+            <Keyword>Team meeting in modern office</Keyword>
+            <Keyword>Woman leading tech team</Keyword>
+            <Keyword>Laptops and brainstorming Africa</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 2:
+ Modern Kigali co-working room; entrepreneur leading a small team at whiteboard with app wireframes and Kinyarwanda labels; medium; eye-line glancing to lens with energized smile mid-explanation; cultural anchors: woven basket planter, Rwandan coffee mugs, kitenge notebook; environmental cues: big windows, city mid-rises; motion cues: sticky notes mid-peel, hand gesture blur; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 800, 1/250 s; lighting: bright window light with soft bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/672dae70-9b7d-486d-b5c3-56545f38dfd8/0_2.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 140</Raw>
+            <Clean>Scene 2: Modern Kigali co-working room; entrepreneur leading a small team at whiteboard with app wireframes and Kinyarwanda labels; medium; eye-line glancing to lens with energized smile mid-explanation; cultural anchors: woven basket planter, Rwandan coffee mugs, kitenge notebook; environmental cues: big windows, city mid-rises; motion cues: sticky notes mid-peel, hand gesture blur; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 800, 1/250 s; lighting: bright window light with soft bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="AFR_IMANI_S03" url="https://cdn.midjourney.com/6aec432c-2123-4d78-821d-3f526456b47b/0_3.png" recommendedFilename="AFR_IMANI_S03.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Leafy Kigali street café.</AltText>
+          <Caption voice="first_person">Sweet plantains and Mama’s jokes turn the café’s bustle into a warm song.</Caption>
+          <ImageDescription>Leafy Kigali street café; entrepreneur dining with her mother, sharing brochettes, ibirayi, and fruits; medium shot; eye-line looking to her mother with warm affection; cultural anchors: woven agaseke basket, enamel cups, patterned kitenge scarf; environmental cues: umbrellas, passersby; motion cues: steam drift, handoff of plate; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 400, 1/320 s; lighting: open shade + ambient bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>African woman visiting farmers</Keyword>
+            <Keyword>Rwandan agriculture tech</Keyword>
+            <Keyword>Rural farmland Rwanda</Keyword>
+            <Keyword>Traditional farm tools with modern tech</Keyword>
+            <Keyword>Interaction with African farmers</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 3:
+ Leafy Kigali street café; entrepreneur dining with her mother, sharing brochettes, ibirayi, and fruits; medium shot; eye-line looking to her mother with warm affection; cultural anchors: woven agaseke basket, enamel cups, patterned kitenge scarf; environmental cues: umbrellas, passersby; motion cues: steam drift, handoff of plate; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 400, 1/320 s; lighting: open shade + ambient bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/6aec432c-2123-4d78-821d-3f526456b47b/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 140</Raw>
+            <Clean>Scene 3: Leafy Kigali street café; entrepreneur dining with her mother, sharing brochettes, ibirayi, and fruits; medium shot; eye-line looking to her mother with warm affection; cultural anchors: woven agaseke basket, enamel cups, patterned kitenge scarf; environmental cues: umbrellas, passersby; motion cues: steam drift, handoff of plate; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 400, 1/320 s; lighting: open shade + ambient bounce; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="AFR_IMANI_S04" url="https://cdn.midjourney.com/97c62f08-5bdd-4a4c-9ac0-7662ce210531/0_0.png" recommendedFilename="AFR_IMANI_S04.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Community tech space.</AltText>
+          <Caption voice="first_person">Their questions light up the room, and I feel pride blooming as I guide them.</Caption>
+          <ImageDescription>Community tech space; entrepreneur guiding early-career women on laptops; medium-wide; eye-line looking toward a participant’s screen with encouraging focus; cultural anchors: chalkboard with Kinyarwanda terms, low-cost laptops, printed curriculum sheets; environmental cues: sunlit windows, posters; motion cues: projector fan shimmer, page flip; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: daylight + soft indoor fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Woman teaching tech in Africa</Keyword>
+            <Keyword>Digital literacy workshop Rwanda</Keyword>
+            <Keyword>Classroom setting with laptops</Keyword>
+            <Keyword>Community training African context</Keyword>
+            <Keyword>African youth learning coding</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 4:
+ Community tech space; entrepreneur guiding early-career women on laptops; medium-wide; eye-line looking toward a participant’s screen with encouraging focus; cultural anchors: chalkboard with Kinyarwanda terms, low-cost laptops, printed curriculum sheets; environmental cues: sunlit windows, posters; motion cues: projector fan shimmer, page flip; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: daylight + soft indoor fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/97c62f08-5bdd-4a4c-9ac0-7662ce210531/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 140</Raw>
+            <Clean>Scene 4: Community tech space; entrepreneur guiding early-career women on laptops; medium-wide; eye-line looking toward a participant’s screen with encouraging focus; cultural anchors: chalkboard with Kinyarwanda terms, low-cost laptops, printed curriculum sheets; environmental cues: sunlit windows, posters; motion cues: projector fan shimmer, page flip; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1000, 1/200 s; lighting: daylight + soft indoor fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="AFR_IMANI_S05" url="https://cdn.midjourney.com/01d4d714-de38-4869-a050-749d3e1d860b/0_3.png" recommendedFilename="AFR_IMANI_S05.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Terraced farmland outside Kigali.</AltText>
+          <Caption voice="first_person">Standing in rich soil, I swipe through data and plan stronger harvests with new friends.</Caption>
+          <ImageDescription>Terraced farmland outside Kigali; entrepreneur greeting smallholder farmers, demonstrating a simple farm-data app; medium-wide; eye-line looking toward a farmer’s phone with hopeful focus; cultural anchors: woven baskets, hoes, gumboots, banana leaves; environmental cues: volcanic hills, overcast bright sky; motion cues: leaf flutter, subtle phone screen glare; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright overcast; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Kigali nightlife dining</Keyword>
+            <Keyword>Rwandan traditional and modern cuisine</Keyword>
+            <Keyword>African woman socializing with friends</Keyword>
+            <Keyword>Rooftop restaurant Kigali</Keyword>
+            <Keyword>Food presentation African urban settings</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 5:
+ Terraced farmland outside Kigali; entrepreneur greeting smallholder farmers, demonstrating a simple farm-data app; medium-wide; eye-line looking toward a farmer’s phone with hopeful focus; cultural anchors: woven baskets, hoes, gumboots, banana leaves; environmental cues: volcanic hills, overcast bright sky; motion cues: leaf flutter, subtle phone screen glare; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright overcast; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/01d4d714-de38-4869-a050-749d3e1d860b/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 140</Raw>
+            <Clean>Scene 5: Terraced farmland outside Kigali; entrepreneur greeting smallholder farmers, demonstrating a simple farm-data app; medium-wide; eye-line looking toward a farmer’s phone with hopeful focus; cultural anchors: woven baskets, hoes, gumboots, banana leaves; environmental cues: volcanic hills, overcast bright sky; motion cues: leaf flutter, subtle phone screen glare; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 200, 1/500 s; lighting: bright overcast; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="AFR_IMANI_S06" url="https://cdn.midjourney.com/25134851-321c-4282-949f-284d781c1f01/0_0.png" recommendedFilename="AFR_IMANI_S06.png" source="Africa.docx"/>
+          <AltText>Imani (Tech Entrepreneur) in Rwanda: Apartment balcony.</AltText>
+          <Caption voice="first_person">I sip sweet tea on the balcony, city lights twinkling like the goals I’ve just penned.</Caption>
+          <ImageDescription>Apartment balcony; entrepreneur journaling with Kigali skyline at blue hour; medium; eye-line looking toward city lights with calm gratitude; cultural anchors: agaseke basket planter, ceramic mug, cloth throw; environmental cues: dusk gradient, scattered lights; motion cues: page turn, sheer curtain stir; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1600, 1/125 s; lighting: city glow + lamp fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>African woman journaling at sunset</Keyword>
+            <Keyword>Kigali skyline at dusk</Keyword>
+            <Keyword>Cozy home workspace Africa</Keyword>
+            <Keyword>Inspirational urban African setting</Keyword>
+            <Keyword>Woman looking at city lights</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 6:
+ Apartment balcony; entrepreneur journaling with Kigali skyline at blue hour; medium; eye-line looking toward city lights with calm gratitude; cultural anchors: agaseke basket planter, ceramic mug, cloth throw; environmental cues: dusk gradient, scattered lights; motion cues: page turn, sheer curtain stir; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1600, 1/125 s; lighting: city glow + lamp fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/25134851-321c-4282-949f-284d781c1f01/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/2c46ffc8-19df-4e02-98fe-c097bc83791a/0_0.png --ow 140</Raw>
+            <Clean>Scene 6: Apartment balcony; entrepreneur journaling with Kigali skyline at blue hour; medium; eye-line looking toward city lights with calm gratitude; cultural anchors: agaseke basket planter, ceramic mug, cloth throw; environmental cues: dusk gradient, scattered lights; motion cues: page turn, sheer curtain stir; Camera: Sony A7 IV, FE 35 mm f/1.4, ISO 1600, 1/125 s; lighting: city glow + lamp fill; RAW photo, filename: DSC08602.ARW --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="24.166666666666668" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="24.166666666666668" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="25.0" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="36.0" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+    <Character id="AFR_KANDU" name="Kandu" country="Namibia" roleOrCulture="Himba" flag="🇳🇦" iso2="NA" rowIndex="3">
+      <Label>
+        <Headline>Kandu</Headline>
+        <Subhead>A Himba Teen in Namibia</Subhead>
+      </Label>
+      <BioShort>Kandu is a 15-year-old boy from the Himba tribe in northern Namibia. The Himba are a semi-nomadic people known for their distinctive red ochre covering their skin and hair, traditional leather clothing, and intricate hairstyles.</BioShort>
+      <StyleReferenceImage url="https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png"/>
+      <Scenes>
+        <Scene index="1">
+          <Image assetId="AFR_KANDU_S01" url="https://cdn.midjourney.com/4fbd1940-dc06-44e9-a539-cbedb85c7406/0_0.png" recommendedFilename="AFR_KANDU_S01.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Dry riverbed at sunrise.</AltText>
+          <Caption voice="first_person">I balance the cool pot, feeling sunrise heat spread across the quiet sand.</Caption>
+          <ImageDescription>Dry riverbed at sunrise; Himba youth with clay water pot beside family at shallow hand-dug well; medium-wide; eye-line to the pot being filled with calm focus; cultural anchors: ochre-tinted skin and hair, simple jewelry, clay pots; environmental cues: pale blue sky, rocky hills, sparse shrubs; motion cues: water stream ripple, dust lift; Camera: Nikon Z9, 35 mm f/1.8, ISO 200, 1/640 s; lighting: cool dawn sidelight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Himba boy fetching water</Keyword>
+            <Keyword>Sunrise in Namibian desert</Keyword>
+            <Keyword>Traditional Himba homestead</Keyword>
+            <Keyword>African desert morning tasks</Keyword>
+            <Keyword>Clay water pots Himba culture</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 1:
+ Dry riverbed at sunrise; Himba youth with clay water pot beside family at shallow hand-dug well; medium-wide; eye-line to the pot being filled with calm focus; cultural anchors: ochre-tinted skin and hair, simple jewelry, clay pots; environmental cues: pale blue sky, rocky hills, sparse shrubs; motion cues: water stream ripple, dust lift; Camera: Nikon Z9, 35 mm f/1.8, ISO 200, 1/640 s; lighting: cool dawn sidelight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/4fbd1940-dc06-44e9-a539-cbedb85c7406/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 1: Dry riverbed at sunrise; Himba youth with clay water pot beside family at shallow hand-dug well; medium-wide; eye-line to the pot being filled with calm focus; cultural anchors: ochre-tinted skin and hair, simple jewelry, clay pots; environmental cues: pale blue sky, rocky hills, sparse shrubs; motion cues: water stream ripple, dust lift; Camera: Nikon Z9, 35 mm f/1.8, ISO 200, 1/640 s; lighting: cool dawn sidelight; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="24.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="24.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="2">
+          <Image assetId="AFR_KANDU_S02" url="https://cdn.midjourney.com/a7ddf221-6843-480f-b5e9-986f03738a6b/0_1.png" recommendedFilename="AFR_KANDU_S02.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Homestead courtyard.</AltText>
+          <Caption voice="first_person">We scoop porridge with our hands; every laugh tastes like home.</Caption>
+          <ImageDescription>Homestead courtyard; Himba youth sharing morning porridge around a small fire with relatives; medium shot; eye-line toward a sibling offering a bowl with happy warmth; cultural anchors: wooden bowls, shells and beads, mopane-wood hut walls; environmental cues: goats wandering, sun warming the air; motion cues: steam drift, hand pass; Camera: Nikon Z9, 35 mm f/1.8, ISO 400, 1/250 s; lighting: soft morning sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Himba boy with cattle</Keyword>
+            <Keyword>Namibian cattle herding</Keyword>
+            <Keyword>Himba child pastoral lifestyle</Keyword>
+            <Keyword>Desert grazing scene Namibia</Keyword>
+            <Keyword>African child with livestock</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 2:
+ Homestead courtyard; Himba youth sharing morning porridge around a small fire with relatives; medium shot; eye-line toward a sibling offering a bowl with happy warmth; cultural anchors: wooden bowls, shells and beads, mopane-wood hut walls; environmental cues: goats wandering, sun warming the air; motion cues: steam drift, hand pass; Camera: Nikon Z9, 35 mm f/1.8, ISO 400, 1/250 s; lighting: soft morning sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/a7ddf221-6843-480f-b5e9-986f03738a6b/0_1.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 2: Homestead courtyard; Himba youth sharing morning porridge around a small fire with relatives; medium shot; eye-line toward a sibling offering a bowl with happy warmth; cultural anchors: wooden bowls, shells and beads, mopane-wood hut walls; environmental cues: goats wandering, sun warming the air; motion cues: steam drift, hand pass; Camera: Nikon Z9, 35 mm f/1.8, ISO 400, 1/250 s; lighting: soft morning sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="36.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="36.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="3">
+          <Image assetId="AFR_KANDU_S03" url="https://cdn.midjourney.com/750cf7fc-62b1-4480-9fe9-e323d232c2f2/0_3.png" recommendedFilename="AFR_KANDU_S03.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Under a shade tree.</AltText>
+          <Caption voice="first_person">Stories of brave ancestors swirl around me; my chest swells with pride.</Caption>
+          <ImageDescription>Under a shade tree; Himba youth seated with animated elders; medium; eye-line fixed on an elder storyteller with proud attention; cultural anchors: wooden staffs, bead ornaments, ceremonial earth pigments (subtle); environmental cues: desert plain beyond; motion cues: hand gesture blur, hair tassel sway; Camera: Nikon Z9, 35 mm f/1.8, ISO 320, 1/320 s; lighting: dappled open shade; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Himba family meal</Keyword>
+            <Keyword>Namibian traditional food</Keyword>
+            <Keyword>African communal dining rural</Keyword>
+            <Keyword>Himba village family gathering</Keyword>
+            <Keyword>Child and elders sharing meal</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 3:
+ Under a shade tree; Himba youth seated with animated elders; medium; eye-line fixed on an elder storyteller with proud attention; cultural anchors: wooden staffs, bead ornaments, ceremonial earth pigments (subtle); environmental cues: desert plain beyond; motion cues: hand gesture blur, hair tassel sway; Camera: Nikon Z9, 35 mm f/1.8, ISO 320, 1/320 s; lighting: dappled open shade; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/750cf7fc-62b1-4480-9fe9-e323d232c2f2/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 3: Under a shade tree; Himba youth seated with animated elders; medium; eye-line fixed on an elder storyteller with proud attention; cultural anchors: wooden staffs, bead ornaments, ceremonial earth pigments (subtle); environmental cues: desert plain beyond; motion cues: hand gesture blur, hair tassel sway; Camera: Nikon Z9, 35 mm f/1.8, ISO 320, 1/320 s; lighting: dappled open shade; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="48.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="48.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="4">
+          <Image assetId="AFR_KANDU_S04" url="https://cdn.midjourney.com/e13fd911-1e51-4267-9f5c-d0092ac08453/0_3.png" recommendedFilename="AFR_KANDU_S04.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Village edge at midday.</AltText>
+          <Caption voice="first_person">I study the shiny van and wonder how its strangers might help our people.</Caption>
+          <ImageDescription>Village edge at midday; Himba youth watching a solar-equipped mobile clinic greet villagers outside; medium-wide; eye-line toward waving health workers with curious hope; cultural anchors: clinic symbols, solar panels, modest uniforms; environmental cues: harsh sun, sharp ground shadows; motion cues: hand waves, heat shimmer; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/2000 s; lighting: hard noon light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Himba traditional meeting</Keyword>
+            <Keyword>African village community events</Keyword>
+            <Keyword>Himba beadwork crafts</Keyword>
+            <Keyword>Women crafting in rural Africa</Keyword>
+            <Keyword>Himba culture elders and children</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 4:
+ Village edge at midday; Himba youth watching a solar-equipped mobile clinic greet villagers outside; medium-wide; eye-line toward waving health workers with curious hope; cultural anchors: clinic symbols, solar panels, modest uniforms; environmental cues: harsh sun, sharp ground shadows; motion cues: hand waves, heat shimmer; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/2000 s; lighting: hard noon light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/e13fd911-1e51-4267-9f5c-d0092ac08453/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 4: Village edge at midday; Himba youth watching a solar-equipped mobile clinic greet villagers outside; medium-wide; eye-line toward waving health workers with curious hope; cultural anchors: clinic symbols, solar panels, modest uniforms; environmental cues: harsh sun, sharp ground shadows; motion cues: hand waves, heat shimmer; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/2000 s; lighting: hard noon light; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="60.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="60.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="5">
+          <Image assetId="AFR_KANDU_S05" url="https://cdn.midjourney.com/0de924a7-1012-4240-b5f6-9a297563fedc/0_0.png" recommendedFilename="AFR_KANDU_S05.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Rocky desert in afternoon heat.</AltText>
+          <Caption voice="first_person">The sun blazes, but I find shade and forage so my goats stay strong.</Caption>
+          <ImageDescription>Rocky desert in afternoon heat; Himba youth guiding goats with a wooden staff; medium; eye-line scanning terrain with steady pride; cultural anchors: sandals, simple jewelry, staff; environmental cues: distant mountains, sparse bushes, blazing sky; motion cues: goat hoof dust, robe edge flutter; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/1600 s; lighting: intense afternoon sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Himba boy teaching siblings</Keyword>
+            <Keyword>African children learning life skills</Keyword>
+            <Keyword>Elder sibling guiding younger children</Keyword>
+            <Keyword>Rural African education setting</Keyword>
+            <Keyword>Himba children and traditional skills</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 5:
+ Rocky desert in afternoon heat; Himba youth guiding goats with a wooden staff; medium; eye-line scanning terrain with steady pride; cultural anchors: sandals, simple jewelry, staff; environmental cues: distant mountains, sparse bushes, blazing sky; motion cues: goat hoof dust, robe edge flutter; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/1600 s; lighting: intense afternoon sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/0de924a7-1012-4240-b5f6-9a297563fedc/0_0.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 5: Rocky desert in afternoon heat; Himba youth guiding goats with a wooden staff; medium; eye-line scanning terrain with steady pride; cultural anchors: sandals, simple jewelry, staff; environmental cues: distant mountains, sparse bushes, blazing sky; motion cues: goat hoof dust, robe edge flutter; Camera: Nikon Z9, 35 mm f/1.8, ISO 100, 1/1600 s; lighting: intense afternoon sun; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="72.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="72.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+        <Scene index="6">
+          <Image assetId="AFR_KANDU_S06" url="https://cdn.midjourney.com/9b8b2e02-a474-48c2-ad67-860e77eb2f36/0_3.png" recommendedFilename="AFR_KANDU_S06.png" source="Africa.docx"/>
+          <AltText>Kandu (Himba) in Namibia: Hilltop at sundown.</AltText>
+          <Caption voice="first_person">I share music with my friends, dreams rising with the first stars over the desert.</Caption>
+          <ImageDescription>Hilltop at sundown; Himba youth seated with friends, small handmade instrument in hand; medium-wide; eye-line toward the glowing horizon with hopeful ease; cultural anchors: bead accents, gourd shaker, woven bracelets; environmental cues: orange-purple sky, first stars; motion cues: ember rise from small fire, fingertip strum; Camera: Nikon Z9, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset rim + cool sky fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref</ImageDescription>
+          <Keywords>
+            <Keyword>Namibian night sky stargazing</Keyword>
+            <Keyword>Himba family campfire storytelling</Keyword>
+            <Keyword>Desert landscape under stars</Keyword>
+            <Keyword>African tribal evening scenes</Keyword>
+            <Keyword>Starry night with traditional village</Keyword>
+            <Keyword>How These Keywords Can Be Used</Keyword>
+            <Keyword>These keywords are highly targeted to help a designer find reference images for both the characters’ activities and their cultural and environmental settings. For each scene, the keywords blend details of:</Keyword>
+            <Keyword>Cultural specifics (e.g., &quot;Himba hairstyles,&quot; &quot;Maasai bead jewelry&quot;).</Keyword>
+            <Keyword>Activities described (e.g., &quot;cattle herding,&quot; &quot;classroom life&quot;).</Keyword>
+            <Keyword>Environmental context (e.g., &quot;Namibian desert,&quot; &quot;Kigali skyline&quot;).</Keyword>
+            <Keyword>Visual storytelling elements (e.g., &quot;campfire storytelling,&quot; &quot;African sunrise&quot;).</Keyword>
+          </Keywords>
+          <Prompt source="Africa.docx">
+            <Raw>Scene 6:
+ Hilltop at sundown; Himba youth seated with friends, small handmade instrument in hand; medium-wide; eye-line toward the glowing horizon with hopeful ease; cultural anchors: bead accents, gourd shaker, woven bracelets; environmental cues: orange-purple sky, first stars; motion cues: ember rise from small fire, fingertip strum; Camera: Nikon Z9, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset rim + cool sky fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref https://cdn.midjourney.com/9b8b2e02-a474-48c2-ad67-860e77eb2f36/0_3.png --sw 160 --sv 6 --oref https://cdn.midjourney.com/a5117b71-178e-4a7c-b68f-ef0dcf1bd987/0_3.png --ow 140</Raw>
+            <Clean>Scene 6: Hilltop at sundown; Himba youth seated with friends, small handmade instrument in hand; medium-wide; eye-line toward the glowing horizon with hopeful ease; cultural anchors: bead accents, gourd shaker, woven bracelets; environmental cues: orange-purple sky, first stars; motion cues: ember rise from small fire, fingertip strum; Camera: Nikon Z9, 35 mm f/1.8, ISO 800, 1/200 s; lighting: warm sunset rim + cool sky fill; RAW photo, filename: DSC_8602.NEF --ar 1:1 --style raw --stylize 50 --v 7 --sref --sw 160 --sv 6 --oref --ow 140</Clean>
+          </Prompt>
+          <Frames>
+            <Frame name="row_background" x="1.0" y="41.833333333333336" w="94.0" h="17.166666666666668"/>
+            <Frame name="character_info_panel" x="1.0" y="41.833333333333336" w="22.0" h="17.166666666666668"/>
+            <Frame name="image_frame" x="84.0" y="42.66666666666667" w="11.0" h="11.0"/>
+            <Frame name="caption_frame" x="84.0" y="53.66666666666667" w="11.0" h="4.5"/>
+          </Frames>
+        </Scene>
+      </Scenes>
+    </Character>
+  </Characters>
+  <Assets>
+    <Asset id="AFR_NASERIAN_S01" type="image" url="https://cdn.midjourney.com/3f2e469c-6f3a-4ac4-aecf-fec85a387966/0_0.png" character="Naserian" sceneIndex="1" recommendedFilename="AFR_NASERIAN_S01.png"/>
+    <Asset id="AFR_NASERIAN_S02" type="image" url="https://cdn.midjourney.com/c8e28183-4546-4268-8dff-f8dafe74b23f/0_1.png" character="Naserian" sceneIndex="2" recommendedFilename="AFR_NASERIAN_S02.png"/>
+    <Asset id="AFR_NASERIAN_S03" type="image" url="https://cdn.midjourney.com/054696da-44df-424f-b07c-b754a9d11d9e/0_1.png" character="Naserian" sceneIndex="3" recommendedFilename="AFR_NASERIAN_S03.png"/>
+    <Asset id="AFR_NASERIAN_S04" type="image" url="https://cdn.midjourney.com/f906f66b-5a87-4bd9-bdcd-94a38bc61578/0_0.png" character="Naserian" sceneIndex="4" recommendedFilename="AFR_NASERIAN_S04.png"/>
+    <Asset id="AFR_NASERIAN_S05" type="image" url="https://cdn.midjourney.com/533dbdf2-935a-44d6-bdf9-d35b4b746850/0_3.png" character="Naserian" sceneIndex="5" recommendedFilename="AFR_NASERIAN_S05.png"/>
+    <Asset id="AFR_NASERIAN_S06" type="image" url="https://cdn.midjourney.com/4d062329-c1f1-41da-9ce1-8a17f9741a14/0_3.png" character="Naserian" sceneIndex="6" recommendedFilename="AFR_NASERIAN_S06.png"/>
+    <Asset id="AFR_IMANI_S01" type="image" url="https://cdn.midjourney.com/19a00bd0-936c-48bb-91b9-b41541e50a75/0_3.png" character="Imani" sceneIndex="1" recommendedFilename="AFR_IMANI_S01.png"/>
+    <Asset id="AFR_IMANI_S02" type="image" url="https://cdn.midjourney.com/672dae70-9b7d-486d-b5c3-56545f38dfd8/0_2.png" character="Imani" sceneIndex="2" recommendedFilename="AFR_IMANI_S02.png"/>
+    <Asset id="AFR_IMANI_S03" type="image" url="https://cdn.midjourney.com/6aec432c-2123-4d78-821d-3f526456b47b/0_3.png" character="Imani" sceneIndex="3" recommendedFilename="AFR_IMANI_S03.png"/>
+    <Asset id="AFR_IMANI_S04" type="image" url="https://cdn.midjourney.com/97c62f08-5bdd-4a4c-9ac0-7662ce210531/0_0.png" character="Imani" sceneIndex="4" recommendedFilename="AFR_IMANI_S04.png"/>
+    <Asset id="AFR_IMANI_S05" type="image" url="https://cdn.midjourney.com/01d4d714-de38-4869-a050-749d3e1d860b/0_3.png" character="Imani" sceneIndex="5" recommendedFilename="AFR_IMANI_S05.png"/>
+    <Asset id="AFR_IMANI_S06" type="image" url="https://cdn.midjourney.com/25134851-321c-4282-949f-284d781c1f01/0_0.png" character="Imani" sceneIndex="6" recommendedFilename="AFR_IMANI_S06.png"/>
+    <Asset id="AFR_KANDU_S01" type="image" url="https://cdn.midjourney.com/4fbd1940-dc06-44e9-a539-cbedb85c7406/0_0.png" character="Kandu" sceneIndex="1" recommendedFilename="AFR_KANDU_S01.png"/>
+    <Asset id="AFR_KANDU_S02" type="image" url="https://cdn.midjourney.com/a7ddf221-6843-480f-b5e9-986f03738a6b/0_1.png" character="Kandu" sceneIndex="2" recommendedFilename="AFR_KANDU_S02.png"/>
+    <Asset id="AFR_KANDU_S03" type="image" url="https://cdn.midjourney.com/750cf7fc-62b1-4480-9fe9-e323d232c2f2/0_3.png" character="Kandu" sceneIndex="3" recommendedFilename="AFR_KANDU_S03.png"/>
+    <Asset id="AFR_KANDU_S04" type="image" url="https://cdn.midjourney.com/e13fd911-1e51-4267-9f5c-d0092ac08453/0_3.png" character="Kandu" sceneIndex="4" recommendedFilename="AFR_KANDU_S04.png"/>
+    <Asset id="AFR_KANDU_S05" type="image" url="https://cdn.midjourney.com/0de924a7-1012-4240-b5f6-9a297563fedc/0_0.png" character="Kandu" sceneIndex="5" recommendedFilename="AFR_KANDU_S05.png"/>
+    <Asset id="AFR_KANDU_S06" type="image" url="https://cdn.midjourney.com/9b8b2e02-a474-48c2-ad67-860e77eb2f36/0_3.png" character="Kandu" sceneIndex="6" recommendedFilename="AFR_KANDU_S06.png"/>
+  </Assets>
+</KaycliffAtlasTrailPoster>
+]]></payload_xml>
+</normalized_poster>

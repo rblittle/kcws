@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>cultural/stats and featurettes/Asia_StatsAndFeaturettes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>cultural__stats_featurettes__asia__asia_statsandfeaturettes</poster_id>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>cultural</domain>
+    <poster_family>stats_featurettes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<StatsAndFeaturettes>
+  <schema>kaycliff_atlas_trail_stats_featurettes</schema>
+  <schema_version>1.0.0</schema_version>
+  <poster_metadata>
+    <id>asia_changing_currents_stats_featurettes</id>
+    <continent>Asia</continent>
+    <domain>Cultural Domain</domain>
+    <poster_type>Stats &amp; Featurettes</poster_type>
+    <dimensions>
+      <width_in>96</width_in>
+      <height_in>60</height_in>
+      <unit>in</unit>
+      <source>Derived from proof PDF page size (6912x4320 points = 96x60 inches).</source>
+      </dimensions>
+    <display_title>Changing Currents:
+Life, Faith, and Survival Across</display_title>
+    <language>en</language>
+    <layout_slots>
+      <item>
+        <slot_id>header_title</slot_id>
+        <description>Poster title/header area</description>
+        <x_norm>0.0</x_norm>
+        <y_norm>0.0</y_norm>
+        <w_norm>1.0</w_norm>
+        <h_norm>0.12</h_norm>
+        </item>
+      <item>
+        <slot_id>featurette_left_top</slot_id>
+        <description>Left column – top featurette (Religions)</description>
+        <x_norm>0.0</x_norm>
+        <y_norm>0.12</y_norm>
+        <w_norm>0.25</w_norm>
+        <h_norm>0.38</h_norm>
+        </item>
+      <item>
+        <slot_id>featurette_left_bottom</slot_id>
+        <description>Left column – bottom featurette (India)</description>
+        <x_norm>0.0</x_norm>
+        <y_norm>0.5</y_norm>
+        <w_norm>0.25</w_norm>
+        <h_norm>0.5</h_norm>
+        </item>
+      <item>
+        <slot_id>main_map</slot_id>
+        <description>Central Asia stats map</description>
+        <x_norm>0.25</x_norm>
+        <y_norm>0.12</y_norm>
+        <w_norm>0.5</w_norm>
+        <h_norm>0.73</h_norm>
+        </item>
+      <item>
+        <slot_id>map_legend</slot_id>
+        <description>Stats map legend box</description>
+        <x_norm>0.25</x_norm>
+        <y_norm>0.85</y_norm>
+        <w_norm>0.3</w_norm>
+        <h_norm>0.15</h_norm>
+        </item>
+      <item>
+        <slot_id>featurette_right_top</slot_id>
+        <description>Right column – top featurette (China)</description>
+        <x_norm>0.75</x_norm>
+        <y_norm>0.12</y_norm>
+        <w_norm>0.25</w_norm>
+        <h_norm>0.38</h_norm>
+        </item>
+      <item>
+        <slot_id>featurette_right_bottom</slot_id>
+        <description>Right column – bottom featurette (Japan)</description>
+        <x_norm>0.75</x_norm>
+        <y_norm>0.5</y_norm>
+        <w_norm>0.25</w_norm>
+        <h_norm>0.5</h_norm>
+        </item>
+      </layout_slots>
+    </poster_metadata>
+  <continent_stats_map>
+    <palette_by_country>
+      <item>
+        <country>Afghanistan</country>
+        <color_hex>#3BDC55</color_hex>
+        </item>
+      <item>
+        <country>Armenia</country>
+        <color_hex>#3BA1DC</color_hex>
+        </item>
+      <item>
+        <country>Azerbaijan</country>
+        <color_hex>#A7DC3B</color_hex>
+        </item>
+      <item>
+        <country>Bahrain</country>
+        <color_hex>#DC763B</color_hex>
+        </item>
+      <item>
+        <country>Bangladesh</country>
+        <color_hex>#DC8A3B</color_hex>
+        </item>
+      <item>
+        <country>Bhutan</country>
+        <color_hex>#3BDCB8</color_hex>
+        </item>
+      <item>
+        <country>Brunei</country>
+        <color_hex>#DCB13B</color_hex>
+        </item>
+      <item>
+        <country>Cambodia</country>
+        <color_hex>#DCC53B</color_hex>
+        </item>
+      <item>
+        <country>China</country>
+        <color_hex>#EE1C25</color_hex>
+        </item>
+      <item>
+        <country>Cyprus</country>
+        <color_hex>#CCDC3B</color_hex>
+        </item>
+      <item>
+        <country>Georgia</country>
+        <color_hex>#DA291C</color_hex>
+        </item>
+      <item>
+        <country>India</country>
+        <color_hex>#3B8ADC</color_hex>
+        </item>
+      <item>
+        <country>Indonesia</country>
+        <color_hex>#91DC3B</color_hex>
+        </item>
+      <item>
+        <country>Iran</country>
+        <color_hex>#DA0000</color_hex>
+        </item>
+      <item>
+        <country>Iraq</country>
+        <color_hex>#3B50DC</color_hex>
+        </item>
+      <item>
+        <country>Israel</country>
+        <color_hex>#3BDCCE</color_hex>
+        </item>
+      <item>
+        <country>Japan</country>
+        <color_hex>#42DC3B</color_hex>
+        </item>
+      <item>
+        <country>Jordan</country>
+        <color_hex>#3BDC49</color_hex>
+        </item>
+      <item>
+        <country>Kazakhstan</country>
+        <color_hex>#00ABC2</color_hex>
+        </item>
+      <item>
+        <country>Kuwait</country>
+        <color_hex>#3BDC70</color_hex>
+        </item>
+      <item>
+        <country>Kyrgyzstan</country>
+        <color_hex>#3BDC84</color_hex>
+        </item>
+      <item>
+        <country>Laos</country>
+        <color_hex>#B13BDC</color_hex>
+        </item>
+      <item>
+        <country>Lebanon</country>
+        <color_hex>#3B5FDC</color_hex>
+        </item>
+      <item>
+        <country>Malaysia</country>
+        <color_hex>#3BDCBF</color_hex>
+        </item>
+      <item>
+        <country>Maldives</country>
+        <color_hex>#3BDCD2</color_hex>
+        </item>
+      <item>
+        <country>Mongolia</country>
+        <color_hex>#FFD900</color_hex>
+        </item>
+      <item>
+        <country>Myanmar</country>
+        <color_hex>#8CDC3B</color_hex>
+        </item>
+      <item>
+        <country>Nepal</country>
+        <color_hex>#793BDC</color_hex>
+        </item>
+      <item>
+        <country>North Korea</country>
+        <color_hex>#64DC3B</color_hex>
+        </item>
+      <item>
+        <country>Oman</country>
+        <color_hex>#A03BDC</color_hex>
+        </item>
+      <item>
+        <country>Pakistan</country>
+        <color_hex>#B43BDC</color_hex>
+        </item>
+      <item>
+        <country>Philippines</country>
+        <color_hex>#3B5CDC</color_hex>
+        </item>
+      <item>
+        <country>Qatar</country>
+        <color_hex>#DB3BDC</color_hex>
+        </item>
+      <item>
+        <country>Russia</country>
+        <color_hex>#0036A7</color_hex>
+        </item>
+      <item>
+        <country>Saudi Arabia</country>
+        <color_hex>#DC703B</color_hex>
+        </item>
+      <item>
+        <country>Singapore</country>
+        <color_hex>#693BDC</color_hex>
+        </item>
+      <item>
+        <country>South Korea</country>
+        <color_hex>#DC973B</color_hex>
+        </item>
+      <item>
+        <country>Sri Lanka</country>
+        <color_hex>#913BDC</color_hex>
+        </item>
+      <item>
+        <country>Syria</country>
+        <color_hex>#DC3B66</color_hex>
+        </item>
+      <item>
+        <country>Taiwan</country>
+        <color_hex>#B83BDC</color_hex>
+        </item>
+      <item>
+        <country>Tajikistan</country>
+        <color_hex>#CC3BDC</color_hex>
+        </item>
+      <item>
+        <country>Thailand</country>
+        <color_hex>#DC4B3B</color_hex>
+        </item>
+      <item>
+        <country>Timor-Leste</country>
+        <color_hex>#DC3BC5</color_hex>
+        </item>
+      <item>
+        <country>Turkey</country>
+        <color_hex>#3BDC8D</color_hex>
+        </item>
+      <item>
+        <country>Turkmenistan</country>
+        <color_hex>#3B6BDC</color_hex>
+        </item>
+      <item>
+        <country>United Arab Emirates</country>
+        <color_hex>#DC3B8A</color_hex>
+        </item>
+      <item>
+        <country>Uzbekistan</country>
+        <color_hex>#DC3B76</color_hex>
+        </item>
+      <item>
+        <country>Vietnam</country>
+        <color_hex>#4ADC3B</color_hex>
+        </item>
+      <item>
+        <country>Yemen</country>
+        <color_hex>#DC3B4F</color_hex>
+        </item>
+      </palette_by_country>
+    <palette_source>
+      <file>Asia Cultural Domain.xlsx</file>
+      <sheet>stats palette </sheet>
+      <range>A:B</range>
+      <notes>Palette extracted from spreadsheet per workflow. Note: proof PDF map appears to use a different color assignment; see validation_and_todos.</notes>
+      </palette_source>
+    <legend>
+      <title>ASIA HIGH AND LOW LEGEND</title>
+      <general_rules>
+        <item>Most metrics use green icons for the “high/favorable” end and orange icons for the “low/unfavorable” end.</item>
+        <item>Exception: “Lowest Crime Rate” is favorable at the low numeric end; green indicates lowest crime and orange indicates highest crime.</item>
+        <item>“Average Household Size” uses a distinct color pair (purple vs blue) to indicate largest vs smallest households (descriptive rather than good/bad).</item>
+        </general_rules>
+      <metrics_in_legend_order>
+        <item>Access To Clean Drinking Water</item>
+        <item>Average Caloric Intake</item>
+        <item>Lowest Crime Rate</item>
+        <item>Access To Healthcare</item>
+        <item>% Population Higher Education Degree</item>
+        <item>Average Household Size</item>
+        <item>Volunteer/Community Service Participation</item>
+        <item>Employment Rates</item>
+        </metrics_in_legend_order>
+      </legend>
+    <map_markers>
+      <capital_marker>
+        <present_on_proof>True</present_on_proof>
+        <description>Small circular markers with a white cross appear across countries (likely capitals).</description>
+        <color_note>Markers appear in orange/red on the proof map.</color_note>
+        </capital_marker>
+      </map_markers>
+    <core_stats_on_map>
+      <item>
+        <stat_id>access_to_clean_drinking_water</stat_id>
+        <label>Access to Clean Drinking Water</label>
+        <maslow_layer>Physiological</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Japan</country>
+            <value_text>~100%</value_text>
+            </item>
+          <item>
+            <country>Singapore</country>
+            <value_text>~100%</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Cambodia</country>
+            <value_text>~75%</value_text>
+            </item>
+          <item>
+            <country>Afghanistan</country>
+            <value_text>~43%</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Access To Clean Drinking Water</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>average_daily_caloric_intake</stat_id>
+        <label>Average Daily Caloric Intake</label>
+        <maslow_layer>Physiological</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Turkey</country>
+            <value_text>~3680 cal</value_text>
+            </item>
+          <item>
+            <country>South Korea</country>
+            <value_text>~3340 cal</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>North Korea</country>
+            <value_text>~2100 cal</value_text>
+            </item>
+          <item>
+            <country>Yemen</country>
+            <value_text>~2000 cal</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Average Caloric Intake</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>crime_rate_low_crime_safety</stat_id>
+        <label>Crime Rate (Low Crime = Safety)</label>
+        <maslow_layer>Safety</maslow_layer>
+        <directionality>lower_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Japan</country>
+            <value_text />
+            </item>
+          <item>
+            <country>Singapore</country>
+            <value_text />
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Afghanistan</country>
+            <value_text>high due to conflict</value_text>
+            </item>
+          <item>
+            <country>Philippines</country>
+            <value_text>urban crime</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Lowest Crime Rate</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>population_with_access_to_healthcare</stat_id>
+        <label>% Population with Access to Healthcare</label>
+        <maslow_layer>Safety</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Japan</country>
+            <value_text>~100%</value_text>
+            </item>
+          <item>
+            <country>South Korea</country>
+            <value_text>universal coverage</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Afghanistan</country>
+            <value_text>&lt;40%</value_text>
+            </item>
+          <item>
+            <country>Yemen</country>
+            <value_text>&lt;50% functional healthcare</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Access To Healthcare</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>employment_rate_economic_participation</stat_id>
+        <label>Employment Rate (Economic Participation)</label>
+        <maslow_layer>Safety/Esteem</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Vietnam</country>
+            <value_text>~76%</value_text>
+            </item>
+          <item>
+            <country>Thailand</country>
+            <value_text>~74%</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Syria</country>
+            <value_text>&gt;50% unemployment</value_text>
+            </item>
+          <item>
+            <country>Iraq</country>
+            <value_text>~12% unemployment</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Employment Rates</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>average_household_size</stat_id>
+        <label>Average Household Size</label>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <directionality>higher_is_more</directionality>
+        <high_exemplars>
+          <item>
+            <country>Afghanistan</country>
+            <value_text>~7.8 persons</value_text>
+            </item>
+          <item>
+            <country>Pakistan</country>
+            <value_text>~6.8 persons</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Japan</country>
+            <value_text>~2.4 persons</value_text>
+            </item>
+          <item>
+            <country>South Korea</country>
+            <value_text>~2.5 persons</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Average Household Size</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>volunteer_community_service_participation</stat_id>
+        <label>Volunteer/Community Service Participation</label>
+        <maslow_layer>Love/Belonging</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>Sri Lanka</country>
+            <value_text>~46%</value_text>
+            </item>
+          <item>
+            <country>Japan</country>
+            <value_text>~28%</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>China</country>
+            <value_text>~12% formally recorded</value_text>
+            </item>
+          <item>
+            <country>Myanmar</country>
+            <value_text>limited data</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>Volunteer/Community Service Participation</poster_legend_label>
+        </item>
+      <item>
+        <stat_id>population_with_higher_education_degrees</stat_id>
+        <label>% Population with Higher Education Degrees</label>
+        <maslow_layer>Esteem</maslow_layer>
+        <directionality>higher_is_better</directionality>
+        <high_exemplars>
+          <item>
+            <country>South Korea</country>
+            <value_text>~70+% of young adults</value_text>
+            </item>
+          <item>
+            <country>Japan</country>
+            <value_text>~60%</value_text>
+            </item>
+          </high_exemplars>
+        <low_exemplars>
+          <item>
+            <country>Nepal</country>
+            <value_text>~7%</value_text>
+            </item>
+          <item>
+            <country>Cambodia</country>
+            <value_text>&lt;10%</value_text>
+            </item>
+          </low_exemplars>
+        <source>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Interesting Statistics</sheet>
+          <range>A4:D12</range>
+          </source>
+        <poster_legend_label>% Population Higher Education Degree</poster_legend_label>
+        </item>
+      </core_stats_on_map>
+    <assets>
+      <item>
+        <asset_id>asia_stats_map_base</asset_id>
+        <type>map</type>
+        <role>main_map</role>
+        <aspect_ratio>approx 4:3</aspect_ratio>
+        <description>Central Asia map with per-country palette fills and country labels (embedded in proof PDF).</description>
+        <hyperlinks>
+          <final_url />
+          <url_candidates />
+          </hyperlinks>
+        </item>
+      </assets>
+    </continent_stats_map>
+  <featurettes>
+    <item>
+      <featurette_id>origination_of_major_religions</featurette_id>
+      <title>Origination of Major Religions</title>
+      <body_text>Long ago, in lands stretching from the Middle East to India, some of the world’s major religions were born. Judaism, Christianity, and Islam arose in the deserts and cities near the Mediterranean Sea. Hinduism and Buddhism took root in India’s rich landscapes, while Sikhism began in the Punjab region.
+
+These faiths shaped how people live, think, and come together. Their ideas spread across the Earth through travel, trade, and teaching, inspiring millions today. By understanding where these religions started and what they share—like respect, kindness, and hope—we can better appreciate the diverse beliefs that guide so many lives.</body_text>
+      <layout_slot_id>featurette_left_top</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>asia_religions_icons_major_faiths</asset_id>
+          <type>chart</type>
+          <role>symbol_strip</role>
+          <aspect_ratio>approx 6:1</aspect_ratio>
+          <description>Row of icons representing Judaism, Islam, Christianity, Hinduism, Sikhism, and Buddhism (as shown at top of the featurette).</description>
+          <hyperlinks>
+            <final_url />
+            <url_candidates />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_religions_illustration_diverse_people</asset_id>
+          <type>chart</type>
+          <role>illustration</role>
+          <aspect_ratio>approx 4:3</aspect_ratio>
+          <description>Illustration of diverse people representing multiple faiths (top-right of the featurette).</description>
+          <hyperlinks>
+            <final_url />
+            <url_candidates />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_religions_photo_holy_site</asset_id>
+          <type>photo</type>
+          <role>featurette_photo</role>
+          <aspect_ratio>approx 4:3</aspect_ratio>
+          <description>Photo of a holy site (Western Wall / Jerusalem) used in the Religions featurette.</description>
+          <hyperlinks>
+            <anchor_text>holy site, such as the Wester</anchor_text>
+            <final_url>https://www.touristisrael.com/wp-content/uploads/2021/10/shutterstock_591824696-1024x684.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_religions_map_origins_placeholder</asset_id>
+          <type>map</type>
+          <role>chart_placeholder</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Referenced in Asia Featurettes.docx: map showing where major religions began. Not clearly present as a standalone map in the proof poster; included as a dependency placeholder.</description>
+          <hyperlinks>
+            <anchor_text>Showing where major religions began</anchor_text>
+            <final_url>https://preview.redd.it/blimtmsmvtm71.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=f26bf7b6b08ea1205df71b8239d9f21185591572</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        </assets>
+      <chart_spec>
+        <charts>
+          <item>
+            <chart_id>religion_origin_map</chart_id>
+            <type>map</type>
+            <status>placeholder</status>
+            <title>Where major religions began (map)</title>
+            <data_table>
+              <item>
+                <religion>Christianity</religion>
+                <origin_site_example>Church of the Holy Sepulchre, Jerusalem</origin_site_example>
+                </item>
+              <item>
+                <religion>Judaism</religion>
+                <origin_site_example>Western Wall, Jerusalem</origin_site_example>
+                </item>
+              <item>
+                <religion>Islam</religion>
+                <origin_site_example>Kaaba, Mecca</origin_site_example>
+                </item>
+              <item>
+                <religion>Sikhism</religion>
+                <origin_site_example>Harmandir Sahib (“Golden Temple”), Amritsar</origin_site_example>
+                </item>
+              <item>
+                <religion>Buddhism</religion>
+                <origin_site_example>Mahabodhi Temple, Bodh Gaya</origin_site_example>
+                </item>
+              <item>
+                <religion>Hinduism</religion>
+                <origin_site_example>Kashi Vishwanath Temple, Varanasi</origin_site_example>
+                </item>
+              </data_table>
+            <layout_notes>Featurettes.docx calls for a map + symbols chart. Proof poster shows a symbols strip and a faint world map background, but not a dedicated origin map.</layout_notes>
+            <data_sources>
+              <item>
+                <source_name>Religious Studies Data</source_name>
+                <link />
+                </item>
+              </data_sources>
+            </item>
+          </charts>
+        <iconography_notes>Symbols shown: Star of David (Judaism), Crescent and star (Islam), Cross (Christianity), Om (Hinduism), Khanda (Sikhism), Dharma wheel (Buddhism).</iconography_notes>
+        <source_table>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Religions</sheet>
+          <range>A9:F15</range>
+          </source_table>
+        </chart_spec>
+      </item>
+    <item>
+      <featurette_id>india_land_of_contrasts</featurette_id>
+      <title>India –
+A Land of Contrasts Between
+Rich and Poor</title>
+      <body_text>India is a land of shining skyscrapers, busy tech hubs, and world-famous business leaders. Yet not far from these modern marvels, you’ll find families who struggle with old tools on small farms or cramped neighborhoods without clean water or electricity.
+
+This big gap between rich and poor comes from a long history and fast changes. Today, India is working hard to share its growing wealth more fairly. New schools, better jobs, and smarter farming methods aim to lift people out of poverty. As India grows, so does the hope that everyone can enjoy a better life.</body_text>
+      <layout_slot_id>featurette_left_bottom</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>asia_india_photo_luxury_skyscraper</asset_id>
+          <type>photo</type>
+          <role>wealth_symbol_photo</role>
+          <aspect_ratio>approx 3:4 (portrait)</aspect_ratio>
+          <description>Photo of a luxury high-rise/skyscraper (Antilia Tower, Mumbai) used to represent wealth.</description>
+          <hyperlinks>
+            <anchor_text> luxury apartment building ne</anchor_text>
+            <final_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mumbai_03-2016_19_Antilia_Tower.jpg/1200px-Mumbai_03-2016_19_Antilia_Tower.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_india_photo_crowded_neighborhood</asset_id>
+          <type>photo</type>
+          <role>poverty_contrast_photo</role>
+          <aspect_ratio>approx 16:9</aspect_ratio>
+          <description>Photo of a dense, crowded neighborhood/slum area used to contrast wealth and poverty.</description>
+          <hyperlinks>
+            <anchor_text>small, crowded neighborhood</anchor_text>
+            <final_url>https://c8.alamy.com/comp/2ANTYTK/aerial-view-of-poor-indian-slums-in-faridabad-haryana-2ANTYTK.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_india_photo_rural_farmers</asset_id>
+          <type>photo</type>
+          <role>rural_livelihood_photo</role>
+          <aspect_ratio>approx 16:9</aspect_ratio>
+          <description>Photo of rural farmers working in a field (agriculture / livelihoods).</description>
+          <hyperlinks>
+            <anchor_text>Rural farmers working in a field</anchor_text>
+            <final_url>https://www.bain.com/contentassets/abc6db2a2d8b441f95772b2fa70292e1/india-rural-economy-16-9.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_india_income_regions_map_placeholder</asset_id>
+          <type>map</type>
+          <role>chart_placeholder</role>
+          <aspect_ratio>unknown</aspect_ratio>
+          <description>Referenced in Asia Featurettes.docx: map showing regions with higher incomes and those with lower incomes. Not present in the proof poster PDF; included as a dependency placeholder.</description>
+          <hyperlinks>
+            <final_url />
+            <url_candidates />
+            </hyperlinks>
+          </item>
+        </assets>
+      <chart_spec>
+        <charts>
+          <item>
+            <chart_id>india_income_regions_map</chart_id>
+            <type>map</type>
+            <status>placeholder</status>
+            <title>India income regions (higher vs. lower incomes)</title>
+            <data_table />
+            <layout_notes>Featurettes.docx calls for a government-data income/wealth map, but the proof poster uses a photo-based contrast layout without a visible map.</layout_notes>
+            <data_sources>
+              <item>
+                <source_name>Government Data (India)</source_name>
+                <link />
+                </item>
+              </data_sources>
+            </item>
+          </charts>
+        </chart_spec>
+      </item>
+    <item>
+      <featurette_id>china_changing_population</featurette_id>
+      <title>China’s Changing Population –
+A Story of Growth and Change</title>
+      <body_text>Imagine a country growing so fast that leaders once encouraged families to have as many children as possible. That was China after 1949. Soon, the population soared. But too many people meant too few resources, so China introduced the One-Child Policy. Families could only have one child, hoping to slow down the rapid growth.
+
+Over time, this led to more boys than girls, since many parents wanted sons. Today, China faces fewer young people, more elderly, and a changing future. The rules have loosened, allowing more children per family, but raising kids is expensive, and many parents still choose smaller families. China now works to balance its population, care for the elderly, and value all children equally.</body_text>
+      <layout_slot_id>featurette_right_top</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>asia_china_photo_family_strolling</asset_id>
+          <type>photo</type>
+          <role>featurette_hero_photo</role>
+          <aspect_ratio>approx 16:9</aspect_ratio>
+          <description>Photo of a Chinese family walking in a city street (top of China featurette).</description>
+          <hyperlinks>
+            <anchor_text>A modern Chinese family strolling in a busy city stree</anchor_text>
+            <final_url>https://c8.alamy.com/comp/W9AK8B/file-a-chinese-family-of-three-walk-on-the-nanjing-road-shopping-street-in-shanghai-china-7-july-2010-china-marked-the-30th-anniversary-of-its-W9AK8B.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_china_chart_midyear_population</asset_id>
+          <type>chart</type>
+          <role>supporting_chart</role>
+          <aspect_ratio>approx 4:3</aspect_ratio>
+          <description>Line chart titled “Midyear Population vs. Year” showing China’s midyear population over time.</description>
+          <hyperlinks>
+            <anchor_text>China’s population growth over time</anchor_text>
+            <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_china_chart_crude_birth_rate</asset_id>
+          <type>chart</type>
+          <role>supporting_chart</role>
+          <aspect_ratio>approx 4:3</aspect_ratio>
+          <description>Line chart titled “Crude Birth Rate (per 1000) vs. Year” showing China’s crude birth rate over time.</description>
+          <hyperlinks>
+            <anchor_text>Comparison </anchor_text>
+            <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        </assets>
+      <chart_spec>
+        <charts>
+          <item>
+            <chart_id>china_midyear_population</chart_id>
+            <type>line_chart</type>
+            <title>Midyear Population vs. Year</title>
+            <x_field>Year</x_field>
+            <y_field>Midyear Population</y_field>
+            <y_units>people</y_units>
+            <data_table>
+              <item>
+                <year>1949</year>
+                <midyear_population>537371000.0</midyear_population>
+                </item>
+              <item>
+                <year>1950</year>
+                <midyear_population>546815000.0</midyear_population>
+                </item>
+              <item>
+                <year>1951</year>
+                <midyear_population>557480000.0</midyear_population>
+                </item>
+              <item>
+                <year>1952</year>
+                <midyear_population>568910000.0</midyear_population>
+                </item>
+              <item>
+                <year>1953</year>
+                <midyear_population>581390000.0</midyear_population>
+                </item>
+              <item>
+                <year>1954</year>
+                <midyear_population>595310000.0</midyear_population>
+                </item>
+              <item>
+                <year>1955</year>
+                <midyear_population>608655000.0</midyear_population>
+                </item>
+              <item>
+                <year>1956</year>
+                <midyear_population>621465000.0</midyear_population>
+                </item>
+              <item>
+                <year>1957</year>
+                <midyear_population>637405000.0</midyear_population>
+                </item>
+              <item>
+                <year>1958</year>
+                <midyear_population>653235000.0</midyear_population>
+                </item>
+              <item>
+                <year>1959</year>
+                <midyear_population>666005000.0</midyear_population>
+                </item>
+              <item>
+                <year>1960</year>
+                <midyear_population>667070000.0</midyear_population>
+                </item>
+              <item>
+                <year>1961</year>
+                <midyear_population>660330000.0</midyear_population>
+                </item>
+              <item>
+                <year>1962</year>
+                <midyear_population>665770000.0</midyear_population>
+                </item>
+              <item>
+                <year>1963</year>
+                <midyear_population>682335000.0</midyear_population>
+                </item>
+              <item>
+                <year>1964</year>
+                <midyear_population>698355000.0</midyear_population>
+                </item>
+              <item>
+                <year>1965</year>
+                <midyear_population>715185000.0</midyear_population>
+                </item>
+              <item>
+                <year>1966</year>
+                <midyear_population>735400000.0</midyear_population>
+                </item>
+              <item>
+                <year>1967</year>
+                <midyear_population>754550000.0</midyear_population>
+                </item>
+              <item>
+                <year>1968</year>
+                <midyear_population>774510000.0</midyear_population>
+                </item>
+              <item>
+                <year>1969</year>
+                <midyear_population>796025000.0</midyear_population>
+                </item>
+              <item>
+                <year>1970</year>
+                <midyear_population>818315000.0</midyear_population>
+                </item>
+              <item>
+                <year>1971</year>
+                <midyear_population>841105000.0</midyear_population>
+                </item>
+              <item>
+                <year>1972</year>
+                <midyear_population>862030000.0</midyear_population>
+                </item>
+              <item>
+                <year>1973</year>
+                <midyear_population>881940000.0</midyear_population>
+                </item>
+              <item>
+                <year>1974</year>
+                <midyear_population>900350000.0</midyear_population>
+                </item>
+              <item>
+                <year>1975</year>
+                <midyear_population>916395000.0</midyear_population>
+                </item>
+              <item>
+                <year>1976</year>
+                <midyear_population>930685000.0</midyear_population>
+                </item>
+              <item>
+                <year>1977</year>
+                <midyear_population>943455000.0</midyear_population>
+                </item>
+              <item>
+                <year>1978</year>
+                <midyear_population>956165000.0</midyear_population>
+                </item>
+              <item>
+                <year>1979</year>
+                <midyear_population>969005000.0</midyear_population>
+                </item>
+              <item>
+                <year>1980</year>
+                <midyear_population>981235000.0</midyear_population>
+                </item>
+              <item>
+                <year>1981</year>
+                <midyear_population>993885000.0</midyear_population>
+                </item>
+              <item>
+                <year>1982</year>
+                <midyear_population>1008630000.0</midyear_population>
+                </item>
+              <item>
+                <year>1983</year>
+                <midyear_population>1023310000.0</midyear_population>
+                </item>
+              <item>
+                <year>1984</year>
+                <midyear_population>1036825000.0</midyear_population>
+                </item>
+              <item>
+                <year>1985</year>
+                <midyear_population>1051040000.0</midyear_population>
+                </item>
+              <item>
+                <year>1986</year>
+                <midyear_population>1066790000.0</midyear_population>
+                </item>
+              <item>
+                <year>1987</year>
+                <midyear_population>1084035000.0</midyear_population>
+                </item>
+              <item>
+                <year>1988</year>
+                <midyear_population>1101630000.0</midyear_population>
+                </item>
+              <item>
+                <year>1989</year>
+                <midyear_population>1118650000.0</midyear_population>
+                </item>
+              <item>
+                <year>1990</year>
+                <midyear_population>1135185000.0</midyear_population>
+                </item>
+              <item>
+                <year>1991</year>
+                <midyear_population>1150780000.0</midyear_population>
+                </item>
+              <item>
+                <year>1992</year>
+                <midyear_population>1164970000.0</midyear_population>
+                </item>
+              <item>
+                <year>1993</year>
+                <midyear_population>1178440000.0</midyear_population>
+                </item>
+              <item>
+                <year>1994</year>
+                <midyear_population>1191835000.0</midyear_population>
+                </item>
+              <item>
+                <year>1995</year>
+                <midyear_population>1204855000.0</midyear_population>
+                </item>
+              <item>
+                <year>1996</year>
+                <midyear_population>1217550000.0</midyear_population>
+                </item>
+              <item>
+                <year>1997</year>
+                <midyear_population>1230075000.0</midyear_population>
+                </item>
+              <item>
+                <year>1998</year>
+                <midyear_population>1241935000.0</midyear_population>
+                </item>
+              <item>
+                <year>1999</year>
+                <midyear_population>1252735000.0</midyear_population>
+                </item>
+              <item>
+                <year>2000</year>
+                <midyear_population>1262645000.0</midyear_population>
+                </item>
+              <item>
+                <year>2001</year>
+                <midyear_population>1271850000.0</midyear_population>
+                </item>
+              <item>
+                <year>2002</year>
+                <midyear_population>1280400000.0</midyear_population>
+                </item>
+              <item>
+                <year>2003</year>
+                <midyear_population>1288400000.0</midyear_population>
+                </item>
+              <item>
+                <year>2004</year>
+                <midyear_population>1296075000.0</midyear_population>
+                </item>
+              <item>
+                <year>2005</year>
+                <midyear_population>1303720000.0</midyear_population>
+                </item>
+              <item>
+                <year>2006</year>
+                <midyear_population>1311020000.0</midyear_population>
+                </item>
+              <item>
+                <year>2007</year>
+                <midyear_population>1317885000.0</midyear_population>
+                </item>
+              <item>
+                <year>2008</year>
+                <midyear_population>1324655000.0</midyear_population>
+                </item>
+              <item>
+                <year>2009</year>
+                <midyear_population>1331260000.0</midyear_population>
+                </item>
+              <item>
+                <year>2010</year>
+                <midyear_population>1337705000.0</midyear_population>
+                </item>
+              <item>
+                <year>2011</year>
+                <midyear_population>1345035000.0</midyear_population>
+                </item>
+              <item>
+                <year>2012</year>
+                <midyear_population>1354190000.0</midyear_population>
+                </item>
+              <item>
+                <year>2013</year>
+                <midyear_population>1363240000.0</midyear_population>
+                </item>
+              <item>
+                <year>2014</year>
+                <midyear_population>1371860000.0</midyear_population>
+                </item>
+              <item>
+                <year>2015</year>
+                <midyear_population>1379860000.0</midyear_population>
+                </item>
+              <item>
+                <year>2016</year>
+                <midyear_population>1387790000.0</midyear_population>
+                </item>
+              <item>
+                <year>2017</year>
+                <midyear_population>1396215000.0</midyear_population>
+                </item>
+              <item>
+                <year>2018</year>
+                <midyear_population>1402760000.0</midyear_population>
+                </item>
+              <item>
+                <year>2019</year>
+                <midyear_population>1407745000.0</midyear_population>
+                </item>
+              <item>
+                <year>2020</year>
+                <midyear_population>1411100000.0</midyear_population>
+                </item>
+              <item>
+                <year>2021</year>
+                <midyear_population>1412360000.0</midyear_population>
+                </item>
+              <item>
+                <year>2022</year>
+                <midyear_population>1411750000.0</midyear_population>
+                </item>
+              <item>
+                <year>2023 (e)</year>
+                <midyear_population>1409670000.0</midyear_population>
+                </item>
+              </data_table>
+            <data_sources>
+              <item>
+                <source_name>UN Data (via linked spreadsheet)</source_name>
+                <link>
+                  <anchor_text>China’s population growth over time</anchor_text>
+                  <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+                  <url_candidates />
+                  <notes />
+                  </link>
+                </item>
+              <item>
+                <source_name>Asia Cultural Domain.xlsx</source_name>
+                <link />
+                <notes>Data table stored in Asia Cultural Domain.xlsx sheet “Asia china population featurett”.</notes>
+                </item>
+              </data_sources>
+            <layout_notes>Appears as a small card-style chart within the China featurette, stacked above the birth-rate chart.</layout_notes>
+            </item>
+          <item>
+            <chart_id>china_crude_birth_rate</chart_id>
+            <type>line_chart</type>
+            <title>Crude Birth Rate (per 1000) vs. Year</title>
+            <x_field>Year</x_field>
+            <y_field>Crude Birth Rate (per 1000)</y_field>
+            <y_units>births per 1000 people</y_units>
+            <data_table>
+              <item>
+                <year>1949</year>
+                <crude_birth_rate_per_1000>36.0</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1950</year>
+                <crude_birth_rate_per_1000>37.0</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1951</year>
+                <crude_birth_rate_per_1000>37.8</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1952</year>
+                <crude_birth_rate_per_1000>37.0</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1953</year>
+                <crude_birth_rate_per_1000>37.0</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1954</year>
+                <crude_birth_rate_per_1000>37.97</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1955</year>
+                <crude_birth_rate_per_1000>32.6</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1956</year>
+                <crude_birth_rate_per_1000>31.9</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1957</year>
+                <crude_birth_rate_per_1000>34.03</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1958</year>
+                <crude_birth_rate_per_1000>29.22</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1959</year>
+                <crude_birth_rate_per_1000>24.78</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1960</year>
+                <crude_birth_rate_per_1000>20.86</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1961</year>
+                <crude_birth_rate_per_1000>18.02</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1962</year>
+                <crude_birth_rate_per_1000>37.01</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1963</year>
+                <crude_birth_rate_per_1000>43.37</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1964</year>
+                <crude_birth_rate_per_1000>39.14</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1965</year>
+                <crude_birth_rate_per_1000>37.88</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1966</year>
+                <crude_birth_rate_per_1000>35.05</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1967</year>
+                <crude_birth_rate_per_1000>33.96</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1968</year>
+                <crude_birth_rate_per_1000>35.59</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1969</year>
+                <crude_birth_rate_per_1000>34.11</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1970</year>
+                <crude_birth_rate_per_1000>33.43</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1971</year>
+                <crude_birth_rate_per_1000>30.65</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1972</year>
+                <crude_birth_rate_per_1000>29.77</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1973</year>
+                <crude_birth_rate_per_1000>27.93</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1974</year>
+                <crude_birth_rate_per_1000>24.82</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1975</year>
+                <crude_birth_rate_per_1000>23.01</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1976</year>
+                <crude_birth_rate_per_1000>19.91</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1977</year>
+                <crude_birth_rate_per_1000>18.93</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1978</year>
+                <crude_birth_rate_per_1000>18.25</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1979</year>
+                <crude_birth_rate_per_1000>18.21</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1980</year>
+                <crude_birth_rate_per_1000>18.21</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1981</year>
+                <crude_birth_rate_per_1000>20.91</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1982</year>
+                <crude_birth_rate_per_1000>22.28</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1983</year>
+                <crude_birth_rate_per_1000>20.19</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1984</year>
+                <crude_birth_rate_per_1000>19.9</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1985</year>
+                <crude_birth_rate_per_1000>21.04</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1986</year>
+                <crude_birth_rate_per_1000>22.43</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1987</year>
+                <crude_birth_rate_per_1000>23.33</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1988</year>
+                <crude_birth_rate_per_1000>22.37</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1989</year>
+                <crude_birth_rate_per_1000>21.58</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1990</year>
+                <crude_birth_rate_per_1000>21.06</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1991</year>
+                <crude_birth_rate_per_1000>19.68</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1992</year>
+                <crude_birth_rate_per_1000>18.24</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1993</year>
+                <crude_birth_rate_per_1000>18.09</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1994</year>
+                <crude_birth_rate_per_1000>17.7</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1995</year>
+                <crude_birth_rate_per_1000>17.12</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1996</year>
+                <crude_birth_rate_per_1000>16.98</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1997</year>
+                <crude_birth_rate_per_1000>16.57</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1998</year>
+                <crude_birth_rate_per_1000>15.64</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>1999</year>
+                <crude_birth_rate_per_1000>14.64</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2000</year>
+                <crude_birth_rate_per_1000>14.03</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2001</year>
+                <crude_birth_rate_per_1000>13.38</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2002</year>
+                <crude_birth_rate_per_1000>12.86</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2003</year>
+                <crude_birth_rate_per_1000>12.41</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2004</year>
+                <crude_birth_rate_per_1000>12.29</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2005</year>
+                <crude_birth_rate_per_1000>12.4</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2006</year>
+                <crude_birth_rate_per_1000>12.09</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2007</year>
+                <crude_birth_rate_per_1000>12.1</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2008</year>
+                <crude_birth_rate_per_1000>12.14</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2009</year>
+                <crude_birth_rate_per_1000>11.95</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2010</year>
+                <crude_birth_rate_per_1000>11.9</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2011</year>
+                <crude_birth_rate_per_1000>13.27</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2012</year>
+                <crude_birth_rate_per_1000>14.57</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2013</year>
+                <crude_birth_rate_per_1000>13.03</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2014</year>
+                <crude_birth_rate_per_1000>13.83</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2015</year>
+                <crude_birth_rate_per_1000>11.99</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2016</year>
+                <crude_birth_rate_per_1000>12.95</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2017</year>
+                <crude_birth_rate_per_1000>12.64</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2018</year>
+                <crude_birth_rate_per_1000>10.86</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2019</year>
+                <crude_birth_rate_per_1000>10.41</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2020</year>
+                <crude_birth_rate_per_1000>8.52</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2021</year>
+                <crude_birth_rate_per_1000>7.52</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2022</year>
+                <crude_birth_rate_per_1000>6.77</crude_birth_rate_per_1000>
+                </item>
+              <item>
+                <year>2023 (e)</year>
+                <crude_birth_rate_per_1000>6.39</crude_birth_rate_per_1000>
+                </item>
+              </data_table>
+            <data_sources>
+              <item>
+                <source_name>WHO Data (mentioned in Featurettes.docx) / chart data via linked spreadsheet</source_name>
+                <link>
+                  <anchor_text>Comparison </anchor_text>
+                  <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+                  <url_candidates />
+                  <notes />
+                  </link>
+                </item>
+              <item>
+                <source_name>Asia Cultural Domain.xlsx</source_name>
+                <link />
+                <notes>Data table stored in Asia Cultural Domain.xlsx sheet “Asia china population featurett”.</notes>
+                </item>
+              </data_sources>
+            <layout_notes>Appears as a small card-style chart within the China featurette, stacked below the population chart.</layout_notes>
+            </item>
+          </charts>
+        <source_table>
+          <file>Asia Cultural Domain.xlsx</file>
+          <sheet>Asia china population featurett</sheet>
+          <range>A5:G81</range>
+          </source_table>
+        <iconography_notes>No iconization math provided (graphs stuff.docx not included).</iconography_notes>
+        </chart_spec>
+      </item>
+    <item>
+      <featurette_id>japan_living_on_the_ring_of_fire</featurette_id>
+      <title>Japan –
+Living on The Ring of Fire</title>
+      <body_text>Japan sits on the “Ring of Fire,” where giant pieces of Earth’s crust meet and shake. Earthquakes, volcanoes, and tsunamis are part of daily life here.
+
+Instead of fearing these forces, Japan prepares. Buildings sway safely instead of breaking. Alarms on phones give early warnings. Students practice drills so they know what to do when the ground trembles.
+
+In 2011, a huge earthquake and tsunami hit Japan, causing big problems at a nuclear power plant. Since then, safety has improved, and communities stand ready to help each other.
+
+Japan’s story shows that by planning, learning, and working together, people can thrive— even in nature’s most active neighborhood.</body_text>
+      <layout_slot_id>featurette_right_bottom</layout_slot_id>
+      <assets>
+        <item>
+          <asset_id>asia_japan_photo_tsunami_aftermath</asset_id>
+          <type>photo</type>
+          <role>featurette_hero_photo</role>
+          <aspect_ratio>approx 16:9</aspect_ratio>
+          <description>Photo showing the aftermath/result of a tsunami (top of Japan featurette).</description>
+          <hyperlinks>
+            <anchor_text>Showing the result of a tsunami</anchor_text>
+            <final_url>https://dims.apnews.com/dims4/default/68cbbe2/2147483647/strip/false/crop/4750x3032+0+0/resize/1486x949!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F38%2F08%2F71edf39b459809829e3d74e11322%2F09ece7af38d74470b58ff097dc259976</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_japan_diagram_earthquake_resistant_buildings</asset_id>
+          <type>chart</type>
+          <role>educational_diagram</role>
+          <aspect_ratio>approx 3:2</aspect_ratio>
+          <description>Diagram explaining how Japanese buildings resist earthquakes (three approaches illustrated).</description>
+          <hyperlinks>
+            <anchor_text>Japanese </anchor_text>
+            <final_url>https://cdn.housingjapan.com/wp-content/uploads/2023/09/11180424/earthquake-01-1-1024x526.jpg</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        <item>
+          <asset_id>asia_japan_photo_school_earthquake_drill</asset_id>
+          <type>photo</type>
+          <role>supporting_photo</role>
+          <aspect_ratio>approx 16:9</aspect_ratio>
+          <description>Photo of a school earthquake drill (students practicing safety procedures).</description>
+          <hyperlinks>
+            <anchor_text>school earthquake drill</anchor_text>
+            <final_url>https://cdn.mainichi.jp/vol1/2025/03/12/20250312p2a00m0na021000p/0c10.jpg?1</final_url>
+            <url_candidates />
+            <notes />
+            </hyperlinks>
+          </item>
+        </assets>
+      <chart_spec>
+        <charts>
+          <item>
+            <chart_id>japan_building_resilience_diagram</chart_id>
+            <type>diagram</type>
+            <title>How Japanese buildings resist earthquakes</title>
+            <elements>
+              <item>
+                <label>Seismic Resistance (Taishin)</label>
+                <description>Strengthens columns/walls to withstand shaking.</description>
+                </item>
+              <item>
+                <label>Vibration Control (Seishin)</label>
+                <description>Uses dampers to reduce sway and vibration.</description>
+                </item>
+              <item>
+                <label>Base Isolation (Menshin)</label>
+                <description>Isolates the building from ground motion using bearings/isolators.</description>
+                </item>
+              </elements>
+            <layout_notes>Displayed as a small three-panel illustration at the lower right of the Japan featurette.</layout_notes>
+            <data_sources />
+            </item>
+          </charts>
+        <iconography_notes>Diagram is conceptual; no quantitative data table.</iconography_notes>
+        </chart_spec>
+      </item>
+    </featurettes>
+  <hyperlinks>
+    <photo_links>
+      <item>
+        <anchor_text>A modern Chinese family strolling in a busy city stree</anchor_text>
+        <final_url>https://c8.alamy.com/comp/W9AK8B/file-a-chinese-family-of-three-walk-on-the-nanjing-road-shopping-street-in-shanghai-china-7-july-2010-china-marked-the-30th-anniversary-of-its-W9AK8B.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text> luxury apartment building ne</anchor_text>
+        <final_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mumbai_03-2016_19_Antilia_Tower.jpg/1200px-Mumbai_03-2016_19_Antilia_Tower.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>small, crowded neighborhood</anchor_text>
+        <final_url>https://c8.alamy.com/comp/2ANTYTK/aerial-view-of-poor-indian-slums-in-faridabad-haryana-2ANTYTK.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>Rural farmers working in a field</anchor_text>
+        <final_url>https://www.bain.com/contentassets/abc6db2a2d8b441f95772b2fa70292e1/india-rural-economy-16-9.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>Showing the result of a tsunami</anchor_text>
+        <final_url>https://dims.apnews.com/dims4/default/68cbbe2/2147483647/strip/false/crop/4750x3032+0+0/resize/1486x949!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F38%2F08%2F71edf39b459809829e3d74e11322%2F09ece7af38d74470b58ff097dc259976</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>Japanese </anchor_text>
+        <final_url>https://cdn.housingjapan.com/wp-content/uploads/2023/09/11180424/earthquake-01-1-1024x526.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>school earthquake drill</anchor_text>
+        <final_url>https://cdn.mainichi.jp/vol1/2025/03/12/20250312p2a00m0na021000p/0c10.jpg?1</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>holy site, such as the Wester</anchor_text>
+        <final_url>https://www.touristisrael.com/wp-content/uploads/2021/10/shutterstock_591824696-1024x684.jpg</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      </photo_links>
+    <graph_data_links>
+      <item>
+        <anchor_text>China’s population growth over time</anchor_text>
+        <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      <item>
+        <anchor_text>Comparison </anchor_text>
+        <final_url>https://docs.google.com/spreadsheets/u/0/d/1mOnmVei9iEgmQsWWd1iir7fBoPv-WyFv4Wn4V_qOrFs/edit</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      </graph_data_links>
+    <reference_links>
+      <item>
+        <anchor_text>Showing where major religions began</anchor_text>
+        <final_url>https://preview.redd.it/blimtmsmvtm71.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=f26bf7b6b08ea1205df71b8239d9f21185591572</final_url>
+        <url_candidates />
+        <notes />
+        </item>
+      </reference_links>
+    <data_source_links>
+      <item>
+        <source_name>UN Data</source_name>
+        <final_url />
+        <url_candidates />
+        <notes>Mentioned in Asia Featurettes.docx as a data source for China population chart.</notes>
+        </item>
+      <item>
+        <source_name>WHO Data</source_name>
+        <final_url />
+        <url_candidates />
+        <notes>Mentioned in Asia Featurettes.docx as a data source for birth rate comparison chart.</notes>
+        </item>
+      <item>
+        <source_name>Government Data (India)</source_name>
+        <final_url />
+        <url_candidates />
+        <notes>Mentioned in Asia Featurettes.docx as a data source for India income-region map.</notes>
+        </item>
+      <item>
+        <source_name>Religious Studies Data</source_name>
+        <final_url />
+        <url_candidates />
+        <notes>Mentioned in Asia Featurettes.docx as a data source for religion origins map.</notes>
+        </item>
+      </data_source_links>
+    </hyperlinks>
+  <supplemental_stats_for_app>
+    <item>
+      <supplemental_stat_id>oddball_arsenic_groundwater_bangladesh</supplemental_stat_id>
+      <related_core_stat_id>access_to_clean_drinking_water</related_core_stat_id>
+      <title>Arsenic contamination in groundwater</title>
+      <stat_text>Bangladesh: Asia Stats.docx notes that an estimated ~20 million people are exposed to arsenic-contaminated groundwater, described as one of the largest mass poisonings in history.</stat_text>
+      <source>
+        <file>Asia Stats.docx</file>
+        <section_title>Access to Clean Drinking Water</section_title>
+        </source>
+      </item>
+    <item>
+      <supplemental_stat_id>oddball_disaster_related_volunteerism_japan</supplemental_stat_id>
+      <related_core_stat_id>volunteer_community_service_participation</related_core_stat_id>
+      <title>Disaster-related volunteerism</title>
+      <stat_text>Japan: Asia Stats.docx notes that after the 2011 earthquake and tsunami, over 1 million volunteers joined recovery efforts—highlighting community response during crises.</stat_text>
+      <source>
+        <file>Asia Stats.docx</file>
+        <section_title>Percentage of Population Engaged in Volunteer Activities or Community Service</section_title>
+        </source>
+      </item>
+    <item>
+      <supplemental_stat_id>oddball_education_pressure_south_korea</supplemental_stat_id>
+      <related_core_stat_id>population_with_higher_education_degrees</related_core_stat_id>
+      <title>Education pressure</title>
+      <stat_text>South Korea: Asia Stats.docx highlights intense academic pressure and long study hours, raising concerns about student stress and well-being.</stat_text>
+      <source>
+        <file>Asia Stats.docx</file>
+        <section_title>Percentage of Population with Higher Education Degrees</section_title>
+        </source>
+      </item>
+    </supplemental_stats_for_app>
+  <validation_and_todos>
+    <issues>
+      <item>
+        <issue_id>palette_missing_country</issue_id>
+        <severity>high</severity>
+        <description>Palette extracted from Asia Cultural Domain.xlsx (stats palette sheet) does not include Papua New Guinea, which appears on the proof map (bottom-right).</description>
+        <recommended_action>Add Papua New Guinea to stats palette (country name + hex) or confirm whether it should be included/excluded from the Asia map.</recommended_action>
+        </item>
+      <item>
+        <issue_id>palette_mismatch_with_proof</issue_id>
+        <severity>high</severity>
+        <description>The proof PDF map appears to use a different per-country color assignment than the hex palette listed in the spreadsheet (e.g., sampled Russia fill in proof appears orange, while spreadsheet lists a blue hex for Russia).</description>
+        <recommended_action>Confirm which version is authoritative (spreadsheet palette vs. proof PDF). If proof is final, provide an updated palette table matching the proof.</recommended_action>
+        </item>
+      <item>
+        <issue_id>truncated_hyperlink_urls</issue_id>
+        <severity>medium</severity>
+        <description>Several URLs in Asia Featurettes.docx appear truncated with ellipses (e.g., some Alamy/Wikipedia/AP News links and the reddit preview link).</description>
+        <recommended_action>Replace truncated URLs with full, direct asset URLs for reliable downstream use.</recommended_action>
+        </item>
+      <item>
+        <issue_id>featurette_chart_presence</issue_id>
+        <severity>medium</severity>
+        <description>India and Religions featurettes in the proof poster are primarily photo/illustration based and do not clearly include the map/chart elements described in Featurettes.docx; placeholders were added in this schema.</description>
+        <recommended_action>Confirm whether those maps/charts are intended for a later revision or app-only experience; provide final chart assets/specs if required.</recommended_action>
+        </item>
+      <item>
+        <issue_id>graphs_stuff_doc_missing</issue_id>
+        <severity>low</severity>
+        <description>No “graphs stuff.docx” was provided, so iconization math/unit definitions for charts (if any) are not captured beyond what is visible in proof and spreadsheet tables.</description>
+        <recommended_action>Provide graphs stuff.docx if icon math or chart construction rules are needed for automation.</recommended_action>
+        </item>
+      </issues>
+    </validation_and_todos>
+  <provenance>
+    <files_used>
+      <item>
+        <file>Asia_StatsFeatures.pdf</file>
+        <role>proof_poster</role>
+        <notes>Primary source for on-poster titles, legend wording, and final featurette copy.</notes>
+        </item>
+      <item>
+        <file>asia sf concept 1.jpg</file>
+        <role>concept_image</role>
+        <notes>Reviewed for context; proof PDF treated as authoritative.</notes>
+        </item>
+      <item>
+        <file>asia sf concept 2.jpg</file>
+        <role>concept_image</role>
+        <notes>Reviewed for context; proof PDF treated as authoritative.</notes>
+        </item>
+      <item>
+        <file>Asia Cultural Domain.xlsx</file>
+        <role>data_source_spreadsheet</role>
+        <notes>Used for core stats table (Interesting Statistics!A4:D12), map palette list (stats palette!A:B), and China chart data (Asia china population featurett).</notes>
+        </item>
+      <item>
+        <file>Asia Featurettes.docx</file>
+        <role>featurette_copy_and_links</role>
+        <notes>Used for collecting hyperlinks to photos and data sources; copy reconciled to proof PDF.</notes>
+        </item>
+      <item>
+        <file>Asia Stats.docx</file>
+        <role>supplemental_stats</role>
+        <notes>Used to select 3 app-only supplemental “oddball” stats.</notes>
+        </item>
+      </files_used>
+    <extraction_timestamp_utc>2025-12-30T20:23:08.997130Z</extraction_timestamp_utc>
+    </provenance>
+  </StatsAndFeaturettes>
+]]></payload_xml>
+</normalized_poster>
