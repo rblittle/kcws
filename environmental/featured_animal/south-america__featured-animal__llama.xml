@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/south-america__featured-animal__llama.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__south_america__south_america_featured_animal_llama</poster_id>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="South America">
+  <animal>
+    <name>Llama</name>
+    <image url="https://www.shutterstock.com/image-photo/llama-lama-glama-front-machu-picchu-2322843249" />
+    <description>Sturdy llama stands in thin Andean air, thick wool blocks chill winds, sure-footed hooves grip steep terraces while gentle humming alerts herds to lurking pumas.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

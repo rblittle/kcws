@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/landforms/asia_mountains_posters.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__landforms__asia__asia_mountains_posters</poster_id>
+    <continent>asia</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" ?>
+<PosterSetData schema="Kaycliff.AtlasTrail.PosterStructuredData.v1">
+  <GeneratedAt>2025-12-29T16:16:35.488118</GeneratedAt>
+  <Continent>Asia</Continent>
+  <Domain>Geophysical</Domain>
+  <LandformFocus>Mountains</LandformFocus>
+  <SourceFiles>
+    <Spreadsheet path="sandbox:/mnt/data/Asia Landforms.xlsx">
+      <Worksheets>
+        <Worksheet>Home</Worksheet>
+        <Worksheet>How () Forms</Worksheet>
+        <Worksheet>General Overview</Worksheet>
+        <Worksheet>Ecological Significance</Worksheet>
+        <Worksheet>Human Geography of</Worksheet>
+      </Worksheets>
+    </Spreadsheet>
+    <DriveReferences>
+      <Reference sheet="Home" cell="A5" url="https://docs.google.com/document/u/0/d/1DDAz8401lYCK6aE3aUD0cjq9gKuhjPNpJ4OXREu3_nU/edit">Narrative for this</Reference>
+      <Reference sheet="Home" cell="A7" url="https://drive.google.com/file/d/1dpL-yzDn_qUJ1stzPHe1GIMkHASdfs-k/view">Poster 1 Drawing</Reference>
+      <Reference sheet="Home" cell="A9" url="https://drive.google.com/file/d/1SdfQFwwz1d6LajQgLATIEm3QsYJbiP_w/view">Poster 2 Drawing</Reference>
+    </DriveReferences>
+    <TextDoc path="sandbox:/mnt/data/mountain text.docx"/>
+    <MockupImages>
+      <MockupImage path="sandbox:/mnt/data/asia mountains 1.jpg">Nanobanana draft for Poster 1 (formation + world map).</MockupImage>
+      <MockupImage path="sandbox:/mnt/data/asia mountains 2.jpeg">Nanobanana draft for Poster 2 (Himalayas: environmental + human geography).</MockupImage>
+    </MockupImages>
+  </SourceFiles>
+  <GlobalStyleNotes>
+    <NotesOnStyleAndPlacement>
+      <Note>I would recommend putting these “Did You Know?” facts either:</Note>
+      <Note>In small, floating text boxes (&quot;callout style&quot;) near the images</Note>
+      <Note>Or perhaps at the bottom corner of each section, styled a little differently (maybe white text on a darker block, or boxed to stand apart).</Note>
+      <Note>Keep the tone lively, accessible, and bursting with wonder — that’s how you’ll get both kids and adults to pause and really read them.</Note>
+    </NotesOnStyleAndPlacement>
+    <DeliverablesSummary>
+      <Line>✅ 2–3 new section title options per section
+ ✅ 2–3 Did You Know? facts per section
+ ✅ Matching tone: lyrical, vivid, inspiring, and scientifically credible</Line>
+    </DeliverablesSummary>
+  </GlobalStyleNotes>
+  <PosterSet title="Asia: Mountains (Landforms Posters)">
+    <Posters>
+      <Poster id="ASIA_MTN_P1" title="Asia: The Rise of the Mountains" format="two-panel">
+        <Columns>
+          <Column>left</Column>
+          <Column>right</Column>
+        </Columns>
+        <Sections>
+          <Section id="ASIA_MTN_P1_LEFT" column="left">
+            <RecommendedTitle>How Mountains Form</RecommendedTitle>
+            <AlternateTitles>
+              <Title>Where Earth Builds Its Giants</Title>
+              <Title>The Making of Mountains: Collisions, Fire, and Time</Title>
+              <Title>Shaping the Sky: How Mountains Are Born</Title>
+            </AlternateTitles>
+            <BodyCopy source="nanobanana_mockup">Mountains are Earth’s slow-motion masterpieces. They form when giant plates of our planet’s crust collide, when molten rock builds volcanic peaks, when blocks of land rise along faults, and when ancient layers are uplifted over millions of years. The Himalayas—the tallest range on Earth—began as the Indian Plate pressed into the Eurasian Plate, and they’re still rising today.</BodyCopy>
+            <DidYouKnow>
+              <Recommended>The Himalayas still grow by about 5 millimeters (0.2 inches) each year as the Indian Plate keeps pressing northward.</Recommended>
+              <Options>
+                <Option>Did You Know? The Himalayas are still rising — by about 5 millimeters (0.2 inches) every year!</Option>
+                <Option>Did You Know? Mount Everest grows taller by the width of a credit card each year thanks to tectonic forces.</Option>
+                <Option>Did You Know? The Appalachian Mountains were once as tall as the modern-day Himalayas — but hundreds of millions of years of erosion wore them down to their rolling forms today.</Option>
+              </Options>
+            </DidYouKnow>
+            <VisualSystem>
+              <PrimaryVisual>tectonic_collision_cross_section</PrimaryVisual>
+              <supporting_subdiagrams>
+                <Item>volcanic_mountains</Item>
+                <Item>fault_block_mountains</Item>
+                <Item>erosion</Item>
+              </supporting_subdiagrams>
+              <core_labels>
+                <Item>Indian Plate</Item>
+                <Item>Eurasian Plate</Item>
+                <Item>Collision Zone</Item>
+                <Item>Uplift</Item>
+                <Item>Folded Layers</Item>
+                <Item>Volcanic Activity</Item>
+                <Item>Magma Chamber</Item>
+              </core_labels>
+            </VisualSystem>
+            <Assets>
+              <Asset sheet="How () Forms" cell="A3" role="main_process_infographic_base" priority="primary" url="https://cdn.midjourney.com/1465af78-d48c-4f76-82a4-ceede24fcaa7/0_0.png">
+                <Label>Tectonic</Label>
+                <Notes>This would need work</Notes>
+              </Asset>
+              <Asset sheet="How () Forms" cell="D3" role="subdiagram_volcanic_mountains" priority="primary" url="https://cdn.midjourney.com/60e720b6-df44-4770-92de-b431f7de4c4b/0_2.png">
+                <Label>Volcanic</Label>
+              </Asset>
+              <Asset sheet="How () Forms" cell="G3" role="subdiagram_fault_block_mountains" priority="primary" url="https://cdn.midjourney.com/774f391e-9286-43f0-81b6-8f2d1651b564/0_2.png">
+                <Label>Fault Block</Label>
+              </Asset>
+              <Asset sheet="How () Forms" cell="J3" role="subdiagram_erosion" priority="needs_asset">
+                <Label>Erosion</Label>
+                <Notes>No hyperlink provided in spreadsheet; create/commission a simple erosion schematic (cross-section) to match the other two subdiagrams.</Notes>
+              </Asset>
+            </Assets>
+          </Section>
+          <Section id="ASIA_MTN_P1_RIGHT" column="right">
+            <RecommendedTitle>The Great Ranges: Mountains that Shape Continents</RecommendedTitle>
+            <AlternateTitles>
+              <Title>The Great Ranges: Mountains that Shape Continents</Title>
+              <Title>Where Continents Soar: A Map of Earth's Mighty Backbones</Title>
+              <Title>Spines of the Earth: Mountains Across the World</Title>
+            </AlternateTitles>
+            <BodyCopy source="nanobanana_mockup">Mountains cover nearly a quarter of Earth’s land, shaping weather and rivers and sheltering countless life forms. From Asia’s soaring Himalayas to South America’s mighty Andes, these giants guide winds and rains, challenge explorers, and inspire human cultures.</BodyCopy>
+            <DidYouKnow>
+              <Recommended>Mountains create local climates—one side may be lush and green, while the other is dry as a desert—all because of rising and falling air.</Recommended>
+              <Options>
+                <Option>Did You Know? The Andes are the longest continental mountain range on Earth, stretching over 4,300 miles!</Option>
+                <Option>Did You Know? Mountains aren't just tall — they create their own weather systems by forcing air to rise, cool, and condense into rain or snow.</Option>
+                <Option>Did You Know? The Alps formed around 65 million years ago — about the same time dinosaurs went extinct.</Option>
+              </Options>
+            </DidYouKnow>
+            <VisualSystem>
+              <PrimaryVisual>stylized_world_map_with_major_ranges</PrimaryVisual>
+              <highlight_ranges>
+                <Item>Himalayas</Item>
+                <Item>Alps</Item>
+                <Item>Andes</Item>
+              </highlight_ranges>
+              <inset_photos>
+                <Item>Everest (Himalayas)</Item>
+                <Item>Alpine meadow (Alps)</Item>
+                <Item>Volcanic peak (Andes)</Item>
+              </inset_photos>
+            </VisualSystem>
+            <Assets>
+              <Asset sheet="General Overview" cell="A3" role="world_mountain_ranges_map_reference" priority="primary" url="https://mapsforupsc.com/wp-content/uploads/2024/05/Major-Mountain-Ranges-of-the-World-Map.png">
+                <Label>Reference Map</Label>
+                <Notes>We'll want to use this to draw a map.</Notes>
+              </Asset>
+              <Asset sheet="General Overview" cell="B5" role="inset_photo_himalayas_everest" priority="primary" url="https://wallpapercave.com/wp/1MGs1Mo.jpg">
+                <Label>Photo of Mount Everest at sunrise</Label>
+                <AdjacentText>Crisp, high-resolution image of Everest’s peak, warm light over snowy summit.</AdjacentText>
+              </Asset>
+              <Asset sheet="General Overview" cell="B6" role="inset_photo_alps_meadow" priority="primary" url="https://c8.alamy.com/comp/DRPKY5/alpine-wildflower-meadow-in-the-swiss-alps-below-the-matterhorn-near-DRPKY5.jpg">
+                <Label>Alpine meadow in the Alps</Label>
+                <AdjacentText>Bright green meadow, wildflowers, snow-capped peaks in background.</AdjacentText>
+              </Asset>
+              <Asset sheet="General Overview" cell="B7" role="inset_photo_andes_volcanic_peak" priority="primary" url="https://www.aljazeera.com/wp-content/uploads/2023/03/33CF3DT-highres.jpg?resize=1920%2C1080">
+                <Label>Volcanic peak in the Andes</Label>
+                <AdjacentText>Dramatic volcanic cone with a plume of steam or clouds, rugged terrain.</AdjacentText>
+              </Asset>
+            </Assets>
+          </Section>
+        </Sections>
+      </Poster>
+      <Poster id="ASIA_MTN_P2" title="The Himalayas: Earth's Roof" format="two-panel">
+        <Columns>
+          <Column>left</Column>
+          <Column>right</Column>
+        </Columns>
+        <Sections>
+          <Section id="ASIA_MTN_P2_LEFT" column="left">
+            <RecommendedTitle>The Life-Giving Heart of Asia</RecommendedTitle>
+            <AlternateTitles>
+              <Title>The Life-Giving Heart of Asia</Title>
+              <Title>Glaciers, Rivers, and Forests: The Himalayas' Secret Power</Title>
+              <Title>The Mountain Kingdoms: How the Himalayas Shape Life</Title>
+            </AlternateTitles>
+            <BodyCopy source="nanobanana_mockup">The Himalayas store ice that feeds mighty rivers, shaping life for over a billion people. Their glaciers release water that nourishes fields, fuels cities, and supports rare wildlife. From snow leopards to rhododendron forests, these heights protect a world of wonders—balancing climate and sustaining cultures.</BodyCopy>
+            <DidYouKnow>
+              <Recommended>Sometimes called the “Third Pole,” the Himalayas hold more ice than anywhere outside the Arctic and Antarctic.</Recommended>
+              <Options>
+                <Option>Did You Know? The Himalayan glaciers are so vast that they’re called the 'Third Pole' — holding more ice than anywhere outside of the Arctic and Antarctic.</Option>
+                <Option>Did You Know? The Ganges River, fed by Himalayan glaciers, provides water to nearly 500 million people.</Option>
+                <Option>Did You Know? Rhododendrons blooming in the Himalayas are an ancient survival strategy — adapted to thrive in cold, high-altitude soils.</Option>
+              </Options>
+            </DidYouKnow>
+            <VisualSystem>
+              <PrimaryVisual>himalayas_ice_to_rivers_system_map</PrimaryVisual>
+              <river_labels>
+                <Item>Ganges</Item>
+                <Item>Indus</Item>
+                <Item>Brahmaputra</Item>
+              </river_labels>
+              <biodiversity_callouts>
+                <Item>Snow leopard</Item>
+                <Item>Red panda</Item>
+                <Item>Rhododendron forests</Item>
+              </biodiversity_callouts>
+            </VisualSystem>
+            <Assets>
+              <Asset sheet="Ecological Significance" cell="A3" role="himalayas_region_map_reference" priority="primary" url="https://www.geographyrealm.com/wp-content/uploads/2015/07/map-himalayas.png">
+                <Label>This map of the himalayas may need to be commissioned</Label>
+                <Notes>But that is &quot;a&quot; map of the himalayas; It needs to be a high quality, semi-stylized map showing all these rivers and things.; Or at least an enormous version of this from a vector.</Notes>
+              </Asset>
+              <Asset sheet="Ecological Significance" cell="A10" role="himalayan_glaciers_photo" priority="primary" url="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/UA6JVHM45VLGFCFMBXP2EMP3PA.jpg">
+                <Label>himalayan glaciers</Label>
+              </Asset>
+              <Asset sheet="Ecological Significance" cell="A9" role="photo_snow_leopard" priority="primary" url="https://i0.wp.com/snowleopard.org/wp-content/uploads/2023/10/SnowLeopardTrust_Mongolia-6.jpg?fit=1716%2C965&amp;ssl=1">
+                <Label>Snow leopard</Label>
+              </Asset>
+              <Asset sheet="Ecological Significance" cell="A11" role="photo_red_panda" priority="primary" url="https://cdn.britannica.com/19/195219-138-0E06B980/red-panda.jpg?w=800&amp;h=450&amp;c=crop">
+                <Label>red panda</Label>
+              </Asset>
+              <Asset sheet="Ecological Significance" cell="A12" role="photo_rhododendron" priority="primary" url="https://live.staticflickr.com/5646/31379623170_34887d1fc1_o.jpg">
+                <Label>rhododendron</Label>
+              </Asset>
+            </Assets>
+          </Section>
+          <Section id="ASIA_MTN_P2_RIGHT" column="right">
+            <RecommendedTitle>Living With the Giants: Human Life Among the Peaks</RecommendedTitle>
+            <AlternateTitles>
+              <Title>Where Mountains Shape Civilizations</Title>
+              <Title>Living With the Giants: Human Life Among the Peaks</Title>
+              <Title>Sacred Summits and High Cities: Humanity in the Himalayas</Title>
+            </AlternateTitles>
+            <BodyCopy source="nanobanana_mockup">For thousands of years, people have carved terraces into steep hillsides, turned sacred peaks into places of prayer, and built homes in high valleys. Today, bustling cities thrive in mountain shadows, and climbers journey to Everest’s summit. The Himalayas connect ancient traditions with modern dreams, uniting past and present under the same towering sky.</BodyCopy>
+            <DidYouKnow>
+              <Recommended>Mountain communities often adapt biologically to high altitude, gaining stronger lungs and hearts to thrive where the air is thin.</Recommended>
+              <Options>
+                <Option>Did You Know? Kathmandu, the capital of Nepal, sits at 4,600 feet — higher than the tallest mountain east of the Mississippi River!</Option>
+                <Option>Did You Know? For Tibetan Buddhists, Mount Kailash is so sacred that no one is allowed to climb it — only to walk around its base in reverence.</Option>
+                <Option>Did You Know? The ancient Inca, just like Himalayan civilizations, also built vast cities high in the mountains — Machu Picchu sits at almost 8,000 feet!</Option>
+              </Options>
+            </DidYouKnow>
+            <VisualSystem>
+              <PrimaryVisual>hero_monastery_or_cliffside_settlement</PrimaryVisual>
+              <vertical_callouts>
+                <Item>
+                  <label>Terraced Farms</label>
+                  <asset_role>callout_photo_terraced_farms</asset_role>
+                </Item>
+                <Item>
+                  <label>Sacred Sites</label>
+                  <asset_role>callout_photo_sacred_site_mount_kailash</asset_role>
+                </Item>
+                <Item>
+                  <label>Mountain Monasteries</label>
+                  <asset_role>hero_photo_monastery_tigers_nest</asset_role>
+                </Item>
+                <Item>
+                  <label>Modern Cities</label>
+                  <asset_role>callout_photo_modern_city_lhasa</asset_role>
+                </Item>
+                <Item>
+                  <label>Everest Summit</label>
+                  <asset_role>callout_photo_everest_summit_climber</asset_role>
+                </Item>
+              </vertical_callouts>
+            </VisualSystem>
+            <Assets>
+              <Asset sheet="Human Geography of" cell="A7" role="hero_photo_monastery_tigers_nest" priority="primary" url="https://pixahive.com/wp-content/uploads/2020/09/Tiger8217s-Nest-Monastery-in-Bhutan-69937-pixahive.jpg">
+                <Label>tigers nest</Label>
+              </Asset>
+              <Asset sheet="Human Geography of" cell="A5" role="callout_photo_terraced_farms" priority="primary" url="https://c8.alamy.com/comp/D2EAY4/subsistence-farming-in-the-annapurna-himalayas-in-nepal-the-terracing-D2EAY4.jpg">
+                <Label>terracing</Label>
+              </Asset>
+              <Asset sheet="Human Geography of" cell="A6" role="callout_photo_sacred_site_mount_kailash" priority="primary" url="https://kailash-pilgrimage.com/wp-content/uploads/2017/03/kailash-slider-2-opt.jpg">
+                <Label>Mt. Kailash</Label>
+              </Asset>
+              <Asset sheet="Human Geography of" cell="A8" role="callout_photo_modern_city_lhasa" priority="primary" url="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos28216395xl-1721699235672.jpg">
+                <Label>Lhasa</Label>
+              </Asset>
+              <Asset sheet="Human Geography of" cell="A10" role="callout_photo_everest_summit_climber" priority="primary" url="https://mountaintrip.com/wp-content/uploads/2016/08/DSC_3350.jpg">
+                <Label>everest climber</Label>
+              </Asset>
+            </Assets>
+          </Section>
+        </Sections>
+      </Poster>
+    </Posters>
+  </PosterSet>
+</PosterSetData>
+]]></payload_xml>
+</normalized_poster>

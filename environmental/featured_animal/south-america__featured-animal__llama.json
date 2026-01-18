@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/south-america__featured-animal__llama.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__south_america__south_america_featured_animal_llama",
+    "derived_id": "environmental__featured_animal__south_america__south_america_featured_animal_llama",
+    "continent": "south_america",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "south-america__featured-animal__llama.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/south-america__featured-animal__llama.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "South America",
+    "animal": {
+      "name": "Llama",
+      "imageUrl": "https://www.shutterstock.com/image-photo/llama-lama-glama-front-machu-picchu-2322843249",
+      "description": "Sturdy llama stands in thin Andean air, thick wool blocks chill winds, sure-footed hooves grip steep terraces while gentle humming alerts herds to lurking pumas."
+    }
+  }
+}

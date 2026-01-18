@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/antarctica__featured-animal__emperor-penguin.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__antarctica__antarctica_featured_animal_emperor_penguin",
+    "derived_id": "environmental__featured_animal__antarctica__antarctica_featured_animal_emperor_penguin",
+    "continent": "antarctica",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "antarctica__featured-animal__emperor-penguin.json"
+  },
+  "tags": {
+    "continent": [
+      "antarctica"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:antarctica",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/antarctica__featured-animal__emperor-penguin.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "Antarctica",
+    "animal": {
+      "name": "Emperor Penguin",
+      "imageUrl": "https://www.shutterstock.com/image-photo/two-penguins-their-baby-penguin-family-2056711106",
+      "description": "On the endless white ice, emperor penguins huddle together against brutal polar winds. Their black backs soak up scarce sunlight while golden cheek patches glow like a sunrise. Devoted parents balance eggs on their warm feet to keep them off the ice."
+    }
+  }
+}

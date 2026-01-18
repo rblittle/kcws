@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/africa__featured-animal__lion.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__africa__africa_featured_animal_lion",
+    "derived_id": "environmental__featured_animal__africa__africa_featured_animal_lion",
+    "continent": "africa",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "africa__featured-animal__lion.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/africa__featured-animal__lion.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "Africa",
+    "animal": {
+      "name": "Lion",
+      "imageUrl": "https://www.shutterstock.com/image-photo/low-angle-front-shot-stalking-lioness-1449128447",
+      "description": "Lions are the savanna’s loudspeakers—one thunderous roar can carry five miles across the grasslands, keeping the pride together. Their golden coats blend into sun-baked plains as they prowl under the blazing sky. Yet shrinking grasslands mean these big cats have fewer places to call home."
+    }
+  }
+}

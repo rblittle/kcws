@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/landforms/antarctica_glaciers_posters.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__landforms__antarctica__antarctica_glaciers_posters</poster_id>
+    <continent>antarctica</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </poster>
+  <tags>
+    <continent>antarctica</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<PosterSet continent="Antarctica" theme="Glaciers">
+  <Format>
+    <PosterSizeFt width="8" height="5" />
+    <Layout columns="2" columnFormat="left_right" />
+    </Format>
+  <Style>
+    <Tone>Wonder-filled, welcoming, and clear</Tone>
+    <Palette>
+      <Primary>
+        <Color>icy blues</Color>
+        <Color>crisp whites</Color>
+        <Color>gentle grays</Color>
+        </Primary>
+      <Accent>
+        <Color>small pops of red (human activity emphasis on Poster 2)</Color>
+        </Accent>
+      </Palette>
+    </Style>
+  <Posters>
+    <Poster id="ANT_GLAC_01">
+      <Title>The Frozen Giants: Glaciers Across the Globe</Title>
+      <Objective>Explain how glaciers form and provide a global perspective on glaciers as a key landform.</Objective>
+      <Columns>
+        <Column name="left" sectionId="how_glaciers_form">
+          <Headline>From Snowfall to Slow-Moving Giant</Headline>
+          <Visuals>
+            <PrimaryVisual slot="vertical_cross_section_infographic">
+              <AssetRefs>
+                <AssetRef id="ANT_HOW_A4" />
+                <AssetRef id="ANT_HOW_F3" />
+                <AssetRef id="ANT_HOW_G3" />
+                <AssetRef id="ANT_HOW_H3" />
+                <AssetRef id="ANT_HOW_I3" />
+                </AssetRefs>
+              <LabelTiers>
+                <CoreLabels>
+                  <Label>Fresh Snowfall</Label>
+                  <Label>Firn</Label>
+                  <Label>Glacial Ice</Label>
+                  <Label>Ice Flow</Label>
+                  <Label>Basal Sliding</Label>
+                  <Label>Meltwater</Label>
+                  <Label>Bedrock</Label>
+                  </CoreLabels>
+                <OptionalDeepLabels>
+                  <Label>Ice Sheet</Label>
+                  <Label>Ablation Zone</Label>
+                  <Label>Glacial Moraine</Label>
+                  </OptionalDeepLabels>
+                </LabelTiers>
+              <Notes>
+                <Note>Use the A4 'Vertical' link as the base composition; component links (F3–I3) are alternates or layer references.</Note>
+                </Notes>
+              </PrimaryVisual>
+            </Visuals>
+          <Text>
+            <Body>Glaciers start as gentle snowfall, piling up year after year. Over time, the weight of new snow presses old layers into dense ice. Slowly, this river of ice begins to flow downhill, carving valleys and shaping mountains. It’s nature’s patient sculptor, turning a thousand snowfalls into a frozen masterpiece.</Body>
+            </Text>
+          <Callouts>
+            <Callout type="did_you_know">Glaciers flow so slowly that you could outrun them—even at a casual stroll!</Callout>
+            <Callout type="fact">Glaciers hold about 69% of Earth’s freshwater!</Callout>
+            <Callout type="fact_optional">The Antarctic Ice Sheet is so massive that its weight deforms the Earth’s crust beneath it.</Callout>
+            </Callouts>
+          </Column>
+        <Column name="right" sectionId="global_overview">
+          <Headline>Glaciers: Hidden Reservoirs on Every Continent (Except Australia)</Headline>
+          <Visuals>
+            <PrimaryVisual slot="world_map_glacier_distribution">
+              <AssetRefs>
+                <AssetRef id="ANT_GEN_A3" />
+                </AssetRefs>
+              <RequiredLabels>
+                <Label>Antarctic Ice Sheet</Label>
+                <Label>Greenland Ice Sheet</Label>
+                <Label>Patagonian Glaciers</Label>
+                <Label>Himalayan Icefields</Label>
+                <Label>Vatnajökull (Iceland)</Label>
+                </RequiredLabels>
+              <Notes>
+                <Note>Spreadsheet note indicates the map is a source reference and does not need to be exact.</Note>
+                <Note>Map should highlight: Antarctic Ice Sheet, Greenland Ice Sheet, Patagonia, Himalayas, Iceland (Vatnajökull).</Note>
+                </Notes>
+              </PrimaryVisual>
+            <SupportVisuals>
+              <SupportVisual slot="inset_photo">
+                <AssetRefs>
+                  <AssetRef id="ANT_GEN_A12" />
+                  </AssetRefs>
+                <Caption>Perito Moreno Glacier, Argentina</Caption>
+                </SupportVisual>
+              <SupportVisual slot="alternate_inset_photo">
+                <AssetRefs>
+                  <AssetRef id="ANT_GEN_A13" />
+                  </AssetRefs>
+                <Caption>Himalayan glacier (alt photo option)</Caption>
+                </SupportVisual>
+              <SupportVisual slot="alternate_inset_photo">
+                <AssetRefs>
+                  <AssetRef id="ANT_GEN_A14" />
+                  </AssetRefs>
+                <Caption>Athabasca Glacier, Canada (alt photo option)</Caption>
+                </SupportVisual>
+              </SupportVisuals>
+            </Visuals>
+          <Text>
+            <Body>Glaciers grace mountaintops in Asia, carve landscapes in South America, and crown the poles in the Arctic and Antarctic. Storing much of Earth’s freshwater, these icy giants quietly shape our world, connecting distant lands through shared water and weather.</Body>
+            </Text>
+          <Callouts>
+            <Callout type="fact">Antarctica’s Ice Sheet covers 98% of the continent, with ice thicker than 2 miles in places!</Callout>
+            </Callouts>
+          </Column>
+        </Columns>
+      <References>
+        <SourceLinks>
+          <AssetRef id="ANT_HOME_A5" />
+          <AssetRef id="ANT_HOME_A7" />
+          </SourceLinks>
+        </References>
+      </Poster>
+    <Poster id="ANT_GLAC_02">
+      <Title>Antarctica: The Engine of the Earth’s Climate</Title>
+      <Objective>Showcase the Antarctic Ice Sheet's role in the global climate system and its influence on human geography.</Objective>
+      <Columns>
+        <Column name="left" sectionId="environmental_significance">
+          <Headline>Earth’s Climate Pulse Under the Ice</Headline>
+          <Visuals>
+            <PrimaryVisual slot="antarctica_map_with_ice_flow_and_currents">
+              <AssetRefs>
+                <AssetRef id="ANT_ECO_A3" />
+                <AssetRef id="ANT_ECO_A7" />
+                </AssetRefs>
+              <AlternateAssetRefs>
+                <AssetRef id="ANT_ECO_A5" />
+                </AlternateAssetRefs>
+              <Notes>
+                <Note>A3 is a strong base for ice-flow vectors; A7 can be referenced for a currents overlay.</Note>
+                <Note>A5 is a NASA SVS page with alternate assets that may scale better.</Note>
+                </Notes>
+              </PrimaryVisual>
+            <SupportVisuals>
+              <SupportVisual slot="subglacial_lake_callout">
+                <AssetRefs>
+                  <AssetRef id="ANT_ECO_A11" />
+                  </AssetRefs>
+                <Label>Lake Vostok (subglacial)</Label>
+                </SupportVisual>
+              <SupportVisual slot="global_conveyor_belt_inset">
+                <AssetRefs />
+                <Note>No direct link in spreadsheet; build as simplified globe/ribbon diagram.</Note>
+                </SupportVisual>
+              </SupportVisuals>
+            </Visuals>
+          <Text>
+            <Body>Antarctica’s ice isn’t just frozen water—it’s a climate powerhouse. By locking away freshwater, these ice sheets help control sea levels. Meltwater from Antarctica flows into the oceans, guiding currents that shape climates worldwide. Beneath the ice lie hidden lakes and ancient secrets, reminding us that Antarctica is the quiet captain of Earth’s weather and waters.</Body>
+            </Text>
+          <Callouts>
+            <Callout type="data">The Antarctic Ice Sheet is Earth’s largest, covering about 5.4 million square miles.</Callout>
+            <Callout type="data">The ice sheet holds about 70% of Earth’s freshwater.</Callout>
+            <Callout type="data">If all Antarctic ice melted, seas could rise by about 190 feet.</Callout>
+            <Callout type="data_optional">Mark the Antarctic Convergence Zone to show where Antarctic waters mix with other currents.</Callout>
+            <Callout type="fact_optional">Antarctic meltwater helps drive global ocean currents, impacting weather half a world away.</Callout>
+            </Callouts>
+          <AssetQualityNotes>
+            <Issue>
+              <Description>Non-Antarctic placeholder images detected in ECO row 14</Description>
+              <AssetRefs>
+                <AssetRef id="ANT_ECO_A14" />
+                <AssetRef id="ANT_ECO_B14" />
+                <AssetRef id="ANT_ECO_C14" />
+                </AssetRefs>
+              <Recommendation>Replace with relevant Antarctic/ocean/ice-sheet imagery or remove.</Recommendation>
+              </Issue>
+            </AssetQualityNotes>
+          </Column>
+        <Column name="right" sectionId="human_geography">
+          <Headline>A Frontier of Discovery and Cooperation</Headline>
+          <Visuals>
+            <PrimaryVisual slot="vertical_timeline">
+              <AssetRefs />
+              <Timeline>
+                <RecommendedNodes>
+                  <Node id="exploration">
+                    <Label>Early Exploration (1901–1912)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A9" />
+                      <AssetRef id="ANT_HUM_A7" />
+                      <AssetRef id="ANT_HUM_A8" />
+                      </AssetRefs>
+                    <Note>Use one ship-in-ice image as the primary; keep the others as alternates.</Note>
+                    </Node>
+                  <Node id="treaty">
+                    <Label>Antarctic Treaty (1959)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A3" />
+                      </AssetRefs>
+                    <Note>The spreadsheet asset is a map-style treatment; may be swapped for flags/emblem if desired.</Note>
+                    </Node>
+                  <Node id="research">
+                    <Label>Scientific Research Era (1950s–Present)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A14" />
+                      </AssetRefs>
+                    <Note>Use as a general research stations reference; consider adding a drilling/ice-core photo later.</Note>
+                    </Node>
+                  </RecommendedNodes>
+                <AlternateNodes>
+                  <Node>
+                    <Label>Ross Expedition (1840s)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A6" />
+                      </AssetRefs>
+                    </Node>
+                  <Node>
+                    <Label>Endurance / Shackleton era (1914–1917)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A9" />
+                      </AssetRefs>
+                    </Node>
+                  <Node>
+                    <Label>Operation Highjump (1946–47)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A11" />
+                      </AssetRefs>
+                    </Node>
+                  <Node>
+                    <Label>Trans-Antarctic Expedition (1955–58)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A12" />
+                      </AssetRefs>
+                    </Node>
+                  <Node>
+                    <Label>Modern exploration (1980s–90s)</Label>
+                    <AssetRefs>
+                      <AssetRef id="ANT_HUM_A13" />
+                      </AssetRefs>
+                    </Node>
+                  </AlternateNodes>
+                </Timeline>
+              </PrimaryVisual>
+            </Visuals>
+          <Text>
+            <Body>From intrepid explorers risking frostbite to today’s researchers uncovering climate clues, humans in Antarctica chase knowledge, not conquest. The Antarctic Treaty ensures peace, protecting this icy world for science and understanding. No one owns Antarctica—it’s a shared laboratory, showing that even the harshest landscapes can inspire cooperation and hope.</Body>
+            </Text>
+          <Callouts>
+            <Callout type="fact">More penguins than people! Scientists outnumber tourists, but penguins outnumber them all.</Callout>
+            <Callout type="data">Over 30 nations operate research stations in Antarctica, working together to reveal Earth’s climate past—and future.</Callout>
+            </Callouts>
+          </Column>
+        </Columns>
+      <References>
+        <SourceLinks>
+          <AssetRef id="ANT_HOME_A9" />
+          </SourceLinks>
+        </References>
+      </Poster>
+    </Posters>
+  <AssetsRegistry>
+    <Asset id="ANT_HOME_A5" status="project_reference">
+      <Sheet>Home</Sheet>
+      <Cell>A5</Cell>
+      <Label>Narrative for this</Label>
+      <Url>https://docs.google.com/document/u/0/d/1dFfcMqM5hVFTUkbEXL1Gn7KjN8M7AjpV/edit</Url>
+      </Asset>
+    <Asset id="ANT_HOME_A7" status="project_reference">
+      <Sheet>Home</Sheet>
+      <Cell>A7</Cell>
+      <Label>Poster 1 Drawing</Label>
+      <Url>https://drive.google.com/file/d/1dpL-yzDn_qUJ1stzPHe1GIMkHASdfs-k/view</Url>
+      </Asset>
+    <Asset id="ANT_HOME_A9" status="project_reference">
+      <Sheet>Home</Sheet>
+      <Cell>A9</Cell>
+      <Label>Poster 2 Drawing</Label>
+      <Url>https://drive.google.com/file/d/1SdfQFwwz1d6LajQgLATIEm3QsYJbiP_w/view</Url>
+      </Asset>
+    <Asset id="ANT_HOW_A3" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>A3</Cell>
+      <Label>Glaciers</Label>
+      <Url>https://cdn.midjourney.com/6db593b1-edbc-4218-a73f-7a69fc478bcd/0_3.png</Url>
+      </Asset>
+    <Asset id="ANT_HOW_F3" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>F3</Cell>
+      <Label>Snowfall</Label>
+      <Url>https://cdn.midjourney.com/f27aab29-6379-42bb-90ef-de6e514b5aa3/0_0.png</Url>
+      <AdjacentNotes>
+        <Note cell="G3">Firn</Note>
+        <Note cell="H3">Glacial Ice</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_HOW_G3" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>G3</Cell>
+      <Label>Firn</Label>
+      <Url>https://cdn.midjourney.com/fdb87b6c-936a-4ad9-826c-aad6a4f932ee/0_1.png</Url>
+      <AdjacentNotes>
+        <Note cell="F3">Snowfall</Note>
+        <Note cell="H3">Glacial Ice</Note>
+        <Note cell="I3">Sliding</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_HOW_H3" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>H3</Cell>
+      <Label>Glacial Ice</Label>
+      <Url>https://cdn.midjourney.com/5c3a869e-a9d6-4c28-b6d7-7c1aab86c504/0_1.png</Url>
+      <AdjacentNotes>
+        <Note cell="G3">Firn</Note>
+        <Note cell="I3">Sliding</Note>
+        <Note cell="F3">Snowfall</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_HOW_I3" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>I3</Cell>
+      <Label>Sliding</Label>
+      <Url>https://cdn.midjourney.com/1d6522ad-7d63-4619-afeb-e0944d372daa/0_1.png</Url>
+      <AdjacentNotes>
+        <Note cell="H3">Glacial Ice</Note>
+        <Note cell="G3">Firn</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_HOW_A4" status="ok">
+      <Sheet>How () Forms</Sheet>
+      <Cell>A4</Cell>
+      <Label>Vertical</Label>
+      <Url>https://cdn.midjourney.com/c51cde91-424c-4d80-97af-330ffefb774c/0_0.png</Url>
+      </Asset>
+    <Asset id="ANT_GEN_A3" status="ok">
+      <Sheet>General Overview</Sheet>
+      <Cell>A3</Cell>
+      <Label>Reference Map</Label>
+      <Url>https://4.bp.blogspot.com/-KVGMTl8WhwA/Vy871oQngSI/AAAAAAAAaYQ/KgPD51OM8E8WpNfGl_aFkfZYajbHUV3twCLcB/s1600/GLIMS_Viewer.jpg</Url>
+      <AdjacentNotes>
+        <Note cell="B3">this is a source map for this. this doesn't have to be exact</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_GEN_A12" status="ok">
+      <Sheet>General Overview</Sheet>
+      <Cell>A12</Cell>
+      <Label>Perito Moreno</Label>
+      <Url>https://aebc975c.rocketcdn.me/wp-content/uploads/2021/01/Perito-Moreno-Glacier-panoramique-compressor.jpg</Url>
+      </Asset>
+    <Asset id="ANT_GEN_A13" status="ok">
+      <Sheet>General Overview</Sheet>
+      <Cell>A13</Cell>
+      <Label>Himalayan Glacier</Label>
+      <Url>https://blogs.egu.eu/divisions/cr/files/2016/08/IOW_2016_08_12_Arindan_supra-glacial-lake-on-the-surface-of-Chhota-Shigri-glacier-during-winter-mass-balance-measurement.jpg</Url>
+      </Asset>
+    <Asset id="ANT_GEN_A14" status="ok">
+      <Sheet>General Overview</Sheet>
+      <Cell>A14</Cell>
+      <Label>Athabasca</Label>
+      <Url>https://cdn.britannica.com/00/115300-004-D9033699/Athabasca-Glacier-part-Canada.jpg?w=400&amp;h=225&amp;c=crop</Url>
+      <AdjacentNotes>
+        <Note cell="B14">Canada</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_ECO_A3" status="ok">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>A3</Cell>
+      <Label>and we can use this</Label>
+      <Url>https://svs.gsfc.nasa.gov/vis/a000000/a003800/a003848/antarctica_flows_1_00200.jpg</Url>
+      </Asset>
+    <Asset id="ANT_ECO_A5" status="ok">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>A5</Cell>
+      <Label>Here is a link to different image options that might scale up better</Label>
+      <Url>https://svs.gsfc.nasa.gov/3849/</Url>
+      </Asset>
+    <Asset id="ANT_ECO_A7" status="ok">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>A7</Cell>
+      <Label>Then we can overlay a map of ocean currents on top of it</Label>
+      <Url>https://teara.govt.nz/files/m-5915-enz.jpg</Url>
+      </Asset>
+    <Asset id="ANT_ECO_A11" status="ok">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>A11</Cell>
+      <Label>Lake Vostok</Label>
+      <Url>https://benthamsciencepublishers.wordpress.com/wp-content/uploads/2016/04/62-mile-lake.jpg?w=840</Url>
+      <AdjacentNotes>
+        <Note cell="B11">imagined</Note>
+        </AdjacentNotes>
+      </Asset>
+    <Asset id="ANT_ECO_A14" status="needs_replacement">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>A14</Cell>
+      <Label>This</Label>
+      <Url>https://upload.wikimedia.org/wikipedia/commons/d/d2/Miami_Sunset_%2845863661094%29.jpg</Url>
+      <AdjacentNotes>
+        <Note cell="B14">Same thing with this</Note>
+        <Note cell="C14">This too if possible</Note>
+        </AdjacentNotes>
+      <Reason>Non-Antarctic placeholder image (appears unrelated to Antarctica/glaciers).</Reason>
+      </Asset>
+    <Asset id="ANT_ECO_B14" status="needs_replacement">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>B14</Cell>
+      <Label>Same thing with this</Label>
+      <Url>https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/White_Cliffs_of_Dover_02.JPG/1280px-White_Cliffs_of_Dover_02.JPG</Url>
+      <AdjacentNotes>
+        <Note cell="A14">This</Note>
+        <Note cell="C14">This too if possible</Note>
+        </AdjacentNotes>
+      <Reason>Non-Antarctic placeholder image (appears unrelated to Antarctica/glaciers).</Reason>
+      </Asset>
+    <Asset id="ANT_ECO_C14" status="needs_replacement">
+      <Sheet>Ecological Significance</Sheet>
+      <Cell>C14</Cell>
+      <Label>This too if possible</Label>
+      <Url>https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1920px-Cidade_Maravilhosa.jpg</Url>
+      <AdjacentNotes>
+        <Note cell="B14">Same thing with this</Note>
+        <Note cell="A14">This</Note>
+        </AdjacentNotes>
+      <Reason>Non-Antarctic placeholder image (appears unrelated to Antarctica/glaciers).</Reason>
+      </Asset>
+    <Asset id="ANT_HUM_A3" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A3</Cell>
+      <Label>Antarctic Treaty</Label>
+      <Url>https://lordslibrary.parliament.uk/content/uploads/sites/2/2021/07/Map-of-Antarctica-e1626191579902.jpg</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A6" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A6</Cell>
+      <Label>Ross expedition</Label>
+      <Url>https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HMS_Erebus_and_Terror_in_the_Antarctic_by_John_Wilson_Carmichael.jpg/660px-HMS_Erebus_and_Terror_in_the_Antarctic_by_John_Wilson_Carmichael.jpg</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A7" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A7</Cell>
+      <Label>Robert Falcon Scott</Label>
+      <Url>https://i.guim.co.uk/img/media/69bb0dadc4599a95caaee50670fb607c1bf14f19/0_559_5288_3173/master/5288.jpg?width=1200&amp;height=900&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=77d834cfc008f48c5b40fdfd78cd32b2</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A8" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A8</Cell>
+      <Label>Amundsen</Label>
+      <Url>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszpnbbMOKkhXvpCwrSz_wV7NBD1ryrkmx6Q&amp;s</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A9" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A9</Cell>
+      <Label>Endurance</Label>
+      <Url>https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2022/12/BAE6C989-C42F-4711-B3B6-124A3BABD519.jpeg?fit=1536%2C1153&amp;ssl=1</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A10" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A10</Cell>
+      <Label>Hubert Elkins</Label>
+      <Url>https://images.squarespace-cdn.com/content/v1/60deec7400e24755847d3167/1626236033743-PQDKYYHS7MIQ8TIW9O7W/C.jpg</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A11" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A11</Cell>
+      <Label>Operation Highjump</Label>
+      <Url>https://www.thearcticinstitute.org/wp-content/uploads/2021/10/Bulldozer_clears_path_during_Operation_Highjump_1947.jpg</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A12" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A12</Cell>
+      <Label>British Commonwealth Trans-Antarctic Expedition</Label>
+      <Url>https://automobilist.com/cdn/shop/articles/SnoCat_Magazine_Header_1000x563_8ab9d1f9-18ca-4e81-a127-191ef479d06a.jpg?v=1685293360&amp;width=1200</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A13" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A13</Cell>
+      <Label>Will Steger</Label>
+      <Url>https://i.natgeofe.com/n/0ff49716-7b31-4f26-8146-558ac2420320/steger_transantarctica_expedition_1.jpg</Url>
+      </Asset>
+    <Asset id="ANT_HUM_A14" status="ok">
+      <Sheet>Human Geography of</Sheet>
+      <Cell>A14</Cell>
+      <Label>research stations</Label>
+      <Url>https://res.cloudinary.com/rainforest-cruises/image/upload/c_scale,w_400,h_225,dpr_2/c_fill,g_auto/f_auto,q_auto/v1696496379/Antarctica-Research-Stations.jpg?_i=AA</Url>
+      </Asset>
+    </AssetsRegistry>
+  <SourceText>
+    <Doc key="creative_vision_docx" fileName="Antarctica landforms 3.docx" paragraphCount="61">
+      <Paragraphs>
+        <P n="1">Overall Creative Vision for Antarctic Glaciers</P>
+        <P n="2">Tone &amp; Style: Wonder-filled, welcoming, and clear. We aim to help visitors grasp how glaciers form, understand their global distribution, appreciate Antarctica’s impact on Earth’s climate, and learn how humans engage with this distant frontier. The color palette is primarily icy blues, crisp whites, and gentle grays, with small pops of red to highlight human activity on the second poster.</P>
+        <P n="3">Size &amp; Format:</P>
+        <P n="4">Each poster: ~8’ wide x ~5’ tall.</P>
+        <P n="5">Each poster divided into two columns (left/right). Left column focuses on a process or significance; right column provides broader context (overview or human aspects).</P>
+        <P n="6">High-quality, UV-resistant materials that stand up to outdoor conditions.</P>
+        <P n="7">Poster 1: "The Frozen Giants: Glaciers Across the Globe"</P>
+        <P n="8">Left Column: How Glaciers Form (Infographic-Focused)</P>
+        <P n="9">Visual Concept:
+ A tall, vertical cross-section infographic shows how fluffy snow transforms into dense ice and eventually a moving glacier. This central image should be the eye-catcher: a layered “slice” of a mountain slope becoming an ice field.</P>
+        <P n="10">Suggested Visual Elements:</P>
+        <P n="11">Cross-Section Diagram:</P>
+        <P n="12">Top: Fresh, delicate snowflakes.</P>
+        <P n="13">Middle: Snow compressed into firn (dense, grainy snow).</P>
+        <P n="14">Lower: Firn transforms into solid glacial ice over decades to centuries.</P>
+        <P n="15">Bottom: Bedrock with a thin layer of meltwater, showing how glaciers slide.</P>
+        <P n="16">Time Markers: Small labels like “After 10 Years: Firn” and “After 100+ Years: Glacial Ice.”</P>
+        <P n="17">Arrows Indicating Flow: Show ice slowly moving downhill.</P>
+        <P n="18">Callouts &amp; Labels: Words like “Firn,” “Ice Sheet,” “Meltwater,” and “Ablation Zone” arranged neatly. A tiny “Did You Know?” bubble might say:</P>
+        <P n="19">"Did You Know? Glaciers flow so slowly that you could outrun them—even at a casual stroll!"</P>
+        <P n="20">Suggested Text Copy (Minimal):
+ Title: “From Snowfall to Slow-Moving Giant”
+ Body (about 50 words):
+ “Glaciers start as gentle snowfall, piling up year after year. Over time, the weight of new snow presses old layers into dense ice. Slowly, this river of ice begins to flow downhill, carving valleys and shaping mountains. It’s nature’s patient sculptor, turning a thousand snowfalls into a frozen masterpiece.”</P>
+        <P n="21">Additional Callout Fact Box:</P>
+        <P n="22">“Glaciers hold about 69% of Earth’s freshwater!”</P>
+        <P n="23">“The Antarctic Ice Sheet is so massive that it weighs down the continent’s rocky crust.”</P>
+        <P n="24">Right Column: General Overview of Glaciers (Map-Focused)</P>
+        <P n="25">Visual Concept:
+ A simplified world map with key glacier regions highlighted. Show Antarctica’s Ice Sheet prominently. Use small glacier icons at major sites.</P>
+        <P n="26">Suggested Visual Elements:</P>
+        <P n="27">World Map: Neutral gray landmasses, with bright white/blue highlights where glaciers are prominent (Greenland, Antarctic Ice Sheet, Patagonian glaciers, Himalayan icefields, Iceland’s Vatnajökull).</P>
+        <P n="28">Inset Photo: Perhaps a photo of Perito Moreno Glacier in Argentina for a recognizable global glacier.</P>
+        <P n="29">A Simple Legend: A small key explaining glacier icons.</P>
+        <P n="30">Suggested Text Copy (Minimal):
+ Title: “Glaciers: Hidden Reservoirs on Every Continent (Except Australia)”
+ Body (about 40 words):
+ “Glaciers grace mountaintops in Asia, carve landscapes in South America, and crown the poles in the Arctic and Antarctic. Storing much of Earth’s freshwater, these icy giants quietly shape our world, connecting distant lands through shared water and weather.”</P>
+        <P n="31">Callout Fact Box:</P>
+        <P n="32">“Antarctica’s Ice Sheet covers 98% of the continent, with ice thicker than 2 miles in places!”</P>
+        <P n="33">Poster 2: "Antarctica: The Engine of the Earth’s Climate"</P>
+        <P n="34">Left Column: Environmental Significance of the Antarctic Ice Sheet</P>
+        <P n="35">Visual Concept:
+ A close-up map of Antarctica from a top-down view, overlaid with simple arrows showing ice flows, meltwater paths, and global ocean currents influenced by Antarctic waters. Include a small graphic of Earth’s “conveyor belt” currents to connect Antarctica’s meltwater to the rest of the globe.</P>
+        <P n="36">Suggested Visual Elements:</P>
+        <P n="37">Map of Antarctica: Icy white continent on a deep blue ocean background.</P>
+        <P n="38">Arrows for Ice Flow &amp; Currents: Simple, curved arrows indicating how ice streams push ice into the sea and how meltwater affects global currents.</P>
+        <P n="39">Subglacial Lakes: Tiny blue dots under the ice, with a label: “Lake Vostok, hidden beneath miles of ice.”</P>
+        <P n="40">Callout Icons: A small droplet icon to represent freshwater storage, a globe icon for global influence.</P>
+        <P n="41">Suggested Text Copy (Minimal):
+ Title: “Earth’s Climate Pulse Under the Ice”
+ Body (about 60 words):
+ “Antarctica’s ice isn’t just frozen water—it’s a climate powerhouse. By locking away freshwater, these ice sheets help control sea levels. Meltwater from Antarctica flows into the oceans, guiding currents that shape climates worldwide. Beneath the ice lie hidden lakes and ancient secrets, reminding us that Antarctica is the quiet captain of Earth’s weather and waters.”</P>
+        <P n="42">Callout Fact Box:</P>
+        <P n="43">“If all Antarctic ice melted, seas could rise by about 190 feet.”</P>
+        <P n="44">“Antarctic meltwater helps drive global ocean currents, impacting weather half a world away.”</P>
+        <P n="45">Right Column: Human Geography of Antarctica</P>
+        <P n="46">Visual Concept:
+ A vertical timeline running from top to bottom, showing key episodes of human interaction. Near the top: early explorers like Amundsen. In the middle: modern research stations. Toward the bottom: the Antarctic Treaty and ongoing scientific work.</P>
+        <P n="47">Suggested Visual Elements:</P>
+        <P n="48">Timeline with Images:</P>
+        <P n="49">Early 1900s: Black-and-white photo of a wooden ship stuck in ice (symbolizing explorers).</P>
+        <P n="50">Mid-20th Century: Color photo of a research station, e.g., McMurdo Station (bright red buildings on ice).</P>
+        <P n="51">Modern Era: Photo of scientists in bright parkas drilling ice cores, collecting climate data.</P>
+        <P n="52">Flags or Emblems: Represent the Antarctic Treaty with a simple icon of multiple flags arranged in a circle.</P>
+        <P n="53">Suggested Text Copy (Minimal):
+ Title: “A Frontier of Discovery and Cooperation”
+ Body (about 60 words):
+ “From intrepid explorers risking frostbite to today’s researchers uncovering climate clues, humans in Antarctica chase knowledge, not conquest. The Antarctic Treaty ensures peace, protecting this icy world for science and understanding. No one owns Antarctica—it’s a shared laboratory, showing that even the harshest landscapes can inspire cooperation and hope.”</P>
+        <P n="54">Callout Fact Box:</P>
+        <P n="55">“More penguins than people! Scientists outnumber tourists, but penguins outnumber them all.”</P>
+        <P n="56">“Over 30 nations operate research stations in Antarctica, working together to reveal Earth’s climate past—and future.”</P>
+        <P n="57">Photographic and Graphic Asset Tables</P>
+        <P n="58">Photographic Assets Table:</P>
+        <P n="59">Graphs, Infographics, and Map Assets Table:</P>
+        <P n="60">Summary</P>
+        <P n="61">This new document merges the best ideas from the previous discussion with the provided outline, offering concise yet engaging text, clear instructions for images, graphs, maps, and infographics. It provides multiple “Did You Know?” callouts and straightforward captions. The result is a set of two posters that blend aesthetic appeal, educational clarity, and narrative flow, guiding visitors through the frozen world of glaciers and Antarctica’s role in shaping our planet.</P>
+        </Paragraphs>
+      </Doc>
+    <Doc key="outline_docx" fileName="glaciers text.docx" paragraphCount="93">
+      <Paragraphs>
+        <P n="1">In-Depth Outline for Antarctic Posters</P>
+        <P n="2">Poster 1: "The Frozen Giants: Glaciers Across the Globe"</P>
+        <P n="3">Objective: Explain how glaciers form and provide a global perspective on glaciers as a key landform.</P>
+        <P n="4">Left Column: How Glaciers Form (Infographic-Focused)</P>
+        <P n="5">Visual Concept: Large cross-section of a glacier running from top to bottom with labeled layers and processes.</P>
+        <P n="6">Content Elements:</P>
+        <P n="7">Infographic (Primary Visual)</P>
+        <P n="8">Snow Accumulation: Visual of fresh snow layers being compressed into firn and then glacial ice.</P>
+        <P n="9">Compression and Transformation: Show the progression from fluffy snow to dense, crystal-like glacial ice with time labels (e.g., 10 years, 100 years, 1,000 years).</P>
+        <P n="10">Ice Flow Movement: Arrows indicating the downward movement of ice due to gravity, emphasizing how glaciers "flow."</P>
+        <P n="11">Base of Glacier: Depict basal sliding and the presence of meltwater that lubricates the glacier's movement.</P>
+        <P n="12">Labeling: Clearly identify terms like "Firn," "Ice Sheet," "Glacial Moraine," "Meltwater," and "Ablation Zone."</P>
+        <P n="13">Text Content (Minimal)</P>
+        <P n="14">"Glaciers are nature’s slow-motion rivers of ice, forming as snow is compressed into dense ice over centuries. Driven by gravity, they carve valleys, sculpt mountains, and leave behind dramatic landscapes."</P>
+        <P n="15">Callout boxes with "Did You Know?" facts:</P>
+        <P n="16">"Glaciers hold 69% of the world’s freshwater!"</P>
+        <P n="17">"The Antarctic Ice Sheet is so massive that its weight deforms the Earth’s crust beneath it."</P>
+        <P n="18">Color Palette: Icy blues, white gradients, and hints of gray. Use subtle gradients to illustrate compression of snow into ice.</P>
+        <P n="19">Right Column: General Overview of Glaciers (Map-Focused)</P>
+        <P n="20">Visual Concept: World map with key glaciers and icefields highlighted.</P>
+        <P n="21">Content Elements:</P>
+        <P n="22">World Map (Primary Visual)</P>
+        <P n="23">Key Glaciers and Ice Sheets Highlighted:</P>
+        <P n="24">Antarctic Ice Sheet (prominent focus)</P>
+        <P n="25">Greenland Ice Sheet (show comparison in size to Antarctica)</P>
+        <P n="26">Patagonian Glaciers (South America)</P>
+        <P n="27">Khumbu Glacier (Asia/Himalayas)</P>
+        <P n="28">Vatnajökull (Iceland)</P>
+        <P n="29">Use simple glacier icons for clarity.</P>
+        <P n="30">Inset image showing a famous glacier landscape (like Perito Moreno in Argentina or the massive ice cliffs of Antarctica).</P>
+        <P n="31">Text Content (Minimal)</P>
+        <P n="32">"Glaciers exist on every continent except Australia. They hold the majority of Earth’s freshwater and shape our landscapes, from the towering peaks of the Andes to the frozen vastness of Antarctica."</P>
+        <P n="33">Callout Fact Box: "Antarctica's Ice Sheet covers 98% of the continent, with ice over 2 miles thick in places."</P>
+        <P n="34">Color Palette: Cool blues, frosty whites, and deep sea blues. The world map should have landmasses in a neutral gray to make the icy areas stand out.</P>
+        <P n="35">Poster 2: "Antarctica: The Engine of the Earth’s Climate"</P>
+        <P n="36">Objective: Showcase the Antarctic Ice Sheet's role in the global climate system and its influence on human geography.</P>
+        <P n="37">Left Column: Environmental Significance of the Antarctic Ice Sheet</P>
+        <P n="38">Visual Concept: A close-up map of Antarctica with the ice sheet illustrated and overlaid with data points about its impact on the environment.</P>
+        <P n="39">Content Elements:</P>
+        <P n="40">Infographic (Primary Visual)</P>
+        <P n="41">Map of Antarctica with major glaciers labeled (e.g., Pine Island, Thwaites) and subglacial features like Lake Vostok called out.</P>
+        <P n="42">Flow Arrows: Use arrows to show ice flow direction from the ice sheet to the Southern Ocean.</P>
+        <P n="43">Visual of Global Conveyor Belt Currents: Illustrate how Antarctic meltwater drives ocean currents and regulates global temperatures.</P>
+        <P n="44">Mark the Antarctic Convergence Zone to illustrate how Antarctic waters mix with other ocean currents.</P>
+        <P n="45">Callout Boxes (Important Data Points)</P>
+        <P n="46">"The Antarctic Ice Sheet is Earth’s largest, covering 5.4 million square miles."</P>
+        <P n="47">"The ice sheet holds 70% of Earth’s freshwater."</P>
+        <P n="48">"Meltwater from Antarctica drives the global thermohaline circulation, which influences ocean currents worldwide."</P>
+        <P n="49">Text Content (Minimal)</P>
+        <P n="50">"Antarctica's ice sheet isn't just frozen water — it's the pulse of Earth's climate. It drives ocean currents, regulates sea levels, and even affects weather patterns thousands of miles away."</P>
+        <P n="51">Callout Facts:</P>
+        <P n="52">"If the Antarctic Ice Sheet melted entirely, global sea levels would rise by about 190 feet."</P>
+        <P n="53">"Subglacial lakes like Lake Vostok remain liquid due to geothermal heat, sealed under miles of ice for millions of years."</P>
+        <P n="54">Color Palette: Icy whites and deep blues with red accents for critical data points. The ocean currents and conveyor belt should have flowing gradient arrows.</P>
+        <P n="55">Right Column: Human Geography of Antarctica</P>
+        <P n="56">Visual Concept: Photo montage/timeline of human exploration and scientific activity in Antarctica.</P>
+        <P n="57">Content Elements:</P>
+        <P n="58">Timeline (Primary Visual)</P>
+        <P n="59">Early Exploration (1901-1912): Images of explorers like Scott, Amundsen, and Shackleton.</P>
+        <P n="60">Scientific Research Era (1950s-Present): Depict modern Antarctic research stations like McMurdo and Amundsen-Scott South Pole Station.</P>
+        <P n="61">Antarctic Treaty (1959): Highlight the landmark international agreement to preserve Antarctica for scientific research and environmental protection.</P>
+        <P n="62">Vignette Images (Support Visual)</P>
+        <P n="63">Image 1: Wooden ship trapped in ice (Era of Exploration).</P>
+        <P n="64">Image 2: Modern Antarctic research station (Symbol of Scientific Presence).</P>
+        <P n="65">Image 3: Expedition flag planting (symbol of discovery and triumph).</P>
+        <P n="66">Image 4: Researchers in bright red jackets conducting fieldwork.</P>
+        <P n="67">Text Content (Minimal)</P>
+        <P n="68">"Human presence in Antarctica is brief but bold. From explorers braving the unknown to scientists uncovering climate secrets, Antarctica is a place of discovery and international cooperation."</P>
+        <P n="69">"The Antarctic Treaty protects the continent as a space for peace and science, with no military activity or permanent settlements allowed."</P>
+        <P n="70">Callout Data:</P>
+        <P n="71">"There are more penguins than people in Antarctica."</P>
+        <P n="72">"Over 30 research stations from around the world operate on the continent each year."</P>
+        <P n="73">Color Palette: Use bright whites, blues, and small pops of red (to signify human activity). Crisp contrast should emphasize the stark, icy environment.</P>
+        <P n="74">Design Consistency &amp; Aesthetic</P>
+        <P n="75">Color Themes: Poster 1 (blue/white/gray gradients for natural elements) and Poster 2 (blue/white with bold pops of red to symbolize human exploration) maintain a cohesive feel while reflecting environmental and human themes.</P>
+        <P n="76">Iconography: Use simple, memorable icons for key processes (like ice flow, subglacial lakes, and conveyor belt currents) to maintain visual engagement.</P>
+        <P n="77">Visual Focus:</P>
+        <P n="78">Poster 1 has a "How It Works" approach (processes and overview).</P>
+        <P n="79">Poster 2 focuses on "Why It Matters" (climate and human geography).</P>
+        <P n="80">Suggested Call-to-Action/Interactive Elements</P>
+        <P n="81">QR Code: Place a QR code on each poster that links to a "Glaciers in Motion" video, showing time-lapse footage of glaciers advancing and retreating.</P>
+        <P n="82">"Look Closer" Symbol: Add small binocular icons next to hidden or surprising facts, encouraging visitors to look for them (e.g., "Did you know there are rivers of water flowing beneath glaciers?").</P>
+        <P n="83">Proposed Layout</P>
+        <P n="84">Poster 1: How Glaciers Form &amp; General Overview</P>
+        <P n="85">Left Column: Full vertical infographic of glacier formation.</P>
+        <P n="86">Right Column: World map with key glaciers, supported by inset photos.</P>
+        <P n="87">Poster 2: Antarctic Ice Sheet &amp; Its Impact</P>
+        <P n="88">Left Column: Map of Antarctica with overlay of ice sheet features, subglacial lakes, and flow arrows.</P>
+        <P n="89">Right Column: Timeline and human story (exploration, research, and the Antarctic Treaty).</P>
+        <P n="90">Summary of Key Takeaways</P>
+        <P n="91">Poster 1 explains how glaciers form and provides a global perspective. It introduces the importance of glaciers worldwide, with Antarctica as a major focus.</P>
+        <P n="92">Poster 2 dives deeper into Antarctica itself — showcasing its role as a climate driver and revealing the stories of human exploration and research.</P>
+        <P n="93">This layout ensures that visitors are engaged with both the natural history of glaciers and their modern human significance. The use of vivid infographics, high-quality photographs, and strategic layout guarantees that visitors of all ages will walk away inspired.</P>
+        </Paragraphs>
+      </Doc>
+    </SourceText>
+  <DraftReferences>
+    <DraftImage file="antarctica glaciers 1.jpg">Draft of Poster 1 composition (formation infographic + world map)</DraftImage>
+    <DraftImage file="antarctica glaciers 2.jpg">Draft of Poster 2 composition (Antarctica climate map + human timeline)</DraftImage>
+    </DraftReferences>
+  </PosterSet>
+]]></payload_xml>
+</normalized_poster>

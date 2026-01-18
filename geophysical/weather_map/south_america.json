@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/weathermaps/south_america.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__weather_map__south_america__south_america",
+    "derived_id": "geophysical__weather_map__south_america__south_america",
+    "continent": "south_america",
+    "domain": "geophysical",
+    "poster_family": "weather_map",
+    "filename": "south_america.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "weather_map"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:geophysical",
+      "poster_family:weather_map"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/weathermaps/south_america.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "South America",
+    "posterTitle": "South America : Amazon Rains to Atacama Drought",
+    "legend": {
+      "title": "South America’s Storm Stories",
+      "items": [
+        {
+          "key": "Extreme Heat",
+          "display": "Hottest Hotspots",
+          "rationale": "Evokes curiosity without jargon"
+        },
+        {
+          "key": "Extreme Cold",
+          "display": "Frozen Frontiers",
+          "rationale": "Alliterative & vivid"
+        },
+        {
+          "key": "High Humidity & Rainfall",
+          "display": "Rain-Soaked Jungles",
+          "rationale": "Instantly signals tropical downpours"
+        },
+        {
+          "key": "Low Humidity & Arid Conditions",
+          "display": "Bone-Dry Deserts",
+          "rationale": "Conversational; pairs with desert icon"
+        },
+        {
+          "key": "Elevation-Related Climate",
+          "display": "Sky-High Climates",
+          "rationale": "Kids grasp “sky-high = mountaintop”"
+        },
+        {
+          "key": "Wind Extremes",
+          "display": "Howling Wind Zones",
+          "rationale": "Adds sensory cue (sound)"
+        },
+        {
+          "key": "Volcanic & Seismic Activity",
+          "display": "Volcano-Quake Lands",
+          "rationale": "Merges two ideas into one punchy phrase"
+        },
+        {
+          "key": "Flooding / Rainfall Extremes",
+          "display": "Deluge Hotspot",
+          "rationale": "Mirrors ecological term & is memorable"
+        },
+        {
+          "key": "Daylight Extremes",
+          "display": "Sunlight Swings",
+          "rationale": "Works for polar light or long summers"
+        },
+        {
+          "key": "Desertification & Dust Storms",
+          "display": "Duststorm Alley",
+          "rationale": "Visual and action-oriented"
+        },
+        {
+          "key": "Temperature Range Extremes",
+          "display": "Wild Temperature Swings",
+          "rationale": "Explains day-night whiplash clearly"
+        }
+      ]
+    },
+    "usVsContinent": {
+      "header": "South America vs. USA — A Tall Drink of Water",
+      "prompt": "“Stack South America north to south and it stretches from Alaska to the Gulf—trace the rivers that run that entire length.”",
+      "image": {
+        "url": "sandbox:/mnt/data/usa_vs_south_america.png",
+        "license": "CC0 (generated graphic)",
+        "source": {
+          "dataset": "Natural Earth 'Admin 0 – Countries' (public domain)",
+          "projection": "Mollweide (equal-area)",
+          "usaOutline": "Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)",
+          "notes": "Graphic generated from public-domain vector data; no third-party map tiles."
+        }
+      }
+    },
+    "featuredStories": [
+      {
+        "title": "Andes: From Aconcagua to Ice-Crowned Volcanoes",
+        "text": "Earth’s longest mountain chain stacks 7 000 km of summits where condors soar above glaciers and smoking cones.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "6 962 m Aconcagua in evening alpenglow",
+            "primaryUrl": null,
+            "searchPhrase": "aconcagua summit cloud cap",
+            "stockSearch": {
+              "recommendedQuery": "aconcagua summit cloud cap",
+              "shutterstock": "https://www.shutterstock.com/search/aconcagua%20summit%20cloud%20cap",
+              "adobeStock": "https://stock.adobe.com/search?k=aconcagua+summit+cloud+cap"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "World’s tallest active volcano venting steam",
+            "primaryUrl": null,
+            "searchPhrase": "ojos del salado snow volcano fumarole",
+            "stockSearch": {
+              "recommendedQuery": "ojos del salado snow volcano fumarole",
+              "shutterstock": "https://www.shutterstock.com/search/ojos%20del%20salado%20snow%20volcano%20fumarole",
+              "adobeStock": "https://stock.adobe.com/search?k=ojos+del+salado+snow+volcano+fumarole"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Andean condor riding up-drafts",
+            "primaryUrl": null,
+            "searchPhrase": "andes condor over glaciers drone",
+            "stockSearch": {
+              "recommendedQuery": "andes condor over glaciers drone",
+              "shutterstock": "https://www.shutterstock.com/search/andes%20condor%20over%20glaciers%20drone",
+              "adobeStock": "https://stock.adobe.com/search?k=andes+condor+over+glaciers+drone"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 1
+      },
+      {
+        "title": "River Sea: The Amazon’s Journey",
+        "text": "A trickle in the Andes becomes the widest river on Earth, carrying a fifth of the planet’s freshwater to the Atlantic.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Snowmelt at the Amazon’s tiny headwater",
+            "primaryUrl": null,
+            "searchPhrase": "nevado misk’i fuente amazon source",
+            "stockSearch": {
+              "recommendedQuery": "Nevado Mismi source Amazon River Peru",
+              "shutterstock": "https://www.shutterstock.com/search/Nevado%20Mismi%20source%20Amazon%20River%20Peru",
+              "adobeStock": "https://stock.adobe.com/search?k=Nevado+Mismi+source+Amazon+River+Peru"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Dark Rio Negro merging with tan Solimões",
+            "primaryUrl": null,
+            "searchPhrase": "amazon river aerial meeting of waters",
+            "stockSearch": {
+              "recommendedQuery": "amazon river aerial meeting of waters",
+              "shutterstock": "https://www.shutterstock.com/search/amazon%20river%20aerial%20meeting%20of%20waters",
+              "adobeStock": "https://stock.adobe.com/search?k=amazon+river+aerial+meeting+of+waters"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Vast tidal mangroves at the river’s mouth",
+            "primaryUrl": null,
+            "searchPhrase": "belem amazon delta mangroves dusk",
+            "stockSearch": {
+              "recommendedQuery": "belem amazon delta mangroves dusk",
+              "shutterstock": "https://www.shutterstock.com/search/belem%20amazon%20delta%20mangroves%20dusk",
+              "adobeStock": "https://stock.adobe.com/search?k=belem+amazon+delta+mangroves+dusk"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 2
+      },
+      {
+        "title": "Desert of the Driest: Atacama",
+        "text": "Some valleys haven’t felt rain for centuries—yet life clings to salt flats under flaming sunsets.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Flamingos feeding on Salar de Atacama",
+            "primaryUrl": null,
+            "searchPhrase": "atacama salt flat flamingo lagoon",
+            "stockSearch": {
+              "recommendedQuery": "atacama salt flat flamingo lagoon",
+              "shutterstock": "https://www.shutterstock.com/search/atacama%20salt%20flat%20flamingo%20lagoon",
+              "adobeStock": "https://stock.adobe.com/search?k=atacama+salt+flat+flamingo+lagoon"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Crystal-clear sky studded with the Milky Way",
+            "primaryUrl": null,
+            "searchPhrase": "very large telescope atacama milky way",
+            "stockSearch": {
+              "recommendedQuery": "Very Large Telescope Paranal Milky Way",
+              "shutterstock": "https://www.shutterstock.com/search/Very%20Large%20Telescope%20Paranal%20Milky%20Way",
+              "adobeStock": "https://stock.adobe.com/search?k=Very+Large+Telescope+Paranal+Milky+Way"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Iconic desert sculpture rising from sands",
+            "primaryUrl": null,
+            "searchPhrase": "hand of the desert sculpture chile",
+            "stockSearch": {
+              "recommendedQuery": "hand of the desert sculpture chile",
+              "shutterstock": "https://www.shutterstock.com/search/hand%20of%20the%20desert%20sculpture%20chile",
+              "adobeStock": "https://stock.adobe.com/search?k=hand+of+the+desert+sculpture+chile"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 3
+      },
+      {
+        "title": "Patagonia: Wind-Carved Ice & Steppe",
+        "text": "Roaring 50s wind sculpts glaciers, granite spires, and endless sheep-dotted steppe.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Cerro Fitz Roy ignited by dawn light",
+            "primaryUrl": null,
+            "searchPhrase": "fitz roy sunrise pink granite",
+            "stockSearch": {
+              "recommendedQuery": "fitz roy sunrise pink granite",
+              "shutterstock": "https://www.shutterstock.com/search/fitz%20roy%20sunrise%20pink%20granite",
+              "adobeStock": "https://stock.adobe.com/search?k=fitz+roy+sunrise+pink+granite"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Ice wall booming into turquoise lake",
+            "primaryUrl": null,
+            "searchPhrase": "perito moreno glacier calving",
+            "stockSearch": {
+              "recommendedQuery": "perito moreno glacier calving",
+              "shutterstock": "https://www.shutterstock.com/search/perito%20moreno%20glacier%20calving",
+              "adobeStock": "https://stock.adobe.com/search?k=perito+moreno+glacier+calving"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Guanacos braced against Patagonian gusts",
+            "primaryUrl": null,
+            "searchPhrase": "guanaco herd patagonia steppe wind",
+            "stockSearch": {
+              "recommendedQuery": "guanaco herd patagonia steppe wind",
+              "shutterstock": "https://www.shutterstock.com/search/guanaco%20herd%20patagonia%20steppe%20wind",
+              "adobeStock": "https://stock.adobe.com/search?k=guanaco+herd+patagonia+steppe+wind"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 4
+      },
+      {
+        "title": "Lightning Capital: Lake Maracaibo",
+        "text": "Nightly storms flash 200 times an hour where warm lake meets cool mountain air.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Catatumbo lightning web over the lake",
+            "primaryUrl": null,
+            "searchPhrase": "catatumbo lightning bolts lake maracaibo",
+            "stockSearch": {
+              "recommendedQuery": "catatumbo lightning bolts lake maracaibo",
+              "shutterstock": "https://www.shutterstock.com/search/catatumbo%20lightning%20bolts%20lake%20maracaibo",
+              "adobeStock": "https://stock.adobe.com/search?k=catatumbo+lightning+bolts+lake+maracaibo"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Fishermen casting nets under strobe-light sky",
+            "primaryUrl": null,
+            "searchPhrase": "fishermen canoe maracaibo night storm",
+            "stockSearch": {
+              "recommendedQuery": "Lake Maracaibo fishermen canoe lightning",
+              "shutterstock": "https://www.shutterstock.com/search/Lake%20Maracaibo%20fishermen%20canoe%20lightning",
+              "adobeStock": "https://stock.adobe.com/search?k=Lake+Maracaibo+fishermen+canoe+lightning"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 5
+      },
+      {
+        "title": "Altiplano: Life at 4 000 Metres",
+        "text": "High-cold plateau hosts llamas, salt deserts, and the world’s highest capital.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Uyuni’s wet-season mirror to the sky",
+            "primaryUrl": null,
+            "searchPhrase": "salar de uyuni mirror reflection",
+            "stockSearch": {
+              "recommendedQuery": "salar de uyuni mirror reflection",
+              "shutterstock": "https://www.shutterstock.com/search/salar%20de%20uyuni%20mirror%20reflection",
+              "adobeStock": "https://stock.adobe.com/search?k=salar+de+uyuni+mirror+reflection"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "La Paz spilling down Andean bowl",
+            "primaryUrl": null,
+            "searchPhrase": "la paz city bowl snow illimani",
+            "stockSearch": {
+              "recommendedQuery": "la paz city bowl snow illimani",
+              "shutterstock": "https://www.shutterstock.com/search/la%20paz%20city%20bowl%20snow%20illimani",
+              "adobeStock": "https://stock.adobe.com/search?k=la+paz+city+bowl+snow+illimani"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Alpacas grazing frosty puna grass",
+            "primaryUrl": null,
+            "searchPhrase": "alpaca herd altiplano sunrise",
+            "stockSearch": {
+              "recommendedQuery": "alpaca herd altiplano sunrise",
+              "shutterstock": "https://www.shutterstock.com/search/alpaca%20herd%20altiplano%20sunrise",
+              "adobeStock": "https://stock.adobe.com/search?k=alpaca+herd+altiplano+sunrise"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 6
+      },
+      {
+        "title": "Iguazu: Where Rivers Become Falls",
+        "text": "275 cataracts thunder through subtropical jungle on the Argentina–Brazil border.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Rainbows arcing in Devil’s Throat",
+            "primaryUrl": null,
+            "searchPhrase": "iguazu devil’s throat aerial rainbow",
+            "stockSearch": {
+              "recommendedQuery": "iguazu devil's throat aerial rainbow",
+              "shutterstock": "https://www.shutterstock.com/search/iguazu%20devil%27s%20throat%20aerial%20rainbow",
+              "adobeStock": "https://stock.adobe.com/search?k=iguazu+devil%27s+throat+aerial+rainbow"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Curious coatis along misty walkways",
+            "primaryUrl": null,
+            "searchPhrase": "coatis iguazu rainforest trail",
+            "stockSearch": {
+              "recommendedQuery": "coatis iguazu rainforest trail",
+              "shutterstock": "https://www.shutterstock.com/search/coatis%20iguazu%20rainforest%20trail",
+              "adobeStock": "https://stock.adobe.com/search?k=coatis+iguazu+rainforest+trail"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 7
+      },
+      {
+        "title": "Atlantic & Pacific Storm Tracks: Cyclones & Humboldt Fog",
+        "text": "Cold Humboldt Current cools the Pacific coast while warm Atlantic waters brew South Atlantic cyclones.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Fog bank rolling over coastal desert",
+            "primaryUrl": null,
+            "searchPhrase": "stratocumulus deck over pacific chile humboldt",
+            "stockSearch": {
+              "recommendedQuery": "Humboldt fog Chile coast satellite",
+              "shutterstock": "https://www.shutterstock.com/search/Humboldt%20fog%20Chile%20coast%20satellite",
+              "adobeStock": "https://stock.adobe.com/search?k=Humboldt+fog+Chile+coast+satellite"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Rare South Atlantic cyclone in satellite view",
+            "primaryUrl": null,
+            "searchPhrase": "satellite south atlantic cyclone spiral",
+            "stockSearch": {
+              "recommendedQuery": "South Atlantic cyclone satellite spiral",
+              "shutterstock": "https://www.shutterstock.com/search/South%20Atlantic%20cyclone%20satellite%20spiral",
+              "adobeStock": "https://stock.adobe.com/search?k=South+Atlantic+cyclone+satellite+spiral"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 8
+      }
+    ],
+    "meta": {
+      "generatedAt": "2025-12-29T15:48:24.319440+00:00",
+      "sourceWorkbooks": [
+        "Copy of Revisions for geophysical domain.xlsx",
+        "atlas_stock_links_shutterstock_adobe.xlsx"
+      ],
+      "exclusions": [
+        "Elevation profile callouts are intentionally omitted from this export."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1864 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/landforms/north_america_lakes_posters.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__landforms__north_america__north_america_lakes_posters",
+    "derived_id": "geophysical__landforms__north_america__north_america_lakes_posters",
+    "continent": "north_america",
+    "domain": "geophysical",
+    "poster_family": "landforms",
+    "filename": "north_america_lakes_posters.json"
+  },
+  "tags": {
+    "continent": [
+      "north_america"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "landforms"
+    ],
+    "flat": [
+      "continent:north_america",
+      "domain:geophysical",
+      "poster_family:landforms"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/landforms/north_america_lakes_posters.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "schema_version": "1.0",
+    "generated_on": "2025-12-29",
+    "project": {
+      "series": "Atlas Trail Landforms Posters",
+      "continent": "North America",
+      "landform_focus": "Lakes",
+      "physical_format": "8 ft wide x 5 ft tall (outdoor)",
+      "source_files": [
+        {
+          "file": "Lake text.docx",
+          "role": "poster copy + captions + did-you-know + production notes"
+        },
+        {
+          "file": "NA landforms 3.docx",
+          "role": "design/layout notes + alternate draft copy + asset wishlists"
+        },
+        {
+          "file": "North America Landforms.xlsx",
+          "role": "image links + map references + internal notes/comments"
+        },
+        {
+          "file": "north america lakes 1.jpg",
+          "role": "draft concept image (Poster 1 layout reference)"
+        },
+        {
+          "file": "NA lakes 2 concept.jpeg",
+          "role": "draft concept image (Poster 2 layout reference, generic header)"
+        },
+        {
+          "file": "na lakes 2 concept a.jpeg",
+          "role": "draft concept image (Poster 2 layout reference, poetic header)"
+        }
+      ]
+    },
+    "poster_titles_from_lake_text_doc": [
+      {
+        "poster_id": 1,
+        "title": "Where Earth Holds Its Breath",
+        "rationale": "Invites wonder about lake origins."
+      },
+      {
+        "poster_id": 2,
+        "title": "Five Inland Seas, Millions of Stories",
+        "rationale": "Puts the Great Lakes front‑and‑center."
+      }
+    ],
+    "production_notes_from_lake_text_doc": [
+      {
+        "asset": "World Lakes Map",
+        "already_in_spreadsheet": "☑️",
+        "guidance": "Designer: use icon set provided, neutral land, pale‑blue water, clearly legible at 3‑second glance."
+      },
+      {
+        "asset": "Great Lakes Watershed Map",
+        "already_in_spreadsheet": "☑️",
+        "guidance": "Include flow arrows, watershed outline, small fish/bird icons."
+      },
+      {
+        "asset": "Timelines & Icons",
+        "already_in_spreadsheet": "Designer to illustrate",
+        "guidance": "Keep icon style uniform (simple line art) across both posters."
+      }
+    ],
+    "references": {
+      "home_sheet_links": [
+        {
+          "sheet": "Home",
+          "cell": "A5",
+          "url": "https://docs.google.com/document/u/0/d/1ZZxgmai32WhrJuCJN2JmiAEb4H1A2W4Q/edit",
+          "display": "Narrative for this",
+          "role": "doc_link",
+          "label": "Narrative (Google Doc)"
+        },
+        {
+          "sheet": "Home",
+          "cell": "A7",
+          "url": "https://drive.google.com/file/d/1dpL-yzDn_qUJ1stzPHe1GIMkHASdfs-k/view",
+          "display": "Poster 1 Drawing",
+          "role": "drawing_link",
+          "label": "Poster 1 Drawing (Drive file)"
+        },
+        {
+          "sheet": "Home",
+          "cell": "A9",
+          "url": "https://drive.google.com/file/d/1SdfQFwwz1d6LajQgLATIEm3QsYJbiP_w/view",
+          "display": "Poster 2 Drawing",
+          "role": "drawing_link",
+          "label": "Poster 2 Drawing (Drive file)"
+        }
+      ],
+      "spreadsheet_cell_comments": [
+        {
+          "sheet": "General Overview",
+          "cell": "A19",
+          "comment": "We're not doing the mojave desert in a lakes poster. Let's use this @david@volumeinteractive.com\n_Assigned to David Cate_\n\t-Bennett Little"
+        },
+        {
+          "sheet": "General Overview",
+          "cell": "B19",
+          "comment": "This is the copy for this\n@david@volumeinteractive.com\n\t-Bennett Little"
+        },
+        {
+          "sheet": "Ecological Significance",
+          "cell": "B2",
+          "comment": "@david@volumeinteractive.com here are your notes about what to keep and what we don't need. IT also explains that the overall concept of what's in A3 is to take the watershed data from A6 and A7 and put it in there as well. I will try to do that tomorrow.\n\t-Bennett Little"
+        },
+        {
+          "sheet": "Ecological Significance",
+          "cell": "B6",
+          "comment": "@david@volumeinteractive.com Honestly, whichever is going to be the best source for the lines of the watersheds. We will want our watersheds to be less opaque than the MSU file, for sure. We will want it to be color coded by lake, like both files.\n_Assigned to David Cate_\n\t-Bennett Little"
+        },
+        {
+          "sheet": "Human Geography of",
+          "cell": "E2",
+          "comment": "@david@volumeinteractive.com I'm going to comment on individual pieces here.\n\t-Bennett Little\n@info@kaycliffcenter.com - Ok\n\t-David Cate"
+        }
+      ],
+      "spreadsheet_assets_by_sheet": {
+        "Home": [
+          {
+            "cell": "A5",
+            "display": "Narrative for this",
+            "url": "https://docs.google.com/document/u/0/d/1ZZxgmai32WhrJuCJN2JmiAEb4H1A2W4Q/edit"
+          },
+          {
+            "cell": "A7",
+            "display": "Poster 1 Drawing",
+            "url": "https://drive.google.com/file/d/1dpL-yzDn_qUJ1stzPHe1GIMkHASdfs-k/view"
+          },
+          {
+            "cell": "A9",
+            "display": "Poster 2 Drawing",
+            "url": "https://drive.google.com/file/d/1SdfQFwwz1d6LajQgLATIEm3QsYJbiP_w/view"
+          }
+        ],
+        "How () Forms": [
+          {
+            "cell": "A3",
+            "display": "Glacial",
+            "url": "https://cdn.midjourney.com/dddc5500-cb26-4aa6-b86d-14722a6b8626/0_0.png",
+            "row_context": [
+              {
+                "cell": "D3",
+                "value": "Tectonic"
+              }
+            ]
+          },
+          {
+            "cell": "D3",
+            "display": "Tectonic",
+            "url": "https://cdn.midjourney.com/988f5ba0-ddeb-497a-9960-ba547f1b5bd7/0_1.png",
+            "row_context": [
+              {
+                "cell": "A3",
+                "value": "Glacial"
+              },
+              {
+                "cell": "G3",
+                "value": "Volcanic"
+              }
+            ]
+          },
+          {
+            "cell": "G3",
+            "display": "Volcanic",
+            "url": "https://cdn.midjourney.com/23a52d4e-8b76-43e6-ae20-23262f44d2e9/0_0.png",
+            "row_context": [
+              {
+                "cell": "D3",
+                "value": "Tectonic"
+              },
+              {
+                "cell": "J3",
+                "value": "Artificial"
+              }
+            ]
+          },
+          {
+            "cell": "J3",
+            "display": "Artificial",
+            "url": "https://cdn.midjourney.com/ce0ece2e-6bf6-4de0-a670-ba5797ccf7a0/0_1.png",
+            "row_context": [
+              {
+                "cell": "G3",
+                "value": "Volcanic"
+              }
+            ]
+          }
+        ],
+        "General Overview": [
+          {
+            "cell": "A3",
+            "display": "Reference Map",
+            "url": "https://mapsforupsc.com/wp-content/uploads/2024/01/Major-Lakes-of-the-World-Map.png",
+            "row_context": [
+              {
+                "cell": "B3",
+                "value": "We want something like this that is simple and shows major lakes"
+              },
+              {
+                "cell": "E3",
+                "value": "Rank"
+              }
+            ]
+          },
+          {
+            "cell": "A16",
+            "display": "Lake Louise",
+            "url": "https://lp-cms-production.imgix.net/2019-06/a3d313780d6fb109d840e8c623d7b6e8-lake-louise.jpg?auto=format&fit=crop&ixlib=react-8.6.4&q=40&sharp=10&vib=20",
+            "row_context": [
+              {
+                "cell": "B16",
+                "value": "Stuff"
+              },
+              {
+                "cell": "E16",
+                "value": 13.0
+              }
+            ]
+          },
+          {
+            "cell": "A17",
+            "display": "Crater Lake",
+            "url": "https://www.shutterstock.com/image-photo/panoramic-view-crater-lake-main-feature-2429981773",
+            "row_context": [
+              {
+                "cell": "E17",
+                "value": 14.0
+              }
+            ]
+          },
+          {
+            "cell": "A18",
+            "display": "Lake Baikal",
+            "url": "https://thumbs.dreamstime.com/z/lake-baikal-winter-23861108.jpg",
+            "row_context": [
+              {
+                "cell": "E18",
+                "value": 15.0
+              }
+            ]
+          },
+          {
+            "cell": "A19",
+            "display": "Lake Tanganyika",
+            "url": "https://www.shutterstock.com/image-photo/sunset-lake-tanganyika-tanzania-2347672403",
+            "row_context": [
+              {
+                "cell": "B19",
+                "value": "At sunset along Africa’s Rift, Tanganyika glows amber as fishermen propel boats across its glassy surface. Nearly a mile deep, stratified waters preserve millennia of climate history in cold, oxygen‑poor layers."
+              },
+              {
+                "cell": "E19",
+                "value": 16.0
+              }
+            ],
+            "cell_comment": "We're not doing the mojave desert in a lakes poster. Let's use this @david@volumeinteractive.com\n_Assigned to David Cate_\n\t-Bennett Little",
+            "related_cell_comments_same_row": [
+              {
+                "cell": "B19",
+                "comment": "This is the copy for this\n@david@volumeinteractive.com\n\t-Bennett Little"
+              }
+            ]
+          }
+        ],
+        "Ecological Significance": [
+          {
+            "cell": "A3",
+            "display": "This or something like it that's vector based",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Great_Lakes%2C_No_Clouds_%284968915002%29_Brighter.jpg/640px-Great_Lakes%2C_No_Clouds_%284968915002%29_Brighter.jpg",
+            "row_context": [
+              {
+                "cell": "B3",
+                "value": "The concept is to take a really good vector and raster of the great lakes, and get really good watershed information for the great lakes like in A6 and A7. I will work on this on 8/1 and on 8/4. "
+              }
+            ]
+          },
+          {
+            "cell": "A5",
+            "display": "water flow",
+            "url": "https://i.redd.it/h6ay4ocfox271.jpg",
+            "row_context": [
+              {
+                "cell": "B5",
+                "value": "Don't need"
+              },
+              {
+                "cell": "C5",
+                "value": "OK"
+              }
+            ]
+          },
+          {
+            "cell": "A6",
+            "display": "watersheds",
+            "url": "https://www.canr.msu.edu/michigan_sea_grant/uploads/images/2022-Images/Great%20Lakes%20Basin%20map.jpg?language_id=1",
+            "related_cell_comments_same_row": [
+              {
+                "cell": "B6",
+                "comment": "@david@volumeinteractive.com Honestly, whichever is going to be the best source for the lines of the watersheds. We will want our watersheds to be less opaque than the MSU file, for sure. We will want it to be color coded by lake, like both files.\n_Assigned to David Cate_\n\t-Bennett Little"
+              }
+            ]
+          },
+          {
+            "cell": "A7",
+            "display": "watersheds again",
+            "url": "https://d2j02ha532z66v.cloudfront.net/wp-content/uploads/2020/04/Untitled.png"
+          },
+          {
+            "cell": "A8",
+            "display": "lake effect snow",
+            "url": "https://www.shutterstock.com/image-photo/man-walks-through-snow-downtown-buffalo-2416050319",
+            "row_context": [
+              {
+                "cell": "B8",
+                "value": "changed link on 8/18"
+              },
+              {
+                "cell": "C8",
+                "value": "yes actually changed this time"
+              }
+            ]
+          },
+          {
+            "cell": "A11",
+            "display": "Lake Superior Shoreline",
+            "url": "https://img.freepik.com/premium-photo/aerial-top-down-view-autumn-forest-rugged-lake-superior-shoreline_501731-17341.jpg"
+          },
+          {
+            "cell": "A12",
+            "display": "Lake Superior Shoreline",
+            "url": "https://www.shutterstock.com/image-photo/beautiful-landscape-lake-superior-northern-shore-80088553",
+            "row_context": [
+              {
+                "cell": "B12",
+                "value": "changed"
+              },
+              {
+                "cell": "C12",
+                "value": "OK"
+              },
+              {
+                "cell": "D12",
+                "value": "changed again"
+              },
+              {
+                "cell": "E12",
+                "value": "this is new photo as of 8/18"
+              }
+            ]
+          },
+          {
+            "cell": "D12",
+            "display": "changed again",
+            "url": "https://www.shutterstock.com/image-photo/clouds-build-over-lake-superior-fall-2234888077",
+            "row_context": [
+              {
+                "cell": "A12",
+                "value": "Lake Superior Shoreline"
+              },
+              {
+                "cell": "B12",
+                "value": "changed"
+              },
+              {
+                "cell": "C12",
+                "value": "OK"
+              },
+              {
+                "cell": "E12",
+                "value": "this is new photo as of 8/18"
+              }
+            ]
+          },
+          {
+            "cell": "A13",
+            "display": "lake trout",
+            "url": "https://s7d1.scene7.com/is/image/isp/waflaketrout-pv?qlt=100&wid=1200&ts=1690833262225&$ImageComponent$&fit=constrain"
+          },
+          {
+            "cell": "A14",
+            "display": "birds",
+            "url": "https://www.shutterstock.com/image-photo/american-white-pelican-swallowing-fish-on-487392301",
+            "row_context": [
+              {
+                "cell": "B14",
+                "value": "Where lakes recover, birds return. Pelicans, herons, and terns are winged proof that clean water still makes a living. "
+              },
+              {
+                "cell": "C14",
+                "value": "CHECK"
+              },
+              {
+                "cell": "D14",
+                "value": "text was changed on 8/18"
+              }
+            ]
+          },
+          {
+            "cell": "A17",
+            "display": "if we need something else",
+            "url": "https://i.redd.it/sk1kcqfxg53c1.jpeg",
+            "row_context": [
+              {
+                "cell": "B17",
+                "value": "Probably don't need."
+              }
+            ]
+          }
+        ],
+        "Human Geography of": [
+          {
+            "cell": "A5",
+            "display": "precontact",
+            "url": "https://interactive.wbez.org/curiouscity/chicago-native-americans/media/chicago_portage_cropped-mr.jpg",
+            "row_context": [
+              {
+                "cell": "D5",
+                "value": "shows the lakes before europeans arrived"
+              },
+              {
+                "cell": "E5",
+                "value": "This is good."
+              }
+            ]
+          },
+          {
+            "cell": "A7",
+            "display": "lumber camps",
+            "url": "https://michlegacyartpark.org/wp-content/uploads/2017/01/michigan-loggers-1200-984x725.jpg",
+            "row_context": [
+              {
+                "cell": "D7",
+                "value": "shows logging on the lakes"
+              },
+              {
+                "cell": "E7",
+                "value": "We need this, because it shows the start of European settlement, it needs to be more prominent."
+              }
+            ]
+          },
+          {
+            "cell": "A9",
+            "display": "Cleveland",
+            "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/10/ore-docks-0422344a25fb9fdd.jpg",
+            "row_context": [
+              {
+                "cell": "B9",
+                "value": "steel mill"
+              },
+              {
+                "cell": "D9",
+                "value": "how the lakes contributed to industry"
+              },
+              {
+                "cell": "E9",
+                "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+              }
+            ]
+          },
+          {
+            "cell": "B9",
+            "display": "steel mill",
+            "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/03/-2a3203ca837a51fa.jpg",
+            "row_context": [
+              {
+                "cell": "A9",
+                "value": "Cleveland"
+              },
+              {
+                "cell": "D9",
+                "value": "how the lakes contributed to industry"
+              },
+              {
+                "cell": "E9",
+                "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+              }
+            ]
+          },
+          {
+            "cell": "A10",
+            "display": "industry",
+            "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/caster-51cf18e6a29305a5.jpg",
+            "row_context": [
+              {
+                "cell": "B10",
+                "value": "steel mill"
+              },
+              {
+                "cell": "C10",
+                "value": "more"
+              },
+              {
+                "cell": "E10",
+                "value": "I'm marking out the rest for now."
+              }
+            ]
+          },
+          {
+            "cell": "B10",
+            "display": "steel mill",
+            "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/1949-press-photo-republic-steel-strike-cleveland-ohio-49884261d1ea00b2.jpg",
+            "row_context": [
+              {
+                "cell": "A10",
+                "value": "industry"
+              },
+              {
+                "cell": "C10",
+                "value": "more"
+              },
+              {
+                "cell": "E10",
+                "value": "I'm marking out the rest for now."
+              }
+            ]
+          },
+          {
+            "cell": "C10",
+            "display": "more",
+            "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/tugstrikejpg-0cef4c9f14b07285.jpg",
+            "row_context": [
+              {
+                "cell": "A10",
+                "value": "industry"
+              },
+              {
+                "cell": "B10",
+                "value": "steel mill"
+              },
+              {
+                "cell": "E10",
+                "value": "I'm marking out the rest for now."
+              }
+            ]
+          },
+          {
+            "cell": "A12",
+            "display": "Chicago",
+            "url": "https://c8.alamy.com/comp/CT5YPT/the-chicago-skyline-with-the-chicago-harbour-and-lake-michigan-in-CT5YPT.jpg",
+            "row_context": [
+              {
+                "cell": "D12",
+                "value": "urbanization on the lakes"
+              },
+              {
+                "cell": "E12",
+                "value": "The paragraph \"from duluth to detroit...\" it's accompanying a photo of toronto. Can we make it say something like: \"These five linked lakes form a shared U.S.–Canada corridor—commerce flows, habitats intersect, history overlaps."
+              }
+            ]
+          },
+          {
+            "cell": "A13",
+            "display": "Chicago",
+            "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/chicago-skyline-from-the-lake-stevegeer.jpg",
+            "row_context": [
+              {
+                "cell": "E13",
+                "value": "That paragraph accompanies the toronto photo."
+              }
+            ]
+          },
+          {
+            "cell": "A14",
+            "display": "Toronto",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg/640px-CC_2022-06-18_193-Pano_%28cropped%29_01.jpg"
+          },
+          {
+            "cell": "A16",
+            "display": "recreation",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGu9cS8HzwN74R07cBzF_Iamjts0OFBOvKcQ&s",
+            "row_context": [
+              {
+                "cell": "D16",
+                "value": "the lakes as a recreation destination"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "posters": [
+      {
+        "poster_id": 1,
+        "working_title": "Where Earth Holds Its Breath",
+        "layout_concepts": [
+          {
+            "concept_id": "nanobanana_poster1_global",
+            "reference_image_file": "north america lakes 1.jpg"
+          }
+        ],
+        "sections": [
+          {
+            "side": "left",
+            "section_key": "how_lakes_form",
+            "section_subtitle": "The Making of a Lake: Ice, Fire & Fault Lines",
+            "primary_text_source": "Lake text.docx",
+            "alternate_draft_copy_source": "NA landforms 3.docx",
+            "alternate_draft_title": "Lakes: Nature’s Water Reservoirs",
+            "alternate_draft_intro_paragraph": "Lakes begin as ideas etched into the Earth’s surface—stories told through ice, molten rock, shifting lands, and human hands. Glaciers carve deep basins. Cracks in the planet’s crust fill with water over millions of years. Sleeping volcanoes quietly gather rain in their craters. Even we humans build lakes, holding rivers back to store precious water. Each lake’s origin reveals a hidden chapter in Earth’s grand narrative.”\nInfographic Ideas:\nFour Panels in a Horizontal Row:\nGlacial Lakes: A simple cross-section showing a glacier slowly advancing and retreating, carving a basin into bedrock.\nLabel: “Glacier Retreats” with an arrow showing ice movement.\nCallout box: “Glacial carving leaves behind deep bowls that fill with meltwater.”\nExample Caption: “The Great Lakes (U.S./Canada).”\nTectonic Lakes: A cross-section of Earth’s crust pulling apart along a fault line.\nLabel: “Crust Shifts” with arrows showing land moving in opposite directions.\nCallout box: “When the ground sinks, water flows in, forming some of the world’s oldest lakes.”\nExample Caption: “Lake Baikal (Russia).”\nVolcanic Lakes: A volcanic crater filling with rainwater.\nLabel: “Volcanic Eruption” with an arrow pointing to the crater.\nCallout box: “After fire and ash settle, a tranquil pool of fresh water emerges.”\nExample Caption: “Crater Lake (Oregon, U.S.).”\nArtificial Lakes: A dam holding back a river.\nLabel: “Dam Created” with arrows showing water pooling behind it.\nCallout box: “Human-made reservoirs store water for cities, farms, and energy.”\nExample Caption: “Lake Mead (Nevada/Arizona, U.S.).”\nOne-Liner “Did You Know” Boxes:\nNear Glacial Lakes: “Did you know some glacier-carved lakes are older than human civilizations?”\nNear Volcanic Lakes: “Did you know volcanic lakes can be crystal-clear, reflecting mountaintops like a perfect mirror?”\nSuggested Imagery:\nSmall inset photo of a bright blue glacial lake like Moraine Lake in Canada.\nA photo of Lake Baikal’s shoreline (rocky coast, clear water).\nA photo of Crater Lake’s deep blue basin and cliffs.\nA small image of Hoover Dam or Lake Mead.\n\nPoster 1, Right Section: General Overview of Lakes (Global Context)\nShort Text Copy:",
+            "panels": [
+              {
+                "formation_type": "glacial",
+                "display_label": "Glacial",
+                "infographic_panel": {
+                  "sheet": "How () Forms",
+                  "cell": "A3",
+                  "url": "https://cdn.midjourney.com/dddc5500-cb26-4aa6-b86d-14722a6b8626/0_0.png",
+                  "display": "Glacial",
+                  "role": "infographic_panel",
+                  "label": "Glacial lake formation diagram",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "D3",
+                        "value": "Tectonic"
+                      }
+                    ]
+                  }
+                },
+                "requested_photo_subject": "Moraine Lake (Canada)",
+                "photo_asset_refs": [],
+                "fallback_photo_asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A16",
+                    "url": "https://lp-cms-production.imgix.net/2019-06/a3d313780d6fb109d840e8c623d7b6e8-lake-louise.jpg?auto=format&fit=crop&ixlib=react-8.6.4&q=40&sharp=10&vib=20",
+                    "display": "Lake Louise",
+                    "role": "photo_fallback",
+                    "label": "Lake Louise (glacier-fed lake) – usable stand-in if needed",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B16",
+                          "value": "Stuff"
+                        },
+                        {
+                          "cell": "E16",
+                          "value": 13.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "caption": "Ice once bulldozed this valley, then melted, leaving a turquoise bowl of liquid glacier. Moraine Lake is proof that even a retreating giant can sculpt beauty.",
+                "slot_label": "Glacial – Moraine Lake",
+                "notes": {
+                  "why_fallback": "Spreadsheet does not currently include a Moraine Lake link; Lake Louise is the closest in-sheet glacier-fed alternative."
+                }
+              },
+              {
+                "formation_type": "tectonic",
+                "display_label": "Tectonic",
+                "infographic_panel": {
+                  "sheet": "How () Forms",
+                  "cell": "D3",
+                  "url": "https://cdn.midjourney.com/988f5ba0-ddeb-497a-9960-ba547f1b5bd7/0_1.png",
+                  "display": "Tectonic",
+                  "role": "infographic_panel",
+                  "label": "Tectonic lake formation diagram",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "A3",
+                        "value": "Glacial"
+                      },
+                      {
+                        "cell": "G3",
+                        "value": "Volcanic"
+                      }
+                    ]
+                  }
+                },
+                "requested_photo_subject": "Lake Baikal (Russia)",
+                "photo_asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A18",
+                    "url": "https://thumbs.dreamstime.com/z/lake-baikal-winter-23861108.jpg",
+                    "display": "Lake Baikal",
+                    "role": "photo",
+                    "label": "Lake Baikal in winter (ice)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E18",
+                          "value": 15.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "alternate_photo_asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A19",
+                    "url": "https://www.shutterstock.com/image-photo/sunset-lake-tanganyika-tanzania-2347672403",
+                    "display": "Lake Tanganyika",
+                    "role": "photo_alt",
+                    "label": "Lake Tanganyika (rift/tectonic lake – alternate example)",
+                    "notes": {
+                      "cell_comment": "We're not doing the mojave desert in a lakes poster. Let's use this @david@volumeinteractive.com\n_Assigned to David Cate_\n\t-Bennett Little",
+                      "row_context": [
+                        {
+                          "cell": "B19",
+                          "value": "At sunset along Africa’s Rift, Tanganyika glows amber as fishermen propel boats across its glassy surface. Nearly a mile deep, stratified waters preserve millennia of climate history in cold, oxygen‑poor layers."
+                        },
+                        {
+                          "cell": "E19",
+                          "value": 16.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "caption": "Two slabs of Earth are slowly pulling apart here, opening a crack so deep it stores 20% of the world’s liquid freshwater. Welcome to Lake Baikal, the planet’s oldest lake.",
+                "slot_label": "Tectonic – Lake Baikal"
+              },
+              {
+                "formation_type": "volcanic",
+                "display_label": "Volcanic",
+                "infographic_panel": {
+                  "sheet": "How () Forms",
+                  "cell": "G3",
+                  "url": "https://cdn.midjourney.com/23a52d4e-8b76-43e6-ae20-23262f44d2e9/0_0.png",
+                  "display": "Volcanic",
+                  "role": "infographic_panel",
+                  "label": "Volcanic crater lake formation diagram",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "D3",
+                        "value": "Tectonic"
+                      },
+                      {
+                        "cell": "J3",
+                        "value": "Artificial"
+                      }
+                    ]
+                  }
+                },
+                "requested_photo_subject": "Crater Lake (Oregon, USA)",
+                "photo_asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A17",
+                    "url": "https://www.shutterstock.com/image-photo/panoramic-view-crater-lake-main-feature-2429981773",
+                    "display": "Crater Lake",
+                    "role": "photo",
+                    "label": "Crater Lake (panoramic)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E17",
+                          "value": 14.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "caption": "A sleeping volcano keeps a secret: rain and snow have filled its empty heart with the bluest water on Earth.",
+                "slot_label": "Volcanic – Crater Lake"
+              },
+              {
+                "formation_type": "artificial",
+                "display_label": "Artificial",
+                "infographic_panel": {
+                  "sheet": "How () Forms",
+                  "cell": "J3",
+                  "url": "https://cdn.midjourney.com/ce0ece2e-6bf6-4de0-a670-ba5797ccf7a0/0_1.png",
+                  "display": "Artificial",
+                  "role": "infographic_panel",
+                  "label": "Reservoir / dam-created lake diagram",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "G3",
+                        "value": "Volcanic"
+                      }
+                    ]
+                  }
+                },
+                "requested_photo_subject": "Lake Mead / Hoover Dam (Nevada/Arizona, USA)",
+                "photo_asset_refs": [],
+                "caption": "When people dammed the Colorado River, they created a modern oasis—Lake Mead—turning canyon walls into mile‑wide water banks.",
+                "slot_label": "Artificial – Lake Mead / Hoover Dam",
+                "flags": [
+                  "needs_photo_link_in_spreadsheet"
+                ]
+              }
+            ],
+            "did_you_know": {
+              "selection_rule": "choose_any_two",
+              "options": [
+                "Some glacier‑carved lakes are older than every human civilization ever recorded.",
+                "Lake Baikal holds more water than all the Great Lakes combined—in a single basin!",
+                "Volcanic lakes can be so pure that light reaches 130 feet below the surface."
+              ]
+            }
+          },
+          {
+            "side": "right",
+            "section_key": "general_overview_global_lakes",
+            "section_subtitle": "Globes of Blue, Scattered Like Stars",
+            "primary_text_source": "Lake text.docx",
+            "alternate_draft_intro_paragraph": "Lakes dot every continent, from icy highlands to sun-scorched plains. They hold life’s essentials: fresh water, food, and shelter. Some shimmer with ancient stories buried in their depths. Others feed nations with drinking water and energy. Across the globe, lakes shape climates, nurture wildlife, and connect us all.",
+            "image_slots": [
+              {
+                "slot_key": "world_lakes_map",
+                "slot_label": "World Lakes Map",
+                "caption": "From polar basins to desert salt pans, lakes speckle every continent like freckles on Earth’s face.",
+                "asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A3",
+                    "url": "https://mapsforupsc.com/wp-content/uploads/2024/01/Major-Lakes-of-the-World-Map.png",
+                    "display": "Reference Map",
+                    "role": "map_reference",
+                    "label": "Reference map (major lakes)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B3",
+                          "value": "We want something like this that is simple and shows major lakes"
+                        },
+                        {
+                          "cell": "E3",
+                          "value": "Rank"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "designer_guidance": "Designer: use icon set provided, neutral land, pale‑blue water, clearly legible at 3‑second glance."
+              },
+              {
+                "slot_key": "lake_louise",
+                "slot_label": "Lake Louise",
+                "caption": "Glacier milk paints Lake Louise an impossible shade of turquoise, reflecting peaks like a silvered mirror.",
+                "asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A16",
+                    "url": "https://lp-cms-production.imgix.net/2019-06/a3d313780d6fb109d840e8c623d7b6e8-lake-louise.jpg?auto=format&fit=crop&ixlib=react-8.6.4&q=40&sharp=10&vib=20",
+                    "display": "Lake Louise",
+                    "role": "photo",
+                    "label": "Lake Louise (Canada)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B16",
+                          "value": "Stuff"
+                        },
+                        {
+                          "cell": "E16",
+                          "value": 13.0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_key": "crater_lake_alt_angle",
+                "slot_label": "Crater Lake (alt angle)",
+                "caption": "Peering over the rim of an ancient blast zone, you’re looking into 7,700 years of silent rainfall.",
+                "asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A17",
+                    "url": "https://www.shutterstock.com/image-photo/panoramic-view-crater-lake-main-feature-2429981773",
+                    "display": "Crater Lake",
+                    "role": "photo",
+                    "label": "Crater Lake (Oregon, USA)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E17",
+                          "value": 14.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "asset_note": "Spreadsheet provides one Crater Lake photo link; treat as the 'alt angle' unless another is added."
+                }
+              },
+              {
+                "slot_key": "lake_baikal_in_winter_ice",
+                "slot_label": "Lake Baikal in winter (ice)",
+                "caption": "In February, Baikal’s surface turns to glass so clear you can watch fish glide 60 feet below your boots.",
+                "asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A18",
+                    "url": "https://thumbs.dreamstime.com/z/lake-baikal-winter-23861108.jpg",
+                    "display": "Lake Baikal",
+                    "role": "photo",
+                    "label": "Lake Baikal ice (winter)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E18",
+                          "value": 15.0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_key": "optional_rift_lake_example",
+                "slot_label": "Lake Tanganyika (optional extra example)",
+                "caption": "Optional supporting photo for a rift/tectonic lake callout (not required by Lake text.docx, but present in the spreadsheet).",
+                "asset_refs": [
+                  {
+                    "sheet": "General Overview",
+                    "cell": "A19",
+                    "url": "https://www.shutterstock.com/image-photo/sunset-lake-tanganyika-tanzania-2347672403",
+                    "display": "Lake Tanganyika",
+                    "role": "photo_optional",
+                    "label": "Lake Tanganyika",
+                    "notes": {
+                      "cell_comment": "We're not doing the mojave desert in a lakes poster. Let's use this @david@volumeinteractive.com\n_Assigned to David Cate_\n\t-Bennett Little",
+                      "row_context": [
+                        {
+                          "cell": "B19",
+                          "value": "At sunset along Africa’s Rift, Tanganyika glows amber as fishermen propel boats across its glassy surface. Nearly a mile deep, stratified waters preserve millennia of climate history in cold, oxygen‑poor layers."
+                        },
+                        {
+                          "cell": "E19",
+                          "value": 16.0
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "adjacent_copy_cell": "General Overview!B19 (has draft copy for this image)",
+                  "adjacent_copy_cell_comment": "This is the copy for this\n@david@volumeinteractive.com\n\t-Bennett Little",
+                  "image_cell_comment": "We're not doing the mojave desert in a lakes poster. Let's use this @david@volumeinteractive.com\n_Assigned to David Cate_\n\t-Bennett Little"
+                }
+              }
+            ],
+            "did_you_know": {
+              "selection_rule": "choose_any_three_or_rotate",
+              "options": [
+                "Together, lakes cover about 4% of Earth’s land, yet they hold fresh water for billions.",
+                "Utah’s Great Salt Lake is so salty you could float like a cork without paddling.",
+                "High‑altitude lakes in the Andes host pink flamingos that nest at 14,000 feet."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "poster_id": 2,
+        "working_title": "Five Inland Seas, Millions of Stories",
+        "layout_concepts": [
+          {
+            "concept_id": "nanobanana_poster2_environmental_human_poetic_header",
+            "reference_image_file": "na lakes 2 concept a.jpeg",
+            "header_text": "Where Earth Holds its Breath"
+          },
+          {
+            "concept_id": "nanobanana_poster2_environmental_human_series_header",
+            "reference_image_file": "NA lakes 2 concept.jpeg",
+            "header_text": "North America Landforms: Lakes"
+          }
+        ],
+        "sections": [
+          {
+            "side": "left",
+            "section_key": "environmental_significance_great_lakes",
+            "section_subtitle": "Great Lakes: Fresh‑Water Seas",
+            "primary_text_source": "Lake text.docx",
+            "alternate_draft_intro_paragraph": "Lakes act as Earth’s quiet heroes. They store freshwater, stabilize climates, shelter species, and form stepping-stones for migrating birds. They are hubs of biodiversity, influencing local weather and cycling nutrients through the water and soil. Without lakes, entire ecosystems—ours included—would struggle to thrive.",
+            "core_infographic": {
+              "slot_label": "Great Lakes Watershed Map",
+              "caption": "Five mighty basins knit together, draining an area the size of the UK, France, and Spain combined—and then pour out the St. Lawrence to the Atlantic.",
+              "asset_refs": [
+                {
+                  "sheet": "Ecological Significance",
+                  "cell": "A3",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Great_Lakes%2C_No_Clouds_%284968915002%29_Brighter.jpg/640px-Great_Lakes%2C_No_Clouds_%284968915002%29_Brighter.jpg",
+                  "display": "This or something like it that's vector based",
+                  "role": "base_map_raster",
+                  "label": "Great Lakes base image (satellite)",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "B3",
+                        "value": "The concept is to take a really good vector and raster of the great lakes, and get really good watershed information for the great lakes like in A6 and A7. I will work on this on 8/1 and on 8/4. "
+                      }
+                    ]
+                  }
+                },
+                {
+                  "sheet": "Ecological Significance",
+                  "cell": "A6",
+                  "url": "https://www.canr.msu.edu/michigan_sea_grant/uploads/images/2022-Images/Great%20Lakes%20Basin%20map.jpg?language_id=1",
+                  "display": "watersheds",
+                  "role": "watershed_reference",
+                  "label": "Great Lakes basin map (watershed reference)"
+                },
+                {
+                  "sheet": "Ecological Significance",
+                  "cell": "A7",
+                  "url": "https://d2j02ha532z66v.cloudfront.net/wp-content/uploads/2020/04/Untitled.png",
+                  "display": "watersheds again",
+                  "role": "watershed_reference_alt",
+                  "label": "Watershed reference (alternate)"
+                },
+                {
+                  "sheet": "Ecological Significance",
+                  "cell": "A5",
+                  "url": "https://i.redd.it/h6ay4ocfox271.jpg",
+                  "display": "water flow",
+                  "role": "flow_reference_optional",
+                  "label": "Water-flow reference (marked 'Don't need' in row notes)",
+                  "notes": {
+                    "row_context": [
+                      {
+                        "cell": "B5",
+                        "value": "Don't need"
+                      },
+                      {
+                        "cell": "C5",
+                        "value": "OK"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "designer_guidance": "Include flow arrows, watershed outline, small fish/bird icons.",
+              "spreadsheet_comments": [
+                "@david@volumeinteractive.com here are your notes about what to keep and what we don't need. IT also explains that the overall concept of what's in A3 is to take the watershed data from A6 and A7 and put it in there as well. I will try to do that tomorrow.\n\t-Bennett Little",
+                "@david@volumeinteractive.com Honestly, whichever is going to be the best source for the lines of the watersheds. We will want our watersheds to be less opaque than the MSU file, for sure. We will want it to be color coded by lake, like both files.\n_Assigned to David Cate_\n\t-Bennett Little"
+              ]
+            },
+            "supporting_photos": [
+              {
+                "slot_label": "Lake Superior Shoreline (forest)",
+                "caption": "Cold, clear waves meet boreal forest; every splash launches moisture that feeds towering white pines.",
+                "asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A12",
+                    "url": "https://www.shutterstock.com/image-photo/beautiful-landscape-lake-superior-northern-shore-80088553",
+                    "display": "Lake Superior Shoreline",
+                    "role": "photo_primary",
+                    "label": "Lake Superior shoreline (preferred candidate)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B12",
+                          "value": "changed"
+                        },
+                        {
+                          "cell": "C12",
+                          "value": "OK"
+                        },
+                        {
+                          "cell": "D12",
+                          "value": "changed again"
+                        },
+                        {
+                          "cell": "E12",
+                          "value": "this is new photo as of 8/18"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "alternate_asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A11",
+                    "url": "https://img.freepik.com/premium-photo/aerial-top-down-view-autumn-forest-rugged-lake-superior-shoreline_501731-17341.jpg",
+                    "display": "Lake Superior Shoreline",
+                    "role": "photo_alt",
+                    "label": "Lake Superior shoreline (alternate – aerial/top-down)"
+                  },
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "D12",
+                    "url": "https://www.shutterstock.com/image-photo/clouds-build-over-lake-superior-fall-2234888077",
+                    "display": "changed again",
+                    "role": "photo_alt",
+                    "label": "Lake Superior shoreline (alternate – clouds build over lake)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "A12",
+                          "value": "Lake Superior Shoreline"
+                        },
+                        {
+                          "cell": "B12",
+                          "value": "changed"
+                        },
+                        {
+                          "cell": "C12",
+                          "value": "OK"
+                        },
+                        {
+                          "cell": "E12",
+                          "value": "this is new photo as of 8/18"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_label": "Lake Trout close‑up",
+                "caption": "Lake trout thrive in these icy depths—some live longer than many people, reaching 40 years of age.",
+                "asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A13",
+                    "url": "https://s7d1.scene7.com/is/image/isp/waflaketrout-pv?qlt=100&wid=1200&ts=1690833262225&$ImageComponent$&fit=constrain",
+                    "display": "lake trout",
+                    "role": "photo",
+                    "label": "Lake trout close-up"
+                  }
+                ]
+              }
+            ],
+            "optional_callouts": [
+              {
+                "slot_label": "Lake-effect snow reference",
+                "use_case": "Supports the 'lake-effect' climate zone / Did You Know snow callout",
+                "asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A8",
+                    "url": "https://www.shutterstock.com/image-photo/man-walks-through-snow-downtown-buffalo-2416050319",
+                    "display": "lake effect snow",
+                    "role": "photo_optional",
+                    "label": "Lake-effect snow photo",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B8",
+                          "value": "changed link on 8/18"
+                        },
+                        {
+                          "cell": "C8",
+                          "value": "yes actually changed this time"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_label": "Birds return (pelicans/herons/terns)",
+                "use_case": "Supports biodiversity / wildlife iconography; can be used as a small photo or silhouette reference",
+                "asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A14",
+                    "url": "https://www.shutterstock.com/image-photo/american-white-pelican-swallowing-fish-on-487392301",
+                    "display": "birds",
+                    "role": "photo_optional",
+                    "label": "American white pelican with fish",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B14",
+                          "value": "Where lakes recover, birds return. Pelicans, herons, and terns are winged proof that clean water still makes a living. "
+                        },
+                        {
+                          "cell": "C14",
+                          "value": "CHECK"
+                        },
+                        {
+                          "cell": "D14",
+                          "value": "text was changed on 8/18"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_label": "Extra / backup image (if needed)",
+                "asset_refs": [
+                  {
+                    "sheet": "Ecological Significance",
+                    "cell": "A17",
+                    "url": "https://i.redd.it/sk1kcqfxg53c1.jpeg",
+                    "display": "if we need something else",
+                    "role": "photo_backup",
+                    "label": "Backup image link (marked 'Probably don't need')",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B17",
+                          "value": "Probably don't need."
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "did_you_know": {
+              "selection_rule": "choose_any_three_or_rotate",
+              "options": [
+                "The Great Lakes hold 1⁄5 of Earth’s surface fresh water—enough to bury the lower 48 states under 10 feet of water.",
+                "“Lake‑effect” snow can dump 3 feet overnight on towns downwind of warm open water.",
+                "Bald eagles, once nearly gone, now nest by the hundreds along recovering shorelines."
+              ]
+            }
+          },
+          {
+            "side": "right",
+            "section_key": "human_geography_timeline",
+            "section_subtitle": "Waterways That Shaped Nations",
+            "primary_text_source": "Lake text.docx",
+            "alternate_draft_intro_paragraph": "For countless generations, people have gathered at the water’s edge. Lakes offered food, trade routes, and places to build cities and dreams. From Indigenous canoes navigating ancient waterways to modern freighters hauling iron ore, these water bodies reflect our past and shape our future. Today, millions depend on lakes for drinking water, industry, and inspiration.”\nTimeline",
+            "timeline_nodes": [
+              {
+                "period_key": "pre_contact",
+                "label": "Pre-Contact Era",
+                "icon_suggestion": "canoe",
+                "caption": "Indigenous peoples fishing and trading along ancient waterways.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A5",
+                    "url": "https://interactive.wbez.org/curiouscity/chicago-native-americans/media/chicago_portage_cropped-mr.jpg",
+                    "display": "precontact",
+                    "role": "photo_reference",
+                    "label": "Pre-contact / Indigenous waterways reference",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D5",
+                          "value": "shows the lakes before europeans arrived"
+                        },
+                        {
+                          "cell": "E5",
+                          "value": "This is good."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "sheet_context": [
+                    {
+                      "cell": "D5",
+                      "value": "shows the lakes before europeans arrived"
+                    },
+                    {
+                      "cell": "E5",
+                      "value": "This is good."
+                    }
+                  ]
+                }
+              },
+              {
+                "period_key": "nineteenth_century_industry",
+                "label": "19th Century Industry",
+                "icon_suggestion": "cargo_ship / mill",
+                "caption": "Rise of shipping routes, steel mills, and lumber camps.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A7",
+                    "url": "https://michlegacyartpark.org/wp-content/uploads/2017/01/michigan-loggers-1200-984x725.jpg",
+                    "display": "lumber camps",
+                    "role": "photo_reference",
+                    "label": "Lumber camps / logging on the lakes",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D7",
+                          "value": "shows logging on the lakes"
+                        },
+                        {
+                          "cell": "E7",
+                          "value": "We need this, because it shows the start of European settlement, it needs to be more prominent."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A9",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/10/ore-docks-0422344a25fb9fdd.jpg",
+                    "display": "Cleveland",
+                    "role": "photo_reference",
+                    "label": "Cleveland ore docks / industrial shipping infrastructure",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B9",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "D9",
+                          "value": "how the lakes contributed to industry"
+                        },
+                        {
+                          "cell": "E9",
+                          "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "B9",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/03/-2a3203ca837a51fa.jpg",
+                    "display": "steel mill",
+                    "role": "photo_reference_alt",
+                    "label": "Steel mill (alternate)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "A9",
+                          "value": "Cleveland"
+                        },
+                        {
+                          "cell": "D9",
+                          "value": "how the lakes contributed to industry"
+                        },
+                        {
+                          "cell": "E9",
+                          "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A10",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/caster-51cf18e6a29305a5.jpg",
+                    "display": "industry",
+                    "role": "photo_reference_alt",
+                    "label": "Industry (alternate)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B10",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "C10",
+                          "value": "more"
+                        },
+                        {
+                          "cell": "E10",
+                          "value": "I'm marking out the rest for now."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "B10",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/1949-press-photo-republic-steel-strike-cleveland-ohio-49884261d1ea00b2.jpg",
+                    "display": "steel mill",
+                    "role": "photo_reference_alt",
+                    "label": "Steel mill (alternate)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "A10",
+                          "value": "industry"
+                        },
+                        {
+                          "cell": "C10",
+                          "value": "more"
+                        },
+                        {
+                          "cell": "E10",
+                          "value": "I'm marking out the rest for now."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "C10",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/tugstrikejpg-0cef4c9f14b07285.jpg",
+                    "display": "more",
+                    "role": "photo_reference_alt",
+                    "label": "Tug / strike (alternate)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "A10",
+                          "value": "industry"
+                        },
+                        {
+                          "cell": "B10",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "E10",
+                          "value": "I'm marking out the rest for now."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "prominence_note": 4.0,
+                  "industry_note": 6.0
+                }
+              },
+              {
+                "period_key": "twentieth_century_urban_growth",
+                "label": "20th Century Urban Growth",
+                "icon_suggestion": "skyline",
+                "caption": "Cities like Chicago and Toronto flourish on lakefronts.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A12",
+                    "url": "https://c8.alamy.com/comp/CT5YPT/the-chicago-skyline-with-the-chicago-harbour-and-lake-michigan-in-CT5YPT.jpg",
+                    "display": "Chicago",
+                    "role": "photo_reference",
+                    "label": "Chicago skyline from Lake Michigan (candidate 1)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D12",
+                          "value": "urbanization on the lakes"
+                        },
+                        {
+                          "cell": "E12",
+                          "value": "The paragraph \"from duluth to detroit...\" it's accompanying a photo of toronto. Can we make it say something like: \"These five linked lakes form a shared U.S.–Canada corridor—commerce flows, habitats intersect, history overlaps."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A14",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg/640px-CC_2022-06-18_193-Pano_%28cropped%29_01.jpg",
+                    "display": "Toronto",
+                    "role": "photo_reference",
+                    "label": "Toronto skyline (waterfront panorama)"
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A13",
+                    "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/chicago-skyline-from-the-lake-stevegeer.jpg",
+                    "display": "Chicago",
+                    "role": "photo_reference_alt",
+                    "label": "Chicago skyline (candidate 2)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E13",
+                          "value": "That paragraph accompanies the toronto photo."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "urbanization_note": 9.0,
+                  "toronto_note": 10.0
+                }
+              },
+              {
+                "period_key": "modern_recreation_conservation",
+                "label": "Modern Times",
+                "icon_suggestion": "kayak / park",
+                "caption": "Recreation and conservation—paddles, birdwatching, cleaner water laws.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A16",
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGu9cS8HzwN74R07cBzF_Iamjts0OFBOvKcQ&s",
+                    "display": "recreation",
+                    "role": "photo_reference",
+                    "label": "Recreation destination image",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D16",
+                          "value": "the lakes as a recreation destination"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "sheet_context": [
+                    {
+                      "cell": "D16",
+                      "value": "the lakes as a recreation destination"
+                    }
+                  ]
+                }
+              }
+            ],
+            "image_slots": [
+              {
+                "slot_key": "historic_freighter_bw",
+                "slot_label": "Historic Freighter (B&W)",
+                "caption": "Early 1900s ore boats were the steel backbone of America’s skyscrapers—in every literal sense.",
+                "asset_refs": [],
+                "available_candidates": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A9",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/10/ore-docks-0422344a25fb9fdd.jpg",
+                    "display": "Cleveland",
+                    "role": "candidate",
+                    "label": "Cleveland ore docks / industrial shipping",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B9",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "D9",
+                          "value": "how the lakes contributed to industry"
+                        },
+                        {
+                          "cell": "E9",
+                          "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "C10",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/11/tugstrikejpg-0cef4c9f14b07285.jpg",
+                    "display": "more",
+                    "role": "candidate",
+                    "label": "Tug / strike (could read as maritime industry)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "A10",
+                          "value": "industry"
+                        },
+                        {
+                          "cell": "B10",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "E10",
+                          "value": "I'm marking out the rest for now."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "flags": [
+                  "needs_specific_freighter_photo_link_in_spreadsheet"
+                ]
+              },
+              {
+                "slot_key": "chicago_skyline_from_lake_michigan",
+                "slot_label": "Chicago Skyline from Lake Michigan",
+                "caption": "A city borne on waves: Chicago owes its growth to a watery highway wider than many rivers are long.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A12",
+                    "url": "https://c8.alamy.com/comp/CT5YPT/the-chicago-skyline-with-the-chicago-harbour-and-lake-michigan-in-CT5YPT.jpg",
+                    "display": "Chicago",
+                    "role": "photo_primary",
+                    "label": "Chicago skyline (Alamy)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D12",
+                          "value": "urbanization on the lakes"
+                        },
+                        {
+                          "cell": "E12",
+                          "value": "The paragraph \"from duluth to detroit...\" it's accompanying a photo of toronto. Can we make it say something like: \"These five linked lakes form a shared U.S.–Canada corridor—commerce flows, habitats intersect, history overlaps."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "alternate_asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A13",
+                    "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/chicago-skyline-from-the-lake-stevegeer.jpg",
+                    "display": "Chicago",
+                    "role": "photo_alt",
+                    "label": "Chicago skyline (FineArtAmerica)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "E13",
+                          "value": "That paragraph accompanies the toronto photo."
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "slot_key": "great_lakes_communities_collage",
+                "slot_label": "Great Lakes Communities Collage",
+                "caption": "From Duluth to Detroit, whole cultures pulse to the rhythm of lakefront life—work, worship, and weekend sails.",
+                "asset_refs": [],
+                "composition_candidates": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A12",
+                    "url": "https://c8.alamy.com/comp/CT5YPT/the-chicago-skyline-with-the-chicago-harbour-and-lake-michigan-in-CT5YPT.jpg",
+                    "display": "Chicago",
+                    "role": "source",
+                    "label": "Chicago",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D12",
+                          "value": "urbanization on the lakes"
+                        },
+                        {
+                          "cell": "E12",
+                          "value": "The paragraph \"from duluth to detroit...\" it's accompanying a photo of toronto. Can we make it say something like: \"These five linked lakes form a shared U.S.–Canada corridor—commerce flows, habitats intersect, history overlaps."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A14",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/CC_2022-06-18_193-Pano_%28cropped%29_01.jpg/640px-CC_2022-06-18_193-Pano_%28cropped%29_01.jpg",
+                    "display": "Toronto",
+                    "role": "source",
+                    "label": "Toronto"
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A9",
+                    "url": "https://image.cleveland.com/home/cleve-media/pgmain/img/plain-dealer/photo/2016/10/10/ore-docks-0422344a25fb9fdd.jpg",
+                    "display": "Cleveland",
+                    "role": "source",
+                    "label": "Cleveland/industry",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "B9",
+                          "value": "steel mill"
+                        },
+                        {
+                          "cell": "D9",
+                          "value": "how the lakes contributed to industry"
+                        },
+                        {
+                          "cell": "E9",
+                          "value": "Let's see how this looks using just the one in A9 to underscore ore boats. If we need something else, we can use the one in B9."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A7",
+                    "url": "https://michlegacyartpark.org/wp-content/uploads/2017/01/michigan-loggers-1200-984x725.jpg",
+                    "display": "lumber camps",
+                    "role": "source",
+                    "label": "Lumber camps",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D7",
+                          "value": "shows logging on the lakes"
+                        },
+                        {
+                          "cell": "E7",
+                          "value": "We need this, because it shows the start of European settlement, it needs to be more prominent."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "notes": {
+                  "designer_instruction": "Assemble a collage from available city/industry/community images, or add a dedicated collage photo link."
+                },
+                "flags": [
+                  "collage_needs_creation_or_link"
+                ]
+              },
+              {
+                "slot_key": "kayaker_family_picnic",
+                "slot_label": "Kayaker / Family Picnic",
+                "caption": "Today, paddles splash where canoes once traded furs, proving commerce and play can share the same shore.",
+                "asset_refs": [
+                  {
+                    "sheet": "Human Geography of",
+                    "cell": "A16",
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGu9cS8HzwN74R07cBzF_Iamjts0OFBOvKcQ&s",
+                    "display": "recreation",
+                    "role": "photo",
+                    "label": "Recreation image (candidate for kayaker/picnic)",
+                    "notes": {
+                      "row_context": [
+                        {
+                          "cell": "D16",
+                          "value": "the lakes as a recreation destination"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "did_you_know": {
+              "selection_rule": "choose_any_three_or_rotate",
+              "options": [
+                "Roughly 40 million people drink water filtered by the Great Lakes every day.",
+                "Great Lakes shipping moves more tonnage each year than the Panama Canal.",
+                "Indigenous trade routes here are older than Rome, mapped by birch‑bark canoe long before diesel engines."
+              ]
+            },
+            "designer_guidance": "Keep icon style uniform (simple line art) across both posters.",
+            "spreadsheet_section_comment": "@david@volumeinteractive.com I'm going to comment on individual pieces here.\n\t-Bennett Little\n@info@kaycliffcenter.com - Ok\n\t-David Cate"
+          }
+        ]
+      }
+    ],
+    "design_notes_from_na_landforms_docx": {
+      "color_palette": "Cool blues and greens dominate (to represent freshwater and lush shorelines), with gentle white accents. Consider subtle earth tones (browns, grays) for geological cross-sections. Let the palette reflect purity and tranquility, reminiscent of clear mountain lakes and forested shores.",
+      "poster1_left_short_copy_title": "Lakes: Nature’s Water Reservoirs",
+      "poster1_left_short_copy_paragraph": "Lakes begin as ideas etched into the Earth’s surface—stories told through ice, molten rock, shifting lands, and human hands. Glaciers carve deep basins. Cracks in the planet’s crust fill with water over millions of years. Sleeping volcanoes quietly gather rain in their craters. Even we humans build lakes, holding rivers back to store precious water. Each lake’s origin reveals a hidden chapter in Earth’s grand narrative.”\nInfographic Ideas:\nFour Panels in a Horizontal Row:\nGlacial Lakes: A simple cross-section showing a glacier slowly advancing and retreating, carving a basin into bedrock.\nLabel: “Glacier Retreats” with an arrow showing ice movement.\nCallout box: “Glacial carving leaves behind deep bowls that fill with meltwater.”\nExample Caption: “The Great Lakes (U.S./Canada).”\nTectonic Lakes: A cross-section of Earth’s crust pulling apart along a fault line.\nLabel: “Crust Shifts” with arrows showing land moving in opposite directions.\nCallout box: “When the ground sinks, water flows in, forming some of the world’s oldest lakes.”\nExample Caption: “Lake Baikal (Russia).”\nVolcanic Lakes: A volcanic crater filling with rainwater.\nLabel: “Volcanic Eruption” with an arrow pointing to the crater.\nCallout box: “After fire and ash settle, a tranquil pool of fresh water emerges.”\nExample Caption: “Crater Lake (Oregon, U.S.).”\nArtificial Lakes: A dam holding back a river.\nLabel: “Dam Created” with arrows showing water pooling behind it.\nCallout box: “Human-made reservoirs store water for cities, farms, and energy.”\nExample Caption: “Lake Mead (Nevada/Arizona, U.S.).”\nOne-Liner “Did You Know” Boxes:\nNear Glacial Lakes: “Did you know some glacier-carved lakes are older than human civilizations?”\nNear Volcanic Lakes: “Did you know volcanic lakes can be crystal-clear, reflecting mountaintops like a perfect mirror?”\nSuggested Imagery:\nSmall inset photo of a bright blue glacial lake like Moraine Lake in Canada.\nA photo of Lake Baikal’s shoreline (rocky coast, clear water).\nA photo of Crater Lake’s deep blue basin and cliffs.\nA small image of Hoover Dam or Lake Mead.\n\nPoster 1, Right Section: General Overview of Lakes (Global Context)\nShort Text Copy:",
+      "poster1_right_short_copy_paragraph": "Lakes dot every continent, from icy highlands to sun-scorched plains. They hold life’s essentials: fresh water, food, and shelter. Some shimmer with ancient stories buried in their depths. Others feed nations with drinking water and energy. Across the globe, lakes shape climates, nurture wildlife, and connect us all.",
+      "poster2_left_short_copy_paragraph": "Lakes act as Earth’s quiet heroes. They store freshwater, stabilize climates, shelter species, and form stepping-stones for migrating birds. They are hubs of biodiversity, influencing local weather and cycling nutrients through the water and soil. Without lakes, entire ecosystems—ours included—would struggle to thrive.",
+      "poster2_right_short_copy_paragraph": "For countless generations, people have gathered at the water’s edge. Lakes offered food, trade routes, and places to build cities and dreams. From Indigenous canoes navigating ancient waterways to modern freighters hauling iron ore, these water bodies reflect our past and shape our future. Today, millions depend on lakes for drinking water, industry, and inspiration.”\nTimeline",
+      "photographic_asset_wishlist_table": [
+        [
+          "Location on Poster",
+          "Photo Description",
+          "Notes for Photographer or Researcher"
+        ],
+        [
+          "Poster 1, Left (Glacial Lakes)",
+          "A bright blue glacial lake (e.g., Moraine Lake, Canada) with mountain backdrop",
+          "Crisp, high-resolution image, clear blue water, dramatic peaks"
+        ],
+        [
+          "Poster 1, Left (Volcanic Lakes)",
+          "Crater Lake, Oregon: deep blue water and rocky crater walls",
+          "Wide shot capturing the lake’s vivid hue and steep caldera walls"
+        ],
+        [
+          "Poster 1, Left (Tectonic Lakes)",
+          "Lake Baikal shoreline: clear water, distant hills",
+          "Highlight clarity and surrounding nature; possibly a shot with ice in winter"
+        ],
+        [
+          "Poster 1, Left (Artificial Lakes)",
+          "Hoover Dam forming Lake Mead",
+          "Show dam face and reservoir behind it; a slightly angled aerial shot if possible"
+        ],
+        [
+          "Poster 1, Right",
+          "Lake Louise in Canada: turquoise water, evergreen forest, glacier in background",
+          "Need a pristine, inspiring view"
+        ],
+        [
+          "Poster 2, Left",
+          "Lake Superior shoreline with forest and wildlife",
+          "Possibly a panoramic shot with a mix of trees, shoreline, and water"
+        ],
+        [
+          "Poster 2, Right",
+          "Chicago skyline from Lake Michigan",
+          "Capture urban life and lake together; a daytime skyline shot with visible lakefront"
+        ]
+      ],
+      "infographic_asset_wishlist_table": [
+        [
+          "Asset",
+          "Description for Human or AI Artist"
+        ],
+        [
+          "How Lakes Form Infographic (Poster 1, Left)",
+          "A horizontally arranged set of four simplified cross-sections. Each panel shows a type of lake formation: (1) Glacial: ice flows over land, leaving a basin. (2) Tectonic: two crust blocks pulling apart, a depression filling with water. (3) Volcanic: a crater at the top of a dormant volcano filling with rainwater. (4) Artificial: a dam holding back a river to form a reservoir. Clean lines, gentle colors, minimal shading."
+        ],
+        [
+          "World Map of Lakes (Poster 1, Right)",
+          "A world map with color-coded icons: blue droplets for freshwater lakes, “salt shaker” icons for saline lakes, a small fault line symbol for tectonic lakes, and a volcano icon for volcanic lakes. Place icons at general global locations of famous examples (Lake Victoria, Great Salt Lake, Lake Baikal, etc.). Map should be simple, outline only, with continents in a neutral earth tone, water in light blue."
+        ],
+        [
+          "Great Lakes Region Map (Poster 2, Left)",
+          "A regional map of the Great Lakes (Superior, Michigan, Huron, Erie, Ontario). Show arrows for water flow, tiny fish/bird icons for biodiversity, and a subtle overlay of watershed boundaries. Add small icons: a thermometer and snowflake for climate, a boat for shipping. Soft blues for water, greens/browns for land."
+        ],
+        [
+          "Human Timeline Infographic (Poster 2, Right)",
+          "A horizontal timeline bar with four illustrated icons at different time periods: a canoe for Indigenous era, a cargo ship for 19th century industry, a skyline for urban growth in the 20th century, and a hiker/kayaker for modern recreation. Use simple icons and a clear chronological flow with small labels."
+        ]
+      ],
+      "global_guidelines": [
+        "Keep text brief and legible from a short distance.",
+        "Ensure high contrast between text and background for outdoor readability.",
+        "Use icons and callouts to minimize large text blocks.",
+        "Create a visual hierarchy: main titles large and bold, subheads smaller, callouts smaller but readable.",
+        "Consider weatherproof materials and UV-resistant printing for outdoor installation."
+      ]
+    }
+  }
+}

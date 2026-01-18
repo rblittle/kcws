@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/ecoregions/south_america_andes_to_amazon.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__ecoregions_mosaic__south_america__south_america_andes_to_amazon</poster_id>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </poster>
+  <tags>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<ecoregion_poster continent="South America" poster_title="Andes to Amazon">
+  <ecoregion entry_number="1">
+    <ecoregion_name>Guiana Highlands (Tepuis)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/auyan-tepui-panoramic-view-uruyen-indigeous-1394948708</image_url>
+    <description>Tabletop tepui mountains rise above rainforest; waterfalls and clouds spill from cliffs in the Guiana Highlands.</description>
+  </ecoregion>
+  <ecoregion entry_number="2">
+    <ecoregion_name>Kaieteur Falls (Guyana)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/kaieteur-falls-waterfall-on-potaro-river-165858815</image_url>
+    <description>Kaieteur thunders off a jungle plateau, one of the world’s great single-drop waterfalls, wrapped in mist.</description>
+  </ecoregion>
+  <ecoregion entry_number="3">
+    <ecoregion_name>Andean Cloud Forest (Yungas)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/agriculture-field-illuminated-sun-cloud-forest-1883617345</image_url>
+    <description>In the Yungas, warm mist feeds mossy forests on Andean slopes, where orchids and birds thrive.</description>
+  </ecoregion>
+  <ecoregion entry_number="4">
+    <ecoregion_name>Amazon Rainforest (Brazil)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/amazon-rainforest-brazil-704671762</image_url>
+    <description>The Amazon is a green ocean of trees—humid air, giant rivers, and wildlife calling from every layer.</description>
+  </ecoregion>
+  <ecoregion entry_number="5">
+    <ecoregion_name>Amazon River Delta (Brazil)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/search/amazon+delta</image_url>
+    <description>Where the Amazon meets the Atlantic, muddy channels and mangroves spread wide, rich with fish and birds.</description>
+  </ecoregion>
+  <ecoregion entry_number="6">
+    <ecoregion_name>Andean Headwaters (Apurímac River)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/rio-apurimac-upper-part-longist-largest-1470164822</image_url>
+    <description>High in the Andes, the Apurímac River begins as icy streams, carving deep canyons on its way.</description>
+  </ecoregion>
+  <ecoregion entry_number="7">
+    <ecoregion_name>Caatinga (Northeast Brazil)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/caatinga-vegetation-sertao-serra-da-capivara-1567519429</image_url>
+    <description>Brazil’s Caatinga is a thorny dry forest; drought-tough plants burst into bloom after rare rains.</description>
+  </ecoregion>
+  <ecoregion entry_number="8">
+    <ecoregion_name>Altiplano &amp; Puna (Andean Plateau)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/alpacas-llamas-grazing-sajama-national-park-2114595152</image_url>
+    <description>The Altiplano sits high and cold—wide grasslands, salt flats, and llamas under a piercing blue sky.</description>
+  </ecoregion>
+  <ecoregion entry_number="9">
+    <ecoregion_name>Chilean Matorral (Central Chile)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/serra-da-canastra-national-park-minas-1289687164</image_url>
+    <description>Central Chile’s matorral is Mediterranean shrubland—sunny hills, fragrant herbs, and dry summers above vineyards and towns.</description>
+  </ecoregion>
+  <ecoregion entry_number="10">
+    <ecoregion_name>Pampas (Argentina)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/santiago-de-chile-y-cordillera-los-1561070483</image_url>
+    <description>Argentina’s Pampas are open grass seas; cattle ranches, gaucho traditions, and stormy skies stretch for miles.</description>
+  </ecoregion>
+  <ecoregion entry_number="11">
+    <ecoregion_name>Patagonian Steppe (Southern Argentina)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/guanacos-pampas-grassland-environment-la-pampa-2327776465</image_url>
+    <description>In Patagonia, wind-scoured steppe meets snow peaks; hardy shrubs, guanacos, and empty horizons define the south.</description>
+  </ecoregion>
+</ecoregion_poster>
+]]></payload_xml>
+</normalized_poster>

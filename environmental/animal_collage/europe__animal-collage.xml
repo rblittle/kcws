@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/europe__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__europe__europe_animal_collage</poster_id>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="Europe">
+  <title>Wild Europe: From Bison to Bears</title>
+  <animals>
+    <animal>
+      <name>Red Deer</name>
+      <image url="https://www.shutterstock.com/image-photo/composite-image-red-deer-stag-beautiful-2139835191" />
+      <description>Red deer stags clash their antlers like echoing drums each autumn during the rut. Their grazing herds trim tall grasses and open up patches of wildflowers that butterflies and ground-nesting birds depend on.</description>
+    </animal>
+    <animal>
+      <name>Brown Bear</name>
+      <image url="https://www.shutterstock.com/image-photo/brown-bear-ursus-arctos-large-popular-2339642061" />
+      <description>Brown bears lumber through Europe’s alpine forests, and their thick fur and layers of fat help them survive icy spring weather. These omnivores munch on berries—spreading the seeds in their droppings—and snatch fish from rivers, helping keep salmon runs healthy.</description>
+    </animal>
+    <animal>
+      <name>European Bison</name>
+      <image url="https://www.shutterstock.com/image-photo/european-bison-bonasus-knyszyn-forest-poland-1603954957" />
+      <description>European bison — the heaviest land mammals in Europe — browse on rough bark and grasses. Their mighty shoulders bulldoze through deep snow, clearing paths that other animals can follow. These living relics help revive ancient woodlands that were once nearly lost.</description>
+    </animal>
+    <animal>
+      <name>Arctic Fox</name>
+      <image url="https://www.shutterstock.com/image-photo/arctic-fox-vulpes-lagopus-wilde-tundra-2429894727" />
+      <description>Arctic foxes swap their thick brown summer coats for white fur in winter as perfect camouflage in the snow. Their small ears and compact bodies reduce heat loss. Ever resourceful, they scavenge leftovers from larger predators, ensuring nothing goes to waste in the frozen north.</description>
+    </animal>
+    <animal>
+      <name>Eurasian Lynx</name>
+      <image url="https://www.shutterstock.com/image-photo/lynx-catch-prey-rabbit-spain-wildlife-2104862627" />
+      <description>Eurasian lynxes stalk silently through the forest on snowshoe-like paws. Their tufted ears swivel to track the faintest sounds. With sudden pounces, these elusive cats keep hare numbers in check, which in turn lets young trees grow in sunlit clearings.</description>
+    </animal>
+    <animal>
+      <name>Hedgehog</name>
+      <image url="https://www.shutterstock.com/image-photo/thirsty-little-european-hedgehog-reflection-erinaceus-2504943461" />
+      <description>Hedgehogs shuffle through moonlit gardens, their prickly spines bristling as they sniff out slugs and beetles. When threatened, they roll into a spiky ball for protection. These natural pest controllers are loved by farmers across Europe.</description>
+    </animal>
+    <animal>
+      <name>Reindeer</name>
+      <image url="https://www.shutterstock.com/image-photo/portrait-reindeer-massive-antlers-pulling-sleigh-2392261923" />
+      <description>Reindeer migrate for hundreds of miles across the Arctic tundra. Their wide, cloven hooves act like snowshoes on soft snow and boggy ground. Both males and females grow antlers, which they use to scrape away snow and uncover lichen beneath the ice.</description>
+    </animal>
+    <animal>
+      <name>Wild Boar</name>
+      <image url="https://www.shutterstock.com/image-photo/young-wild-boar-sus-scrofa-ferus-2522526413" />
+      <description>Wild boars plow up the forest floor with their shovel-like snouts, unearthing roots and insects and turning the soil so that oak seedlings can sprout. Their powerful tusks defend their piglets from lurking lynxes.</description>
+    </animal>
+    <animal>
+      <name>European Rabbit</name>
+      <image url="https://www.shutterstock.com/image-photo/european-rabbit-common-bunny-oryctolagus-cuniculus-2044731686" />
+      <description>European rabbits sit upright on alert, their long ears swiveling at every rustle. Their gray-brown fur blends into the meadow. Powerful hind legs stay tense—ready to launch into a sprint at the first hint of danger.</description>
+    </animal>
+    <animal>
+      <name>Common Buzzard</name>
+      <image url="https://www.shutterstock.com/image-photo/common-buzzard-buteo-fields-winter-snow-2202312029" />
+      <description>Common buzzards circle on thermal updrafts with their broad wings spread wide. Their keen eyesight spots voles scurrying far below. A balanced diet of carrion and live prey means they help recycle nutrients across the countryside.</description>
+    </animal>
+    <animal>
+      <name>White Stork</name>
+      <image url="https://www.shutterstock.com/image-photo/white-stork-catching-fish-2223507089" />
+      <description>White storks glide on rising thermals with outstretched necks. On European rooftops or tall chimneys, they clatter their long bills to greet their mates at the nest. Each year, their long migrations link African savannas to these village nesting sites.</description>
+    </animal>
+    <animal>
+      <name>Puffin</name>
+      <image url="https://www.shutterstock.com/image-photo/photo-couple-kissing-puffin-birds-against-2429318311" />
+      <description>Atlantic puffins rocket underwater, flapping their stubby wings like flippers. They catch strings of sand eels in their bright orange bills. Puffins nest in burrows on high sea cliffs safe from prowling foxes.</description>
+    </animal>
+    <animal>
+      <name>Pine Marten</name>
+      <image url="https://www.shutterstock.com/image-photo/european-pine-marten-woods-2366921033" />
+      <description>Pine martens slink along branches with lithe agility, their long tails balancing their slender frames. Their chocolate-brown fur and creamy throat patches blend into the dappled woods as they prowl with quick, silent confidence.</description>
+    </animal>
+    <animal>
+      <name>Beaver</name>
+      <image url="https://www.shutterstock.com/image-photo/hungry-beaver-wild-european-castor-fiber-2252403321" />
+      <description>European beavers fell trees with their orange, iron-rich teeth. Their dams slow down rivers to form ponds that shelter fish and amphibians. By creating these wetlands, beavers act as natural flood sponges that protect nearby communities.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

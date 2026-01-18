@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/animal collage/africa__animal-collage.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__animal_collage__africa__africa_animal_collage",
+    "derived_id": "environmental__animal_collage__africa__africa_animal_collage",
+    "continent": "africa",
+    "domain": "environmental",
+    "poster_family": "animal_collage",
+    "filename": "africa__animal-collage.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "animal_collage"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:environmental",
+      "poster_family:animal_collage"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/animal collage/africa__animal-collage.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "animal_collage",
+    "continent": "Africa",
+    "posterTitle": "Africa's Wild Symphony",
+    "animals": [
+      {
+        "name": "Elephant",
+        "imageUrl": "https://www.shutterstock.com/image-photo/elephants-baby-moremi-game-reserve-africa-family-2501035691",
+        "description": "Elephants have ears bigger than beach towels and feet sensitive enough to feel distant thunder. They map hidden water sources and remember ancient trails stretching across three hundred miles."
+      },
+      {
+        "name": "Giraffe",
+        "imageUrl": "https://www.shutterstock.com/image-photo/panoramic-landscape-group-giraffes-kalahari-desert-2479870727",
+        "description": "Giraffes stand as tall as a two-story house. Their long necks, elastic tongues, and powerful hearts let them reach leaves high in the treetops where other grazers cannot."
+      },
+      {
+        "name": "Rhinoceros",
+        "imageUrl": "https://www.shutterstock.com/image-photo/pair-white-rhinoceros-squarelipped-ceratotherium-simum-2089952014",
+        "description": "Rhinos have inch-thick skin like living armor. They use their keratin horns to dig up roots and mow clearings, helping grasses and wildflowers to grow."
+      },
+      {
+        "name": "Cheetah",
+        "imageUrl": "https://www.shutterstock.com/image-photo/cheetah-acinonyx-jubatus-young-sitting-on-2499107817",
+        "description": "Cheetahs have lightweight bones, a spring-like spine, and oversized nostrils that turn them into furry missiles. They hit highway speeds in just three strides to catch fleet-footed gazelles."
+      },
+      {
+        "name": "Hippopotamus",
+        "imageUrl": "https://www.shutterstock.com/image-photo/hippopotamus-amphibius-murchison-falls-national-park-2445644415",
+        "description": "Hippos spend their days half submerged, sweating a natural red \"sunscreen.\" They can hold their breath for five minutes while trotting along riverbeds like underwater bulldozers."
+      },
+      {
+        "name": "Zebra",
+        "imageUrl": "https://www.shutterstock.com/image-photo/group-wild-zebras-african-savanna-blue-2152062091",
+        "description": "Zebras’ rippling black-and-white stripes never stop moving, which confuses biting flies. This swirling pattern also blends the herd into one shape, making lion attacks less precise."
+      },
+      {
+        "name": "Leopard",
+        "imageUrl": "https://www.shutterstock.com/image-photo/leopard-tree-this-panthera-pardus-coming-2501755355",
+        "description": "Leopards have powerful shoulders that haul prey twice their weight up into the trees. There, their dappled golden fur melts into the leaf shadows, keeping their dinner safe from hyenas and vultures."
+      },
+      {
+        "name": "Cape Buffalo",
+        "imageUrl": "https://www.shutterstock.com/image-photo/intense-close-image-captures-cape-buffalo-2521925885",
+        "description": "Cape buffaloes grow sweeping, helmet-like horns that interlock when the bulls clash. Hundreds of buffaloes bunch together to form a bristling wall, staring down attacking lions."
+      },
+      {
+        "name": "Meerkat",
+        "imageUrl": "https://www.shutterstock.com/image-photo/alert-meerkat-suricata-suricatta-family-natural-2430109093",
+        "description": "Meerkats live in sun-baked burrows and take turns standing guard. Their black eye patches cut the glare so a lookout can spot eagles early and chirp an alarm to the clan."
+      },
+      {
+        "name": "Ostrich",
+        "imageUrl": "https://www.shutterstock.com/image-photo/common-ostrich-struthio-camelus-species-flightless-2052217457",
+        "description": "Ostriches use their two-meter wings for balance as they run. Their muscled legs can stride at forty miles an hour, delivering kicks strong enough to fend off prowling hyenas and even human hunters."
+      },
+      {
+        "name": "Nile Crocodile",
+        "imageUrl": "https://www.shutterstock.com/image-photo/nile-crocodile-crocodylus-niloticus-large-crocodilian-2441213297",
+        "description": "Nile crocodiles lurk in the water like floating logs. Their pressure-sensitive jaws slam shut with bone-crushing force, and triple eyelids protect their keen eyes during underwater ambushes."
+      },
+      {
+        "name": "Hyena",
+        "imageUrl": "https://www.shutterstock.com/image-photo/close-spotted-hyena-known-laughing-park-2468489147",
+        "description": "Hyenas have steel-strong jaws capable of cracking even elephant bones. Their eerie whooping laughter rallies clans of up to fifty animals. Dual stomach acids let them digest nutrients that other predators leave behind."
+      },
+      {
+        "name": "Gorilla",
+        "imageUrl": "https://www.shutterstock.com/image-photo/alpha-male-gorilla-his-young-son-deep-2499192893",
+        "description": "Mountain gorillas weave leafy nests each evening to sleep in. They drum on their chests as a form of long-distance messaging. By spreading rainforest seeds in their dung, these gentle giants help shape entire ecosystems."
+      },
+      {
+        "name": "Warthog",
+        "imageUrl": "https://www.shutterstock.com/image-photo/big-male-warthog-on-his-knees-2336322003",
+        "description": "Warthogs raise their tufted tails like flagpoles when family groups trot off to safety. Their curved tusks turn stout snouts into plows, digging out cool burrows and tasty tubers from the earth."
+      }
+    ]
+  }
+}

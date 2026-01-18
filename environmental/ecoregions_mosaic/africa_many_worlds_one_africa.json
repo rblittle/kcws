@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/ecoregions/africa_many_worlds_one_africa.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__ecoregions_mosaic__africa__africa_many_worlds_one_africa",
+    "derived_id": "environmental__ecoregions_mosaic__africa__africa_many_worlds_one_africa",
+    "continent": "africa",
+    "domain": "environmental",
+    "poster_family": "ecoregions_mosaic",
+    "filename": "africa_many_worlds_one_africa.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "ecoregions_mosaic"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:environmental",
+      "poster_family:ecoregions_mosaic"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/ecoregions/africa_many_worlds_one_africa.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "Africa",
+    "poster_title": "Many Worlds, One Africa",
+    "items": [
+      {
+        "entry_number": "1",
+        "ecoregion_name": "High Atlas Mountains (Morocco)",
+        "image_url": "https://www.shutterstock.com/image-photo/morocco-high-atlas-mountain-range-springtime-1719175111",
+        "description": "Red, rugged peaks rise above Berber villages; snow, eagles, and deep gorges reward mountain explorers."
+      },
+      {
+        "entry_number": "2",
+        "ecoregion_name": "Sahara Desert",
+        "image_url": "https://www.shutterstock.com/image-photo/sahara-desert-130839674",
+        "description": "Vast dunes and stone plains bake by day, freeze by night; oases and caravans keep life moving."
+      },
+      {
+        "entry_number": "3",
+        "ecoregion_name": "Nile River Valley (Egypt)",
+        "image_url": "https://www.shutterstock.com/image-photo/cairo-aerial-panorama-nile-downtown-buildings-1731162052",
+        "description": "A green ribbon through desert sands, the Nile feeds farms, towns, and ancient temples along its banks."
+      },
+      {
+        "entry_number": "4",
+        "ecoregion_name": "Sahel (Mali & West Africa)",
+        "image_url": "https://www.shutterstock.com/image-photo/dogon-village-1-145741385",
+        "description": "Between Sahara and savanna, thorny acacia and grasslands endure drought, grazing herds, and shifting seasons."
+      },
+      {
+        "entry_number": "5",
+        "ecoregion_name": "Niger River & Inner Delta",
+        "image_url": "https://www.shutterstock.com/image-photo/aerial-view-niger-river-niamey-764929678",
+        "description": "When Niger floods, dry Sahel becomes wetlands—fish, birds, and farmers thrive in the temporary delta."
+      },
+      {
+        "entry_number": "6",
+        "ecoregion_name": "Southern Sahara Fringe (Niger)",
+        "image_url": "https://www.shutterstock.com/image-photo/desert-niger-niamey-trees-sand-hot-1241730406",
+        "description": "Sand meets scrubby savanna near Niamey; nomads and camels cross dunes under wide, blazing skies."
+      },
+      {
+        "entry_number": "7",
+        "ecoregion_name": "Ethiopian Highlands (Simien)",
+        "image_url": "https://www.shutterstock.com/image-photo/aerial-panorama-semien-mountains-valley-around-1088830448",
+        "description": "Sheer cliffs and high meadows crown the Roof of Africa, home to geladas and ancient hilltop churches."
+      },
+      {
+        "entry_number": "8",
+        "ecoregion_name": "Congo Basin Rainforest",
+        "image_url": "https://www.shutterstock.com/image-photo/amazing-nature-african-congo-wild-africa-539028487",
+        "description": "Steamy, towering trees and dark rivers fill Africa’s green heart—an immense rainforest buzzing with hidden wildlife."
+      },
+      {
+        "entry_number": "9",
+        "ecoregion_name": "Bwindi Impenetrable Forest (Uganda)",
+        "image_url": "https://www.shutterstock.com/image-photo/landscape-southwestern-uganda-bwindi-impenetrable-forest-1282617385",
+        "description": "Mist and moss cloak steep hills; mountain gorillas, rare birds, and chattering chimps make Bwindi unforgettable."
+      },
+      {
+        "entry_number": "10",
+        "ecoregion_name": "Great Rift Valley (East Africa)",
+        "image_url": "https://www.shutterstock.com/image-photo/great-rift-valley-tanzania-340852322",
+        "description": "Volcanoes and long lakes carve the Rift Valley; grassy plains draw lions, rhinos, and travelers seeking big horizons."
+      },
+      {
+        "entry_number": "11",
+        "ecoregion_name": "Horn of Africa Drylands (Somalia)",
+        "image_url": "https://www.shutterstock.com/image-photo/aerial-view-hargeisa-biggest-city-somaliland-715621966",
+        "description": "Sun-baked plains and rocky hills hold hardy shrubs and wildlife, shaped by drought and relentless winds."
+      },
+      {
+        "entry_number": "12",
+        "ecoregion_name": "Serengeti Savanna (Tanzania)",
+        "image_url": "https://www.shutterstock.com/image-photo/wildbeast-migration-serengeti-tanzania-645771073",
+        "description": "Endless golden grasslands thunder with migration—wildebeest and zebra roam, while lions watch from rocky kopjes."
+      },
+      {
+        "entry_number": "13",
+        "ecoregion_name": "Namib Desert (Namibia)",
+        "image_url": "https://www.shutterstock.com/image-photo/desert-ocean-namib-namibia-08262014-great-1074864338",
+        "description": "Ancient dunes rise beside the Atlantic; fog feeds life, and shifting sands create stark, otherworldly beauty."
+      },
+      {
+        "entry_number": "14",
+        "ecoregion_name": "Kalahari Desert (Botswana)",
+        "image_url": "https://image.shutterstock.com/image-photo/oryx-botswana-kalahari-desert-africa-600w-250109179.jpg",
+        "description": "A semi-arid thirstland of sand and savanna, where springboks, lions, and people adapt to scarce water."
+      },
+      {
+        "entry_number": "15",
+        "ecoregion_name": "Highveld Grasslands (South Africa)",
+        "image_url": "https://www.shutterstock.com/image-photo/panorama-highveld-many-pine-tree-plantations-1032914584",
+        "description": "Rolling high plateau grasslands meet summer thunderstorms; wide skies, grazing herds, and open roads define the Highveld."
+      },
+      {
+        "entry_number": "16",
+        "ecoregion_name": "Madagascar Dry Forests (Baobab Land)",
+        "image_url": "https://www.shutterstock.com/image-photo/beautiful-baobab-trees-sunset-avenue-baobabs-1669980286",
+        "description": "Madagascar’s dry forests feature towering baobabs and curious lemurs, a strange oasis of life in dust."
+      }
+    ]
+  }
+}

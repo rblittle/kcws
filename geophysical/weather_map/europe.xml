@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/europe.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__europe__europe</poster_id>
+    <continent>europe</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="Europe">
+  <posterTitle>Europe : Midnight Sun to Mediterranean Heat</posterTitle>
+  <legend>
+    <title>Europe’s Climate Curiosities</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>Europe vs. USA — Closer Than You Think</header>
+    <prompt>“Europe looks huge in history books, yet it tucks inside the U.S. with surprising space to spare—see where your state would land.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_europe.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Europe — Midnight Sun to Mediterranean Heat</title>
+      <text>From 24-hour summer light in the far north to sun-baked groves on the Aegean, Europe spans light, latitude, and climate in a single day’s flight.</text>
+      <images>
+        <image slot="1">
+          <caption>Midnight sun skimming a Norwegian fjord</caption>
+          <searchPhrase>midnight sun norway fjord drone</searchPhrase>
+          <stockSearch recommendedQuery="midnight sun norway fjord drone">
+            <shutterstock>https://www.shutterstock.com/search/midnight%20sun%20norway%20fjord%20drone</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=midnight+sun+norway+fjord+drone</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Late-afternoon heat over an olive grove</caption>
+          <searchPhrase>golden olive grove greek islands</searchPhrase>
+          <stockSearch recommendedQuery="golden olive grove greek islands">
+            <shutterstock>https://www.shutterstock.com/search/golden%20olive%20grove%20greek%20islands</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=golden+olive+grove+greek+islands</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>Ice &amp; Fire: The Volcanic North</title>
+      <text>Glaciers and lava share the same shoreline in Iceland, where geysers hiss beside creeping ice tongues.</text>
+      <images>
+        <image slot="1">
+          <caption>Fresh black lava meeting blue ice</caption>
+          <searchPhrase>lava field with glacier iceland</searchPhrase>
+          <stockSearch recommendedQuery="lava field with glacier iceland">
+            <shutterstock>https://www.shutterstock.com/search/lava%20field%20with%20glacier%20iceland</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=lava+field+with+glacier+iceland</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Strokkur geyser bursting sky-high</caption>
+          <searchPhrase>geyser strokkur eruption</searchPhrase>
+          <stockSearch recommendedQuery="geyser strokkur eruption">
+            <shutterstock>https://www.shutterstock.com/search/geyser%20strokkur%20eruption</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=geyser+strokkur+eruption</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Northern lights above a snow-capped cone</caption>
+          <searchPhrase>aurora over icelandic volcano</searchPhrase>
+          <stockSearch recommendedQuery="aurora over icelandic volcano">
+            <shutterstock>https://www.shutterstock.com/search/aurora%20over%20icelandic%20volcano</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=aurora+over+icelandic+volcano</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>Rivers of Culture: Danube Blue to Volga Wide</title>
+      <text>Two great rivers rise in small springs yet carry empires on their backs, stitching Europe together from Alps to Caspian.</text>
+      <images>
+        <image slot="1">
+          <caption>Danube glowing beneath Budapest lights</caption>
+          <searchPhrase>danube river parliament budapest dusk</searchPhrase>
+          <stockSearch recommendedQuery="danube river parliament budapest dusk">
+            <shutterstock>https://www.shutterstock.com/search/danube%20river%20parliament%20budapest%20dusk</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=danube+river+parliament+budapest+dusk</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Broad Volga delta at sunset</caption>
+          <searchPhrase>volga river fisherman astrakhan</searchPhrase>
+          <stockSearch recommendedQuery="volga river fisherman astrakhan">
+            <shutterstock>https://www.shutterstock.com/search/volga%20river%20fisherman%20astrakhan</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=volga+river+fisherman+astrakhan</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Mountain Walls: Alps, Pyrenees, and Beyond</title>
+      <text>Europe’s mountain arcs bend weather, inspire legends, and funnel armies through storied passes.</text>
+      <images>
+        <image slot="1">
+          <caption>Alpine skyline painted pink at dawn</caption>
+          <searchPhrase>aerial alps jagged peaks sunrise</searchPhrase>
+          <stockSearch recommendedQuery="aerial alps jagged peaks sunrise">
+            <shutterstock>https://www.shutterstock.com/search/aerial%20alps%20jagged%20peaks%20sunrise</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=aerial+alps+jagged+peaks+sunrise</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Sheep drifting through a Pyrenean col</caption>
+          <searchPhrase>pyrenees mountain pass sheep trail</searchPhrase>
+          <stockSearch recommendedQuery="pyrenees mountain pass sheep trail">
+            <shutterstock>https://www.shutterstock.com/search/pyrenees%20mountain%20pass%20sheep%20trail</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=pyrenees+mountain+pass+sheep+trail</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>Winds With Names: Mistral, Bora, Sirocco</title>
+      <text>Named winds roar across Europe, shaping climates and lore from Provence vineyards to Adriatic bays.</text>
+      <images>
+        <image slot="1">
+          <caption>Lavender bent flat by the Mistral</caption>
+          <searchPhrase>mistral wind provence lavender blur</searchPhrase>
+          <stockSearch recommendedQuery="mistral wind provence lavender blur">
+            <shutterstock>https://www.shutterstock.com/search/mistral%20wind%20provence%20lavender%20blur</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mistral+wind+provence+lavender+blur</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>White-capped Adriatic under the Bora</caption>
+          <searchPhrase>bora wind trieste whitecaps</searchPhrase>
+          <stockSearch recommendedQuery="bora wind trieste whitecaps">
+            <shutterstock>https://www.shutterstock.com/search/bora%20wind%20trieste%20whitecaps</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=bora+wind+trieste+whitecaps</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Sahara dust plume riding the Sirocco</caption>
+          <searchPhrase>sirocco dust sahara europe satellite</searchPhrase>
+          <stockSearch recommendedQuery="sirocco dust sahara europe satellite satellite image">
+            <shutterstock>https://www.shutterstock.com/search/sirocco%20dust%20sahara%20europe%20satellite%20satellite%20image</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=sirocco+dust+sahara+europe+satellite+satellite+image</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Hidden Kingdoms: Europe’s Karst &amp; Caves</title>
+      <text>Water dissolves stone to reveal vast underground cathedrals and emerald sinkholes.</text>
+      <images>
+        <image slot="1">
+          <caption>Visitors dwarfed by Postojna chambers</caption>
+          <searchPhrase>postojna cave catwalk lights</searchPhrase>
+          <stockSearch recommendedQuery="postojna cave catwalk lights">
+            <shutterstock>https://www.shutterstock.com/search/postojna%20cave%20catwalk%20lights</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=postojna+cave+catwalk+lights</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Turquoise karst lakes linked by falls</caption>
+          <searchPhrase>plitvice karst lakes aerial</searchPhrase>
+          <stockSearch recommendedQuery="plitvice karst lakes aerial">
+            <shutterstock>https://www.shutterstock.com/search/plitvice%20karst%20lakes%20aerial</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=plitvice+karst+lakes+aerial</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Emerald Heart: Temperate Forests &amp; Biodiversity</title>
+      <text>Ancient beech groves and oak wood-pastures shelter lynx, wisent, and songbirds in Europe’s green core.</text>
+      <images>
+        <image slot="1">
+          <caption>Sun-shafts through Hainich beechwood</caption>
+          <searchPhrase>ancient beech forest germany morning</searchPhrase>
+          <stockSearch recommendedQuery="ancient beech forest germany morning">
+            <shutterstock>https://www.shutterstock.com/search/ancient%20beech%20forest%20germany%20morning</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=ancient+beech+forest+germany+morning</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>European bison grazing primeval forest</caption>
+          <searchPhrase>bison rewilding bialowieza</searchPhrase>
+          <stockSearch recommendedQuery="bison rewilding bialowieza">
+            <shutterstock>https://www.shutterstock.com/search/bison%20rewilding%20bialowieza</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=bison+rewilding+bialowieza</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Beyond the Tree Line: Arctic Tundra of Lapland</title>
+      <text>Where forests end, reindeer roam windswept heaths under pastel skies and polar night.</text>
+      <images>
+        <image slot="1">
+          <caption>Reindeer carving tracks over tundra</caption>
+          <searchPhrase>lapland tundra autumn reindeer herd</searchPhrase>
+          <stockSearch recommendedQuery="lapland tundra autumn reindeer herd">
+            <shutterstock>https://www.shutterstock.com/search/lapland%20tundra%20autumn%20reindeer%20herd</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=lapland+tundra+autumn+reindeer+herd</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Blue-hour glow during months-long night</caption>
+          <searchPhrase>polar night blue hour lapland</searchPhrase>
+          <stockSearch recommendedQuery="polar night blue hour lapland">
+            <shutterstock>https://www.shutterstock.com/search/polar%20night%20blue%20hour%20lapland</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=polar+night+blue+hour+lapland</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

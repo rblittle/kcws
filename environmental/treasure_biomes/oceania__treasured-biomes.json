@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/treasure biomes/oceania__treasured-biomes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__treasure_biomes__oceania__oceania_treasured_biomes",
+    "derived_id": "environmental__treasure_biomes__oceania__oceania_treasured_biomes",
+    "continent": "oceania",
+    "domain": "environmental",
+    "poster_family": "treasure_biomes",
+    "filename": "oceania__treasured-biomes.json"
+  },
+  "tags": {
+    "continent": [
+      "oceania"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "treasure_biomes"
+    ],
+    "flat": [
+      "continent:oceania",
+      "domain:environmental",
+      "poster_family:treasure_biomes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/treasure biomes/oceania__treasured-biomes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "treasured_biomes",
+    "continent": "Oceania",
+    "posterTitle": "Oceania: Reefs, Rainforests, and Island Worlds",
+    "biomes": [
+      {
+        "name": "Kakadu Wetlands",
+        "description": "Kakadu’s wetlands flood in the wet season and shrink in the dry. Billabongs fill with lilies and birds, while saltwater crocodiles patrol warm waters across a landscape rich in Aboriginal culture.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Water_Billabong_at_dawn-_Kakadu_National_Park_DSC0078_2.jpg"
+      },
+      {
+        "name": "Ningaloo Reef",
+        "description": "Ningaloo Reef lies close to shore with clear water and vibrant coral. Snorkelers can meet turtles, manta rays, and whale sharks, where reef life thrives beside Australia’s dry coast.",
+        "imageUrl": "https://www.pexels.com/photo/scenic-photo-of-a-coral-reef-3020272/"
+      },
+      {
+        "name": "Southern Alps of New Zealand",
+        "description": "New Zealand’s Southern Alps are jagged mountains carved by glaciers. Snowfields, turquoise lakes, and fast rivers fill the valleys, creating dramatic scenery and tough alpine habitat.",
+        "imageUrl": "https://www.pexels.com/photo/mount-cook-and-lake-pukaki-753636/"
+      },
+      {
+        "name": "New Caledonia Barrier Reef",
+        "description": "New Caledonia’s barrier reef rings a huge turquoise lagoon. Coral, seagrass, and mangroves support turtles, sharks, and reef fish in one of the planet’s largest reef systems.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_raproch%C3%A9e_du_grand_r%C3%A9cif_de_Gatope_et_son_trou_bleu.jpg"
+      },
+      {
+        "name": "Shark Bay",
+        "description": "Shark Bay is a World Heritage coast of seagrass beds, clear shallows, and ancient stromatolites. Dolphins and dugongs thrive here, where warm water and protected bays shelter marine life.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:ISS-64_Shark_Bay%2C_Western_Australia.jpg"
+      },
+      {
+        "name": "Fraser Island (K’gari)",
+        "description": "K’gari is the world’s largest sand island, with dunes, rainforests, and clear freshwater lakes. Ocean waves, shifting sand, and wild dingoes make this island feel both fragile and fierce.",
+        "imageUrl": "https://www.pexels.com/photo/maheno-shipwreck-on-fraser-island-2741539/"
+      },
+      {
+        "name": "Hawaiian Islands",
+        "description": "Hawaiʻi rises from volcanoes in the Pacific. Lava built the islands, and rain grew forests. Coral reefs ring many shores, while unique plants and birds evolved far from any continent.",
+        "imageUrl": "https://www.pexels.com/photo/na-pali-coastline-2387414/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/north-america__featured-animal__bald-eagle.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__north_america__north_america_featured_animal_bald_eagle</poster_id>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="North America">
+  <animal>
+    <name>Bald Eagle</name>
+    <image url="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/67748198_10157357630118609_2562051917387661312_n.jpg?stp=dst-jpg_s600x600&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=13d280&amp;_nc_ohc=ZYVxn56j3iIQ7kNvgGykUpm&amp;_nc_zt=23&amp;_nc_ht=scontent-atl3-2.xx&amp;_nc_gid=AsB_0luaZmwm5T9ei03r1hf&amp;oh=00_AYD01HhwQi_esVwvkYhq6lUPhB54yKbXeR5lSDaYwD4lkA&amp;oe=674717BB" />
+    <description>Bald eagles are majestic white-headed raptors that soar above rivers and coasts. They spot fish with laser-sharp vision before diving at lightning speed to snatch their prey. These iconic birds remind us that clean water allows both wildlife and people to flourish.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

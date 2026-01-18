@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/europe__featured-animal__grey-wolf.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__europe__europe_featured_animal_grey_wolf",
+    "derived_id": "environmental__featured_animal__europe__europe_featured_animal_grey_wolf",
+    "continent": "europe",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "europe__featured-animal__grey-wolf.json"
+  },
+  "tags": {
+    "continent": [
+      "europe"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:europe",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/europe__featured-animal__grey-wolf.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "Europe",
+    "animal": {
+      "name": "Grey Wolf",
+      "imageUrl": "https://www.shutterstock.com/image-photo/wolf-shewolf-howling-isolated-on-white-1943218351",
+      "description": "Gray wolves slink through twilight forests on silent paws. They communicate with haunting howls that can carry up to ten miles. Pack teamwork brings down large prey like elk, and their strong jaws crunch through leftover bones to keep the forest’s food chain balanced through winter."
+    }
+  }
+}

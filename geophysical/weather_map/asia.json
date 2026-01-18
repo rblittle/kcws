@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/weathermaps/asia.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__weather_map__asia__asia",
+    "derived_id": "geophysical__weather_map__asia__asia",
+    "continent": "asia",
+    "domain": "geophysical",
+    "poster_family": "weather_map",
+    "filename": "asia.json"
+  },
+  "tags": {
+    "continent": [
+      "asia"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "weather_map"
+    ],
+    "flat": [
+      "continent:asia",
+      "domain:geophysical",
+      "poster_family:weather_map"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/weathermaps/asia.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "Asia",
+    "posterTitle": "Asia : Roof of the World & Monsoon Might",
+    "legend": {
+      "title": "Asia’s Weather Wonders",
+      "items": [
+        {
+          "key": "Extreme Heat",
+          "display": "Hottest Hotspots",
+          "rationale": "Evokes curiosity without jargon"
+        },
+        {
+          "key": "Extreme Cold",
+          "display": "Frozen Frontiers",
+          "rationale": "Alliterative & vivid"
+        },
+        {
+          "key": "High Humidity & Rainfall",
+          "display": "Rain-Soaked Jungles",
+          "rationale": "Instantly signals tropical downpours"
+        },
+        {
+          "key": "Low Humidity & Arid Conditions",
+          "display": "Bone-Dry Deserts",
+          "rationale": "Conversational; pairs with desert icon"
+        },
+        {
+          "key": "Elevation-Related Climate",
+          "display": "Sky-High Climates",
+          "rationale": "Kids grasp “sky-high = mountaintop”"
+        },
+        {
+          "key": "Wind Extremes",
+          "display": "Howling Wind Zones",
+          "rationale": "Adds sensory cue (sound)"
+        },
+        {
+          "key": "Volcanic & Seismic Activity",
+          "display": "Volcano-Quake Lands",
+          "rationale": "Merges two ideas into one punchy phrase"
+        },
+        {
+          "key": "Flooding / Rainfall Extremes",
+          "display": "Deluge Hotspot",
+          "rationale": "Mirrors ecological term & is memorable"
+        },
+        {
+          "key": "Daylight Extremes",
+          "display": "Sunlight Swings",
+          "rationale": "Works for polar light or long summers"
+        },
+        {
+          "key": "Desertification & Dust Storms",
+          "display": "Duststorm Alley",
+          "rationale": "Visual and action-oriented"
+        },
+        {
+          "key": "Temperature Range Extremes",
+          "display": "Wild Temperature Swings",
+          "rationale": "Explains day-night whiplash clearly"
+        }
+      ]
+    },
+    "usVsContinent": {
+      "header": "Asia vs. USA — Room for Three Americas",
+      "prompt": "“From Istanbul to Tokyo could fit three United States—trace the span and imagine the cultures packed inside.”",
+      "image": {
+        "url": "sandbox:/mnt/data/usa_vs_asia.png",
+        "license": "CC0 (generated graphic)",
+        "source": {
+          "dataset": "Natural Earth 'Admin 0 – Countries' (public domain)",
+          "projection": "Mollweide (equal-area)",
+          "usaOutline": "Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)",
+          "notes": "Graphic generated from public-domain vector data; no third-party map tiles."
+        }
+      }
+    },
+    "featuredStories": [
+      {
+        "title": "Asia: Roof and Furnace of the World",
+        "text": "From the icy summit of Everest to the scorched deserts of Central Asia, Asia holds Earth’s highest heights and fiercest heat.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Sunrise on Everest’s 8 848 m summit",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mount Everest sunrise Kala Patthar",
+              "shutterstock": "https://www.shutterstock.com/search/Mount%20Everest%20sunrise%20Kala%20Patthar",
+              "adobeStock": "https://stock.adobe.com/search?k=Mount+Everest+sunrise+Kala+Patthar"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Camel train crossing the Gobi’s searing dunes",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "camel caravan Gobi Desert dunes",
+              "shutterstock": "https://www.shutterstock.com/search/camel%20caravan%20Gobi%20Desert%20dunes",
+              "adobeStock": "https://stock.adobe.com/search?k=camel+caravan+Gobi+Desert+dunes"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 1
+      },
+      {
+        "title": "Rivers of Life: Monsoons, Floods, and Fertile Lands",
+        "text": "Monsoon rains breathe life into Asia’s valleys—nourishing civilizations yet unleashing mighty floods.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Terraced paddies glowing green after a downpour",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "rice terraces after rain monsoon Southeast Asia",
+              "shutterstock": "https://www.shutterstock.com/search/rice%20terraces%20after%20rain%20monsoon%20Southeast%20Asia",
+              "adobeStock": "https://stock.adobe.com/search?k=rice+terraces+after+rain+monsoon+Southeast+Asia"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Brahmaputra floodplain bursting its banks",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Brahmaputra floodplain Assam India flood",
+              "shutterstock": "https://www.shutterstock.com/search/Brahmaputra%20floodplain%20Assam%20India%20flood",
+              "adobeStock": "https://stock.adobe.com/search?k=Brahmaputra+floodplain+Assam+India+flood"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 2
+      },
+      {
+        "title": "The Shifting Earth: Asia’s Earthquakes, Volcanoes, and Rising Mountains",
+        "text": "Asia’s mountains and volcanoes reveal a restless planet still shaping itself.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Mt Fuji venting wisps above Tokyo plain",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mount Fuji Tokyo skyline clouds",
+              "shutterstock": "https://www.shutterstock.com/search/Mount%20Fuji%20Tokyo%20skyline%20clouds",
+              "adobeStock": "https://stock.adobe.com/search?k=Mount+Fuji+Tokyo+skyline+clouds"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Night-glow eruption along Indonesia’s Ring of Fire",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Indonesia volcano eruption night lava glow",
+              "shutterstock": "https://www.shutterstock.com/search/Indonesia%20volcano%20eruption%20night%20lava%20glow",
+              "adobeStock": "https://stock.adobe.com/search?k=Indonesia+volcano+eruption+night+lava+glow"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 3
+      },
+      {
+        "title": "Frozen Fires: Oymyakon and the Great Asian Cold",
+        "text": "In Siberia’s “Pole of Cold,” life endures at –60 °C beneath dancing aurora.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Reindeer herders near Oymyakon",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Oymyakon reindeer herder Yakutia",
+              "shutterstock": "https://www.shutterstock.com/search/Oymyakon%20reindeer%20herder%20Yakutia",
+              "adobeStock": "https://stock.adobe.com/search?k=Oymyakon+reindeer+herder+Yakutia"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Wood-post thermometer at –60 °C, Yakutia",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Oymyakon thermometer minus 60 Yakutia",
+              "shutterstock": "https://www.shutterstock.com/search/Oymyakon%20thermometer%20minus%2060%20Yakutia",
+              "adobeStock": "https://stock.adobe.com/search?k=Oymyakon+thermometer+minus+60+Yakutia"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 4
+      },
+      {
+        "title": "The Monsoon Makers: How Asia Breathes",
+        "text": "Seasonal winds drive Asia’s monsoon—bringing life-giving rains and devastating floods.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Monsoon wall of cloud over Mumbai harbor",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mumbai monsoon clouds Bandra Worli Sea Link",
+              "shutterstock": "https://www.shutterstock.com/search/Mumbai%20monsoon%20clouds%20Bandra%20Worli%20Sea%20Link",
+              "adobeStock": "https://stock.adobe.com/search?k=Mumbai+monsoon+clouds+Bandra+Worli+Sea+Link"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Kids celebrating first rain of the season",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "children playing in rain monsoon India",
+              "shutterstock": "https://www.shutterstock.com/search/children%20playing%20in%20rain%20monsoon%20India",
+              "adobeStock": "https://stock.adobe.com/search?k=children+playing+in+rain+monsoon+India"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 5
+      },
+      {
+        "title": "Asia’s Ocean of Sand: Deserts of Central Asia",
+        "text": "From the Gobi to the Thar, vast sand seas test life’s limits yet nurture trade routes.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Wind-sculpted dunes near Dunhuang",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Dunhuang Mingsha Shan wind sculpted dunes",
+              "shutterstock": "https://www.shutterstock.com/search/Dunhuang%20Mingsha%20Shan%20wind%20sculpted%20dunes",
+              "adobeStock": "https://stock.adobe.com/search?k=Dunhuang+Mingsha+Shan+wind+sculpted+dunes"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Silk-Road watchtower guarding a desert oasis",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Jiayuguan watchtower Great Wall Gobi desert",
+              "shutterstock": "https://www.shutterstock.com/search/Jiayuguan%20watchtower%20Great%20Wall%20Gobi%20desert",
+              "adobeStock": "https://stock.adobe.com/search?k=Jiayuguan+watchtower+Great+Wall+Gobi+desert"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 6
+      },
+      {
+        "title": "Storm Giants: Typhoons and Cyclones",
+        "text": "Earth’s fiercest storms reshape Asia’s coasts and cultures alike.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Typhoon eye wall from space",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "typhoon eye satellite view",
+              "shutterstock": "https://www.shutterstock.com/search/typhoon%20eye%20satellite%20view",
+              "adobeStock": "https://stock.adobe.com/search?k=typhoon+eye+satellite+view"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Sea-wall breach in Fujian after landfall",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Fujian typhoon waves seawall storm surge",
+              "shutterstock": "https://www.shutterstock.com/search/Fujian%20typhoon%20waves%20seawall%20storm%20surge",
+              "adobeStock": "https://stock.adobe.com/search?k=Fujian+typhoon+waves+seawall+storm+surge"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 7
+      },
+      {
+        "title": "Earth in Motion: Volcanic Power of the Ring of Fire",
+        "text": "Along Asia’s fiery rim, volcanoes rebuild land and enrich soils.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Ash plume above Mayon volcano",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mayon volcano ash plume",
+              "shutterstock": "https://www.shutterstock.com/search/Mayon%20volcano%20ash%20plume",
+              "adobeStock": "https://stock.adobe.com/search?k=Mayon+volcano+ash+plume"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Rice terraces fed by volcanic soils",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Bali rice terraces volcanic soil",
+              "shutterstock": "https://www.shutterstock.com/search/Bali%20rice%20terraces%20volcanic%20soil",
+              "adobeStock": "https://stock.adobe.com/search?k=Bali+rice+terraces+volcanic+soil"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 8
+      }
+    ],
+    "meta": {
+      "generatedAt": "2025-12-29T15:48:24.319440+00:00",
+      "sourceWorkbooks": [
+        "Copy of Revisions for geophysical domain.xlsx",
+        "atlas_stock_links_shutterstock_adobe.xlsx"
+      ],
+      "exclusions": [
+        "Elevation profile callouts are intentionally omitted from this export."
+      ]
+    }
+  }
+}

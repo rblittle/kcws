@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/africa__featured-animal__lion.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__africa__africa_featured_animal_lion</poster_id>
+    <continent>africa</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>africa</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="Africa">
+  <animal>
+    <name>Lion</name>
+    <image url="https://www.shutterstock.com/image-photo/low-angle-front-shot-stalking-lioness-1449128447" />
+    <description>Lions are the savanna’s loudspeakers—one thunderous roar can carry five miles across the grasslands, keeping the pride together. Their golden coats blend into sun-baked plains as they prowl under the blazing sky. Yet shrinking grasslands mean these big cats have fewer places to call home.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

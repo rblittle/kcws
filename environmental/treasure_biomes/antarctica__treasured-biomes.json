@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/treasure biomes/antarctica__treasured-biomes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__treasure_biomes__antarctica__antarctica_treasured_biomes",
+    "derived_id": "environmental__treasure_biomes__antarctica__antarctica_treasured_biomes",
+    "continent": "antarctica",
+    "domain": "environmental",
+    "poster_family": "treasure_biomes",
+    "filename": "antarctica__treasured-biomes.json"
+  },
+  "tags": {
+    "continent": [
+      "antarctica"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "treasure_biomes"
+    ],
+    "flat": [
+      "continent:antarctica",
+      "domain:environmental",
+      "poster_family:treasure_biomes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/treasure biomes/antarctica__treasured-biomes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "treasured_biomes",
+    "continent": "Antarctica",
+    "posterTitle": "Antarctica: Peaks, Pack Ice, and the White Horizon",
+    "biomes": [
+      {
+        "name": "Antarctic Peninsula",
+        "description": "The Antarctic Peninsula is a rugged edge of Antarctica with fjords, glaciers, and busy wildlife coasts. In summer, penguins nest near ice and rock while whales and seals feed offshore.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/antarctic-penguins-colony-rest-on-mountain-2498179613"
+      },
+      {
+        "name": "Transantarctic Mountains",
+        "description": "The Transantarctic Mountains cut across Antarctica, dividing huge ice sheets. Sharp peaks, dry valleys, and wind‑scoured rock show a stark world where cold and time do most of the work.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/icy-rocks-transantarctic-mountains-1421814347"
+      },
+      {
+        "name": "Lambert Glacier",
+        "description": "Lambert Glacier is a giant river of ice in East Antarctica. It drains a huge area of the ice sheet and slowly flows toward the coast, feeding the Amery Ice Shelf.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/aerial-view-sea-snow-covered-beach-2642297637"
+      },
+      {
+        "name": "Vinson Massif",
+        "description": "Vinson Massif is Antarctica’s highest mountain. Its steep, icy slopes rise above a vast white wilderness, where extreme cold, wind, and endless snow make every step a serious challenge.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/antartica-mt-vinson-mountaineering-expedition-2362981231"
+      },
+      {
+        "name": "Weddell Sea",
+        "description": "The Weddell Sea is known for thick pack ice and massive icebergs. Along the shifting ice edge, seals, penguins, and whales find food in cold, nutrient‑rich water.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/icebergs-weddell-sea-antarctica-476199661"
+      },
+      {
+        "name": "Antarctic Plateau",
+        "description": "Antarctica’s plateau is a high, dry desert of ice near the continent’s center. It is flat, brutal, and incredibly cold, with clear skies and long stretches of silence.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/sunset-viewed-south-pole-1202349709"
+      },
+      {
+        "name": "South Georgia Island",
+        "description": "South Georgia is a sub‑Antarctic island of glaciers and steep mountains. Its beaches swarm with king penguins and seals, making it one of the loudest and richest wildlife coasts on Earth.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/thousands-king-penguins-line-rocky-shore-2626420437"
+      }
+    ]
+  }
+}

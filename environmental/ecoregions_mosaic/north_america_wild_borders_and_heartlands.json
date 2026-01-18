@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/ecoregions/north_america_wild_borders_and_heartlands.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__ecoregions_mosaic__north_america__north_america_wild_borders_and_heartlands",
+    "derived_id": "environmental__ecoregions_mosaic__north_america__north_america_wild_borders_and_heartlands",
+    "continent": "north_america",
+    "domain": "environmental",
+    "poster_family": "ecoregions_mosaic",
+    "filename": "north_america_wild_borders_and_heartlands.json"
+  },
+  "tags": {
+    "continent": [
+      "north_america"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "ecoregions_mosaic"
+    ],
+    "flat": [
+      "continent:north_america",
+      "domain:environmental",
+      "poster_family:ecoregions_mosaic"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/ecoregions/north_america_wild_borders_and_heartlands.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "North America",
+    "poster_title": "Wild Borders & Heartlands",
+    "items": [
+      {
+        "entry_number": "1",
+        "ecoregion_name": "Arctic Icecap & Greenland",
+        "image_url": "https://www.shutterstock.com/image-photo/iceberg-ice-glacier-arctic-nature-landscape-1471369001",
+        "description": "Sea ice and glaciers crown the Arctic; Greenland’s ice sheet calves towering bergs into steel-blue fjords."
+      },
+      {
+        "entry_number": "2",
+        "ecoregion_name": "Western Forests (Wildfire Haze, USA/Canada)",
+        "image_url": "https://www.shutterstock.com/image-photo/smoky-haze-hangs-over-distant-mountains-392975521",
+        "description": "Western forests smell of pine and smoke in dry summers; wildfire haze turns mountains purple and sunsets eerie."
+      },
+      {
+        "entry_number": "3",
+        "ecoregion_name": "Arctic Tundra (Canadian Archipelago)",
+        "image_url": "https://www.shutterstock.com/image-photo/polar-bear-standing-on-canadian-arctic-768878746",
+        "description": "On Canada’s far Arctic islands, tundra blooms briefly—lichens, tiny flowers, and permafrost patterns under endless daylight."
+      },
+      {
+        "entry_number": "4",
+        "ecoregion_name": "Rocky Mountains (Canada/USA)",
+        "image_url": "https://www.shutterstock.com/image-photo/aerial-view-rugged-sundance-range-rocky-2076814078",
+        "description": "Granite peaks and snowy passes shape the Rockies; turquoise lakes, pine forests, and wildlife fill the valleys."
+      },
+      {
+        "entry_number": "5",
+        "ecoregion_name": "Canadian Shield (Boreal Lakes)",
+        "image_url": "https://www.shutterstock.com/image-photo/canadian-shield-canoe-trip-124610470",
+        "description": "Ancient granite, dark spruce, and thousands of lakes define the Canadian Shield, where canoes slip through morning fog."
+      },
+      {
+        "entry_number": "6",
+        "ecoregion_name": "Far North Mining Towns (Yukon/NWT)",
+        "image_url": "https://www.shutterstock.com/image-photo/hires-panorama-landscape-remote-mining-towns-644609791",
+        "description": "Remote Yukon and NWT mining towns sit on the tundra’s edge—rusted gear, gravel roads, and big skies."
+      },
+      {
+        "entry_number": "7",
+        "ecoregion_name": "Pacific Northwest (Cascades, USA)",
+        "image_url": "https://www.shutterstock.com/image-photo/deep-lake-alpine-lakes-wilderness-washington-764585932",
+        "description": "The Cascades rise above rain-soaked forests; firs, waterfalls, and misty peaks frame the Pacific Northwest."
+      },
+      {
+        "entry_number": "8",
+        "ecoregion_name": "Great Plains (Tallgrass Prairie, USA)",
+        "image_url": "https://www.shutterstock.com/image-photo/winter-fall-konza-prairie-kansas-1800824746",
+        "description": "Tallgrass prairie once rolled like waves; today, remnant preserves still glow with wildflowers, bison, and prairie wind."
+      },
+      {
+        "entry_number": "9",
+        "ecoregion_name": "Great Lakes Shore (Lake Superior)",
+        "image_url": "https://www.shutterstock.com/image-photo/beautiful-landscape-lake-superior-northern-shore-80088553",
+        "description": "Lake Superior’s rocky shore meets cold mist and spruce woods; waves crash on cliffs and quiet coves."
+      },
+      {
+        "entry_number": "10",
+        "ecoregion_name": "Sierra Nevada (Yosemite, USA)",
+        "image_url": "https://www.shutterstock.com/image-photo/panorama-taft-point-yosemite-national-park-1787081789",
+        "description": "Yosemite’s granite walls and waterfalls drop into pine valleys; giant sequoias and clear rivers add wonder."
+      },
+      {
+        "entry_number": "11",
+        "ecoregion_name": "Southern Rocky Mountains (Colorado)",
+        "image_url": "https://www.shutterstock.com/image-photo/cattle-ranch-below-dallas-divide-mountains-1016018500",
+        "description": "Colorado’s San Juan Mountains mix high peaks and alpine basins, where golden aspens flare each fall."
+      },
+      {
+        "entry_number": "12",
+        "ecoregion_name": "Mississippi Bayou (Louisiana)",
+        "image_url": null,
+        "description": "Louisiana bayous weave slow, tea-colored waterways through cypress swamps, where Spanish moss hangs and herons stalk."
+      },
+      {
+        "entry_number": "13",
+        "ecoregion_name": "Appalachian Mountains (Great Smokies)",
+        "image_url": "https://www.shutterstock.com/image-photo/yellow-cypress-tree-swampy-bayou-on-1893223165",
+        "description": "The Smokies layer blue ridges and lush forests; spring wildflowers and fall color make every overlook feel alive."
+      },
+      {
+        "entry_number": "14",
+        "ecoregion_name": "Blue Ridge & Piedmont (Virginia)",
+        "image_url": "https://www.shutterstock.com/image-photo/autumn-scenics-great-smoky-mountains-national-1814154035",
+        "description": "Along Skyline Drive, forested Blue Ridge peaks fade into the Piedmont, a quilt of farms and rolling hills."
+      },
+      {
+        "entry_number": "15",
+        "ecoregion_name": "Desert Southwest (Grand Canyon/Monument Valley)",
+        "image_url": "https://www.shutterstock.com/image-photo/view-piedmont-skyline-drive-shenandoah-national-146651972",
+        "description": "Canyon walls and red mesas define the Southwest; deep shadows, stone towers, and wide skies spark road-trip awe."
+      },
+      {
+        "entry_number": "16",
+        "ecoregion_name": "Southern Great Plains (Texas Caprock)",
+        "image_url": "https://www.shutterstock.com/image-photo/panoramic-view-famous-mesa-arch-iconic-570021616",
+        "description": "Texas Caprock canyons cut the flat Llano Estacado; red cliffs, prairie grass, and bison tell old stories."
+      },
+      {
+        "entry_number": "17",
+        "ecoregion_name": "Southern Appalachians (Alabama)",
+        "image_url": "https://www.shutterstock.com/image-photo/golden-hour-panorama-haynes-ridge-caprock-1827411560",
+        "description": "Alabama’s highlands surprise—Cheaha Mountain rises above forests, offering rocky overlooks and sunset views across deep green."
+      },
+      {
+        "entry_number": "18",
+        "ecoregion_name": "Sierra Madre Occidental (Copper Canyon, MX)",
+        "image_url": "https://www.shutterstock.com/image-photo/sunset-cheaha-overlook-mountain-state-park-528865210",
+        "description": "Mexico’s Sierra Madre Occidental splits into Copper Canyon, a maze of cliffs and rivers deeper than the Grand Canyon."
+      },
+      {
+        "entry_number": "19",
+        "ecoregion_name": "Cuba’s Karst Mountains (Viñales)",
+        "image_url": "https://www.shutterstock.com/image-photo/fog-over-copper-canyon-occidental-mountains-714637249",
+        "description": "Viñales Valley’s limestone mogotes rise from tobacco fields, a Caribbean scene of caves, cliffs, and palms."
+      },
+      {
+        "entry_number": "20",
+        "ecoregion_name": "Sierra Madre del Sur (Oaxaca, MX)",
+        "image_url": "https://image.shutterstock.com/image-photo/panorama-mountains-cuba-600w-1135391804.jpg",
+        "description": "Oaxaca’s Sierra Madre del Sur holds cloud forests and rugged ridges, where diverse cultures and species meet."
+      },
+      {
+        "entry_number": "21",
+        "ecoregion_name": "Yucatán Jungle (Calakmul, MX)",
+        "image_url": "https://www.shutterstock.com/image-photo/sierra-madre-del-sur-near-pluma-723303610",
+        "description": "Calakmul’s jungle hides jaguars and ancient Maya ruins; climbing temple tops reveals endless green canopy."
+      },
+      {
+        "entry_number": "22",
+        "ecoregion_name": "Panamanian Rainforest (Canal Zone)",
+        "image_url": "https://www.shutterstock.com/image-photo/ancient-maya-ruins-calakmul-thick-jungle-1751528585",
+        "description": "Panama’s rainforest bridges two continents; dense trees, monkeys, and birds thrive beside the world-changing canal."
+      }
+    ]
+  }
+}

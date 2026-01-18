@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/antarctica__featured-animal__emperor-penguin.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__antarctica__antarctica_featured_animal_emperor_penguin</poster_id>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="Antarctica">
+  <animal>
+    <name>Emperor Penguin</name>
+    <image url="https://www.shutterstock.com/image-photo/two-penguins-their-baby-penguin-family-2056711106" />
+    <description>On the endless white ice, emperor penguins huddle together against brutal polar winds. Their black backs soak up scarce sunlight while golden cheek patches glow like a sunrise. Devoted parents balance eggs on their warm feet to keep them off the ice.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

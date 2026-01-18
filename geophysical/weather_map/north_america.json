@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/weathermaps/north_america.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__weather_map__north_america__north_america",
+    "derived_id": "geophysical__weather_map__north_america__north_america",
+    "continent": "north_america",
+    "domain": "geophysical",
+    "poster_family": "weather_map",
+    "filename": "north_america.json"
+  },
+  "tags": {
+    "continent": [
+      "north_america"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "weather_map"
+    ],
+    "flat": [
+      "continent:north_america",
+      "domain:geophysical",
+      "poster_family:weather_map"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/weathermaps/north_america.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "North America",
+    "posterTitle": "North America : Arctic Ice to Desert Furnace",
+    "legend": {
+      "title": "North America’s Sky Spectacles",
+      "items": [
+        {
+          "key": "Extreme Heat",
+          "display": "Hottest Hotspots",
+          "rationale": "Evokes curiosity without jargon"
+        },
+        {
+          "key": "Extreme Cold",
+          "display": "Frozen Frontiers",
+          "rationale": "Alliterative & vivid"
+        },
+        {
+          "key": "High Humidity & Rainfall",
+          "display": "Rain-Soaked Jungles",
+          "rationale": "Instantly signals tropical downpours"
+        },
+        {
+          "key": "Low Humidity & Arid Conditions",
+          "display": "Bone-Dry Deserts",
+          "rationale": "Conversational; pairs with desert icon"
+        },
+        {
+          "key": "Elevation-Related Climate",
+          "display": "Sky-High Climates",
+          "rationale": "Kids grasp “sky-high = mountaintop”"
+        },
+        {
+          "key": "Wind Extremes",
+          "display": "Howling Wind Zones",
+          "rationale": "Adds sensory cue (sound)"
+        },
+        {
+          "key": "Volcanic & Seismic Activity",
+          "display": "Volcano-Quake Lands",
+          "rationale": "Merges two ideas into one punchy phrase"
+        },
+        {
+          "key": "Flooding / Rainfall Extremes",
+          "display": "Deluge Hotspot",
+          "rationale": "Mirrors ecological term & is memorable"
+        },
+        {
+          "key": "Daylight Extremes",
+          "display": "Sunlight Swings",
+          "rationale": "Works for polar light or long summers"
+        },
+        {
+          "key": "Desertification & Dust Storms",
+          "display": "Duststorm Alley",
+          "rationale": "Visual and action-oriented"
+        },
+        {
+          "key": "Temperature Range Extremes",
+          "display": "Wild Temperature Swings",
+          "rationale": "Explains day-night whiplash clearly"
+        }
+      ]
+    },
+    "usVsContinent": {
+      "header": "North America & USA — America Inside America",
+      "prompt": "“The United States is only two-thirds of its own continent—follow the outline to meet our northern and southern neighbors.”",
+      "image": {
+        "url": "sandbox:/mnt/data/usa_vs_north_america.png",
+        "license": "CC0 (generated graphic)",
+        "source": {
+          "dataset": "Natural Earth 'Admin 0 – Countries' (public domain)",
+          "projection": "Mollweide (equal-area)",
+          "usaOutline": "Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)",
+          "notes": "Graphic generated from public-domain vector data; no third-party map tiles."
+        }
+      }
+    },
+    "featuredStories": [
+      {
+        "title": "Ice Caps to Coral Keys: A Continent of Climate Extremes",
+        "text": "From Arctic icebergs to turquoise reefs in the Florida Keys, North America spans more climate zones than any other landmass.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Summer midnight over Arctic sea-ice ridges",
+            "primaryUrl": null,
+            "searchPhrase": "sea ice pressure ridges arctic canada",
+            "stockSearch": {
+              "recommendedQuery": "sea ice pressure ridges arctic canada",
+              "shutterstock": "https://www.shutterstock.com/search/sea%20ice%20pressure%20ridges%20arctic%20canada",
+              "adobeStock": "https://stock.adobe.com/search?k=sea+ice+pressure+ridges+arctic+canada"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Sunbeams over elkhorn coral in the Keys",
+            "primaryUrl": null,
+            "searchPhrase": "snorkeler florida keys reef sunlight",
+            "stockSearch": {
+              "recommendedQuery": "snorkeler florida keys reef sunlight",
+              "shutterstock": "https://www.shutterstock.com/search/snorkeler%20florida%20keys%20reef%20sunlight",
+              "adobeStock": "https://stock.adobe.com/search?k=snorkeler+florida+keys+reef+sunlight"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 1
+      },
+      {
+        "title": "The Backbone: Rockies & Sierra Spine",
+        "text": "A single mountain cordillera rises from Alaska to Mexico, steering rivers and storms.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Denali glowing at first light",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Denali sunrise alpenglow",
+              "shutterstock": "https://www.shutterstock.com/search/Denali%20sunrise%20alpenglow",
+              "adobeStock": "https://stock.adobe.com/search?k=Denali+sunrise+alpenglow"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Knife-edge granite of California’s Sierra",
+            "primaryUrl": null,
+            "searchPhrase": "sierras granite crest john muir trail",
+            "stockSearch": {
+              "recommendedQuery": "sierras granite crest john muir trail",
+              "shutterstock": "https://www.shutterstock.com/search/sierras%20granite%20crest%20john%20muir%20trail",
+              "adobeStock": "https://stock.adobe.com/search?k=sierras+granite+crest+john+muir+trail"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Sierra Madre Occidental dropping to canyons",
+            "primaryUrl": null,
+            "searchPhrase": "mexican sierra madre sunset canyon",
+            "stockSearch": {
+              "recommendedQuery": "mexican sierra madre sunset canyon",
+              "shutterstock": "https://www.shutterstock.com/search/mexican%20sierra%20madre%20sunset%20canyon",
+              "adobeStock": "https://stock.adobe.com/search?k=mexican+sierra+madre+sunset+canyon"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 2
+      },
+      {
+        "title": "Tornado Alley & Hurricane Coast",
+        "text": "North America hosts Earth’s most violent tornadoes and multistate hurricanes.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Classic tornadic supercell over Kansas",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "tornadic supercell Kansas wheat field",
+              "shutterstock": "https://www.shutterstock.com/search/tornadic%20supercell%20Kansas%20wheat%20field",
+              "adobeStock": "https://stock.adobe.com/search?k=tornadic+supercell+Kansas+wheat+field"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Category-5 eye approaching Gulf Coast",
+            "primaryUrl": null,
+            "searchPhrase": "satellite hurricane eye gulf of mexico",
+            "stockSearch": {
+              "recommendedQuery": "satellite hurricane eye gulf of mexico",
+              "shutterstock": "https://www.shutterstock.com/search/satellite%20hurricane%20eye%20gulf%20of%20mexico",
+              "adobeStock": "https://stock.adobe.com/search?k=satellite+hurricane+eye+gulf+of+mexico"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 3
+      },
+      {
+        "title": "Great Plains: Breadbasket & Dust Bowl",
+        "text": "Vast grasslands feed the world—yet dry years can turn them to dust.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Harvesting the endless prairie",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "combine harvest wheat sunset prairie",
+              "shutterstock": "https://www.shutterstock.com/search/combine%20harvest%20wheat%20sunset%20prairie",
+              "adobeStock": "https://stock.adobe.com/search?k=combine+harvest+wheat+sunset+prairie"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Wall of dust reminiscent of 1930s storms",
+            "primaryUrl": null,
+            "searchPhrase": "dust storm black blizzard 1930s recreation",
+            "stockSearch": {
+              "recommendedQuery": "dust storm black blizzard 1930s recreation",
+              "shutterstock": "https://www.shutterstock.com/search/dust%20storm%20black%20blizzard%201930s%20recreation",
+              "adobeStock": "https://stock.adobe.com/search?k=dust+storm+black+blizzard+1930s+recreation"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 4
+      },
+      {
+        "title": "Ring of Fire: Volcanoes of the West",
+        "text": "From Aleutians to Mexico, plate boundaries forge fiery peaks.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Post-1980 St Helens dome and crater",
+            "primaryUrl": null,
+            "searchPhrase": "mount st helens steaming crater aerial",
+            "stockSearch": {
+              "recommendedQuery": "mount st helens steaming crater aerial",
+              "shutterstock": "https://www.shutterstock.com/search/mount%20st%20helens%20steaming%20crater%20aerial",
+              "adobeStock": "https://stock.adobe.com/search?k=mount+st+helens+steaming+crater+aerial"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Popocatépetl glowing above evening metro",
+            "primaryUrl": null,
+            "searchPhrase": "popocatepetl night lava glow mexico city lights",
+            "stockSearch": {
+              "recommendedQuery": "popocatepetl night lava glow mexico city lights",
+              "shutterstock": "https://www.shutterstock.com/search/popocatepetl%20night%20lava%20glow%20mexico%20city%20lights",
+              "adobeStock": "https://stock.adobe.com/search?k=popocatepetl+night+lava+glow+mexico+city+lights"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 5
+      },
+      {
+        "title": "Inland Seas: The Great Lakes",
+        "text": "Five vast lakes hold 20 % of the world’s surface fresh water.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Turquoise ice plates piling on Superior",
+            "primaryUrl": null,
+            "searchPhrase": "ice shards lake superior spring breakup",
+            "stockSearch": {
+              "recommendedQuery": "ice shards lake superior spring breakup",
+              "shutterstock": "https://www.shutterstock.com/search/ice%20shards%20lake%20superior%20spring%20breakup",
+              "adobeStock": "https://stock.adobe.com/search?k=ice+shards+lake+superior+spring+breakup"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "1 000-ft laker threading Detroit River",
+            "primaryUrl": null,
+            "searchPhrase": "bulk freighter detroit river dawn",
+            "stockSearch": {
+              "recommendedQuery": "bulk freighter detroit river dawn",
+              "shutterstock": "https://www.shutterstock.com/search/bulk%20freighter%20detroit%20river%20dawn",
+              "adobeStock": "https://stock.adobe.com/search?k=bulk+freighter+detroit+river+dawn"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 6
+      },
+      {
+        "title": "Desert Mosaics: Sonoran & Chihuahuan",
+        "text": "North America’s subtropical deserts bloom with life adapted to extremes.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Giant saguaro framed by crimson sky",
+            "primaryUrl": null,
+            "searchPhrase": "saguaro cactus sunset sonoran desert",
+            "stockSearch": {
+              "recommendedQuery": "saguaro cactus sunset sonoran desert",
+              "shutterstock": "https://www.shutterstock.com/search/saguaro%20cactus%20sunset%20sonoran%20desert",
+              "adobeStock": "https://stock.adobe.com/search?k=saguaro+cactus+sunset+sonoran+desert"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Gypsum dunes glowing blue at dusk",
+            "primaryUrl": null,
+            "searchPhrase": "white sands dunes gypsum twilight",
+            "stockSearch": {
+              "recommendedQuery": "white sands dunes gypsum twilight",
+              "shutterstock": "https://www.shutterstock.com/search/white%20sands%20dunes%20gypsum%20twilight",
+              "adobeStock": "https://stock.adobe.com/search?k=white+sands+dunes+gypsum+twilight"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 7
+      },
+      {
+        "title": "Appalachian Highlands: Ancient Mountains, Endless Colors",
+        "text": "Older than the Rockies, the Appalachians wring moisture from Atlantic air, feeding hardwood forests, blue-hazed valleys, and some of the richest temperate biodiversity on Earth. Weather stacks on the windward slopes and rains out along the Blue Ridge—why the Smokies smoke, the streams surge, and autumn erupts in color.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Blue Ridge layers fading into dawn",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Blue Ridge Mountains layers mist sunrise",
+              "shutterstock": "https://www.shutterstock.com/search/Blue%20Ridge%20Mountains%20layers%20mist%20sunrise",
+              "adobeStock": "https://stock.adobe.com/search?k=Blue+Ridge+Mountains+layers+mist+sunrise"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": null,
+            "primaryUrl": null,
+            "searchPhrase": "new river gorge bridge fall foliage",
+            "stockSearch": {
+              "recommendedQuery": "new river gorge bridge fall foliage",
+              "shutterstock": "https://www.shutterstock.com/search/new%20river%20gorge%20bridge%20fall%20foliage",
+              "adobeStock": "https://stock.adobe.com/search?k=new+river+gorge+bridge+fall+foliage"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 8
+      }
+    ],
+    "meta": {
+      "generatedAt": "2025-12-29T15:48:24.319440+00:00",
+      "sourceWorkbooks": [
+        "Copy of Revisions for geophysical domain.xlsx",
+        "atlas_stock_links_shutterstock_adobe.xlsx"
+      ],
+      "exclusions": [
+        "Elevation profile callouts are intentionally omitted from this export."
+      ]
+    }
+  }
+}

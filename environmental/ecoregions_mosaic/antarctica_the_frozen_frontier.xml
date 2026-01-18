@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/ecoregions/antarctica_the_frozen_frontier.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__ecoregions_mosaic__antarctica__antarctica_the_frozen_frontier</poster_id>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </poster>
+  <tags>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<ecoregion_poster continent="Antarctica" poster_title="The Frozen Frontier">
+  <ecoregion entry_number="1">
+    <ecoregion_name>Antarctic Plateau &amp; Coast</ecoregion_name>
+    <image_url/>
+    <description>A continent of ice and wind—vast plateaus, coastal cliffs, and penguin shores show Earth at its rawest.</description>
+  </ecoregion>
+</ecoregion_poster>
+]]></payload_xml>
+</normalized_poster>

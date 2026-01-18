@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/asia__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__asia__asia_animal_collage</poster_id>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="Asia">
+  <title>Steppes to Jungles: Asia’s Untamed</title>
+  <animals>
+    <animal>
+      <name>Tiger</name>
+      <image url="https://www.shutterstock.com/image-photo/wild-bengal-tiger-indian-panthera-tigris-2413292223" />
+      <description>Tigers are mighty orange cats with dark stripes that stalk through shadowy jungles and grassy plains. Their fiery striped coat provides perfect camouflage, concealing powerful muscles. As top predators, tigers keep deer populations in check, maintaining healthier ecosystems.</description>
+    </animal>
+    <animal>
+      <name>Asian Elephant</name>
+      <image url="https://www.shutterstock.com/image-photo/sri-lankan-elephants-elephas-maximus-dam-2390898259" />
+      <description>Asian elephants — the largest land animals in Asia — walk on pillar-like legs while sweeping aside branches with their trunks. Their huge ears flap to cool their bodies in the heat. Entire forests depend on these giants to spread seeds far and wide.</description>
+    </animal>
+    <animal>
+      <name>Snow Leopard</name>
+      <image url="https://www.shutterstock.com/image-photo/full-body-close-shot-adult-snow-2456819791" />
+      <description>Snow leopards are pale, spotted cats bounding across the cliffs of the Himalayas. Their extra-wide paws act like snowshoes on the powdery slopes. A long, thick tail helps them balance on the rocks and doubles as a cozy wrap for warmth during mountain storms.</description>
+    </animal>
+    <animal>
+      <name>Red Panda</name>
+      <image url="https://www.shutterstock.com/image-photo/red-panda-sleeping-tree-zoo-2497597003" />
+      <description>Red pandas are rusty-red tree climbers that curl their fluffy, ringed tails around themselves while nibbling bamboo shoots. Their strong, flexible ankles can rotate, allowing them to climb headfirst down tree trunks in the misty Himalayan forests.</description>
+    </animal>
+    <animal>
+      <name>Amur Tiger</name>
+      <image url="https://www.shutterstock.com/image-photo/two-siberian-tigers-stand-on-snowcovered-1268465971" />
+      <description>Amur tigers, the largest tiger subspecies, roam the cold forests of the Amur region in Siberia. Their thick winter coats and ample fat reserves protect them against the deep frost. These solitary hunters need vast, intact woodlands brimming with prey like wild boar to survive.</description>
+    </animal>
+    <animal>
+      <name>Nilgai</name>
+      <image url="https://www.shutterstock.com/image-photo/adult-blue-bull-nilgai-asian-antelope-1688121106" />
+      <description>Nilgai are tall antelopes of the Indian plains, sporting short horns and a sturdy build. Their keen eyes constantly scan the grasslands, helping the herd dodge lurking predators and guiding migrations toward fresh grazing areas.</description>
+    </animal>
+    <animal>
+      <name>Asiatic Lion</name>
+      <image url="https://www.shutterstock.com/image-photo/world-lion-day-image-asiatic-2344821595" />
+      <description>Asiatic lions are slightly smaller than their African cousins and survive only in India’s Gir Forest. They have distinct features like tufts of hair on their elbows and a long skin fold along the belly. Living in cooperative prides, these rare lions protect a precious lineage.</description>
+    </animal>
+    <animal>
+      <name>Komodo Dragon</name>
+      <image url="https://www.shutterstock.com/image-photo/komodo-dragon-varanus-komodoensis-monitor-sunning-2518842493" />
+      <description>Komodo dragons are massive lizards that stride across their Indonesian island habitats, flicking a forked tongue to sample the air for scents. Toxic bacteria and venom in their bite help these reptiles overpower prey, making them formidable ambush hunters.</description>
+    </animal>
+    <animal>
+      <name>Japanese Macaque</name>
+      <image url="https://www.shutterstock.com/image-photo/japanese-snow-monkey-monkeys-playing-hot-2307205205" />
+      <description>Japanese macaques, also known as snow monkeys, warm themselves by soaking in hot springs high in the Japanese Alps. In their social troops, they groom each other daily, strengthening bonds that help them survive the freezing mountain winters.</description>
+    </animal>
+    <animal>
+      <name>Bactrian Camel</name>
+      <image url="https://www.shutterstock.com/image-photo/bactrian-camel-against-snowy-mountain-range-1897204207" />
+      <description>Bactrian camels endure the harsh deserts of Central Asia, storing fat in their two humps for long, lean journeys. Their bushy eyebrows and long eyelashes shield their gentle eyes from swirling sandstorms.</description>
+    </animal>
+    <animal>
+      <name>King Cobra</name>
+      <image url="https://www.shutterstock.com/image-photo/amazing-dangerous-cobra-snake-2463230585" />
+      <description>King cobras are the world’s longest venomous snakes and can lift their hooded heads as tall as a person’s shoulders. Their keen eyesight and potent neurotoxic bite secure their place at the top of Southeast Asia’s forest food web.</description>
+    </animal>
+    <animal>
+      <name>Gibbon</name>
+      <image url="https://www.shutterstock.com/image-photo/herd-gibbons-ran-across-street-find-2326818087" />
+      <description>Gibbons are long-armed acrobats swinging through the rainforest canopy using a graceful hand-over-hand motion. Their melodic morning songs echo across jungle valleys, marking territory and strengthening the bond of each mated pair.</description>
+    </animal>
+    <animal>
+      <name>Malayan Tapir</name>
+      <image url="https://www.shutterstock.com/image-photo/malayan-tapir-acrocodia-indica-called-asian-1976559332" />
+      <description>Malayan tapirs, with their striking half-black, half-white bodies, snuffle through the undergrowth of Southeast Asian jungles. Their flexible, trunk-like snouts probe for tender shoots, while their bold two-toned coloring breaks up their outline to confuse predators.</description>
+    </animal>
+    <animal>
+      <name>Sun Bear</name>
+      <image url="https://www.shutterstock.com/image-photo/sun-bear-known-malaysian-helarctos-malayanus-2068521023" />
+      <description>Sun bears are stocky bears with short, sleek fur and a fiery orange chest patch. They climb tall tropical trees in search of honey and fruit. A sun bear’s extra-long tongue can scoop out insects hidden behind tree bark.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

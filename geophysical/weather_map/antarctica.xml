@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/antarctica.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__antarctica__antarctica</poster_id>
+    <continent>antarctica</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>antarctica</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="Antarctica">
+  <posterTitle>Antarctica : Earth’s Cold, Wind-Carved Frontier</posterTitle>
+  <legend>
+    <title>Antarctica’s Polar Phenomena</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>Antarctica vs. USA — Ice Bigger Than a Nation</header>
+    <prompt>“The frozen continent smothers the U.S. footprint—ponder the ice that locks up 70% of Earth’s fresh water.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_antarctica.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Antarctica’s Polar Phenomena</title>
+      <text>A frozen continent of superlatives—coldest air, fiercest winds, and ice thicker than many mountains are tall.</text>
+      <images>
+        <image slot="1">
+          <caption>First light over a 3 km-thick ice cap</caption>
+          <searchPhrase>wide aerial Antarctic plateau sunrise</searchPhrase>
+          <stockSearch recommendedQuery="wide aerial Antarctic plateau sunrise">
+            <shutterstock>https://www.shutterstock.com/search/wide%20aerial%20Antarctic%20plateau%20sunrise</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=wide+aerial+Antarctic+plateau+sunrise</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Six-month night viewed from space</caption>
+          <searchPhrase>satellite mosaic Antarctica winter darkness</searchPhrase>
+          <stockSearch recommendedQuery="satellite mosaic Antarctica winter darkness">
+            <shutterstock>https://www.shutterstock.com/search/satellite%20mosaic%20Antarctica%20winter%20darkness</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=satellite+mosaic+Antarctica+winter+darkness</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>Coldest Cold: Vostok to Dome A</title>
+      <text>Temperatures plunge below –90 °C at the heart of the ice sheet, where even the air shimmers with diamond dust.</text>
+      <images>
+        <image slot="1">
+          <caption>Vostok’s record –89.2 °C reading</caption>
+          <searchPhrase>thermometer minus 90 vostok station</searchPhrase>
+          <stockSearch recommendedQuery="thermometer minus 90 vostok station Antarctica">
+            <shutterstock>https://www.shutterstock.com/search/thermometer%20minus%2090%20vostok%20station%20Antarctica</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=thermometer+minus+90+vostok+station+Antarctica</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Glittering diamond-dust crystals at Dome C</caption>
+          <searchPhrase>hoar frost halo around concordia station</searchPhrase>
+          <stockSearch recommendedQuery="hoar frost halo around concordia station">
+            <shutterstock>https://www.shutterstock.com/search/hoar%20frost%20halo%20around%20concordia%20station</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=hoar+frost+halo+around+concordia+station</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>Katabatic Fury: The Continent’s Gravity-Driven Gales</title>
+      <text>Dense, super-cold air cascades down the slopes, carving blue-ice valleys and scouring rock.</text>
+      <images>
+        <image slot="1">
+          <caption>180 km/h katabatic plume over Terra Nova</caption>
+          <searchPhrase>snow banner katabatic wind terra nova bay</searchPhrase>
+          <stockSearch recommendedQuery="snow banner katabatic wind terra nova bay">
+            <shutterstock>https://www.shutterstock.com/search/snow%20banner%20katabatic%20wind%20terra%20nova%20bay</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=snow+banner+katabatic+wind+terra+nova+bay</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Glassy blue-ice formed by relentless wind</caption>
+          <searchPhrase>wind-polished blue ice runway</searchPhrase>
+          <stockSearch recommendedQuery="wind-polished blue ice runway Antarctica">
+            <shutterstock>https://www.shutterstock.com/search/wind-polished%20blue%20ice%20runway%20Antarctica</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=wind-polished+blue+ice+runway+Antarctica</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Fire Under Ice: Erebus &amp; the Volcanic Frontier</title>
+      <text>Antarctica hides active fire—Mt Erebus hosts a rare lava lake amid a world of ice.</text>
+      <images>
+        <image slot="1">
+          <caption>Lava glow and steam halo over Erebus crater</caption>
+          <searchPhrase>mount erebus night lava lake steam</searchPhrase>
+          <stockSearch recommendedQuery="mount erebus night lava lake steam">
+            <shutterstock>https://www.shutterstock.com/search/mount%20erebus%20night%20lava%20lake%20steam</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mount+erebus+night+lava+lake+steam</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Dormant Sidley rising from Marie Byrd Land</caption>
+          <searchPhrase>mount sidley snow-covered stratovolcano</searchPhrase>
+          <stockSearch recommendedQuery="mount sidley snow-covered stratovolcano">
+            <shutterstock>https://www.shutterstock.com/search/mount%20sidley%20snow-covered%20stratovolcano</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mount+sidley+snow-covered+stratovolcano</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>A Land of Midnight Sun—and Months of Night</title>
+      <text>Near the poles, daylight can last weeks—or vanish entirely.</text>
+      <images>
+        <image slot="1">
+          <caption>Sun looping around Amundsen–Scott Station</caption>
+          <searchPhrase>24-hour sun over south pole ceremonial</searchPhrase>
+          <stockSearch recommendedQuery="24-hour sun over south pole ceremonial">
+            <shutterstock>https://www.shutterstock.com/search/24-hour%20sun%20over%20south%20pole%20ceremonial</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=24-hour+sun+over+south+pole+ceremonial</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Green aurora rippling over winter camp</caption>
+          <searchPhrase>aurora australis above dark winter station</searchPhrase>
+          <stockSearch recommendedQuery="aurora australis above dark winter station">
+            <shutterstock>https://www.shutterstock.com/search/aurora%20australis%20above%20dark%20winter%20station</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=aurora+australis+above+dark+winter+station</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Living on Ice: Research Stations at the Edge</title>
+      <text>Scientists call the ice home—testing technology and endurance.</text>
+      <images>
+        <image slot="1">
+          <caption>McMurdo: largest settlement on the continent</caption>
+          <searchPhrase>mcmurdo station aerial summer</searchPhrase>
+          <stockSearch recommendedQuery="mcmurdo station aerial summer">
+            <shutterstock>https://www.shutterstock.com/search/mcmurdo%20station%20aerial%20summer</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mcmurdo+station+aerial+summer</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Russia’s isolated high-plateau outpost</caption>
+          <searchPhrase>vostok station small huts snow drifts</searchPhrase>
+          <stockSearch recommendedQuery="vostok station small huts snow drifts">
+            <shutterstock>https://www.shutterstock.com/search/vostok%20station%20small%20huts%20snow%20drifts</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=vostok+station+small+huts+snow+drifts</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>ESA/Italy base nicknamed ‘White Mars’</caption>
+          <searchPhrase>concordia station twin towers moonlit</searchPhrase>
+          <stockSearch recommendedQuery="concordia station twin towers moonlit">
+            <shutterstock>https://www.shutterstock.com/search/concordia%20station%20twin%20towers%20moonlit</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=concordia+station+twin+towers+moonlit</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Cracking Giants: Ice Shelves &amp; Calving Fronts</title>
+      <text>Massive shelves the size of countries creak, crack, and birth tabular icebergs.</text>
+      <images>
+        <image slot="1">
+          <caption>30-metre cliff at the Ross shelf front</caption>
+          <searchPhrase>ross ice shelf edge drone photo</searchPhrase>
+          <stockSearch recommendedQuery="ross ice shelf edge drone photo">
+            <shutterstock>https://www.shutterstock.com/search/ross%20ice%20shelf%20edge%20drone%20photo</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=ross+ice+shelf+edge+drone+photo</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Giant tabular berg calving at Larsen C</caption>
+          <searchPhrase>tabular iceberg breaking larson c</searchPhrase>
+          <stockSearch recommendedQuery="tabular iceberg breaking larson c Antarctica">
+            <shutterstock>https://www.shutterstock.com/search/tabular%20iceberg%20breaking%20larson%20c%20Antarctica</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=tabular+iceberg+breaking+larson+c+Antarctica</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Hidden Worlds: Subglacial Lakes &amp; Meteorite Fields</title>
+      <text>Beneath kilometres of ice lie dark lakes; on wind-swept ridges meteorites collect in blue-ice traps.</text>
+      <images>
+        <image slot="1">
+          <caption>Radar image revealing Lake Vostok under ice</caption>
+          <searchPhrase>subglacial lake vostok radar graphic</searchPhrase>
+          <stockSearch recommendedQuery="subglacial lake vostok radar graphic">
+            <shutterstock>https://www.shutterstock.com/search/subglacial%20lake%20vostok%20radar%20graphic</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=subglacial+lake+vostok+radar+graphic</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Hunting space rocks on blue-ice fields</caption>
+          <searchPhrase>scientist collecting meteorite allan hills</searchPhrase>
+          <stockSearch recommendedQuery="scientist collecting meteorite allan hills Antarctica">
+            <shutterstock>https://www.shutterstock.com/search/scientist%20collecting%20meteorite%20allan%20hills%20Antarctica</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=scientist+collecting+meteorite+allan+hills+Antarctica</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

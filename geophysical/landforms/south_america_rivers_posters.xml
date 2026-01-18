@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/landforms/south_america_rivers_posters.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__landforms__south_america__south_america_rivers_posters</poster_id>
+    <continent>south_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </poster>
+  <tags>
+    <continent>south_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<posterSet continent="South America" topic="Rivers" width_ft="8" height_ft="5">
+  <sources>
+    <text_primary>
+      <file>/mnt/data/Rivers poster.docx</file>
+      <type>docx</type>
+      <notes>Captions and micro-facts tables used as canonical copy.</notes>
+    </text_primary>
+    <design_brief>
+      <file>/mnt/data/sa landforms 3.docx</file>
+      <type>docx</type>
+      <notes>Style, palette, and layout guidance.</notes>
+    </design_brief>
+    <assets_spreadsheet>
+      <file>/mnt/data/South America Landforms.xlsx</file>
+      <type>xlsx</type>
+      <notes>Hyperlinks mapped to poster slots; cell provenance preserved.</notes>
+    </assets_spreadsheet>
+    <mockups>
+      <item>
+        <file>/mnt/data/south america rivers 1.jpg</file>
+        <notes>Draft concept poster 1 (NanoBanana)</notes>
+      </item>
+      <item>
+        <file>/mnt/data/south america rivers 2.jpg</file>
+        <notes>Draft concept poster 2 (NanoBanana)</notes>
+      </item>
+    </mockups>
+  </sources>
+  <designSystem>
+    <tone_voice>A blend of Carl Sagan’s awe, Bill Nye’s friendly explanations, Neil deGrasse Tyson’s cosmic perspective, Jordan Peterson’s thoughtful questioning, and David Attenborough’s gentle enthusiasm. Keep language accessible at roughly an 8th-grade reading level.
+ Use short, impactful sentences that inspire curiosity, highlight connections, and encourage respect for the natural world.</tone_voice>
+    <visual_emphasis>Prioritize imagery: approximately 70% visuals (maps, photographs, infographics) and 30% text.
+ Consistent, easy-to-read fonts and high contrast for outdoor readability.
+ Incorporate arrow motifs, ripple patterns, and color gradients that evoke water flow.</visual_emphasis>
+    <color_palette>Use cool blues and greens on Poster 1 to emphasize water, life, and vegetation.
+ Use lush greens, browns, and deep blues for Poster 2, representing the Amazon’s rainforest environment and rich waters.</color_palette>
+    <layout_consistency>Two-column posters; Poster 1 = formation + global context; Poster 2 = Amazon environmental + human geography.</layout_consistency>
+  </designSystem>
+  <posters>
+    <poster id="SA_RIVERS_P1">
+      <title>Rivers: Earth’s Lifeblood</title>
+      <sections>
+        <section id="SA_RIVERS_P1_LEFT" column="left">
+          <sectionTitle>How Rivers Form</sectionTitle>
+          <subtitle>From Drop to Delta</subtitle>
+          <components>
+            <component id="SA_RIVERS_P1L_FORMATION" type="infographic_vertical_stages">
+              <imageBlock>River Formation Process (cross‑section graphic)</imageBlock>
+              <caption>Rain, snow‑melt, or hidden springs gather, tumble downhill, and merge—chiseling valleys on their race to the sea.</caption>
+              <didYouKnow>
+                <fact>Some headwaters begin as a single snowflake.</fact>
+                <fact>Every river rises because gravity never rests.</fact>
+                <fact>A newborn stream can cut rock faster than steel tools.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="How () Forms" cell="A3">
+                  <label>Rivers (infographic base)</label>
+                  <role>primary_graphic</role>
+                  <url>https://cdn.midjourney.com/174e1b6b-9ae7-4938-8981-f7c7b5439856/0_1.png</url>
+                </asset>
+                <asset sheet="How () Forms" cell="A9">
+                  <label>Stage photo: Spring Source / Snowmelt / Rainfall</label>
+                  <role>stage_photo</role>
+                  <url>https://cdn.midjourney.com/594fc763-306c-4fb2-b57f-2ac980f159a2/0_0.png</url>
+                  <context>
+                    <prompt_cell>B9</prompt_cell>
+                    <prompt>A photorealistic depiction of a pristine mountain range with snow-capped peaks under a clear blue sky. In the foreground, a glacier melts into a nascent stream amid rugged terrain. The scene captures the grandeur reminiscent of David Lean's cinematography, with the natural beauty and epic scale of Peter Jackson's landscape shots in 'The Lord of the Rings.' --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1</prompt>
+                    <caption_cell>C9</caption_cell>
+                    <caption>Caption</caption>
+                  </context>
+                </asset>
+                <asset sheet="How () Forms" cell="E9">
+                  <label>Stage photo: Erosion &amp; Sediment Transport</label>
+                  <role>stage_photo</role>
+                  <url>https://cdn.midjourney.com/eec87315-fdb0-4e3e-8dcd-caf7eb3c814c/0_2.png</url>
+                  <context>
+                    <prompt_cell>F9</prompt_cell>
+                    <prompt>A photorealistic landscape showcasing a winding river traversing a verdant valley, flanked by eroded banks and lush vegetation. The composition reflects the sweeping vistas characteristic of David Lean's films, combined with the immersive natural settings seen in Peter Jackson's 'The Lord of the Rings.' --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1</prompt>
+                    <caption_cell>G9</caption_cell>
+                    <caption>Caption</caption>
+                  </context>
+                </asset>
+                <asset sheet="How () Forms" cell="I9">
+                  <label>Stage photo: Delta Formation &amp; Deposition</label>
+                  <role>stage_photo</role>
+                  <url>https://cdn.midjourney.com/59f950c1-9b17-487c-85ef-ed71d366ea2f/0_1.png</url>
+                  <context>
+                    <prompt_cell>J9</prompt_cell>
+                    <prompt>A photorealistic aerial view of a river delta fanning into the ocean, with intricate waterways weaving through fertile wetlands. The scene evokes the expansive and majestic landscapes of David Lean's direction, alongside the rich, detailed environments portrayed in Peter Jackson's 'The Lord of the Rings.' --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1</prompt>
+                    <caption_cell>K9</caption_cell>
+                    <caption>Caption</caption>
+                  </context>
+                </asset>
+              </assetRefs>
+              <notes>
+                <structure>
+                  <item>Source (spring/snowmelt/rainfall)</item>
+                  <item>Course (erosion &amp; sediment)</item>
+                  <item>Delta (deposition)</item>
+                </structure>
+                <designer_note>A3 is the current all-in-one graphic; A9/E9/I9 are stage-photo references.</designer_note>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P1L_MEANDER" type="diagram_meander_development">
+              <imageBlock>River Course Development (meander diagram)</imageBlock>
+              <caption>As rivers age, they slow and sway, looping into wide S‑curves that feed fertile floodplains.</caption>
+              <didYouKnow>
+                <fact>Over time, a looping bend can pinch off, leaving a horseshoe‑shaped oxbow lake.</fact>
+                <fact>The Mississippi shifts its path roughly every 1,000 years.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="General Overview" cell="D13">
+                  <label>Reference photo: Meandering river</label>
+                  <role>reference_photo</role>
+                  <url>https://cdn.midjourney.com/7a1227e8-abd7-48de-b87b-8e4eceedef1b/0_0.png</url>
+                </asset>
+              </assetRefs>
+              <notes>
+                <needs_custom_illustration>True</needs_custom_illustration>
+                <use_reference_photo>General Overview!D13 for bend geometry</use_reference_photo>
+              </notes>
+            </component>
+          </components>
+        </section>
+        <section id="SA_RIVERS_P1_RIGHT" column="right">
+          <sectionTitle>Rivers Around the World</sectionTitle>
+          <subtitle>Blue Threads of our Planet</subtitle>
+          <components>
+            <component id="SA_RIVERS_P1R_WORLD_MAP" type="map_world_rivers">
+              <imageBlock>World Rivers Map</imageBlock>
+              <caption>Five giants—Amazon, Nile, Yangtze, Mississippi, Danube—stitch continents together with water, trade, and tales.</caption>
+              <didYouKnow>
+                <fact>Rivers supply drinking water to 2.2 billion people.</fact>
+                <fact>The Amazon pours so much fresh water into the Atlantic that you can taste it 100 miles offshore.</fact>
+                <fact>Rivers move more sediment each year than all human mines combined.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="General Overview" cell="A3">
+                  <label>Reference: Major Rivers of the World map</label>
+                  <role>reference_map</role>
+                  <url>https://mapsforupsc.com/wp-content/uploads/2024/06/Map-of-Major-Rivers-of-the-World.png</url>
+                </asset>
+              </assetRefs>
+              <notes>
+                <required_labels>
+                  <item>Amazon</item>
+                  <item>Nile</item>
+                  <item>Yangtze</item>
+                  <item>Mississippi</item>
+                  <item>Danube</item>
+                </required_labels>
+                <designer_note>Use as trace/reference; final map should be simplified and highly legible outdoors.</designer_note>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P1R_INSETS" type="photo_insets_trio">
+              <imageBlock>Inset Photos (stream / meander / delta)</imageBlock>
+              <caption>Rivers often begin as small streams high in the mountains. Over time, rivers carve valleys, transport sediment, and nourish life. At their mouths, rivers create fertile deltas, habitats, and passageways for trade.</caption>
+              <assetRefs>
+                <asset sheet="General Overview" cell="A13">
+                  <label>Inset: mountain stream / headwaters</label>
+                  <role>inset_photo</role>
+                  <url>https://cdn.midjourney.com/6f73f3c1-0c6b-448a-9a18-31529d59fc77/0_1.png</url>
+                </asset>
+                <asset sheet="General Overview" cell="D13">
+                  <label>Inset: meandering river</label>
+                  <role>inset_photo</role>
+                  <url>https://cdn.midjourney.com/7a1227e8-abd7-48de-b87b-8e4eceedef1b/0_0.png</url>
+                </asset>
+                <asset sheet="General Overview" cell="G13">
+                  <label>Inset: river delta (aerial)</label>
+                  <role>inset_photo</role>
+                  <url>https://c8.alamy.com/comp/T38TWE/aerial-view-of-meghna-river-and-the-ganges-delta-india-T38TWE.jpg</url>
+                </asset>
+              </assetRefs>
+              <notes>
+                <source>sa landforms 3.docx outline; insets correspond to General Overview!A13/D13/G13.</source>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P1R_BY_SOURCE" type="comparison_triptych">
+              <imageBlock>Rivers by Source (replace “River Types” block)</imageBlock>
+              <caption>Glacial‐Fed — Indus: turquoise torrents fed by Himalayan ice / Rain‑Fed — Congo: swells with equatorial downpours / Spring‑Fed — Jordan: crystal water rises straight from stone</caption>
+              <subitems>
+                <subitem>
+                  <source_type>Glacial‐Fed</source_type>
+                  <example_river>Indus</example_river>
+                  <description>turquoise torrents fed by Himalayan ice</description>
+                </subitem>
+                <subitem>
+                  <source_type>Rain‑Fed</source_type>
+                  <example_river>Congo</example_river>
+                  <description>swells with equatorial downpours</description>
+                </subitem>
+                <subitem>
+                  <source_type>Spring‑Fed</source_type>
+                  <example_river>Jordan</example_river>
+                  <description>crystal water rises straight from stone</description>
+                </subitem>
+              </subitems>
+              <didYouKnow>
+                <fact>A single Himalayan glacier can feed rivers serving 1 in 5 people on Earth.</fact>
+                <fact>Rain‑fed rivers in the tropics can rise 40 feet in a day.</fact>
+                <fact>Some spring rivers flow for years without seeing the sky.</fact>
+              </didYouKnow>
+              <assetRefs/>
+              <notes>
+                <assets_needed>
+                  <item>Glacial-fed image</item>
+                  <item>Rain-fed image</item>
+                  <item>Spring-fed image</item>
+                </assets_needed>
+                <imagery_suggestions>Imagery suggestions
+ ‑ Glacial‑fed: aerial of gray‑blue meltwater tumbling from ice tongue.
+ ‑ Rain‑fed: dense rainforest canopy split by a chocolate‑brown flood.
+ ‑ Spring‑fed: clear pool bubbling from limestone with green reeds.</imagery_suggestions>
+                <status>No links for these three images are present in South America Landforms.xlsx; treat as acquisition needed.</status>
+              </notes>
+            </component>
+          </components>
+        </section>
+      </sections>
+    </poster>
+    <poster id="SA_RIVERS_P2">
+      <title>Amazon: River of Life</title>
+      <sections>
+        <section id="SA_RIVERS_P2_LEFT" column="left">
+          <sectionTitle>Environmental Significance</sectionTitle>
+          <subtitle>Heartbeat of the Rainforest</subtitle>
+          <components>
+            <component id="SA_RIVERS_P2L_AMAZON_MAP" type="map_basin">
+              <imageBlock>Amazon Basin Map</imageBlock>
+              <caption>Draining an area larger than the 48 U.S. states, the Amazon shapes weather across half the globe.</caption>
+              <didYouKnow>
+                <fact>The basin exhales 20 % of Earth’s oxygen every day.</fact>
+                <fact>One in every ten known species lives here.</fact>
+                <fact>River clouds can drift clear to Texas.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="Ecological Significance" cell="A4">
+                  <label>Amazon River Basin reference map (vector)</label>
+                  <role>primary_map</role>
+                  <url>https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Amazonrivermap.svg/800px-Amazonrivermap.svg.png</url>
+                </asset>
+                <asset sheet="Ecological Significance" cell="A5">
+                  <label>Andes mountains reference map</label>
+                  <role>support_reference</role>
+                  <url>https://edubaba.in/wp-content/uploads/2020/12/andes-mountains-map.jpg</url>
+                </asset>
+              </assetRefs>
+              <notes>
+                <required_visuals>
+                  <item>Amazon basin outline</item>
+                  <item>Andes spine</item>
+                  <item>major tributaries</item>
+                </required_visuals>
+                <designer_note>Use Andes map as textured range reference; basin map should remain simplified and high-contrast.</designer_note>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P2L_ECOSYSTEM" type="wildlife_montage">
+              <imageBlock>River Ecosystem (wildlife montage)</imageBlock>
+              <caption>Pink dolphins, giant water‑lilies, and trees that breathe underwater thrive in the Amazon’s rising, falling pulse.</caption>
+              <didYouKnow>
+                <fact>Some fish “climb” trees in flood season to eat fruit.</fact>
+                <fact>The Victoria water‑lily pads can hold a sitting child.</fact>
+                <fact>Flooded forests store more carbon than U.S. cars release in a year.</fact>
+              </didYouKnow>
+              <assetRefs/>
+              <notes>
+                <montage_elements>
+                  <item>Pink River Dolphin</item>
+                  <item>Giant water-lily / Victoria amazonica</item>
+                  <item>Flooded forest / igapó</item>
+                  <item>Optional: anaconda</item>
+                </montage_elements>
+                <status>No montage links in spreadsheet; create via illustration or stock collage.</status>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P2L_ICON_CAPTIONS" type="icon_caption_list">
+              <imageBlock>Icon Captions</imageBlock>
+              <caption>Short captions for map icons / callouts inside the basin map.</caption>
+              <subitems>
+                <subitem>
+                  <icon>Pink River Dolphin</icon>
+                  <caption>Blush‑hued navigators that ‘see’ with sound.</caption>
+                </subitem>
+                <subitem>
+                  <icon>Rainforest Canopy</icon>
+                  <caption>A living ceiling stacked in five leafy floors.</caption>
+                </subitem>
+                <subitem>
+                  <icon>Flooded Forests</icon>
+                  <caption>Each wet season, the forest drowns—then bursts back richer.</caption>
+                </subitem>
+                <subitem>
+                  <icon>Green Anaconda</icon>
+                  <caption>A 30‑ft ambush coiled in silent shallows.</caption>
+                </subitem>
+              </subitems>
+              <assetRefs/>
+              <notes>
+                <usage>These are label-ready micro-captions; pair with simple vector icons.</usage>
+                <source>Rivers poster.docx table</source>
+              </notes>
+            </component>
+          </components>
+        </section>
+        <section id="SA_RIVERS_P2_RIGHT" column="right">
+          <sectionTitle>Human Geography</sectionTitle>
+          <subtitle>River of Cultures</subtitle>
+          <components>
+            <component id="SA_RIVERS_P2R_COMMUNITIES" type="photo">
+              <imageBlock>River Communities (Indigenous village)</imageBlock>
+              <caption>Over 300 Indigenous nations weave languages, legends, and livelihoods along the water’s edge.</caption>
+              <didYouKnow>
+                <fact>Many villages still travel by dug‑out canoe.</fact>
+                <fact>Some groups can name 500 forest plants—each with a use.</fact>
+                <fact>Oral histories map river changes for safe navigation.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="Human Geography of" cell="A3">
+                  <label>Indigenous riverside community</label>
+                  <role>photo</role>
+                  <url>https://cloudfront-us-east-2.images.arcpublishing.com/reuters/OXC3XBPE45LO7ECIAAEELOWSR4.jpg</url>
+                  <context>
+                    <descriptor>use by indigenous people</descriptor>
+                  </context>
+                </asset>
+              </assetRefs>
+              <notes>
+                <placement>top-left montage tile (matches concept drafts)</placement>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P2R_TRANSPORT" type="photo">
+              <imageBlock>River Transportation (cargo boat / ferry)</imageBlock>
+              <caption>From tiny canoes to floating supermarkets, the river is the region’s highway and pantry.</caption>
+              <didYouKnow>
+                <fact>A five‑day boat ride equals a one‑hour flight here.</fact>
+                <fact>20 million people rely on the Amazon for daily transport.</fact>
+                <fact>Brazil’s largest port, Manaus, sits 1,000 miles from the sea.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="Human Geography of" cell="A4">
+                  <label>Cargo vessel / riverboat transport</label>
+                  <role>photo</role>
+                  <url>https://i.dailymail.co.uk/1s/2023/11/23/15/78068143-0-image-m-2_1700754348259.jpg</url>
+                  <context>
+                    <descriptor>cargo transport</descriptor>
+                  </context>
+                </asset>
+              </assetRefs>
+              <notes>
+                <placement>top-right montage tile</placement>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P2R_TOURISM" type="photo">
+              <imageBlock>Eco‑tourism / travelers (optional third tile)</imageBlock>
+              <caption>Travelers from around the globe come to experience the Amazon’s magic.</caption>
+              <assetRefs>
+                <asset sheet="Human Geography of" cell="A5">
+                  <label>Tourists on Amazon / Peru boat</label>
+                  <role>photo</role>
+                  <url>https://files.worldwildlife.org/wwfcmsprod/images/Peru_boat_WW_fall2021/story_full_width/4sw4kglq3l_peru_boat_WWfall2021.jpg</url>
+                  <context>
+                    <descriptor>tourists</descriptor>
+                  </context>
+                </asset>
+              </assetRefs>
+              <notes>
+                <optional>True</optional>
+                <matches_mockup>True</matches_mockup>
+              </notes>
+            </component>
+            <component id="SA_RIVERS_P2R_DEFORESTATION" type="photo">
+              <imageBlock>Deforestation Impact (fourth image)</imageBlock>
+              <caption>When forest falls, the river runs hotter and mud‑brown—wildlife and weather change downstream and worldwide.</caption>
+              <didYouKnow>
+                <fact>An area the size of a soccer field can disappear every minute.</fact>
+                <fact>Forest loss can cut regional rainfall by 20 %.</fact>
+              </didYouKnow>
+              <assetRefs>
+                <asset sheet="Human Geography of" cell="A6">
+                  <label>Deforestation impact</label>
+                  <role>photo</role>
+                  <url>https://cdn.cfr.org/sites/default/files/image/2024/10/AmazonDeforestation_BG.jpg?_gl=1*7ba5si*_gcl_au*ODgwNjM3NTA3LjE3MjI5NTI0NTk.*_ga*NDg1NzA1NTUuMTY5NTE1MDQxNg..*_ga_24W5E70YKH*MTcyOTYxOTU2My40NTguMS4xNzI5NjIwMDMyLjguMC4w</url>
+                </asset>
+              </assetRefs>
+              <notes>
+                <placement>bottom-right montage tile</placement>
+              </notes>
+            </component>
+          </components>
+        </section>
+      </sections>
+    </poster>
+  </posters>
+  <references>
+    <spreadsheetAssetsBySheet>
+      <sheet name="Home">
+        <asset cell="A5">
+          <value>Narrative for this</value>
+          <url>https://docs.google.com/document/u/0/d/1Vt8qr0zLQfvKhkZWpbQopna9UNRJGCx6/edit</url>
+        </asset>
+        <asset cell="A7">
+          <value>Poster 1 Drawing</value>
+          <url>https://drive.google.com/file/d/1dpL-yzDn_qUJ1stzPHe1GIMkHASdfs-k/view</url>
+        </asset>
+        <asset cell="A9">
+          <value>Poster 2 Drawing</value>
+          <url>https://drive.google.com/file/d/1SdfQFwwz1d6LajQgLATIEm3QsYJbiP_w/view</url>
+        </asset>
+      </sheet>
+      <sheet name="How () Forms">
+        <asset cell="A3">
+          <value>Rivers</value>
+          <url>https://cdn.midjourney.com/174e1b6b-9ae7-4938-8981-f7c7b5439856/0_1.png</url>
+        </asset>
+        <asset cell="A9">
+          <value>River Source</value>
+          <url>https://cdn.midjourney.com/594fc763-306c-4fb2-b57f-2ac980f159a2/0_0.png</url>
+        </asset>
+        <asset cell="E9">
+          <value>River Course</value>
+          <url>https://cdn.midjourney.com/eec87315-fdb0-4e3e-8dcd-caf7eb3c814c/0_2.png</url>
+        </asset>
+        <asset cell="I9">
+          <value>River Delta</value>
+          <url>https://cdn.midjourney.com/59f950c1-9b17-487c-85ef-ed71d366ea2f/0_1.png</url>
+        </asset>
+      </sheet>
+      <sheet name="General Overview">
+        <asset cell="A3">
+          <value>Reference Map</value>
+          <url>https://mapsforupsc.com/wp-content/uploads/2024/06/Map-of-Major-Rivers-of-the-World.png</url>
+        </asset>
+        <asset cell="A13">
+          <value>river in gorge</value>
+          <url>https://cdn.midjourney.com/6f73f3c1-0c6b-448a-9a18-31529d59fc77/0_1.png</url>
+        </asset>
+        <asset cell="D13">
+          <value>Meandering river</value>
+          <url>https://cdn.midjourney.com/7a1227e8-abd7-48de-b87b-8e4eceedef1b/0_0.png</url>
+        </asset>
+        <asset cell="G13">
+          <value>ganges delta</value>
+          <url>https://c8.alamy.com/comp/T38TWE/aerial-view-of-meghna-river-and-the-ganges-delta-india-T38TWE.jpg</url>
+        </asset>
+      </sheet>
+      <sheet name="Ecological Significance">
+        <asset cell="A4">
+          <value>Map of Amazon</value>
+          <url>https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Amazonrivermap.svg/800px-Amazonrivermap.svg.png</url>
+        </asset>
+        <asset cell="A5">
+          <value>map of andes mountains</value>
+          <url>https://edubaba.in/wp-content/uploads/2020/12/andes-mountains-map.jpg</url>
+        </asset>
+      </sheet>
+      <sheet name="Human Geography of">
+        <asset cell="A3">
+          <value>indigenous</value>
+          <url>https://cloudfront-us-east-2.images.arcpublishing.com/reuters/OXC3XBPE45LO7ECIAAEELOWSR4.jpg</url>
+        </asset>
+        <asset cell="A4">
+          <value>cargo vessels</value>
+          <url>https://i.dailymail.co.uk/1s/2023/11/23/15/78068143-0-image-m-2_1700754348259.jpg</url>
+        </asset>
+        <asset cell="A5">
+          <value>tourists</value>
+          <url>https://files.worldwildlife.org/wwfcmsprod/images/Peru_boat_WW_fall2021/story_full_width/4sw4kglq3l_peru_boat_WWfall2021.jpg</url>
+        </asset>
+        <asset cell="A6">
+          <value>deforestation</value>
+          <url>https://cdn.cfr.org/sites/default/files/image/2024/10/AmazonDeforestation_BG.jpg?_gl=1*7ba5si*_gcl_au*ODgwNjM3NTA3LjE3MjI5NTI0NTk.*_ga*NDg1NzA1NTUuMTY5NTE1MDQxNg..*_ga_24W5E70YKH*MTcyOTYxOTU2My40NTguMS4xNzI5NjIwMDMyLjguMC4w</url>
+        </asset>
+      </sheet>
+    </spreadsheetAssetsBySheet>
+  </references>
+</posterSet>
+]]></payload_xml>
+</normalized_poster>

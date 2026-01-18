@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/europe__featured-animal__grey-wolf.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__europe__europe_featured_animal_grey_wolf</poster_id>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="Europe">
+  <animal>
+    <name>Grey Wolf</name>
+    <image url="https://www.shutterstock.com/image-photo/wolf-shewolf-howling-isolated-on-white-1943218351" />
+    <description>Gray wolves slink through twilight forests on silent paws. They communicate with haunting howls that can carry up to ten miles. Pack teamwork brings down large prey like elk, and their strong jaws crunch through leftover bones to keep the forest’s food chain balanced through winter.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

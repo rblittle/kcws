@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/landforms/africa_deserts_posters.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__landforms__africa__africa_deserts_posters",
+    "derived_id": "geophysical__landforms__africa__africa_deserts_posters",
+    "continent": "africa",
+    "domain": "geophysical",
+    "poster_family": "landforms",
+    "filename": "africa_deserts_posters.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "landforms"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:geophysical",
+      "poster_family:landforms"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/landforms/africa_deserts_posters.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "poster_set_id": "africa_landforms_deserts",
+    "continent": "Africa",
+    "topic": "Deserts (Sahara focus)",
+    "posters": [
+      {
+        "poster_id": "africa_deserts_poster1",
+        "title": "“Shaping the Sands: The Story of Deserts”",
+        "layout": {
+          "split": "vertical",
+          "left_section_id": "p1_left",
+          "right_section_id": "p1_right"
+        },
+        "sections": [
+          {
+            "section_id": "p1_left_how_deserts_form",
+            "position": "left",
+            "title": "How Deserts Form",
+            "text_outline": {
+              "primary_objective": "Visually explain the processes that create deserts, emphasizing key natural and human-driven causes.",
+              "visual_concept": [
+                "Large Infographic:",
+                "Cross-Section of a Desert Landscape:",
+                "Rain Shadow Effect: Show how moist air rises over a mountain, cools, and condenses into rain on one side, while the other side stays dry.",
+                "Global Wind Patterns: Use a globe or a simple atmospheric cross-section to illustrate how high-pressure zones at 30° latitude create arid desert zones.",
+                "Erosion & Desertification: Show an area transitioning from fertile land to desert over time, with human impacts like deforestation and overgrazing.",
+                "Callouts and Labels:",
+                "\"Dry Air Descends Here\" (for wind patterns)",
+                "\"Mountains Block Moisture\" (for rain shadows)",
+                "\"Erosion and Human Impact\" (for desertification)",
+                "Use arrows to show the direction of air, wind, and sediment movement."
+              ],
+              "text_content": {
+                "headline": "\"What Shapes a Desert?\"",
+                "supporting_text": "\"Deserts form when dry air and scarce rainfall transform land into arid, barren expanses. This happens in the rain shadows of mountains, along global wind belts, and through erosion and desertification caused by human activity.\"",
+                "callout_statistic": "\"1/3 of Earth’s land is desert.\""
+              },
+              "color_palette": "Warm, earthy hues (sandy yellows, ochres, and browns) with soft blue accents for air and water elements.",
+              "imagery_recommendations": []
+            },
+            "assets": [
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "infographic_base_rainshadow",
+                "sheet": "How () Forms",
+                "cell": "A5",
+                "label": "Rainshadows",
+                "url": "https://cdn.midjourney.com/13c0ffc4-0d0f-438f-b4ac-7bca6981bcaa/0_0.png",
+                "notes": {
+                  "prompt_or_description": "A photorealistic cross-sectional landscape showcasing a towering mountain range with lush, verdant forests on the windward side (left) and a stark, arid desert on the leeward side (right). Moist air ascends the windward slope, forming clouds and precipitation, while dry air descends on the leeward side, creating a rain shadow desert. The composition evokes the expansive and dramatic cinematography of Peter Jackson's aerial shots in 'The Lord of the Rings.' --chaos 5 --ar 16:9 --style raw --stylize 50 --v 6.1",
+                  "status_note": "This is the current version"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "infographic_base_rainshadow_previous_version",
+                "sheet": "How () Forms",
+                "cell": "A6",
+                "label": "Image 1",
+                "url": "https://cdn.midjourney.com/bccf3e84-0d4d-45ce-baa5-bc9e441892f6/0_1.png",
+                "notes": {
+                  "comment": "These are past versions\n\t-Bennett Little"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "infographic_base_rainshadow_previous_version",
+                "sheet": "How () Forms",
+                "cell": "A7",
+                "label": "image 2",
+                "url": "https://cdn.midjourney.com/bccf3e84-0d4d-45ce-baa5-bc9e441892f6/0_2.png",
+                "notes": {
+                  "comment": null
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "inset_global_wind_patterns_hadley_cells_option",
+                "sheet": "How () Forms",
+                "cell": "A11",
+                "label": "Hadley Cells",
+                "url": "https://www.surfertoday.com/images/stories/windpatterns.jpg",
+                "notes": {
+                  "note": "This is a better graphic"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "inset_global_wind_patterns_hadley_cells_option",
+                "sheet": "How () Forms",
+                "cell": "A12",
+                "label": "Again",
+                "url": "https://o.quizlet.com/CNdrCTNZx9BgxWm7zmx3Dg_b.png",
+                "notes": {
+                  "note": "This shows how they work"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_image",
+                "sheet": "How () Forms",
+                "cell": "A17",
+                "stage": 1,
+                "label": "Timeline 1",
+                "url": "https://cdn.midjourney.com/c0c1d435-0bec-4cfb-b17e-d6d69826ad14/0_1.png",
+                "notes": {}
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_image",
+                "sheet": "How () Forms",
+                "cell": "B17",
+                "stage": 2,
+                "label": 2.0,
+                "url": "https://cdn.midjourney.com/dc52931c-8ab3-4259-a229-3bbceaadaa1a/0_3.png",
+                "notes": {}
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_image",
+                "sheet": "How () Forms",
+                "cell": "C17",
+                "stage": 3,
+                "label": 3.0,
+                "url": "https://cdn.midjourney.com/1735df1a-899a-4652-8e31-c7ecbfb824bb/0_1.png",
+                "notes": {}
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_image",
+                "sheet": "How () Forms",
+                "cell": "D17",
+                "stage": 4,
+                "label": 4.0,
+                "url": "https://cdn.midjourney.com/8924310e-3f8f-4e3b-834c-75762094e9e9/0_0.png",
+                "notes": {}
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_caption",
+                "sheet": "How () Forms",
+                "row": 20,
+                "stage": 1,
+                "micro_heading": "Living Soil",
+                "caption": "Rain-soaked savanna hums with roots, microbes, and grain—dark earth stores water like a sponge, anchoring every blade of grass."
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_caption",
+                "sheet": "How () Forms",
+                "row": 21,
+                "stage": 2,
+                "micro_heading": "Stripped Shield",
+                "caption": "Herds double, trees vanish for fuel; hungry hooves and ploughs scratch the surface bare, exposing fragile topsoil to a harsh sun."
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_caption",
+                "sheet": "How () Forms",
+                "row": 22,
+                "stage": 3,
+                "micro_heading": "Dust on the Wind",
+                "caption": "Unmoored soil lifts skyward; sand needles sting skin, and ochre clouds sail hundreds of miles, blotting out midday light."
+              },
+              {
+                "poster": "P1",
+                "section": "How Deserts Form",
+                "role": "desertification_progression_caption",
+                "sheet": "How () Forms",
+                "row": 23,
+                "stage": 4,
+                "micro_heading": "Land of Thirst",
+                "caption": "What remains is a hard, salt-whitened crust and restless dunes—water rolls off, seeds bake, and life retreats to distant oases."
+              }
+            ]
+          },
+          {
+            "section_id": "p1_right_deserts_of_world",
+            "position": "right",
+            "title": "General Overview of Deserts",
+            "text_outline": {
+              "primary_objective": "Highlight the scope, diversity, and global context of deserts around the world.",
+              "visual_concept": [
+                "World Map with Deserts Highlighted:",
+                "Major Deserts:",
+                "Sahara (Africa)",
+                "Gobi (Asia)",
+                "Atacama (South America)",
+                "Mojave (North America)",
+                "Antarctica (Cold Desert)",
+                "Use color-coded desert icons to distinguish between hot deserts (red/orange) and cold deserts (light blue/white).",
+                "Include small snapshots of each desert (a camel in the Sahara, wind-carved rocks in the Atacama, and penguins in Antarctica) to emphasize the diversity of desert landscapes."
+              ],
+              "text_content": {
+                "headline": "\"Deserts of the World\"",
+                "supporting_text": "\"Deserts cover 33% of Earth's land surface and exist on every continent. From the blazing Sahara to Antarctica’s frozen expanse, these extreme environments shape life, land, and climate.\"",
+                "callout_statistic": "\"Deserts Exist on All 7 Continents\""
+              },
+              "color_palette": "Use a neutral earth-tone color palette (deep oranges, browns, and desert reds) with bright pops of blue and green for highlighting oases and water elements.",
+              "imagery_recommendations": []
+            },
+            "assets": [
+              {
+                "poster": "P1",
+                "section": "General Overview of Deserts",
+                "role": "world_map_desert_distribution_reference",
+                "sheet": "General Overview",
+                "cell": "A3",
+                "label": "Reference Map",
+                "url": "https://www.thegeographeronline.net/uploads/2/6/6/2/26629356/5713945_orig.jpg",
+                "notes": {}
+              },
+              {
+                "poster": "P1",
+                "section": "General Overview of Deserts",
+                "role": "desert_callout_card_image",
+                "sheet": "General Overview",
+                "cell": "A12",
+                "desert": "Sahara desert",
+                "label": "Camel in the Sahara",
+                "url": "https://thepetridish.my/wp-content/uploads/2017/05/274.jpg",
+                "blurb": "A sand-sea the size of the U.S.; its airborne dust seeds the Amazon."
+              },
+              {
+                "poster": "P1",
+                "section": "General Overview of Deserts",
+                "role": "desert_callout_card_image",
+                "sheet": "General Overview",
+                "cell": "A13",
+                "desert": "Atacama Desert",
+                "label": "Wind-carved rock in Atacama",
+                "url": "https://c8.alamy.com/comp/A0RDCN/wind-sculpted-rock-formations-and-salt-deposits-of-the-valley-of-the-A0RDCN.jpg",
+                "blurb": "Some stations here have never recorded rain—planet Earth’s driest spot."
+              },
+              {
+                "poster": "P1",
+                "section": "General Overview of Deserts",
+                "role": "desert_callout_card_image",
+                "sheet": "General Overview",
+                "cell": "A14",
+                "desert": "Antarctica",
+                "label": "Penguins on Antarctic ice",
+                "url": "https://media.virtuoso.com/m/cms/VCom/Destination/regions/antarctica/Antarctica/Antarctica-Penguins-Ice.jpg",
+                "blurb": "Earth’s biggest desert—frozen, wind-scoured, holding 90 % of global ice."
+              },
+              {
+                "poster": "P1",
+                "section": "General Overview of Deserts",
+                "role": "desert_callout_card_image",
+                "sheet": "General Overview",
+                "cell": "A15",
+                "desert": "Mojave Desert",
+                "label": "Yucca plant in the Mojave",
+                "url": "https://www.oceanlight.com/stock-photo/mojave-yucca-image-09106-358720.jpg",
+                "blurb": "Home of the hardy Joshua Tree and Death Valley’s record heat."
+              }
+            ]
+          }
+        ],
+        "imagery_recommendations": [
+          "Hero Image: A sweeping image of the Sahara Desert's rolling dunes under a dramatic sky.",
+          "Inset Images:",
+          "A rain shadow effect over a mountain range.",
+          "Satellite imagery of the world’s desert belts.",
+          "Close-ups of desertification (cracked ground) and human interventions (the Great Green Wall).",
+          "Contrasting images of \"hot deserts\" (sand dunes) vs. \"cold deserts\" (Antarctica ice formations)."
+        ]
+      },
+      {
+        "poster_id": "africa_deserts_poster2",
+        "title": "“The Sahara: Sea of Sand”",
+        "layout": {
+          "split": "vertical",
+          "left_section_id": "p2_left",
+          "right_section_id": "p2_right"
+        },
+        "sections": [
+          {
+            "section_id": "p2_left_sahara_global_reach",
+            "position": "left",
+            "title": "Environmental Significance of the Sahara",
+            "text_outline": {
+              "primary_objective": "Showcase the Sahara’s role in regional and global environmental systems, with an emphasis on its impact on climate and ecosystems.",
+              "visual_concept": [
+                "Infographic Map of the Sahara:",
+                "Highlight major features:",
+                "Erg Chebbi Dunes (famous towering sand dunes).",
+                "Oases and Water Sources (like Siwa Oasis).",
+                "The Great Green Wall (a reforestation effort spanning 11 African countries).",
+                "Use movement arrows to show how the Sahara’s dust travels across the Atlantic and fertilizes the Amazon rainforest.",
+                "Dune Migration: Arrows showing the slow movement of dunes due to wind.",
+                "Icons and Callouts:",
+                "\"Sahara’s Dust Feeds the Amazon Rainforest\"",
+                "\"Erg Chebbi: Towers of Shifting Sand\"",
+                "\"The Great Green Wall: Africa’s Natural Barrier to Desertification\""
+              ],
+              "text_content": {
+                "headline": "\"The Sahara’s Global Reach\"",
+                "supporting_text": "\"The Sahara spans 3.6 million square miles, making it the world’s largest hot desert. But its influence extends far beyond Africa. Each year, winds blow Sahara dust across the Atlantic, nourishing the Amazon Rainforest. Efforts like the Great Green Wall aim to combat desertification and restore ecosystems.\"",
+                "callout_statistic": "\"3.6 Million Square Miles — Larger than the U.S.\""
+              },
+              "color_palette": "Sandy gold, rusty orange, and desert brown with accents of blue and green (to represent oases and environmental protection efforts).",
+              "imagery_recommendations": []
+            },
+            "assets": [
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_region_map_option",
+                "sheet": "Ecological Significance",
+                "cell": "A4",
+                "label": "sahara map",
+                "url": "https://v.w-x.co/1554322009701_greenwall0403pm.1.jpg",
+                "notes": {}
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_region_map_option",
+                "sheet": "Ecological Significance",
+                "cell": "B4",
+                "label": "Sahara map",
+                "url": "https://atlasofthefuture.org/wp-content/uploads/2016/01/Sahara_satellite_hires-1024x574.jpg",
+                "notes": {}
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_dust_plume_option",
+                "sheet": "Ecological Significance",
+                "cell": "A5",
+                "label": "Saharan Dust",
+                "url": "https://static.independent.co.uk/2022/02/01/14/20220201_SaharanDustStorm.jpg",
+                "notes": {
+                  "adjacent_note": "So we want to take this "
+                }
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_dust_plume_option",
+                "sheet": "Ecological Significance",
+                "cell": "A6",
+                "label": "Saharan Dust",
+                "url": "https://www.geographyrealm.com/wp-content/uploads/2021/08/map-saharan-dust-plume-nasa-2018179.png",
+                "notes": {
+                  "adjacent_note": "And extend it in photoshop or whatever to over yonder in the americas"
+                }
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_dust_plume_option",
+                "sheet": "Ecological Significance",
+                "cell": "A7",
+                "label": "Saharan Dust",
+                "url": "https://media.wwltv.com/assets/WWL/images/45d55b4f-8845-4cb8-a3cb-a778d55b69b3/45d55b4f-8845-4cb8-a3cb-a778d55b69b3_1920x1080.jpg",
+                "notes": {
+                  "adjacent_note": "Like this but further"
+                }
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "sahara_dust_plume_option",
+                "sheet": "Ecological Significance",
+                "cell": "B7",
+                "label": "Like this but further",
+                "url": "https://earthsky.org/upl/2020/06/dust-sahara-jun17-2020-GOES-East-scaled-e1592562133893.gif",
+                "notes": {
+                  "adjacent_note": null
+                }
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "callout_image",
+                "sheet": "Ecological Significance",
+                "cell": "A10",
+                "title": "Siwa Oasis",
+                "url": "https://www.pixeoapp.com/wp-content/uploads/2022/06/siwa-oasis-by-mo-willy.jpg",
+                "caption": "An emerald refuge where frogs, palms and families share one spring."
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "callout_image",
+                "sheet": "Ecological Significance",
+                "cell": "A11",
+                "title": "Erg Chebbi",
+                "url": "https://www.les-covoyageurs.com/ressources/images-lieux/photo-lieu-72-2.jpg",
+                "caption": "Erg Chebbi’s 500-foot dunes ripple like golden waves, an ever-moving archive of wind that shelters scorpions, fennec foxes, and rare desert blooms."
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "callout_image_alternative",
+                "sheet": "Ecological Significance",
+                "cell": "A12",
+                "title": "Erg Chebbi (alt)",
+                "url": "https://www.michael-hochfellner.com/wp-content/uploads/2018/06/Erg_Chebbi_Desert_21_WEB.jpg"
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "callout_image",
+                "sheet": "Ecological Significance",
+                "cell": "A14",
+                "title": "The Great Green Wall",
+                "url": "https://images.squarespace-cdn.com/content/v1/61960a3b17ad2055ad8474d3/b9448749-3a31-43ae-bb1b-60eb45af9d5a/green_wall.jpg",
+                "caption": "An 8 000 km ribbon of trees, stitched nation by nation, is slowing the desert’s march."
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "callout_image_alternative",
+                "sheet": "Ecological Significance",
+                "cell": "A13",
+                "title": "The Great Green Wall (alt)",
+                "url": "https://cdn4.dogonews.com/images/245e9e48-396c-4f33-86c0-93a7208fe929/great-green-wall.jpg",
+                "notes": {
+                  "stylized_reference": "https://www.fao.org/fileadmin/templates/great-green-wall/images/share.jpg",
+                  "stylized_note": "This is how someone stylized it"
+                }
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "supporting_photo_option",
+                "sheet": "Ecological Significance",
+                "cell": "A15",
+                "title": "Acacia tree (Sahara)",
+                "url": "https://www.weizmann-usa.org/media/3980/tbav-desert-tree-1355x858.jpg"
+              },
+              {
+                "poster": "P2",
+                "section": "Environmental Significance of the Sahara",
+                "role": "supporting_photo_option",
+                "sheet": "Ecological Significance",
+                "cell": "A16",
+                "title": "Dunes at sunrise",
+                "url": "https://media.istockphoto.com/id/624196920/photo/sunrise-at-erg-chebbi-sand-dunes-morocco-north-africa.jpg?s=612x612&w=0&k=20&c=biAiemfNqU3VEuyH65ugij8jWdn0dv2cs8a-k4PPBD4="
+              }
+            ]
+          },
+          {
+            "section_id": "p2_right_human_geography",
+            "position": "right",
+            "title": "Human Geography of the Sahara",
+            "text_outline": {
+              "primary_objective": "Highlight human life, trade, and adaptation in the Sahara, emphasizing its historical, cultural, and modern human impact.",
+              "visual_concept": [
+                "Timeline of Human Interaction:",
+                "Ancient Trade Routes: Depict camel caravans traversing trade routes (like the Trans-Saharan Salt Trade).",
+                "Nomadic Tribes (Tuareg People): Highlight images of Tuareg people in their traditional indigo veils with camels.",
+                "Modern Sahara Life: Illustrate desert-edge cities like Timbuktu and highlight the challenge of adapting to desert conditions.",
+                "Climate Change Response: Show efforts like the Great Green Wall project as a modern intervention."
+              ],
+              "text_content": {
+                "headline": "\"Living with the Desert\"",
+                "supporting_text": "\"The Sahara is more than just sand. It’s a place of life, trade, and adaptation. Ancient caravan routes once carried salt and gold across its expanse. Today, nomadic tribes like the Tuareg still call it home. Efforts like the Great Green Wall are working to halt the desert’s advance, creating a green barrier to protect communities.\"",
+                "callout_statistic": "\"Home to 2 Million People — From Nomads to Modern Cities\""
+              },
+              "color_palette": "Deep oranges, dark browns, and rustic golds with accents of indigo and teal (to highlight the Tuareg people and oases).",
+              "imagery_recommendations": []
+            },
+            "assets": [
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "hero_image",
+                "sheet": "Human Geography of",
+                "cell": "A5",
+                "title": "Pyramids / Ancient Egypt",
+                "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1040x10000:format=jpg/path/s2217cd0bb1220415/image/i2af6ba389da43cfa/version/1685648970/giza-pyramids-at-sunset.jpg",
+                "caption": "Stone giants rise from the Sahara—pyramids that outlast sand and time, reminding us that genius once bloomed where rainfall dares not"
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "image_tile",
+                "sheet": "Human Geography of",
+                "cell": "A6",
+                "title": "Camel caravan",
+                "url": "https://www.worldhistory.org/img/c/p/1200x900/10167.jpg",
+                "caption": "Before asphalt, dunes were highways—camel caravans stitched empires together one padded hoof at a time, ferrying salt, gold, and stories."
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "image_tile",
+                "sheet": "Human Geography of",
+                "cell": "A7",
+                "title": "Tuareg",
+                "url": "https://c8.alamy.com/comp/BNGDJ8/tuareg-nomad-riding-a-white-mehari-dromedary-and-leading-another-dromedary-BNGDJ8.jpg",
+                "caption": "Veiled in indigo, a Tuareg guide moves by memory of wind and star, carrying centuries-old survival lore across shifting sands."
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "image_tile",
+                "sheet": "Human Geography of",
+                "cell": "A10",
+                "title": "Desert market (Siwa vegetables market)",
+                "url": "https://www.molon.de/galleries/Egypt/Siwa/Village/images01/05%20Vegetables%20market.jpg",
+                "caption": "Spices, dyes, and laughter swirl under goat-hair canopies—oases of commerce where caravans paused and cultures mingled."
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "image_tile_alternative",
+                "sheet": "Human Geography of",
+                "cell": "A11",
+                "title": "Desert market (alt)",
+                "url": "https://c8.alamy.com/comp/A594W3/desert-market-between-asyut-aswan-egypt-egyptian-A594W3.jpg"
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "image_tile",
+                "sheet": "Human Geography of",
+                "cell": "A14",
+                "title": "Solar power",
+                "url": "https://images.theconversation.com/files/383732/original/file-20210211-16-3u8xlq.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C2977%2C1488&q=45&auto=format&w=1356&h=668&fit=crop",
+                "caption": "Future-Facing Sahara – Sun-farm cities and re-greening projects turn sand into power and shade."
+              },
+              {
+                "poster": "P2",
+                "section": "Human Geography of the Sahara",
+                "role": "optional_image",
+                "sheet": "Human Geography of",
+                "cell": "A13",
+                "title": "Great Green Wall (optional - could pair with modern interventions)",
+                "url": "https://moguldom.com/wp-content/uploads/2016/09/Great-Green-Wall.jpg"
+              }
+            ]
+          }
+        ],
+        "imagery_recommendations": [
+          "Hero Image: A panoramic shot of the Erg Chebbi Dunes at sunset, with shadowed ridges showing the height and movement of the sand.",
+          "Inset Images:",
+          "Camel caravans crossing vast sands.",
+          "Tuareg people in their blue headscarves with camels.",
+          "A view of the Great Green Wall’s tree planting efforts.",
+          "Satellite imagery of Sahara dust plumes moving over the Atlantic Ocean.",
+          "Historical image of ancient trade routes, connecting the Sahara to global commerce.",
+          "Aerial photo of Timbuktu as a reminder of how desert-edge cities adapt."
+        ]
+      }
+    ],
+    "summary": [
+      "Educational Goals for Visitors:",
+      "Natural Process Clarity: Make complex processes like wind patterns and rain shadows intuitive and visual.",
+      "Global Context: Highlight deserts as part of a larger global system.",
+      "Sahara as the \"Hero Desert\": Bring the Sahara to life, showing its influence on life, trade, and climate.",
+      "Vivid Visuals: Use rich, warm desert colors and striking hero images to capture the wonder of these vast landscapes.",
+      "Hands-On Learning: Use clear, concise infographics with engaging visuals and simple stats."
+    ],
+    "designer_draft_copy_note": "Text below reflects the two PDF comps (designer first pass). Keep as a parallel copy source."
+  }
+}

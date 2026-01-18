@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/weathermaps/africa.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__weather_map__africa__africa",
+    "derived_id": "geophysical__weather_map__africa__africa",
+    "continent": "africa",
+    "domain": "geophysical",
+    "poster_family": "weather_map",
+    "filename": "africa.json"
+  },
+  "tags": {
+    "continent": [
+      "africa"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "weather_map"
+    ],
+    "flat": [
+      "continent:africa",
+      "domain:geophysical",
+      "poster_family:weather_map"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/weathermaps/africa.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "Africa",
+    "posterTitle": "Africa : From Sahara Blaze to Snow-Capped Kilimanjaro",
+    "legend": {
+      "title": "Africa’s Nature Extremes",
+      "items": [
+        {
+          "key": "Extreme Heat",
+          "display": "Hottest Hotspots",
+          "rationale": "Evokes curiosity without jargon"
+        },
+        {
+          "key": "Extreme Cold",
+          "display": "Frozen Frontiers",
+          "rationale": "Alliterative & vivid"
+        },
+        {
+          "key": "High Humidity & Rainfall",
+          "display": "Rain-Soaked Jungles",
+          "rationale": "Instantly signals tropical downpours"
+        },
+        {
+          "key": "Low Humidity & Arid Conditions",
+          "display": "Bone-Dry Deserts",
+          "rationale": "Conversational; pairs with desert icon"
+        },
+        {
+          "key": "Elevation-Related Climate",
+          "display": "Sky-High Climates",
+          "rationale": "Kids grasp “sky-high = mountaintop”"
+        },
+        {
+          "key": "Wind Extremes",
+          "display": "Howling Wind Zones",
+          "rationale": "Adds sensory cue (sound)"
+        },
+        {
+          "key": "Volcanic & Seismic Activity",
+          "display": "Volcano-Quake Lands",
+          "rationale": "Merges two ideas into one punchy phrase"
+        },
+        {
+          "key": "Flooding / Rainfall Extremes",
+          "display": "Deluge Hotspot",
+          "rationale": "Mirrors ecological term & is memorable"
+        },
+        {
+          "key": "Daylight Extremes",
+          "display": "Sunlight Swings",
+          "rationale": "Works for polar light or long summers"
+        },
+        {
+          "key": "Desertification & Dust Storms",
+          "display": "Duststorm Alley",
+          "rationale": "Visual and action-oriented"
+        },
+        {
+          "key": "Temperature Range Extremes",
+          "display": "Wild Temperature Swings",
+          "rationale": "Explains day-night whiplash clearly"
+        }
+      ]
+    },
+    "usVsContinent": {
+      "header": "Africa vs. USA — Giant Revealed",
+      "prompt": "“Slide Africa over the U.S. and watch familiar borders disappear: just how much room does one billion people really fill?”",
+      "image": {
+        "url": "sandbox:/mnt/data/usa_vs_africa.png",
+        "license": "CC0 (generated graphic)",
+        "source": {
+          "dataset": "Natural Earth 'Admin 0 – Countries' (public domain)",
+          "projection": "Mollweide (equal-area)",
+          "usaOutline": "Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)",
+          "notes": "Graphic generated from public-domain vector data; no third-party map tiles."
+        }
+      }
+    },
+    "featuredStories": [
+      {
+        "title": "Africa: A Continent of Fire and Frost",
+        "text": "Africa is often called a land of heat, but did you know it holds records for both some of the hottest and coldest places on Earth? From the blistering sands of Tunisia’s desert to snowy mornings in Morocco’s mountains, Africa’s weather shows that extremes can exist side-by-side.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Kebili: 131 °F record-high",
+            "primaryUrl": "https://www.shutterstock.com/image-photo/douz-tn-march-18-2017-desert-1423275821",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Kebili 131 F record-high",
+              "shutterstock": "https://www.shutterstock.com/search/Kebili%20131%20F%20record-high",
+              "adobeStock": "https://stock.adobe.com/search?k=Kebili%2B131%2BF%2Brecord-high"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Ifrane: snow at 6,000 ft",
+            "primaryUrl": "https://www.shutterstock.com/image-photo/michlifen-forest-surrounded-by-trees-winter-1615146073",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Ifrane snow at 6 000 ft",
+              "shutterstock": "https://www.shutterstock.com/search/Ifrane%20snow%20at%206%20000%20ft",
+              "adobeStock": "https://stock.adobe.com/search?k=Ifrane%2Bsnow%2Bat%2B6%2B000%2Bft"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 1
+      },
+      {
+        "title": "The Invisible Rivers of the Sky: Africa’s Winds and Dust",
+        "text": "Not all rivers are made of water. High above the Sahara, powerful winds carry rivers of dust across the ocean, feeding distant forests and changing weather across the globe. Africa’s air is alive with journeys we can’t always see.",
+        "images": [],
+        "active": false,
+        "omitReason": "Story removed from poster (per project notes).",
+        "rank": 2
+      },
+      {
+        "title": "Where The Sky Becomes a Waterfall: Africa’s Hidden Rainmakers",
+        "text": "In some African regions, the sky doesn’t just rain — it roars. From Mount Cameroon’s record-breaking downpours to the thunderous storms of the Congo Basin, these places hold nature’s keys to life, creating vast rivers and rainforests.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Mount Cameroon in the distance",
+            "primaryUrl": "https://www.shutterstock.com/image-photo/mount-cameroon-distance-during-evening-light-549323596",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mount Cameroon in the distance",
+              "shutterstock": "https://www.shutterstock.com/search/Mount%20Cameroon%20in%20the%20distance",
+              "adobeStock": "https://stock.adobe.com/search?k=Mount%2BCameroon%2Bin%2Bthe%2Bdistance"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Massive deluge on Mount Cameroon",
+            "primaryUrl": "https://www.insect-communities.cz/wp-content/uploads/2018/08/Rain_Mount_Cameroon.jpg",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Massive deluge on Mount Cameroon",
+              "shutterstock": "https://www.shutterstock.com/search/Massive%20deluge%20on%20Mount%20Cameroon",
+              "adobeStock": "https://stock.adobe.com/search?k=Massive%2Bdeluge%2Bon%2BMount%2BCameroon"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 3
+      },
+      {
+        "title": "The Endless Summer: Where the Sun Never Sleeps",
+        "text": "In places like Dallol, Ethiopia, summer never truly ends. With over 330 days of sunshine a year, these extreme zones push life to the limits — and still, life finds a way.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": null,
+            "primaryUrl": "https://www.shutterstock.com/image-photo/view-dallol-volcano-danakil-desert-ethiopia-1988100227",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "The Endless Summer Where the Sun Never Sleeps",
+              "shutterstock": "https://www.shutterstock.com/search/The%20Endless%20Summer%20Where%20the%20Sun%20Never%20Sleeps",
+              "adobeStock": "https://stock.adobe.com/search?k=The%2BEndless%2BSummer%2BWhere%2Bthe%2BSun%2BNever%2BSleeps"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 4
+      },
+      {
+        "title": "When the Sky Runs Dry: Life on the Edge of the Desert",
+        "text": "Where rain arrives as a once-in-a-blue-moon gift, like the Nile's sun-drenched riverbank, people have learned to flourish on scarcely a drop. Ingenious water wheels, river-fed gardens, and clay cisterns turn drought into daily resilience, proving that hope can bloom even in the driest heat.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": null,
+            "primaryUrl": "https://www.shutterstock.com/image-photo/aerial-panoramic-view-nile-river-feluccas-2440595535",
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "When the Sky Runs Dry Life on the Edge of the Desert",
+              "shutterstock": "https://www.shutterstock.com/search/When%20the%20Sky%20Runs%20Dry%20Life%20on%20the%20Edge%20of%20the%20Desert",
+              "adobeStock": "https://stock.adobe.com/search?k=When%2Bthe%2BSky%2BRuns%2BDry%2BLife%2Bon%2Bthe%2BEdge%2Bof%2Bthe%2BDesert"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 5
+      }
+    ],
+    "meta": {
+      "generatedAt": "2025-12-29T15:48:24.319440+00:00",
+      "sourceWorkbooks": [
+        "Copy of Revisions for geophysical domain.xlsx",
+        "atlas_stock_links_shutterstock_adobe.xlsx"
+      ],
+      "exclusions": [
+        "Elevation profile callouts are intentionally omitted from this export."
+      ],
+      "notes": [
+        "Africa featured-story photo URLs are taken directly from the workbook where provided; stock search links are generated from captions/phrases for completeness."
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/treasure biomes/north-america__treasured-biomes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__treasure_biomes__north_america__north_america_treasured_biomes</poster_id>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<treasuredBiomesPoster continent="North America">
+  <title>North America: Fire Springs, Wild Water, and High Country</title>
+  <biomes>
+    <biome>
+      <name>Yellowstone Plateau</name>
+      <image url="https://www.pexels.com/photo/yellowstone-geyser-erupting-158620/" />
+      <description>Yellowstone sits on powerful heat below the ground. Geysers, hot springs, and steaming basins share space with forests and meadows where bison, elk, and wolves move through a living landscape.</description>
+    </biome>
+    <biome>
+      <name>Chihuahuan Desert</name>
+      <image url="https://www.pexels.com/photo/person-walking-at-white-sand-dune-8850972/" />
+      <description>The Chihuahuan Desert is a high, dry region of rugged mountains and wide basins. Cacti, agaves, and tough shrubs survive heat, wind, and sudden storms across this desert grassland.</description>
+    </biome>
+    <biome>
+      <name>Canadian Boreal Forest</name>
+      <image url="https://www.pexels.com/photo/snow-covered-trees-8452441/" />
+      <description>Canada’s boreal forest is a vast belt of spruce, pine, bogs, and lakes. It stores huge amounts of carbon and provides habitat for moose, bears, wolves, and migrating birds.</description>
+    </biome>
+    <biome>
+      <name>Belize Barrier Reef</name>
+      <image url="https://www.shutterstock.com/image-photo/aerial-view-belize-barrier-reef-2570358113" />
+      <description>Belize’s barrier reef runs along warm, clear water filled with coral gardens. Sea turtles, rays, and bright fish weave through the reef, while mangroves and seagrass protect the coast.</description>
+    </biome>
+    <biome>
+      <name>Bay of Fundy</name>
+      <image url="https://www.pexels.com/photo/people-walking-on-beach-near-cliffs-3225533/" />
+      <description>The Bay of Fundy has the world’s highest tides. Water rises and falls dramatically each day, feeding rich coastal ecosystems and carving cliffs, beaches, and sea stacks along the shore.</description>
+    </biome>
+    <biome>
+      <name>Greenland Ice Sheet</name>
+      <image url="https://www.pexels.com/photo/arctic-ice-glacier-in-greenland-3747254/" />
+      <description>Greenland’s ice sheet is a massive cap of compacted snow and ice. It feeds glaciers that calve into the sea, and its meltwater shapes rivers, lakes, and blue channels on the surface.</description>
+    </biome>
+    <biome>
+      <name>Rocky Mountains</name>
+      <image url="https://www.pexels.com/photo/photography-of-a-lake-surrounded-by-mountains-2398220/" />
+      <description>The Rocky Mountains form a long backbone of peaks, forests, and alpine valleys. Snowpack feeds major rivers, while elk, bears, and eagles thrive across rugged high country.</description>
+    </biome>
+  </biomes>
+</treasuredBiomesPoster>]]></payload_xml>
+</normalized_poster>

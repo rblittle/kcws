@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/north-america__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__north_america__north_america_animal_collage</poster_id>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="North America">
+  <title>From Buffalo to Bayou</title>
+  <animals>
+    <animal>
+      <name>White Tailed Deer</name>
+      <image url="https://www.shutterstock.com/image-photo/whitetailed-deer-odocoileus-virginianus-mediumsized-native-2488170073" />
+      <description>White-tailed deer step with delicate hooves that barely whisper over the forest floor. Their tall, velvety ears swivel toward every hidden sound. Their sleek, dappled bodies blend into the forest sunlight, and a flash of white tail is the only warning before they bound away.</description>
+    </animal>
+    <animal>
+      <name>Grizzly Bear</name>
+      <image url="https://www.shutterstock.com/image-photo/grizzly-bear-ursus-arctos-horribilis-large-2512548975" />
+      <description>Grizzly bears have massive shoulders rippling beneath a shaggy brown coat. Their curved claws carve salmon out of rushing streams, and their noses can smell a campfire from miles away. These mighty bears rule the mountain valleys and berry-filled meadows of their range.</description>
+    </animal>
+    <animal>
+      <name>Bison</name>
+      <image url="https://www.shutterstock.com/image-photo/american-bison-buffalo-on-prairie-tan-2506834321" />
+      <description>American bison have hulking heads draped in woolly hair, with crescent-shaped horns framing their dark eyes. Their thunderous hooves shake the prairie sod as they roam. These grazing giants shape the grassland by rolling and wallowing on the ground, which helps to sow seeds.</description>
+    </animal>
+    <animal>
+      <name>Moose</name>
+      <image url="https://www.shutterstock.com/image-photo/bull-moose-autumn-wyoming-2516063037" />
+      <description>Towering moose raise their broad, palmate antlers like bare winter trees. Their long legs wade through lily-pad ponds, and their rubbery noses pluck tender shoots. These solitary wanderers rule the misty northern wetlands.</description>
+    </animal>
+    <animal>
+      <name>Mountain Lion</name>
+      <image url="https://www.shutterstock.com/image-photo/puma-falls-mountain-lion-1948381063" />
+      <description>Mountain lions move with silent paws along rocky ledges, and their tawny coats melt into canyon shadows. A long, powerful tail helps balance their mighty leaps. Amber eyes track mule deer. These apex predators keep the herds in check throughout the rugged mountain ranges.</description>
+    </animal>
+    <animal>
+      <name>Red Wolf</name>
+      <image url="https://www.shutterstock.com/image-photo/red-wolf-canis-rufus-canine-native-2451676951" />
+      <description>Red wolves have rusty fur that catches the glow of sunset. Their slender bodies slip silently between the pines, and their attentive ears catch every rustle. Moving as a cooperative pack through marshes, these rare predators are slowly reclaiming the southeastern wilderness.</description>
+    </animal>
+    <animal>
+      <name>American Alligator</name>
+      <image url="https://www.shutterstock.com/image-photo/american-alligator-lying-shallows-marsh-anahuac-2463074447" />
+      <description>American alligators float with only their eyes and their ridged, armored backs visible above the water like ancient logs. A sudden jaw snap echoes through the cattails as they lunge at prey. These prehistoric survivors act as wetland engineers by carving out sinuous channels through the marsh.</description>
+    </animal>
+    <animal>
+      <name>Beaver</name>
+      <image url="https://www.shutterstock.com/image-photo/american-beaver-month-full-branches-2510257487" />
+      <description>Beavers carry fresh birch branches in their blocky jaws and chisel through logs with their orange teeth. A flat tail slaps the water as a warning of danger. These tireless engineers build sturdy dams that pool up creeks, creating nurseries for countless other creatures.</description>
+    </animal>
+    <animal>
+      <name>Elk</name>
+      <image url="https://www.shutterstock.com/image-photo/bull-elk-during-rut-rocky-mountains-2470559665" />
+      <description>Elk send a haunting bugling call drifting across the alpine dawn. Bulls lower their sweeping antlers to lock in ritual sparring matches. Tawny coats steam in the morning frost as the majestic herds graze mountain meadows, renewing the highland grasses.</description>
+    </animal>
+    <animal>
+      <name>Canada Goose</name>
+      <image url="https://www.shutterstock.com/image-photo/canada-geese-candid-photo-driving-through-2498068783" />
+      <description>Canada geese fly in a V formation pointing southward, their black heads with white chin straps leading the way. Strong wings beat steadily over lakes as their honking calls announce the migration. These adaptable grazers thrive everywhere from tundra ponds to suburban lawns.</description>
+    </animal>
+    <animal>
+      <name>Raccoon</name>
+      <image url="https://www.shutterstock.com/image-photo/raccoon-mediumsized-mammal-recognized-distinctive-facial-2478002631" />
+      <description>Raccoons sport a bandit mask of fur and a ringed tail that twitches with mischief. Their nimble fingers pry open oyster shells and trash can lids alike. These curious night roamers thrive everywhere from swampy bayous to city alleys.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

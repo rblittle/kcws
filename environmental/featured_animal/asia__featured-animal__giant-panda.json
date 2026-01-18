@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/asia__featured-animal__giant-panda.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__asia__asia_featured_animal_giant_panda",
+    "derived_id": "environmental__featured_animal__asia__asia_featured_animal_giant_panda",
+    "continent": "asia",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "asia__featured-animal__giant-panda.json"
+  },
+  "tags": {
+    "continent": [
+      "asia"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:asia",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/asia__featured-animal__giant-panda.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "Asia",
+    "animal": {
+      "name": "Giant Panda",
+      "imageUrl": "https://www.shutterstock.com/image-photo/closeup-giant-panda-bear-isolated-on-1934350820",
+      "description": "Giant pandas are chunky black-and-white bears that munch on sturdy bamboo stalks all day long. Their thick fur insulates them in the high mountain forests of China. Despite their gentle strength, these beloved bears remind us that their forest home needs protection."
+    }
+  }
+}

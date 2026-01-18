@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/ecoregions/asia_from_steppe_to_monsoon.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__ecoregions_mosaic__asia__asia_from_steppe_to_monsoon</poster_id>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<ecoregion_poster continent="Asia" poster_title="From Steppe to Monsoon">
+  <ecoregion entry_number="1">
+    <ecoregion_name>Siberian Taiga (Yenisey River, Russia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/view-mountains-on-river-yenisey-siberia-2107208663</image_url>
+    <description>The Yenisey River cuts through Siberian taiga—endless pine forests, cold water, and wildlife built for long winters.</description>
+  </ecoregion>
+  <ecoregion entry_number="2">
+    <ecoregion_name>Arctic Tundra (Siberia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/polar-night-mountains-northern-tundra-russia-91573085</image_url>
+    <description>Beyond the Arctic Circle, low tundra plants hug frozen ground; reindeer trails and midnight sun shape summer life.</description>
+  </ecoregion>
+  <ecoregion entry_number="3">
+    <ecoregion_name>Western Siberian Taiga Forest</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/wonderful-sunrise-landscape-panorama-kurai-steppe-1699464445</image_url>
+    <description>Vast taiga forests and peat bogs blanket western Siberia, with winding rivers, cranes, and mosquitoes in short summers.</description>
+  </ecoregion>
+  <ecoregion entry_number="4">
+    <ecoregion_name>Taurus Mountains (Turkey)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/taiga-coniferous-forest-siberia-sunny-weather-1857666493</image_url>
+    <description>Turkey’s Taurus Mountains stack limestone peaks above cedar forests; alpine meadows, goat herders, and cool springs reward hikers.</description>
+  </ecoregion>
+  <ecoregion entry_number="5">
+    <ecoregion_name>Kazakh Steppe (Central Asia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/mountain-turkey-isparta-south-valley-inspiring-2029974713</image_url>
+    <description>An ocean of grass across Kazakhstan—wind, horses, and far horizons; nomad routes trace the steppe’s quiet power.</description>
+  </ecoregion>
+  <ecoregion entry_number="6">
+    <ecoregion_name>Mongolian Grasslands (Yurts on the Steppe)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/flock-sheep-middle-kazakh-steppe-1474333232</image_url>
+    <description>Mongolia’s grasslands meet desert edges; white yurts dot the plains, and herders follow sheep beneath vast skies.</description>
+  </ecoregion>
+  <ecoregion entry_number="7">
+    <ecoregion_name>Ussuri/Sikhote-Alin Forest (Russian Far East)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/yurt-village-mongolia-179865332</image_url>
+    <description>Near the Pacific, Sikhote-Alin forests blend taiga and temperate jungle—misty valleys, rare cats, and rich birdlife.</description>
+  </ecoregion>
+  <ecoregion entry_number="8">
+    <ecoregion_name>Levantine Highlands (Syria)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/russia-primorye-surroundings-terney-1947151615</image_url>
+    <description>Mediterranean hills rise over Syria’s coast—oak woods, stone villages, and ancient trade routes meet sea winds.</description>
+  </ecoregion>
+  <ecoregion entry_number="9">
+    <ecoregion_name>Armenian Highlands (Mt. Ararat Region)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/picturesque-landscape-western-part-syria-before-590803328</image_url>
+    <description>A rugged high plateau around Mount Ararat, where lava fields, mountain winds, and old monasteries shape the horizon.</description>
+  </ecoregion>
+  <ecoregion entry_number="10">
+    <ecoregion_name>Pamir Mountains (Afghanistan/Tajikistan)</ecoregion_name>
+    <image_url>https://image.shutterstock.com/image-photo/picturesque-green-meadow-poppies-volcano-600w-214993054.jpg</image_url>
+    <description>High Pamir peaks and valleys form the Roof of the World; glaciers, yaks, and tough roads test travelers.</description>
+  </ecoregion>
+  <ecoregion entry_number="11">
+    <ecoregion_name>Taklamakan Desert (China)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/beautiful-view-pamir-afghanistan-panj-river-757509412</image_url>
+    <description>China’s Taklamakan is a deadly sand sea; Silk Road oases cling to river edges beneath burning sun.</description>
+  </ecoregion>
+  <ecoregion entry_number="12">
+    <ecoregion_name>Himalayas (Mt. Everest, Nepal/Tibet)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/taklamakan-desert-image-1249674802</image_url>
+    <description>The Himalayas lift Earth’s highest peaks; glaciers, prayer flags, and hardy villages sit below Everest’s icy summit.</description>
+  </ecoregion>
+  <ecoregion entry_number="13">
+    <ecoregion_name>Eastern Himalaya (Shangri-La, China)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panoramic-view-himalayas-mountains-mount-everest-1714159462</image_url>
+    <description>Eastern Himalayan valleys near Shangri-La mix forests and high peaks; clear rivers and wild flowers brighten summer trails.</description>
+  </ecoregion>
+  <ecoregion entry_number="14">
+    <ecoregion_name>Inner Mongolian Grassland (China)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/yangtze-river-flow-shangrila-188596862</image_url>
+    <description>Rolling grasslands stretch across Inner Mongolia; grazing sheep, horsemen, and distant dunes mark a harsh, windy frontier.</description>
+  </ecoregion>
+  <ecoregion entry_number="15">
+    <ecoregion_name>Korean Deciduous Forest (South Korea)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/grassland-north-china-18664870</image_url>
+    <description>South Korea’s deciduous forests blaze in autumn; oak and maple cover steep hills around quiet temples and trails.</description>
+  </ecoregion>
+  <ecoregion entry_number="16">
+    <ecoregion_name>Japanese Volcanic Forests (Sakurajima)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/bukhansan-mountain-south-korea-1132611455</image_url>
+    <description>On Sakurajima, volcanic slopes grow pine and broadleaf forests; ash falls, hot springs steam, and eruptions rumble.</description>
+  </ecoregion>
+  <ecoregion entry_number="17">
+    <ecoregion_name>Arabian Desert (Empty Quarter)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/sakurajima-volcano-near-kagoshima-japan-erupting-767774566</image_url>
+    <description>The Empty Quarter is pure sand—towering dunes, fierce heat, and silence broken by wind and camel tracks.</description>
+  </ecoregion>
+  <ecoregion entry_number="18">
+    <ecoregion_name>Balochistan (Makran Desert, Pakistan)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/empty-quarter-outdoor-sand-dune-oman-524191987</image_url>
+    <description>Pakistan’s Makran coast is a rocky desert of dry riverbeds and cliffs, where sea mist meets dust.</description>
+  </ecoregion>
+  <ecoregion entry_number="19">
+    <ecoregion_name>Ladakh &amp; Trans-Himalaya (India)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/balochistan-pakistan-august-11-2021-makran-2034930776</image_url>
+    <description>Ladakh’s high cold desert sits beyond the Himalayas—brown peaks, turquoise rivers, and monasteries above thin air.</description>
+  </ecoregion>
+  <ecoregion entry_number="20">
+    <ecoregion_name>Deccan Plateau (India)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/wetland-small-river-run-throuth-leh-325900193</image_url>
+    <description>India’s Deccan Plateau is a rocky tableland of dry forests and farms, shaped by monsoons and heat.</description>
+  </ecoregion>
+  <ecoregion entry_number="21">
+    <ecoregion_name>Tenasserim Rainforest (Thai-Myanmar)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/ancient-mountain-country-panorama-deccan-plateau-654169672</image_url>
+    <description>Along Thailand and Myanmar, Tenasserim rainforests drip with vines and orchids, sheltering elephants, gibbons, and swift rivers.</description>
+  </ecoregion>
+  <ecoregion entry_number="22">
+    <ecoregion_name>Philippine Archipelago (Luzon Volcano)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/high-angle-viewpoint-sunset-over-rainforest-637712110</image_url>
+    <description>Volcanic Luzon rises from the sea; rain-fed forests, rice terraces, and typhoon clouds shape island life.</description>
+  </ecoregion>
+  <ecoregion entry_number="23">
+    <ecoregion_name>Sumatran Highlands (Indonesia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/aerial-view-laocai-vietnam-paddy-fields-1888929637</image_url>
+    <description>Sumatra’s highlands stack volcanoes and cloud forests; cool air, coffee farms, and rare wildlife hide in mist.</description>
+  </ecoregion>
+  <ecoregion entry_number="24">
+    <ecoregion_name>Bornean Rainforest (Malaysia/Borneo)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/luzon-philippines-taal-volcano-on-island-652794436</image_url>
+    <description>Borneo’s rainforest is a living cathedral of giant trees and rivers, home to orangutans and endless insects.</description>
+  </ecoregion>
+</ecoregion_poster>
+]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/south-america__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__south_america__south_america_animal_collage</poster_id>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>south_america</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="South America">
+  <title>South America’s Rainbow of Life</title>
+  <animals>
+    <animal>
+      <name>Capybara</name>
+      <image url="https://www.shutterstock.com/image-photo/south-american-capybara-closeup-selective-focus-2469891777" />
+      <description>Friendly capybara lounges on a riverbank, webbed toes paddle quiet streams, coarse fur dries fast, calm squeaks gather curious birds hitching rides through emerald Amazon channels.</description>
+    </animal>
+    <animal>
+      <name>Andean Condor</name>
+      <image url="https://www.shutterstock.com/image-photo/female-andean-condor-vultur-gryphus-flying-2322377105" />
+      <description>Andean condor rides mountain thermals, ten-foot wings rarely flap, white collar ruffles in icy wind, sharp eyes spot carrion miles below barren jagged peaks.</description>
+    </animal>
+    <animal>
+      <name>Anaconda</name>
+      <image url="https://www.shutterstock.com/image-photo/green-anaconda-pantanal-brazil-2255278361" />
+      <description>Massive anaconda coils beneath murky swamp, olive scales provide perfect camouflage, muscular body constricts prey, forest water echoes as capybaras vanish under floating lilies.</description>
+    </animal>
+    <animal>
+      <name>Scarlet Macaw</name>
+      <image url="https://www.shutterstock.com/image-photo/close-two-portrait-scarlet-macaws-ara-2506330405" />
+      <description>Scarlet macaw flashes rainbow feathers across rainforest canopy, strong beak cracks tough Brazil nuts, paired birds trade rasping calls guiding flocks between towering kapok trees.</description>
+    </animal>
+    <animal>
+      <name>Piranha</name>
+      <image url="https://www.shutterstock.com/image-photo/piranha-pygocentrus-nattereri-swimming-aquarium-pool-2349040585" />
+      <description>Schools of red-bellied piranhas shimmer beneath brown river, razor teeth snap fallen fruit and fish, powerful jaws make quick bites that keep winding waterways clean.</description>
+    </animal>
+    <animal>
+      <name>Sloth</name>
+      <image url="https://www.shutterstock.com/image-photo/brownthroated-sloth-bradypus-variegatus-species-threetoed-2479021971" />
+      <description>Slow-moving sloth hangs upside down, curved claws grip mossy branch, algae-tinted fur blends with leaves, unhurried chewing reminds the forest that patience guarantees safety.</description>
+    </animal>
+    <animal>
+      <name>Giant Anteater</name>
+      <image url="https://www.shutterstock.com/image-photo/anteater-known-giant-unique-mammal-native-2473763209" />
+      <description>Giant anteater strides grassland on knuckle-walked hands, two-foot tongue darts into anthills, shaggy tail spreads like a blanket to shield its body from midday sun.</description>
+    </animal>
+    <animal>
+      <name>Spectacled Bear</name>
+      <image url="https://www.shutterstock.com/image-photo/spectacled-bear-tremarctos-ornatus-big-brown-2347139675" />
+      <description>Shaggy spectacled bear climbs cloud-forest trees, cream eye rings give its name, flexible ankles swivel downward as it feasts on bromeliad hearts and sweet fruit.</description>
+    </animal>
+    <animal>
+      <name>Harpy Eagle</name>
+      <image url="https://www.shutterstock.com/image-photo/harpy-eagle-magnificent-bird-prey-biggest-2490607283" />
+      <description>Harpy eagle perches on a kapok limb, legs thick as broom handles, curved talons spear monkeys, flaring gray crest declares dominance over silent emerald canopy.</description>
+    </animal>
+    <animal>
+      <name>Howler Monkey</name>
+      <image url="https://www.shutterstock.com/image-photo/howler-monkey-tree-costa-rica-2409557631" />
+      <description>Howler monkey cups hollow throat, booming roar rolls two miles, pre-dawn chorus marks territory, prehensile tail coils securely while the troupe browses tender fig leaves.</description>
+    </animal>
+    <animal>
+      <name>Poison Dart Frog</name>
+      <image url="https://www.shutterstock.com/image-photo/beautiful-adult-female-blue-dyeing-poison-2481144357" />
+      <description>Tiny poison dart frog sparkles sapphire and gold, skin oozes potent alkaloid shield, bright colors warn predators, agile toes spring across dripping bromeliad pools.</description>
+    </animal>
+    <animal>
+      <name>Pink River Dolphin</name>
+      <image url="https://www.shutterstock.com/image-photo/boto-amazon-river-dolphin-manaus-amazonas-1470965375" />
+      <description>Pink river dolphin surfaces in tea-colored Amazon water, flexible neck twists sharply, bulbous forehead sends sonar clicks navigating tangled flooded-forest channels.</description>
+    </animal>
+    <animal>
+      <name>Tapir</name>
+      <image url="https://www.shutterstock.com/image-photo/south-american-lowland-tapir-brazil-2344477679" />
+      <description>Stocky tapir snuffles mud with short trunk-like nose, night wanderer browses shoots along riverbanks, spreading seeds in dung that nurtures fresh jungle growth.</description>
+    </animal>
+    <animal>
+      <name>Jaguar</name>
+      <image url="https://www.shutterstock.com/image-photo/potrait-jaguar-wild-life-2496223687" />
+      <description>Spotted jaguar slips through shadowed shallows, crushing bite pierces armored caiman skulls, rosettes ripple under moonlit leaves, apex predator guards balance in rainforest realms.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/featured animals/oceania__featured-animal__kangaroo.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__featured_animal__oceania__oceania_featured_animal_kangaroo",
+    "derived_id": "environmental__featured_animal__oceania__oceania_featured_animal_kangaroo",
+    "continent": "oceania",
+    "domain": "environmental",
+    "poster_family": "featured_animal",
+    "filename": "oceania__featured-animal__kangaroo.json"
+  },
+  "tags": {
+    "continent": [
+      "oceania"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "featured_animal"
+    ],
+    "flat": [
+      "continent:oceania",
+      "domain:environmental",
+      "poster_family:featured_animal"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/featured animals/oceania__featured-animal__kangaroo.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "featured_animal",
+    "continent": "Oceania",
+    "animal": {
+      "name": "Kangaroo",
+      "imageUrl": "https://www.shutterstock.com/image-photo/australian-female-kangaroo-proudly-displaying-her-2206881575",
+      "description": "Red kangaroos bound across Australia’s ochre dunes on spring-loaded legs like living pogo sticks. Their muscular tails balance each prodigious hop as they cover great distances. These desert nomads search among scrubby shrubs for shade, water, and any tender blades of grass."
+    }
+  }
+}

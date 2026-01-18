@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/antarctica__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__antarctica__antarctica_animal_collage</poster_id>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>antarctica</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="Antarctica">
+  <title>Lords of Ice and Sea</title>
+  <animals>
+    <animal>
+      <name>Leopard Seal</name>
+      <image url="https://www.shutterstock.com/image-photo/leopard-seal-antarctica-february-2019-1342041233" />
+      <description>Leopard seals prowl the icy waters with sleek, torpedo-shaped bodies. Their spotted coats break up their outline beneath the waves. Wide jaws hold sharp teeth built for chasing nimble penguins.</description>
+    </animal>
+    <animal>
+      <name>Weddell Seal</name>
+      <image url="https://www.shutterstock.com/image-photo/weddell-seal-relaxes-happily-on-iceberg-1898577457" />
+      <description>Weddell seals nap on the sea ice like plump gray pillows. They slip into frigid water through breathing holes to hunt fish, using their sensitive whiskers to sense vibrations in the dark, silent depths.</description>
+    </animal>
+    <animal>
+      <name>Adelie Penguin</name>
+      <image url="https://www.shutterstock.com/image-photo/penguin-adelie-walking-on-snow-antarctic-2418203821" />
+      <description>Adélie penguins zoom across the snow on their stubby feet and then torpedo through the surf in tight groups. They build pebble nests to keep their chicks high and dry when the summer ice melts.</description>
+    </animal>
+    <animal>
+      <name>Orca (Killer Whale)</name>
+      <image url="https://www.shutterstock.com/image-photo/killer-whale-aka-orca-leaping-sunset-2321150789" />
+      <description>Orcas rule the Southern Ocean as agile black-and-white torpedoes hunting in teams. Their echoing clicks map out the edges of sea ice, and their powerful tails can launch seals clear out of the water.</description>
+    </animal>
+    <animal>
+      <name>Antarctic Krill</name>
+      <image url="https://www.shutterstock.com/image-photo/antarctic-krill-water-column-southern-ocean-202456957" />
+      <description>Tiny pink Antarctic krill swarm like living glitter under the sea ice, grazing on algae. These thumbnail-sized crustaceans feed whales, seals, and penguins, forming the beating heart of the Antarctic food web.</description>
+    </animal>
+    <animal>
+      <name>Snow Petrel</name>
+      <image url="https://www.shutterstock.com/image-photo/snow-petrel-taking-shower-under-iceberg-2456925065" />
+      <description>Snow petrels glide above blue crevasses in the Antarctic ice, their pure white feathers reflecting the sun. These delicate birds sip meltwater and snatch small fish, nesting on rocky cliffs high above the shimmering pack ice.</description>
+    </animal>
+    <animal>
+      <name>Blue Whale</name>
+      <image url="https://www.shutterstock.com/image-photo/blue-whale-mirissa-srilanka-2308221739" />
+      <description>Blue whales cruise beneath drifting icebergs — the largest creatures ever to have lived. Each whale’s tongue alone weighs more than an elephant. Their deep, rumbling songs carry for miles through the water as they gulp tons of krill with each lunge.</description>
+    </animal>
+    <animal>
+      <name>South Polar Skua</name>
+      <image url="https://www.shutterstock.com/image-photo/adult-south-polar-skua-stercorarius-maccormicki-1456713869" />
+      <description>South Polar skuas patrol penguin colonies with hooked beaks and strong, chocolate-brown wings. These opportunistic hunters steal fish and eggs whenever they can, and they navigate thousands of miles across the southern seas with ease.</description>
+    </animal>
+    <animal>
+      <name>Gentoo Penguin</name>
+      <image url="https://www.shutterstock.com/image-photo/strongest-gentoo-penguin-cute-funny-baby-1427288915" />
+      <description>Gentoo penguins speed through the water, their bright orange bills slicing the sea. They have the longest tail feathers of any penguin, which act like rudders as they swim. On land, gentoos guard their pebble nest mounds from jealous neighbors.</description>
+    </animal>
+    <animal>
+      <name>Chinstrap Penguin</name>
+      <image url="https://www.shutterstock.com/image-photo/chinstrap-penguins-on-visokoj-island-south-1726589059" />
+      <description>Chinstrap penguins march across the ice in noisy bands, the black stripe under their chin giving them their name. They dive deep to chase silvery fish and then leap back onto the ice floes with fearless energy.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/oceania__featured-animal__kangaroo.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__oceania__oceania_featured_animal_kangaroo</poster_id>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="Oceania">
+  <animal>
+    <name>Kangaroo</name>
+    <image url="https://www.shutterstock.com/image-photo/australian-female-kangaroo-proudly-displaying-her-2206881575" />
+    <description>Red kangaroos bound across Australia’s ochre dunes on spring-loaded legs like living pogo sticks. Their muscular tails balance each prodigious hop as they cover great distances. These desert nomads search among scrubby shrubs for shade, water, and any tender blades of grass.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

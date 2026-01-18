@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/featured animals/asia__featured-animal__giant-panda.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__featured_animal__asia__asia_featured_animal_giant_panda</poster_id>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>featured_animal</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<featuredAnimalPoster continent="Asia">
+  <animal>
+    <name>Giant Panda</name>
+    <image url="https://www.shutterstock.com/image-photo/closeup-giant-panda-bear-isolated-on-1934350820" />
+    <description>Giant pandas are chunky black-and-white bears that munch on sturdy bamboo stalks all day long. Their thick fur insulates them in the high mountain forests of China. Despite their gentle strength, these beloved bears remind us that their forest home needs protection.</description>
+  </animal>
+</featuredAnimalPoster>]]></payload_xml>
+</normalized_poster>

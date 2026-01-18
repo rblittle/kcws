@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/treasure biomes/europe__treasured-biomes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__treasure_biomes__europe__europe_treasured_biomes",
+    "derived_id": "environmental__treasure_biomes__europe__europe_treasured_biomes",
+    "continent": "europe",
+    "domain": "environmental",
+    "poster_family": "treasure_biomes",
+    "filename": "europe__treasured-biomes.json"
+  },
+  "tags": {
+    "continent": [
+      "europe"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "treasure_biomes"
+    ],
+    "flat": [
+      "continent:europe",
+      "domain:environmental",
+      "poster_family:treasure_biomes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/treasure biomes/europe__treasured-biomes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "treasured_biomes",
+    "continent": "Europe",
+    "posterTitle": "Europe: Ancient Forests, Fjords, and Living Shores",
+    "biomes": [
+      {
+        "name": "Svalbard Arctic Tundra",
+        "description": "Svalbard’s tundra is a brief summer world of moss, flowers, and melting ice. Reindeer graze on green patches while glaciers and sea ice shape the coast of this high Arctic island chain.",
+        "imageUrl": "https://www.pexels.com/photo/polar-bear-on-ice-219563/"
+      },
+      {
+        "name": "Macaronesian Laurel Forests",
+        "description": "Macaronesian laurel forests cloak Atlantic islands in cool mist. These evergreen woods are ancient in feel, with mossy trees, wet air, and many species that survive in mild ocean climates.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/twisted-laurel-trees-silhouettes-thick-fog-2693093077"
+      },
+      {
+        "name": "Białowieża Forest",
+        "description": "Białowieża Forest is one of Europe’s last great lowland old‑growth forests. Ancient oaks and mixed woods provide habitat for bison, wolves, and woodpeckers in a living time capsule.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/wilderness-forest-one-last-largest-remaining-2654125531"
+      },
+      {
+        "name": "Norwegian Fjords",
+        "description": "Norway’s fjords are deep sea inlets carved by glaciers. Steep cliffs, waterfalls, and quiet villages line these blue corridors where mountains drop straight into the ocean.",
+        "imageUrl": "https://www.pexels.com/photo/waterfalls-near-body-of-water-4379013/"
+      },
+      {
+        "name": "Plitvice Lakes",
+        "description": "Plitvice Lakes are a chain of clear pools and waterfalls. Mineral-rich water builds natural dams, creating terraces of turquoise lakes linked by cascades through forest.",
+        "imageUrl": "https://www.pexels.com/photo/waterfalls-in-plitvice-lakes-240040/"
+      },
+      {
+        "name": "Wadden Sea",
+        "description": "The Wadden Sea is a vast tidal flat along the North Sea coast. Twice a day, the water pulls back to reveal mud and sand where millions of migrating birds refuel.",
+        "imageUrl": "https://www.shutterstock.com/image-photo/aerial-view-wadden-sea-intertidal-zone-1290353899"
+      },
+      {
+        "name": "Camargue Wetlands",
+        "description": "The Camargue is a marshy river delta in southern France. Lagoons, reeds, and salt flats support flamingos, wild horses, and a mix of fresh and salty waters shaped by tides and floods.",
+        "imageUrl": "https://www.pexels.com/photo/flamingos-in-the-middle-of-a-lake-6074934/"
+      }
+    ]
+  }
+}

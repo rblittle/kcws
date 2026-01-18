@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/north_america.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__north_america__north_america</poster_id>
+    <continent>north_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>north_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="North America">
+  <posterTitle>North America : Arctic Ice to Desert Furnace</posterTitle>
+  <legend>
+    <title>North America’s Sky Spectacles</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>North America &amp; USA — America Inside America</header>
+    <prompt>“The United States is only two-thirds of its own continent—follow the outline to meet our northern and southern neighbors.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_north_america.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Ice Caps to Coral Keys: A Continent of Climate Extremes</title>
+      <text>From Arctic icebergs to turquoise reefs in the Florida Keys, North America spans more climate zones than any other landmass.</text>
+      <images>
+        <image slot="1">
+          <caption>Summer midnight over Arctic sea-ice ridges</caption>
+          <searchPhrase>sea ice pressure ridges arctic canada</searchPhrase>
+          <stockSearch recommendedQuery="sea ice pressure ridges arctic canada">
+            <shutterstock>https://www.shutterstock.com/search/sea%20ice%20pressure%20ridges%20arctic%20canada</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=sea+ice+pressure+ridges+arctic+canada</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Sunbeams over elkhorn coral in the Keys</caption>
+          <searchPhrase>snorkeler florida keys reef sunlight</searchPhrase>
+          <stockSearch recommendedQuery="snorkeler florida keys reef sunlight">
+            <shutterstock>https://www.shutterstock.com/search/snorkeler%20florida%20keys%20reef%20sunlight</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=snorkeler+florida+keys+reef+sunlight</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>The Backbone: Rockies &amp; Sierra Spine</title>
+      <text>A single mountain cordillera rises from Alaska to Mexico, steering rivers and storms.</text>
+      <images>
+        <image slot="1">
+          <caption>Denali glowing at first light</caption>
+          <stockSearch recommendedQuery="Denali sunrise alpenglow">
+            <shutterstock>https://www.shutterstock.com/search/Denali%20sunrise%20alpenglow</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Denali+sunrise+alpenglow</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Knife-edge granite of California’s Sierra</caption>
+          <searchPhrase>sierras granite crest john muir trail</searchPhrase>
+          <stockSearch recommendedQuery="sierras granite crest john muir trail">
+            <shutterstock>https://www.shutterstock.com/search/sierras%20granite%20crest%20john%20muir%20trail</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=sierras+granite+crest+john+muir+trail</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Sierra Madre Occidental dropping to canyons</caption>
+          <searchPhrase>mexican sierra madre sunset canyon</searchPhrase>
+          <stockSearch recommendedQuery="mexican sierra madre sunset canyon">
+            <shutterstock>https://www.shutterstock.com/search/mexican%20sierra%20madre%20sunset%20canyon</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mexican+sierra+madre+sunset+canyon</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>Tornado Alley &amp; Hurricane Coast</title>
+      <text>North America hosts Earth’s most violent tornadoes and multistate hurricanes.</text>
+      <images>
+        <image slot="1">
+          <caption>Classic tornadic supercell over Kansas</caption>
+          <stockSearch recommendedQuery="tornadic supercell Kansas wheat field">
+            <shutterstock>https://www.shutterstock.com/search/tornadic%20supercell%20Kansas%20wheat%20field</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=tornadic+supercell+Kansas+wheat+field</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Category-5 eye approaching Gulf Coast</caption>
+          <searchPhrase>satellite hurricane eye gulf of mexico</searchPhrase>
+          <stockSearch recommendedQuery="satellite hurricane eye gulf of mexico">
+            <shutterstock>https://www.shutterstock.com/search/satellite%20hurricane%20eye%20gulf%20of%20mexico</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=satellite+hurricane+eye+gulf+of+mexico</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Great Plains: Breadbasket &amp; Dust Bowl</title>
+      <text>Vast grasslands feed the world—yet dry years can turn them to dust.</text>
+      <images>
+        <image slot="1">
+          <caption>Harvesting the endless prairie</caption>
+          <stockSearch recommendedQuery="combine harvest wheat sunset prairie">
+            <shutterstock>https://www.shutterstock.com/search/combine%20harvest%20wheat%20sunset%20prairie</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=combine+harvest+wheat+sunset+prairie</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Wall of dust reminiscent of 1930s storms</caption>
+          <searchPhrase>dust storm black blizzard 1930s recreation</searchPhrase>
+          <stockSearch recommendedQuery="dust storm black blizzard 1930s recreation">
+            <shutterstock>https://www.shutterstock.com/search/dust%20storm%20black%20blizzard%201930s%20recreation</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=dust+storm+black+blizzard+1930s+recreation</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>Ring of Fire: Volcanoes of the West</title>
+      <text>From Aleutians to Mexico, plate boundaries forge fiery peaks.</text>
+      <images>
+        <image slot="1">
+          <caption>Post-1980 St Helens dome and crater</caption>
+          <searchPhrase>mount st helens steaming crater aerial</searchPhrase>
+          <stockSearch recommendedQuery="mount st helens steaming crater aerial">
+            <shutterstock>https://www.shutterstock.com/search/mount%20st%20helens%20steaming%20crater%20aerial</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=mount+st+helens+steaming+crater+aerial</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Popocatépetl glowing above evening metro</caption>
+          <searchPhrase>popocatepetl night lava glow mexico city lights</searchPhrase>
+          <stockSearch recommendedQuery="popocatepetl night lava glow mexico city lights">
+            <shutterstock>https://www.shutterstock.com/search/popocatepetl%20night%20lava%20glow%20mexico%20city%20lights</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=popocatepetl+night+lava+glow+mexico+city+lights</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Inland Seas: The Great Lakes</title>
+      <text>Five vast lakes hold 20 % of the world’s surface fresh water.</text>
+      <images>
+        <image slot="1">
+          <caption>Turquoise ice plates piling on Superior</caption>
+          <searchPhrase>ice shards lake superior spring breakup</searchPhrase>
+          <stockSearch recommendedQuery="ice shards lake superior spring breakup">
+            <shutterstock>https://www.shutterstock.com/search/ice%20shards%20lake%20superior%20spring%20breakup</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=ice+shards+lake+superior+spring+breakup</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>1 000-ft laker threading Detroit River</caption>
+          <searchPhrase>bulk freighter detroit river dawn</searchPhrase>
+          <stockSearch recommendedQuery="bulk freighter detroit river dawn">
+            <shutterstock>https://www.shutterstock.com/search/bulk%20freighter%20detroit%20river%20dawn</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=bulk+freighter+detroit+river+dawn</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Desert Mosaics: Sonoran &amp; Chihuahuan</title>
+      <text>North America’s subtropical deserts bloom with life adapted to extremes.</text>
+      <images>
+        <image slot="1">
+          <caption>Giant saguaro framed by crimson sky</caption>
+          <searchPhrase>saguaro cactus sunset sonoran desert</searchPhrase>
+          <stockSearch recommendedQuery="saguaro cactus sunset sonoran desert">
+            <shutterstock>https://www.shutterstock.com/search/saguaro%20cactus%20sunset%20sonoran%20desert</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=saguaro+cactus+sunset+sonoran+desert</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Gypsum dunes glowing blue at dusk</caption>
+          <searchPhrase>white sands dunes gypsum twilight</searchPhrase>
+          <stockSearch recommendedQuery="white sands dunes gypsum twilight">
+            <shutterstock>https://www.shutterstock.com/search/white%20sands%20dunes%20gypsum%20twilight</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=white+sands+dunes+gypsum+twilight</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Appalachian Highlands: Ancient Mountains, Endless Colors</title>
+      <text>Older than the Rockies, the Appalachians wring moisture from Atlantic air, feeding hardwood forests, blue-hazed valleys, and some of the richest temperate biodiversity on Earth. Weather stacks on the windward slopes and rains out along the Blue Ridge—why the Smokies smoke, the streams surge, and autumn erupts in color.</text>
+      <images>
+        <image slot="1">
+          <caption>Blue Ridge layers fading into dawn</caption>
+          <stockSearch recommendedQuery="Blue Ridge Mountains layers mist sunrise">
+            <shutterstock>https://www.shutterstock.com/search/Blue%20Ridge%20Mountains%20layers%20mist%20sunrise</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Blue+Ridge+Mountains+layers+mist+sunrise</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <searchPhrase>new river gorge bridge fall foliage</searchPhrase>
+          <stockSearch recommendedQuery="new river gorge bridge fall foliage">
+            <shutterstock>https://www.shutterstock.com/search/new%20river%20gorge%20bridge%20fall%20foliage</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=new+river+gorge+bridge+fall+foliage</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

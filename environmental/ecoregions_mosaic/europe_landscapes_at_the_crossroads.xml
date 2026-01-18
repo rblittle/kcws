@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/ecoregions/europe_landscapes_at_the_crossroads.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__ecoregions_mosaic__europe__europe_landscapes_at_the_crossroads</poster_id>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<ecoregion_poster continent="Europe" poster_title="Landscapes at the Crossroads">
+  <ecoregion entry_number="1">
+    <ecoregion_name>Icelandic Coast (Stokksnes)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/blooming-lupine-flowers-on-stokksnes-headland-539875846</image_url>
+    <description>Black sand, sharp peaks, and cold surf meet at Stokksnes—an Icelandic coast sculpted by wind and ice.</description>
+  </ecoregion>
+  <ecoregion entry_number="2">
+    <ecoregion_name>Norwegian Fjords (Aurlandsfjord)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/view-on-spring-landscape-aurlandsfjord-norway-1025755765</image_url>
+    <description>Steep mountains drop into deep fjords; waterfalls spill past tiny farms, showing Norway’s dramatic coastal carving.</description>
+  </ecoregion>
+  <ecoregion entry_number="3">
+    <ecoregion_name>Baltic Sea Cliffs (Rügen, Germany)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/chalk-cliffs-on-island-along-baltic-1673542732</image_url>
+    <description>Rügen’s white chalk cliffs rise above the Baltic, backed by beech woods and bright seaside light.</description>
+  </ecoregion>
+  <ecoregion entry_number="4">
+    <ecoregion_name>Lapland (Aurora Lapland, Finland)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/northern-lights-aurora-borealis-lapland-finland-746182327</image_url>
+    <description>Finland’s Lapland is a quiet world of snow, reindeer trails, and auroras dancing over dark pines.</description>
+  </ecoregion>
+  <ecoregion entry_number="5">
+    <ecoregion_name>Russian Arctic Tundra (Kola Peninsula)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/autumn-tundra-cold-river-on-background-1525777388</image_url>
+    <description>On the Kola Peninsula, treeless tundra and rocky coasts host lichens, seabirds, and long summer daylight.</description>
+  </ecoregion>
+  <ecoregion entry_number="6">
+    <ecoregion_name>Kola Boreal Woodland (Murmansk Taiga)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/murmansk-region-russia-march-2016-parking-2042514230</image_url>
+    <description>South of the tundra, Murmansk taiga mixes spruce, birch, and lakes—an evergreen buffer against Arctic cold.</description>
+  </ecoregion>
+  <ecoregion entry_number="7">
+    <ecoregion_name>Alpine Peaks (Swiss/French Alps)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/amazing-panoramic-view-height-on-touristic-370653107</image_url>
+    <description>Jagged Alpine peaks and glaciers tower over flowered meadows and chalets, where trails climb into thin air.</description>
+  </ecoregion>
+  <ecoregion entry_number="8">
+    <ecoregion_name>Ireland’s Wicklow Mountains</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/ireland-glendodalough-beautyful-landscape-autumn-1651834744</image_url>
+    <description>Wicklow’s rounded mountains roll through heather, bogs, and lakes, with ancient ruins tucked in mist.</description>
+  </ecoregion>
+  <ecoregion entry_number="9">
+    <ecoregion_name>Scottish Highlands (Isle of Skye)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panorama-quiraing-mountains-sunset-isle-skye-345330161</image_url>
+    <description>On Skye, dark moors, sea lochs, and jagged ridges create a legendary wild Highlands skyline.</description>
+  </ecoregion>
+  <ecoregion entry_number="10">
+    <ecoregion_name>English Countryside (Cotswolds)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/english-countryside-tanworth-arden-warwickshire-uk-398025463</image_url>
+    <description>The Cotswolds blend rolling fields, hedgerows, and honey-stone villages—an English landscape shaped by farms and time.</description>
+  </ecoregion>
+  <ecoregion entry_number="11">
+    <ecoregion_name>Dutch Polders (Netherlands)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/aerial-view-town-termunterzijl-province-groningen-455879230</image_url>
+    <description>Below sea level, Dutch polders rely on dikes, canals, and pumps—human-made land stitched into green grids.</description>
+  </ecoregion>
+  <ecoregion entry_number="12">
+    <ecoregion_name>Black Forest (Germany)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/beautiful-panoramic-forest-morning-sun-shining-1831777336</image_url>
+    <description>Germany’s Black Forest is dark with fir and spruce; foggy valleys, streams, and villages hide among trees.</description>
+  </ecoregion>
+  <ecoregion entry_number="13">
+    <ecoregion_name>East European Steppe (Ukraine/Russia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/outdoor-countryside-meadow-grass-nature-rural-705803542</image_url>
+    <description>Wide steppe grasslands stretch across Ukraine and Russia; wind, wildflowers, and rich soils support life and farming.</description>
+  </ecoregion>
+  <ecoregion entry_number="14">
+    <ecoregion_name>Pripyat Marshes (Belarus/Ukraine)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panorama-flooded-floodplains-pripyat-river-meadows-1981412858</image_url>
+    <description>The Pripyat Marshes are Europe’s great wetlands—reeds, slow rivers, and migrating birds in a watery maze.</description>
+  </ecoregion>
+  <ecoregion entry_number="15">
+    <ecoregion_name>Caspian Sea Coast (Dagestan)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panorama-evening-coast-caspian-sea-rolling-1422034532</image_url>
+    <description>Dagestan’s Caspian coast meets dry hills and mountains; salt air, stone slopes, and wide horizons collide.</description>
+  </ecoregion>
+  <ecoregion entry_number="16">
+    <ecoregion_name>Provence (Luberon, France)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/luberon-france-june-2021-view-over-2008216427</image_url>
+    <description>In Provence, sunlit hills carry lavender, vineyards, and limestone villages, with cicadas singing through hot afternoons.</description>
+  </ecoregion>
+  <ecoregion entry_number="17">
+    <ecoregion_name>Alps (Idyllic Alpine Scenery)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panoramic-view-idyllic-mountain-scenery-alps-604237127</image_url>
+    <description>Green pastures, wooden chalets, and cowbells sit below snowy peaks—classic Alpine scenery made for wandering.</description>
+  </ecoregion>
+  <ecoregion entry_number="18">
+    <ecoregion_name>Carpathian Mountains (Eastern Europe)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panoramic-view-lawn-rhododendron-flowers-mountains-1688724814</image_url>
+    <description>The Carpathians are forested ridges and deep valleys, home to wolves and bears and quiet mountain towns.</description>
+  </ecoregion>
+  <ecoregion entry_number="19">
+    <ecoregion_name>Black Sea Coast (Crimea)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/sunrise-beautiful-black-sea-coast-romantic-1051989149</image_url>
+    <description>Along the Black Sea, Crimea’s cliffs and beaches meet warm hillsides, where vineyards and forests climb upward.</description>
+  </ecoregion>
+  <ecoregion entry_number="20">
+    <ecoregion_name>Dnieper River (Kyiv, Ukraine)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/aerial-top-view-kyiv-cityscape-dnieper-1097561204</image_url>
+    <description>The Dnieper River threads through plains and cities like Kyiv, carrying trade, culture, and wildlife along its banks.</description>
+  </ecoregion>
+  <ecoregion entry_number="21">
+    <ecoregion_name>Caucasus Mountains (Georgia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/thick-fog-on-mountain-pass-goulet-705184417</image_url>
+    <description>Georgia’s Caucasus Mountains rise steep and snowy, where stone towers, alpine meadows, and glaciers share the skyline.</description>
+  </ecoregion>
+  <ecoregion entry_number="22">
+    <ecoregion_name>Douro Vineyards (Portugal)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/landscape-douro-river-regionin-portugal-vineyards-399225568</image_url>
+    <description>Portugal’s Douro Valley stacks terraced vineyards above a winding river, blending hard work with breathtaking views.</description>
+  </ecoregion>
+  <ecoregion entry_number="23">
+    <ecoregion_name>Andalusian Olive Groves (Spain)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/olive-grove-natural-park-subbetic-mountains-1913326093</image_url>
+    <description>Endless olive groves cover Andalusian hills; white villages and dry air reveal Spain’s sun-baked farming heart.</description>
+  </ecoregion>
+  <ecoregion entry_number="24">
+    <ecoregion_name>Pyrenees (France/Spain border)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/mountain-vignemale-national-park-pyrenees-occitanie-1367967863</image_url>
+    <description>The Pyrenees form a rugged wall between France and Spain, with high passes, sheep trails, and deep valleys.</description>
+  </ecoregion>
+  <ecoregion entry_number="25">
+    <ecoregion_name>Apennines &amp; Tuscany (Italy)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/alpi-apuane-mountain-road-pass-tunnel-1636978423</image_url>
+    <description>Tuscany’s hills and the Apennines mix forests, vineyards, and stone towns, a crossroads of nature and history.</description>
+  </ecoregion>
+  <ecoregion entry_number="26">
+    <ecoregion_name>Greek Islands (Corfu &amp; Ionian Sea)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/beautiful-beach-boat-paleokastritsa-corfu-island-517476949</image_url>
+    <description>Corfu and the Ionian islands pair turquoise water with olive groves and rocky coves, shaped by sea breezes.</description>
+  </ecoregion>
+</ecoregion_poster>
+]]></payload_xml>
+</normalized_poster>

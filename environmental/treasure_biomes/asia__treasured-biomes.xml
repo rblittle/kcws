@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/treasure biomes/asia__treasured-biomes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__treasure_biomes__asia__asia_treasured_biomes</poster_id>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<treasuredBiomesPoster continent="Asia">
+  <title>Asia: From Monsoon Green to Sky-High Cold</title>
+  <biomes>
+    <biome>
+      <name>Socotra Island</name>
+      <image url="https://www.shutterstock.com/image-photo/dragon-blood-trees-on-diksam-plateau-2610530789" />
+      <description>Socotra is an isolated island with strange, ancient plants. Dragon’s blood trees and desert roses grow on rocky plateaus, making the landscape feel like a living science‑fiction world.</description>
+    </biome>
+    <biome>
+      <name>Western Ghats</name>
+      <image url="https://www.shutterstock.com/image-photo/mountains-mist-panoramic-photo-1x2-western-388287280" />
+      <description>India’s Western Ghats catch monsoon rains that feed forests, rivers, and waterfalls. These mountains shelter rich wildlife, from frogs and orchids to big mammals, across a long, green ridge.</description>
+    </biome>
+    <biome>
+      <name>Lut Desert</name>
+      <image url="https://www.shutterstock.com/image-photo/panoramic-view-serene-sunset-over-amazing-2259804093" />
+      <description>Iran’s Lut Desert is a land of intense heat and wind‑carved shapes. Giant dunes and yardang ridges stretch for miles, showing how wind and sun can sculpt the Earth.</description>
+    </biome>
+    <biome>
+      <name>Borneo Rainforest</name>
+      <image url="https://www.shutterstock.com/image-photo/aerial-view-borneo-jungle-stunning-tropical-1449811805" />
+      <description>Borneo’s rainforest is ancient and towering, with a thick canopy and steamy air. Orangutans, hornbills, and countless insects depend on this dense green world of rivers and trees.</description>
+    </biome>
+    <biome>
+      <name>Altai Mountains</name>
+      <image url="https://www.shutterstock.com/image-photo/stunning-altai-mountains-reflections-on-lake-2596156105" />
+      <description>The Altai Mountains span rugged peaks, clear lakes, and wide valleys across Central Asia. Snowy ridges, alpine meadows, and wild rivers make this a crossroads of cultures and wildlife.</description>
+    </biome>
+    <biome>
+      <name>Siberian Tundra</name>
+      <image url="https://www.shutterstock.com/image-photo/summer-arctic-cottongrass-tundra-view-hills-1353249020" />
+      <description>Siberia’s tundra is a treeless plain of moss, lichen, and permafrost. In the short summer, wildflowers bloom and migrating reindeer move across wetlands under long daylight.</description>
+    </biome>
+    <biome>
+      <name>Tibetan Plateau</name>
+      <image url="https://www.shutterstock.com/image-photo/china-tibet-yaks-graze-on-tibetan-1307480644" />
+      <description>The Tibetan Plateau is a vast highland above many clouds. Cold nights, thin air, and open grasslands shape life here, where yaks graze and distant peaks ring the horizon.</description>
+    </biome>
+  </biomes>
+</treasuredBiomesPoster>]]></payload_xml>
+</normalized_poster>

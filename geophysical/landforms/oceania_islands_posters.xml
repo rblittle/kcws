@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/landforms/oceania_islands_posters.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__landforms__oceania__oceania_islands_posters</poster_id>
+    <continent>oceania</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>geophysical</domain>
+    <poster_family>landforms</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<PosterSet schema_version="1.0" continent="Oceania" title="Oceania Landforms: Islands">
+  <Metadata>
+    <GeneratedAt>2025-12-30T01:30:16.448693</GeneratedAt>
+    </Metadata>
+  <Sources>
+    <Files>
+      <File key="islands_text_docx">
+        <Filename>Islands text.docx</Filename>
+        <Path>/mnt/data/Islands text.docx</Path>
+        <ModifiedTime>2025-12-30T01:21:53.388558</ModifiedTime>
+        <SizeBytes>11355</SizeBytes>
+        </File>
+      <File key="oceania_landforms_docx">
+        <Filename>Oceania landforms 3.docx</Filename>
+        <Path>/mnt/data/Oceania landforms 3.docx</Path>
+        <ModifiedTime>2025-12-30T01:21:53.388354</ModifiedTime>
+        <SizeBytes>14907</SizeBytes>
+        </File>
+      <File key="oceania_landforms_xlsx">
+        <Filename>Oceania Landforms.xlsx</Filename>
+        <Path>/mnt/data/Oceania Landforms.xlsx</Path>
+        <ModifiedTime>2025-12-30T01:21:52.705343</ModifiedTime>
+        <SizeBytes>14370</SizeBytes>
+        </File>
+      <File key="mockup_image_1">
+        <Filename>oceania islands 1.jpeg</Filename>
+        <Path>/mnt/data/oceania islands 1.jpeg</Path>
+        <ModifiedTime>2025-12-30T01:21:52.882438</ModifiedTime>
+        <SizeBytes>794628</SizeBytes>
+        </File>
+      <File key="mockup_image_2">
+        <Filename>oceania islands 2.jpg</Filename>
+        <Path>/mnt/data/oceania islands 2.jpg</Path>
+        <ModifiedTime>2025-12-30T01:21:53.692551</ModifiedTime>
+        <SizeBytes>856689</SizeBytes>
+        </File>
+      </Files>
+    <Notes>
+      <AuthoritativeCopyPriority>
+        <Item>
+          <source>Islands text.docx</source>
+          <use_for>
+            <Item>section titles</Item>
+            <Item>island captions</Item>
+            <Item>feature captions</Item>
+            <Item>did_you_know callouts</Item>
+            <Item>topic suggestions</Item>
+            </use_for>
+          </Item>
+        <Item>
+          <source>Oceania landforms 3.docx</source>
+          <use_for>
+            <Item>body paragraphs</Item>
+            <Item>design/layout guidance</Item>
+            <Item>asset prompts</Item>
+            <Item>visitor inquiries</Item>
+            <Item>color palettes</Item>
+            </use_for>
+          </Item>
+        </AuthoritativeCopyPriority>
+      <Mockups>
+        <Item>
+          <file>oceania islands 1.jpeg</file>
+          <path>/mnt/data/oceania islands 1.jpeg</path>
+          <role>visual layout reference (Poster 1)</role>
+          </Item>
+        <Item>
+          <file>oceania islands 2.jpg</file>
+          <path>/mnt/data/oceania islands 2.jpg</path>
+          <role>visual layout reference (Poster 2)</role>
+          </Item>
+        </Mockups>
+      </Notes>
+    </Sources>
+  <Assets>
+    <SpreadsheetFile>Oceania Landforms.xlsx</SpreadsheetFile>
+    <AssetsBySheet>
+      <Sheet name="How () Forms">
+        <AssetRef cell="A3">
+          <Label>Volcanic Islands</Label>
+          <Url>https://cdn.midjourney.com/45241291-2f17-4dc9-ba06-c796fd05ead1/0_2.png</Url>
+          </AssetRef>
+        <AssetRef cell="D3">
+          <Label>Subisding volcano</Label>
+          <Url>https://cdn.midjourney.com/12a84176-16ab-4869-a942-5bab98865786/0_3.png</Url>
+          </AssetRef>
+        <AssetRef cell="H3">
+          <Label>Continental Islands</Label>
+          <Url>https://cdn.midjourney.com/9cfb9491-8eb5-40eb-a893-d2147f54f2f4/0_0.png</Url>
+          </AssetRef>
+        <AssetRef cell="D4">
+          <Label>Early Attol</Label>
+          <Url>https://cdn.midjourney.com/7488a008-afec-4b7a-81aa-8017ae41ed56/0_2.png</Url>
+          </AssetRef>
+        <AssetRef cell="H4">
+          <Label>Again</Label>
+          <Url>https://cdn.midjourney.com/71b6ad1a-f86f-42ae-b033-08f815fd8c3a/0_2.png</Url>
+          </AssetRef>
+        <AssetRef cell="D5">
+          <Label>Coral Attol</Label>
+          <Url>https://cdn.midjourney.com/60f668e1-151b-4427-af3c-987cf73cdf11/0_2.png</Url>
+          </AssetRef>
+        </Sheet>
+      <Sheet name="General Overview">
+        <AssetRef cell="E4">
+          <Label>Hawaii</Label>
+          <Url>https://c8.alamy.com/comp/ACTPKC/aerial-view-of-hawaii-kai-volcano-and-koko-head-park-oahu-island-ACTPKC.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="F4">
+          <Label>Maldives</Label>
+          <Url>https://thumbs.dreamstime.com/b/underwater-coral-reef-fish-indian-ocean-maldives-tropical-clear-turquoise-water-86225573.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="G5">
+          <Label>Madagascar</Label>
+          <Url>https://thumbs.dreamstime.com/b/beach-surrounded-lush-green-trees-east-coast-madagascar-beach-surrounded-lush-green-trees-east-coast-282274752.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A7">
+          <Label>This is a link to a chat about types of islands. It's not exhaustive. But it could help build a more complete map.</Label>
+          <Url>https://chatgpt.com/share/6774832a-5d8c-800a-84b5-96e8440df478</Url>
+          <Comment>@david@volumeinteractive.com Would this be enough for you to go on, or do you want me to geolocate these on Google Earth?
+	-Bennett Little</Comment>
+          </AssetRef>
+        </Sheet>
+      <Sheet name="Ecological Significance">
+        <AssetRef cell="A3">
+          <Label>Map of pacific ocean</Label>
+          <Url>https://www.freeworldmaps.net/ocean/pacific/pacific-countries-map.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A4">
+          <Label>Map of ring of fire</Label>
+          <Url>https://upload.wikimedia.org/wikipedia/commons/5/52/Pacific_Ring_of_Fire.svg</Url>
+          </AssetRef>
+        <AssetRef cell="A5">
+          <Label>map of great barrier reef</Label>
+          <Url>https://cdn.britannica.com/24/19824-004-4BF0C660/Great-Barrier-Reef-coast-Australia-World-Heritage-1981.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A9">
+          <Label>I had to create these and heres a link to that chat but here are images for each of these hot spots</Label>
+          <Url>https://chatgpt.com/share/67748864-ab30-800a-bea4-204d310f3f78</Url>
+          </AssetRef>
+        <AssetRef cell="A10">
+          <Label>New Caledonia</Label>
+          <Url>https://www.kaledonie.com/wp-content/uploads/2018/10/Dugong.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A11">
+          <Label>Papua New Guinea</Label>
+          <Url>https://dewitours.de/wp-content/uploads/2019/06/laeoct07034.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A12">
+          <Label>Great Barrier Reef</Label>
+          <Url>https://fthmb.tqn.com/rNrw0h8EPIxoddpBJk-jeSQmfp0%3D/2121x1414/filters%3Afill%28auto%2C1%29/barrierreefGE-583710415f9b58d5b112a344.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A13">
+          <Label>Hawaiian Islands</Label>
+          <Url>https://upload.wikimedia.org/wikipedia/commons/4/43/Alakai_swamp.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A14">
+          <Label>Fiji</Label>
+          <Url>https://images.luxuryescapes.com/lux-group/image/upload/q_auto%3Aeco%2Cc_fill%2Cg_auto%2Car_16%3A9/dzcrds5t23nhpklthyne.jpeg</Url>
+          </AssetRef>
+        <AssetRef cell="A15">
+          <Label>Solomon Islands</Label>
+          <Url>https://www.kevmrc.com/wp-content/uploads/2023/01/north-solomons-dwarf-kingfisher-is-one-of-the-animals-in-solomon-islands.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A16">
+          <Label>Vanuatu</Label>
+          <Url>https://a-z-animals.com/media/2021/06/Vanuatu-header.jpg</Url>
+          </AssetRef>
+        </Sheet>
+      <Sheet name="Human Geography of">
+        <AssetRef cell="A6">
+          <Label>Wayfinding</Label>
+          <Url>https://cdn.midjourney.com/b86ea419-4142-42b2-9da1-b75741484934/0_3.png</Url>
+          </AssetRef>
+        <AssetRef cell="A8">
+          <Label>stick chart</Label>
+          <Url>https://tse2.mm.bing.net/th?id=OIP.U-6gG74zzJGsYw0-PkMYmgHaFQ&amp;pid=Api</Url>
+          </AssetRef>
+        <AssetRef cell="A9">
+          <Label>Solar Panels</Label>
+          <Url>https://www.pvtime.org/wp-content/uploads/2021/07/1.jpg</Url>
+          </AssetRef>
+        <AssetRef cell="A10">
+          <Label>Solar Panels</Label>
+          <Url>https://c8.alamy.com/comp/EBNE4N/solar-panels-rupunau-wapishana-indian-village-south-rupununi-guyana-EBNE4N.jpg</Url>
+          </AssetRef>
+        </Sheet>
+      </AssetsBySheet>
+    <RelatedNonAssetReference>
+      <Item>
+        <source_file>Oceania Landforms.xlsx</source_file>
+        <sheet>How () Forms</sheet>
+        <cell>B3</cell>
+        <label>Prompt for A3 (Volcanic Islands)</label>
+        <text>A photorealistic cross-section of an underwater volcanic eruption; magma ascends through the ocean floor, creating a volcanic island that breaches the water's surface. Depicted with the grandeur and dramatic lighting reminiscent of David Lean's cinematography combined with the gorgeous views of Peter Jackson's landscapes in his Lord of the Rings trilogy. --chaos 5 --ar 4:3 --style raw --stylize 50 --v 6.1</text>
+        </Item>
+      <Item>
+        <source_file>Oceania Landforms.xlsx</source_file>
+        <sheet>How () Forms</sheet>
+        <cell>E3</cell>
+        <label>Prompt for D3 (Subsiding volcano)</label>
+        <text>A photorealistic depiction of a A volcanic island encircled by fringing reefs; the island is prominent with lush vegetation, surrounded by clear turquoise waters teeming with marine life. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --quality 2 --style raw --stylize 50 --v 6.1</text>
+        </Item>
+      <Item>
+        <source_file>Oceania Landforms.xlsx</source_file>
+        <sheet>How () Forms</sheet>
+        <cell>E4</cell>
+        <label>Prompt for D4 (Early Atoll)</label>
+        <text>A photorealistic depiction of a volcanic island is subsiding, with a barrier reef forming at a greater distance from the shore; the lagoon between the island and the reef is expanding, showcasing diverse underwater flora and fauna. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --ar 1:1 --quality 2 --style raw --stylize 50 --v 6.1</text>
+        </Item>
+      <Item>
+        <source_file>Oceania Landforms.xlsx</source_file>
+        <sheet>How () Forms</sheet>
+        <cell>E5</cell>
+        <label>Prompt for D5 (Coral Atoll)</label>
+        <text>A photorealistic depiction of A fully developed coral atoll featuring a central lagoon; the original island has submerged completely, leaving a ring of coral islands with sandy beaches and vibrant coral reefs beneath the surface. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1</text>
+        </Item>
+      <Item>
+        <source_file>Oceania Landforms.xlsx</source_file>
+        <sheet>How () Forms</sheet>
+        <cell>J3</cell>
+        <label>Note</label>
+        <text>These could be edited</text>
+        </Item>
+      </RelatedNonAssetReference>
+    </Assets>
+  <DesignGuidance>
+    <Overall>
+      <format_and_scale>Format &amp; Scale: Two posters, each approximately 8' wide by 5' tall, divided into two columns per poster.</format_and_scale>
+      <content_flow>
+        <Item>Poster 1, Left Column: How islands form (infographic-driven explanation).</Item>
+        <Item>Poster 1, Right Column: Global overview of island types, showing where they occur.</Item>
+        <Item>Poster 2, Left Column: Environmental significance of Oceania’s islands (biodiversity, reefs, climate role).</Item>
+        <Item>Poster 2, Right Column: Human geography of Oceania’s islands (traditional navigation, culture, sustainability).</Item>
+        </content_flow>
+      <visual_dominance>Visual Dominance: Keep text concise and clear. Infographics, maps, and photos guide understanding.</visual_dominance>
+      <voice_and_style>Voice &amp; Style: A blend of enthusiasm, clarity, and wonder. Aim for an 8th grade reading level. Imagine David Attenborough’s reverence for nature combined with Bill Nye’s charm, Carl Sagan’s cosmic perspective, Neil deGrasse Tyson’s clarity, and a hint of Jordan Peterson’s thoughtfulness in understanding patterns.</voice_and_style>
+      <interactivity>Interactivity: Minimal, as these are outdoor installations. Instead, use call-to-action questions that spark curiosity.</interactivity>
+      <color_palette_overview>
+        <poster_1>Poster 1: Deep blues, fiery reds, tropical greens.</poster_1>
+        <poster_2>Poster 2: Rich oceanic hues, coral pinks, earthy greens, warm browns.
+ These colors reflect island environments and help differentiate sections.</poster_2>
+        </color_palette_overview>
+      </Overall>
+    <VisitorInquiries>
+      <poster_1_left>Which type of island might you find here in Oceania?</poster_1_left>
+      <poster_1_right>Find these islands on the map — which would you explore first?</poster_1_right>
+      <poster_2_left>Can you spot the Great Barrier Reef on this map?</poster_2_left>
+      <poster_2_right>Look up tonight. Can you find a guiding star of your own?</poster_2_right>
+      </VisitorInquiries>
+    <ColorPalettesDetail>
+      <poster_1_left>Color Palette:
+ Use fiery reds/oranges beneath the ocean floor for volcanic zones, turquoise and coral pinks for reefs, and rich greens and browns for continental fragments.</poster_1_left>
+      <poster_1_right>Color Palette:
+ Deep blues for ocean, warm reds/oranges for volcanoes, soft greens for continental masses, and bright teal for coral atolls.</poster_1_right>
+      <poster_2_left>Color Palette:
+ Deep Pacific blues, coral pinks, lush greens, and small fiery accents for volcanic arcs.</poster_2_left>
+      <poster_2_right>Color Palette:
+ Deep blues and purples for night sky, warm browns for canoe, subtle whites for starlight.</poster_2_right>
+      </ColorPalettesDetail>
+    <RequiredPhotoAssetsTable>
+      <Item>
+        <location>Poster 1, Right Column (Global Overview)</location>
+        <description>Aerial view of a Hawaiian volcanic island (lush cliffs, ocean)</description>
+        <caption>A volcanic wonderland, born of fire.</caption>
+        </Item>
+      <Item>
+        <location>Poster 1, Right Column (Global Overview)</location>
+        <description>Underwater coral reef scene (Maldives) with colorful fish and coral</description>
+        <caption>Coral architects crafting a paradise.</caption>
+        </Item>
+      <Item>
+        <location>Poster 1, Right Column (Global Overview)</location>
+        <description>Madagascar coastline with greenery meeting the sea</description>
+        <caption>A continental castaway, alive with unique life.</caption>
+        </Item>
+      <Item>
+        <location>Poster 2, Right Column (Human Geography)</location>
+        <description>Traditional Polynesian double-hulled canoe at dusk on the ocean</description>
+        <caption>Polynesian wayfinder canoe: guided by stars and swells.</caption>
+        </Item>
+      <Item>
+        <location>Poster 2, Right Column (Human Geography)</location>
+        <description>Micronesian stick chart close-up</description>
+        <caption>A memory of waves and winds.</caption>
+        </Item>
+      <Item>
+        <location>Poster 2, Right Column (Human Geography)</location>
+        <description>Coastal village with mangroves or solar panels (sustainable solution)</description>
+        <caption>Innovation guided by tradition.</caption>
+        </Item>
+      </RequiredPhotoAssetsTable>
+    <Prompts>
+      <island_formation_infographic>
+        <title>Island Formation Infographic (Poster 1, Left Column)</title>
+        <description>A three-part cross-section: left shows magma rising and forming a volcanic island; center shows coral building a reef around a sinking island to form an atoll; right shows a piece of a continent drifting away. Include arrows and short labels.</description>
+        <prompt>Create a panoramic cross-section illustrating three island types side-by-side. On the left: magma beneath ocean forming volcanic island (red/orange lava flow). Center: coral reef stages (fringing, barrier, atoll) in turquoise water. Right: continental mass splitting off, showing forested green landscape drifting into ocean. Add labels: ‘Magma Rises,’ ‘Reefs Build New Land,’ ‘Continental Rift.’</prompt>
+        </island_formation_infographic>
+      <world_map_of_island_types>
+        <title>World Map of Island Types (Poster 1, Right Column)</title>
+        <description>A simple world map highlighting Hawai‘i, Iceland, Tonga (volcanic, red icons), Maldives &amp; Marshall Islands (coral atolls, blue-green icons), Madagascar &amp; New Guinea (continental, green icons). Include a legend.</description>
+        <prompt>A world map with pastel continents and blue oceans. Mark Hawai‘i, Iceland, Tonga with a red volcano icon; Maldives, Marshall Islands with a blue ring icon; Madagascar, New Guinea with green landmass icons. Include a small legend box and minimal text labels.</prompt>
+        </world_map_of_island_types>
+      <oceania_focus_map>
+        <title>Oceania Map (Poster 2, Left Column)</title>
+        <description>A map of the Pacific showing Melanesia, Micronesia, Polynesia in distinct colors. Highlight the Great Barrier Reef with coral icons, volcanic arcs with small volcano symbols, and possibly a biodiversity hotspot icon.</description>
+        <prompt>A Pacific-centered map showing Oceania. Use three distinct colors for Melanesia (leafy green), Micronesia (teal), and Polynesia (gold). Mark the Great Barrier Reef with pink coral icons, place small volcano symbols along the Ring of Fire. Soft blues for ocean. Minimal labels and small arrow callouts.</prompt>
+        </oceania_focus_map>
+      </Prompts>
+    </DesignGuidance>
+  <Posters>
+    <Poster id="oceania_islands_01" sequence="1">
+      <Title>Islands: Born of Fire, Coral, and Drift</Title>
+      <Topic>Islands (formation + global overview)</Topic>
+      <Layout>
+        <LayoutSpec>
+          <columns>2</columns>
+          <left>formation</left>
+          <right>global overview</right>
+          </LayoutSpec>
+        </Layout>
+      <Sections>
+        <Section id="p1_left_formation" position="left">
+          <Title>How Islands Are Made: Fire, Water, and Time</Title>
+          <SubtitleTagline>Witness the Earth's restless hands at work—raising peaks from lava, crafting reefs from coral, and breaking continents into wandering shards.</SubtitleTagline>
+          <BodyText>Picture our planet as a restless artist, forever sculpting new worlds where you’d least expect them. Some islands burst into life from underwater volcanoes, others emerge as coral creatures build tiny empires of reef, and some are pieces of continents drifting apart. Over centuries, these forces join in a grand performance, raising land from the deep and giving life a fresh canvas to paint upon.</BodyText>
+          <Components>
+            <Component slot_key="p1_left_island_formation_infographic" type="infographic_panorama">
+              <Heading>How islands form (three pathways)</Heading>
+              <ArtDirection>
+                <description>Infographic (Central Visual):
+ Show three island formation processes side-by-side in a single panoramic cross-section:</description>
+                <labels>
+                  <Item>
+                    <group>Volcanic Islands</group>
+                    <labels>
+                      <Item>Magma Rises</Item>
+                      <Item>Volcanic Peak Emerges</Item>
+                      </labels>
+                    </Item>
+                  <Item>
+                    <group>Coral Atolls</group>
+                    <labels>
+                      <Item>Reefs Build New Land</Item>
+                      <Item>Fringing Reef → Barrier Reef → Atoll</Item>
+                      </labels>
+                    </Item>
+                  <Item>
+                    <group>Continental Islands</group>
+                    <labels>
+                      <Item>Continental Rift</Item>
+                      <Item>Breakaway Landmass</Item>
+                      </labels>
+                    </Item>
+                  </labels>
+                <prompt_block_ref>design_guidance.prompts.island_formation_infographic</prompt_block_ref>
+                </ArtDirection>
+              <Subcomponents>
+                <Subcomponent slot_key="p1_left_infographic_volcanic" label="Volcanic Islands">
+                  <Caption>Magma bursts from the seafloor, cools into rock, and stacks upward until land breaks the ocean’s surface. A fire-born island is born.</Caption>
+                  <AssetRefs>
+                    <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="A3">
+                      <Label>Volcanic Islands</Label>
+                      <Url>https://cdn.midjourney.com/45241291-2f17-4dc9-ba06-c796fd05ead1/0_2.png</Url>
+                      </AssetRef>
+                    </AssetRefs>
+                  <GenerationPromptCell>
+                    <sheet>How () Forms</sheet>
+                    <cell>B3</cell>
+                    <text>A photorealistic cross-section of an underwater volcanic eruption; magma ascends through the ocean floor, creating a volcanic island that breaches the water's surface. Depicted with the grandeur and dramatic lighting reminiscent of David Lean's cinematography combined with the gorgeous views of Peter Jackson's landscapes in his Lord of the Rings trilogy. --chaos 5 --ar 4:3 --style raw --stylize 50 --v 6.1</text>
+                    </GenerationPromptCell>
+                  </Subcomponent>
+                <Subcomponent slot_key="p1_left_infographic_coral_sequence" label="Coral Atolls (sequence)">
+                  <Caption>As volcanic islands sink, coral reefs climb. Over centuries, they form ring-shaped atolls with lagoons at their hearts—living structures built by tiny architects.</Caption>
+                  <SequenceSteps>
+                    <Step label="Subsiding volcano">
+                      <AssetRefs>
+                        <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="D3">
+                          <Label>Subisding volcano</Label>
+                          <Url>https://cdn.midjourney.com/12a84176-16ab-4869-a942-5bab98865786/0_3.png</Url>
+                          </AssetRef>
+                        </AssetRefs>
+                      <PromptCell>
+                        <sheet>How () Forms</sheet>
+                        <cell>E3</cell>
+                        <text>A photorealistic depiction of a A volcanic island encircled by fringing reefs; the island is prominent with lush vegetation, surrounded by clear turquoise waters teeming with marine life. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --quality 2 --style raw --stylize 50 --v 6.1</text>
+                        </PromptCell>
+                      </Step>
+                    <Step label="Early atoll">
+                      <AssetRefs>
+                        <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="D4">
+                          <Label>Early Attol</Label>
+                          <Url>https://cdn.midjourney.com/7488a008-afec-4b7a-81aa-8017ae41ed56/0_2.png</Url>
+                          </AssetRef>
+                        </AssetRefs>
+                      <PromptCell>
+                        <sheet>How () Forms</sheet>
+                        <cell>E4</cell>
+                        <text>A photorealistic depiction of a volcanic island is subsiding, with a barrier reef forming at a greater distance from the shore; the lagoon between the island and the reef is expanding, showcasing diverse underwater flora and fauna. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --ar 1:1 --quality 2 --style raw --stylize 50 --v 6.1</text>
+                        </PromptCell>
+                      </Step>
+                    <Step label="Coral atoll">
+                      <AssetRefs>
+                        <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="D5">
+                          <Label>Coral Attol</Label>
+                          <Url>https://cdn.midjourney.com/60f668e1-151b-4427-af3c-987cf73cdf11/0_2.png</Url>
+                          </AssetRef>
+                        </AssetRefs>
+                      <PromptCell>
+                        <sheet>How () Forms</sheet>
+                        <cell>E5</cell>
+                        <text>A photorealistic depiction of A fully developed coral atoll featuring a central lagoon; the original island has submerged completely, leaving a ring of coral islands with sandy beaches and vibrant coral reefs beneath the surface. Photographed in the style of Peter Jackson's lord of the rings trilogy, --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1</text>
+                        </PromptCell>
+                      </Step>
+                    </SequenceSteps>
+                  </Subcomponent>
+                <Subcomponent slot_key="p1_left_infographic_continental" label="Continental Islands">
+                  <Caption>When tectonic forces split ancient continents, large landmasses drift away—becoming islands that carry entire ecosystems with them.</Caption>
+                  <Notes>These could be edited</Notes>
+                  <AssetRefs>
+                    <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="H3">
+                      <Label>Continental Islands</Label>
+                      <Url>https://cdn.midjourney.com/9cfb9491-8eb5-40eb-a893-d2147f54f2f4/0_0.png</Url>
+                      </AssetRef>
+                    </AssetRefs>
+                  <AlternateAssetRefs>
+                    <AssetRef source_file="Oceania Landforms.xlsx" sheet="How () Forms" cell="H4">
+                      <Label>Again</Label>
+                      <Url>https://cdn.midjourney.com/71b6ad1a-f86f-42ae-b033-08f815fd8c3a/0_2.png</Url>
+                      </AssetRef>
+                    </AlternateAssetRefs>
+                  </Subcomponent>
+                </Subcomponents>
+              </Component>
+            <Component slot_key="p1_left_did_you_know" type="did_you_know">
+              <Items>
+                <Item>Did you know? Over 700 million people live on islands—and every one of them exists because of slow, dramatic changes under our feet.</Item>
+                <Item>Some volcanic islands grow as fast as several inches a year—lava cools that quickly!</Item>
+                <Item>Coral atolls are made by billions of living organisms, each no bigger than a grain of rice.</Item>
+                </Items>
+              <AlternateOrBonusItem>Did you know? Islands make up about 11% of Earth’s land, yet they hold many of the world’s rarest species!</AlternateOrBonusItem>
+              </Component>
+            <Component slot_key="p1_left_visitor_inquiry" type="visitor_inquiry">
+              <Text>Which type of island might you find here in Oceania?</Text>
+              </Component>
+            </Components>
+          </Section>
+        <Section id="p1_right_global_overview" position="right">
+          <Title>Islands Around the World: From Fire and Reef to Reality</Title>
+          <SubtitleTagline>Explore a world stitched with islands—each a chapter in Earth’s creative journal, each a lesson in change, isolation, and life.</SubtitleTagline>
+          <BodyText>Islands dot every ocean, each shaped by Earth’s hidden powers. Volcanic islands rise from fiery depths. Coral atolls shimmer like jeweled necklaces on the sea. Continental islands carry ancient life, drifting away from distant homelands. Together, they form a global mosaic of nature’s experiments.</BodyText>
+          <Components>
+            <Component slot_key="p1_right_world_map_island_types" type="map_world">
+              <Heading>Islands Around the World</Heading>
+              <ArtDirection>
+                <description>World Map (Hero Visual):
+ A large world map highlighting examples with distinct icons:</description>
+                <legend>
+                  <Item>
+                    <category>Volcanic</category>
+                    <icon>volcano (red/orange)</icon>
+                    <examples>
+                      <Item>Hawai‘i</Item>
+                      <Item>Iceland</Item>
+                      <Item>Tonga</Item>
+                      </examples>
+                    </Item>
+                  <Item>
+                    <category>Coral Atoll</category>
+                    <icon>ring atoll (blue/green)</icon>
+                    <examples>
+                      <Item>Maldives</Item>
+                      <Item>Marshall Islands</Item>
+                      </examples>
+                    </Item>
+                  <Item>
+                    <category>Continental</category>
+                    <icon>landmass (green)</icon>
+                    <examples>
+                      <Item>Madagascar</Item>
+                      <Item>Papua New Guinea</Item>
+                      </examples>
+                    </Item>
+                  </legend>
+                <prompt_block_ref>design_guidance.prompts.world_map_of_island_types</prompt_block_ref>
+                </ArtDirection>
+              <MapPoints>
+                <Item>
+                  <name>Hawai‘i</name>
+                  <category>Volcanic</category>
+                  <caption>From lava flows to lush rainforests, Hawai‘i is a volcanic masterpiece still in motion.</caption>
+                  </Item>
+                <Item>
+                  <name>Iceland</name>
+                  <category>Volcanic</category>
+                  <caption>Straddling two continents, Iceland rises from fire and ice, where Earth pulls itself apart and builds anew.</caption>
+                  </Item>
+                <Item>
+                  <name>Tonga</name>
+                  <category>Volcanic</category>
+                  <caption>Tonga’s islands are stepping stones in the Pacific—formed by submarine volcanoes and shaped by waves and wind.</caption>
+                  </Item>
+                <Item>
+                  <name>Maldives</name>
+                  <category>Atoll</category>
+                  <caption>A floating garden of coral, the Maldives are rings of life built on submerged volcanoes by reef-building creatures.</caption>
+                  </Item>
+                <Item>
+                  <name>Marshall Islands</name>
+                  <category>Atoll</category>
+                  <caption>Here, the ocean and coral co-create entire nations—woven into delicate atolls that sit just above the sea.</caption>
+                  </Item>
+                <Item>
+                  <name>Papua New Guinea</name>
+                  <category>Continental</category>
+                  <caption>Once joined to Australia, this massive island drifted away, carrying ancient rainforests and over 800 languages into the Pacific.</caption>
+                  </Item>
+                <Item>
+                  <name>Madagascar</name>
+                  <category>Continental</category>
+                  <caption>An ancient wanderer, Madagascar split from Africa 88 million years ago—and took a whole world of unique life with it.</caption>
+                  </Item>
+                </MapPoints>
+              <ReferenceLinks>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="General Overview" cell="A7">
+                  <Label>This is a link to a chat about types of islands. It's not exhaustive. But it could help build a more complete map.</Label>
+                  <Url>https://chatgpt.com/share/6774832a-5d8c-800a-84b5-96e8440df478</Url>
+                  <Comment>@david@volumeinteractive.com Would this be enough for you to go on, or do you want me to geolocate these on Google Earth?
+	-Bennett Little</Comment>
+                  </AssetRef>
+                </ReferenceLinks>
+              <AssetNeeds>
+                <Item>
+                  <needed>World map base (simple pastel continents + blue oceans)</needed>
+                  <notes>No link provided in Oceania Landforms.xlsx; create from prompt.</notes>
+                  </Item>
+                </AssetNeeds>
+              </Component>
+            <Component slot_key="p1_right_inset_photos" type="photo_strip">
+              <Items>
+                <Item>
+                  <label>Hawai‘i (Volcanic) inset photo</label>
+                  <caption>A volcanic wonderland, born of fire.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>General Overview</sheet>
+                      <cell>E4</cell>
+                      <label>Hawaii</label>
+                      <url>https://c8.alamy.com/comp/ACTPKC/aerial-view-of-hawaii-kai-volcano-and-koko-head-park-oahu-island-ACTPKC.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Maldives (Atoll) inset photo</label>
+                  <caption>Coral architects crafting a paradise.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>General Overview</sheet>
+                      <cell>F4</cell>
+                      <label>Maldives</label>
+                      <url>https://thumbs.dreamstime.com/b/underwater-coral-reef-fish-indian-ocean-maldives-tropical-clear-turquoise-water-86225573.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Madagascar (Continental) inset photo</label>
+                  <caption>A continental castaway, alive with unique life.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>General Overview</sheet>
+                      <cell>G5</cell>
+                      <label>Madagascar</label>
+                      <url>https://thumbs.dreamstime.com/b/beach-surrounded-lush-green-trees-east-coast-madagascar-beach-surrounded-lush-green-trees-east-coast-282274752.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                </Items>
+              <AssetNeeds>
+                <Item>
+                  <needed>Inset photo - Iceland (Volcanic)</needed>
+                  <notes>No spreadsheet link provided.</notes>
+                  </Item>
+                <Item>
+                  <needed>Inset photo - Tonga (Volcanic)</needed>
+                  <notes>No spreadsheet link provided.</notes>
+                  </Item>
+                <Item>
+                  <needed>Inset photo - Marshall Islands (Atoll)</needed>
+                  <notes>No spreadsheet link provided.</notes>
+                  </Item>
+                <Item>
+                  <needed>Inset photo - Papua New Guinea (Continental)</needed>
+                  <notes>No spreadsheet link provided.</notes>
+                  </Item>
+                </AssetNeeds>
+              </Component>
+            <Component slot_key="p1_right_did_you_know" type="did_you_know">
+              <Items>
+                <Item>Did you know? The Marshall Islands are so low that the highest natural point is just 10 meters above sea level.</Item>
+                <Item>There are more than 900 coral islands in the Maldives, spread across 26 atolls.</Item>
+                <Item>Madagascar is home to species found nowhere else—like the eerie-eyed aye-aye and the dancing sifaka lemur.</Item>
+                </Items>
+              </Component>
+            <Component slot_key="p1_right_visitor_inquiry" type="visitor_inquiry">
+              <Text>Find these islands on the map — which would you explore first?</Text>
+              </Component>
+            </Components>
+          </Section>
+        </Sections>
+      </Poster>
+    <Poster id="oceania_islands_02" sequence="2">
+      <Title>Oceania: Life Between Land and Sea</Title>
+      <Topic>Oceania islands (environment + people)</Topic>
+      <Layout>
+        <LayoutSpec>
+          <columns>2</columns>
+          <left>environmental significance</left>
+          <right>human geography</right>
+          </LayoutSpec>
+        </Layout>
+      <Sections>
+        <Section id="p2_left_environment" position="left">
+          <Title>Oceania’s Living Lab: Life Between Land and Sea</Title>
+          <SubtitleTagline>Oceania’s islands are not just land—they are laboratories of life. Volcanoes feed forests. Coral reefs shield shores. Isolation inspires invention.</SubtitleTagline>
+          <BodyText>Oceania’s islands are nature’s hidden workshops, where life invents dazzling new forms. Coral reefs shelter rainbow fish, volcanic soils feed lush forests, and isolated shores host creatures found nowhere else. These islands protect coastlines, help balance the climate, and offer lessons on how ecosystems adapt and thrive.</BodyText>
+          <MapCaption>Stretching from the Great Barrier Reef to Micronesia’s coral atolls and the volcanic arcs of Polynesia, Oceania’s islands are scattered gems of biodiversity.</MapCaption>
+          <Components>
+            <Component slot_key="p2_left_oceania_map" type="map_oceania_pacific_centered">
+              <Heading>Oceania's island regions and key natural features</Heading>
+              <ArtDirection>
+                <description>Infographic Map (Oceania Focus):
+ A Pacific-centered map showing:</description>
+                <regions>
+                  <Item>Melanesia</Item>
+                  <Item>Micronesia</Item>
+                  <Item>Polynesia</Item>
+                  </regions>
+                <key_features>
+                  <Item>Great Barrier Reef</Item>
+                  <Item>Ring of Fire volcanic arcs</Item>
+                  <Item>Biodiversity hotspots</Item>
+                  </key_features>
+                <callouts>
+                  <Item>Home to the richest marine biodiversity on Earth.</Item>
+                  <Item>Volcanic arcs forge new land and nourish forests.</Item>
+                  <Item>Coral reefs shield coasts from storms.</Item>
+                  </callouts>
+                <prompt_block_ref>design_guidance.prompts.oceania_focus_map</prompt_block_ref>
+                </ArtDirection>
+              <FeatureCallouts>
+                <Item>
+                  <feature>Great Barrier Reef</feature>
+                  <caption>The world’s largest living structure—so vast it’s visible from space, and home to 9,000 known species.</caption>
+                  </Item>
+                <Item>
+                  <feature>Ring of Fire (Pacific volcanic arc)</feature>
+                  <caption>A fiery necklace circling the Pacific Ocean—home to 75% of Earth’s active volcanoes.</caption>
+                  </Item>
+                <Item>
+                  <feature>Tropical rainforest (Papua New Guinea)</feature>
+                  <caption>These ancient forests shelter birds of paradise, tree kangaroos, and plants unchanged for millions of years.</caption>
+                  </Item>
+                </FeatureCallouts>
+              <AssetRefs>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="Ecological Significance" cell="A3">
+                  <Label>Map of pacific ocean</Label>
+                  <Url>https://www.freeworldmaps.net/ocean/pacific/pacific-countries-map.jpg</Url>
+                  </AssetRef>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="Ecological Significance" cell="A4">
+                  <Label>Map of ring of fire</Label>
+                  <Url>https://upload.wikimedia.org/wikipedia/commons/5/52/Pacific_Ring_of_Fire.svg</Url>
+                  </AssetRef>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="Ecological Significance" cell="A5">
+                  <Label>map of great barrier reef</Label>
+                  <Url>https://cdn.britannica.com/24/19824-004-4BF0C660/Great-Barrier-Reef-coast-Australia-World-Heritage-1981.jpg</Url>
+                  </AssetRef>
+                </AssetRefs>
+              <ReferenceLinks>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="Ecological Significance" cell="A9">
+                  <Label>I had to create these and heres a link to that chat but here are images for each of these hot spots</Label>
+                  <Url>https://chatgpt.com/share/67748864-ab30-800a-bea4-204d310f3f78</Url>
+                  </AssetRef>
+                </ReferenceLinks>
+              </Component>
+            <Component slot_key="p2_left_environment_photos" type="photo_strip">
+              <Items>
+                <Item>
+                  <label>Great Barrier Reef (reef ecosystem photo)</label>
+                  <caption>The world’s largest living structure—so vast it’s visible from space, and home to 9,000 known species.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A12</cell>
+                      <label>Great Barrier Reef</label>
+                      <url>https://fthmb.tqn.com/rNrw0h8EPIxoddpBJk-jeSQmfp0%3D/2121x1414/filters%3Afill%28auto%2C1%29/barrierreefGE-583710415f9b58d5b112a344.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Volcanic island (Oceania example)</label>
+                  <caption>A fiery necklace circling the Pacific Ocean—home to 75% of Earth’s active volcanoes.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A16</cell>
+                      <label>Vanuatu</label>
+                      <url>https://a-z-animals.com/media/2021/06/Vanuatu-header.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  <notes>Selected Vanuatu as a strong Ring-of-Fire / volcanic-arc visual from the spreadsheet.</notes>
+                  </Item>
+                <Item>
+                  <label>Tropical rainforest (Papua New Guinea)</label>
+                  <caption>These ancient forests shelter birds of paradise, tree kangaroos, and plants unchanged for millions of years.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A11</cell>
+                      <label>Papua New Guinea</label>
+                      <url>https://dewitours.de/wp-content/uploads/2019/06/laeoct07034.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                </Items>
+              <OptionalGallery>
+                <Item>
+                  <label>New Caledonia (dugong)</label>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A10</cell>
+                      <label>New Caledonia</label>
+                      <url>https://www.kaledonie.com/wp-content/uploads/2018/10/Dugong.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Hawaiian Islands (ecosystem)</label>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A13</cell>
+                      <label>Hawaiian Islands</label>
+                      <url>https://upload.wikimedia.org/wikipedia/commons/4/43/Alakai_swamp.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Fiji</label>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A14</cell>
+                      <label>Fiji</label>
+                      <url>https://images.luxuryescapes.com/lux-group/image/upload/q_auto%3Aeco%2Cc_fill%2Cg_auto%2Car_16%3A9/dzcrds5t23nhpklthyne.jpeg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Solomon Islands</label>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Ecological Significance</sheet>
+                      <cell>A15</cell>
+                      <label>Solomon Islands</label>
+                      <url>https://www.kevmrc.com/wp-content/uploads/2023/01/north-solomons-dwarf-kingfisher-is-one-of-the-animals-in-solomon-islands.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                </OptionalGallery>
+              </Component>
+            <Component slot_key="p2_left_did_you_know" type="did_you_know">
+              <Items>
+                <Item>Did you know? Oceania holds the world’s smallest nation (Nauru) and its largest reef system.</Item>
+                <Item>Some Pacific islands are sinking—not just from sea level rise, but because the land beneath is cooling and collapsing.</Item>
+                <Item>The Great Barrier Reef stretches over 1,400 miles—longer than the U.S. East Coast!</Item>
+                </Items>
+              </Component>
+            <Component slot_key="p2_left_visitor_inquiry" type="visitor_inquiry">
+              <Text>Can you spot the Great Barrier Reef on this map?</Text>
+              </Component>
+            </Components>
+          </Section>
+        <Section id="p2_right_people" position="right">
+          <Title>Oceania’s People: Navigators, Stewards, and Storytellers</Title>
+          <AlternateTitles>
+            <Item>Oceania’s People: Navigators of the Pacific</Item>
+            </AlternateTitles>
+          <SubtitleTagline>Long before satellites and compasses, the people of Oceania crossed oceans by heart—reading stars, swells, and birds. Today, they blend tradition and innovation to chart new futures.</SubtitleTagline>
+          <BodyText>Long before any compass or GPS, Polynesian explorers sailed vast oceans guided by stars, birds, and the dance of waves. Their double-hulled canoes carried stories, seeds, and traditions across thousands of miles. Today, island communities blend ancient wisdom with new solutions, championing sustainability and inspiring the world.</BodyText>
+          <Components>
+            <Component slot_key="p2_right_hero_wayfinding" type="hero_image">
+              <Label>Polynesian canoe navigation / wayfinding</Label>
+              <Caption>Guided by constellations, ocean swells, and bird flight, Polynesian wayfinders journeyed thousands of miles across open sea—without modern instruments.</Caption>
+              <ArtDirection>
+                <navigation_cues_to_label>
+                  <Item>Stars (e.g., Southern Cross)</Item>
+                  <Item>Sea birds</Item>
+                  <Item>Ocean swells</Item>
+                  </navigation_cues_to_label>
+                <notes>If using an illustration instead of a photo, add subtle swell lines and star cues as in design notes.</notes>
+                </ArtDirection>
+              <AssetRefs>
+                <AssetRef source_file="Oceania Landforms.xlsx" sheet="Human Geography of" cell="A6">
+                  <Label>Wayfinding</Label>
+                  <Url>https://cdn.midjourney.com/b86ea419-4142-42b2-9da1-b75741484934/0_3.png</Url>
+                  </AssetRef>
+                </AssetRefs>
+              </Component>
+            <Component slot_key="p2_right_supporting_images" type="supporting_images">
+              <Items>
+                <Item>
+                  <label>Micronesian Stick Chart</label>
+                  <caption>A wave map for the mind—Micronesian stick charts helped navigators feel the ocean’s hidden language.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Human Geography of</sheet>
+                      <cell>A8</cell>
+                      <label>stick chart</label>
+                      <url>https://tse2.mm.bing.net/th?id=OIP.U-6gG74zzJGsYw0-PkMYmgHaFQ&amp;pid=Api</url>
+                      </Item>
+                    </asset_refs>
+                  </Item>
+                <Item>
+                  <label>Solar-powered island village</label>
+                  <caption>Across Oceania, solar panels now light homes once powered only by sun and flame—sustainability with ancient roots.</caption>
+                  <asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Human Geography of</sheet>
+                      <cell>A9</cell>
+                      <label>Solar Panels</label>
+                      <url>https://www.pvtime.org/wp-content/uploads/2021/07/1.jpg</url>
+                      </Item>
+                    </asset_refs>
+                  <alternate_asset_refs>
+                    <Item>
+                      <source_file>Oceania Landforms.xlsx</source_file>
+                      <sheet>Human Geography of</sheet>
+                      <cell>A10</cell>
+                      <label>Solar Panels</label>
+                      <url>https://c8.alamy.com/comp/EBNE4N/solar-panels-rupunau-wapishana-indian-village-south-rupununi-guyana-EBNE4N.jpg</url>
+                      </Item>
+                    </alternate_asset_refs>
+                  <notes>A10 URL indicates Guyana (South Rupununi) — keep as a style/subject reference only unless intentionally reused.</notes>
+                  </Item>
+                </Items>
+              </Component>
+            <Component slot_key="p2_right_topic_suggestions" type="topic_suggestions_optional">
+              <Items>
+                <Item>
+                  <topic>Disappearing Homelands / Climate Refugees</topic>
+                  <image_brief>A family on a coastal atoll with rising seas in the background</image_brief>
+                  <caption>Some islands are vanishing beneath the waves. Entire cultures may need to relocate—but they carry their stories wherever they go.</caption>
+                  </Item>
+                <Item>
+                  <topic>Canoe Building as Culture</topic>
+                  <image_brief>A master carver shaping a wooden canoe</image_brief>
+                  <caption>Every canoe is a living memory—crafted by hand, passed from generation to generation, each with its own spirit and story.</caption>
+                  </Item>
+                <Item>
+                  <topic>Language Diversity</topic>
+                  <image_brief>A group of children reading or speaking in different languages</image_brief>
+                  <caption>Oceania holds over 1,000 languages—the densest linguistic diversity on Earth. Every island, a voice.</caption>
+                  </Item>
+                </Items>
+              <AssetNeeds>
+                <Item>
+                  <topic>Disappearing Homelands / Climate Refugees</topic>
+                  <needed>Photo/illustration matching brief</needed>
+                  <brief>A family on a coastal atoll with rising seas in the background</brief>
+                  </Item>
+                <Item>
+                  <topic>Canoe Building as Culture</topic>
+                  <needed>Photo/illustration matching brief</needed>
+                  <brief>A master carver shaping a wooden canoe</brief>
+                  </Item>
+                <Item>
+                  <topic>Language Diversity</topic>
+                  <needed>Photo/illustration matching brief</needed>
+                  <brief>A group of children reading or speaking in different languages</brief>
+                  </Item>
+                </AssetNeeds>
+              </Component>
+            <Component slot_key="p2_right_did_you_know" type="did_you_know">
+              <Items>
+                <Item>Did you know? Wayfinders memorized more than 200 stars, using them like a map written across the sky.</Item>
+                <Item>Some Pacific navigators could detect islands just by how waves bounced back from invisible shores.</Item>
+                <Item>More than 10 million people live on islands that may be affected by rising seas within our lifetime.</Item>
+                </Items>
+              <AlternateOrBonusItem>Did you know? Expert wayfinders memorized over 200 stars and used wind and waves to find hidden islands!</AlternateOrBonusItem>
+              </Component>
+            <Component slot_key="p2_right_visitor_inquiry" type="visitor_inquiry">
+              <Text>Look up tonight. Can you find a guiding star of your own?</Text>
+              </Component>
+            </Components>
+          </Section>
+        </Sections>
+      </Poster>
+    </Posters>
+  </PosterSet>
+]]></payload_xml>
+</normalized_poster>

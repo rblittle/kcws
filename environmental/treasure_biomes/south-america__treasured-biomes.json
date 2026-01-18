@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "environmental/treasure biomes/south-america__treasured-biomes.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "environmental__treasure_biomes__south_america__south_america_treasured_biomes",
+    "derived_id": "environmental__treasure_biomes__south_america__south_america_treasured_biomes",
+    "continent": "south_america",
+    "domain": "environmental",
+    "poster_family": "treasure_biomes",
+    "filename": "south-america__treasured-biomes.json"
+  },
+  "tags": {
+    "continent": [
+      "south_america"
+    ],
+    "domain": [
+      "environmental"
+    ],
+    "poster_family": [
+      "treasure_biomes"
+    ],
+    "flat": [
+      "continent:south_america",
+      "domain:environmental",
+      "poster_family:treasure_biomes"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "environmental/treasure biomes/south-america__treasured-biomes.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "posterType": "treasured_biomes",
+    "continent": "South America",
+    "posterTitle": "South America: Sky Tablelands to the End of the World",
+    "biomes": [
+      {
+        "name": "Tepui Table Mountains",
+        "description": "Tepuis are flat-topped mountains rising above the rainforest. Their sheer cliffs isolate summit worlds with unique plants and animals, and some launch towering waterfalls into the jungle below.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Kukenan_Tepuy_at_Sunset.jpg"
+      },
+      {
+        "name": "Cerrado Savanna",
+        "description": "The Cerrado is Brazil’s great tropical savanna, shaped by drought and fire. Grasslands and twisted trees support wildlife like maned wolves, giant anteaters, and thousands of plant species.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Panorama_Cerrado_Wiki.jpg"
+      },
+      {
+        "name": "Valdivian Rainforest",
+        "description": "Chile’s Valdivian rainforest is cool, wet, and mossy. Ancient trees, ferns, and bamboo thickets create a dense green world with many species found only in southern South America.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Chilo%C3%A9_National_Park_banner_Valdivian_temperate_rainforest.jpg"
+      },
+      {
+        "name": "Altiplano",
+        "description": "The Altiplano is a high Andean plateau with thin air and big skies. Salt flats, volcanoes, and cold lakes create a harsh beauty where llamas and flamingos still find a way to live.",
+        "imageUrl": "https://www.pexels.com/photo/white-salt-desert-2101137/"
+      },
+      {
+        "name": "Yungas Cloud Forest",
+        "description": "The Yungas are cloud forests on the eastern Andes. Warm air rises, cools, and turns to mist, feeding lush trees, orchids, and wildlife in a steep zone between mountains and lowland jungle.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:100_1804.JPG"
+      },
+      {
+        "name": "Caatinga Dry Forest",
+        "description": "The Caatinga is a seasonally dry forest in northeastern Brazil. Thorny shrubs, cacti, and tough trees survive long droughts, then burst into bloom when rains finally return.",
+        "imageUrl": "https://commons.wikimedia.org/wiki/File:Paisagem_da_caatinga_no_Vale_do_Catimbau.jpg"
+      },
+      {
+        "name": "Tierra del Fuego",
+        "description": "Tierra del Fuego is a windswept land at South America’s tip. Cold forests, peat bogs, and rough coasts meet snow-dusted mountains, where storms and sea shape the landscape.",
+        "imageUrl": "https://www.pexels.com/photo/sea-with-snow-covered-mountains-in-background-33235/"
+      }
+    ]
+  }
+}

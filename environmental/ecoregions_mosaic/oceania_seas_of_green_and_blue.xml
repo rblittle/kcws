@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/ecoregions/oceania_seas_of_green_and_blue.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__ecoregions_mosaic__oceania__oceania_seas_of_green_and_blue</poster_id>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>ecoregions_mosaic</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<ecoregion_poster continent="Oceania" poster_title="Seas of Green &amp; Blue">
+  <ecoregion entry_number="1">
+    <ecoregion_name>New Guinea Rainforest (PNG)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/aerial-photo-coast-new-guinea-jungles-1451374514</image_url>
+    <description>New Guinea’s rainforests are thick and steamy; birds-of-paradise, orchids, and winding rivers fill the canopy.</description>
+  </ecoregion>
+  <ecoregion entry_number="2">
+    <ecoregion_name>Australian Outback (Red Centre)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/ormiston-pound-northern-territory-1008730777</image_url>
+    <description>Australia’s Red Centre glows with sandstone and spinifex; heat, stars, and silence rule the outback nights.</description>
+  </ecoregion>
+  <ecoregion entry_number="3">
+    <ecoregion_name>Great Barrier Reef (Coral Sea)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/vibrant-coral-reef-hundreds-glass-fish-1172493256</image_url>
+    <description>The Great Barrier Reef is a living city of coral, where turtles, fish, and clear water dazzle.</description>
+  </ecoregion>
+  <ecoregion entry_number="4">
+    <ecoregion_name>Western Australia Outback (Ningaloo Coast)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panorama-view-sunrise-over-charles-knife-1303298086</image_url>
+    <description>At Ningaloo, desert meets turquoise sea; coral reefs, whale sharks, and red cliffs line the coast.</description>
+  </ecoregion>
+  <ecoregion entry_number="5">
+    <ecoregion_name>Flinders Ranges (South Australia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/gravel-countryside-road-leading-rugged-peaks-1146641006</image_url>
+    <description>The Flinders Ranges lift ancient rock ridges from the plain, painted red at sunrise and sunset.</description>
+  </ecoregion>
+  <ecoregion entry_number="6">
+    <ecoregion_name>Blue Mountains &amp; Hinterland (Australia)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/panoramic-sunrise-three-sisters-lookout-over-1708597936</image_url>
+    <description>Eucalyptus forests cloak the Blue Mountains; misty gorges, waterfalls, and sandstone cliffs create deep, cool shade.</description>
+  </ecoregion>
+  <ecoregion entry_number="7">
+    <ecoregion_name>New Zealand North Island (Bay of Islands)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/summer-landscape-blue-sky-on-pacific-313318763</image_url>
+    <description>The Bay of Islands blends green hills and bright coves, where Māori history meets sailing-friendly seas.</description>
+  </ecoregion>
+  <ecoregion entry_number="8">
+    <ecoregion_name>New Zealand Southern Alps (Mount Cook)</ecoregion_name>
+    <image_url>https://www.shutterstock.com/image-photo/beautiful-view-glacier-mount-cook-national-123697450</image_url>
+    <description>Mount Cook rises above glaciers and braided rivers; sharp peaks, alpine winds, and clear nights feel endless.</description>
+  </ecoregion>
+</ecoregion_poster>
+]]></payload_xml>
+</normalized_poster>

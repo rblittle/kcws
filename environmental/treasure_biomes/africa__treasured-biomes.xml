@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/treasure biomes/africa__treasured-biomes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__treasure_biomes__africa__africa_treasured_biomes</poster_id>
+    <continent>africa</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </poster>
+  <tags>
+    <continent>africa</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<treasuredBiomesPoster continent="Africa">
+  <title>Africa: Where Earth Blooms, Burns, and Breathes</title>
+  <biomes>
+    <biome>
+      <name>Cape Floristic Region</name>
+      <image url="https://www.shutterstock.com/image-photo/wild-fynbos-on-highly-biodiverse-species-1491760589" />
+      <description>At Africa’s southern tip, the Cape Floristic Region bursts with fynbos plants like proteas and heaths. Ocean winds and regular fires help this tiny area hold an incredible number of unique species.</description>
+    </biome>
+    <biome>
+      <name>Madagascar Spiny Forests</name>
+      <image url="https://www.shutterstock.com/image-photo/spiny-forest-berenty-madagascar-1041836614" />
+      <description>Madagascar’s spiny forests are dry, thorny thickets filled with succulents and baobabs. Many plants and animals here live nowhere else, shaped by long droughts and harsh sun.</description>
+    </biome>
+    <biome>
+      <name>Ethiopian Highlands</name>
+      <image url="https://www.shutterstock.com/image-photo/ethiopia-simien-mountains-national-park-sunrise-639257737" />
+      <description>Ethiopia’s highlands rise into cool grasslands and cliffs. Gelada monkeys graze like sheep, and rare Ethiopian wolves hunt on open slopes among giant lobelias and rocky peaks.</description>
+    </biome>
+    <biome>
+      <name>Danakil Depression</name>
+      <image url="https://www.shutterstock.com/image-photo/colorful-landscape-dallol-lake-crater-volcano-719938285" />
+      <description>The Danakil Depression is one of Earth’s hottest places. It glows with sulfur colors, salt flats, and steaming vents—an extreme landscape built by volcanoes and minerals.</description>
+    </biome>
+    <biome>
+      <name>Sudd Wetlands</name>
+      <image url="https://eol.jsc.nasa.gov/DatabaseImages/EFS/highres/STS51G/STS51G-46-1.JPG" />
+      <description>South Sudan’s Sudd is a vast Nile swamp that swells with seasonal floods. Papyrus reeds, floating plants, and winding channels create a wetland maze packed with birds and fish.</description>
+    </biome>
+    <biome>
+      <name>Lake Tanganyika</name>
+      <image url="https://www.shutterstock.com/image-photo/sunrise-over-lake-tanganyika-silhouettes-several-1386000284" />
+      <description>Lake Tanganyika is one of the world’s oldest and deepest lakes. Its clear waters hold hundreds of unique fish species, while steep shores and distant mountains frame the long, narrow lake.</description>
+    </biome>
+    <biome>
+      <name>Virunga Mountains</name>
+      <image url="https://www.shutterstock.com/image-photo/nyiragongo-mountain-virunga-national-park-democratic-1295228845" />
+      <description>The Virunga Mountains are misty volcanoes draped in rainforest. Their slopes shelter mountain gorillas, and nearby craters and lava fields show how fire and life share the same ground.</description>
+    </biome>
+  </biomes>
+</treasuredBiomesPoster>]]></payload_xml>
+</normalized_poster>

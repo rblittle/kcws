@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/africa.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__africa__africa</poster_id>
+    <continent>africa</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>africa</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="Africa">
+  <posterTitle>Africa : From Sahara Blaze to Snow-Capped Kilimanjaro</posterTitle>
+  <legend>
+    <title>Africa’s Nature Extremes</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>Africa vs. USA — Giant Revealed</header>
+    <prompt>“Slide Africa over the U.S. and watch familiar borders disappear: just how much room does one billion people really fill?”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_africa.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Africa: A Continent of Fire and Frost</title>
+      <text>Africa is often called a land of heat, but did you know it holds records for both some of the hottest and coldest places on Earth? From the blistering sands of Tunisia’s desert to snowy mornings in Morocco’s mountains, Africa’s weather shows that extremes can exist side-by-side.</text>
+      <images>
+        <image slot="1">
+          <caption>Kebili: 131 °F record-high</caption>
+          <primaryUrl>https://www.shutterstock.com/image-photo/douz-tn-march-18-2017-desert-1423275821</primaryUrl>
+          <stockSearch recommendedQuery="Kebili 131 F record-high">
+            <shutterstock>https://www.shutterstock.com/search/Kebili%20131%20F%20record-high</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Kebili%2B131%2BF%2Brecord-high</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Ifrane: snow at 6,000 ft</caption>
+          <primaryUrl>https://www.shutterstock.com/image-photo/michlifen-forest-surrounded-by-trees-winter-1615146073</primaryUrl>
+          <stockSearch recommendedQuery="Ifrane snow at 6 000 ft">
+            <shutterstock>https://www.shutterstock.com/search/Ifrane%20snow%20at%206%20000%20ft</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Ifrane%2Bsnow%2Bat%2B6%2B000%2Bft</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="false">
+      <title>The Invisible Rivers of the Sky: Africa’s Winds and Dust</title>
+      <text>Not all rivers are made of water. High above the Sahara, powerful winds carry rivers of dust across the ocean, feeding distant forests and changing weather across the globe. Africa’s air is alive with journeys we can’t always see.</text>
+      <omitReason>Story removed from poster (per project notes).</omitReason>
+      <images/>
+    </story>
+    <story rank="3" active="true">
+      <title>Where The Sky Becomes a Waterfall: Africa’s Hidden Rainmakers</title>
+      <text>In some African regions, the sky doesn’t just rain — it roars. From Mount Cameroon’s record-breaking downpours to the thunderous storms of the Congo Basin, these places hold nature’s keys to life, creating vast rivers and rainforests.</text>
+      <images>
+        <image slot="1">
+          <caption>Mount Cameroon in the distance</caption>
+          <primaryUrl>https://www.shutterstock.com/image-photo/mount-cameroon-distance-during-evening-light-549323596</primaryUrl>
+          <stockSearch recommendedQuery="Mount Cameroon in the distance">
+            <shutterstock>https://www.shutterstock.com/search/Mount%20Cameroon%20in%20the%20distance</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mount%2BCameroon%2Bin%2Bthe%2Bdistance</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Massive deluge on Mount Cameroon</caption>
+          <primaryUrl>https://www.insect-communities.cz/wp-content/uploads/2018/08/Rain_Mount_Cameroon.jpg</primaryUrl>
+          <stockSearch recommendedQuery="Massive deluge on Mount Cameroon">
+            <shutterstock>https://www.shutterstock.com/search/Massive%20deluge%20on%20Mount%20Cameroon</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Massive%2Bdeluge%2Bon%2BMount%2BCameroon</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>The Endless Summer: Where the Sun Never Sleeps</title>
+      <text>In places like Dallol, Ethiopia, summer never truly ends. With over 330 days of sunshine a year, these extreme zones push life to the limits — and still, life finds a way.</text>
+      <images>
+        <image slot="1">
+          <primaryUrl>https://www.shutterstock.com/image-photo/view-dallol-volcano-danakil-desert-ethiopia-1988100227</primaryUrl>
+          <stockSearch recommendedQuery="The Endless Summer Where the Sun Never Sleeps">
+            <shutterstock>https://www.shutterstock.com/search/The%20Endless%20Summer%20Where%20the%20Sun%20Never%20Sleeps</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=The%2BEndless%2BSummer%2BWhere%2Bthe%2BSun%2BNever%2BSleeps</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>When the Sky Runs Dry: Life on the Edge of the Desert</title>
+      <text>Where rain arrives as a once-in-a-blue-moon gift, like the Nile's sun-drenched riverbank, people have learned to flourish on scarcely a drop. Ingenious water wheels, river-fed gardens, and clay cisterns turn drought into daily resilience, proving that hope can bloom even in the driest heat.</text>
+      <images>
+        <image slot="1">
+          <primaryUrl>https://www.shutterstock.com/image-photo/aerial-panoramic-view-nile-river-feluccas-2440595535</primaryUrl>
+          <stockSearch recommendedQuery="When the Sky Runs Dry Life on the Edge of the Desert">
+            <shutterstock>https://www.shutterstock.com/search/When%20the%20Sky%20Runs%20Dry%20Life%20on%20the%20Edge%20of%20the%20Desert</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=When%2Bthe%2BSky%2BRuns%2BDry%2BLife%2Bon%2Bthe%2BEdge%2Bof%2Bthe%2BDesert</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+    <notes>
+      <note>Africa featured-story photo URLs are taken directly from the workbook where provided; stock search links are generated from captions/phrases for completeness.</note>
+    </notes>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

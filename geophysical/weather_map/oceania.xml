@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/oceania.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__oceania__oceania</poster_id>
+    <continent>oceania</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="Oceania">
+  <posterTitle>Oceania : Island Giants in a Boundless Blue</posterTitle>
+  <legend>
+    <title>Oceania’s Elemental Extremes</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>Oceania vs. USA — Islands Outsize Expectations</header>
+    <prompt>“Dot the U.S. on top of the Pacific and discover how scattered islands add up to a continent in their own right.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_oceania.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Oceania: Island Giants in a Boundless Blue</title>
+      <text>From Australia’s red heart to Papua’s cloud-piercing peaks, Oceania is a continent of island mountains adrift in an ocean twice the size of the Atlantic.</text>
+      <images>
+        <image slot="1">
+          <caption>Carstensz Pyramid’s equatorial ice cap</caption>
+          <stockSearch recommendedQuery="Carstensz Pyramid Puncak Jaya glacier aerial">
+            <shutterstock>https://www.shutterstock.com/search/Carstensz%20Pyramid%20Puncak%20Jaya%20glacier%20aerial</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Carstensz+Pyramid+Puncak+Jaya+glacier+aerial</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Reef shallows fading into cobalt deep</caption>
+          <stockSearch recommendedQuery="Great Barrier Reef lagoon aerial turquoise cobalt">
+            <shutterstock>https://www.shutterstock.com/search/Great%20Barrier%20Reef%20lagoon%20aerial%20turquoise%20cobalt</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Great+Barrier+Reef+lagoon+aerial+turquoise+cobalt</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Monolith glowing under desert storm</caption>
+          <stockSearch recommendedQuery="Uluru storm sunset lightning">
+            <shutterstock>https://www.shutterstock.com/search/Uluru%20storm%20sunset%20lightning</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Uluru+storm+sunset+lightning</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>Sand &amp; Silence: Australia’s Great Deserts</title>
+      <text>Two-thirds of Australia is desert or semi-arid—landscapes of rolling dunes, salt pans, and elusive water.</text>
+      <images>
+        <image slot="1">
+          <caption>Wind-sculpted dunes under soft dawn light</caption>
+          <stockSearch recommendedQuery="Simpson Desert dunes sunrise">
+            <shutterstock>https://www.shutterstock.com/search/Simpson%20Desert%20dunes%20sunrise</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Simpson+Desert+dunes+sunrise</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Lowest point in Oceania shimmering white</caption>
+          <stockSearch recommendedQuery="Lake Eyre salt lake aerial white">
+            <shutterstock>https://www.shutterstock.com/search/Lake%20Eyre%20salt%20lake%20aerial%20white</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Lake+Eyre+salt+lake+aerial+white</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Adaptation in a water-starved world</caption>
+          <stockSearch recommendedQuery="thorny devil lizard close up Australia desert">
+            <shutterstock>https://www.shutterstock.com/search/thorny%20devil%20lizard%20close%20up%20Australia%20desert</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=thorny+devil+lizard+close+up+Australia+desert</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>Fire Mountains of the Pacific Ring</title>
+      <text>Active volcanoes stitch a fiery necklace from PNG to NZ, fertilising soils—and testing courage.</text>
+      <images>
+        <image slot="1">
+          <caption>Krakatau’s incandescent plume</caption>
+          <stockSearch recommendedQuery="Anak Krakatau eruption night lava">
+            <shutterstock>https://www.shutterstock.com/search/Anak%20Krakatau%20eruption%20night%20lava</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Anak+Krakatau+eruption+night+lava</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Snow-tipped stratovolcano mirrored in lake</caption>
+          <stockSearch recommendedQuery="Mount Taranaki Pouakai tarn reflection">
+            <shutterstock>https://www.shutterstock.com/search/Mount%20Taranaki%20Pouakai%20tarn%20reflection</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mount+Taranaki+Pouakai+tarn+reflection</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Rich crops on fresh ash slopes</caption>
+          <stockSearch recommendedQuery="Papua New Guinea volcanic soil garden">
+            <shutterstock>https://www.shutterstock.com/search/Papua%20New%20Guinea%20volcanic%20soil%20garden</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Papua+New+Guinea+volcanic+soil+garden</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Cyclone Corridor: Storms of the Coral Sea</title>
+      <text>Tropical cyclones roar across the Coral &amp; Tasman Seas, reshaping coasts and communities.</text>
+      <images>
+        <image slot="1">
+          <caption>Eye wall of a Category 5 storm from orbit</caption>
+          <stockSearch recommendedQuery="satellite cyclone Coral Sea eye">
+            <shutterstock>https://www.shutterstock.com/search/satellite%20cyclone%20Coral%20Sea%20eye</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=satellite+cyclone+Coral+Sea+eye</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Wall of water racing inland</caption>
+          <stockSearch recommendedQuery="Queensland storm surge waves seawall flooding">
+            <shutterstock>https://www.shutterstock.com/search/Queensland%20storm%20surge%20waves%20seawall%20flooding</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Queensland+storm+surge+waves+seawall+flooding</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Community resilience in the tropics</caption>
+          <stockSearch recommendedQuery="cyclone recovery rebuilding Queensland community">
+            <shutterstock>https://www.shutterstock.com/search/cyclone%20recovery%20rebuilding%20Queensland%20community</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=cyclone+recovery+rebuilding+Queensland+community</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>The Long Dry: Drought &amp; Flood on the Murray-Darling</title>
+      <text>Australia swings between baked riverbeds and sudden inland seas.</text>
+      <images>
+        <image slot="1">
+          <caption>Parched clay polygons under 45 °C heat</caption>
+          <stockSearch recommendedQuery="drought cracked clay polygons Australia">
+            <shutterstock>https://www.shutterstock.com/search/drought%20cracked%20clay%20polygons%20Australia</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=drought+cracked+clay+polygons+Australia</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Brown floodwater blanketing farms</caption>
+          <stockSearch recommendedQuery="Murray Darling flood aerial brown water">
+            <shutterstock>https://www.shutterstock.com/search/Murray%20Darling%20flood%20aerial%20brown%20water</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Murray+Darling+flood+aerial+brown+water</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Life explodes when water finally returns</caption>
+          <stockSearch recommendedQuery="pelicans Lake Eyre flooded breeding">
+            <shutterstock>https://www.shutterstock.com/search/pelicans%20Lake%20Eyre%20flooded%20breeding</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=pelicans+Lake+Eyre+flooded+breeding</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Paradise &amp; Peril: Coral Reefs under Pressure</title>
+      <text>Oceania guards the planet’s largest reef—but warming seas test its brilliance.</text>
+      <images>
+        <image slot="1">
+          <caption>Whitening corals after heat stress</caption>
+          <stockSearch recommendedQuery="bleached coral Great Barrier Reef close up">
+            <shutterstock>https://www.shutterstock.com/search/bleached%20coral%20Great%20Barrier%20Reef%20close%20up</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=bleached+coral+Great+Barrier+Reef+close+up</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Patches of vibrant recovery</caption>
+          <stockSearch recommendedQuery="healthy coral reef recovery Great Barrier Reef">
+            <shutterstock>https://www.shutterstock.com/search/healthy%20coral%20reef%20recovery%20Great%20Barrier%20Reef</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=healthy+coral+reef+recovery+Great+Barrier+Reef</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Traditional custodians protecting sea country</caption>
+          <stockSearch recommendedQuery="Indigenous sea rangers Great Barrier Reef patrol boat">
+            <shutterstock>https://www.shutterstock.com/search/Indigenous%20sea%20rangers%20Great%20Barrier%20Reef%20patrol%20boat</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Indigenous+sea+rangers+Great+Barrier+Reef+patrol+boat</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Peaks of Papua: Cloud Forests &amp; Hidden Glaciers</title>
+      <text>Nowhere else in the tropics rises so high so fast as Papua New Guinea’s spine.</text>
+      <images>
+        <image slot="1">
+          <caption>First light on PNG’s tallest summit</caption>
+          <stockSearch recommendedQuery="Mount Wilhelm sunrise sea of clouds">
+            <shutterstock>https://www.shutterstock.com/search/Mount%20Wilhelm%20sunrise%20sea%20of%20clouds</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mount+Wilhelm+sunrise+sea+of+clouds</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Rich biodiversity below the peaks</caption>
+          <stockSearch recommendedQuery="Papua New Guinea cloud forest orchid moss">
+            <shutterstock>https://www.shutterstock.com/search/Papua%20New%20Guinea%20cloud%20forest%20orchid%20moss</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Papua+New+Guinea+cloud+forest+orchid+moss</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Vanishing ice of Puncak Jaya</caption>
+          <stockSearch recommendedQuery="Puncak Jaya glacier retreat satellite">
+            <shutterstock>https://www.shutterstock.com/search/Puncak%20Jaya%20glacier%20retreat%20satellite</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Puncak+Jaya+glacier+retreat+satellite</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Roaring Forties: Wind &amp; Wave of the Southern Ocean</title>
+      <text>The planet’s strongest westerlies lash Tasmania and NZ’s South Island.</text>
+      <images>
+        <image slot="1">
+          <caption>Southern Ocean swell dwarfing lighthouse</caption>
+          <stockSearch recommendedQuery="Cape Grim lighthouse big waves Tasmania">
+            <shutterstock>https://www.shutterstock.com/search/Cape%20Grim%20lighthouse%20big%20waves%20Tasmania</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Cape+Grim+lighthouse+big+waves+Tasmania</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

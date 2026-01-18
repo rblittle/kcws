@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/animal collage/oceania__animal-collage.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__animal_collage__oceania__oceania_animal_collage</poster_id>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </poster>
+  <tags>
+    <continent>oceania</continent>
+    <domain>environmental</domain>
+    <poster_family>animal_collage</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<animalCollagePoster continent="Oceania">
+  <title>Curious Creatures of Down Under</title>
+  <animals>
+    <animal>
+      <name>Koala</name>
+      <image url="https://www.shutterstock.com/image-photo/cute-koala-on-tree-branch-australia-2476994941" />
+      <description>Koalas cling to the rough bark high in a eucalyptus tree while munching on oily leaves that other animals avoid. They sleep most of the day to save energy in the dry Australian heat.</description>
+    </animal>
+    <animal>
+      <name>Platypus</name>
+      <image url="https://www.shutterstock.com/image-photo/platypus-ornithorhynchus-anatinus-duckbilled-semiaquatic-egglaying-2326651595" />
+      <description>At dawn, platypuses paddle along quiet creeks, their rubbery bills sweeping through the murky water. They use electro-sensors in their bills to detect hidden shrimp and insects before retreating into a snug riverside burrow.</description>
+    </animal>
+    <animal>
+      <name>Emu</name>
+      <image url="https://www.shutterstock.com/image-photo/mother-emu-stands-guard-over-striped-2448514139" />
+      <description>Emus stride through scrubby grasslands, their shaggy feathers rattling like dry straw. Their powerful legs can propel them into sudden sprints that outpace a car, and they can deliver bone-jarring kicks with ease.</description>
+    </animal>
+    <animal>
+      <name>Great White Shark</name>
+      <image url="https://www.shutterstock.com/image-photo/great-white-shark-close-2473380287" />
+      <description>Beneath the rolling surf, great white sharks glide silently. Their snouts can detect the faintest trace of blood in the water. With an explosive burst from below, they snatch unaware seals near the surface.</description>
+    </animal>
+    <animal>
+      <name>Tasmanian Devil</name>
+      <image url="https://www.shutterstock.com/image-photo/extraordinary-wide-jaws-tasmanian-devil-open-2507485055" />
+      <description>Under a moonlit forest canopy, Tasmanian devils sniff out the scent of carrion. Their bone-crunching jaws emit low growls as they scuttle through the underbrush. By devouring leftovers that other animals leave behind, these feisty marsupials help keep the bush clean.</description>
+    </animal>
+    <animal>
+      <name>Wombat</name>
+      <image url="https://www.shutterstock.com/image-photo/wombat-burrowing-marsupial-native-australia-known-2497026223" />
+      <description>Wombats are stout, burrowing marsupials that amble through eucalyptus woodlands. Their rodent-like teeth chisel through roots and tough vegetation, and their strong claws carve out deep burrows. In these underground dens, wombats can shelter from bushfires, midday heat, and nighttime predators.</description>
+    </animal>
+    <animal>
+      <name>Echidna</name>
+      <image url="https://www.shutterstock.com/image-photo/wild-shortbeaked-echidna-walking-across-national-2363114467" />
+      <description>Spiny echidnas waddle across the burnt red soil, flicking their sticky tongues into anthills. Their bodies are covered in hair-like spines that bristle if a curious dingo comes too close.</description>
+    </animal>
+    <animal>
+      <name>Dingo</name>
+      <image url="https://www.shutterstock.com/image-photo/australian-wild-dingo-orange-fur-canis-2293013459" />
+      <description>Golden dingoes trot along red outback tracks with ears pricked for any rustle. These cooperative pack hunters let out haunting howls at night that echo across the desert under the southern stars.</description>
+    </animal>
+    <animal>
+      <name>Kookaburra</name>
+      <image url="https://www.shutterstock.com/image-photo/single-laughing-kookaburra-sitting-on-branch-2270941821" />
+      <description>Kookaburras perch on a branch and unleash a booming laughter-like call that echoes through the bush. Their stout beaks clamp down on wriggling skinks and other prey. Family groups share meals and teach their chicks about the forest territories each dawn.</description>
+    </animal>
+    <animal>
+      <name>Cassowary</name>
+      <image url="https://www.shutterstock.com/image-photo/southern-cassowary-casuarius-doublewattled-australian-twowattled-2325954689" />
+      <description>In the dense rainforest, cassowaries stride warily, their helmeted heads parting the foliage. A vivid sapphire-blue neck flashes among the green. Their dagger-like toe claws can deliver powerful kicks in self-defense. By eating fruits and spreading the seeds, cassowaries help disperse the rainforest’s treasured plants.</description>
+    </animal>
+    <animal>
+      <name>Wallaby</name>
+      <image url="https://www.shutterstock.com/image-photo/swamp-wallaby-wallabia-bicolor-small-macropod-2208432479" />
+      <description>Wallabies nibble grass at dusk, like smaller cousins of the kangaroo. Their strong tails help propel them in short hops between patches of shadow. Ever alert, they stay near cover to avoid the keen eyes of owls and the jaws of foxes.</description>
+    </animal>
+    <animal>
+      <name>Saltwater Crocodile</name>
+      <image url="https://www.shutterstock.com/image-photo/saltwater-crocodile-crocodylus-porosus-river-on-2344089613" />
+      <description>In tropical mangrove swamps, saltwater crocodiles float motionless with only their armored eyelids visible above the water. They will wait patiently for hours before exploding into action. When these massive reptiles finally strike, their jaws can shatter a turtle’s shell with ease.</description>
+    </animal>
+    <animal>
+      <name>Frilled Lizard</name>
+      <image url="https://www.shutterstock.com/image-photo/frillnecked-lizard-known-frilled-1740300575" />
+      <description>In the sunlit desert, frilled lizards can suddenly unfurl a wide, colorful neck frill while hissing and rearing up. This startling display can make a predator pause just long enough for the lizard to sprint to the nearest spinifex clump and escape.</description>
+    </animal>
+    <animal>
+      <name>Fairy Penguin</name>
+      <image url="https://www.shutterstock.com/image-photo/fairy-penguin-eudyptula-minor-smallest-species-1535646695" />
+      <description>On a rocky beach, tiny fairy penguins waddle in from the surging waves, their slate-blue feathers glistening. They pump their flipper-like wings for balance as they hurry toward the safety of their sandy burrows for the night.</description>
+    </animal>
+  </animals>
+</animalCollagePoster>]]></payload_xml>
+</normalized_poster>

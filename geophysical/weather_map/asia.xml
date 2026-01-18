@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/asia.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__asia__asia</poster_id>
+    <continent>asia</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>asia</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="Asia">
+  <posterTitle>Asia : Roof of the World &amp; Monsoon Might</posterTitle>
+  <legend>
+    <title>Asia’s Weather Wonders</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>Asia vs. USA — Room for Three Americas</header>
+    <prompt>“From Istanbul to Tokyo could fit three United States—trace the span and imagine the cultures packed inside.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_asia.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Asia: Roof and Furnace of the World</title>
+      <text>From the icy summit of Everest to the scorched deserts of Central Asia, Asia holds Earth’s highest heights and fiercest heat.</text>
+      <images>
+        <image slot="1">
+          <caption>Sunrise on Everest’s 8 848 m summit</caption>
+          <stockSearch recommendedQuery="Mount Everest sunrise Kala Patthar">
+            <shutterstock>https://www.shutterstock.com/search/Mount%20Everest%20sunrise%20Kala%20Patthar</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mount+Everest+sunrise+Kala+Patthar</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Camel train crossing the Gobi’s searing dunes</caption>
+          <stockSearch recommendedQuery="camel caravan Gobi Desert dunes">
+            <shutterstock>https://www.shutterstock.com/search/camel%20caravan%20Gobi%20Desert%20dunes</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=camel+caravan+Gobi+Desert+dunes</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>Rivers of Life: Monsoons, Floods, and Fertile Lands</title>
+      <text>Monsoon rains breathe life into Asia’s valleys—nourishing civilizations yet unleashing mighty floods.</text>
+      <images>
+        <image slot="1">
+          <caption>Terraced paddies glowing green after a downpour</caption>
+          <stockSearch recommendedQuery="rice terraces after rain monsoon Southeast Asia">
+            <shutterstock>https://www.shutterstock.com/search/rice%20terraces%20after%20rain%20monsoon%20Southeast%20Asia</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=rice+terraces+after+rain+monsoon+Southeast+Asia</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Brahmaputra floodplain bursting its banks</caption>
+          <stockSearch recommendedQuery="Brahmaputra floodplain Assam India flood">
+            <shutterstock>https://www.shutterstock.com/search/Brahmaputra%20floodplain%20Assam%20India%20flood</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Brahmaputra+floodplain+Assam+India+flood</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>The Shifting Earth: Asia’s Earthquakes, Volcanoes, and Rising Mountains</title>
+      <text>Asia’s mountains and volcanoes reveal a restless planet still shaping itself.</text>
+      <images>
+        <image slot="1">
+          <caption>Mt Fuji venting wisps above Tokyo plain</caption>
+          <stockSearch recommendedQuery="Mount Fuji Tokyo skyline clouds">
+            <shutterstock>https://www.shutterstock.com/search/Mount%20Fuji%20Tokyo%20skyline%20clouds</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mount+Fuji+Tokyo+skyline+clouds</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Night-glow eruption along Indonesia’s Ring of Fire</caption>
+          <stockSearch recommendedQuery="Indonesia volcano eruption night lava glow">
+            <shutterstock>https://www.shutterstock.com/search/Indonesia%20volcano%20eruption%20night%20lava%20glow</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Indonesia+volcano+eruption+night+lava+glow</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Frozen Fires: Oymyakon and the Great Asian Cold</title>
+      <text>In Siberia’s “Pole of Cold,” life endures at –60 °C beneath dancing aurora.</text>
+      <images>
+        <image slot="1">
+          <caption>Reindeer herders near Oymyakon</caption>
+          <stockSearch recommendedQuery="Oymyakon reindeer herder Yakutia">
+            <shutterstock>https://www.shutterstock.com/search/Oymyakon%20reindeer%20herder%20Yakutia</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Oymyakon+reindeer+herder+Yakutia</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Wood-post thermometer at –60 °C, Yakutia</caption>
+          <stockSearch recommendedQuery="Oymyakon thermometer minus 60 Yakutia">
+            <shutterstock>https://www.shutterstock.com/search/Oymyakon%20thermometer%20minus%2060%20Yakutia</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Oymyakon+thermometer+minus+60+Yakutia</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>The Monsoon Makers: How Asia Breathes</title>
+      <text>Seasonal winds drive Asia’s monsoon—bringing life-giving rains and devastating floods.</text>
+      <images>
+        <image slot="1">
+          <caption>Monsoon wall of cloud over Mumbai harbor</caption>
+          <stockSearch recommendedQuery="Mumbai monsoon clouds Bandra Worli Sea Link">
+            <shutterstock>https://www.shutterstock.com/search/Mumbai%20monsoon%20clouds%20Bandra%20Worli%20Sea%20Link</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mumbai+monsoon+clouds+Bandra+Worli+Sea+Link</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Kids celebrating first rain of the season</caption>
+          <stockSearch recommendedQuery="children playing in rain monsoon India">
+            <shutterstock>https://www.shutterstock.com/search/children%20playing%20in%20rain%20monsoon%20India</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=children+playing+in+rain+monsoon+India</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Asia’s Ocean of Sand: Deserts of Central Asia</title>
+      <text>From the Gobi to the Thar, vast sand seas test life’s limits yet nurture trade routes.</text>
+      <images>
+        <image slot="1">
+          <caption>Wind-sculpted dunes near Dunhuang</caption>
+          <stockSearch recommendedQuery="Dunhuang Mingsha Shan wind sculpted dunes">
+            <shutterstock>https://www.shutterstock.com/search/Dunhuang%20Mingsha%20Shan%20wind%20sculpted%20dunes</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Dunhuang+Mingsha+Shan+wind+sculpted+dunes</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Silk-Road watchtower guarding a desert oasis</caption>
+          <stockSearch recommendedQuery="Jiayuguan watchtower Great Wall Gobi desert">
+            <shutterstock>https://www.shutterstock.com/search/Jiayuguan%20watchtower%20Great%20Wall%20Gobi%20desert</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Jiayuguan+watchtower+Great+Wall+Gobi+desert</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Storm Giants: Typhoons and Cyclones</title>
+      <text>Earth’s fiercest storms reshape Asia’s coasts and cultures alike.</text>
+      <images>
+        <image slot="1">
+          <caption>Typhoon eye wall from space</caption>
+          <stockSearch recommendedQuery="typhoon eye satellite view">
+            <shutterstock>https://www.shutterstock.com/search/typhoon%20eye%20satellite%20view</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=typhoon+eye+satellite+view</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Sea-wall breach in Fujian after landfall</caption>
+          <stockSearch recommendedQuery="Fujian typhoon waves seawall storm surge">
+            <shutterstock>https://www.shutterstock.com/search/Fujian%20typhoon%20waves%20seawall%20storm%20surge</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Fujian+typhoon+waves+seawall+storm+surge</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Earth in Motion: Volcanic Power of the Ring of Fire</title>
+      <text>Along Asia’s fiery rim, volcanoes rebuild land and enrich soils.</text>
+      <images>
+        <image slot="1">
+          <caption>Ash plume above Mayon volcano</caption>
+          <stockSearch recommendedQuery="Mayon volcano ash plume">
+            <shutterstock>https://www.shutterstock.com/search/Mayon%20volcano%20ash%20plume</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Mayon+volcano+ash+plume</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Rice terraces fed by volcanic soils</caption>
+          <stockSearch recommendedQuery="Bali rice terraces volcanic soil">
+            <shutterstock>https://www.shutterstock.com/search/Bali%20rice%20terraces%20volcanic%20soil</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Bali+rice+terraces+volcanic+soil</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>geophysical/weathermaps/south_america.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>geophysical__weather_map__south_america__south_america</poster_id>
+    <continent>south_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </poster>
+  <tags>
+    <continent>south_america</continent>
+    <domain>geophysical</domain>
+    <poster_family>weather_map</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<continentPoster continent="South America">
+  <posterTitle>South America : Amazon Rains to Atacama Drought</posterTitle>
+  <legend>
+    <title>South America’s Storm Stories</title>
+    <items>
+      <item key="Extreme Heat" display="Hottest Hotspots">
+        <rationale>Evokes curiosity without jargon</rationale>
+      </item>
+      <item key="Extreme Cold" display="Frozen Frontiers">
+        <rationale>Alliterative &amp; vivid</rationale>
+      </item>
+      <item key="High Humidity &amp; Rainfall" display="Rain-Soaked Jungles">
+        <rationale>Instantly signals tropical downpours</rationale>
+      </item>
+      <item key="Low Humidity &amp; Arid Conditions" display="Bone-Dry Deserts">
+        <rationale>Conversational; pairs with desert icon</rationale>
+      </item>
+      <item key="Elevation-Related Climate" display="Sky-High Climates">
+        <rationale>Kids grasp “sky-high = mountaintop”</rationale>
+      </item>
+      <item key="Wind Extremes" display="Howling Wind Zones">
+        <rationale>Adds sensory cue (sound)</rationale>
+      </item>
+      <item key="Volcanic &amp; Seismic Activity" display="Volcano-Quake Lands">
+        <rationale>Merges two ideas into one punchy phrase</rationale>
+      </item>
+      <item key="Flooding / Rainfall Extremes" display="Deluge Hotspot">
+        <rationale>Mirrors ecological term &amp; is memorable</rationale>
+      </item>
+      <item key="Daylight Extremes" display="Sunlight Swings">
+        <rationale>Works for polar light or long summers</rationale>
+      </item>
+      <item key="Desertification &amp; Dust Storms" display="Duststorm Alley">
+        <rationale>Visual and action-oriented</rationale>
+      </item>
+      <item key="Temperature Range Extremes" display="Wild Temperature Swings">
+        <rationale>Explains day-night whiplash clearly</rationale>
+      </item>
+    </items>
+  </legend>
+  <usVsContinent>
+    <header>South America vs. USA — A Tall Drink of Water</header>
+    <prompt>“Stack South America north to south and it stretches from Alaska to the Gulf—trace the rivers that run that entire length.”</prompt>
+    <image url="sandbox:/mnt/data/usa_vs_south_america.png" license="CC0 (generated graphic)">
+      <source>
+        <dataset>Natural Earth 'Admin 0 – Countries' (public domain)</dataset>
+        <projection>Mollweide (equal-area)</projection>
+        <usaOutline>Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)</usaOutline>
+        <notes>Graphic generated from public-domain vector data; no third-party map tiles.</notes>
+      </source>
+    </image>
+  </usVsContinent>
+  <featuredStories>
+    <story rank="1" active="true">
+      <title>Andes: From Aconcagua to Ice-Crowned Volcanoes</title>
+      <text>Earth’s longest mountain chain stacks 7 000 km of summits where condors soar above glaciers and smoking cones.</text>
+      <images>
+        <image slot="1">
+          <caption>6 962 m Aconcagua in evening alpenglow</caption>
+          <searchPhrase>aconcagua summit cloud cap</searchPhrase>
+          <stockSearch recommendedQuery="aconcagua summit cloud cap">
+            <shutterstock>https://www.shutterstock.com/search/aconcagua%20summit%20cloud%20cap</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=aconcagua+summit+cloud+cap</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>World’s tallest active volcano venting steam</caption>
+          <searchPhrase>ojos del salado snow volcano fumarole</searchPhrase>
+          <stockSearch recommendedQuery="ojos del salado snow volcano fumarole">
+            <shutterstock>https://www.shutterstock.com/search/ojos%20del%20salado%20snow%20volcano%20fumarole</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=ojos+del+salado+snow+volcano+fumarole</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Andean condor riding up-drafts</caption>
+          <searchPhrase>andes condor over glaciers drone</searchPhrase>
+          <stockSearch recommendedQuery="andes condor over glaciers drone">
+            <shutterstock>https://www.shutterstock.com/search/andes%20condor%20over%20glaciers%20drone</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=andes+condor+over+glaciers+drone</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="2" active="true">
+      <title>River Sea: The Amazon’s Journey</title>
+      <text>A trickle in the Andes becomes the widest river on Earth, carrying a fifth of the planet’s freshwater to the Atlantic.</text>
+      <images>
+        <image slot="1">
+          <caption>Snowmelt at the Amazon’s tiny headwater</caption>
+          <searchPhrase>nevado misk’i fuente amazon source</searchPhrase>
+          <stockSearch recommendedQuery="Nevado Mismi source Amazon River Peru">
+            <shutterstock>https://www.shutterstock.com/search/Nevado%20Mismi%20source%20Amazon%20River%20Peru</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Nevado+Mismi+source+Amazon+River+Peru</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Dark Rio Negro merging with tan Solimões</caption>
+          <searchPhrase>amazon river aerial meeting of waters</searchPhrase>
+          <stockSearch recommendedQuery="amazon river aerial meeting of waters">
+            <shutterstock>https://www.shutterstock.com/search/amazon%20river%20aerial%20meeting%20of%20waters</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=amazon+river+aerial+meeting+of+waters</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Vast tidal mangroves at the river’s mouth</caption>
+          <searchPhrase>belem amazon delta mangroves dusk</searchPhrase>
+          <stockSearch recommendedQuery="belem amazon delta mangroves dusk">
+            <shutterstock>https://www.shutterstock.com/search/belem%20amazon%20delta%20mangroves%20dusk</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=belem+amazon+delta+mangroves+dusk</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="3" active="true">
+      <title>Desert of the Driest: Atacama</title>
+      <text>Some valleys haven’t felt rain for centuries—yet life clings to salt flats under flaming sunsets.</text>
+      <images>
+        <image slot="1">
+          <caption>Flamingos feeding on Salar de Atacama</caption>
+          <searchPhrase>atacama salt flat flamingo lagoon</searchPhrase>
+          <stockSearch recommendedQuery="atacama salt flat flamingo lagoon">
+            <shutterstock>https://www.shutterstock.com/search/atacama%20salt%20flat%20flamingo%20lagoon</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=atacama+salt+flat+flamingo+lagoon</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Crystal-clear sky studded with the Milky Way</caption>
+          <searchPhrase>very large telescope atacama milky way</searchPhrase>
+          <stockSearch recommendedQuery="Very Large Telescope Paranal Milky Way">
+            <shutterstock>https://www.shutterstock.com/search/Very%20Large%20Telescope%20Paranal%20Milky%20Way</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Very+Large+Telescope+Paranal+Milky+Way</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Iconic desert sculpture rising from sands</caption>
+          <searchPhrase>hand of the desert sculpture chile</searchPhrase>
+          <stockSearch recommendedQuery="hand of the desert sculpture chile">
+            <shutterstock>https://www.shutterstock.com/search/hand%20of%20the%20desert%20sculpture%20chile</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=hand+of+the+desert+sculpture+chile</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="4" active="true">
+      <title>Patagonia: Wind-Carved Ice &amp; Steppe</title>
+      <text>Roaring 50s wind sculpts glaciers, granite spires, and endless sheep-dotted steppe.</text>
+      <images>
+        <image slot="1">
+          <caption>Cerro Fitz Roy ignited by dawn light</caption>
+          <searchPhrase>fitz roy sunrise pink granite</searchPhrase>
+          <stockSearch recommendedQuery="fitz roy sunrise pink granite">
+            <shutterstock>https://www.shutterstock.com/search/fitz%20roy%20sunrise%20pink%20granite</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=fitz+roy+sunrise+pink+granite</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Ice wall booming into turquoise lake</caption>
+          <searchPhrase>perito moreno glacier calving</searchPhrase>
+          <stockSearch recommendedQuery="perito moreno glacier calving">
+            <shutterstock>https://www.shutterstock.com/search/perito%20moreno%20glacier%20calving</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=perito+moreno+glacier+calving</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Guanacos braced against Patagonian gusts</caption>
+          <searchPhrase>guanaco herd patagonia steppe wind</searchPhrase>
+          <stockSearch recommendedQuery="guanaco herd patagonia steppe wind">
+            <shutterstock>https://www.shutterstock.com/search/guanaco%20herd%20patagonia%20steppe%20wind</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=guanaco+herd+patagonia+steppe+wind</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="5" active="true">
+      <title>Lightning Capital: Lake Maracaibo</title>
+      <text>Nightly storms flash 200 times an hour where warm lake meets cool mountain air.</text>
+      <images>
+        <image slot="1">
+          <caption>Catatumbo lightning web over the lake</caption>
+          <searchPhrase>catatumbo lightning bolts lake maracaibo</searchPhrase>
+          <stockSearch recommendedQuery="catatumbo lightning bolts lake maracaibo">
+            <shutterstock>https://www.shutterstock.com/search/catatumbo%20lightning%20bolts%20lake%20maracaibo</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=catatumbo+lightning+bolts+lake+maracaibo</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Fishermen casting nets under strobe-light sky</caption>
+          <searchPhrase>fishermen canoe maracaibo night storm</searchPhrase>
+          <stockSearch recommendedQuery="Lake Maracaibo fishermen canoe lightning">
+            <shutterstock>https://www.shutterstock.com/search/Lake%20Maracaibo%20fishermen%20canoe%20lightning</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Lake+Maracaibo+fishermen+canoe+lightning</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="6" active="true">
+      <title>Altiplano: Life at 4 000 Metres</title>
+      <text>High-cold plateau hosts llamas, salt deserts, and the world’s highest capital.</text>
+      <images>
+        <image slot="1">
+          <caption>Uyuni’s wet-season mirror to the sky</caption>
+          <searchPhrase>salar de uyuni mirror reflection</searchPhrase>
+          <stockSearch recommendedQuery="salar de uyuni mirror reflection">
+            <shutterstock>https://www.shutterstock.com/search/salar%20de%20uyuni%20mirror%20reflection</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=salar+de+uyuni+mirror+reflection</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>La Paz spilling down Andean bowl</caption>
+          <searchPhrase>la paz city bowl snow illimani</searchPhrase>
+          <stockSearch recommendedQuery="la paz city bowl snow illimani">
+            <shutterstock>https://www.shutterstock.com/search/la%20paz%20city%20bowl%20snow%20illimani</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=la+paz+city+bowl+snow+illimani</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="3">
+          <caption>Alpacas grazing frosty puna grass</caption>
+          <searchPhrase>alpaca herd altiplano sunrise</searchPhrase>
+          <stockSearch recommendedQuery="alpaca herd altiplano sunrise">
+            <shutterstock>https://www.shutterstock.com/search/alpaca%20herd%20altiplano%20sunrise</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=alpaca+herd+altiplano+sunrise</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="7" active="true">
+      <title>Iguazu: Where Rivers Become Falls</title>
+      <text>275 cataracts thunder through subtropical jungle on the Argentina–Brazil border.</text>
+      <images>
+        <image slot="1">
+          <caption>Rainbows arcing in Devil’s Throat</caption>
+          <searchPhrase>iguazu devil’s throat aerial rainbow</searchPhrase>
+          <stockSearch recommendedQuery="iguazu devil's throat aerial rainbow">
+            <shutterstock>https://www.shutterstock.com/search/iguazu%20devil%27s%20throat%20aerial%20rainbow</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=iguazu+devil%27s+throat+aerial+rainbow</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Curious coatis along misty walkways</caption>
+          <searchPhrase>coatis iguazu rainforest trail</searchPhrase>
+          <stockSearch recommendedQuery="coatis iguazu rainforest trail">
+            <shutterstock>https://www.shutterstock.com/search/coatis%20iguazu%20rainforest%20trail</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=coatis+iguazu+rainforest+trail</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+    <story rank="8" active="true">
+      <title>Atlantic &amp; Pacific Storm Tracks: Cyclones &amp; Humboldt Fog</title>
+      <text>Cold Humboldt Current cools the Pacific coast while warm Atlantic waters brew South Atlantic cyclones.</text>
+      <images>
+        <image slot="1">
+          <caption>Fog bank rolling over coastal desert</caption>
+          <searchPhrase>stratocumulus deck over pacific chile humboldt</searchPhrase>
+          <stockSearch recommendedQuery="Humboldt fog Chile coast satellite">
+            <shutterstock>https://www.shutterstock.com/search/Humboldt%20fog%20Chile%20coast%20satellite</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=Humboldt+fog+Chile+coast+satellite</adobeStock>
+          </stockSearch>
+        </image>
+        <image slot="2">
+          <caption>Rare South Atlantic cyclone in satellite view</caption>
+          <searchPhrase>satellite south atlantic cyclone spiral</searchPhrase>
+          <stockSearch recommendedQuery="South Atlantic cyclone satellite spiral">
+            <shutterstock>https://www.shutterstock.com/search/South%20Atlantic%20cyclone%20satellite%20spiral</shutterstock>
+            <adobeStock>https://stock.adobe.com/search?k=South+Atlantic+cyclone+satellite+spiral</adobeStock>
+          </stockSearch>
+        </image>
+      </images>
+    </story>
+  </featuredStories>
+  <meta>
+    <generatedAt>2025-12-29T15:48:24.319440+00:00</generatedAt>
+    <sourceWorkbooks>
+      <workbook>Copy of Revisions for geophysical domain.xlsx</workbook>
+      <workbook>atlas_stock_links_shutterstock_adobe.xlsx</workbook>
+    </sourceWorkbooks>
+    <exclusions>
+      <exclusion>Elevation profile callouts are intentionally omitted from this export.</exclusion>
+    </exclusions>
+  </meta>
+</continentPoster>
+]]></payload_xml>
+</normalized_poster>

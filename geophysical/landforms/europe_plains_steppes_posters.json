@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/landforms/europe_plains_steppes_posters.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__landforms__europe__europe_plains_steppes_posters",
+    "derived_id": "geophysical__landforms__europe__europe_plains_steppes_posters",
+    "continent": "europe",
+    "domain": "geophysical",
+    "poster_family": "landforms",
+    "filename": "europe_plains_steppes_posters.json"
+  },
+  "tags": {
+    "continent": [
+      "europe"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "landforms"
+    ],
+    "flat": [
+      "continent:europe",
+      "domain:geophysical",
+      "poster_family:landforms"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/landforms/europe_plains_steppes_posters.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "poster_set_id": "europe_landforms_plains_steppes",
+    "continent": "Europe",
+    "topic": "Plains & Steppes (Eurasian Steppe focus)",
+    "posters": [
+      {
+        "poster_id": "europe_plains_poster1",
+        "title": "Europe’s Great Expanse: Where the Land Unfolds",
+        "layout": {
+          "size": "~8 ft wide x ~5 ft tall",
+          "format": "Two-column vertical split (Left Column / Right Column)"
+        },
+        "sections": [
+          {
+            "section_id": "P1_left_how_plains_form",
+            "position": "left",
+            "title": "From Mountains to Meadows: The Making of a Plain",
+            "text_outline": {
+              "primary_objective": "Explain three major processes that create plains: river flooding/sediment deposition, glacial retreat/deposits, and long-term erosion/weathering.",
+              "visual_concept": [
+                "Large vertical infographic broken into three horizontal bands: (1) river floodplain deposition, (2) glacial retreat smoothing/ depositing, (3) erosion/weathering flattening rugged terrain.",
+                "Use simple icons to code the processes: droplet (river), snowflake/ice (glacier), wind swirl (erosion)."
+              ],
+              "text_content": {
+                "title": "How Plains Form",
+                "lead_in": "Imagine Earth’s great sculptors: rivers, glaciers, and time. These ancient artists chisel, smooth, and lay down layer after layer—until the land stretches out flat. Over thousands of years, rugged terrain becomes the cradle of civilizations.",
+                "infographic_captions": {
+                  "Floodplain Zone": "When rivers flood, they leave behind a gift: rich, dark soil that makes plains bloom.",
+                  "Glacial Plain": "As glaciers melt and retreat, they scrape valleys smooth and scatter fertile ground in their wake.",
+                  "Erosional Plain": "Even mountains, given time, bow to the power of wind and rain. What’s left is a land quieted into plains."
+                }
+              },
+              "did_you_know": [
+                "The Danube River’s floodplains recharge European farmland with fresh nutrients every single year.",
+                "Glacial retreat carved out Europe’s Lowlands, now home to millions.",
+                "Some plains, like India’s Deccan Plateau, were once highlands—eroded over eons into flatlands."
+              ],
+              "infographic_labels": {
+                "river_layer": "Sediment Build-Up",
+                "glacier_layer": "Retreating Glacier, Leaving Rich Soil",
+                "erosion_layer": "Erosion Over Time: Mountains Become Meadows"
+              }
+            },
+            "assets": [
+              {
+                "poster": "P1",
+                "section": "From Mountains to Meadows: The Making of a Plain",
+                "role": "infographic_floodplain_primary",
+                "sheet": "How () Forms",
+                "cell": "A3",
+                "label": "Floodplain / river deposition (primary)",
+                "url": "https://cdn.midjourney.com/d3ca3e14-68e0-4707-b03e-b30ab9fa48b1/0_3.png",
+                "notes": {
+                  "prompt_or_description": "A photorealistic cross-sectional view of a meandering river overflowing its banks, depositing rich sediments onto a fertile floodplain. Lush vegetation thrives on the nutrient-rich soil. Captured in the expansive, cinematic style reminiscent of Peter Jackson's landscapes. --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "From Mountains to Meadows: The Making of a Plain",
+                "role": "infographic_floodplain_alternate",
+                "sheet": "How () Forms",
+                "cell": "A4",
+                "label": "Floodplain / river deposition (alternate)",
+                "url": "https://cdn.midjourney.com/d3ca3e14-68e0-4707-b03e-b30ab9fa48b1/0_1.png",
+                "notes": {
+                  "prompt_or_description": "A photorealistic cross-sectional view of a meandering river overflowing its banks, depositing rich sediments onto a fertile floodplain. Lush vegetation thrives on the nutrient-rich soil. Captured in the expansive, cinematic style reminiscent of Peter Jackson's landscapes. --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "From Mountains to Meadows: The Making of a Plain",
+                "role": "infographic_glacial_primary",
+                "sheet": "How () Forms",
+                "cell": "F3",
+                "label": "Glacial retreat / deposits (primary)",
+                "url": "https://cdn.midjourney.com/a5d571eb-eb49-44ac-a3ee-572065a211d1/0_1.png",
+                "notes": {
+                  "prompt_or_description": "A photorealistic cross-section illustrating a glacier in the process of retreat, leaving behind stratified layers of till and outwash plains. The foreground shows newly exposed land with emerging plant life. Rendered with the sweeping grandeur characteristic of Peter Jackson's 'Lord of the Rings' cinematography. --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "From Mountains to Meadows: The Making of a Plain",
+                "role": "infographic_erosional_primary",
+                "sheet": "How () Forms",
+                "cell": "K3",
+                "label": "Erosion & weathering (primary)",
+                "url": "https://cdn.midjourney.com/af4b3be0-3dca-4ecd-94ce-6ec7e49b93c2/0_1.png",
+                "notes": {
+                  "prompt_or_description": "A photorealistic cross-sectional scene depicting rugged mountains gradually worn down by erosion and weathering, transforming into rolling hills and eventually a flat plain. The image captures the passage of geological time, evoking the epic scope of Peter Jackson's Lord of the Rings Trilogy. --chaos 5 --ar 16:9 --quality 2 --style raw --stylize 50 --v 6.1"
+                }
+              }
+            ]
+          },
+          {
+            "section_id": "P1_right_global_overview",
+            "position": "right",
+            "title": "Plains Across the Planet",
+            "text_outline": {
+              "primary_objective": "Place European plains (especially the Eurasian Steppe) in global context by showing major plains on a world map and highlighting a few iconic examples.",
+              "visual_concept": [
+                "World map highlighting major plains; use a simple color legend: floodplain plains (soft green), glacial plains (pale blue‑green), erosional plains (warm gold).",
+                "Four circular photo callouts around the map: Eurasian Steppe, Pampas, Serengeti Plains, Great Plains."
+              ],
+              "text_content": {
+                "map_caption": "From the windswept steppes of Eurasia to the golden wheat fields of North America, plains are nature’s open invitations—supporting farms, herds, and entire cultures.",
+                "callout_captions": {
+                  "Eurasian Steppe (Europe/Asia)": "5,000 miles of unbroken grassland—once a highway for ancient empires.",
+                  "Pampas (Argentina)": "Rolling fields of grass where gauchos ride and cattle roam.",
+                  "Serengeti Plains (Africa)": "Where zebra and wildebeest follow the rhythm of rain.",
+                  "Great Plains (North America)": "An ocean of prairie—golden, fertile, and windblown."
+                }
+              },
+              "did_you_know": [
+                "Plains cover nearly 40% of the Earth’s land surface.",
+                "The Eurasian Steppe once connected the Roman Empire to China via the Silk Road.",
+                "Many of the world’s great breadbaskets—from Ukraine to Kansas—lie on plains."
+              ],
+              "data_tables": {
+                "plain_type_examples": [
+                  {
+                    "plain_type": "Erosional",
+                    "major_plains": "Great Plains, East European Plain, West Siberian Plain, Eurasian Steppe",
+                    "regions_or_countries": "North America, Europe, Russia, Euro-Asia"
+                  },
+                  {
+                    "plain_type": "Glacial",
+                    "major_plains": "Canadian Prairies, Central Lowlands, Scandinavian Plain",
+                    "regions_or_countries": "Canada, USA, Scandinavia"
+                  },
+                  {
+                    "plain_type": "Floodplain",
+                    "major_plains": "Indo-Gangetic Plain, Nile Delta, Mississippi Delta",
+                    "regions_or_countries": "South Asia, Africa, USA"
+                  }
+                ]
+              }
+            },
+            "assets": [
+              {
+                "poster": "P1",
+                "section": "Plains Across the Planet",
+                "role": "world_map_reference",
+                "sheet": "General Overview",
+                "cell": "A3",
+                "label": "Reference map for plains/steppe",
+                "url": "https://cdn.britannica.com/89/106989-050-60709349/regions-areas-savanna-prairie-steppe.jpg",
+                "notes": {
+                  "usage_note": "Use as reference to draw / stylize the final world map",
+                  "comment": "@david@volumeinteractive.com  added this\n\t-Bennett Little"
+                }
+              },
+              {
+                "poster": "P1",
+                "section": "Plains Across the Planet",
+                "role": "callout_photo_eurasian_steppe",
+                "sheet": "General Overview",
+                "cell": "B19",
+                "label": "Eurasian Steppe (Europe/Asia)",
+                "url": "https://thumbs.dreamstime.com/z/wild-horses-herd-mongolian-steppe-177016738.jpg?ct=jpeg",
+                "notes": null
+              },
+              {
+                "poster": "P1",
+                "section": "Plains Across the Planet",
+                "role": "callout_photo_pampas",
+                "sheet": "General Overview",
+                "cell": "B20",
+                "label": "Pampas (Argentina)",
+                "url": "https://media.istockphoto.com/id/1162190048/photo/cattle-in-natural-pastures-of-the-argentine-pampa.jpg?s=1024x1024&w=is&k=20&c=A5mLf5hpDcxbZ-n9fh49OsqZu52sb1pERfAFioTHSUM=",
+                "notes": null
+              },
+              {
+                "poster": "P1",
+                "section": "Plains Across the Planet",
+                "role": "callout_photo_serengeti",
+                "sheet": "General Overview",
+                "cell": "B22",
+                "label": "Serengeti Plains (Africa)",
+                "url": "https://www.dreamstime.com/stock-photography-zebras-wildebeest-grazing-serengeti-plains-image19273392",
+                "notes": null
+              },
+              {
+                "poster": "P1",
+                "section": "Plains Across the Planet",
+                "role": "callout_photo_great_plains",
+                "sheet": "General Overview",
+                "cell": "B21",
+                "label": "Great Plains (North America)",
+                "url": "https://npr.brightspotcdn.com/dims4/default/e185c6b/2147483647/strip/true/crop/800x493+0+21/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkansaspublicradio.org%2Ffiles%2Ffield%2Fimage%2Fwheat-field.jpg",
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "poster_id": "europe_steppe_poster2",
+        "title": "The Steppe: The Grassland That Carried History",
+        "layout": {
+          "size": "~8 ft wide x ~5 ft tall",
+          "format": "Two-column vertical split (Left Column / Right Column)"
+        },
+        "sections": [
+          {
+            "section_id": "P2_left_environmental_significance",
+            "position": "left",
+            "title": "A Highway of Hooves and Wings",
+            "text_outline": {
+              "primary_objective": "Show the Eurasian Steppe as a continent-spanning ecological corridor: grassland scale, seasonal movement, and the animals that depend on open country.",
+              "visual_concept": [
+                "Wide Eurasia map with the steppe belt highlighted; add arrows for migrations and seasonal movement.",
+                "Three circular wildlife photos (Saiga antelope, Steppe eagle, Wild horses) connected to the map with subtle leader lines.",
+                "Optional inset: saiga range/migration map + bird migration graphic as research reference for arrow directions."
+              ],
+              "text_content": {
+                "map_caption": "The Eurasian Steppe is more than grass—it’s a living highway. Saiga antelope migrate hundreds of miles. Eagles soar across continents. And ancient winds carry life from horizon to horizon.",
+                "wildlife_captions": {
+                  "Saiga Antelope": "With noses built to warm frigid air, saiga antelope are steppe survivors—and nomads by nature.",
+                  "Steppe Eagle": "Their wings span continents. Steppe eagles nest in Kazakhstan and winter in Africa.",
+                  "Wild Horses (e.g., Przewalski’s horses)": "The last truly wild horses still roam here, tracing the paths of their ancestors."
+                }
+              },
+              "did_you_know": [
+                "The Eurasian Steppe stretches from Hungary to Mongolia—a distance greater than the width of the Atlantic Ocean.",
+                "Some steppe birds migrate from Central Asia all the way to southern Africa each year.",
+                "The saiga’s nose acts like a built-in air filter and heater—a perfect steppe adaptation."
+              ]
+            },
+            "assets": [
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "steppe_map_base",
+                "sheet": "Ecological Significance",
+                "cell": "A1",
+                "label": "Eurasian steppe extent (base map)",
+                "url": "https://cdn.britannica.com/45/4445-050-4DACC152/Extent-Eurasian-steppes.jpg",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "saiga_distribution_reference",
+                "sheet": "Ecological Significance",
+                "cell": "A2",
+                "label": "Saiga distribution/migration reference",
+                "url": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2017/02/27114833/Saiga-distribution.-Map-courtesy-of-Steffen-Zuther.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "bird_migration_reference",
+                "sheet": "Ecological Significance",
+                "cell": "A3",
+                "label": "Bird migration reference (for arrows)",
+                "url": "https://www.arabnews.com/sites/default/files/userimages/1347/migration.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "steppe_bird_research_figure_reference",
+                "sheet": "Ecological Significance",
+                "cell": "A4",
+                "label": "Research figure reference (adapt right panel)",
+                "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-019-51884-5/MediaObjects/41598_2019_51884_Fig1_HTML.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "wildlife_photo_wild_horses",
+                "sheet": "Ecological Significance",
+                "cell": "A9",
+                "label": "Wild horses photo",
+                "url": "https://thumbs.dreamstime.com/b/gorgeous-horse-foal-grazing-dried-steppe-central-asia-wild-horses-grazing-steppe-central-asia-130006608.jpg",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "wildlife_photo_saiga",
+                "sheet": "Ecological Significance",
+                "cell": "A10",
+                "label": "Saiga antelope photo",
+                "url": "https://thumbs.dreamstime.com/z/summer-landscape-view-herd-saiga-antelope-resting-steppe-grass-ukrainian-nature-reserve-askania-nova-kherson-oblast-287776574.jpg",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "A Highway of Hooves and Wings",
+                "role": "wildlife_photo_steppe_eagle",
+                "sheet": "Ecological Significance",
+                "cell": "A11",
+                "label": "Steppe eagle photo",
+                "url": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/543733221/1200",
+                "notes": null
+              }
+            ]
+          },
+          {
+            "section_id": "P2_right_human_geography",
+            "position": "right",
+            "title": "Riders, Traders, Farmers, Dreamers",
+            "text_outline": {
+              "primary_objective": "Tell the steppe’s human story as movement through time: burial mounds and nomads → trade routes → modern agriculture and energy.",
+              "visual_concept": [
+                "Vertical timeline with 4 nodes: Kurgan mounds → mounted nomads (Scythians/Mongols) → Silk Road caravans → modern wind turbines.",
+                "Each node has a photo/illustration tile with a short caption; icons can reinforce the timeline rhythm."
+              ],
+              "text_content": {
+                "timeline_caption": "The story of the steppe is one of movement—of people, ideas, and change. From ancient kurgans to the whir of modern turbines, it has never stood still.",
+                "photo_captions": {
+                  "Kurgan Burial Mound": "Long before the Silk Road, ancient people raised these mounds—some of Europe’s oldest monuments.",
+                  "Mounted Nomads (Scythians, Mongols)": "Warriors on horseback ruled this land for centuries, carrying messages and empires with them.",
+                  "Silk Road Traders": "Caravans loaded with silk, spices, and ideas crisscrossed these plains for thousands of years.",
+                  "Modern Wind Turbines": "Today, the steppe is catching a new kind of power—clean energy drawn from endless winds."
+                }
+              },
+              "did_you_know": [
+                "Wind turbines now spin on the same routes once used by Mongol horsemen.",
+                "The world’s oldest known wheeled carts come from steppe dwellers more than 5,000 years ago.",
+                "The Scythians were expert goldsmiths—burying dazzling treasures with their fallen."
+              ],
+              "optional_nodes": [
+                {
+                  "label": "Nomadic dwellings (yurts)",
+                  "note": "Useful as a supporting texture image if you want more human habitation context."
+                },
+                {
+                  "label": "Modern wheat harvest",
+                  "note": "Supports the ‘farmers’ node if you expand beyond turbines."
+                }
+              ]
+            },
+            "assets": [
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "timeline_node_kurgan",
+                "sheet": "Human Geography of",
+                "cell": "A4",
+                "label": "Kurgan / ancient mound (image link)",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%D0%9A%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D0%B4%D0%BE%D0%BB.png/330px-%D0%9A%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D0%B4%D0%BE%D0%BB.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "timeline_node_mounted_nomads_primary",
+                "sheet": "Human Geography of",
+                "cell": "A5",
+                "label": "Mounted nomads (primary)",
+                "url": "https://cdn.midjourney.com/ce7eaa18-ee80-435e-a374-318e5e2b17f2/0_3.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "timeline_node_mounted_nomads_alternate",
+                "sheet": "Human Geography of",
+                "cell": "B6",
+                "label": "Mounted nomads (alternate)",
+                "url": "https://cdn.midjourney.com/d45a6a01-89a3-4e65-91a4-454a6de0e081/0_0.png",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "timeline_node_silk_road",
+                "sheet": "Human Geography of",
+                "cell": "A6",
+                "label": "Silk Road traders / caravan reference",
+                "url": "https://commons.wikimedia.org/wiki/File:Caravane_sur_la_Route_de_la_soie_-_Atlas_catalan.jpg",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "timeline_node_wind_turbines",
+                "sheet": "Human Geography of",
+                "cell": "A10",
+                "label": "Modern wind turbines",
+                "url": "https://daviscenter.fas.harvard.edu/sites/default/files/styles/interior_hero_image_small/public/2022-12/shutterstock_2221991695.jpg?itok=rvdBxbzd",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "optional_support_yurt",
+                "sheet": "Human Geography of",
+                "cell": "A8",
+                "label": "Yurt (optional support image)",
+                "url": "https://c8.alamy.com/comp/EHY7ET/traditional-yurts-of-nomadic-tribes-on-green-grasslands-in-kyrgyzstan-EHY7ET.jpg",
+                "notes": null
+              },
+              {
+                "poster": "P2",
+                "section": "Riders, Traders, Farmers, Dreamers",
+                "role": "optional_support_tractor_harvest",
+                "sheet": "Human Geography of",
+                "cell": "A9",
+                "label": "Modern wheat harvest (optional support image)",
+                "url": "https://c8.alamy.com/comp/2F7KY38/tractor-loads-stacks-of-hay-into-a-zil-truck-on-a-farm-field-in-the-almaty-region-of-kazakhstan-harvesting-time-copy-space-2F7KY38.jpg",
+                "notes": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "location": "Kaycliff Center at Boone Lake’s Atlas Trail (outdoors)",
+      "poster_size": "~8 ft wide x ~5 ft tall",
+      "layout": "Two-column vertical split (Left Column / Right Column)",
+      "visual_text_ratio": "~70% visuals / 30% text",
+      "reading_level": "~8th grade",
+      "color_palette": "Earthy tones (warm browns, greens, golden yellows) with sky blues",
+      "tone_reference": "Wonder + clarity; nature reverence and historical pathway emphasis"
+    },
+    "extraction_notes": {
+      "text_sources": [
+        {
+          "file": "Steppes text.docx",
+          "role": "Primary poster copy (titles, captions, did-you-know blocks)."
+        },
+        {
+          "file": "europe landforms 3.docx",
+          "role": "Design/layout notes + optional alternative phrasing and asset needs tables."
+        }
+      ],
+      "spreadsheet_source": {
+        "file": "Europe Landforms.xlsx",
+        "role": "Asset links + prompts (infographic art) + map/photo references."
+      },
+      "known_issues": []
+    }
+  }
+}

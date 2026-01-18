@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<normalized_poster>
+  <meta>
+    <normalized_at>2026-01-01T22:40:24Z</normalized_at>
+    <input_relpath>environmental/treasure biomes/europe__treasured-biomes.xml</input_relpath>
+    <version>1</version>
+  </meta>
+  <poster>
+    <poster_id>environmental__treasure_biomes__europe__europe_treasured_biomes</poster_id>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </poster>
+  <tags>
+    <continent>europe</continent>
+    <domain>environmental</domain>
+    <poster_family>treasure_biomes</poster_family>
+  </tags>
+  <payload_xml><![CDATA[<?xml version='1.0' encoding='utf-8'?>
+<treasuredBiomesPoster continent="Europe">
+  <title>Europe: Ancient Forests, Fjords, and Living Shores</title>
+  <biomes>
+    <biome>
+      <name>Svalbard Arctic Tundra</name>
+      <image url="https://www.pexels.com/photo/polar-bear-on-ice-219563/" />
+      <description>Svalbard’s tundra is a brief summer world of moss, flowers, and melting ice. Reindeer graze on green patches while glaciers and sea ice shape the coast of this high Arctic island chain.</description>
+    </biome>
+    <biome>
+      <name>Macaronesian Laurel Forests</name>
+      <image url="https://www.shutterstock.com/image-photo/twisted-laurel-trees-silhouettes-thick-fog-2693093077" />
+      <description>Macaronesian laurel forests cloak Atlantic islands in cool mist. These evergreen woods are ancient in feel, with mossy trees, wet air, and many species that survive in mild ocean climates.</description>
+    </biome>
+    <biome>
+      <name>Białowieża Forest</name>
+      <image url="https://www.shutterstock.com/image-photo/wilderness-forest-one-last-largest-remaining-2654125531" />
+      <description>Białowieża Forest is one of Europe’s last great lowland old‑growth forests. Ancient oaks and mixed woods provide habitat for bison, wolves, and woodpeckers in a living time capsule.</description>
+    </biome>
+    <biome>
+      <name>Norwegian Fjords</name>
+      <image url="https://www.pexels.com/photo/waterfalls-near-body-of-water-4379013/" />
+      <description>Norway’s fjords are deep sea inlets carved by glaciers. Steep cliffs, waterfalls, and quiet villages line these blue corridors where mountains drop straight into the ocean.</description>
+    </biome>
+    <biome>
+      <name>Plitvice Lakes</name>
+      <image url="https://www.pexels.com/photo/waterfalls-in-plitvice-lakes-240040/" />
+      <description>Plitvice Lakes are a chain of clear pools and waterfalls. Mineral-rich water builds natural dams, creating terraces of turquoise lakes linked by cascades through forest.</description>
+    </biome>
+    <biome>
+      <name>Wadden Sea</name>
+      <image url="https://www.shutterstock.com/image-photo/aerial-view-wadden-sea-intertidal-zone-1290353899" />
+      <description>The Wadden Sea is a vast tidal flat along the North Sea coast. Twice a day, the water pulls back to reveal mud and sand where millions of migrating birds refuel.</description>
+    </biome>
+    <biome>
+      <name>Camargue Wetlands</name>
+      <image url="https://www.pexels.com/photo/flamingos-in-the-middle-of-a-lake-6074934/" />
+      <description>The Camargue is a marshy river delta in southern France. Lagoons, reeds, and salt flats support flamingos, wild horses, and a mix of fresh and salty waters shaped by tides and floods.</description>
+    </biome>
+  </biomes>
+</treasuredBiomesPoster>]]></payload_xml>
+</normalized_poster>

@@ -1,0 +1,445 @@
+{
+  "meta": {
+    "normalized_at": "2026-01-01T22:40:24Z",
+    "version": 1,
+    "input_relpath": "geophysical/weathermaps/oceania.json",
+    "source_kind": "original_input"
+  },
+  "poster": {
+    "poster_id": "geophysical__weather_map__oceania__oceania",
+    "derived_id": "geophysical__weather_map__oceania__oceania",
+    "continent": "oceania",
+    "domain": "geophysical",
+    "poster_family": "weather_map",
+    "filename": "oceania.json"
+  },
+  "tags": {
+    "continent": [
+      "oceania"
+    ],
+    "domain": [
+      "geophysical"
+    ],
+    "poster_family": [
+      "weather_map"
+    ],
+    "flat": [
+      "continent:oceania",
+      "domain:geophysical",
+      "poster_family:weather_map"
+    ]
+  },
+  "layout": {},
+  "content": {
+    "blocks": [],
+    "notes": "Content not refactored in Phase 1; original preserved under payload."
+  },
+  "assets": [],
+  "sources": [
+    {
+      "kind": "original_input",
+      "path": "geophysical/weathermaps/oceania.json"
+    }
+  ],
+  "qa": {
+    "status": "pass",
+    "warnings": [],
+    "errors": []
+  },
+  "payload": {
+    "continent": "Oceania",
+    "posterTitle": "Oceania : Island Giants in a Boundless Blue",
+    "legend": {
+      "title": "Oceania’s Elemental Extremes",
+      "items": [
+        {
+          "key": "Extreme Heat",
+          "display": "Hottest Hotspots",
+          "rationale": "Evokes curiosity without jargon"
+        },
+        {
+          "key": "Extreme Cold",
+          "display": "Frozen Frontiers",
+          "rationale": "Alliterative & vivid"
+        },
+        {
+          "key": "High Humidity & Rainfall",
+          "display": "Rain-Soaked Jungles",
+          "rationale": "Instantly signals tropical downpours"
+        },
+        {
+          "key": "Low Humidity & Arid Conditions",
+          "display": "Bone-Dry Deserts",
+          "rationale": "Conversational; pairs with desert icon"
+        },
+        {
+          "key": "Elevation-Related Climate",
+          "display": "Sky-High Climates",
+          "rationale": "Kids grasp “sky-high = mountaintop”"
+        },
+        {
+          "key": "Wind Extremes",
+          "display": "Howling Wind Zones",
+          "rationale": "Adds sensory cue (sound)"
+        },
+        {
+          "key": "Volcanic & Seismic Activity",
+          "display": "Volcano-Quake Lands",
+          "rationale": "Merges two ideas into one punchy phrase"
+        },
+        {
+          "key": "Flooding / Rainfall Extremes",
+          "display": "Deluge Hotspot",
+          "rationale": "Mirrors ecological term & is memorable"
+        },
+        {
+          "key": "Daylight Extremes",
+          "display": "Sunlight Swings",
+          "rationale": "Works for polar light or long summers"
+        },
+        {
+          "key": "Desertification & Dust Storms",
+          "display": "Duststorm Alley",
+          "rationale": "Visual and action-oriented"
+        },
+        {
+          "key": "Temperature Range Extremes",
+          "display": "Wild Temperature Swings",
+          "rationale": "Explains day-night whiplash clearly"
+        }
+      ]
+    },
+    "usVsContinent": {
+      "header": "Oceania vs. USA — Islands Outsize Expectations",
+      "prompt": "“Dot the U.S. on top of the Pacific and discover how scattered islands add up to a continent in their own right.”",
+      "image": {
+        "url": "sandbox:/mnt/data/usa_vs_oceania.png",
+        "license": "CC0 (generated graphic)",
+        "source": {
+          "dataset": "Natural Earth 'Admin 0 – Countries' (public domain)",
+          "projection": "Mollweide (equal-area)",
+          "usaOutline": "Contiguous United States (largest polygon from Natural Earth 'United States of America' feature)",
+          "notes": "Graphic generated from public-domain vector data; no third-party map tiles."
+        }
+      }
+    },
+    "featuredStories": [
+      {
+        "title": "Oceania: Island Giants in a Boundless Blue",
+        "text": "From Australia’s red heart to Papua’s cloud-piercing peaks, Oceania is a continent of island mountains adrift in an ocean twice the size of the Atlantic.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Carstensz Pyramid’s equatorial ice cap",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Carstensz Pyramid Puncak Jaya glacier aerial",
+              "shutterstock": "https://www.shutterstock.com/search/Carstensz%20Pyramid%20Puncak%20Jaya%20glacier%20aerial",
+              "adobeStock": "https://stock.adobe.com/search?k=Carstensz+Pyramid+Puncak+Jaya+glacier+aerial"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Reef shallows fading into cobalt deep",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Great Barrier Reef lagoon aerial turquoise cobalt",
+              "shutterstock": "https://www.shutterstock.com/search/Great%20Barrier%20Reef%20lagoon%20aerial%20turquoise%20cobalt",
+              "adobeStock": "https://stock.adobe.com/search?k=Great+Barrier+Reef+lagoon+aerial+turquoise+cobalt"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Monolith glowing under desert storm",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Uluru storm sunset lightning",
+              "shutterstock": "https://www.shutterstock.com/search/Uluru%20storm%20sunset%20lightning",
+              "adobeStock": "https://stock.adobe.com/search?k=Uluru+storm+sunset+lightning"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 1
+      },
+      {
+        "title": "Sand & Silence: Australia’s Great Deserts",
+        "text": "Two-thirds of Australia is desert or semi-arid—landscapes of rolling dunes, salt pans, and elusive water.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Wind-sculpted dunes under soft dawn light",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Simpson Desert dunes sunrise",
+              "shutterstock": "https://www.shutterstock.com/search/Simpson%20Desert%20dunes%20sunrise",
+              "adobeStock": "https://stock.adobe.com/search?k=Simpson+Desert+dunes+sunrise"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Lowest point in Oceania shimmering white",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Lake Eyre salt lake aerial white",
+              "shutterstock": "https://www.shutterstock.com/search/Lake%20Eyre%20salt%20lake%20aerial%20white",
+              "adobeStock": "https://stock.adobe.com/search?k=Lake+Eyre+salt+lake+aerial+white"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Adaptation in a water-starved world",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "thorny devil lizard close up Australia desert",
+              "shutterstock": "https://www.shutterstock.com/search/thorny%20devil%20lizard%20close%20up%20Australia%20desert",
+              "adobeStock": "https://stock.adobe.com/search?k=thorny+devil+lizard+close+up+Australia+desert"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 2
+      },
+      {
+        "title": "Fire Mountains of the Pacific Ring",
+        "text": "Active volcanoes stitch a fiery necklace from PNG to NZ, fertilising soils—and testing courage.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Krakatau’s incandescent plume",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Anak Krakatau eruption night lava",
+              "shutterstock": "https://www.shutterstock.com/search/Anak%20Krakatau%20eruption%20night%20lava",
+              "adobeStock": "https://stock.adobe.com/search?k=Anak+Krakatau+eruption+night+lava"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Snow-tipped stratovolcano mirrored in lake",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mount Taranaki Pouakai tarn reflection",
+              "shutterstock": "https://www.shutterstock.com/search/Mount%20Taranaki%20Pouakai%20tarn%20reflection",
+              "adobeStock": "https://stock.adobe.com/search?k=Mount+Taranaki+Pouakai+tarn+reflection"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Rich crops on fresh ash slopes",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Papua New Guinea volcanic soil garden",
+              "shutterstock": "https://www.shutterstock.com/search/Papua%20New%20Guinea%20volcanic%20soil%20garden",
+              "adobeStock": "https://stock.adobe.com/search?k=Papua+New+Guinea+volcanic+soil+garden"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 3
+      },
+      {
+        "title": "Cyclone Corridor: Storms of the Coral Sea",
+        "text": "Tropical cyclones roar across the Coral & Tasman Seas, reshaping coasts and communities.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Eye wall of a Category 5 storm from orbit",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "satellite cyclone Coral Sea eye",
+              "shutterstock": "https://www.shutterstock.com/search/satellite%20cyclone%20Coral%20Sea%20eye",
+              "adobeStock": "https://stock.adobe.com/search?k=satellite+cyclone+Coral+Sea+eye"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Wall of water racing inland",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Queensland storm surge waves seawall flooding",
+              "shutterstock": "https://www.shutterstock.com/search/Queensland%20storm%20surge%20waves%20seawall%20flooding",
+              "adobeStock": "https://stock.adobe.com/search?k=Queensland+storm+surge+waves+seawall+flooding"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Community resilience in the tropics",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "cyclone recovery rebuilding Queensland community",
+              "shutterstock": "https://www.shutterstock.com/search/cyclone%20recovery%20rebuilding%20Queensland%20community",
+              "adobeStock": "https://stock.adobe.com/search?k=cyclone+recovery+rebuilding+Queensland+community"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 4
+      },
+      {
+        "title": "The Long Dry: Drought & Flood on the Murray-Darling",
+        "text": "Australia swings between baked riverbeds and sudden inland seas.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Parched clay polygons under 45 °C heat",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "drought cracked clay polygons Australia",
+              "shutterstock": "https://www.shutterstock.com/search/drought%20cracked%20clay%20polygons%20Australia",
+              "adobeStock": "https://stock.adobe.com/search?k=drought+cracked+clay+polygons+Australia"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Brown floodwater blanketing farms",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Murray Darling flood aerial brown water",
+              "shutterstock": "https://www.shutterstock.com/search/Murray%20Darling%20flood%20aerial%20brown%20water",
+              "adobeStock": "https://stock.adobe.com/search?k=Murray+Darling+flood+aerial+brown+water"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Life explodes when water finally returns",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "pelicans Lake Eyre flooded breeding",
+              "shutterstock": "https://www.shutterstock.com/search/pelicans%20Lake%20Eyre%20flooded%20breeding",
+              "adobeStock": "https://stock.adobe.com/search?k=pelicans+Lake+Eyre+flooded+breeding"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 5
+      },
+      {
+        "title": "Paradise & Peril: Coral Reefs under Pressure",
+        "text": "Oceania guards the planet’s largest reef—but warming seas test its brilliance.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Whitening corals after heat stress",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "bleached coral Great Barrier Reef close up",
+              "shutterstock": "https://www.shutterstock.com/search/bleached%20coral%20Great%20Barrier%20Reef%20close%20up",
+              "adobeStock": "https://stock.adobe.com/search?k=bleached+coral+Great+Barrier+Reef+close+up"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Patches of vibrant recovery",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "healthy coral reef recovery Great Barrier Reef",
+              "shutterstock": "https://www.shutterstock.com/search/healthy%20coral%20reef%20recovery%20Great%20Barrier%20Reef",
+              "adobeStock": "https://stock.adobe.com/search?k=healthy+coral+reef+recovery+Great+Barrier+Reef"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Traditional custodians protecting sea country",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Indigenous sea rangers Great Barrier Reef patrol boat",
+              "shutterstock": "https://www.shutterstock.com/search/Indigenous%20sea%20rangers%20Great%20Barrier%20Reef%20patrol%20boat",
+              "adobeStock": "https://stock.adobe.com/search?k=Indigenous+sea+rangers+Great+Barrier+Reef+patrol+boat"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 6
+      },
+      {
+        "title": "Peaks of Papua: Cloud Forests & Hidden Glaciers",
+        "text": "Nowhere else in the tropics rises so high so fast as Papua New Guinea’s spine.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "First light on PNG’s tallest summit",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Mount Wilhelm sunrise sea of clouds",
+              "shutterstock": "https://www.shutterstock.com/search/Mount%20Wilhelm%20sunrise%20sea%20of%20clouds",
+              "adobeStock": "https://stock.adobe.com/search?k=Mount+Wilhelm+sunrise+sea+of+clouds"
+            }
+          },
+          {
+            "slot": 2,
+            "caption": "Rich biodiversity below the peaks",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Papua New Guinea cloud forest orchid moss",
+              "shutterstock": "https://www.shutterstock.com/search/Papua%20New%20Guinea%20cloud%20forest%20orchid%20moss",
+              "adobeStock": "https://stock.adobe.com/search?k=Papua+New+Guinea+cloud+forest+orchid+moss"
+            }
+          },
+          {
+            "slot": 3,
+            "caption": "Vanishing ice of Puncak Jaya",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Puncak Jaya glacier retreat satellite",
+              "shutterstock": "https://www.shutterstock.com/search/Puncak%20Jaya%20glacier%20retreat%20satellite",
+              "adobeStock": "https://stock.adobe.com/search?k=Puncak+Jaya+glacier+retreat+satellite"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 7
+      },
+      {
+        "title": "Roaring Forties: Wind & Wave of the Southern Ocean",
+        "text": "The planet’s strongest westerlies lash Tasmania and NZ’s South Island.",
+        "images": [
+          {
+            "slot": 1,
+            "caption": "Southern Ocean swell dwarfing lighthouse",
+            "primaryUrl": null,
+            "searchPhrase": null,
+            "stockSearch": {
+              "recommendedQuery": "Cape Grim lighthouse big waves Tasmania",
+              "shutterstock": "https://www.shutterstock.com/search/Cape%20Grim%20lighthouse%20big%20waves%20Tasmania",
+              "adobeStock": "https://stock.adobe.com/search?k=Cape+Grim+lighthouse+big+waves+Tasmania"
+            }
+          }
+        ],
+        "active": true,
+        "rank": 8
+      }
+    ],
+    "meta": {
+      "generatedAt": "2025-12-29T15:48:24.319440+00:00",
+      "sourceWorkbooks": [
+        "Copy of Revisions for geophysical domain.xlsx",
+        "atlas_stock_links_shutterstock_adobe.xlsx"
+      ],
+      "exclusions": [
+        "Elevation profile callouts are intentionally omitted from this export."
+      ]
+    }
+  }
+}
